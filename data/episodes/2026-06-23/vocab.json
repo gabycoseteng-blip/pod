@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-23",
+  "cards": [
+    {
+      "id": "2026-06-23-zh-1",
+      "lang": "Mandarin",
+      "word": "谈判",
+      "pinyin": "tán pàn",
+      "pronunciation": "tahn pahn",
+      "tones": "2 (rising) · 4 (falling)",
+      "meaning": "negotiation; to negotiate",
+      "example": "两国正在进行谈判。",
+      "examplePinyin": "liǎng guó zhèng zài jìn xíng tán pàn",
+      "exampleMeaning": "The two countries are negotiating.",
+      "note": "Newsroom / boardroom register. For haggling over a price you'd reach for 讨价还价 (tǎo jià huán jià). Keep-it-handy chunk: 正在谈判 (zhèng zài tán pàn) — 'currently negotiating.'",
+      "tiesTo": "Iran de-escalation talks"
+    },
+    {
+      "id": "2026-06-23-zh-2",
+      "lang": "Mandarin",
+      "word": "电网",
+      "pinyin": "diàn wǎng",
+      "pronunciation": "dyen wahng",
+      "tones": "4 (falling) · 3 (dipping)",
+      "meaning": "power grid (lit. 'electric net')",
+      "example": "数据中心给电网带来很大压力。",
+      "examplePinyin": "shù jù zhōng xīn gěi diàn wǎng dài lái hěn dà yā lì",
+      "exampleMeaning": "Data centers put enormous pressure on the power grid.",
+      "note": "电 (diàn) = electricity — same 电 as 电脑 (diàn nǎo, 'electric brain' = computer). 网 (wǎng) = net/web, same 网 as the internet. Tone drill: 4th-tone falling 'pàn' vs 3rd-tone dipping 'wǎng' — that one contrast carries most beginner errors.",
+      "tiesTo": "AI data-center power demand"
+    },
+    {
+      "id": "2026-06-23-tl-1",
+      "lang": "Tagalog",
+      "word": "alimpuyo",
+      "pinyin": "",
+      "pronunciation": "ah-leem-POO-yoh",
+      "tones": "",
+      "meaning": "a whirl, vortex, or turbulent churning — of wind, water, or emotion",
+      "example": "Sa gitna ng alimpuyo ng merkado, kailangan ng malamig na ulo.",
+      "examplePinyin": "",
+      "exampleMeaning": "In the middle of the market's turbulence, keep a cool head.",
+      "note": "Native-speaker nuance: heavier and more literary than 'ipo-ipo' (the small, almost playful whirlwind in the yard). 'Alimpuyo' is forceful, churning — the word for a super typhoon's fury or a chaotic market session. Common pairings: alimpuyo ng hangin (whirlwind), alimpuyo ng damdamin (turmoil of emotion).",
+      "tiesTo": "Super Typhoon Francisco / the market tape"
+    },
+    {
+      "id": "2026-06-23-tl-2",
+      "lang": "Tagalog",
+      "word": "sapantaha",
+      "pinyin": "",
+      "pronunciation": "sah-pahn-TAH-hah",
+      "tones": "",
+      "meaning": "a conjecture; a reasoned supposition formed before the facts are in",
+      "example": "Sapantaha lang ito, ngunit malamang tama.",
+      "examplePinyin": "",
+      "exampleMeaning": "This is only a conjecture, but it's likely correct.",
+      "note": "Native-speaker nuance: dignified, unlike 'haka-haka,' which leans toward idle, unfounded speculation. 'Sapantaha' is a considered hypothesis — a thesis, not a rumor. One a hunch, the other a thesis: the sapantaha behind every rate-cut bet.",
+      "tiesTo": "rate-cut expectations / Fed setup"
+    }
+  ]
+}

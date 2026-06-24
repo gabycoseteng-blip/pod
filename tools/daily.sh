@@ -33,12 +33,19 @@ fi
 echo "→ building episode $date…"
 python3 tools/build_episode.py "$script" ${audio:+"$audio"} ${vocab:+"$vocab"}
 
-# 3. archive the script as plain text (the durable, greppable history)
-mkdir -p scripts
-cp "$script" "scripts/$date.md"
+# 3. make sure the script is committed as plain text (the durable, greppable
+#    history). If it already lives in the repo (e.g. routine/…), stage it in
+#    place; otherwise archive a copy under scripts/.
+script_abs="$(cd "$(dirname "$script")" && pwd)/$(basename "$script")"
+case "$script_abs" in
+  "$PWD"/*) git add "$script_abs" ;;
+  *) mkdir -p scripts; cp "$script" "scripts/$date.md"; git add "scripts/$date.md" ;;
+esac
 
-# 4. commit the text + deploy
-git add scripts data
+# 4. commit the text (+ routine working files) and deploy. Audio is never
+#    committed in R2 mode — only data/ JSON and the script change.
+git add data
+[ -d routine ] && git add routine
 if git diff --cached --quiet; then
   echo "nothing changed for $date — skipping commit"; exit 0
 fi

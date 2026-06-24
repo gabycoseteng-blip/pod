@@ -20,7 +20,10 @@ python3 -m http.server 8000     # then open http://localhost:8000
 - **GitHub Pages:** push this repo, then Settings → Pages → deploy from `main` / root. `.nojekyll` is already included. Open the Pages URL on your phone → Share → Add to Home Screen.
 - **Vercel:** import the repo (framework preset: *Other*; output dir: root). `vercel.json` is included.
 
-## How the daily routine adds an episode
+## The daily routine
+Each morning a scheduled **Claude routine** (Claude Code on the web → [Routines](https://claude.ai/code/routines)) runs the `/morning-commute` command (`.claude/commands/morning-commute.md`): it researches the day, writes the two-host script + `vocab.json`, renders audio with `routine/render_gemini.py` (Gemini multi-speaker TTS), and publishes with `tools/daily.sh`. The generation toolchain and editorial rules live in [`routine/`](routine/README.md); set a **Daily, 6:00 AM** schedule trigger on the routine and give its environment the R2 vars + `GEMINI_API_KEY`, with *Allow unrestricted branch pushes* so it can deploy to `main`.
+
+## How an episode gets published
 After the routine writes the day's script (named `…-YYYY-MM-DD.md`), renders audio, and emits `vocab.json`, one command publishes it:
 
 ```bash

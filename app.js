@@ -301,6 +301,7 @@ function renderVocab() {
           <span class="lang-tag pill">${card.lang}</span>
           <div class="word">${card.word}</div>
           <div class="roman">${card.pinyin || card.pronunciation || ''}</div>
+          ${card.lang === 'Mandarin' && card.tones ? `<div class="tones">${card.tones}</div>` : ''}
           <div class="tap-hint">tap to flip
             <button class="speak" id="speak">🔊 say it</button></div>
         </div>

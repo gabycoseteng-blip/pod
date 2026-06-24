@@ -69,20 +69,24 @@ relies on:
   ~21,000, trim wording. Do this **before** step 4 so you don't render a bad length.
 - Hosts announce each segment; no run-of-show in the cold open; the meme segment
   **reports** the meme (no performed bit); close on One Good Thing.
-- VOCAB OF THE DAY is enrichment for a **proficient** listener, not a 101: 2
-  Mandarin then 2 Tagalog, each tied to a story in today's show. Say each word
-  clearly with correct tones, but **do not drill or explain tone numbers** or
-  spell out pronunciation — assume Mandarin fluency. Spend the time on usage,
-  register, collocations, and contrast with near-synonyms (same depth for both
-  languages).
+- VOCAB OF THE DAY is enrichment for an advanced listener, not a 101: 2 Mandarin
+  then 2 Tagalog, each tied to a story in today's show. Say each word clearly with
+  correct tones, but **do not drill or explain tone numbers** or spell out
+  pronunciation. Spend the time on usage, register, collocation, and near-synonym
+  contrast. For **Mandarin**, follow the **HSK 4 calibration** in
+  `routine/notebooklm-steering-prompt.md`: pick HSK-4-level items targeting the
+  listener's weak spots (advanced connectives, abstract pairings, formal/informal
+  register), with at least one of the two being a connective or abstract
+  collocation — not a concrete noun.
 
 ## 3. Write vocab → `routine/vocab-$date.json`
 Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`;
-Tagalog leaves `pinyin`/`tones` empty, and you may leave `tones` empty for
-Mandarin too (the app shows pinyin, not tone drills). Ids `"$date-zh-1/2"`,
-`"$date-tl-1/2"`; write `note` on usage / register / collocation / near-synonym
-contrast — **no tone-drill explanations**, assume Mandarin proficiency;
-`tiesTo` the story. **The four words here
+Tagalog leaves `pinyin`/`tones` empty. For Mandarin, populate `tones` concisely
+(tone numbers, e.g. `"2 · 4"`) — the card displays them for reference; just don't
+drill them in the audio. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`; write `note` on
+register (书面语/formal vs. 口语/informal) / collocation / near-synonym contrast,
+calibrated to HSK 4 — **no tone-drill explanations**; `tiesTo` the story.
+**The four words here
 must be exactly the four taught in the VOCAB OF THE DAY segment** — same words,
 same order (2 Mandarin then 2 Tagalog) — so the flashcards match the audio.
 

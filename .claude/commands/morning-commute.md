@@ -92,7 +92,11 @@ python3 tools/render_gemini.py commute-$date.md audio.mp3
 tool or its API key is missing, stop and report — do not fabricate audio.
 
 ## 5. Publish (one command: upload → build → archive → commit → deploy)
+Make sure you're on the deploy branch (`main`) so the push goes live — do **not**
+create a side branch for this. The routine has unrestricted push enabled for the
+deploy; `tools/daily.sh` commits and pushes:
 ```bash
+git checkout main 2>/dev/null || true
 tools/daily.sh commute-$date.md audio.mp3 vocab.json
 ```
 

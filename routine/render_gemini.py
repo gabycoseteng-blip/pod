@@ -40,7 +40,7 @@ MODEL     = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE_ALEX = os.environ.get("VOICE_ALEX", "Sulafat")   # Host A, expert (female)
 VOICE_SAM  = os.environ.get("VOICE_SAM", "Charon")     # Host B, generalist (deep male)
 ACCENT     = os.environ.get("ACCENT", "British English")
-CHUNK_CHARS = int(os.environ.get("CHUNK_CHARS", "7000"))   # ~8 min/chunk → ~5 calls, safely under 32k-token cap
+CHUNK_CHARS = int(os.environ.get("CHUNK_CHARS", "7000"))   # chars of dialogue per call. 7000 ≈ 14 min audio/call (3 calls for a ~37-min show); set 4000 for ~8 min/call (5 calls) to stay well under the per-call output cap.
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "30"))  # seconds between calls — paces free-tier RPM
 MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "4"))         # retries on 429 / 5xx with backoff
 

@@ -38,7 +38,12 @@ numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angl
 2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
 theme, Philippines weather + BSP + peso, art/pop, the trending meme, one good
 thing). Include `[bracketed pronunciation hints]` for any foreign words. Pick one
-throughline that connects the macro blocks. Never invent figures.
+throughline that connects the macro blocks.
+
+**Accuracy:** pull the actual prior-session closes/levels and movers from the FMP
+connector — never approximate index levels, prices, or yields from memory. If
+markets were closed (weekend or holiday), use the **last trading session** and say
+so in the script; do not invent a close for a day with no trading.
 
 ## 2. Write the script → `routine/commute-two-host-script-$date.md`
 Turn the brief into the spoken two-host script, following
@@ -47,18 +52,32 @@ matching the format of the 2026-06-23 example. Requirements `tools/build_episode
 relies on:
 - A `### <Weekday>, <Month> <D>, <YYYY>` title line, and a `## …` header per
   segment (only these are parsed; header-only segments with no turns are dropped).
-- Only `ALEX:` / `SAM:` lines are spoken. **Spell numbers as said aloud**
-  ("seventy-four seventy-three", "thirty-seven basis points", "twenty twenty-seven").
-- ~30–40 min at 1.5×; hosts announce each segment; no run-of-show in the cold open;
-  the meme segment **reports** the meme (no performed bit); close on One Good Thing.
+- **One line per turn:** every `ALEX:` / `SAM:` turn is a single line of plain
+  text — no markdown, no line breaks inside a turn (the parser and TTS both
+  require it). Only `ALEX:` / `SAM:` lines are spoken.
+- **Spell numbers as said aloud** ("seventy-four seventy-three", "thirty-seven
+  basis points", "twenty twenty-seven").
+- **Length target (this controls the duration):** write **~18,000–20,000
+  characters** of `ALEX:`/`SAM:` dialogue (≈ 3,000–3,400 words ≈ 35–40 min of
+  audio at ~8 chars per audio-second). The 2026-06-23 example is ~18.2k chars /
+  37 min — match that scale. Before rendering, count the dialogue characters:
+  ```bash
+  grep -hoE '^(ALEX|SAM):.*' routine/commute-two-host-script-$date.md | wc -c
+  ```
+  If under ~16,000, expand the substantive segments (Headlines, Energy,
+  Philippines, Vocab) with more real content — never pad or repeat; if over
+  ~21,000, trim wording. Do this **before** step 4 so you don't render a bad length.
+- Hosts announce each segment; no run-of-show in the cold open; the meme segment
+  **reports** the meme (no performed bit); close on One Good Thing.
 - VOCAB OF THE DAY is spoken teaching: 2 Mandarin (slow, say twice, drill tones)
   then 2 Tagalog (native-speaker nuance), each tied to a story in today's show.
 
 ## 3. Write vocab → `routine/vocab-$date.json`
-The same four words taught in the VOCAB segment, per the schema in the top-level
-README. `lang` is `Mandarin` or `Tagalog`; Tagalog leaves `pinyin`/`tones` empty.
-Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`; `note` from a register/nuance angle;
-`tiesTo` the story.
+Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`;
+Tagalog leaves `pinyin`/`tones` empty. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`;
+`note` from a register/nuance angle; `tiesTo` the story. **The four words here
+must be exactly the four taught in the VOCAB OF THE DAY segment** — same words,
+same order (2 Mandarin then 2 Tagalog) — so the flashcards match the audio.
 
 ## 4. Render audio → `commute-gemini-$date.mp3`
 ```bash
@@ -68,14 +87,22 @@ python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commut
 non-zero — missing `GEMINI_API_KEY`, missing ffmpeg, or a partial render — stop and
 report; do not publish silent or partial audio without flagging it.
 
-## 5. Publish (one command: upload → build → archive → commit → deploy)
+## 5. Build + commit (no push yet)
 ```bash
-tools/daily.sh routine/commute-two-host-script-$date.md commute-gemini-$date.mp3 routine/vocab-$date.json
+NO_PUSH=1 tools/daily.sh routine/commute-two-host-script-$date.md commute-gemini-$date.mp3 routine/vocab-$date.json
 ```
+This uploads audio to R2, builds the episode + index + search, and commits — but
+holds the push so the guardrail can gate the deploy.
 
-## 6. Verify and report
-Confirm `data/episodes/$date/episode.json` exists, `data/index.json` +
-`data/search.json` include `$date`, and (R2 mode) `episode.json`'s `audio` is the
-R2 URL — the repo grew by KBs, not tens of MB. Report in a few lines: the
-throughline, segment count, the four vocab words, audio duration, and that the
-deploy push landed.
+## 6. Guardrail check, then deploy
+Inspect `data/index.json` for `$date` — it should show **~12 segments** and
+**`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
+the duration is too short, or the audio is wrong, the episode is malformed: fix
+the script/vocab, re-run step 5, and only continue once it looks right. Also
+confirm (R2 mode) that `data/episodes/$date/episode.json`'s `audio` is the R2 URL
+— the repo should have grown by KBs, not tens of MB. When it all checks out:
+```bash
+git push
+```
+Then report in a few lines: the throughline, segment count, the four vocab words,
+the audio duration, and that the deploy push landed.

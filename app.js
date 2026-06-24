@@ -226,11 +226,11 @@ async function viewSearch() {
   q.oninput = run; q.focus();
 }
 
-// ================= VOCAB (flashcards + SRS) =================
+// ================= VOCAB (flashcards) =================
 async function buildDeck() {
   if (!INDEX) INDEX = await getJSON(`${DATA}index.json`);
   const cards = [];
-  for (const e of INDEX.episodes) {
+  for (const e of INDEX.episodes) {            // INDEX is newest-first → DECK is too
     if (!e.vocabCount) continue;
     try {
       const v = await getJSON(`${DATA}episodes/${e.date}/vocab.json`);
@@ -239,55 +239,68 @@ async function buildDeck() {
   }
   DECK = cards;
 }
-function dueCards(filter) {
+
+// 'all' = browse the whole archive (nothing hidden); 'due' = SRS review queue.
+function deckFor(scope, filter) {
   const t = todayDay();
-  return DECK.filter(c => filter === 'All' || c.lang === filter)
-    .map(c => ({ c, srs: S.srs[c.id] || { box: 0, due: 0 } }))
-    .filter(x => x.srs.due <= t)
-    .sort((a, b) => a.srs.due - b.srs.due);
+  let cards = DECK.filter(c => filter === 'All' || c.lang === filter);
+  if (scope === 'due') {
+    cards = cards.filter(c => (S.srs[c.id]?.due ?? 0) <= t)
+                 .sort((a, b) => (S.srs[a.id]?.due ?? 0) - (S.srs[b.id]?.due ?? 0));
+  }
+  return cards;
 }
-let vFilter = 'All', vQueue = [], vIdx = 0, vFlipped = false;
+
+let vScope = 'all', vFilter = 'All', vQueue = [], vIdx = 0, vFlipped = false;
+
+function rebuildQueue() {
+  vQueue = deckFor(vScope, vFilter);
+  if (vIdx >= vQueue.length) vIdx = 0;
+  vFlipped = false;
+}
 
 async function viewVocab() {
   const view = $('#view');
   $('#ep-sub').textContent = '';
   if (!DECK) { view.innerHTML = `<div class="empty">Loading vocab…</div>`; await buildDeck(); }
-  vQueue = dueCards(vFilter); vIdx = 0; vFlipped = false;
+  rebuildQueue();
   renderVocab();
 }
 
 function renderVocab() {
   const view = $('#view');
+  const scopes = [['all', 'All cards'], ['due', 'Due today']];
   const langs = ['All', 'Mandarin', 'Tagalog'];
   const head = `<div class="deckhead">
-      <div class="seg-filter">${langs.map(l =>
-        `<button class="${l === vFilter ? 'on' : ''}" data-l="${l}">${l}</button>`).join('')}</div>
+      <div class="seg-filter scope">${scopes.map(([k, l]) =>
+        `<button class="${k === vScope ? 'on' : ''}" data-s="${k}">${l}</button>`).join('')}</div>
       <span class="spacer"></span>
-      <span class="pill">${DECK.length} cards total</span>
+      <span class="pill">${vQueue.length}${vScope === 'due' ? ' due' : ''} / ${DECK.length}</span>
+    </div>
+    <div class="deckhead">
+      <div class="seg-filter lang">${langs.map(l =>
+        `<button class="${l === vFilter ? 'on' : ''}" data-l="${l}">${l}</button>`).join('')}</div>
     </div>`;
 
   if (!vQueue.length) {
-    view.innerHTML = head + `<div class="card empty">
-        ✓ All caught up on ${vFilter === 'All' ? 'every' : vFilter} card for today.<br><br>
-        <button class="iconbtn" id="practice">Practice anyway</button></div>`;
-    wireFilters();
-    const p = $('#practice'); if (p) p.onclick = () => {
-      vQueue = DECK.filter(c => vFilter === 'All' || c.lang === vFilter); vIdx = 0; vFlipped = false; renderVocab();
-    };
+    view.innerHTML = head + `<div class="card empty">${
+      vScope === 'due'
+        ? `✓ Nothing due right now. Switch to <b>All cards</b> to browse the whole deck.`
+        : `No vocab cards yet.`}</div>`;
+    wireDeckControls();
     return;
   }
 
-  const card = vQueue[vIdx].c;
-  const isZh = card.lang === 'Mandarin';
+  if (vIdx >= vQueue.length) vIdx = vQueue.length - 1;
+  const card = vQueue[vIdx];
   view.innerHTML = head + `
-    <div class="progress">${vIdx + 1} / ${vQueue.length} due${vFilter !== 'All' ? ' · ' + vFilter : ''}</div>
+    <div class="progress">${vIdx + 1} / ${vQueue.length}${vScope === 'due' ? ' due' : ''}${vFilter !== 'All' ? ' · ' + vFilter : ''} · ${card.date}</div>
     <div class="flash ${vFlipped ? 'flipped' : ''}" id="flash">
       <div class="inner">
         <div class="face front">
           <span class="lang-tag pill">${card.lang}</span>
           <div class="word">${card.word}</div>
           <div class="roman">${card.pinyin || card.pronunciation || ''}</div>
-          ${card.tones ? `<div class="tones">tones: ${card.tones}</div>` : `<div class="tones">${card.pronunciation || ''}</div>`}
           <div class="tap-hint">tap to flip
             <button class="speak" id="speak">🔊 say it</button></div>
         </div>
@@ -304,33 +317,46 @@ function renderVocab() {
         </div>
       </div>
     </div>
-    <div class="deck-actions">
+    <div class="deck-nav">
+      <button class="iconbtn" id="prev" ${vIdx === 0 ? 'disabled' : ''}>‹ Prev</button>
+      <button class="iconbtn" id="next" ${vIdx >= vQueue.length - 1 ? 'disabled' : ''}>Next ›</button>
+    </div>
+    ${vScope === 'due' ? `<div class="deck-actions">
       <button class="btn-review" id="again">Review again</button>
       <button class="btn-know" id="know">Got it</button>
-    </div>`;
+    </div>` : ``}`;
 
-  wireFilters();
+  wireDeckControls();
   $('#flash').onclick = e => { if (e.target.id === 'speak') return; vFlipped = !vFlipped; $('#flash').classList.toggle('flipped'); };
   const sp = $('#speak'); if (sp) sp.onclick = e => { e.stopPropagation(); speak(card); };
-  $('#again').onclick = () => grade(card, false);
-  $('#know').onclick = () => grade(card, true);
+  const go = d => { vIdx = Math.min(Math.max(vIdx + d, 0), vQueue.length - 1); vFlipped = false; renderVocab(); };
+  $('#prev').onclick = () => go(-1);
+  $('#next').onclick = () => go(1);
+  if (vScope === 'due') {
+    $('#again').onclick = () => grade(card, false);
+    $('#know').onclick = () => grade(card, true);
+  }
 }
 
-function wireFilters() {
-  $$('.seg-filter button').forEach(b => b.onclick = () => {
-    vFilter = b.dataset.l; vQueue = dueCards(vFilter); vIdx = 0; vFlipped = false; renderVocab();
+function wireDeckControls() {
+  $$('.seg-filter.scope button').forEach(b => b.onclick = () => {
+    vScope = b.dataset.s; vIdx = 0; rebuildQueue(); renderVocab();
+  });
+  $$('.seg-filter.lang button').forEach(b => b.onclick = () => {
+    vFilter = b.dataset.l; vIdx = 0; rebuildQueue(); renderVocab();
   });
 }
 
+// Records the SRS schedule for the next day but never removes the card from the
+// current session — you can keep flipping through everything you just reviewed.
 function grade(card, known) {
   const t = todayDay();
   const cur = S.srs[card.id] || { box: 0, due: 0 };
   const box = known ? Math.min(cur.box + 1, SRS_DAYS.length - 1) : 0;
   S.srs[card.id] = { box, due: t + SRS_DAYS[box] };
   saveState();
-  toast(known ? `Nice — back in ${SRS_DAYS[box]||0 ? SRS_DAYS[box] + 'd' : 'soon'}` : 'Queued to review');
-  vIdx++; vFlipped = false;
-  if (vIdx >= vQueue.length) viewVocab(); else renderVocab();
+  toast(known ? 'Got it' : 'Will resurface');
+  if (vIdx < vQueue.length - 1) { vIdx++; vFlipped = false; renderVocab(); }
 }
 
 function speak(card) {

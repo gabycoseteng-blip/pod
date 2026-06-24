@@ -69,13 +69,20 @@ relies on:
   ~21,000, trim wording. Do this **before** step 4 so you don't render a bad length.
 - Hosts announce each segment; no run-of-show in the cold open; the meme segment
   **reports** the meme (no performed bit); close on One Good Thing.
-- VOCAB OF THE DAY is spoken teaching: 2 Mandarin (slow, say twice, drill tones)
-  then 2 Tagalog (native-speaker nuance), each tied to a story in today's show.
+- VOCAB OF THE DAY is enrichment for a **proficient** listener, not a 101: 2
+  Mandarin then 2 Tagalog, each tied to a story in today's show. Say each word
+  clearly with correct tones, but **do not drill or explain tone numbers** or
+  spell out pronunciation — assume Mandarin fluency. Spend the time on usage,
+  register, collocations, and contrast with near-synonyms (same depth for both
+  languages).
 
 ## 3. Write vocab → `routine/vocab-$date.json`
 Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`;
-Tagalog leaves `pinyin`/`tones` empty. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`;
-`note` from a register/nuance angle; `tiesTo` the story. **The four words here
+Tagalog leaves `pinyin`/`tones` empty, and you may leave `tones` empty for
+Mandarin too (the app shows pinyin, not tone drills). Ids `"$date-zh-1/2"`,
+`"$date-tl-1/2"`; write `note` on usage / register / collocation / near-synonym
+contrast — **no tone-drill explanations**, assume Mandarin proficiency;
+`tiesTo` the story. **The four words here
 must be exactly the four taught in the VOCAB OF THE DAY segment** — same words,
 same order (2 Mandarin then 2 Tagalog) — so the flashcards match the audio.
 

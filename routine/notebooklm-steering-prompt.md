@@ -21,7 +21,7 @@ You are producing **"The Morning Commute,"** a daily ~30-minute, two-host news p
 - Cover every item in the brief. Do not drop segments to save time; trim wording instead.
 - Audience is fluent in markets and current events — no 101 explainers; lead with the number and the second-order read.
 - No run-of-show preview in the cold open — open straight into the first story.
-- **Pronunciation:** Whenever a foreign word appears, SAY IT using the [bracketed English pronunciation hint] in the brief. For Mandarin, respect the tones. The listener is actively learning Mandarin, so slow down slightly on the two Mandarin words, say each one twice, and give the meaning and example sentence clearly. The listener is a native Tagalog speaker, so treat the Tagalog words as enrichment — lean into nuance, connotation, and when you'd actually use them.
+- **Vocab:** The listener is proficient in Mandarin and a native Tagalog speaker, so treat both words as **enrichment, not a lesson** — no tone drilling, no spelled-out pronunciation, no 101 explanation. Say each word once with correct tones, then spend the time on nuance, register, collocations, and when you'd actually use it. Lead with the meaning and a natural example sentence tied to today's stories.
 - Finance/business items should sound like a finance desk (Bloomberg/WSJ/FT framing): lead with the number and the "why it matters."
 - Keep numbers, names, and tickers accurate to the brief.
 - End on a light, warm note.

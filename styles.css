@@ -136,3 +136,9 @@ a{color:var(--accent2)}
 .result{cursor:pointer}
 .result .snip{margin-top:4px;line-height:1.5}
 .result mark{background:rgba(232,138,46,.28);color:var(--text);border-radius:3px;padding:0 2px}
+
+/* vocab deck navigation */
+.deckhead + .deckhead{margin-top:6px}
+.deck-nav{display:flex;gap:10px;margin:12px 0 0}
+.deck-nav .iconbtn{flex:1}
+.iconbtn:disabled{opacity:.4;cursor:default}

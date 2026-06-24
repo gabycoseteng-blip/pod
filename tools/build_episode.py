@@ -151,25 +151,43 @@ def main():
 
 
 def rebuild_index():
-    eps = []
+    """Rebuild data/index.json (the archive list) and data/search.json (a flat,
+    client-searchable text doc per episode: transcript + vocab)."""
+    eps, search = [], []
     for d in sorted(os.listdir(EPDIR), reverse=True):
         ep_json = os.path.join(EPDIR, d, "episode.json")
         if not os.path.isfile(ep_json):
             continue
         e = json.load(open(ep_json))
         v = os.path.join(EPDIR, d, "vocab.json")
-        vcount = 0
+        cards = []
         if os.path.isfile(v):
-            try: vcount = len(json.load(open(v))["cards"])
-            except Exception: vcount = 0
+            try: cards = json.load(open(v))["cards"]
+            except Exception: cards = []
         eps.append({
             "date": e["date"], "title": e.get("title", e["date"]),
             "day": e.get("day", ""), "durationSec": e.get("durationSec", 0),
-            "hasAudio": bool(e.get("audio")), "vocabCount": vcount,
+            "hasAudio": bool(e.get("audio")), "vocabCount": len(cards),
             "segmentCount": len(e.get("segments", [])),
+        })
+        # one searchable text blob per episode: segment labels + every spoken
+        # turn + vocab words/meanings, so a substring search covers the archive.
+        parts = [e.get("title", "")]
+        for sg in e.get("segments", []):
+            parts.append(sg.get("label", ""))
+            parts += [t.get("text", "") for t in sg.get("turns", [])]
+        for c in cards:
+            parts += [c.get("word", ""), c.get("meaning", ""), c.get("tiesTo", "")]
+        search.append({
+            "date": e["date"], "title": e.get("title", e["date"]),
+            "day": e.get("day", ""),
+            "text": " ".join(p for p in parts if p),
         })
     json.dump({"title": "The Morning Commute", "episodes": eps},
               open(os.path.join(DATA, "index.json"), "w"),
+              ensure_ascii=False, indent=2)
+    json.dump({"docs": search},
+              open(os.path.join(DATA, "search.json"), "w"),
               ensure_ascii=False, indent=2)
 
 

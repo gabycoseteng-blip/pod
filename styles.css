@@ -124,3 +124,15 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;heigh
 .toast.show{opacity:1}
 .approx{font-size:11px;color:var(--muted);margin-left:6px}
 a{color:var(--accent2)}
+
+/* save-for-offline */
+.offline-row{display:flex;align-items:center;gap:10px;margin-top:10px}
+
+/* search */
+.searchbar{margin:0 0 12px}
+.searchbar input{width:100%;box-sizing:border-box;background:var(--panel2);border:1px solid var(--line);
+  color:var(--text);border-radius:12px;padding:12px 14px;font:inherit;font-size:15px}
+.searchbar input:focus{outline:none;border-color:var(--accent2)}
+.result{cursor:pointer}
+.result .snip{margin-top:4px;line-height:1.5}
+.result mark{background:rgba(232,138,46,.28);color:var(--text);border-radius:3px;padding:0 2px}

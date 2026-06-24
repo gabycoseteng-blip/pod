@@ -7,7 +7,8 @@ const SRS_DAYS = [0, 1, 3, 7, 21]; // Leitner box -> days until due
 
 const audio = new Audio();
 audio.preload = 'metadata';
-let INDEX = null, CUR = null, DECK = null;
+const AUDIO_CACHE = 'commute-runtime-v2';   // must match RUNTIME in sw.js
+let INDEX = null, CUR = null, DECK = null, SEARCH = null;
 
 // ---------- persisted state ----------
 const KEY = 'commute.v1';
@@ -35,7 +36,7 @@ function toast(msg) {
 function setTab(tab) {
   S.tab = tab; saveState();
   $$('.tabbar button').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
-  ({ listen: viewListen, vocab: viewVocab, archive: viewArchive }[tab])();
+  ({ listen: viewListen, vocab: viewVocab, search: viewSearch, archive: viewArchive }[tab])();
 }
 $$('.tabbar button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
 
@@ -76,6 +77,10 @@ async function viewListen() {
           </div>
           <div class="speeds" id="speeds"></div>
         </div>
+      </div>
+      <div class="offline-row">
+        <button class="iconbtn" id="saveoff">⤓ Save audio for offline</button>
+        <span class="muted small" id="saveoff-state"></span>
       </div>` : `<div class="muted small" style="margin-top:8px">Audio not available for this episode — script only.</div>`}
       <div class="chips" id="chips" style="margin-top:12px"></div>
       ${audioUrl ? `<div class="approx">Segment jumps are approximate (estimated from script length).</div>` : ``}
@@ -145,6 +150,8 @@ function setupPlayer(url, date) {
     $$('#chips .chip').forEach((el, i) => el.classList.toggle('on', i === act));
   };
 
+  wireSaveOffline(url);
+
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: CUR.title || 'The Morning Commute', artist: 'The Morning Commute',
@@ -155,6 +162,68 @@ function setupPlayer(url, date) {
     navigator.mediaSession.setActionHandler('seekbackward', () => audio.currentTime -= 15);
     navigator.mediaSession.setActionHandler('seekforward', () => audio.currentTime += 30);
   }
+}
+
+// Save the full MP3 into the cache so it plays with no signal. Cross-origin range
+// (206) responses can't be cached by the SW, so we fetch the whole file (200) once
+// here; the SW then serves it cache-first (see sw.js).
+async function wireSaveOffline(url) {
+  const btn = $('#saveoff'), state = $('#saveoff-state');
+  if (!btn || !('caches' in window)) { if (btn) btn.style.display = 'none'; return; }
+  const cache = await caches.open(AUDIO_CACHE);
+  const cached = await cache.match(url, { ignoreVary: true });
+  const done = () => { btn.style.display = 'none'; state.textContent = '✓ Saved for offline'; };
+  if (cached) { done(); return; }
+  btn.onclick = async () => {
+    btn.disabled = true; state.textContent = 'Saving…';
+    try {
+      const res = await fetch(url, { mode: 'cors' });
+      if (!res.ok) throw new Error(res.status);
+      await cache.put(url, res.clone());
+      done(); toast('Saved for offline');
+    } catch (e) {
+      btn.disabled = false; state.textContent = '';
+      toast('Could not save (check connection / CORS)');
+    }
+  };
+}
+
+// ================= SEARCH =================
+function snippet(text, q) {
+  const i = text.toLowerCase().indexOf(q.toLowerCase());
+  if (i < 0) return text.slice(0, 140) + '…';
+  const a = Math.max(0, i - 60), b = Math.min(text.length, i + q.length + 80);
+  const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  return (a > 0 ? '…' : '') + esc(text.slice(a, i)) +
+    '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' +
+    esc(text.slice(i + q.length, b)) + (b < text.length ? '…' : '');
+}
+
+async function viewSearch() {
+  const view = $('#view'); $('#ep-sub').textContent = '';
+  if (!SEARCH) { try { SEARCH = (await getJSON(`${DATA}search.json`)).docs; } catch { SEARCH = []; } }
+  view.innerHTML = `
+    <div class="searchbar"><input type="search" id="q" placeholder="Search every episode…" autocomplete="off"></div>
+    <div id="results" class="muted small" style="padding:4px 2px">${SEARCH.length} episode${SEARCH.length === 1 ? '' : 's'} indexed.</div>`;
+  const q = $('#q'), results = $('#results');
+  const run = () => {
+    const terms = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (!terms.length) { results.className = 'muted small'; results.style.padding = '4px 2px';
+      results.innerHTML = `${SEARCH.length} episode${SEARCH.length === 1 ? '' : 's'} indexed.`; return; }
+    const hits = SEARCH.filter(d => { const t = d.text.toLowerCase(); return terms.every(w => t.includes(w)); });
+    results.className = ''; results.style.padding = '0';
+    if (!hits.length) { results.innerHTML = `<div class="empty">No matches for “${q.value}”.</div>`; return; }
+    results.innerHTML = hits.map(d => `
+      <section class="card ep result" data-date="${d.date}">
+        <div class="meta">
+          <div class="t">${d.title || d.date}</div>
+          <div class="muted small snip">${snippet(d.text, terms[0])}</div>
+        </div>
+        <div class="muted">›</div>
+      </section>`).join('');
+    $$('.result').forEach(el => el.onclick = async () => { await loadEpisode(el.dataset.date); setTab('listen'); });
+  };
+  q.oninput = run; q.focus();
 }
 
 // ================= VOCAB (flashcards + SRS) =================

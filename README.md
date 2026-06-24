@@ -4,7 +4,10 @@ A no-build, installable **PWA** for the daily two-host news podcast:
 
 - **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point.
 - **Vocab** — flashcards for the daily Mandarin + Tagalog words, with a lightweight Leitner **spaced-repetition** schedule across the whole archive. Flip for meaning / example / nuance, tap 🔊 to hear it.
+- **Search** — full-text search across every episode's transcript + vocab, with highlighted snippets; tap a result to open it. Runs client-side off a prebuilt `data/search.json`.
 - **Archive** — every past episode, newest first; tap to open.
+
+Tap **⤓ Save audio for offline** on an episode to download its MP3 into the cache for a no-signal commute.
 
 Everything is static files + JSON; audio is served from object storage (Cloudflare R2). Works offline once an episode is opened (service worker caches the shell and data; audio caching is best-effort, see notes). Add to Home Screen for a full-screen app icon.
 
@@ -18,21 +21,23 @@ python3 -m http.server 8000     # then open http://localhost:8000
 - **Vercel:** import the repo (framework preset: *Other*; output dir: root). `vercel.json` is included.
 
 ## How the daily routine adds an episode
-After the routine writes the day's script and renders audio (and emits `vocab.json`):
+After the routine writes the day's script (named `…-YYYY-MM-DD.md`), renders audio, and emits `vocab.json`, one command publishes it:
 
 ```bash
-# 1. audio → R2 bucket (keeps the MP3 out of git; see "Audio storage" below)
-python3 tools/upload_audio.py  audio.mp3  2026-06-23
-
-# 2. build the episode (records the R2 URL, not a copy) + rebuild the index
-AUDIO_BASE_URL="$AUDIO_BASE_URL" \
-  python3 tools/build_episode.py  <script.md>  audio.mp3  vocab.json
-
-# 3. commit + push the text → Vercel/Pages auto-deploys
-git add data scripts && git commit -m "Episode 2026-06-23" && git push
+tools/daily.sh  <script.md>  audio.mp3  vocab.json
 ```
 
-`build_episode.py` parses the `## SEGMENT` headers and `ALEX:` / `SAM:` turns into `data/episodes/<date>/episode.json`, estimates per-segment start times, copies `vocab.json`, and rebuilds `data/index.json`. The date comes from the script filename (`…-YYYY-MM-DD.md`). The MP3 it's handed is used only to measure duration — with `AUDIO_BASE_URL` set, the file is **not** copied into git; `episode.json` stores `"<AUDIO_BASE_URL>/<date>.mp3"`. Without `AUDIO_BASE_URL`, the MP3 is copied into the repo (dev/legacy mode).
+That uploads audio to R2, builds the episode, archives the script under `scripts/`, rebuilds the index + search, then commits and pushes so the deploy picks it up. Set `NO_PUSH=1` to build + commit without pushing. The audio/R2 env vars below must be exported (without them it runs in dev mode and keeps the MP3 in git).
+
+Under the hood it runs two tools you can also call directly:
+
+```bash
+python3 tools/upload_audio.py  audio.mp3  2026-06-23          # audio → R2
+AUDIO_BASE_URL="$AUDIO_BASE_URL" \
+  python3 tools/build_episode.py  <script.md>  audio.mp3  vocab.json
+```
+
+`build_episode.py` parses the `## SEGMENT` headers and `ALEX:` / `SAM:` turns into `data/episodes/<date>/episode.json`, estimates per-segment start times, copies `vocab.json`, and rebuilds `data/index.json` + `data/search.json`. The date comes from the script filename. The MP3 it's handed is used only to measure duration — with `AUDIO_BASE_URL` set, the file is **not** copied into git; `episode.json` stores `"<AUDIO_BASE_URL>/<date>.mp3"`. Without `AUDIO_BASE_URL`, the MP3 is copied into the repo (dev/legacy mode).
 
 ## Audio storage (Cloudflare R2)
 Audio is large and write-once, so it lives in an object store, not git — at one episode/day a committed MP3 archive would balloon past what git can hold within a year, while the *text* stays a few MB/year and fully greppable forever.
@@ -70,6 +75,7 @@ Cost stays trivial — R2 storage is ~$0.015/GB·mo with **no egress fees**, so 
 
 ## Notes / tradeoffs
 - **Audio lives in R2, not git.** New episodes store only the URL (set `AUDIO_BASE_URL`). The seed episode (`2026-06-23`) still has its MP3 committed; to migrate it, run `tools/upload_audio.py data/episodes/2026-06-23/audio.mp3 2026-06-23`, then re-run `build_episode.py` (with `AUDIO_BASE_URL` set) and `git rm` the committed MP3.
-- **Offline audio is best-effort.** Cross-origin range requests (206) can't be cached by the service worker, so a fully offline commute isn't guaranteed yet; the shell, transcript, and vocab always work offline. A deliberate "save for offline" (full-file fetch) is a sensible follow-up.
+- **Offline audio:** the shell, transcript, vocab, and search always work offline. Audio is cross-origin (R2), and range requests (206) can't be cached automatically — so use **⤓ Save audio for offline** to download an episode for a no-signal commute.
+- **Search scales as one file.** `data/search.json` is the whole archive's text loaded client-side — fine for the first several years (a few MB). Past a few thousand episodes, swap the client filter for a prebuilt index (e.g. MiniSearch) or a small serverless search endpoint; the per-episode JSON stays the source of truth either way.
 - **Segment seek is approximate** — estimated from spoken-character share, since Gemini-TTS doesn't return word timings. Text jumps are exact; audio position is a best guess.
 - Vocab SRS progress and playback position live in `localStorage` on the device (not synced).

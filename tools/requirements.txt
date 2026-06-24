@@ -1,0 +1,2 @@
+# For tools/upload_audio.py — Cloudflare R2 uploads via the S3-compatible API.
+boto3>=1.34

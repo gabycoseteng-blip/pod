@@ -56,7 +56,11 @@ async function viewListen() {
   $('#ep-title').textContent = 'The Morning Commute';
   $('#ep-sub').textContent = CUR.title || CUR.date;
 
-  const audioUrl = CUR.audio ? `${DATA}episodes/${date}/${CUR.audio}` : null;
+  // `audio` is a full URL when served from a bucket/CDN (R2), or a bare filename
+  // for episodes that still keep the MP3 in the repo.
+  const audioUrl = CUR.audio
+    ? (/^https?:\/\//.test(CUR.audio) ? CUR.audio : `${DATA}episodes/${date}/${CUR.audio}`)
+    : null;
   view.innerHTML = `
     <section class="card player">
       <div class="ttl">${CUR.title || CUR.date}</div>

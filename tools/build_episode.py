@@ -10,8 +10,14 @@ What it does:
   - parses the `## ...` segment headers and ALEX:/SAM: turns into episode.json
   - estimates a start-time (seconds) for each segment from spoken-char share
     (approximate — Gemini-TTS doesn't return word timings)
-  - copies audio.mp3 and vocab.json into data/episodes/<date>/
+  - records the audio reference + copies vocab.json into data/episodes/<date>/
   - rebuilds data/index.json (newest first)
+
+Audio storage:
+  Set AUDIO_BASE_URL (e.g. https://audio.example.com) to keep MP3s out of git —
+  episode.json then stores "<AUDIO_BASE_URL>/<date>.mp3" and you upload the file
+  to the bucket with tools/upload_audio.py. Without AUDIO_BASE_URL, a local MP3
+  is copied into the repo (legacy/dev mode).
 
 The date is taken from the script filename (…-YYYY-MM-DD.md). Re-running for the
 same date overwrites that episode's files and refreshes the index.
@@ -95,21 +101,36 @@ def main():
         title = m.group(1).strip()
         day = title.split(",")[0].strip()
 
-    # audio + duration
-    audio_name, duration = None, 0
-    if audio_path and os.path.isfile(audio_path):
-        audio_name = "audio.mp3"
-        shutil.copyfile(audio_path, os.path.join(out, audio_name))
+    # audio + duration. `audio` in episode.json is either:
+    #   - a full URL (audio lives on R2/CDN, MP3 stays out of git) — the path for the
+    #     daily routine: set AUDIO_BASE_URL and upload via tools/upload_audio.py, or
+    #   - a bare "audio.mp3" filename copied into data/episodes/<date>/ (legacy, no bucket).
+    # Duration is estimated from the local file's size when available (Gemini-TTS gives
+    # no timings); pass the just-rendered MP3 even when uploading to R2.
+    audio_ref, duration = None, 0
+    base = os.environ.get("AUDIO_BASE_URL", "").rstrip("/")
+    local_copy = os.path.join(out, "audio.mp3")
+    if audio_path and re.match(r"^https?://", audio_path):
+        audio_ref = audio_path                                   # explicit URL passed in
+        duration = int(os.environ.get("AUDIO_DURATION_SEC") or 0)
+    elif audio_path and os.path.isfile(audio_path):
         duration = int(os.path.getsize(audio_path) * 8 / MP3_BITRATE)
-    elif os.path.isfile(os.path.join(out, "audio.mp3")):
-        audio_name = "audio.mp3"
-        duration = int(os.path.getsize(os.path.join(out, "audio.mp3")) * 8 / MP3_BITRATE)
+        if base:
+            audio_ref = f"{base}/{date}.mp3"                     # served from the bucket
+        else:
+            audio_ref = "audio.mp3"                              # legacy: keep it in git
+            shutil.copyfile(audio_path, local_copy)
+    elif os.path.isfile(local_copy):
+        audio_ref = "audio.mp3"                                  # legacy copy already present
+        duration = int(os.path.getsize(local_copy) * 8 / MP3_BITRATE)
+    elif base:
+        audio_ref = f"{base}/{date}.mp3"                         # URL only (uploaded elsewhere)
 
     segments = estimate_timings(parse_segments(text), duration or 1)
 
     episode = {
         "date": date, "title": title, "day": day,
-        "audio": audio_name, "durationSec": duration,
+        "audio": audio_ref, "durationSec": duration,
         "segments": segments,
     }
     json.dump(episode, open(os.path.join(out, "episode.json"), "w"),

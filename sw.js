@@ -1,6 +1,6 @@
 /* The Morning Commute — service worker: offline shell + runtime cache for episodes/audio. */
-const SHELL = 'commute-shell-v4';
-const RUNTIME = 'commute-runtime-v2';
+const SHELL = 'commute-shell-v5';
+const RUNTIME = 'commute-runtime-v3';
 const SHELL_FILES = [
   './', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest',
   'icon-192.png', 'icon-512.png', 'apple-touch-icon.png',
@@ -42,12 +42,19 @@ self.addEventListener('fetch', e => {
     })));
     return;
   }
-  // data json: stale-while-revalidate
+  // data json: network-first — always fetch the latest episode list/index when
+  // online (so a new episode shows on the first load), fall back to cache offline.
   if (url.pathname.includes('/data/')) {
     e.respondWith(caches.open(RUNTIME).then(async c => {
-      const hit = await c.match(req);
-      const net = fetch(req).then(res => { c.put(req, res.clone()); return res; }).catch(() => hit);
-      return hit || net;
+      try {
+        const res = await fetch(req);
+        c.put(req, res.clone());
+        return res;
+      } catch (err) {
+        const hit = await c.match(req);
+        if (hit) return hit;
+        throw err;
+      }
     }));
     return;
   }

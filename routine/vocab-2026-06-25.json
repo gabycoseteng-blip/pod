@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-25",
+  "cards": [
+    {
+      "id": "2026-06-25-zh-1",
+      "lang": "Mandarin",
+      "word": "反而",
+      "pinyin": "fǎn'ér",
+      "pronunciation": "fahn ar",
+      "tones": "3 · 2",
+      "meaning": "on the contrary; instead (the result is the opposite of what you'd expect)",
+      "example": "不但没涨，反而跌了。",
+      "examplePinyin": "bù dàn méi zhǎng, fǎn'ér diē le",
+      "exampleMeaning": "Not only didn't it rise — on the contrary, it fell.",
+      "note": "HSK-4 advanced connective; register leans 书面语/analytical — a finance-desk word. Signature collocation: 不但没…反而… ('not only didn't… but on the contrary…'). Near-synonym contrast vs 却 (què): 却 is a mild 'however,' a gentle pivot; 反而 is stronger and pointed — an outcome that actively defies the expectation you just set up.",
+      "tiesTo": "the market rotation — yields fell instead of rising; homebuilders ripped while megacap tech sold off"
+    },
+    {
+      "id": "2026-06-25-zh-2",
+      "lang": "Mandarin",
+      "word": "稳定",
+      "pinyin": "wěndìng",
+      "pronunciation": "wun ding",
+      "tones": "3 · 4",
+      "meaning": "stable; stability",
+      "example": "价格稳定是央行的首要目标。",
+      "examplePinyin": "jiàgé wěndìng shì yāngháng de shǒuyào mùbiāo",
+      "exampleMeaning": "Price stability is the central bank's primary objective.",
+      "note": "HSK-4 abstract collocation, formal/policy register. Portable: 价格稳定 (price stability), plus grid / currency / financial stability. Near-synonym contrast vs 平稳 (píngwěn): 稳定 is a STATE — the thing is stable, full stop; 平稳 is a smooth PROCESS — steady, no jolts (e.g. 平稳着陆, a soft landing). State versus journey.",
+      "tiesTo": "BSP / ECB / Fed price-stability mandates and grid stability in the energy block"
+    },
+    {
+      "id": "2026-06-25-tl-1",
+      "lang": "Tagalog",
+      "word": "habagat",
+      "pinyin": "",
+      "pronunciation": "hah-BAH-gat",
+      "tones": "",
+      "meaning": "the southwest monsoon — the hot, wet, stormy season-wind",
+      "example": "Pinalakas ng habagat ang ulan sa kanlurang bahagi ng bansa.",
+      "examplePinyin": "",
+      "exampleMeaning": "The habagat intensified the rain over the western part of the country.",
+      "note": "Native-speaker pairing: habagat (southwest monsoon — humid, rainy, the flooded-street months) versus amihan (the northeast monsoon — the cool, dry 'ber-months' air everyone welcomes). Same idea, a prevailing seasonal wind, but opposite feeling: one you brace for, one you welcome.",
+      "tiesTo": "Typhoon Francisco enhancing the southwest monsoon over Luzon"
+    },
+    {
+      "id": "2026-06-25-tl-2",
+      "lang": "Tagalog",
+      "word": "ginhawa",
+      "pinyin": "",
+      "pronunciation": "gin-HAH-wah",
+      "tones": "",
+      "meaning": "relief, ease, a sense of well-being / breathing room",
+      "example": "Bumababa ang presyo ng langis, kaya may kaunting ginhawa ang mga pamilya.",
+      "examplePinyin": "",
+      "exampleMeaning": "Oil prices are falling, so families get a little relief.",
+      "note": "Native-speaker nuance vs luwag (both render as 'loosening'): luwag is the mechanical slack — looser policy, a belt with another notch — the CAUSE; ginhawa is the FELT result, the comfort and breathing room you actually experience. Cheaper oil gives the peso some luwag; what households feel is ginhawa. The rich form, kaginhawaan, means welfare/prosperity outright.",
+      "tiesTo": "the oil reversal easing the Philippines' import bill, inflation path, and peso"
+    }
+  ]
+}

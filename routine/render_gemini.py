@@ -27,7 +27,7 @@ Notes:
   prompt MUST match the names in speaker_voice_configs ("Alex", "Sam").
 - A global style instruction is prepended so delivery stays brisk and warm.
 """
-import os, re, sys, json, time, base64, wave, subprocess, urllib.request, urllib.error
+import os, re, sys, json, time, base64, wave, subprocess, urllib.request, urllib.error, http.client
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TODAY = __import__("datetime").date.today().isoformat()
@@ -116,6 +116,17 @@ def synth(dialogue):
                 time.sleep(wait)
                 continue
             raise RuntimeError(f"API {e.code}: {msg}")
+        except (urllib.error.URLError, http.client.IncompleteRead, http.client.HTTPException,
+                ConnectionError, TimeoutError) as e:
+            # transient network / proxy drop (e.g. IncompleteRead on a large
+            # streamed response) — back off and retry the whole request.
+            if attempt < MAX_RETRIES:
+                wait = REQUEST_DELAY * (2 ** attempt)
+                print(f"    network error '{type(e).__name__}' (attempt {attempt+1}/{MAX_RETRIES}); "
+                      f"backing off {wait:.0f}s…", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"network error after retries: {e}")
     try:
         b64 = resp["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
     except (KeyError, IndexError):

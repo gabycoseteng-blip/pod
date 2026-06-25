@@ -392,6 +392,14 @@ async function viewArchive() {
 
 // ---------- boot ----------
 if ('serviceWorker' in navigator) {
+  // If a page is already controlled by an old SW, reload once when a new SW
+  // takes over so a fresh shell + latest episode list replace the cached ones.
+  // (Guarded on hadController so a brand-new visit — where clients.claim fires
+  // controllerchange on first install — doesn't trigger a spurious reload.)
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController) window.location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
 setTab(S.tab || 'listen');

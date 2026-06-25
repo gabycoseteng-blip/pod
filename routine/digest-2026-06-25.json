@@ -1,0 +1,34 @@
+{
+  "throughline": "Cheaper oil and lower yields doing the Fed's work for it; the AI trade wobbles while the AI buildout roars",
+  "stories": [
+    "europe-record-heatwave-red-alerts-power-prices",
+    "iran-june18-framework-holds-hormuz-normalizing-crude-bleeds-premium",
+    "us-market-overview-rotation-out-of-megacap-ai-dow-green-nasdaq-red",
+    "ten-year-drops-to-441-crude-low-seventies-rates-trade",
+    "kb-home-rips-on-rates-homebuilders-lead",
+    "cerebras-ai-compute-de-rating-selloff",
+    "micron-blowout-record-revenue-hbm-demand",
+    "boj-hikes-to-1pct-yen-still-weak-carry",
+    "ecb-hikes-to-2.25-deposit-fighting-reversing-oil-shock",
+    "china-retakes-top-supercomputer-ranking-decoupling",
+    "pjm-new-capacity-mechanism-doe-agora-grid-simulation",
+    "data-center-power-1050twh-gas-share-rising-water-cooling",
+    "philippines-typhoon-francisco-habagat-floods-bsp-4.75-peso-record-low",
+    "strokes-reality-awaits-charli-xcx-music-fashion-film-motu-scary-movie",
+    "meme-saxophone-gets-louder-kitkat-heist-nihilistic-penguin-brand-co-option",
+    "one-good-thing-french-polynesia-marine-reserve-pfas-breakdown-hydrogen-radicals"
+  ],
+  "explainers": [
+    "grid-fears-the-peak-not-the-average-heatwave-and-datacenter-loads",
+    "oil-war-premium-out-of-spot-optionality-in-the-tails",
+    "rotation-as-de-grossing-and-rates-not-risk-off-rates-vol-vs-equity-vol",
+    "hbm-demand-contracted-not-speculative-breaks-the-memory-cycle-bear-case",
+    "rate-differential-keeps-yen-weak-despite-boj-hike",
+    "central-banks-fighting-last-quarters-oil-shock-policy-lag",
+    "china-debt-deflation-nominal-vs-real-growth",
+    "interconnection-queue-transformer-turbine-bottlenecks",
+    "clean-energy-timeline-out-of-phase-with-ai-demand",
+    "electricity-as-the-price-going-the-wrong-way-vs-disinflation"
+  ],
+  "comment": "Backfilled from the published 2026-06-25 episode (built before the digest pipeline existed). Vocab (反而, 稳定, habagat, ginhawa) folds in automatically from vocab.json."
+}

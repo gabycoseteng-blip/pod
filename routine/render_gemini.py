@@ -46,10 +46,13 @@ MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "4"))         # retries on 429 /
 
 _DEFAULT_STYLE = ("Two polished financial-news anchors, as on a Bloomberg or FT broadcast. "
     "Crisp, confident, authoritative and professional. Controlled energy and clean diction "
-    "— measured, not peppy, not sleepy. Alex is the domain expert; Sam asks the questions.")
+    "— measured, not peppy, not sleepy. Alex is the domain expert; Sam asks the questions. "
+    "When a passage is in Mandarin Chinese or Tagalog, pronounce it authentically and "
+    "natively — correct Mandarin tones, natural Tagalog vowels and stress — not with an "
+    "English accent; switch cleanly back to English for the translations.")
 STYLE = os.environ.get("STYLE", _DEFAULT_STYLE)
 if ACCENT.strip():
-    STYLE = STYLE + f" Both hosts speak with {ACCENT.strip()} accents."
+    STYLE = STYLE + f" Their English delivery carries {ACCENT.strip()} accents (this applies to English only, not to the Mandarin or Tagalog)."
 STYLE += "\n\n"
 
 RATE, WIDTH, CHANNELS = 24000, 2, 1  # PCM format Gemini-TTS returns

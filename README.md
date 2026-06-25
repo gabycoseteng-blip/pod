@@ -42,6 +42,8 @@ AUDIO_BASE_URL="$AUDIO_BASE_URL" \
 
 `build_episode.py` parses the `## SEGMENT` headers and `ALEX:` / `SAM:` turns into `data/episodes/<date>/episode.json`, estimates per-segment start times, copies `vocab.json`, and rebuilds `data/index.json` + `data/search.json`. The date comes from the script filename. The MP3 it's handed is used only to measure duration — with `AUDIO_BASE_URL` set, the file is **not** copied into git; `episode.json` stores `"<AUDIO_BASE_URL>/<date>.mp3"`. Without `AUDIO_BASE_URL`, the MP3 is copied into the repo (dev/legacy mode).
 
+It also picks up an optional per-episode **digest** (`routine/digest-<date>.json` → copied to `data/episodes/<date>/digest.json`) and rebuilds **`data/history.jsonl`** — a compact, one-line-per-episode ledger of each show's `throughline`, `stories`, `explainers`, and `vocab`. The daily routine reads the tail of this file to avoid repeating stories, re-explaining concepts, or reusing vocab — **without** loading old scripts into context, which keeps token usage flat as the archive grows for years. It's rebuilt from the per-episode digests every run, so it's idempotent and self-healing.
+
 ## Audio storage (Cloudflare R2)
 Audio is large and write-once, so it lives in an object store, not git — at one episode/day a committed MP3 archive would balloon past what git can hold within a year, while the *text* stays a few MB/year and fully greppable forever.
 

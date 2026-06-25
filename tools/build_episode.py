@@ -146,7 +146,15 @@ def main():
         except Exception:
             vcount = 0
 
+    # digest (compact dedup memory): the routine writes routine/digest-<date>.json
+    # with throughline/stories/explainers; we keep a copy alongside the episode so
+    # the history ledger is rebuilt from durable, per-episode files.
+    digest_src = os.path.join(ROOT, "routine", f"digest-{date}.json")
+    if os.path.isfile(digest_src):
+        shutil.copyfile(digest_src, os.path.join(out, "digest.json"))
+
     rebuild_index()
+    rebuild_history()
     print(f"OK  {date}: {len(segments)} segments, {duration//60}m audio, {vcount} vocab cards")
 
 
@@ -189,6 +197,41 @@ def rebuild_index():
     json.dump({"docs": search},
               open(os.path.join(DATA, "search.json"), "w"),
               ensure_ascii=False, indent=2)
+
+
+def rebuild_history():
+    """Rebuild data/history.jsonl — the routine's compact memory of what every prior
+    show covered, one JSON line per episode (oldest→newest). It exists so the daily
+    routine can avoid repeating stories, re-explaining concepts, or reusing vocab
+    WITHOUT loading full prior scripts into context: it reads the tail of this file
+    instead. Each line is derived from that episode's digest.json (model-authored:
+    throughline + story slugs + explainers) plus the vocab words pulled from
+    vocab.json. Rebuilt from scratch every run, so it's idempotent and self-healing."""
+    lines = []
+    for d in sorted(os.listdir(EPDIR)):
+        ep_json = os.path.join(EPDIR, d, "episode.json")
+        if not os.path.isfile(ep_json):
+            continue
+        e = json.load(open(ep_json))
+        digest = {}
+        dg = os.path.join(EPDIR, d, "digest.json")
+        if os.path.isfile(dg):
+            try: digest = json.load(open(dg))
+            except Exception: digest = {}
+        words = []
+        v = os.path.join(EPDIR, d, "vocab.json")
+        if os.path.isfile(v):
+            try: words = [c.get("word", "") for c in json.load(open(v)).get("cards", []) if c.get("word")]
+            except Exception: words = []
+        lines.append(json.dumps({
+            "date": e["date"],
+            "throughline": digest.get("throughline", ""),
+            "stories": digest.get("stories", []),
+            "explainers": digest.get("explainers", []),
+            "vocab": words,
+        }, ensure_ascii=False))
+    with open(os.path.join(DATA, "history.jsonl"), "w") as f:
+        f.write("\n".join(lines) + ("\n" if lines else ""))
 
 
 if __name__ == "__main__":

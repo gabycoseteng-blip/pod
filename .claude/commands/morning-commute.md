@@ -25,10 +25,20 @@ sharp generalist (voice Charon). Stay on the `main` branch so the publish deploy
 ```bash
 date="$(date +%F)"          # YYYY-MM-DD — used in every filename
 git checkout main 2>/dev/null || true
+tail -n 60 data/history.jsonl 2>/dev/null   # what recent shows already covered
 ```
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`
 (see README → "Audio storage" and `routine/README.md`). If `GEMINI_API_KEY` is
 missing, do steps 1–3, then stop and report — do not fabricate audio.
+
+**Read the history ledger first (don't repeat the archive).** `data/history.jsonl`
+is the show's compact memory — one JSON line per past episode with its
+`throughline`, `stories`, `explainers`, and `vocab`. This exists so you can dedup
+**without** loading old scripts into context (which would burn tokens). Read the
+tail above and, throughout the day, **do not** re-run a story or re-explain a
+concept already covered, and **never** reuse a vocab word that already appears in
+any `vocab` array. Advancing a running story with genuinely new developments is
+fine — advance it, don't recap from zero.
 
 ## 1. Research → `routine/commute-brief-$date.md`
 Using web search + the connected market/news connectors (FMP for quotes / indices
@@ -37,8 +47,16 @@ exactly what the steering prompt's segments require, with **real, accurate**
 numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angle,
 2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
 theme, Philippines weather + BSP + peso, art/pop, the trending meme, one good
-thing). Include `[bracketed pronunciation hints]` for any foreign words. Pick one
-throughline that connects the macro blocks.
+thing). Pick one throughline that connects the macro blocks. Cross-check the
+history ledger from step 0 — pick **fresh** stories, not ones already covered.
+
+**Energy / data centers / utilities — research deep.** Assume the listener knows
+the AI-infrastructure capex cycle cold. Pull from the sophisticated sources, not
+general press: **SemiAnalysis** (accelerator/datacenter economics, capex models),
+**Utility Dive** (utility ratebase, interconnection, PPAs, grid policy), plus IEA,
+BloombergNEF, FERC, and the hyperscalers' own capex guidance/filings. Capture
+specific projects, MW/GW and capex figures, off-takers, interconnection-queue and
+transformer/turbine bottlenecks, and the second-order read — not a 101.
 
 **Accuracy:** pull the actual prior-session closes/levels and movers from the FMP
 connector — never approximate index levels, prices, or yields from memory. If
@@ -55,8 +73,9 @@ relies on:
 - **One line per turn:** every `ALEX:` / `SAM:` turn is a single line of plain
   text — no markdown, no line breaks inside a turn (the parser and TTS both
   require it). Only `ALEX:` / `SAM:` lines are spoken.
-- **Spell numbers as said aloud** ("seventy-four seventy-three", "thirty-seven
-  basis points", "twenty twenty-seven").
+- **Write numbers as numerals** so the script is easy to read — `74.73`,
+  `37 bps`, `2027`, `$3.2 trillion`, `1.5%`. Keep the unit/word right next to the
+  figure so it's unambiguous when read aloud (the TTS handles digits fine).
 - **Length target (this controls the duration):** write **~18,000–20,000
   characters** of `ALEX:`/`SAM:` dialogue (≈ 3,000–3,400 words ≈ 35–40 min of
   audio at ~8 chars per audio-second). The 2026-06-23 example is ~18.2k chars /
@@ -69,28 +88,56 @@ relies on:
   ~21,000, trim wording. Do this **before** step 4 so you don't render a bad length.
 - Hosts announce each segment; no run-of-show in the cold open; the meme segment
   **reports** the meme (no performed bit); close on One Good Thing.
-- VOCAB OF THE DAY is enrichment for an advanced listener, not a 101: 2 Mandarin
-  then 2 Tagalog, each tied to a story in today's show. Say each word clearly with
-  correct tones, but **do not drill or explain tone numbers** or spell out
-  pronunciation. Spend the time on usage, register, collocation, and near-synonym
-  contrast. For **Mandarin**, follow the **HSK 4 calibration** in
+- **VOCAB OF THE DAY — conduct the whole segment IN-LANGUAGE** (immersion, not a
+  101): 2 Mandarin then 2 Tagalog, each tied to a story in today's show, and each
+  a **new** word not in the history ledger. For the Mandarin stretch the hosts
+  actually **converse in Mandarin**, using the words in real sentences; for the
+  Tagalog stretch they **converse in Tagalog**. English appears **only as a
+  translation/gloss** right after each foreign sentence. Write Mandarin in
+  **characters (汉字)** with the English gloss in parentheses, e.g.
+  `ALEX: 尽管市场震荡，机构还是加仓了。(Despite the market turbulence, institutions still added to positions.)`;
+  write Tagalog with its **natural spelling** so it's pronounced correctly, gloss
+  in parentheses. Don't drill or explain tone numbers or spell out pronunciation —
+  say each word correctly once, then spend the time on usage, register,
+  collocation, and near-synonym contrast, all delivered in-language. For
+  **Mandarin**, follow the **HSK 4 calibration** in
   `routine/notebooklm-steering-prompt.md`: pick HSK-4-level items targeting the
   listener's weak spots (advanced connectives, abstract pairings, formal/informal
   register), with at least one of the two being a connective or abstract
-  collocation — not a concrete noun.
+  collocation — not a concrete noun. (Note: the in-language stretch is denser, so
+  re-check the dialogue char count after writing it.)
 
 ## 3. Write vocab → `routine/vocab-$date.json`
-Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`;
-Tagalog leaves `pinyin`/`tones` empty. For Mandarin, populate `tones` concisely
-(tone numbers, e.g. `"2 · 4"`) — the card displays them for reference; just don't
-drill them in the audio. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`; write `note` on
+Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`.
+For **Mandarin**: `word` in characters, `pinyin` with tone marks, populate `tones`
+concisely (tone numbers, e.g. `"2 · 4"`) — the card displays them for reference;
+just don't drill them in the audio. For **Tagalog**: leave `tones` empty, but fill
+`pronunciation` (and `pinyin` may stay empty) with a clear **Tagalog-syllable
+respelling that marks stress**, e.g. `"a-lim-PÚ-yo"` (natural Tagalog vowels and a
+stressed syllable) — not an English-phonetic respelling — so the card shows the
+right pronunciation. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`; write `note` on
 register (书面语/formal vs. 口语/informal) / collocation / near-synonym contrast,
 calibrated to HSK 4 — **no tone-drill explanations**; `tiesTo` the story.
-**The four words here
-must be exactly the four taught in the VOCAB OF THE DAY segment** — same words,
-same order (2 Mandarin then 2 Tagalog) — so the flashcards match the audio.
+**The four words here must be exactly the four taught in the VOCAB OF THE DAY
+segment** — same words, same order (2 Mandarin then 2 Tagalog) — so the flashcards
+match the audio.
 
-## 4. Render audio → `commute-gemini-$date.mp3`
+## 4. Write the digest → `routine/digest-$date.json`
+The day's contribution to the show's compact memory (`data/history.jsonl`), so
+future episodes can dedup without re-reading scripts. Keep it terse — slugs and
+short phrases, not prose. Schema:
+```json
+{
+  "throughline": "one short line — today's connecting thread",
+  "stories": ["fed-holds-rates", "iran-talks-resume", "nvidia-capex-guide", "..."],
+  "explainers": ["interconnection-queue mechanics", "what a PPA off-take is"],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}
+```
+`build_episode.py` picks this up automatically and folds it (plus the vocab words)
+into `data/history.jsonl`. Vocab words are added for you — don't list them here.
+
+## 5. Render audio → `commute-gemini-$date.mp3`
 ```bash
 python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commute-gemini-$date
 ```
@@ -98,20 +145,22 @@ python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commut
 non-zero — missing `GEMINI_API_KEY`, missing ffmpeg, or a partial render — stop and
 report; do not publish silent or partial audio without flagging it.
 
-## 5. Build + commit (no push yet)
+## 6. Build + commit (no push yet)
 ```bash
 NO_PUSH=1 tools/daily.sh routine/commute-two-host-script-$date.md commute-gemini-$date.mp3 routine/vocab-$date.json
 ```
-This uploads audio to R2, builds the episode + index + search, and commits — but
-holds the push so the guardrail can gate the deploy.
+This uploads audio to R2, builds the episode + index + search, folds today's
+digest + vocab into `data/history.jsonl`, and commits — but holds the push so the
+guardrail can gate the deploy.
 
-## 6. Guardrail check, then deploy
+## 7. Guardrail check, then deploy
 Inspect `data/index.json` for `$date` — it should show **~12 segments** and
 **`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix
-the script/vocab, re-run step 5, and only continue once it looks right. Also
-confirm (R2 mode) that `data/episodes/$date/episode.json`'s `audio` is the R2 URL
-— the repo should have grown by KBs, not tens of MB. When it all checks out:
+the script/vocab, re-run step 6, and only continue once it looks right. Confirm
+(R2 mode) that `data/episodes/$date/episode.json`'s `audio` is the R2 URL — the
+repo should have grown by KBs, not tens of MB — and that `data/history.jsonl`
+gained a line for `$date`. When it all checks out:
 ```bash
 git push
 ```

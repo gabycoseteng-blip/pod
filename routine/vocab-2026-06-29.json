@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-29",
+  "cards": [
+    {
+      "id": "2026-06-29-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yí dàn",
+      "pronunciation": "ee-DAHN",
+      "tones": "2 · 4",
+      "meaning": "once; as soon as; in the event that (connective)",
+      "example": "一旦停火破裂，油价就会马上反弹。",
+      "examplePinyin": "yídàn tínghuǒ pòliè, yóujià jiù huì mǎshàng fǎntán",
+      "exampleMeaning": "Once the ceasefire breaks down, oil prices will rebound immediately.",
+      "note": "HSK4 advanced connective, 书面语/formal. Stronger than 如果 (rúguǒ, 'if') — it stresses 'the very moment it happens,' so it pairs with a following 就/会 clause stating the consequence. News and finance desks lean on it (一旦…就…). Citation tone of 一 is 1st, but before the 4th-tone 旦 it sandhis to 2nd: yídàn.",
+      "tiesTo": "Iran ceasefire stutter"
+    },
+    {
+      "id": "2026-06-29-zh-2",
+      "lang": "Mandarin",
+      "word": "风险",
+      "pinyin": "fēng xiǎn",
+      "pronunciation": "fung shyen",
+      "tones": "1 · 3",
+      "meaning": "risk (abstract, calculable)",
+      "example": "人工智能投资有很大的金融风险。",
+      "examplePinyin": "réngōng zhìnéng tóuzī yǒu hěn dà de jīnróng fēngxiǎn",
+      "exampleMeaning": "AI investment carries great financial risk.",
+      "note": "HSK4 abstract noun. Contrast 危险 (wēixiǎn) = concrete, physical danger (crossing a road) vs 风险 (fēngxiǎn) = abstract, measurable risk — finance almost always uses 风险. Common collocations: 金融风险 (financial risk), 系统性风险 (systemic risk), 防范风险 (guard against risk).",
+      "tiesTo": "BIS warning on AI-boom financial-stability risk"
+    },
+    {
+      "id": "2026-06-29-tl-1",
+      "lang": "Tagalog",
+      "word": "pangamba",
+      "pinyin": "",
+      "pronunciation": "pa-ngam-BÁ",
+      "tones": "",
+      "meaning": "apprehension; an anxious foreboding about what may come",
+      "example": "May pangamba ang mga mamumuhunan na baka pumutok ang AI bubble.",
+      "examplePinyin": "",
+      "exampleMeaning": "Investors feel apprehension that the AI bubble might burst.",
+      "note": "Native-speaker nuance: distinct from 'takot,' which is immediate, raw fear of something in front of you. 'Pangamba' is anticipatory, forward-looking unease — slightly literary, the right word for market anxiety about a risk that hasn't arrived yet.",
+      "tiesTo": "BIS AI-bubble warning / market anxiety"
+    },
+    {
+      "id": "2026-06-29-tl-2",
+      "lang": "Tagalog",
+      "word": "sukdulan",
+      "pinyin": "",
+      "pronunciation": "suk-du-LÁN",
+      "tones": "",
+      "meaning": "the utmost; the extreme; the absolute limit",
+      "example": "Nasa sukdulang antas ang ginto, at ang utang sa margin ay nasa sukdulan din.",
+      "examplePinyin": "",
+      "exampleMeaning": "Gold is at an extreme level, and margin debt is also at its limit.",
+      "note": "Native-speaker nuance: stronger than 'matindi' (intense) — 'sukdulan' marks the very edge, the maximum point. Common pairings: sukdulang panganib (extreme danger), sukdulang tuwa (utmost joy), sukdulang antas (extreme level).",
+      "tiesTo": "record gold/silver and margin-debt extremes"
+    }
+  ]
+}

@@ -226,7 +226,10 @@ async function viewSearch() {
   q.oninput = run; q.focus();
 }
 
-// ================= VOCAB (flashcards) =================
+// ================= VOCAB =================
+// A reference + learning surface: browse the whole archive as flippable cards
+// (with SRS review) or as a scannable list, search across everything, and ask a
+// tutor chatbot follow-up questions about any word.
 async function buildDeck() {
   if (!INDEX) INDEX = await getJSON(`${DATA}index.json`);
   const cards = [];
@@ -240,21 +243,42 @@ async function buildDeck() {
   DECK = cards;
 }
 
-// 'all' = browse the whole archive (nothing hidden); 'due' = SRS review queue.
-function deckFor(scope, filter) {
-  const t = todayDay();
-  let cards = DECK.filter(c => filter === 'All' || c.lang === filter);
-  if (scope === 'due') {
+const escHTML = s => String(s == null ? '' : s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+// ---- vocab state ----
+let vMode = (S.vMode === 'list' ? 'list' : 'cards');   // 'cards' | 'list'
+let vScope = 'all';                                    // 'all' | 'due'  (cards mode)
+let vFilter = ['Mandarin', 'Tagalog'].includes(S.vFilter) ? S.vFilter : 'All';
+let vSearch = '';
+let vQueue = [], vIdx = 0, vFlipped = false;
+
+function cardHay(c) {
+  return [c.word, c.pinyin, c.pronunciation, c.meaning, c.example,
+          c.examplePinyin, c.exampleMeaning, c.note, c.tiesTo, c.lang, c.date]
+    .filter(Boolean).join(' ').toLowerCase();
+}
+function matchCard(c) {
+  const terms = vSearch.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+  const hay = cardHay(c);
+  return terms.every(w => hay.includes(w));
+}
+// Cards passing the current language filter + search. `forReview` also keeps only
+// SRS-due cards, soonest first — the Cards-mode "Due" queue.
+function currentCards(forReview) {
+  let cards = DECK.filter(c => (vFilter === 'All' || c.lang === vFilter) && matchCard(c));
+  if (forReview) {
+    const t = todayDay();
     cards = cards.filter(c => (S.srs[c.id]?.due ?? 0) <= t)
                  .sort((a, b) => (S.srs[a.id]?.due ?? 0) - (S.srs[b.id]?.due ?? 0));
   }
   return cards;
 }
-
-let vScope = 'all', vFilter = 'All', vQueue = [], vIdx = 0, vFlipped = false;
-
-function rebuildQueue() {
-  vQueue = deckFor(vScope, vFilter);
+// Recompute the flashcard queue. Called only on structural changes (mode/filter/
+// scope/search) — never on plain nav/grade, so grading never yanks a card out of
+// the session you're mid-way through.
+function refreshQueue() {
+  vQueue = currentCards(vScope === 'due');
   if (vIdx >= vQueue.length) vIdx = 0;
   vFlipped = false;
 }
@@ -263,57 +287,139 @@ async function viewVocab() {
   const view = $('#view');
   $('#ep-sub').textContent = '';
   if (!DECK) { view.innerHTML = `<div class="empty">Loading vocab…</div>`; await buildDeck(); }
-  rebuildQueue();
-  renderVocab();
+  view.innerHTML = `<div id="v-controls"></div><div id="v-body"></div><div id="v-chat"></div>`;
+  refreshQueue();
+  renderVocabControls();
+  renderVocabBody();
+  renderChat();
 }
 
-function renderVocab() {
-  const view = $('#view');
-  const scopes = [['all', 'All cards'], ['due', 'Due today']];
+// The controls (mode toggle, search, language filter, scope) render once and stay
+// put; only the body re-renders while you type so the search input keeps focus.
+function renderVocabControls() {
+  const el = $('#v-controls');
+  const modes = [['cards', 'Cards'], ['list', 'List']];
   const langs = ['All', 'Mandarin', 'Tagalog'];
-  const head = `<div class="deckhead">
-      <div class="seg-filter scope">${scopes.map(([k, l]) =>
-        `<button class="${k === vScope ? 'on' : ''}" data-s="${k}">${l}</button>`).join('')}</div>
+  el.innerHTML = `
+    <div class="deckhead">
+      <div class="seg-filter mode">${modes.map(([k, l]) =>
+        `<button class="${k === vMode ? 'on' : ''}" data-m="${k}">${l}</button>`).join('')}</div>
       <span class="spacer"></span>
-      <span class="pill">${vQueue.length}${vScope === 'due' ? ' due' : ''} / ${DECK.length}</span>
+      <span class="pill" id="v-count"></span>
+    </div>
+    <div class="searchbar vocab-search">
+      <input type="search" id="v-q" placeholder="Search words, meanings, notes…" autocomplete="off" value="${escHTML(vSearch)}">
     </div>
     <div class="deckhead">
       <div class="seg-filter lang">${langs.map(l =>
         `<button class="${l === vFilter ? 'on' : ''}" data-l="${l}">${l}</button>`).join('')}</div>
+      ${vMode === 'cards' ? `<span class="spacer"></span>
+      <div class="seg-filter scope">${[['all', 'All'], ['due', 'Due']].map(([k, l]) =>
+        `<button class="${k === vScope ? 'on' : ''}" data-s="${k}">${l}</button>`).join('')}</div>` : ``}
     </div>`;
 
-  if (!vQueue.length) {
-    view.innerHTML = head + `<div class="card empty">${
-      vScope === 'due'
-        ? `✓ Nothing due right now. Switch to <b>All cards</b> to browse the whole deck.`
-        : `No vocab cards yet.`}</div>`;
-    wireDeckControls();
+  $$('.seg-filter.mode button', el).forEach(b => b.onclick = () => {
+    vMode = b.dataset.m; S.vMode = vMode; saveState(); vIdx = 0;
+    refreshQueue(); renderVocabControls(); renderVocabBody();
+  });
+  $$('.seg-filter.lang button', el).forEach(b => b.onclick = () => {
+    vFilter = b.dataset.l; S.vFilter = vFilter; saveState(); vIdx = 0;
+    refreshQueue(); renderVocabControls(); renderVocabBody();
+  });
+  $$('.seg-filter.scope button', el).forEach(b => b.onclick = () => {
+    vScope = b.dataset.s; vIdx = 0; refreshQueue(); renderVocabControls(); renderVocabBody();
+  });
+  const q = $('#v-q');
+  q.oninput = () => { vSearch = q.value; vIdx = 0; refreshQueue(); renderVocabBody(); };
+}
+
+function setCount(shown) {
+  const el = $('#v-count'); if (el) el.textContent = `${shown} / ${DECK.length}`;
+}
+
+function renderVocabBody() {
+  const body = $('#v-body');
+  if (vMode === 'list') renderList(body);
+  else renderCards(body);
+}
+
+// ---- list / reference mode ----
+function renderList(body) {
+  const cards = currentCards(false);
+  setCount(cards.length);
+  if (!cards.length) {
+    body.innerHTML = `<div class="card empty">${
+      vSearch ? `No cards match “${escHTML(vSearch)}”.` : `No vocab cards yet.`}</div>`;
     return;
   }
+  body.innerHTML = `<div class="vlist">` + cards.map((c, i) => `
+    <div class="vrow" data-i="${i}">
+      <button class="vrow-head">
+        <div class="vrow-main">
+          <span class="vword">${escHTML(c.word)}</span>
+          <span class="vroman">${escHTML(c.pinyin || c.pronunciation || '')}</span>
+        </div>
+        <span class="pill lang-${c.lang}">${escHTML(c.lang)}</span>
+        <span class="vchev">›</span>
+      </button>
+      <div class="vrow-meaning">${escHTML(c.meaning)}</div>
+      <div class="vrow-detail">
+        ${c.example ? `<div class="ex">
+          <div class="o">${escHTML(c.example)}</div>
+          ${c.examplePinyin ? `<div class="p">${escHTML(c.examplePinyin)}</div>` : ''}
+          ${c.exampleMeaning ? `<div class="m">${escHTML(c.exampleMeaning)}</div>` : ''}
+        </div>` : ''}
+        ${c.note ? `<div class="note">${escHTML(c.note)}</div>` : ''}
+        <div class="vrow-foot">
+          <span class="muted small">${escHTML(c.date)}${c.tiesTo ? ' · ' + escHTML(c.tiesTo) : ''}</span>
+          <span class="spacer"></span>
+          <button class="speak vrow-speak" data-i="${i}">🔊</button>
+          <button class="linkbtn vrow-ask" data-i="${i}">Ask ›</button>
+        </div>
+      </div>
+    </div>`).join('') + `</div>`;
 
+  $$('.vrow', body).forEach(r => {
+    r.querySelector('.vrow-head').onclick = () => r.classList.toggle('open');
+  });
+  $$('.vrow-speak', body).forEach(b => b.onclick = e => { e.stopPropagation(); speak(cards[+b.dataset.i]); });
+  $$('.vrow-ask', body).forEach(b => b.onclick = e => { e.stopPropagation(); focusChatOn(cards[+b.dataset.i]); });
+}
+
+// ---- flashcard mode ----
+function renderCards(body) {
+  setCount(vQueue.length);
+  if (!vQueue.length) {
+    body.innerHTML = `<div class="card empty">${
+      vSearch ? `No cards match “${escHTML(vSearch)}”.`
+      : vScope === 'due' ? `✓ Nothing due right now. Switch to <b>All</b> to browse everything.`
+      : `No vocab cards yet.`}</div>`;
+    return;
+  }
   if (vIdx >= vQueue.length) vIdx = vQueue.length - 1;
   const card = vQueue[vIdx];
-  view.innerHTML = head + `
-    <div class="progress">${vIdx + 1} / ${vQueue.length}${vScope === 'due' ? ' due' : ''}${vFilter !== 'All' ? ' · ' + vFilter : ''} · ${card.date}</div>
+  body.innerHTML = `
+    <div class="progress">${vIdx + 1} / ${vQueue.length}${vScope === 'due' ? ' due' : ''}${vFilter !== 'All' ? ' · ' + vFilter : ''} · ${escHTML(card.date)}</div>
     <div class="flash ${vFlipped ? 'flipped' : ''}" id="flash">
       <div class="inner">
         <div class="face front">
-          <span class="lang-tag pill">${card.lang}</span>
-          <div class="word">${card.word}</div>
-          <div class="roman">${card.pinyin || card.pronunciation || ''}</div>
-          ${card.lang === 'Mandarin' && card.tones ? `<div class="tones">${card.tones}</div>` : ''}
+          <span class="lang-tag pill">${escHTML(card.lang)}</span>
+          <div class="word">${escHTML(card.word)}</div>
+          <div class="roman">${escHTML(card.pinyin || card.pronunciation || '')}</div>
+          ${card.lang === 'Mandarin' && card.tones ? `<div class="tones">${escHTML(card.tones)}</div>` : ''}
           <div class="tap-hint">tap to flip
             <button class="speak" id="speak">🔊 say it</button></div>
         </div>
         <div class="face back">
-          <span class="lang-tag pill">${card.lang}${card.tiesTo ? ' · ' + card.tiesTo : ''}</span>
-          <div class="meaning">${card.meaning}</div>
+          <span class="lang-tag pill">${escHTML(card.lang)}${card.tiesTo ? ' · ' + escHTML(card.tiesTo) : ''}</span>
+          <div class="meaning">${escHTML(card.meaning)}</div>
           <div class="ex">
-            <div class="o">${card.example || ''}</div>
-            ${card.examplePinyin ? `<div class="p">${card.examplePinyin}</div>` : ''}
-            ${card.exampleMeaning ? `<div class="m">${card.exampleMeaning}</div>` : ''}
+            <div class="o">${escHTML(card.example || '')}</div>
+            ${card.examplePinyin ? `<div class="p">${escHTML(card.examplePinyin)}</div>` : ''}
+            ${card.exampleMeaning ? `<div class="m">${escHTML(card.exampleMeaning)}</div>` : ''}
           </div>
-          ${card.note ? `<div class="note">${card.note}</div>` : ''}
+          ${card.note ? `<div class="note">${escHTML(card.note)}</div>` : ''}
+          <button class="linkbtn card-ask" id="card-ask">Ask about this word ›</button>
           <div class="tap-hint">tap to flip back</div>
         </div>
       </div>
@@ -327,25 +433,19 @@ function renderVocab() {
       <button class="btn-know" id="know">Got it</button>
     </div>` : ``}`;
 
-  wireDeckControls();
-  $('#flash').onclick = e => { if (e.target.id === 'speak') return; vFlipped = !vFlipped; $('#flash').classList.toggle('flipped'); };
+  $('#flash').onclick = e => {
+    if (e.target.closest('#speak') || e.target.closest('#card-ask')) return;
+    vFlipped = !vFlipped; $('#flash').classList.toggle('flipped');
+  };
   const sp = $('#speak'); if (sp) sp.onclick = e => { e.stopPropagation(); speak(card); };
-  const go = d => { vIdx = Math.min(Math.max(vIdx + d, 0), vQueue.length - 1); vFlipped = false; renderVocab(); };
+  const ask = $('#card-ask'); if (ask) ask.onclick = e => { e.stopPropagation(); focusChatOn(card); };
+  const go = d => { vIdx = Math.min(Math.max(vIdx + d, 0), vQueue.length - 1); vFlipped = false; renderVocabBody(); };
   $('#prev').onclick = () => go(-1);
   $('#next').onclick = () => go(1);
   if (vScope === 'due') {
     $('#again').onclick = () => grade(card, false);
     $('#know').onclick = () => grade(card, true);
   }
-}
-
-function wireDeckControls() {
-  $$('.seg-filter.scope button').forEach(b => b.onclick = () => {
-    vScope = b.dataset.s; vIdx = 0; rebuildQueue(); renderVocab();
-  });
-  $$('.seg-filter.lang button').forEach(b => b.onclick = () => {
-    vFilter = b.dataset.l; vIdx = 0; rebuildQueue(); renderVocab();
-  });
 }
 
 // Records the SRS schedule for the next day but never removes the card from the
@@ -357,7 +457,7 @@ function grade(card, known) {
   S.srs[card.id] = { box, due: t + SRS_DAYS[box] };
   saveState();
   toast(known ? 'Got it' : 'Will resurface');
-  if (vIdx < vQueue.length - 1) { vIdx++; vFlipped = false; renderVocab(); }
+  if (vIdx < vQueue.length - 1) { vIdx++; vFlipped = false; renderVocabBody(); }
 }
 
 function speak(card) {
@@ -366,6 +466,146 @@ function speak(card) {
   u.lang = card.lang === 'Mandarin' ? 'zh-CN' : 'fil-PH';
   u.rate = card.lang === 'Mandarin' ? 0.75 : 0.9;
   speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+
+// ================= VOCAB CHAT =================
+// A tutor chatbot for follow-up questions. Talks to /api/chat (a serverless
+// function that proxies Anthropic). Degrades gracefully to a clear message when
+// the endpoint isn't deployed (e.g. static hosting) or has no API key.
+let chatMsgs = Array.isArray(S.chat) ? S.chat.slice(-20) : []; // {role:'user'|'assistant'|'error', text}
+let chatCard = null;   // card the next question is "about", shown as a context chip
+let chatBusy = false;
+
+function mdLite(t) {
+  return escHTML(t)
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\n/g, '<br>');
+}
+
+function renderChat() {
+  const el = $('#v-chat'); if (!el) return;
+  const open = S.chatOpen !== false;
+  el.innerHTML = `
+    <div class="chatwrap ${open ? '' : 'collapsed'}" id="chatwrap">
+      <button class="chathead" id="chathead">
+        <span>💬 Ask about the words</span>
+        <span class="chattoggle">${open ? '▾' : '▸'}</span>
+      </button>
+      <div class="chatpanel">
+        <div class="chatlog" id="chatlog"></div>
+        <div class="chatctx" id="chatctx"></div>
+        <div class="chatbar">
+          <input id="chatq" placeholder="e.g. how is 一旦 different from 如果?" autocomplete="off">
+          <button id="chatsend" aria-label="Send">➤</button>
+        </div>
+      </div>
+    </div>`;
+
+  $('#chathead').onclick = () => {
+    const nowOpen = !(S.chatOpen !== false);
+    S.chatOpen = nowOpen; saveState();
+    $('#chatwrap').classList.toggle('collapsed', !nowOpen);
+    $('#chathead .chattoggle').textContent = nowOpen ? '▾' : '▸';
+  };
+  $('#chatsend').onclick = submitChat;
+  $('#chatq').onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); submitChat(); } };
+  paintChatLog();
+  paintChatCtx();
+}
+
+function paintChatLog() {
+  const log = $('#chatlog'); if (!log) return;
+  if (!chatMsgs.length && !chatBusy) {
+    log.innerHTML = `<div class="chat-empty muted small">Ask anything about these words — meanings, tone, register, how two near-synonyms differ, or ask for a fresh example sentence.</div>`;
+    return;
+  }
+  log.innerHTML = chatMsgs.map(m => {
+    const cls = m.role === 'assistant' ? 'assistant' : m.role === 'error' ? 'error' : 'user';
+    const html = m.role === 'assistant' ? mdLite(m.text) : escHTML(m.text);
+    return `<div class="msg ${cls}">${html}</div>`;
+  }).join('') + (chatBusy
+    ? `<div class="msg assistant thinking"><span class="dots"><i></i><i></i><i></i></span></div>` : '');
+  log.scrollTop = log.scrollHeight;
+}
+
+function paintChatCtx() {
+  const c = $('#chatctx'); if (!c) return;
+  if (chatCard) {
+    c.innerHTML = `<span class="ctxchip">Re: <b>${escHTML(chatCard.word)}</b> `
+      + `${escHTML(chatCard.pinyin || chatCard.pronunciation || '')} <button id="ctxclear" aria-label="Clear">✕</button></span>`;
+    $('#ctxclear').onclick = () => { chatCard = null; paintChatCtx(); };
+  } else {
+    c.innerHTML = '';
+  }
+}
+
+// Open the chat, point it at a specific card, and focus the input.
+function focusChatOn(card) {
+  chatCard = card;
+  S.chatOpen = true; saveState();
+  const wrap = $('#chatwrap');
+  if (wrap) {
+    wrap.classList.remove('collapsed');
+    $('#chathead .chattoggle').textContent = '▾';
+    paintChatCtx();
+    const q = $('#chatq');
+    if (q) { q.focus(); wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  }
+  toast('Ask about ' + card.word);
+}
+
+function pickCtx(c) {
+  return {
+    lang: c.lang, word: c.word, pinyin: c.pinyin || c.pronunciation || '', meaning: c.meaning,
+    example: c.example || '', examplePinyin: c.examplePinyin || '',
+    exampleMeaning: c.exampleMeaning || '', note: c.note || '', date: c.date,
+  };
+}
+function persistChat() { chatMsgs = chatMsgs.slice(-20); S.chat = chatMsgs; saveState(); }
+
+async function submitChat() {
+  const q = $('#chatq'); if (!q) return;
+  const text = q.value.trim();
+  if (!text || chatBusy) return;
+  q.value = '';
+  chatMsgs.push({ role: 'user', text });
+  persistChat();
+  chatBusy = true; paintChatLog();
+  try {
+    const reply = await callChat();
+    chatBusy = false;
+    chatMsgs.push({ role: 'assistant', text: reply });
+  } catch (e) {
+    chatBusy = false;
+    chatMsgs.push({ role: 'error', text: e.message || String(e) });
+  }
+  persistChat(); paintChatLog();
+}
+
+async function callChat() {
+  const history = chatMsgs
+    .filter(m => m.role === 'user' || m.role === 'assistant')
+    .slice(-10)
+    .map(m => ({ role: m.role, content: m.text }));
+  const payload = {
+    messages: history,
+    card: chatCard ? pickCtx(chatCard) : null,
+    deck: (DECK || []).map(pickCtx),
+  };
+  let r;
+  try {
+    r = await fetch('/api/chat', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload),
+    });
+  } catch {
+    throw new Error('Can’t reach the chat service — check your connection.');
+  }
+  if (r.status === 404) throw new Error('Chat isn’t available on this deployment yet.');
+  let data;
+  try { data = await r.json(); } catch { throw new Error('Chat service returned an unexpected response.'); }
+  if (!r.ok || data.error) throw new Error(data.error || `Chat error (${r.status}).`);
+  return data.reply || '(no response)';
 }
 
 // ================= ARCHIVE =================

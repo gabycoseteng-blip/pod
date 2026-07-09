@@ -1,5 +1,5 @@
 /* The Morning Commute — service worker: offline shell + runtime cache for episodes/audio. */
-const SHELL = 'commute-shell-v6';
+const SHELL = 'commute-shell-v7';
 const RUNTIME = 'commute-runtime-v3';
 const SHELL_FILES = [
   './', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest',

@@ -3,7 +3,7 @@
 A no-build, installable **PWA** for the daily two-host news podcast:
 
 - **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point.
-- **Vocab** — flashcards for the daily Mandarin + Tagalog words, with a lightweight Leitner **spaced-repetition** schedule across the whole archive. Flip for meaning / example / nuance, tap 🔊 to hear it.
+- **Vocab** — a reference + learning surface for the daily Mandarin + Tagalog words across the whole archive. **Cards** mode gives flippable flashcards with a lightweight Leitner **spaced-repetition** schedule (flip for meaning / example / nuance, tap 🔊 to hear it); **List** mode is a scannable, tap-to-expand reference for revisiting old lessons. A **search** box filters everything (words, pinyin, meanings, notes), and a built-in **tutor chatbot** answers follow-up questions about any word (see *Vocab chat* below).
 - **Search** — full-text search across every episode's transcript + vocab, with highlighted snippets; tap a result to open it. Runs client-side off a prebuilt `data/search.json`.
 - **Archive** — every past episode, newest first; tap to open.
 
@@ -19,6 +19,16 @@ python3 -m http.server 8000     # then open http://localhost:8000
 ## Deploy (pick one)
 - **GitHub Pages:** push this repo, then Settings → Pages → deploy from `main` / root. `.nojekyll` is already included. Open the Pages URL on your phone → Share → Add to Home Screen.
 - **Vercel:** import the repo (framework preset: *Other*; output dir: root). `vercel.json` is included.
+
+### Vocab chat
+The Vocab tab has a built-in tutor chatbot for follow-up questions ("how is 一旦 different from 如果?", "give me another sentence with *banta*"). It's served by a tiny Vercel serverless function at [`api/chat.js`](api/chat.js) that proxies the Anthropic Messages API, so no key ever reaches the browser. To enable it, set project env vars in Vercel:
+
+```
+ANTHROPIC_API_KEY=sk-ant-…        # required
+CHAT_MODEL=claude-sonnet-5        # optional, this is the default
+```
+
+The client posts the current card + the whole (small) deck as context. Without the key — or on static hosts like GitHub Pages that don't run the function — the chat degrades gracefully with a "not set up" message; every other feature keeps working.
 
 ## The daily routine
 Each morning a scheduled **Claude routine** (Claude Code on the web → [Routines](https://claude.ai/code/routines)) runs the `/morning-commute` command (`.claude/commands/morning-commute.md`): it researches the day, writes the two-host script + `vocab.json`, renders audio with `routine/render_gemini.py` (Gemini multi-speaker TTS), and publishes with `tools/daily.sh`. The generation toolchain and editorial rules live in [`routine/`](routine/README.md); set a **Daily, 6:00 AM** schedule trigger on the routine and give its environment the R2 vars + `GEMINI_API_KEY`, with *Allow unrestricted branch pushes* so it can deploy to `main`.

@@ -142,3 +142,78 @@ a{color:var(--accent2)}
 .deck-nav{display:flex;gap:10px;margin:12px 0 0}
 .deck-nav .iconbtn{flex:1}
 .iconbtn:disabled{opacity:.4;cursor:default}
+
+/* ---- flashcard wrapping fix ---- */
+/* Faces are absolutely stacked for the 3D flip, so they inherit .inner's height.
+   Let long back content (detailed notes) scroll inside the card instead of
+   spilling past the rounded border, and force long tokens to wrap. */
+.flash .inner{min-height:clamp(320px,46vh,470px)}
+.face{overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+.face::-webkit-scrollbar{width:6px}
+.face::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
+.word,.roman,.meaning,.tones,.note,.ex .o,.ex .p,.ex .m,.lang-tag{
+  overflow-wrap:anywhere;word-break:normal;min-width:0}
+.face.back{gap:0}
+.face.back .meaning{margin-top:4px}
+.linkbtn{background:none;border:0;color:var(--accent2);font:inherit;font-weight:600;
+  cursor:pointer;padding:0}
+.card-ask{align-self:flex-start;margin-top:12px}
+
+/* ---- vocab reference list ---- */
+.vlist{display:flex;flex-direction:column;gap:8px}
+.vrow{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.vrow-head{width:100%;display:flex;align-items:center;gap:10px;background:none;border:0;
+  color:var(--text);text-align:left;cursor:pointer;padding:12px 14px;font:inherit}
+.vrow-main{display:flex;align-items:baseline;gap:10px;flex:1;min-width:0;flex-wrap:wrap}
+.vword{font-size:22px;font-weight:700;overflow-wrap:anywhere}
+.vroman{color:var(--accent);font-size:14px;font-weight:600;overflow-wrap:anywhere}
+.pill.lang-Mandarin{color:var(--accent2)} .pill.lang-Tagalog{color:var(--good)}
+.vchev{color:var(--muted);transition:transform .2s;flex:0 0 auto}
+.vrow.open .vchev{transform:rotate(90deg)}
+.vrow-meaning{padding:0 14px 12px;color:var(--text)}
+.vrow.open .vrow-meaning{padding-bottom:8px}
+.vrow-detail{display:none;padding:0 14px 12px;border-top:1px solid var(--line);margin-top:2px}
+.vrow.open .vrow-detail{display:block;padding-top:12px}
+.vrow-detail .ex{margin-top:0}
+.vrow-foot{display:flex;align-items:center;gap:12px;margin-top:10px;flex-wrap:wrap}
+.vrow-speak{margin-left:0}
+
+/* ---- vocab chat ---- */
+.chatwrap{margin-top:18px;border:1px solid var(--line);border-radius:16px;
+  background:var(--panel);overflow:hidden}
+.chathead{width:100%;display:flex;align-items:center;justify-content:space-between;
+  background:var(--panel2);border:0;color:var(--text);font:600 14px/1 inherit;
+  padding:13px 15px;cursor:pointer}
+.chattoggle{color:var(--muted)}
+.chatpanel{display:flex;flex-direction:column}
+.chatwrap.collapsed .chatpanel{display:none}
+.chatlog{max-height:46vh;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;
+  -webkit-overflow-scrolling:touch}
+.chat-empty{padding:6px 2px;line-height:1.5}
+.msg{max-width:88%;padding:9px 13px;border-radius:14px;font-size:14.5px;line-height:1.5;
+  overflow-wrap:anywhere;white-space:normal}
+.msg.user{align-self:flex-end;background:var(--accent2);color:#04203f;border-bottom-right-radius:4px}
+.msg.assistant{align-self:flex-start;background:var(--panel2);border:1px solid var(--line);
+  border-bottom-left-radius:4px}
+.msg.error{align-self:flex-start;background:rgba(232,90,90,.14);border:1px solid rgba(232,90,90,.4);
+  color:#f2b8b8;font-size:13.5px}
+.msg code{background:rgba(255,255,255,.08);border-radius:5px;padding:1px 5px;font-size:.92em}
+.msg.thinking{padding:12px 14px}
+.dots{display:inline-flex;gap:4px}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--muted);opacity:.4;
+  animation:blink 1.2s infinite}
+.dots i:nth-child(2){animation-delay:.2s} .dots i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,60%,100%{opacity:.3} 30%{opacity:1}}
+.chatctx{padding:0 14px}
+.ctxchip{display:inline-flex;align-items:center;gap:6px;background:var(--panel2);
+  border:1px solid var(--line);border-radius:999px;padding:4px 6px 4px 11px;font-size:12.5px;color:var(--muted)}
+.ctxchip b{color:var(--text)}
+.ctxchip button{background:none;border:0;color:var(--muted);cursor:pointer;font-size:13px;
+  line-height:1;padding:2px 4px;border-radius:50%}
+.chatbar{display:flex;gap:8px;padding:12px 14px 14px}
+.chatbar input{flex:1;min-width:0;background:var(--panel2);border:1px solid var(--line);color:var(--text);
+  border-radius:12px;padding:11px 13px;font:inherit;font-size:15px}
+.chatbar input:focus{outline:none;border-color:var(--accent2)}
+.chatbar button{flex:0 0 auto;width:46px;border:0;border-radius:12px;background:var(--accent);
+  color:#1a1206;font-size:17px;cursor:pointer}
+.chatbar button:active{opacity:.85}

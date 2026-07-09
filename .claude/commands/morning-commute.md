@@ -26,7 +26,7 @@ sharp generalist (voice Charon). Stay on the `main` branch so the publish deploy
 date="$(date +%F)"          # YYYY-MM-DD — used in every filename
 git checkout main 2>/dev/null || true
 git pull --rebase origin main 2>/dev/null || true   # start from the live tip, not a stale clone
-pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); render/upload fail cold without them
+pip install -q -r "$(git rev-parse --show-toplevel 2>/dev/null || echo .)/tools/requirements.txt" 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a repo SessionStart hook also does this — render/upload fail cold without them
 tail -n 60 data/history.jsonl 2>/dev/null   # what recent shows already covered
 ```
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`

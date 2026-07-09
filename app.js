@@ -10,13 +10,23 @@ audio.preload = 'metadata';
 const AUDIO_CACHE = 'commute-runtime-v2';   // must match RUNTIME in sw.js
 let INDEX = null, CUR = null, DECK = null, SEARCH = null;
 
+// live-transcript state (rebuilt per episode): flattened turns with estimated
+// start/end + per-word timings, so we can karaoke-highlight and click-to-seek.
+let TURNS = [], activeTurn = -1, activeWord = null, lastUserScroll = 0;
+
 // ---------- persisted state ----------
 const KEY = 'commute.v1';
 function loadState() {
   try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; }
 }
 function saveState() { localStorage.setItem(KEY, JSON.stringify(S)); }
-const S = Object.assign({ tab: 'listen', speed: 1.5, srs: {}, pos: {}, epDate: null }, loadState());
+const S = Object.assign({ tab: 'listen', speed: 1.5, srs: {}, pos: {}, epDate: null, follow: true }, loadState());
+
+// Any real user gesture pauses auto-follow for a few seconds so the transcript
+// doesn't yank back while you're reading ahead. (Listening to 'scroll' would also
+// catch our own programmatic scrollIntoView, so we watch input gestures instead.)
+['wheel', 'touchmove', 'pointerdown', 'keydown'].forEach(ev =>
+  window.addEventListener(ev, () => { lastUserScroll = Date.now(); }, { passive: true }));
 
 const fmtTime = s => {
   if (!isFinite(s)) return '0:00';
@@ -80,36 +90,193 @@ async function viewListen() {
       </div>
       <div class="offline-row">
         <button class="iconbtn" id="saveoff">⤓ Save audio for offline</button>
+        <button class="iconbtn" id="followbtn"></button>
         <span class="muted small" id="saveoff-state"></span>
       </div>` : `<div class="muted small" style="margin-top:8px">Audio not available for this episode — script only.</div>`}
       <div class="chips" id="chips" style="margin-top:12px"></div>
-      ${audioUrl ? `<div class="approx">Segment jumps are approximate (estimated from script length).</div>` : ``}
+      ${audioUrl ? `<div class="approx">Timings are estimated from script length — tap any line to jump.</div>` : ``}
     </section>
+    <div id="findwrap"></div>
     <div id="script"></div>`;
+
+  // estimate per-turn / per-word timings up front (segments already carry startSec)
+  computeTiming(CUR);
 
   // chips
   const chips = $('#chips');
   CUR.segments.forEach((sg, i) => {
     const c = document.createElement('button'); c.className = 'chip'; c.textContent = sg.label;
     c.onclick = () => {
-      if (audioUrl && isFinite(sg.startSec)) audio.currentTime = sg.startSec;
+      if (audioUrl && isFinite(sg.startSec)) { audio.currentTime = sg.startSec; audio.play().catch(() => {}); }
       $(`#seg-${i}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
     chips.append(c);
   });
 
-  // transcript
-  $('#script').innerHTML = CUR.segments.map((sg, i) => `
-    <section class="seg" id="seg-${i}">
-      <h3>${sg.label}</h3>
-      ${sg.turns.map(t => {
-        const who = t.speaker === 'ALEX' ? 'alex' : 'sam';
-        const name = t.speaker === 'ALEX' ? 'ALEX' : 'SAM';
-        return `<div class="turn ${who}"><div class="who">${name}</div><div class="txt">${t.text}</div></div>`;
-      }).join('')}
-    </section>`).join('');
+  // find-in-episode bar (search the transcript, jump between hits, tap to seek)
+  $('#findwrap').innerHTML = `
+    <div class="findbar">
+      <input type="search" id="find" placeholder="Find in this episode…" autocomplete="off">
+      <span class="findcount muted small" id="findcount"></span>
+      <button class="iconbtn findnav" id="findprev" title="Previous match" disabled>‹</button>
+      <button class="iconbtn findnav" id="findnext" title="Next match" disabled>›</button>
+    </div>`;
+
+  // transcript: word-level spans so we can karaoke-highlight + click-to-seek
+  buildTranscript(audioUrl);
+  wireFind();
 
   if (audioUrl) setupPlayer(audioUrl, date);
+}
+
+// Distribute the episode duration across turns (and words within a turn) by their
+// share of total spoken characters. TTS gives no real word timings, so this is an
+// estimate — but a per-word one, smooth enough to follow along and seek by.
+function computeTiming(ep) {
+  const dur = ep.durationSec || 0;
+  const flat = [];
+  ep.segments.forEach(sg => sg.turns.forEach(t => flat.push(t)));
+  const total = flat.reduce((n, t) => n + t.text.length, 0) || 1;
+  let elapsed = 0;
+  flat.forEach(t => {
+    t.charLen = t.text.length || 1;
+    t.startSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
+    elapsed += t.text.length;
+    t.endSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
+  });
+  ep.segments.forEach(sg => { if (sg.turns.length && dur) sg.startSec = sg.turns[0].startSec; });
+}
+
+function buildTranscript(audioUrl) {
+  const root = $('#script');
+  root.innerHTML = '';
+  TURNS = []; activeTurn = -1; activeWord = null;
+  CUR.segments.forEach((sg, i) => {
+    const sec = document.createElement('section');
+    sec.className = 'seg'; sec.id = 'seg-' + i;
+    const h = document.createElement('h3'); h.textContent = sg.label; sec.append(h);
+    sg.turns.forEach(t => sec.append(buildTurn(t, audioUrl)));
+    root.append(sec);
+  });
+}
+
+function buildTurn(t, audioUrl) {
+  const gi = TURNS.length;
+  const who = t.speaker === 'ALEX' ? 'alex' : 'sam';
+  const wrap = document.createElement('div');
+  wrap.className = 'turn ' + who;
+  wrap.id = 'turn-' + gi;
+  const whoEl = document.createElement('div'); whoEl.className = 'who';
+  whoEl.textContent = t.speaker === 'ALEX' ? 'ALEX' : 'SAM';
+  const txt = document.createElement('div'); txt.className = 'txt';
+
+  const span = (t.startSec != null) ? (t.endSec - t.startSec) : 0;
+  const words = [];
+  let c = 0;
+  (t.text.match(/\S+\s*/g) || [t.text]).forEach(chunk => {
+    const core = chunk.replace(/\s+$/, ''); const tail = chunk.slice(core.length);
+    const w = document.createElement('span'); w.className = 'w'; w.textContent = core;
+    if (t.startSec != null) {
+      const s = t.startSec + (c / t.charLen) * span; c += core.length;
+      const e = t.startSec + (c / t.charLen) * span; c += tail.length;
+      w.dataset.s = s; w.dataset.e = e;
+      words.push({ s, e, el: w });
+    }
+    txt.append(w);
+    if (tail) txt.append(document.createTextNode(tail));
+  });
+
+  wrap.append(whoEl, txt);
+  if (t.startSec != null) { wrap.dataset.start = t.startSec; wrap.dataset.end = t.endSec; }
+  TURNS.push({ gi, start: t.startSec, end: t.endSec, el: wrap, words, text: t.text });
+
+  // tap a line (or a specific word) to seek the audio there
+  wrap.addEventListener('click', ev => {
+    if (!audioUrl || t.startSec == null) return;
+    const hit = ev.target.closest('.w');
+    const to = (hit && hit.dataset.s != null) ? +hit.dataset.s : t.startSec;
+    if (isFinite(to)) { audio.currentTime = to; audio.play().catch(() => {}); }
+  });
+  return wrap;
+}
+
+// Karaoke pass: mark the current line (.speaking), words already spoken (.said),
+// and the word being spoken now (.now). Called on every timeupdate.
+function renderHighlight(now) {
+  if (!TURNS.length) return;
+  // active turn = last one whose start <= now (TURNS is start-ascending)
+  let lo = 0, hi = TURNS.length - 1, act = -1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (TURNS[mid].start != null && TURNS[mid].start <= now) { act = mid; lo = mid + 1; }
+    else hi = mid - 1;
+  }
+  if (act !== activeTurn) {
+    if (activeTurn >= 0) {
+      TURNS[activeTurn].el.classList.remove('speaking');
+      TURNS[activeTurn].words.forEach(w => w.el.classList.remove('said', 'now'));
+    }
+    if (act >= 0) { TURNS[act].el.classList.add('speaking'); if (S.follow) followScroll(TURNS[act].el); }
+    activeTurn = act; activeWord = null;
+  }
+  if (act < 0) return;
+
+  let cur = null;
+  TURNS[act].words.forEach(w => {
+    const said = now >= w.e;
+    w.el.classList.toggle('said', said);
+    if (now >= w.s && now < w.e) cur = w.el;
+    else if (now >= w.s) cur = w.el; // in a gap → keep the last word lit
+  });
+  if (cur !== activeWord) {
+    if (activeWord) activeWord.classList.remove('now');
+    if (cur) cur.classList.add('now');
+    activeWord = cur;
+  }
+}
+
+function followScroll(el) {
+  if (Date.now() - lastUserScroll < 4000) return;      // user is reading elsewhere
+  const r = el.getBoundingClientRect();
+  if (r.top < 250 || r.bottom > window.innerHeight - 110)
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function wireFind() {
+  const inp = $('#find'), count = $('#findcount'), prev = $('#findprev'), next = $('#findnext');
+  if (!inp) return;
+  let matches = [], mi = -1;
+  const clearHits = () => $$('#script .w.find, #script .w.findcur')
+    .forEach(w => w.classList.remove('find', 'findcur'));
+
+  const run = () => {
+    clearHits(); matches = []; mi = -1;
+    const q = inp.value.trim().toLowerCase();
+    if (q.length < 2) { count.textContent = ''; prev.disabled = next.disabled = true; return; }
+    TURNS.forEach(tn => {
+      if (!tn.text.toLowerCase().includes(q)) return;
+      const wordHits = tn.words.filter(w => w.el.textContent.toLowerCase().includes(q));
+      // phrase spanning multiple words: fall back to marking the line's first word
+      (wordHits.length ? wordHits : tn.words.slice(0, 1)).forEach(w => {
+        w.el.classList.add('find'); matches.push(w.el);
+      });
+    });
+    count.textContent = matches.length ? `${matches.length} match${matches.length === 1 ? '' : 'es'}` : 'no matches';
+    prev.disabled = next.disabled = matches.length === 0;
+    if (matches.length) { mi = 0; focusMatch(); }
+  };
+  const focusMatch = () => {
+    matches.forEach(w => w.classList.remove('findcur'));
+    const w = matches[mi]; if (!w) return;
+    w.classList.add('findcur');
+    w.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    count.textContent = `${mi + 1} / ${matches.length}`;
+  };
+  const step = d => { if (matches.length) { mi = (mi + d + matches.length) % matches.length; focusMatch(); } };
+  inp.oninput = run;
+  inp.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); step(e.shiftKey ? -1 : 1); } };
+  prev.onclick = () => step(-1);
+  next.onclick = () => step(1);
 }
 
 function setupPlayer(url, date) {
@@ -129,6 +296,11 @@ function setupPlayer(url, date) {
     speeds.append(b);
   });
 
+  const fb = $('#followbtn');
+  const fbLabel = () => { if (fb) fb.textContent = S.follow ? '↧ Auto-scroll: on' : '↧ Auto-scroll: off'; };
+  if (fb) fb.onclick = () => { S.follow = !S.follow; saveState(); fbLabel(); if (S.follow) { lastUserScroll = 0; renderHighlight(audio.currentTime); } };
+  fbLabel();
+
   const sync = () => { play.textContent = audio.paused ? '▶' : '❚❚'; };
   play.onclick = () => { audio.paused ? audio.play() : audio.pause(); };
   audio.onplay = audio.onpause = sync; sync();
@@ -143,12 +315,15 @@ function setupPlayer(url, date) {
     if (!seeking) { seek.value = Math.round(audio.currentTime / d * 1000); cur.textContent = fmtTime(audio.currentTime); }
     S.pos[date] = audio.currentTime;            // resume point
     if ((audio.currentTime | 0) % 5 === 0) saveState();
-    // highlight active segment
+    const now = audio.currentTime;
+    renderHighlight(now);                        // live line + word karaoke
+    // highlight active segment (chips + section headers)
     let act = 0;
-    CUR.segments.forEach((sg, i) => { if (isFinite(sg.startSec) && audio.currentTime >= sg.startSec) act = i; });
+    CUR.segments.forEach((sg, i) => { if (isFinite(sg.startSec) && now >= sg.startSec) act = i; });
     $$('#script .seg').forEach((el, i) => el.classList.toggle('active', i === act));
     $$('#chips .chip').forEach((el, i) => el.classList.toggle('on', i === act));
   };
+  renderHighlight(audio.currentTime);            // reflect resumed position immediately
 
   wireSaveOffline(url);
 

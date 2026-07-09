@@ -25,6 +25,8 @@ sharp generalist (voice Charon). Stay on the `main` branch so the publish deploy
 ```bash
 date="$(date +%F)"          # YYYY-MM-DD — used in every filename
 git checkout main 2>/dev/null || true
+git pull --rebase origin main 2>/dev/null || true   # start from the live tip, not a stale clone
+pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); render/upload fail cold without them
 tail -n 60 data/history.jsonl 2>/dev/null   # what recent shows already covered
 ```
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`
@@ -76,16 +78,30 @@ relies on:
 - **Write numbers as numerals** so the script is easy to read — `74.73`,
   `37 bps`, `2027`, `$3.2 trillion`, `1.5%`. Keep the unit/word right next to the
   figure so it's unambiguous when read aloud (the TTS handles digits fine).
-- **Length target (this controls the duration):** write **~18,000–20,000
-  characters** of `ALEX:`/`SAM:` dialogue (≈ 3,000–3,400 words ≈ 35–40 min of
-  audio at ~8 chars per audio-second). The 2026-06-23 example is ~18.2k chars /
-  37 min — match that scale. Before rendering, count the dialogue characters:
+- **Length target (this controls the duration — get it right the FIRST time so
+  you render once, not twice):** the hard gate is step 7's guardrail —
+  `durationSec` must be **≥ 1500** (25 min). The current renderer
+  (`render_gemini.py` + `gemini-2.5-flash-preview-tts`) speaks **~19 characters of
+  dialogue per audio-second** — measured, not the old ~8 figure — so **~18–20k
+  chars renders only ~16–17 min and FAILS the guardrail.** Write **~30,000–33,000
+  characters** of `ALEX:`/`SAM:` dialogue (≈ 5,000–5,600 words) to land **~26–29
+  min**, comfortably clearing the 25-min floor with margin. Before rendering,
+  count with a Unicode-aware counter (`wc -c` counts bytes and over-counts the
+  Mandarin/Tagalog vocab segment ~3x):
   ```bash
-  grep -hoE '^(ALEX|SAM):.*' routine/commute-two-host-script-$date.md | wc -c
+  python3 - "routine/commute-two-host-script-$date.md" <<'PY'
+  import re, sys
+  t = open(sys.argv[1], encoding='utf-8').read()
+  d = '\n'.join(m.group(0) for m in re.finditer(r'^(ALEX|SAM):.*', t, re.M))
+  print(f"{len(d)} dialogue chars  ~{round(len(d)/19)}s  (~{round(len(d)/19/60,1)} min)")
+  PY
   ```
-  If under ~16,000, expand the substantive segments (Headlines, Energy,
+  If under ~29,000, expand the substantive segments (Headlines, Energy,
   Philippines, Vocab) with more real content — never pad or repeat; if over
-  ~21,000, trim wording. Do this **before** step 4 so you don't render a bad length.
+  ~35,000, trim wording. Do this **before** step 5 so you don't render a bad
+  length and burn a second render. (If the render voice/model is ever changed,
+  re-measure chars-per-second from one short calibration render and update this
+  number — the char target follows the engine's pace.)
 - Hosts announce each segment; no run-of-show in the cold open; the meme segment
   **reports** the meme (no performed bit); close on One Good Thing.
 - **VOCAB OF THE DAY — conduct the whole segment IN-LANGUAGE** (immersion, not a

@@ -1,0 +1,38 @@
+{
+  "throughline": "The war premium is back: the Iran ceasefire collapsed, oil and yields surge and reverse June's disinflation relief, yet the AI/semis buildout roars and the chip trade leads",
+  "stories": [
+    "iran-ceasefire-over-us-resumes-strikes-irgc-hits-bases-kuwait-bahrain-hormuz-closure-threat",
+    "nato-ankara-summit-ukraine-patriot-production-license-70bn-eur-aid-greenland-friction",
+    "us-market-overview-dow-down-577-1pct-nasdaq-green-semis-lead-reverse-rotation",
+    "ten-year-456-thirty-year-above-5pct-oil-shock-yields-back-up",
+    "brent-settles-78-intraday-8059-wti-7352-war-premium-returns",
+    "mortgage-rates-jump-housing-reprices-inverse-of-june-kb-home-trade",
+    "apple-broadcom-30bn-us-chip-deal-15bn-chips-fort-collins-american-manufacturing-program",
+    "pepsico-q2-6.4pct-revenue-2.4pct-organic-pricing-power-volume-soft",
+    "japan-takaichi-fiscal-yen-sinks-jgb-yields-multidecade-high-carry-warning",
+    "russia-diesel-export-ban-ukraine-drone-strikes-refineries",
+    "china-zhipu-ai-4bn-deepseek-7bn-raises-open-weight-models-ai-race",
+    "fed-june-minutes-hawkish-ai-electricity-inflation-warsh-upside-risks",
+    "semianalysis-onsite-gas-boom-openai-oracle-2.3gw-xai-turbines-caterpillar-bloom",
+    "us-ai-power-3gw-2023-to-28gw-2026-texas-grid-sold-out-interconnection-queue",
+    "hyperscaler-capex-602bn-2026-plus36pct-comed-345kv-substations-550mw-wind",
+    "nvidia-forward-pe-22x-multiyear-low-trade-wobbles-buildout-roars",
+    "philippines-super-typhoon-bavi-inday-habagat-bsp-4.75-one-more-hike-peso-61.62-record",
+    "ariana-grande-petal-first-independent-olivia-rodrigo-no1-madonna-diva-summer",
+    "meme-bangladesh-ian-mcconnell-absurdist-escalation-food-jutsu-hot-dog-summer",
+    "one-good-thing-dudgeon-walking-shark-png-exercise-ageing-muscle-switch"
+  ],
+  "explainers": [
+    "war-premium-going-back-into-oil-hormuz-closure-tail-risk-returns",
+    "reverse-rotation-rising-yields-oil-hit-cyclicals-dow-while-semis-lead-nasdaq",
+    "rates-vol-move-index-not-equity-vix-drives-the-tape",
+    "mortgage-rate-as-affordability-lever-off-the-ten-year-inverse-housing-trade",
+    "fed-names-ai-power-demand-as-an-inflation-input-electricity-in-the-minutes",
+    "onsite-behind-the-meter-gas-generation-as-response-to-sold-out-interconnection-queue",
+    "turbine-engine-manufacturing-as-the-binding-constraint-caterpillar-bloom-capacity",
+    "jgb-yields-at-multidecade-high-tighten-global-carry-funding-leg",
+    "peso-defense-and-inflation-fight-become-one-fight-when-oil-rises",
+    "ai-trade-sentiment-clock-vs-ai-buildout-concrete-and-copper-clock-nvidia-de-rating"
+  ],
+  "comment": "stories = every distinct item covered; explainers = concepts actually explained so they are not re-explained. Vocab (一旦, 局势, banta, hagupit) folds in automatically from vocab.json."
+}

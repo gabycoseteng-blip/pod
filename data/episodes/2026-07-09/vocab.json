@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-09",
+  "cards": [
+    {
+      "id": "2026-07-09-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yídàn",
+      "pronunciation": "yee dahn",
+      "tones": "2 · 4",
+      "meaning": "once; in the event that (a hypothetical trigger with serious consequences)",
+      "example": "一旦霍尔木兹海峡关闭，油价就会飞涨。",
+      "examplePinyin": "yídàn Huò'ěrmùzī Hǎixiá guānbì, yóujià jiù huì fēizhǎng",
+      "exampleMeaning": "Once the Strait of Hormuz closes, oil prices will soar.",
+      "note": "HSK-4 advanced connective; register leans 书面语/formal. Signature pattern: 一旦…就… ('once…, then…'). Near-synonym contrast vs 如果 (rúguǒ): 如果 is a neutral 'if'; 一旦 marks a threshold/tipping point whose consequences are serious and often irreversible — more written and more charged. (一 is pronounced yí here by tone sandhi before the 4th-tone 旦.)",
+      "tiesTo": "the Hormuz-closure tail risk after the Iran ceasefire collapse"
+    },
+    {
+      "id": "2026-07-09-zh-2",
+      "lang": "Mandarin",
+      "word": "局势",
+      "pinyin": "júshì",
+      "pronunciation": "jyoo shr",
+      "tones": "2 · 4",
+      "meaning": "situation; state of affairs (usually political or military)",
+      "example": "中东局势非常紧张，推高了油价和收益率。",
+      "examplePinyin": "Zhōngdōng júshì fēicháng jǐnzhāng, tuī gāole yóujià hé shōuyìlǜ",
+      "exampleMeaning": "The Middle East situation is very tense, pushing up oil prices and yields.",
+      "note": "HSK-4 abstract collocation, formal/written register. Collocations: 局势紧张 (a tense situation), 局势稳定, 局势升级 (an escalating situation). Near-synonym contrast vs 形势 (xíngshì): 局势 is a specific, often tense standoff — political or military (a war situation); 形势 is broader, the overall trend or circumstances (e.g. 经济形势, the economic situation).",
+      "tiesTo": "the Middle East situation driving the oil and yields reversal"
+    },
+    {
+      "id": "2026-07-09-tl-1",
+      "lang": "Tagalog",
+      "word": "banta",
+      "pinyin": "",
+      "pronunciation": "BAN-ta",
+      "tones": "",
+      "meaning": "a threat; a looming menace or warning",
+      "example": "May banta ng digmaan sa Gitnang Silangan at banta rin ng malakas na bagyo.",
+      "examplePinyin": "",
+      "exampleMeaning": "There's a threat of war in the Middle East and also the threat of a strong storm.",
+      "note": "Native-speaker contrast vs peligro (both often render as 'danger'): banta is the looming, approaching threat — a warning, something not here yet (banta ng bagyo, banta ng digmaan); peligro is the actual peril you are already in. Banta is what's coming; peligro is what's here.",
+      "tiesTo": "the Iran escalation and the approaching Super Typhoon Inday"
+    },
+    {
+      "id": "2026-07-09-tl-2",
+      "lang": "Tagalog",
+      "word": "hagupit",
+      "pinyin": "",
+      "pronunciation": "ha-GU-pit",
+      "tones": "",
+      "meaning": "a lashing; the violent onslaught or battering of a storm",
+      "example": "Hinagupit ng bagyo at ng habagat ang kanlurang baybayin ng Luzon.",
+      "examplePinyin": "",
+      "exampleMeaning": "The typhoon and the monsoon lashed the western coast of Luzon.",
+      "note": "Native-speaker nuance vs lakas (strength/force): lakas is neutral magnitude — just how strong; hagupit is the felt violent battering it delivers — the welt, the blow (ang latay, ang dagok). A storm isn't merely malakas; when it hinagupit, something got struck.",
+      "tiesTo": "Typhoon Inday and the enhanced habagat soaking western Luzon"
+    }
+  ]
+}

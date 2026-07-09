@@ -1,0 +1,36 @@
+{
+  "throughline": "June's disinflation trade runs in reverse — the Iran ceasefire breaks, war premium back in oil and Treasury yields, and a hawkish Warsh Fed names the AI buildout itself as an inflation engine",
+  "stories": [
+    "iran-june18-ceasefire-declared-over-hormuz-oil-respike-brent-78",
+    "nato-summit-turkey-ukraine-patriot-coproduction-license",
+    "drc-ebola-outbreak-ituri-500-dead-who-deadliest-start",
+    "us-market-overview-dow-leads-down-nasdaq-green-on-semis",
+    "10y-yields-back-up-456-warsh-first-minutes-cut-off-table",
+    "fed-minutes-chipflation-ai-power-demand-inflation-pce-raised-36",
+    "gold-4140-still-below-jan-record-silver-outpaces-debasement-bid",
+    "bitcoin-62k-half-year-high-not-playing-the-hedge",
+    "morgan-stanley-global-ma-record-6.4t-2026-eclipses-2021",
+    "nhtsa-robotaxi-danger-to-public-first-responder-interaction",
+    "japan-jgb-yields-multidecade-high-yen-162-takaichi-boj",
+    "france-le-pen-2027-presidential-run-embezzlement-monitor",
+    "china-zhipu-4b-deepseek-7b-ai-capex-arms-race",
+    "hyperscaler-capex-750b-2026-onsite-gas-50gw-first-nuclear-ppa",
+    "philippines-typhoon-inday-bavi-spares-luzon-enhances-habagat",
+    "philippines-bsp-4.75-two-hikes-core-4.4-peso-61.6-record",
+    "madonna-confessions-ii-jack-white-ariana-grande-nolan-odyssey",
+    "meme-america-250-semiquincentennial-format",
+    "one-good-thing-high-seas-treaty-in-force-dudgeon-walking-shark"
+  ],
+  "explainers": [
+    "war-premium-front-of-curve-vs-deferreds-hormuz-worst-hour",
+    "rates-tantrum-dow-value-selloff-vs-nasdaq-growth-holding",
+    "chipflation-ai-capex-as-self-tightening-inflation-loop-via-electricity",
+    "hyperscaler-marginal-dollar-is-electrical-balance-of-plant-not-gpu",
+    "onsite-gas-microgrids-skip-queue-turbine-oem-backlog-2028-2030",
+    "jgb-selloff-repatriation-lifts-global-term-premium-carry-funding",
+    "gold-debasement-hedge-vs-bitcoin-speculative-two-trades-same-label",
+    "ma-boom-composition-shifts-strategics-over-sponsors-if-rates-rise",
+    "robotaxi-regulatory-risk-repriced-permission-to-deploy-as-constraint"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained this episode so future shows don't repeat them. Advances the running Iran and AI-power stories with new developments (ceasefire collapse; Fed naming AI as inflation) rather than recapping."
+}

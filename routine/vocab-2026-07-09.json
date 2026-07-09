@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-09",
+  "cards": [
+    {
+      "id": "2026-07-09-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yī dàn",
+      "pronunciation": "ee dahn",
+      "tones": "1 · 4",
+      "meaning": "once; in the event that — a hypothetical condition whose consequence is near-inevitable",
+      "example": "一旦停火破裂，油价就上涨。",
+      "examplePinyin": "yī dàn tíng huǒ pò liè, yóu jià jiù shàng zhǎng",
+      "exampleMeaning": "Once the ceasefire breaks, oil prices rise.",
+      "note": "Advanced connective, 书面语 / news register. Stronger than 如果 (rúguǒ, 'if'): 一旦 marks a condition whose consequence follows almost inevitably, often carrying a note of worry. Lives in the 一旦……就…… frame — pair it with 就.",
+      "tiesTo": "Iran ceasefire collapse → oil re-spike"
+    },
+    {
+      "id": "2026-07-09-zh-2",
+      "lang": "Mandarin",
+      "word": "加剧",
+      "pinyin": "jiā jù",
+      "pronunciation": "jyah jyew",
+      "tones": "1 · 4",
+      "meaning": "to intensify; to aggravate — to make a bad situation more severe",
+      "example": "中东局势加剧了通胀压力。",
+      "examplePinyin": "zhōng dōng jú shì jiā jù le tōng zhàng yā lì",
+      "exampleMeaning": "The Middle East situation has intensified inflationary pressure.",
+      "note": "Abstract, 书面语 / finance-desk verb. Unlike neutral 增加 (zēngjiā, 'to increase' — a quantity goes up, can be good), 加剧 is almost always negative: 矛盾加剧, 危机加剧, 通胀加剧. You'd never say 加剧收入. Collocates with problem-words.",
+      "tiesTo": "tensions and inflation intensifying"
+    },
+    {
+      "id": "2026-07-09-tl-1",
+      "lang": "Tagalog",
+      "word": "balisá",
+      "pinyin": "",
+      "pronunciation": "ba-li-SÁ",
+      "tones": "",
+      "meaning": "restless, deep-seated anxiety; unsettled in mind",
+      "example": "Balisá ang mga mamumuhunan dahil sa pagbagsak ng tigil-putukan.",
+      "examplePinyin": "",
+      "exampleMeaning": "Investors are anxious because of the collapse of the ceasefire.",
+      "note": "Weightier than 'kabado.' Kabado is temporary and situational — nerves before a presentation. Balisá is deeper and lingering, an unsettled state you can't pin to one exact cause — the word for a whole market on edge, not just a passing case of nerves.",
+      "tiesTo": "the market tape on edge"
+    },
+    {
+      "id": "2026-07-09-tl-2",
+      "lang": "Tagalog",
+      "word": "pangambá",
+      "pinyin": "",
+      "pronunciation": "pa-ngam-BÁ",
+      "tones": "",
+      "meaning": "apprehension; foreboding dread about something that may happen",
+      "example": "May pangambá ang mga pamilyang Pilipino sa muling pagtaas ng presyo.",
+      "examplePinyin": "",
+      "exampleMeaning": "Filipino families feel apprehension over the renewed rise in prices.",
+      "note": "Future-focused and reasoned, unlike broad, immediate 'takot' (plain fear — takot sa aso, fear of a dog). Pangambá is apprehension with a basis — over inflation, over a storm — and lands almost like a forecast. A higher, more deliberate register.",
+      "tiesTo": "households' fear as oil and food prices climb again"
+    }
+  ]
+}

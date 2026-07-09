@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-09",
+  "cards": [
+    {
+      "id": "2026-07-09-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yídàn",
+      "pronunciation": "yee-DAHN",
+      "tones": "2 · 4",
+      "meaning": "once; in the event that (once X happens, then Y follows)",
+      "example": "一旦霍尔木兹海峡受到威胁，油价就会立刻上涨。",
+      "examplePinyin": "yídàn Huò'ěrmùzī hǎixiá shòudào wēixié, yóujià jiù huì lìkè shàngzhǎng",
+      "exampleMeaning": "Once the Strait of Hormuz is threatened, oil prices jump immediately.",
+      "note": "HSK-4 advanced connective, 书面语/formal — a news-and-finance-desk word. Signature pattern: 一旦……就…… (a condition in front, an inevitable result behind). Near-synonym contrast vs 如果 (rúguǒ): 如果 is a neutral 'if' — maybe, maybe not; 一旦 is weightier — it assumes the thing really will happen, and once it does, the consequence can't be avoided. (Tone sandhi: 一 shifts to 2nd tone before the 4th-tone 旦.)",
+      "tiesTo": "the Iran ceasefire collapse — once Hormuz is threatened, the oil war-premium snaps back"
+    },
+    {
+      "id": "2026-07-09-zh-2",
+      "lang": "Mandarin",
+      "word": "估计",
+      "pinyin": "gūjì",
+      "pronunciation": "goo-JEE",
+      "tones": "1 · 4",
+      "meaning": "to estimate; to reckon; an estimate/guess",
+      "example": "市场估计今年不会降息了。",
+      "examplePinyin": "shìchǎng gūjì jīnnián bù huì jiàngxī le",
+      "exampleMeaning": "The market reckons there'll be no rate cuts this year.",
+      "note": "HSK-4 abstract verb. Register is the whole lesson: 估计 leans 口语/informal — an everyday guess or hunch. Near-synonym contrast vs 预计 (yùjì, 'to forecast/project'): 预计 is 书面语/formal — the word an institution or analyst uses in a report. Same idea, different setting: 你跟朋友说估计，财经报告里写预计 (you say gūjì to a friend; a report writes yùjì).",
+      "tiesTo": "the market estimating the Fed's path — zero 2026 cuts now priced after the hawkish minutes"
+    },
+    {
+      "id": "2026-07-09-tl-1",
+      "lang": "Tagalog",
+      "word": "pasanin",
+      "pinyin": "",
+      "pronunciation": "pa-sa-NÍN",
+      "tones": "",
+      "meaning": "a burden; a load one shoulders (root: pasan, to carry on the back/shoulders)",
+      "example": "Ang import bill sa langis at ang trade deficit ang pasanin ng piso ngayon.",
+      "examplePinyin": "",
+      "exampleMeaning": "The oil-import bill and the trade deficit are the peso's burden right now.",
+      "note": "Native-speaker nuance vs pabigat (both translate as 'burden'): pasanin is a responsibility you take on and carry — often with resolve, something you shoulder; pabigat is added dead-weight that drags you down, a hindrance ('parang bato sa bulsa,' like a stone in your pocket). A pasanin you bear; a pabigat just weighs on you. Magkaiba ang damdamin — a different feeling entirely.",
+      "tiesTo": "the Philippines' oil-import bill and ASEAN-worst trade deficit as a burden on the peso and households"
+    },
+    {
+      "id": "2026-07-09-tl-2",
+      "lang": "Tagalog",
+      "word": "sigwa",
+      "pinyin": "",
+      "pronunciation": "SÍG-wa",
+      "tones": "",
+      "meaning": "a storm, squall, tempest — and figuratively, upheaval or turmoil",
+      "example": "Malakas ang sigwa sa dagat, at may sigwa rin sa merkado.",
+      "examplePinyin": "",
+      "exampleMeaning": "The storm at sea is fierce, and there's a tempest in the markets too.",
+      "note": "Native-speaker pairing vs bagyo: a bagyo is the literal meteorological typhoon on the map; sigwa is the squall/tempest and carries a figurative, more literary reach that bagyo doesn't — sigwa ng damdamin (a storm of emotion), sigwa sa pulitika (political upheaval). Same weather, but sigwa can be of the heart, of society, of life.",
+      "tiesTo": "Super Typhoon Inday out at sea and the geopolitical/market sigwa of the Iran flare-up"
+    }
+  ]
+}

@@ -72,11 +72,17 @@ def parse_segments(text):
 
 
 def estimate_timings(segments, duration_sec):
+    # Split the run time across turns (and, by extension, the app splits it across
+    # words) by each turn's share of total spoken characters. TTS returns no real
+    # word timings, so these are estimates — the client recomputes them identically.
     total = sum(len(t["text"]) for s in segments for t in s["turns"]) or 1
     elapsed = 0
     for s in segments:
         s["startSec"] = round(elapsed / total * duration_sec, 1)
-        elapsed += sum(len(t["text"]) for t in s["turns"])
+        for t in s["turns"]:
+            t["startSec"] = round(elapsed / total * duration_sec, 2)
+            elapsed += len(t["text"])
+            t["endSec"] = round(elapsed / total * duration_sec, 2)
     return segments
 
 

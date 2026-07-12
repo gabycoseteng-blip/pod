@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-10",
+  "cards": [
+    {
+      "id": "2026-07-10-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yí dàn",
+      "pronunciation": "yee dahn",
+      "tones": "1 · 4",
+      "meaning": "once; in the event that; as soon as",
+      "example": "一旦停火协议破裂，油价就会反弹。",
+      "examplePinyin": "yí dàn tíng huǒ xié yì pò liè, yóu jià jiù huì fǎn tán",
+      "exampleMeaning": "Once the ceasefire collapses, oil prices will rebound.",
+      "note": "Advanced connective, pattern 一旦…就… . Register: neutral, high-frequency in written/analytical language. Near-synonym contrast: 如果 (rúguǒ) is a plain, neutral 'if'; 一旦 marks a decisive turning-point condition with real consequences — often one you'd rather avoid.",
+      "tiesTo": "Iran ceasefire collapse / oil war premium"
+    },
+    {
+      "id": "2026-07-10-zh-2",
+      "lang": "Mandarin",
+      "word": "贬值",
+      "pinyin": "biǎn zhí",
+      "pronunciation": "byen jr",
+      "tones": "3 · 2",
+      "meaning": "to depreciate; to devalue; to lose value",
+      "example": "黄金上涨，正是因为大家担心货币贬值。",
+      "examplePinyin": "huáng jīn shàng zhǎng, zhèng shì yīn wèi dà jiā dān xīn huò bì biǎn zhí",
+      "exampleMeaning": "Gold is rising precisely because everyone worries about currency debasement.",
+      "note": "Abstract finance collocation, 书面语/formal. Collocation: 货币贬值, 人民币贬值, 大幅贬值. Near-synonym contrast: 掉价 (diàojià) is colloquial — a thing getting cheaper, or a person 'losing face'; 贬值 is the macro decline in a currency's or asset's value.",
+      "tiesTo": "peso record low / gold debasement trade"
+    },
+    {
+      "id": "2026-07-10-tl-1",
+      "lang": "Tagalog",
+      "word": "unos",
+      "pinyin": "",
+      "pronunciation": "u-NÓS",
+      "tones": "",
+      "meaning": "a sudden violent storm or squall; figuratively, a crisis or turmoil",
+      "example": "May unos sa merkado — biglaang pagbagsak ng presyo.",
+      "examplePinyin": "",
+      "exampleMeaning": "There's an unos in the market — a sudden collapse in prices.",
+      "note": "Native-speaker nuance: 'bagyo' is the literal typhoon (like Inday today); 'unos' is the sudden onslaught, used freely for a financial or emotional storm. Contrast 'sigwa' — also a storm, but usually political/social upheaval (the First Quarter Storm was 'Sigwa').",
+      "tiesTo": "Typhoon Inday / the reflation squall in markets"
+    },
+    {
+      "id": "2026-07-10-tl-2",
+      "lang": "Tagalog",
+      "word": "kagipitan",
+      "pinyin": "",
+      "pronunciation": "ka-gi-PÍ-tan",
+      "tones": "",
+      "meaning": "a tight spot; financial straits; an acute squeeze",
+      "example": "Ang kagipitan ng BSP: nasa pagitan ng implasyon at ng mahinang piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP's bind: caught between inflation and a weak peso.",
+      "note": "From the root 'gipit' (cornered, hard-up). Native-speaker nuance: 'hirap' is general hardship; 'kagipitan' is the specific state of being squeezed — a policy bind, or a household's budget squeeze under high prices.",
+      "tiesTo": "BSP policy bind / peso & import-bill squeeze"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "throughline": "A reflation scare the market is buying — collapsed Iran ceasefire, China PPI at a 4-year high, Fed dots swing to hikes, gold near 4,100 — yet AI-memory drives stocks to records; hard assets and AI-semis as the two faces of one trade",
+  "stories": [
+    "iran-ceasefire-collapses-hormuz-tanker-strikes-us-reimposes-sanctions-strikes",
+    "nato-ankara-summit-ukraine-patriot-license-nine-nation-global-defence-bank",
+    "us-market-overview-records-semis-memory-lead-smh-micron-sandisk",
+    "fomc-june-minutes-hawkish-9of18-see-hike-warsh-no-dot-130word-statement",
+    "gold-4116-silver-60-debasement-pboc-19mo-buying-jpm-5000-target",
+    "sk-hynix-nasdaq-ipo-26.5b-149-per-adr-1.1t-cap-58pct-hbm",
+    "kroger-giant-eagle-1.65b-grocery-merger-post-albertsons",
+    "ecb-july-accounts-defend-25bp-hike-2.25-deposit-3pct-inflation",
+    "france-le-pen-2027-presidential-run-despite-embezzlement-monitor",
+    "china-ppi-4.1pct-4yr-high-anti-involution-capacity-cuts-cpi-cools-1pct",
+    "energy-off-grid-behind-meter-chevron-microsoft-kilby-blue-energy-kodiak-tallgrass",
+    "turbine-oems-gevernova-siemens-mitsubishi-sold-out-2029-30-utility-disintermediation",
+    "oregon-puc-29pct-datacenter-rate-carveout-cuts-residential-bills",
+    "semianalysis-debunks-half-2026-datacenter-cancelled-claim-meta-5gw",
+    "philippines-typhoon-inday-bavi-offshore-habagat-manila-floods",
+    "bsp-hold-4.75-june-cpi-6.4-core-31mo-high-peso-record-low-remittances-slow",
+    "rolling-stones-foreign-tongues-jack-white-madonna-confessions-ii-ariana-petal",
+    "moana-minions-legacy-ip-box-office-soft-nolan-odyssey-phillips-507m-auctions",
+    "meme-you-never-take-me-to-bangladesh-ian-mcconnell-tiktok",
+    "one-good-thing-gulf-of-aqaba-heat-resilient-coral-unesco-nomination"
+  ],
+  "explainers": [
+    "war-premium-as-probability-times-severity-capped-while-hormuz-flow-continues",
+    "reflation-barbell-hard-assets-and-ai-semis-bid-while-nominal-bonds-sold",
+    "fed-dot-plot-hawkish-regime-shift-warsh-opacity-as-a-policy-tool",
+    "china-anti-involution-supply-discipline-reflates-ppi-lifts-global-deflation-anchor",
+    "off-grid-behind-the-meter-self-supply-bypasses-interconnection-queue",
+    "turbine-floor-as-new-binding-constraint-oem-oligopoly-long-utility-disintermediation-risk",
+    "bsp-imported-inflation-squeeze-headline-cools-while-core-hits-31mo-high-peso-as-forcing-function"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so future shows don't re-run them. Throughline is the reflation-scare-being-bought; advances (does not recap) the running Iran, Fed/Warsh, China-prices, energy-grid, and Philippines threads with genuinely new July developments."
+}

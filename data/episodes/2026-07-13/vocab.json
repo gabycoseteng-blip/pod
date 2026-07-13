@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-13",
+  "cards": [
+    {
+      "id": "2026-07-13-zh-1",
+      "lang": "Mandarin",
+      "word": "局势",
+      "pinyin": "jú shì",
+      "pronunciation": "jyoo shr",
+      "tones": "2 · 4",
+      "meaning": "situation; state of affairs (esp. political, military, or economic)",
+      "example": "中东局势又紧张起来了。",
+      "examplePinyin": "zhōng dōng jú shì yòu jǐn zhāng qǐ lái le",
+      "exampleMeaning": "The situation in the Middle East has grown tense again.",
+      "note": "书面语/formal — the big political/military/economic picture. Contrast 情况 (qíngkuàng), colloquial and usable for any small matter (我的情况有点特殊, 'my circumstances are a bit special'), and 形势 (xíngshì), which stresses the direction/trend rather than the current configuration. Finance-desk register: 局势 for a geopolitical whole.",
+      "tiesTo": "Iran / Strait of Hormuz re-escalation"
+    },
+    {
+      "id": "2026-07-13-zh-2",
+      "lang": "Mandarin",
+      "word": "难免",
+      "pinyin": "nán miǎn",
+      "pronunciation": "nahn myen",
+      "tones": "2 · 3",
+      "meaning": "hard to avoid; inevitably; bound to",
+      "example": "海峡一关闭，油价上涨难免。",
+      "examplePinyin": "hǎi xiá yī guān bì, yóu jià shàng zhǎng nán miǎn",
+      "exampleMeaning": "Once the strait closes, a rise in oil prices is unavoidable.",
+      "note": "HSK 4 connective-adverb with a slightly resigned tone; usual pattern 难免会… ('bound to…'), e.g. 市场难免会波动 ('the market is bound to be volatile'). Near-synonym contrast: 必然 (bìrán) is logical inevitability — harder, more absolute — while 难免 is 'hard to avoid in the nature of things.' Register: 书面语-leaning but common in speech.",
+      "tiesTo": "war premium returning to oil once Hormuz shuts"
+    },
+    {
+      "id": "2026-07-13-tl-1",
+      "lang": "Tagalog",
+      "word": "pananalasa",
+      "pinyin": "",
+      "pronunciation": "pa-na-na-LA-sa",
+      "tones": "",
+      "meaning": "the ravaging or onslaught of a destructive force — a storm, a crisis",
+      "example": "Sa hilagang Luzon, patuloy ang pananalasa ng habagat.",
+      "examplePinyin": "",
+      "exampleMeaning": "In northern Luzon, the ravaging of the monsoon continues.",
+      "note": "Native-speaker nuance: pananalasa is the action — the onslaught, the destroying as it happens — while pinsala is the result, what got damaged ('ang pananalasa ng bagyo ay nag-iwan ng malaking pinsala'). Used figuratively too: ang pananalasa ng implasyon, 'the ravaging of inflation.'",
+      "tiesTo": "Super Typhoon Inday / habagat over Luzon"
+    },
+    {
+      "id": "2026-07-13-tl-2",
+      "lang": "Tagalog",
+      "word": "kabuhayan",
+      "pinyin": "",
+      "pronunciation": "ka-bu-HA-yan",
+      "tones": "",
+      "meaning": "livelihood; the whole economic means by which one lives",
+      "example": "Ang tumataas na presyo ay bumabawas sa kabuhayan ng maraming pamilya.",
+      "examplePinyin": "",
+      "exampleMeaning": "Rising prices eat into the livelihood of many families.",
+      "note": "Native-speaker nuance: broader than hanapbuhay (a job/occupation — the work you seek to earn from). Kabuhayan is the whole economic life — income, means of support, including the remittances from abroad that sustain millions of Filipino households. Register: everyday but weighty, the word for a family's economic footing.",
+      "tiesTo": "record minimum-wage hike, cost of living, remittances"
+    }
+  ]
+}

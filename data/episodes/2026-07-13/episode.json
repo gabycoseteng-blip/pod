@@ -1,0 +1,747 @@
+{
+  "date": "2026-07-13",
+  "title": "Monday, July 13, 2026",
+  "day": "Monday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-07-13.mp3",
+  "durationSec": 1162,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Monday, July thirteenth. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. The throughline today is the Middle East war premium snapping back — Iran declaring Hormuz closed, crude jumping three percent — re-lighting the inflation fuse right as bank-earnings week begins, and yet the AI-power buildout just keeps accelerating into it. Let's get into it.",
+          "startSec": 4.28,
+          "endSec": 20.67
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Headlines. World desk first. Iran.",
+          "startSec": 20.67,
+          "endSec": 22.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The June de-escalation is over. Over the weekend the US ran fresh strikes on Iran, Tehran again declared the Strait of Hormuz closed, and Washington says it's open and is bombing to keep it that way. Iranian forces set a container ship ablaze — a crewman still missing.",
+          "startSec": 22.58,
+          "endSec": 37.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the war premium the curve spent a month bleeding out is coming straight back in. How much is real disruption versus headline?",
+          "startSec": 37.73,
+          "endSec": 44.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the question, and it's why crude moved three percent, not thirty. WTI seventy-three sixty-five, Brent seventy-eight thirty-two. It's probability times severity — as long as barrels physically move through the strait, the spot move stays capped. The repricing is in the tails: Hormuz is roughly a fifth of seaborne oil and most Gulf LNG, so a genuine closure isn't a three-percent event, it's a thirty-percent event.",
+          "startSec": 44.94,
+          "endSec": 68.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "And optionality that was cheap in June just got expensive.",
+          "startSec": 68.71,
+          "endSec": 71.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. In June you bought upside oil calls for almost nothing because the base case was normalization. Now the right tail is fatter, so the whole vol surface reprices even if spot barely moves. The directional read flips from disinflationary to inflationary — and that's the thread through rates, the Fed, and the Philippines later.",
+          "startSec": 71.97,
+          "endSec": 90.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second world story, and a heavy one — Lindsey Graham.",
+          "startSec": 90.78,
+          "endSec": 93.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Senator Lindsey Graham has died — a ruptured aorta, an aortic dissection tied to heart disease, and he'd just flown home from Ukraine. One of the Senate's loudest Ukraine hawks and Iran hawks, a heavyweight on Armed Services and Judiciary.",
+          "startSec": 93.77,
+          "endSec": 107.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "The mechanical read first — what does it do to the map?",
+          "startSec": 107.23,
+          "endSec": 110.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "South Carolina's governor appoints a replacement, so the seat stays red, but the GOP margin thins in the interim. And Graham was the loudest voice on Ukraine aid and maximum pressure toward Tehran — he exits exactly as the Iran file re-escalates. It's the loss of a policy engine, not just a vote.",
+          "startSec": 110.33,
+          "endSec": 127.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "Noted. Let's do the market overview.",
+          "startSec": 127.05,
+          "endSec": 129.08
+        }
+      ],
+      "startSec": 20.7
+    },
+    {
+      "raw": "SEGMENT ONE — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Friday's close: S&P five hundred up eight tenths of a percent to seventy-five forty-three sixty-four, Nasdaq up a quarter to twenty-six-two-eighty-one, Dow up a hundred-fifty points to fifty-two-six-thirty-seven. But the breadth tell is the Russell — small caps lagged, sitting around twenty-nine seventy-eight. VIX still calm, around sixteen.",
+          "startSec": 129.08,
+          "endSec": 148.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "So another megacap-and-semis session. Same leadership, narrow tape.",
+          "startSec": 148.4,
+          "endSec": 152.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Same engine. Nvidia's around two-eleven, a five-point-one-trillion-dollar company; Meta up about six on Friday; and Micron flagged it's lifting its US investment plan above two hundred fifty billion through twenty thirty-five, from one-seventy. Memory and AI-infrastructure still doing the lifting.",
+          "startSec": 152.17,
+          "endSec": 168.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "But the thing that actually changed is underneath the equity headline — rates.",
+          "startSec": 168.95,
+          "endSec": 173.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the real story. The ten-year backed up to four-five-six, from about four-forty-four at the end of June. Two-year four-twenty-one, thirty-year five-oh-six. Yields rose all week — and now you've got an oil shock landing on top of a market that had been pricing disinflation. Gold actually pulled back to about four thousand sixty-seven, off roughly a percent from its forty-one-fourteen record.",
+          "startSec": 173.35,
+          "endSec": 195.82
+        },
+        {
+          "speaker": "SAM",
+          "text": "Gold down while oil's up and yields are up — unpack that, because the reflexive trade is gold rallies on a war scare.",
+          "startSec": 195.82,
+          "endSec": 202.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The tell is real yields. When oil pushes nominal yields up and Fed-cut odds get pared, real rates rise — and rising real rates are the one thing that reliably caps gold. So you get the counterintuitive tape: bonds sell off, the dollar firms, yen at one-sixty-two, gold gives a little back. It's a rates-up risk event, not a fear-bid one.",
+          "startSec": 202.41,
+          "endSec": 221.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the week's real test is who reports.",
+          "startSec": 221.38,
+          "endSec": 223.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bank earnings — the perfect bridge. US business.",
+          "startSec": 223.64,
+          "endSec": 226.34
+        }
+      ],
+      "startSec": 129.1
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "US business. Bank week.",
+          "startSec": 226.34,
+          "endSec": 227.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "JPMorgan kicks it off tomorrow before the open — revenue expected around fifty-one-point-three billion, up fourteen percent year on year, EPS up about eleven. Then Goldman, Citi, Bank of America, Wells, Morgan Stanley across the week. The street's word is \"profit bonanza,\" investment-banking fees rebounding — JPMorgan's IB fees were up twenty-eight percent in the first quarter.",
+          "startSec": 227.64,
+          "endSec": 249.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the banks are the cleanest read on the exact question the tape is asking — is higher-for-longer a growth story or a credit story?",
+          "startSec": 249.04,
+          "endSec": 256.47
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the frame. A steeper curve and higher ten-year help net interest income — JPMorgan's guiding around a hundred-three billion of NII for the year — and an IB rebound says deal animal spirits are back. The bear read is the credit-loss provisions and card-delinquency lines. If NII beats and credit holds, the higher-oil, higher-rate backdrop is a reflation the banks monetize, not a recession they provision for.",
+          "startSec": 256.47,
+          "endSec": 279.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second US story — and it's a defense deal.",
+          "startSec": 279.9,
+          "endSec": 282.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Lockheed Martin's moving to acquire Ultra Maritime Solutions — anti-submarine warfare, sonar, undersea sensing. It's a bolt-on to the same secular theme we keep circling: multi-year defense capex, and specifically the undersea-security leg, which is where the contested domain is heading.",
+          "startSec": 282.26,
+          "endSec": 298.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "The read-through being that primes are consolidating the specialist capability rather than building it.",
+          "startSec": 298.48,
+          "endSec": 304.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Buy the niche, don't build it — the tech and the clearances take years to grow organically. Expect a look at ASW concentration, but the logic's clean: sub-sea cables, autonomous underwater vehicles, the North Atlantic and Indo-Pacific patrol picture are all capex tailwinds, and Lockheed wants the sensing stack. Defense as a compounding capex cycle the market's still under-positioned for.",
+          "startSec": 304.28,
+          "endSec": 326.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "Two international.",
+          "startSec": 326.25,
+          "endSec": 327.26
+        }
+      ],
+      "startSec": 226.3
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Japan first, and it's a genuine regime shift. Prime Minister Sanae Takaichi took a snap-election landslide — the LDP with roughly three hundred sixteen of four hundred sixty-five seats, a two-thirds majority. Nikkei rallied as much as five-point-seven percent on the result because she's explicitly pro-growth: expansionary fiscal, strategic investment in semis, AI, energy security, defense, shipbuilding — plus a floated two-year suspension of the food sales tax, about five trillion yen.",
+          "startSec": 327.26,
+          "endSec": 354.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "So a fiscal-dominance premier, which puts her directly at odds with her own central bank.",
+          "startSec": 354.86,
+          "endSec": 359.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the tension. The Bank of Japan's been normalizing — rates at a thirty-year high since December — but a pro-stimulus fiscal stance complicates every hike, and the yen keeps sliding, one-sixty-two now. A hawkish BOJ that can't rescue its own currency, because the fiscal impulse and the carry both cut the other way. And a weak yen imports inflation through fuel, which loops right back to today's oil story.",
+          "startSec": 359.87,
+          "endSec": 383.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second international — a cross-border deal with a data-center tell.",
+          "startSec": 383.13,
+          "endSec": 386.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Prologis is pushing for talks on a roughly sixteen-point-nine-billion-dollar bid for Segro — the US logistics-REIT giant going after the UK warehouse landlord. On the surface it's industrial real estate consolidating. The tell underneath is that the prize is increasingly land with power and interconnect — the same scarce commodity the AI block is fighting over.",
+          "startSec": 386.9,
+          "endSec": 407.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "So logistics and data centers are converging on one input.",
+          "startSec": 407.34,
+          "endSec": 410.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Power-ready land. A warehouse footprint near a substation with grid capacity is optionality on becoming a data-center site. Industrial real estate is quietly repricing around the exact interconnection scarcity we're about to spend the energy segment on — the whole map is starting to trade off one constraint.",
+          "startSec": 410.61,
+          "endSec": 428.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "China to close the block.",
+          "startSec": 428.01,
+          "endSec": 429.42
+        }
+      ],
+      "startSec": 327.3
+    },
+    {
+      "raw": "SEGMENT ONE — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "The set-piece is this week's second-quarter GDP print, expected around four-and-a-half percent year on year, cooling from five percent in the first quarter. The World Bank's got the full year at about four-point-four. Exports and high-tech investment resilient, consumption soft, property still a drag — the same two-speed economy.",
+          "startSec": 429.42,
+          "endSec": 448.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the policy question is whether the late-July Politburo finally delivers the stimulus the market keeps pricing.",
+          "startSec": 448.06,
+          "endSec": 454.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Base case, no bazooka. Beijing's tell this year is \"anti-involution\" — deliberately curbing excess industrial capacity to fight deflation. That's a supply-discipline story, not a demand-stimulus one: reflate producer prices by cutting overcapacity rather than juice consumption with a big fiscal package. A slower, structurally different reflation than the bulls want.",
+          "startSec": 454.48,
+          "endSec": 475.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "And it matters globally because China's the world's deflation anchor.",
+          "startSec": 475.21,
+          "endSec": 479.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the second-order read. If China genuinely restricts capacity, it stops exporting deflation, and the global disinflation backstop we've all leaned on weakens — right as an oil shock adds inflation from the other side. Two reflation impulses converging is exactly the macro tension under today's whole show.",
+          "startSec": 479.09,
+          "endSec": 496.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the block. Let's change gears — the energy desk.",
+          "startSec": 496.66,
+          "endSec": 499.76
+        }
+      ],
+      "startSec": 429.4
+    },
+    {
+      "raw": "SEGMENT TWO — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment two — energy, data centers, and utilities. Alex, the \"capex slowdown\" crowd keeps getting run over.",
+          "startSec": 499.76,
+          "endSec": 505.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Run over is right. The read from the sophisticated desks — SemiAnalysis chief among them — is that capex is accelerating, not slowing. The big four hyperscalers are tracking around six hundred thirty billion this year, up sixty-two percent from about three hundred eighty-eight billion in twenty twenty-five, with some estimates toward seven hundred twenty-five billion, up seventy-seven percent. And SemiAnalysis's read is that several will still be, their words, massively short power.",
+          "startSec": 505.79,
+          "endSec": 533.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the data point that captures it isn't a forecast — it's a backlog.",
+          "startSec": 533.21,
+          "endSec": 537.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Microsoft number. They've disclosed roughly an eighty-billion-dollar backlog of Azure orders they cannot fulfill because they don't have the power. That's not soft demand — that's booked revenue sitting idle waiting on electrons. Demand is outrunning even the most aggressive build in the industry.",
+          "startSec": 537.16,
+          "endSec": 554.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the constraint has migrated from silicon to the grid. Where's the actual gate now?",
+          "startSec": 554.16,
+          "endSec": 558.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Interconnection, and Texas just made it concrete. The Public Utility Commission approved its first large-load process — \"Batch Zero\" — and ERCOT is now tracking more than four hundred thirty-eight gigawatts of large-load requests, roughly ninety percent from data centers. Four hundred thirty-eight gigawatts — multiples of the entire Texas grid's peak. Applicants learn in August whether they're even in the first study, and the transmission plan for that batch isn't expected until the fall of twenty twenty-seven.",
+          "startSec": 558.95,
+          "endSec": 588.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the queue itself is the product now — chips, capital, and land, and still three years from an electron.",
+          "startSec": 588.01,
+          "endSec": 593.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The binding constraint in one sentence. It's why the build keeps going behind-the-meter — self-supply, on-site generation, gas as the bridge — because bypassing the queue is worth almost any premium. Which brings the politics, because FERC just stepped in.",
+          "startSec": 593.98,
+          "endSec": 608.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "The cost-allocation fight.",
+          "startSec": 608.4,
+          "endSec": 609.86
+        },
+        {
+          "speaker": "ALEX",
+          "text": "FERC found the major grid operators' large-load interconnection rules inadequate, and new chair Laura Swett framed it as — quote — historic action toward fair cost allocation and unprecedented transparency for the American ratepayer. Read that word: \"ratepayer.\" The federal government is now explicitly worried about who pays for the grid upgrades hyperscaler load requires.",
+          "startSec": 609.86,
+          "endSec": 630.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Because that's the moment the capex story becomes a ballot-box story.",
+          "startSec": 630.98,
+          "endSec": 634.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Every time. When a household's bill rises to fund transmission for a data center, the cross-subsidy question gets political fast — and now it's federal, not just a state-commission fight in Oregon or Virginia. The investable surface only firms up: regulated utilities with the rate base, IPPs with merchant exposure to rising power prices, gas-turbine OEMs sold out for years, the nuclear complex. The AI trade and the power trade are the same trade — and the gate is now a regulatory queue, not a fab.",
+          "startSec": 634.87,
+          "endSec": 663.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "Bring it home.",
+          "startSec": 663.14,
+          "endSec": 663.93
+        }
+      ],
+      "startSec": 499.8
+    },
+    {
+      "raw": "SEGMENT THREE — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment three — the Philippines. Weather first, then the macro.",
+          "startSec": 663.93,
+          "endSec": 667.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The southwest monsoon — the habagat — is soaking Metro Manila and much of Luzon today, and Super Typhoon Inday, international name Bavi, is offshore in the Philippine Sea. Signal Number One is up over parts of northern Luzon, but the forecast has it staying off the coast — no direct landfall expected. The economic wrinkle is the enhanced monsoon rain and rough seas, not a direct strike this time.",
+          "startSec": 667.48,
+          "endSec": 689.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the storm's a near-miss, but the macro is where it actually bites. And the headline said inflation's cooling.",
+          "startSec": 689.95,
+          "endSec": 696.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is, on the surface. June CPI eased to six-point-four percent from six-eight in May, and the driver was transport inflation cooling — down to twelve-point-eight from sixteen-point-two — precisely because Middle East tensions had calmed and fuel came off. Now sit that next to our lead story. The exact relief that pulled Philippine inflation down is the thing Iran just put back at risk.",
+          "startSec": 696.25,
+          "endSec": 718.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the cruelty of it. The disinflation was imported, and so is the re-inflation.",
+          "startSec": 718.16,
+          "endSec": 722.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the BSP is boxed in. They've raised the twenty twenty-six inflation forecast to around six-point-four percent average — still well above the two-to-four target — and the local press this morning flatly says price pressures keep the central bank on a rate-hiking path. The homegrown upside risk is the record Metro Manila minimum-wage hike: sixty pesos in July, twenty-five more in January. A wage-cost pass-through the BSP can't look through.",
+          "startSec": 722.89,
+          "endSec": 748.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the currency's doing its own tightening.",
+          "startSec": 748.01,
+          "endSec": 750.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The peso's around sixty-one-and-a-half, near a record low, with forecasts pointing to sixty-three by year-end. So the BSP is hiking into a currency problem and an imported-inflation problem at once, and the returning oil premium is the wrong tailwind at the worst moment. The silver lining is structural — remittances near a tenth of GDP, and a weaker peso flatters the converted value, cushioning household income even as the import bill widens. Cyclically pressured, structurally intact.",
+          "startSec": 750.49,
+          "endSec": 778.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onward — vocab.",
+          "startSec": 778.03,
+          "endSec": 778.87
+        }
+      ],
+      "startSec": 663.9
+    },
+    {
+      "raw": "SEGMENT FOUR — VOCAB OF THE DAY",
+      "label": "Vocab Of The Day",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment four — vocab. Two Mandarin, then two Tagalog, each tied to today's show, and we do it in-language. Mandarin first.",
+          "startSec": 778.87,
+          "endSec": 785.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "第一个词是「局势」，就是政治或者军事的大局。我们先看中东的局势——霍尔木兹海峡又紧张起来了。(The first word is júshì — the political or military big-picture situation. Let's look first at the situation in the Middle East: the Strait of Hormuz has grown tense again.)",
+          "startSec": 785.74,
+          "endSec": 798.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "「局势」跟「情况」有什么不一样？(How is júshì different from qíngkuàng?)",
+          "startSec": 798.13,
+          "endSec": 801.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "好问题。「局势」比较正式，是书面语，多指大的政治、军事、经济的全局；「情况」比较口语，什么小事都能用。比如「政治局势很复杂」，但「我的情况有点特殊」。(Good question. Júshì is more formal — written register — and refers to a big political, military, or economic whole. Qíngkuàng is more colloquial and works for any small matter. So: \"the political situation is very complex,\" but \"my circumstances are a bit special.\")",
+          "startSec": 801.29,
+          "endSec": 820.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "明白了。还有一个近义词「形势」，对吗？(Got it. And there's a near-synonym, xíngshì, right?)",
+          "startSec": 820.6,
+          "endSec": 824.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "对。「形势」更强调发展的趋势，「局势」更强调当前的格局。今天我们说「中东局势紧张」最合适。(Yes. Xíngshì stresses the direction of development; júshì stresses the current configuration. Today, \"the Middle East situation is tense\" fits best.)",
+          "startSec": 824.66,
+          "endSec": 835.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "第二个词是「难免」——意思是很难避免。海峡一关闭，油价上涨难免。(The second word is nánmiǎn — hard to avoid. Once the strait closes, a rise in oil prices is unavoidable.)",
+          "startSec": 835.64,
+          "endSec": 843.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "所以「难免」后面通常是不太好的结果？(So nánmiǎn is usually followed by a not-so-good outcome?)",
+          "startSec": 843.41,
+          "endSec": 847.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "没错。「难免」带一点无奈的语气，常说「难免会…」。比如「市场难免会波动」。(Exactly. Nánmiǎn carries a slightly resigned tone; we often say nánmiǎn huì — \"bound to.\" For example, \"the market is bound to be volatile.\")",
+          "startSec": 847.69,
+          "endSec": 857.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "那它跟「必然」有什么区别？(And how does it differ from bìrán?)",
+          "startSec": 857.77,
+          "endSec": 860.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "「必然」是逻辑上的必然，语气更硬、更绝对；「难免」比较委婉，是「情理上难以避免」。谈判破裂，冲突难免——但不是必然。(Bìrán is logical inevitability — harder, more absolute. Nánmiǎn is gentler: \"hard to avoid in the nature of things.\" When talks break down, conflict is hard to avoid — but not logically inevitable.)",
+          "startSec": 860.53,
+          "endSec": 875.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "好，现在换菲律宾语。(Good — now switch to Tagalog.)",
+          "startSec": 875.01,
+          "endSec": 877.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Unang salita: pananalasa — ang mismong pagwasak, ang puwersa ng isang bagyo o krisis. Sa hilagang Luzon, patuloy ang pananalasa ng habagat. (First word: pananalasa — the ravaging itself, the force of a storm or a crisis. In northern Luzon, the ravaging of the monsoon continues.)",
+          "startSec": 877.31,
+          "endSec": 893.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ano ang pinagkaiba ng \"pananalasa\" sa \"pinsala\"? (What's the difference between pananalasa and pinsala?)",
+          "startSec": 893.03,
+          "endSec": 898.88
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Magkaiba ang dalawa. Ang pananalasa ay ang aksyon — ang pananalakay, ang pagwasak habang nangyayari. Ang pinsala naman ay ang resulta — ang nasira. Kaya sinasabi natin: ang pananalasa ng bagyo ay nag-iwan ng malaking pinsala. (The two are different. Pananalasa is the action — the onslaught, the destroying as it happens. Pinsala is the result — what got damaged. So we say: the storm's ravaging left great damage.)",
+          "startSec": 898.88,
+          "endSec": 922.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "At pwede rin bang gamitin sa merkado o sa ekonomiya? (And can it be used for the market or the economy too?)",
+          "startSec": 922.26,
+          "endSec": 928.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo, madalas nga. Ang pananalasa ng implasyon sa kabuhayan ng mga pamilya — ang implasyon ay parang bagyo rin. Kaya perpektong hatid tayo sa ikalawang salita. (Yes, often. \"The ravaging of inflation on families' livelihood\" — inflation is like a storm too. Which brings us perfectly to the second word.)",
+          "startSec": 928.34,
+          "endSec": 945.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ikalawang salita: kabuhayan — ang buong paraan ng pamumuhay, ang kita, ang ikinabubuhay ng isang pamilya. Ang tumataas na presyo ay bumabawas sa kabuhayan ng marami. (Second word: kabuhayan — the whole means of living, the income, what a family lives on. Rising prices eat into the livelihood of many.)",
+          "startSec": 945.35,
+          "endSec": 962.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "\"Kabuhayan\" ba ay pareho ng \"hanapbuhay\"? (Is kabuhayan the same as hanapbuhay?)",
+          "startSec": 962.35,
+          "endSec": 966.86
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Malapit pero hindi pareho. Ang hanapbuhay ay ang trabaho — ang hinahanap mong pagkakakitaan. Ang kabuhayan ay mas malawak: ang buong ekonomikong buhay, kasama ang remittances mula sa ibang bansa na tumutustos sa kabuhayan ng milyon-milyong pamilyang Pilipino. (Close, but not the same. Hanapbuhay is the job — the work you seek to earn from. Kabuhayan is broader: the whole economic life, including the remittances from abroad that sustain the livelihood of millions of Filipino families.)",
+          "startSec": 966.86,
+          "endSec": 994.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ganda. Language living inside the news — that's the idea.",
+          "startSec": 994.4,
+          "endSec": 997.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the point.",
+          "startSec": 997.61,
+          "endSec": 998.62
+        }
+      ],
+      "startSec": 778.9
+    },
+    {
+      "raw": "SEGMENT FIVE — ART / POP",
+      "label": "Art / Pop",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment five — art and pop, quick.",
+          "startSec": 998.62,
+          "endSec": 1000.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The big one is a sale. Heritage Auctions opens its Hollywood and Entertainment signature auction today, running through the seventeenth. The marquee lot is a Beatles artifact — John Lennon's handwritten lyrics for \"If I Fell,\" jotted on the back of a Valentine card during the first Ed Sullivan trip in sixty-four, opening at five hundred thousand dollars.",
+          "startSec": 1000.54,
+          "endSec": 1020.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the film side?",
+          "startSec": 1020.59,
+          "endSec": 1021.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Mark Hamill's Cloud City lightsaber from \"Empire\" — the one from the \"I am your father\" scene, with the severed-hand effects rig. Plus Wizard of Oz and Willy Wonka hats, Back to the Future Two hoverboards, Rocky's boxing boots. Expected to fetch millions.",
+          "startSec": 1021.6,
+          "endSec": 1035.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "There's a market read in that, isn't there.",
+          "startSec": 1035.96,
+          "endSec": 1038.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There is. Legacy-IP nostalgia is behaving like an asset class — and the Michael Jackson biopic is reheating the whole MJ memorabilia market on the same logic. When cultural energy migrates to internet-native stuff, the old artifacts get scarcer and the collector bid gets stronger. Nostalgia as a store of value.",
+          "startSec": 1038.38,
+          "endSec": 1055.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "Good cue for the meme.",
+          "startSec": 1055.95,
+          "endSec": 1057.19
+        }
+      ],
+      "startSec": 998.6
+    },
+    {
+      "raw": "SEGMENT SIX — TRENDING MEME",
+      "label": "Trending Meme",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment six — the meme.",
+          "startSec": 1057.19,
+          "endSec": 1058.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The format running the feeds is a throwback audio — Jennifer Coolidge's \"looks like the Fourth of July\" line from \"Legally Blonde Two\" — powering a full hot-dog-summer aesthetic. Hot-dog nails, hot-dog merch, hot-dog birthday parties, all timed to the America-two-fifty summer. It's everywhere because it's an easy, remixable visual gag tied to the calendar.",
+          "startSec": 1058.49,
+          "endSec": 1078.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the longer-running formats still alive underneath?",
+          "startSec": 1078.65,
+          "endSec": 1081.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The \"chill guy\" resurgence — that laid-back cartoon dog as a whole mood, not just a meme — and a steady wave of \"Severance\" Season-Two memes as the show keeps sparking conversation. The common thread is low-production, human, timely — culture-timed content beats high-gloss right now.",
+          "startSec": 1081.69,
+          "endSec": 1097.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Reporting it, not performing it. Onto the good news.",
+          "startSec": 1097.69,
+          "endSec": 1100.61
+        }
+      ],
+      "startSec": 1057.2
+    },
+    {
+      "raw": "SEGMENT SEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "And before we let you get on with your Monday — one good thing to end on.",
+          "startSec": 1100.61,
+          "endSec": 1104.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A genuinely hopeful one from the conservation wire. The numbat — that little striped, termite-eating marsupial from Western Australia — has just been downlisted on the IUCN Red List, from Endangered to Near Threatened. That's the reward for roughly forty years of predator control and reintroductions, with numbers back up to somewhere around two to three thousand.",
+          "startSec": 1104.73,
+          "endSec": 1125.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "A downlisting is the rare piece of good news that's actually measurable.",
+          "startSec": 1125.28,
+          "endSec": 1129.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's what makes it land — it's not a hope, it's a status change on the ledger. And one more for the deep-sea fans: scientists just described a tenth species of walking shark — the Dudgeon walking shark — on a night dive off Papua New Guinea. A brand-new species of a reef shark that strolls the seafloor on its fins, in twenty twenty-six. The ocean's still handing us discoveries.",
+          "startSec": 1129.34,
+          "endSec": 1150.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "A rebounding marsupial and a walking shark. We'll take it.",
+          "startSec": 1150.85,
+          "endSec": 1154.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's your Monday. Whatever the week throws at the tape —",
+          "startSec": 1154.12,
+          "endSec": 1157.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "— take it a step at a time, and we'll be right back here tomorrow.",
+          "startSec": 1157.38,
+          "endSec": 1161.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a good one.",
+          "startSec": 1161.1,
+          "endSec": 1162.0
+        }
+      ],
+      "startSec": 1100.6
+    }
+  ]
+}

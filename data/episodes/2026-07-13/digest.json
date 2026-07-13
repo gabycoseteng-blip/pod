@@ -1,0 +1,32 @@
+{
+  "throughline": "The Middle East war premium snaps back — Iran declares Hormuz closed, a tanker burns, crude jumps ~3% — re-lighting the inflation/rates fuse into bank-earnings week, while the AI-power buildout accelerates regardless and the market keeps choosing the AI bid over the geopolitical warning",
+  "stories": [
+    "iran-restrikes-hormuz-declared-closed-tanker-ablaze-crude-plus3-brent-78",
+    "lindsey-graham-dies-ruptured-aorta-sc-senate-vacancy-ukraine-iran-hawk",
+    "us-market-overview-sp-7543-record-adjacent-semis-lead-russell-lags-yields-back-up-456-gold-pulls-back",
+    "bank-earnings-week-jpm-tue-rev-51.3b-nii-103b-ib-fees-rebound-profit-bonanza",
+    "lockheed-martin-acquires-ultra-maritime-solutions-asw-undersea-defense",
+    "japan-takaichi-landslide-ldp-twothirds-fiscal-expansion-food-tax-cut-yen-162-boj-bind",
+    "prologis-16.9b-segro-bid-logistics-reit-power-ready-land-datacenter-tell",
+    "china-q2-gdp-4.5-cooling-from-5-politburo-stimulus-watch-anti-involution",
+    "energy-hyperscaler-capex-630b-accelerating-microsoft-80b-azure-power-blocked-backlog",
+    "ercot-batch-zero-438gw-largeload-queue-90pct-datacenters-ferc-largeload-inadequate-swett-ratepayer",
+    "philippines-typhoon-inday-bavi-offshore-no-landfall-habagat-luzon",
+    "bsp-rate-hiking-path-2026-cpi-6.4-minimum-wage-60peso-hike-peso-61.5-toward-63",
+    "heritage-hollywood-auction-lennon-if-i-fell-lyrics-cloud-city-lightsaber-mj-biopic-memorabilia",
+    "meme-jennifer-coolidge-4th-of-july-hot-dog-summer-chill-guy-severance-s2",
+    "one-good-thing-numbat-iucn-downlist-endangered-to-near-threatened-dudgeon-walking-shark"
+  ],
+  "explainers": [
+    "war-premium-repricing-in-the-tails-not-spot-probability-times-severity-hormuz-closure-asymmetry",
+    "oil-shock-lifts-real-yields-caps-gold-rates-up-risk-event-not-fear-bid",
+    "banks-as-the-tell-nii-vs-credit-provisions-higher-for-longer-reflation-or-recession",
+    "fiscal-dominance-vs-boj-normalization-weak-yen-carry-import-inflation-loop",
+    "power-ready-land-as-optionality-logistics-and-datacenters-converging-on-one-input",
+    "anti-involution-supply-discipline-weakens-china-as-global-deflation-anchor",
+    "interconnection-queue-as-the-product-batch-zero-largeload-438gw-three-years-to-an-electron",
+    "ferc-federalizes-largeload-cost-allocation-ratepayer-cross-subsidy-as-ballot-box-risk",
+    "imported-disinflation-reversing-on-iran-bsp-boxed-in-wage-passthrough-plus-fx"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so they won't be re-explained. Vocab (局势, 难免, pananalasa, kabuhayan) folded in automatically from vocab.json. Advances but does not recap: Iran (now Hormuz-closed re-escalation, vs June collapse), Philippines typhoon (Inday now offshore/no landfall), China (Q2 GDP + Politburo vs prior PPI), energy (Batch Zero/FERC/MSFT backlog vs prior turbine-OEM/Oregon-PUC). Avoided repeats: Kroger-Giant Eagle, saxophone/Bangladesh memes, coral/mangrove/kakapo."
+}

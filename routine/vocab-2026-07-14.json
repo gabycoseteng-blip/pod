@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-14",
+  "cards": [
+    {
+      "id": "2026-07-14-zh-1",
+      "lang": "Mandarin",
+      "word": "一旦",
+      "pinyin": "yīdàn",
+      "pronunciation": "ee dahn",
+      "tones": "1 · 4",
+      "meaning": "once; in the event that (a consequential condition is triggered)",
+      "example": "一旦霍尔木兹海峡关闭，油价就会飙升。",
+      "examplePinyin": "yīdàn Huò'ěrmùzī hǎixiá guānbì, yóujià jiù huì biāoshēng",
+      "exampleMeaning": "Once the Strait of Hormuz closes, oil prices will spike.",
+      "note": "HSK-4 advanced connective; register leans 书面语/analytical — a natural fit for risk and policy language. Signature pattern: 一旦…就… ('once X, then Y'). Near-synonym contrast vs 如果 (rúguǒ, 'if'): 如果 is a neutral hypothetical; 一旦 is stronger and pointed — a consequential trigger you're actively bracing for, not just any possibility.",
+      "tiesTo": "the Hormuz 'unnavigable' declaration and the oil-shock risk running through the whole show"
+    },
+    {
+      "id": "2026-07-14-zh-2",
+      "lang": "Mandarin",
+      "word": "与其…不如…",
+      "pinyin": "yǔqí… bùrú…",
+      "pronunciation": "yoo chee … boo roo",
+      "tones": "3 · 2 · 4 · 2",
+      "meaning": "rather than X, better to Y (weigh two options, pick the better)",
+      "example": "与其盲目扩张，不如控制债务。",
+      "examplePinyin": "yǔqí mángmù kuòzhāng, bùrú kòngzhì zhàiwù",
+      "exampleMeaning": "Rather than expand blindly, it's better to control debt.",
+      "note": "HSK-4 comparative-preference frame, formal/argumentative register — a finance-desk staple. Collocation: 与其 A，不如 B, where B is the recommended choice. Near-synonym contrast vs 宁可 (nìngkě, 'would rather, even at a cost'): 宁可 stresses willingness to accept a downside; 与其…不如 simply compares two paths and endorses the better one.",
+      "tiesTo": "Oracle's capex-vs-debt question and the market's AI-capex-sustainability doubt"
+    },
+    {
+      "id": "2026-07-14-tl-1",
+      "lang": "Tagalog",
+      "word": "pabagsak",
+      "pinyin": "",
+      "pronunciation": "pa-bag-SÁK",
+      "tones": "",
+      "meaning": "downward; sliding, collapsing (a downturn)",
+      "example": "Pabagsak ang merkado ng mga chip kahapon.",
+      "examplePinyin": "",
+      "exampleMeaning": "The chip market was sliding yesterday.",
+      "note": "From bagsak (to fall). Everyday news-Tagalog directional word; the opposite is pataas (rising). Collocation: pabagsak na presyo / pabagsak na merkado (a falling price / a falling market). Stronger and more visual than bumababa (merely 'going down') — pabagsak carries the sense of a decisive drop.",
+      "tiesTo": "the semiconductor rout and Korea's KOSPI circuit-breaker session"
+    },
+    {
+      "id": "2026-07-14-tl-2",
+      "lang": "Tagalog",
+      "word": "sagabal",
+      "pinyin": "",
+      "pronunciation": "sa-GA-bal",
+      "tones": "",
+      "meaning": "an obstacle, hindrance, or bottleneck that slows you down",
+      "example": "Ang kakulangan ng gas turbine ay isang malaking sagabal sa pagtatayo ng mga data center.",
+      "examplePinyin": "",
+      "exampleMeaning": "The gas-turbine shortage is a big bottleneck to building data centers.",
+      "note": "Native-speaker nuance vs hadlang (both translate loosely as 'obstacle'): sagabal is friction that slows you — you can still move; hadlang blocks you completely — you stop. So a turbine backlog is a sagabal (drag), not yet a hadlang (a wall). Slightly formal but common in the news.",
+      "tiesTo": "gas-turbine backlogs as the binding constraint on the data-center buildout"
+    }
+  ]
+}

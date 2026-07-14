@@ -1,0 +1,37 @@
+{
+  "throughline": "The June Iran ceasefire collapses; Hormuz 'unnavigable' reopens the oil war-premium, flipping the disinflation trade and landing the re-inflation fear on an already-cratering AI/semiconductor complex",
+  "stories": [
+    "iran-ceasefire-collapses-hormuz-unnavigable-oil-spike",
+    "opec-cuts-2026-demand-growth-780kbpd",
+    "global-conflict-deaths-highest-since-1994-rwanda-sudan",
+    "bangkok-pub-fire-27-dead",
+    "us-market-overview-dow-vs-nasdaq-divergence-bear-steepener",
+    "ten-year-462-oil-drives-yields-up-vix-still-17",
+    "semiconductor-selloff-1trn-sk-hynix-worst-session-hbm4-ramp-disappoints",
+    "oracle-52wk-low-capex-162pct-fcf-deficit-sp-cuts-to-bbb-minus",
+    "q2-bank-earnings-season-opens-jpmorgan-five-megacap-banks",
+    "kospi-9pct-circuit-breaker-11bn-foreign-outflow",
+    "ukraine-pm-svyrydenko-steps-down-zelensky-strategy-shift",
+    "south-china-sea-14-country-joint-statement-2016-ruling-anniversary",
+    "china-q2-gdp-45pct-capacity-utilization-739-anti-involution-politburo",
+    "hyperscaler-capex-750bn-2026-crosses-1trn-2027",
+    "pjm-datacenter-94bn-ratepayer-hit-ppl-283gw-pipeline-doe-curtailment-order",
+    "philippines-bsp-475-august-hike-cpi-64-peso-oil-shock-typhoon-inday-bavi",
+    "madonna-confessions-two-gracie-abrams-daughter-from-hell",
+    "meme-bangladesh-ian-mcconnell-audio-escalation-trend",
+    "one-good-thing-dudgeon-walking-shark-tenth-species"
+  ],
+  "explainers": [
+    "supply-fear-oil-rally-vs-demand-strength-rally-distinction",
+    "bear-steepener-long-end-selloff-on-oil-inflation-impulse-hits-long-duration-tech",
+    "ai-capex-financed-by-credit-sp-downgrade-as-market-vote-on-buildout",
+    "concentration-risk-single-memory-name-halts-a-sovereign-index",
+    "china-anti-involution-fixing-deflation-by-curbing-capacity-not-stimulus",
+    "gigawatt-era-single-datacenter-sites-draw-like-cities",
+    "ratepayer-subsidy-of-hyperscaler-grid-upgrades-as-political-fault-line",
+    "gas-turbine-lead-times-as-binding-interconnection-constraint",
+    "doe-emergency-order-datacenter-curtailment-demand-response-backstop",
+    "philippines-small-open-economy-bind-imported-oil-inflation-vs-peso-hawkish-bsp-shield"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future shows won't repeat them. Advances running threads: Iran (6/18 MoU -> 6/25 framework holds -> now collapsed), memory/AI-capex (6/25 Micron blowout -> now the sustainability-doubt selloff), and Philippines BSP/peso/typhoon."
+}

@@ -23,6 +23,13 @@ vocab="${3:-}"
 date="$(grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' <<<"$(basename "$script")" | head -1 || true)"
 [ -n "$date" ] || { echo "ERROR: no YYYY-MM-DD in script filename: $script" >&2; exit 1; }
 
+# 0. dedup backstop — refuse to publish if a vocab word was already taught.
+#    The routine should also run this BEFORE rendering; this is the last line of
+#    defense so a reused word can't reach the deploy. Bypass with DEDUP_OVERRIDE=1.
+if [ -n "$vocab" ] && [ -f tools/check_dedup.py ]; then
+  python3 tools/check_dedup.py "$vocab" "routine/digest-$date.json" || exit 1
+fi
+
 # 1. audio → R2 (only when a bucket is configured and a file was passed)
 if [ -n "$audio" ] && [ -n "${AUDIO_BASE_URL:-}" ]; then
   echo "→ uploading audio to R2…"
@@ -32,6 +39,14 @@ fi
 # 2. build episode.json + index.json + search.json (records the R2 URL, no copy)
 echo "→ building episode $date…"
 python3 tools/build_episode.py "$script" ${audio:+"$audio"} ${vocab:+"$vocab"}
+
+# 2b. guardrail — refuse to deploy a malformed or too-short episode.
+#     Publish a deliberate partial with ALLOW_SHORT=1.
+if [ -f tools/check_episode.py ]; then
+  python3 tools/check_episode.py "$date" || {
+    echo "   (episode failed the guardrail — fix it, or set ALLOW_SHORT=1 for a partial.)" >&2
+    exit 1; }
+fi
 
 # 3. make sure the script is committed as plain text (the durable, greppable
 #    history). If it already lives in the repo (e.g. routine/…), stage it in
@@ -47,9 +62,12 @@ esac
 git add data
 [ -d routine ] && git add routine
 if git diff --cached --quiet; then
-  echo "nothing changed for $date — skipping commit"; exit 0
+  # Nothing new to commit — but a prior run may have committed without pushing,
+  # so don't exit here; fall through and let the push logic settle any owed push.
+  echo "nothing new to commit for $date — checking whether a push is still owed…"
+else
+  git commit -m "Episode $date"
 fi
-git commit -m "Episode $date"
 if [ -n "${NO_PUSH:-}" ]; then
   echo "✓ committed (NO_PUSH set — not pushing)"; exit 0
 fi
@@ -62,6 +80,16 @@ fi
 #    us, or this is a re-run), treat it as done — an idempotent no-op, not a
 #    failure — so we never clobber a valid published episode.
 branch="$(git rev-parse --abbrev-ref HEAD)"
+
+# Refuse to publish from the wrong branch: the deploy only works from the
+# production branch, and a silent wrong-branch push is exactly how 2026-07-15
+# went to a non-deploy branch. Override DEPLOY_BRANCH if production differs.
+DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"
+if [ "$branch" != "$DEPLOY_BRANCH" ]; then
+  echo "ERROR: on branch '$branch', not the deploy branch '$DEPLOY_BRANCH' — refusing to push." >&2
+  echo "       Checkout $DEPLOY_BRANCH (or set DEPLOY_BRANCH='$branch' if intentional) and re-run." >&2
+  exit 1
+fi
 
 remote_has_date() {  # 0 if origin/$branch's index.json already lists $date
   git show "origin/$branch:data/index.json" 2>/dev/null | python3 -c '

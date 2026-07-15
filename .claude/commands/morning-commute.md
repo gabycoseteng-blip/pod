@@ -24,10 +24,21 @@ sharp generalist (voice Charon). Stay on the `main` branch so the publish deploy
 ## 0. Setup
 ```bash
 date="$(date +%F)"          # YYYY-MM-DD — used in every filename
-git checkout main 2>/dev/null || true
-git pull --rebase origin main 2>/dev/null || true   # start from the live tip, not a stale clone
-pip install -q -r "$(git rev-parse --show-toplevel 2>/dev/null || echo .)/tools/requirements.txt" 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a repo SessionStart hook also does this — render/upload fail cold without them
-tail -n 60 data/history.jsonl 2>/dev/null   # what recent shows already covered
+DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"
+
+# Pull ALL branches into local refs FIRST. A fresh clone may not have the deploy
+# branch yet — then `git checkout main` silently fails and leaves you on whatever
+# branch you started on (a stale, diverged one), running an OUTDATED command file
+# and ledger. That is exactly how 2026-07-15 reused vocab and published to the
+# wrong branch. Fetch, checkout, and HARD-ASSERT before doing anything else.
+git fetch origin --prune
+git checkout "$DEPLOY_BRANCH" && git pull --rebase origin "$DEPLOY_BRANCH"
+[ "$(git rev-parse --abbrev-ref HEAD)" = "$DEPLOY_BRANCH" ] || {
+  echo "FATAL: not on $DEPLOY_BRANCH — the ledger + this command file may be stale. Stop." >&2
+  exit 1; }
+
+pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a SessionStart hook also does this — render/upload fail cold without them
+tail -n 60 data/history.jsonl   # the ledger you MUST dedup against — from the deploy branch
 ```
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`
 (see README → "Audio storage" and `routine/README.md`). If `GEMINI_API_KEY` is
@@ -64,6 +75,17 @@ transformer/turbine bottlenecks, and the second-order read — not a 101.
 connector — never approximate index levels, prices, or yields from memory. If
 markets were closed (weekend or holiday), use the **last trading session** and say
 so in the script; do not invent a close for a day with no trading.
+
+**Keep research cheap (token cost).** Raw tool dumps are the biggest token sink —
+`all-index-quotes` returns ~350 symbols, `biggest-gainers`/`losers` ~50 microcaps.
+Instead query **narrowly**: `index-quote` for `^GSPC ^IXIC ^DJI ^RUT`, `batch-quote`
+for the ~10 names you'll actually cite, `economics treasury-rates`, `commodity` for
+`CLUSD`/`BZUSD`/`GCUSD`, `forex` for the FX pairs — and slice any big result with
+`python3 -c` for just the fields you need. Best of all, run the research fan-out
+(FMP pulls + web/news searches) inside **Agent subagents** that return only the
+distilled numbers, so the raw JSON never lands in the main context.
+`tools/market_snapshot.py` (needs `FMP_API_KEY`) prints one compact block for the
+whole market section.
 
 ## 2. Write the script → `routine/commute-two-host-script-$date.md`
 Turn the brief into the spoken two-host script, following
@@ -153,6 +175,16 @@ short phrases, not prose. Schema:
 `build_episode.py` picks this up automatically and folds it (plus the vocab words)
 into `data/history.jsonl`. Vocab words are added for you — don't list them here.
 
+## 4b. Dedup preflight (before you render — cheap to fix, expensive to render twice)
+Run the automated check against the **deploy branch's** ledger. A reused vocab word
+is a hard-rule violation, and catching it here saves a full, quota-burning render:
+```bash
+python3 tools/check_dedup.py routine/vocab-$date.json routine/digest-$date.json
+```
+Exit 0 = all four words fresh. Non-zero = a word (or an exact story slug) already
+aired — pick a fresh one and rewrite that vocab turn **before** rendering. (Bypass
+only with `DEDUP_OVERRIDE=1`, and only deliberately.)
+
 ## 5. Render audio → `commute-gemini-$date.mp3`
 ```bash
 python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commute-gemini-$date
@@ -160,6 +192,13 @@ python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commut
 (ALEX→Sulafat, SAM→Charon; chunked; writes a 96 kbps MP3 via ffmpeg.) If it exits
 non-zero — missing `GEMINI_API_KEY`, missing ffmpeg, or a partial render — stop and
 report; do not publish silent or partial audio without flagging it.
+
+**Resume, don't re-render.** If the render dies partway (free-tier quota, a 429, a
+dropped connection), **re-run the exact same command** — each chunk's audio is
+cached beside the output (`<base>.chunkNNN.pcm`) and only the missing chunks hit
+the API, so you spend one request, not a whole episode. Caches clear on full
+success. Set `FFMPEG_BIN=/path/to/ffmpeg` to force a specific ffmpeg if both
+`which ffmpeg` and `imageio_ffmpeg` miss.
 
 ## 6. Build + commit (no push yet)
 ```bash
@@ -170,6 +209,11 @@ digest + vocab into `data/history.jsonl`, and commits — but holds the push so 
 guardrail can gate the deploy.
 
 ## 7. Guardrail check, then deploy
+`tools/daily.sh` now runs `tools/check_episode.py` automatically and **refuses to
+push a malformed episode** (needs ≥ 11 segments, `durationSec` ≥ 1500, `hasAudio`),
+and it asserts you're on `$DEPLOY_BRANCH` before pushing. To publish a deliberate
+partial (e.g. audio truncated by a quota outage), pass `ALLOW_SHORT=1`. You should
+still eyeball it:
 Inspect `data/index.json` for `$date` — it should show **~12 segments** and
 **`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix

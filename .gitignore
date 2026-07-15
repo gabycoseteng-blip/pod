@@ -7,3 +7,4 @@ __pycache__/
 # render outputs (audio goes to R2, not git)
 commute-gemini-*.mp3
 sample_*.wav
+*.pcm            # per-chunk render-resume caches

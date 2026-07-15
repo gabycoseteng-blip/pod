@@ -20,6 +20,12 @@ Env:
     VOICE_ALEX       default: Charon   (steady/authoritative — Host A, expert)
     VOICE_SAM        default: Puck     (brighter/curious     — Host B, generalist)
     CHUNK_CHARS      default: 2600      (chars of dialogue per API call)
+    FFMPEG_BIN       explicit ffmpeg path (else `ffmpeg` on PATH, else imageio_ffmpeg)
+
+Render-resume: each chunk's PCM is cached next to the output as
+`<OUTBASE>.chunkNNN.pcm`. If a render dies partway (e.g. free-tier quota), just
+re-run the SAME command — cached chunks are reused and only the missing ones hit
+the API. Caches are deleted automatically on a fully successful render.
 
 Notes:
 - Gemini-TTS returns raw PCM: 24 kHz, signed 16-bit little-endian, mono.
@@ -27,7 +33,7 @@ Notes:
   prompt MUST match the names in speaker_voice_configs ("Alex", "Sam").
 - A global style instruction is prepended so delivery stays brisk and warm.
 """
-import os, re, sys, json, time, base64, wave, subprocess, urllib.request, urllib.error, http.client
+import os, re, sys, json, time, base64, wave, shutil, subprocess, urllib.request, urllib.error, http.client
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TODAY = __import__("datetime").date.today().isoformat()
@@ -145,17 +151,28 @@ def main():
 
     pcm = bytearray()
     failed = None
+    did_api = False
     for i, ch in enumerate(chunks, 1):
-        if i > 1 and REQUEST_DELAY > 0:
+        cache = f"{OUTBASE}.chunk{i:03d}.pcm"
+        if os.path.isfile(cache) and os.path.getsize(cache) > 0:
+            print(f"  chunk {i}/{len(chunks)} — reusing cached render "
+                  f"({os.path.getsize(cache)} bytes)", file=sys.stderr)
+            pcm += open(cache, "rb").read()
+            continue
+        if did_api and REQUEST_DELAY > 0:
             time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
         print(f"  rendering chunk {i}/{len(chunks)} ({len(ch)} chars)…", file=sys.stderr)
         try:
-            pcm += synth(ch)
+            data = synth(ch); did_api = True
         except RuntimeError as e:
             failed = (i, str(e))
             print(f"  ! chunk {i} failed: {e}", file=sys.stderr)
-            print(f"  ! saving the {i-1} chunk(s) already rendered and stopping.", file=sys.stderr)
+            print(f"  ! {i-1} chunk(s) cached — re-run the SAME command to resume "
+                  f"from chunk {i} (cached chunks are NOT re-rendered).", file=sys.stderr)
             break
+        with open(cache, "wb") as f:
+            f.write(data)
+        pcm += data
     if not pcm:
         die(failed[1] if failed else "no audio rendered")
 
@@ -166,10 +183,8 @@ def main():
     secs = len(pcm) / (RATE * WIDTH * CHANNELS)
     print(f"WAV → {wav_path}  (~{secs/60:.1f} min)", file=sys.stderr)
 
-    ff = None
-    if subprocess.run(["which", "ffmpeg"], capture_output=True).returncode == 0:
-        ff = "ffmpeg"
-    else:
+    ff = os.environ.get("FFMPEG_BIN") or shutil.which("ffmpeg")
+    if not ff:
         try:
             import imageio_ffmpeg
             ff = imageio_ffmpeg.get_ffmpeg_exe()
@@ -183,9 +198,20 @@ def main():
     else:
         print("ffmpeg not found — kept WAV only.", file=sys.stderr)
 
+    if not failed:
+        # full render succeeded — drop the per-chunk resume caches
+        for i in range(1, len(chunks) + 1):
+            c = f"{OUTBASE}.chunk{i:03d}.pcm"
+            if os.path.isfile(c):
+                try:
+                    os.remove(c)
+                except OSError:
+                    pass
+
     if failed:
         print(f"\nPARTIAL: stopped at chunk {failed[0]}/{len(chunks)} — {failed[1]}\n"
-              f"Re-run after fixing to render the full episode.", file=sys.stderr)
+              f"Re-run the SAME command to resume from chunk {failed[0]} "
+              f"(cached chunks are reused — no re-render, no wasted quota).", file=sys.stderr)
         sys.exit(2)
 
 if __name__ == "__main__":

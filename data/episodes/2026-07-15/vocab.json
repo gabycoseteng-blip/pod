@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-15",
+  "cards": [
+    {
+      "id": "2026-07-15-zh-1",
+      "lang": "Mandarin",
+      "word": "与其",
+      "pinyin": "yǔqí",
+      "pronunciation": "yoo chee",
+      "tones": "3 · 2",
+      "meaning": "rather than… (used in the pattern 与其…不如…: 'rather than A, better to B')",
+      "example": "与其追高科技股，不如耐心等一次回调。",
+      "examplePinyin": "yǔqí zhuī gāo kējì gǔ, bùrú nàixīn děng yí cì huítiáo",
+      "exampleMeaning": "Rather than chase tech stocks higher, better to patiently wait for a pullback.",
+      "note": "HSK-4 advanced connective; register leans 书面语/analytical — a market-commentary word. Signature pattern: 与其 A 不如 B (weigh two options, recommend B). Near-synonym contrast vs 宁可…也不… (nìngkě…yěbù…): 宁可…也不… stresses WILLINGNESS — choosing something even at a cost ('I'd rather miss out than chase highs'); 与其…不如… is a cooler, rational comparison and recommendation.",
+      "tiesTo": "the narrow, extended melt-up — rather than chase the megacaps, wait for a pullback"
+    },
+    {
+      "id": "2026-07-15-zh-2",
+      "lang": "Mandarin",
+      "word": "波动",
+      "pinyin": "bōdòng",
+      "pronunciation": "bwor dong",
+      "tones": "1 · 4",
+      "meaning": "to fluctuate; volatility, fluctuation",
+      "example": "今天油价剧烈波动，黄金也创了新高。",
+      "examplePinyin": "jīntiān yóujià jùliè bōdòng, huángjīn yě chuàng le xīn gāo",
+      "exampleMeaning": "Oil prices swung violently today, and gold hit a new high too.",
+      "note": "HSK-4 abstract collocation, formal/market register. Portable: 市场波动 (market volatility), 剧烈波动 (violent swings), 价格波动 (price fluctuation). Near-synonym contrast vs 动荡 (dòngdàng): 波动 is a NEUTRAL up-and-down of prices/rates/data; 动荡 is heavier — social or political turmoil/unrest. So the market has 波动; the Middle East has 动荡.",
+      "tiesTo": "the violent swings in oil and the record in gold as Hormuz re-escalates"
+    },
+    {
+      "id": "2026-07-15-tl-1",
+      "lang": "Tagalog",
+      "word": "sigwa",
+      "pinyin": "",
+      "pronunciation": "sig-WÁ",
+      "tones": "",
+      "meaning": "a storm, a tempest; figuratively, a great upheaval or turmoil",
+      "example": "Sa gitna ng sigwa ng merkado, kailangan ng malamig na ulo.",
+      "examplePinyin": "",
+      "exampleMeaning": "In the middle of the market's turmoil, you need a cool head.",
+      "note": "Native-speaker distinction from bagyo: bagyo is literal — the meteorological system itself; sigwa is more figurative and charged — a tempest, and by extension a social or political upheaval (the 1970 'First Quarter Storm' protests are called the Sigwa ng Unang Sangkapat). Reach for sigwa when you mean fury or upheaval, not just weather.",
+      "tiesTo": "the habagat soaking Luzon and the tempest in the markets"
+    },
+    {
+      "id": "2026-07-15-tl-2",
+      "lang": "Tagalog",
+      "word": "puhunan",
+      "pinyin": "",
+      "pronunciation": "pu-HÚ-nan",
+      "tones": "",
+      "meaning": "capital; one's stake or investment in something",
+      "example": "Inilipat ng mga kliyente ang kanilang puhunan mula sa software patungo sa data center.",
+      "examplePinyin": "",
+      "exampleMeaning": "Customers shifted their capital out of software and into the data center.",
+      "note": "Native-speaker nuance vs kapital: kapital is purely monetary and technical, a Spanish loanword; puhunan is broader and more native — it can be money, time, trust, or effort ('namuhunan siya' = she invested). The rich sense carries social and personal stake, not just cash on a balance sheet.",
+      "tiesTo": "the AI capex buildout ($725B hyperscaler spend) and IBM's customers redirecting their spend"
+    }
+  ]
+}

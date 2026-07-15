@@ -55,7 +55,10 @@ fine — advance it, don't recap from zero.
 
 ## 1. Research → `routine/commute-brief-$date.md`
 Using web search + the connected market/news connectors (FMP for quotes / indices
-/ calendar, news search), write the day's brief — the source of record. Cover
+/ calendar, news search), write the day's brief — the source of record. Keep it a
+**compact, structured block** — numbers, tickers, and short slugs, one line per
+item, NOT prose paragraphs (a prose brief pays output tokens twice for facts the
+script then re-expresses; the script is the only place prose belongs). Cover
 exactly what the steering prompt's segments require, with **real, accurate**
 numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angle,
 2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
@@ -145,6 +148,32 @@ relies on:
   collocation — not a concrete noun. (Note: the in-language stretch is denser, so
   re-check the dialogue char count after writing it.)
 
+**Draft efficiently (fewer tokens, one render):**
+- **Start from the skeleton.** `routine/script-template.md` has the fixed structure
+  (header block, all 12 segment headers, per-segment guidance comments, sign-off).
+  Fill the slots — don't re-derive the scaffolding each day.
+- **Structured brief in, prose out once.** The brief is compact/structured (step 1);
+  the script is the ONLY prose. Write each segment once from the brief.
+- **One pass, then Edit — never re-Write the whole script.** To fix a few segments
+  use targeted edits, not a full regeneration (re-emitting a ~30k-char script to
+  change one segment doubles output tokens for nothing).
+- **Optional fan-out.** Given the brief + throughline + the template's style header,
+  the macro-blocks are largely independent — you can draft them in parallel
+  subagents that each return only their turns, then concatenate. Pass every subagent
+  the same style header + throughline so the two voices stay consistent.
+- **Right-size to the target; don't over-write** "to be safe" — extra length costs
+  both model output and render calls. Trust the char→duration formula; never render
+  just to measure.
+- **Keep cheap passes cheap.** The counts and gates (`check_script.py`,
+  `check_dedup.py`, `check_episode.py`) are plain scripts — run them directly; don't
+  spend a frontier model to count characters or lint format.
+
+Before rendering, lint the script — catches length/format bugs in milliseconds
+instead of after a full render:
+```bash
+python3 tools/check_script.py routine/commute-two-host-script-$date.md
+```
+
 ## 3. Write vocab → `routine/vocab-$date.json`
 Per the schema in the top-level README. `lang` is `Mandarin` or `Tagalog`.
 For **Mandarin**: `word` in characters, `pinyin` with tone marks, populate `tones`
@@ -187,7 +216,11 @@ only with `DEDUP_OVERRIDE=1`, and only deliberately.)
 
 ## 5. Render audio → `commute-gemini-$date.mp3`
 ```bash
-python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commute-gemini-$date
+# Fewer, bigger chunks = fewer API calls against the free-tier DAILY request cap
+# (~10), which is what actually stalls renders. ~6500 chars/chunk makes a ~30k
+# script ~5 calls (vs ~8 at 4000). If a chunk comes back truncated/short, lower
+# CHUNK_CHARS toward 4000 — that's the per-call output cap talking.
+CHUNK_CHARS=6500 python3 routine/render_gemini.py routine/commute-two-host-script-$date.md commute-gemini-$date
 ```
 (ALEX→Sulafat, SAM→Charon; chunked; writes a 96 kbps MP3 via ffmpeg.) If it exits
 non-zero — missing `GEMINI_API_KEY`, missing ffmpeg, or a partial render — stop and

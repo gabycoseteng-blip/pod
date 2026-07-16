@@ -59,6 +59,23 @@ _DEFAULT_STYLE = ("Two polished financial-news anchors, as on a Bloomberg or FT 
 STYLE = os.environ.get("STYLE", _DEFAULT_STYLE)
 if ACCENT.strip():
     STYLE = STYLE + f" Their English delivery carries {ACCENT.strip()} accents (this applies to English only, not to the Mandarin or Tagalog)."
+
+# ── voice priming (first-line fix for cross-chunk voice drift) ────────────────
+# The script is rendered in several separate TTS calls (one per chunk, to respect
+# the per-call output cap). Independent calls re-realize the two voices slightly
+# differently, so the timbre "drifts" at chunk seams. This PRIME block is an
+# explicit, IDENTICAL voice lock prepended to every call so each chunk re-anchors to
+# the same two voices. It's prompt text — it adds NO extra requests, so it stays
+# under the Gemini free-tier request-rate limit (unlike per-speaker rendering, the
+# heavier escalation). Override/disable with VOICE_PRIME.
+PRIME = os.environ.get("VOICE_PRIME",
+    "VOICE LOCK — this is one continuous show; keep BOTH voices identical from the "
+    "first line to the last. Alex is always one fixed voice: warm, measured, "
+    "mid-pitched, female. Sam is always one fixed voice: deeper, steady, male. Never "
+    "swap the two, never brighten or change their timbre, accent, or speaking rate "
+    "between passages — render each speaker exactly the same in every part.")
+STYLE = STYLE + " " + PRIME
+# ─────────────────────────────────────────────────────────────────────────────
 STYLE += "\n\n"
 
 RATE, WIDTH, CHANNELS = 24000, 2, 1  # PCM format Gemini-TTS returns

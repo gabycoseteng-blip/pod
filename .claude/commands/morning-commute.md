@@ -67,12 +67,25 @@ thing). Pick one throughline that connects the macro blocks. Cross-check the
 history ledger from step 0 — pick **fresh** stories, not ones already covered.
 
 **Energy / data centers / utilities — research deep.** Assume the listener knows
-the AI-infrastructure capex cycle cold. Pull from the sophisticated sources, not
-general press: **SemiAnalysis** (accelerator/datacenter economics, capex models),
-**Utility Dive** (utility ratebase, interconnection, PPAs, grid policy), plus IEA,
+the AI-infrastructure capex cycle cold (she works in energy/data-center development —
+pitch it to a practitioner, never a 101). Pull the sophisticated sources, not general
+press: **SemiAnalysis** (accelerator/datacenter economics, capex models),
+**Utility Dive** (ratebase, interconnection, PPAs, FERC/RTO policy), plus IEA,
 BloombergNEF, FERC, and the hyperscalers' own capex guidance/filings. Capture
 specific projects, MW/GW and capex figures, off-takers, interconnection-queue and
-transformer/turbine bottlenecks, and the second-order read — not a 101.
+transformer/turbine bottlenecks, PPA $/MWh, capacity-auction clears, and the
+second-order read — not a 101.
+
+**Best primary source: the user's own inbox (Gmail connector).** She subscribes to
+the paywalled practitioner newsletters — pull that morning's/week's editions and lead
+the segment with their specifics instead of general-press paraphrase. Query, e.g.:
+`from:semianalysis@substack.com OR from:utility@divenewsletter.com OR
+from:hello@ctvc.co OR from:newsletter@dealflow.energy OR from:thegeneralist@substack.com
+newer_than:7d` (also **Utility Dive** daily = `utility@divenewsletter.com` /
+`newsletter@divenewsletter.com`; **CTVC/Sightline**, **DealFlow.energy** for PPAs &
+offtake; **The Generalist** & **Chartbook/Adam Tooze** for the macro-compute angle).
+Use `search_threads` then `get_thread` for the ones worth citing; attribute figures
+to the source. This is the difference between a 101 and a desk read.
 
 **Accuracy:** pull the actual prior-session closes/levels and movers from the FMP
 connector — never approximate index levels, prices, or yields from memory. If
@@ -228,6 +241,17 @@ CHUNK_CHARS=6500 python3 routine/render_gemini.py routine/commute-two-host-scrip
 (ALEX→Sulafat, SAM→Charon; chunked; writes a 96 kbps MP3 via ffmpeg.) If it exits
 non-zero — missing `GEMINI_API_KEY`, missing ffmpeg, or a partial render — stop and
 report; do not publish silent or partial audio without flagging it.
+
+**Voices — keep them consistent (priming first).** Each chunk is a separate TTS call
+and the two voices can drift/swap at the seams. The **first-line fix is priming**:
+`render_gemini.py` prepends an identical VOICE-LOCK block (`VOICE_PRIME`) to every
+call, and the renderer also expands numerals→words (`normalize_numbers`) and writes a
+`.timing.json` sidecar for accurate transcript sync. Priming adds **no extra
+requests**, so it stays under the Gemini 2.5 free-tier **request-rate limit** — keep
+it that way: **fewer, bigger chunks** (the `CHUNK_CHARS≈6500` above) means fewer calls
+*and* fewer voice seams. Only if drift is still audible after priming, escalate to
+**per-speaker rendering** (render each host with a single fixed voice, turn by turn,
+and stitch) — rock-solid but many more calls, so mind the rate limit.
 
 **Resume, don't re-render.** If the render dies partway (free-tier quota, a 429, a
 dropped connection), **re-run the exact same command** — each chunk's audio is

@@ -1,0 +1,37 @@
+{
+  "throughline": "Priced for perfection — TSMC prints a record quarter and raises capex while chip stocks crater worldwide, exposing the gap between AI's roaring fundamentals and its stock prices, as a cooler June eases rates but a Hormuz oil shock keeps the inflation fuse lit",
+  "stories": [
+    "iran-hormuz-trump-strike-ultimatum-next-week-iran-red-line-retaliation-oil-toward-90",
+    "us-brazil-25pct-tariff-section-301-plus-12.5-forced-labor-stack-lula-lamentable-milestone-coffee-oj",
+    "us-market-overview-sp-7572-nasdaq-26269-dow-52659-cooler-june-ppi-megacap-meltup-semis-rotation-out",
+    "momentum-trade-biggest-unwind-since-2001-yields-down-10y-455-2y-413-gold-4051",
+    "overnight-chip-crater-kospi-minus6.4-sk-hynix-minus11-samsung-minus8-korea-exchange-halt-micron-minus2",
+    "tsmc-q2-net-706.6b-ntd-plus77-record-5th-straight-raised-capex-revenue-outlook-us-investment-265b-4-2nm-fabs-stock-fell",
+    "q2-earnings-banks-record-trading-prime-brokerage-windfall-resilient-consumer-jnj-beat-united-airlines-beat-unh-on-deck",
+    "bank-of-korea-first-hike-since-2023-25bp-joins-ecb-boj-bsp-tightening-into-oil-inflation-fed-outlier-dove",
+    "europe-inc-strongest-earnings-3yr-but-ai-gap-value-not-growth-multiple-eu-accepts-x-dsa-remediation",
+    "china-cxmt-8.6b-shanghai-ipo-china-shock-3.0-dram-memory-vs-samsung-hynix-micron-xi-ai-diplomacy-forum-huawei-cluster",
+    "ny-hochul-data-center-moratorium-up-to-1yr-trump-blasts-reversal-siting-as-political-constraint",
+    "pjm-grid-warnings-heat-transmission-congestion-spot-power-price-spike",
+    "us-power-poor-china-power-rich-ai-race-electrons-and-siting-not-silicon-copper-plus12.5-ytd-industrial-construction-plus18",
+    "philippines-typhoon-inday-bavi-weakened-exited-par-habagat-monsoon-flooding-luzon-manila",
+    "bsp-4.75-peso-61.70-record-low-oil-driven-mufg-sees-5.25-peak-india-fuel-export-tax-tightens-regional-diesel",
+    "netflix-q2-ad-tier-read-spider-man-brand-new-day-moana-live-action-hadestown-theater-capture-cinema",
+    "meme-2026-is-the-new-2016-nostalgia-55m-tiktok-videos-comfort-risk-off-didnt-agree-to-this-dicaprio",
+    "one-good-thing-r21-matrix-m-malaria-vaccine-european-inventor-award-2026-amphibian-tadpole-chytrid-immunity"
+  ],
+  "explainers": [
+    "priced-for-perfection-blowout-is-an-exit-not-a-catalyst-when-expectations-are-maxed",
+    "momentum-unwind-as-positioning-earthquake-not-fundamentals-biggest-since-2001",
+    "section-301-tariffs-rebuilt-on-firmer-legal-ground-after-scotus-struck-prior-tariffs",
+    "earnings-breadth-non-ai-economy-banks-healthcare-airlines-compounding-makes-ai-derating-survivable",
+    "synchronized-global-tightening-fed-as-outlier-dove-keeps-floor-under-global-yields",
+    "trans-atlantic-valuation-gap-earnings-without-ai-story-get-value-not-growth-multiple",
+    "china-shock-3.0-memory-market-prices-the-threat-years-before-competitive-wafers-byd-analog",
+    "ai-race-binding-constraint-shifts-from-silicon-to-electrons-and-siting-us-power-poor-china-power-rich",
+    "data-center-moratorium-as-political-ceiling-beyond-interconnection-queue",
+    "copper-and-industrial-construction-as-the-physical-tell-of-the-buildout-vs-chip-multiples",
+    "importing-monetary-policy-from-someone-elses-war-bsp-boxed-by-oil-and-fx"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so we don't re-explain them. Vocab words added automatically by build_episode."
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-16",
+  "cards": [
+    {
+      "id": "2026-07-16-zh-1",
+      "lang": "Mandarin",
+      "word": "却",
+      "pinyin": "què",
+      "pronunciation": "chweh",
+      "tones": "4",
+      "meaning": "yet; however; but — a contrastive adverb marking a turn",
+      "example": "台积电业绩创纪录，股价却大跌。",
+      "examplePinyin": "tái jī diàn yè jì chuàng jì lù, gǔ jià què dà diē",
+      "exampleMeaning": "TSMC's results hit a record, yet the stock plunged.",
+      "note": "书面语-leaning connective. Key difference from 但是 (dànshì): 但是 opens a clause and is plain in tone, while 却 sits mid-sentence, right before the verb (股价却下跌, never 却股价下跌), and its contrast is subtler and more written — a finance-desk favorite. Collocation: subject + 却 + verb.",
+      "tiesTo": "TSMC's record quarter vs. the chip-stock selloff"
+    },
+    {
+      "id": "2026-07-16-zh-2",
+      "lang": "Mandarin",
+      "word": "预期",
+      "pinyin": "yù qī",
+      "pronunciation": "yew chee",
+      "tones": "4 · 1",
+      "meaning": "expectation(s); to expect; anticipated",
+      "example": "台积电的利润超出预期。",
+      "examplePinyin": "tái jī diàn de lì rùn chāo chū yù qī",
+      "exampleMeaning": "TSMC's profit exceeded expectations.",
+      "note": "Formal/书面语, the finance desk's word. Standard collocations: 超出预期 (beat expectations), 符合预期 (in line), 低于预期 (missed). Near-synonym contrast: 预期 is a rational forecast; 希望 (xī wàng) is an emotional wish — an analyst has 预期, not 希望.",
+      "tiesTo": "TSMC beating estimates while 'priced for perfection'"
+    },
+    {
+      "id": "2026-07-16-tl-1",
+      "lang": "Tagalog",
+      "word": "kakapusan",
+      "pinyin": "",
+      "pronunciation": "ka-ka-PÚ-san",
+      "tones": "",
+      "meaning": "a shortage; scarcity; running short of a resource",
+      "example": "Sa Estados Unidos, may kakapusan sa kuryente para sa mga data center.",
+      "examplePinyin": "",
+      "exampleMeaning": "In the United States, there's a power shortage for the data centers.",
+      "note": "From the root 'kapos' (lacking). Native-speaker distinction from 'kakulangan': kakulangan is broad — a deficiency, a shortfall, even a personal failing; kakapusan is specific — you are short of a named resource (kakapusan sa tubig, sa kuryente, sa pera). Collocation: kakapusan sa/ng + resource.",
+      "tiesTo": "US grid power shortage vs. China's power abundance"
+    },
+    {
+      "id": "2026-07-16-tl-2",
+      "lang": "Tagalog",
+      "word": "agam-agam",
+      "pinyin": "",
+      "pronunciation": "a-gám-a-gám",
+      "tones": "",
+      "meaning": "a nagging misgiving; apprehension; lingering doubt about an outcome",
+      "example": "May agam-agam ang mga mamumuhunan tungkol sa AI.",
+      "examplePinyin": "",
+      "exampleMeaning": "Investors have misgivings about AI.",
+      "note": "Native-speaker nuance vs. 'alinlangan': alinlangan is hesitation before you decide; agam-agam lingers inside you — an unresolved inner unease, a hunch about what's coming that won't leave. Collocation: may agam-agam, agam-agam sa isip.",
+      "tiesTo": "the market's AI-bubble unease"
+    }
+  ]
+}

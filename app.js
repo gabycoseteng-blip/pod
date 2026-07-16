@@ -129,21 +129,37 @@ async function viewListen() {
   if (audioUrl) setupPlayer(audioUrl, date);
 }
 
-// Distribute the episode duration across turns (and words within a turn) by their
-// share of total spoken characters. TTS gives no real word timings, so this is an
-// estimate — but a per-word one, smooth enough to follow along and seek by.
+// A CJK character is a whole syllable and takes far longer to voice than a Latin
+// letter, so weight it ~2.6x — this keeps the bilingual VOCAB segment from
+// collapsing the timeline. charLen (used for per-word spans within a turn) uses the
+// same weighting so words are spaced by speaking time, not byte count.
+const CJK = /[㐀-鿿豈-﫿＀-￯]/g;
+function spokenWeight(s) {
+  const cjk = (s.match(CJK) || []).length;
+  return ((s.length - cjk) + cjk * 2.6) || 1;
+}
+
+// Prefer the real, per-chunk-anchored timings baked into episode.json by
+// build_episode.py (accurate — bounded to a ~3-min chunk). Only if they're absent
+// (older episodes) fall back to a global weighted-char estimate. Either way each
+// turn ends up with startSec/endSec/charLen for karaoke + click-to-seek.
 function computeTiming(ep) {
   const dur = ep.durationSec || 0;
   const flat = [];
   ep.segments.forEach(sg => sg.turns.forEach(t => flat.push(t)));
-  const total = flat.reduce((n, t) => n + t.text.length, 0) || 1;
-  let elapsed = 0;
-  flat.forEach(t => {
-    t.charLen = t.text.length || 1;
-    t.startSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
-    elapsed += t.text.length;
-    t.endSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
-  });
+  const hasReal = dur && flat.length && flat.every(t => typeof t.startSec === 'number' && typeof t.endSec === 'number');
+  if (hasReal) {
+    flat.forEach(t => { t.charLen = spokenWeight(t.text); });
+  } else {
+    const total = flat.reduce((n, t) => n + spokenWeight(t.text), 0) || 1;
+    let elapsed = 0;
+    flat.forEach(t => {
+      t.charLen = spokenWeight(t.text);
+      t.startSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
+      elapsed += t.charLen;
+      t.endSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
+    });
+  }
   ep.segments.forEach(sg => { if (sg.turns.length && dur) sg.startSec = sg.turns[0].startSec; });
 }
 

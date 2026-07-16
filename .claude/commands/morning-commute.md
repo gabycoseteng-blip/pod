@@ -100,9 +100,12 @@ relies on:
 - **One line per turn:** every `ALEX:` / `SAM:` turn is a single line of plain
   text — no markdown, no line breaks inside a turn (the parser and TTS both
   require it). Only `ALEX:` / `SAM:` lines are spoken.
-- **Write numbers as numerals** so the script is easy to read — `74.73`,
-  `37 bps`, `2027`, `$3.2 trillion`, `1.5%`. Keep the unit/word right next to the
-  figure so it's unambiguous when read aloud (the TTS handles digits fine).
+- **Write numbers as numerals — always** so the script/transcript is clean and
+  readable — `7,572`, `4.55%`, `37 bps`, `2027`, `$265 billion`, `12.5%`. Do **not**
+  spell them out (the 2026-06-23 example does, for old-TTS reasons — ignore that; it
+  is deprecated). Keep the unit/word next to the figure. `render_gemini.py` now
+  expands numerals to spoken words for the TTS automatically (`normalize_numbers`),
+  so numerals render correctly as speech while the transcript stays clean.
 - **Length target (this controls the duration — get it right the FIRST time so
   you render once, not twice):** the hard gate is step 7's guardrail —
   `durationSec` must be **≥ 1500** (25 min). The current renderer

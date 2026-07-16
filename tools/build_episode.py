@@ -71,18 +71,61 @@ def parse_segments(text):
     return [s for s in segments if s["turns"]]
 
 
-def estimate_timings(segments, duration_sec):
-    # Split the run time across turns (and, by extension, the app splits it across
-    # words) by each turn's share of total spoken characters. TTS returns no real
-    # word timings, so these are estimates — the client recomputes them identically.
-    total = sum(len(t["text"]) for s in segments for t in s["turns"]) or 1
-    elapsed = 0
-    for s in segments:
-        s["startSec"] = round(elapsed / total * duration_sec, 1)
-        for t in s["turns"]:
+_CJK = re.compile(r"[㐀-鿿豈-﫿＀-￯]")
+
+
+def spoken_weight(text):
+    """Approximate speaking time as a weighted character count. A CJK character is
+    a whole syllable and takes far longer to voice than a Latin letter, so weight it
+    ~2.6x; everything else counts as 1. This keeps the bilingual VOCAB segment from
+    collapsing the timeline (its Mandarin turns are short in bytes but long in time)."""
+    n = len(text)
+    cjk = len(_CJK.findall(text))
+    return (n - cjk) + cjk * 2.6 or 1
+
+
+def estimate_timings(segments, duration_sec, timing=None):
+    """Assign startSec/endSec to every segment and turn.
+
+    If a render timing sidecar is supplied (real per-chunk audio durations), anchor
+    each turn to its actual chunk's [startSec, endSec] and interpolate within the
+    chunk by weighted-char share — so error is bounded inside one ~3-min chunk instead
+    of drifting across the whole show. Otherwise fall back to a single global
+    weighted-char map. The client (app.js) now trusts these values rather than
+    recomputing, so the two can't disagree."""
+    flat = [t for s in segments for t in s["turns"]]
+
+    anchored = False
+    if timing and timing.get("chunks"):
+        # Walk the sidecar's chunks (turns are in document order in both) and place
+        # each turn inside its chunk's real time window by weighted-char share.
+        idx = 0
+        for ch in timing["chunks"]:
+            cturns = ch.get("turns", [])
+            c0, c1 = float(ch.get("startSec", 0)), float(ch.get("endSec", 0))
+            wtot = sum(spoken_weight(t["text"]) for t in cturns) or 1
+            acc = 0.0
+            for t in cturns:
+                if idx >= len(flat):
+                    break
+                w = spoken_weight(flat[idx]["text"])
+                flat[idx]["startSec"] = round(c0 + acc / wtot * (c1 - c0), 2)
+                acc += w
+                flat[idx]["endSec"] = round(c0 + acc / wtot * (c1 - c0), 2)
+                idx += 1
+        anchored = idx == len(flat)
+
+    if not anchored:
+        total = sum(spoken_weight(t["text"]) for t in flat) or 1
+        elapsed = 0.0
+        for t in flat:
             t["startSec"] = round(elapsed / total * duration_sec, 2)
-            elapsed += len(t["text"])
+            elapsed += spoken_weight(t["text"])
             t["endSec"] = round(elapsed / total * duration_sec, 2)
+
+    for s in segments:
+        if s["turns"]:
+            s["startSec"] = round(s["turns"][0]["startSec"], 1)
     return segments
 
 
@@ -132,7 +175,21 @@ def main():
     elif base:
         audio_ref = f"{base}/{date}.mp3"                         # URL only (uploaded elsewhere)
 
-    segments = estimate_timings(parse_segments(text), duration or 1)
+    # optional render timing sidecar (real per-chunk durations) sitting next to the
+    # audio, e.g. commute-gemini-<date>.timing.json — used for accurate sync.
+    timing = None
+    for cand in ([re.sub(r"\.mp3$", ".timing.json", audio_path)] if audio_path else []) + \
+               [os.path.join(ROOT, "routine", f"commute-gemini-{date}.timing.json"),
+                os.path.join(ROOT, f"commute-gemini-{date}.timing.json")]:
+        if cand and os.path.isfile(cand):
+            try:
+                timing = json.load(open(cand)); break
+            except Exception:
+                timing = None
+    if timing and not duration:
+        duration = int(round(timing.get("durationSec", 0)))
+
+    segments = estimate_timings(parse_segments(text), duration or 1, timing)
 
     episode = {
         "date": date, "title": title, "day": day,

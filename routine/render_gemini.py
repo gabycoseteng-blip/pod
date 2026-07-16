@@ -63,6 +63,70 @@ STYLE += "\n\n"
 
 RATE, WIDTH, CHANNELS = 24000, 2, 1  # PCM format Gemini-TTS returns
 
+# ── number normalization (TTS input only) ────────────────────────────────────
+# The script is written with numerals (7,572 · 4.55% · $265B · 37 bps) so the
+# transcript stays clean and readable. TTS pronunciation of bare digits/symbols is
+# unreliable, so we expand numbers to words HERE, only in the text sent to the model
+# — the script/transcript is never modified. Set NORMALIZE_NUMBERS=0 to disable.
+_ONES = ["zero","one","two","three","four","five","six","seven","eight","nine","ten",
+         "eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen",
+         "eighteen","nineteen"]
+_TENS = ["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"]
+_SCALES = [(10**12,"trillion"),(10**9,"billion"),(10**6,"million"),(10**3,"thousand")]
+
+def _int_words(n):
+    if n < 20: return _ONES[n]
+    if n < 100: return _TENS[n//10] + (("-"+_ONES[n%10]) if n%10 else "")
+    if n < 1000:
+        return _ONES[n//100]+" hundred"+((" "+_int_words(n%100)) if n%100 else "")
+    for val,name in _SCALES:
+        if n >= val:
+            return _int_words(n//val)+" "+name+((" "+_int_words(n%val)) if n%val else "")
+    return str(n)
+
+def _num_words(numstr):
+    """'4.55' -> 'four point five five'; '7,572' -> 'seven thousand five hundred seventy-two'."""
+    numstr = numstr.replace(",","")
+    if "." in numstr:
+        whole, frac = numstr.split(".", 1)
+        w = _int_words(int(whole)) if whole not in ("","-") else "zero"
+        return w + " point " + " ".join(_ONES[int(d)] for d in frac if d.isdigit())
+    return _int_words(int(numstr))
+
+def _year_words(y):
+    """1900-2099 read as pairs: 2026 -> 'twenty twenty-six', 2001 -> 'two thousand one'."""
+    hi, lo = y//100, y%100
+    if lo == 0: return _int_words(hi)+" hundred"
+    if lo < 10: return _int_words(hi)+" oh "+_ONES[lo] if False else _int_words(y)
+    return _int_words(hi)+" "+_int_words(lo)
+
+_SCALE_WORD = r"(?:trillion|billion|million|thousand)"
+_N = r"\d(?:[\d,]*\d)?(?:\.\d+)?"   # comma-safe number: never captures a trailing comma
+def normalize_numbers(text):
+    if os.environ.get("NORMALIZE_NUMBERS","1") == "0":
+        return text
+    def money(m):
+        cur = "dollars" if m.group("sym") == "$" else "euros"
+        num = _num_words(m.group("num"))
+        scale = (" "+m.group("scale")) if m.group("scale") else ""
+        return f"{num}{scale} {cur}"
+    # $265 billion / €120 million / $4.10
+    text = re.sub(r"(?P<sym>[$€])(?P<num>"+_N+r")\s*(?P<scale>"+_SCALE_WORD+r")?",
+                  money, text)
+    # 6.4 percent / 0.38%
+    text = re.sub(r"("+_N+r")\s*%", lambda m: _num_words(m.group(1))+" percent", text)
+    # 37 bps / 25 bps
+    text = re.sub(r"("+_N+r")\s*bps\b", lambda m: _num_words(m.group(1))+" basis points", text)
+    # bare number + scale word: 706.6 billion
+    text = re.sub(r"\b("+_N+r")\s+("+_SCALE_WORD+r")\b",
+                  lambda m: _num_words(m.group(1))+" "+m.group(2), text)
+    # years 1900-2099 (whole-word, no decimal/comma)
+    text = re.sub(r"\b(?:19|20)\d{2}\b", lambda m: _year_words(int(m.group(0))), text)
+    # any remaining number (decimals, comma-grouped, integers)
+    text = re.sub(_N, lambda m: _num_words(m.group(0)), text)
+    return text
+# ─────────────────────────────────────────────────────────────────────────────
+
 def die(msg, code=1):
     print(f"ERROR: {msg}", file=sys.stderr); sys.exit(code)
 
@@ -78,14 +142,22 @@ def extract_turns(path):
     return turns
 
 def chunk_turns(turns, budget):
+    """Group turns into chunks under the per-call budget. Returns a list of chunks,
+    each a list of (speaker, text) turns — structure is kept so we can emit a timing
+    sidecar (which turns landed in which chunk)."""
     chunks, cur, n = [], [], 0
     for sp, txt in turns:
         line = f"{sp}: {txt}\n"
         if cur and n + len(line) > budget:
-            chunks.append("".join(cur)); cur, n = [], 0
-        cur.append(line); n += len(line)
-    if cur: chunks.append("".join(cur))
+            chunks.append(cur); cur, n = [], 0
+        cur.append((sp, txt)); n += len(line)
+    if cur: chunks.append(cur)
     return chunks
+
+
+def dialogue_of(chunk):
+    """Build the prompt text for a chunk, expanding numerals to words for the TTS."""
+    return "".join(f"{sp}: {normalize_numbers(txt)}\n" for sp, txt in chunk)
 
 def synth(dialogue):
     """Return raw PCM bytes for one multi-speaker chunk."""
@@ -152,27 +224,36 @@ def main():
     pcm = bytearray()
     failed = None
     did_api = False
+    timing_chunks = []   # per-chunk real audio windows → the sync sidecar
+    cum = 0.0
     for i, ch in enumerate(chunks, 1):
+        dlg = dialogue_of(ch)            # numerals expanded to words for the model
         cache = f"{OUTBASE}.chunk{i:03d}.pcm"
         if os.path.isfile(cache) and os.path.getsize(cache) > 0:
             print(f"  chunk {i}/{len(chunks)} — reusing cached render "
                   f"({os.path.getsize(cache)} bytes)", file=sys.stderr)
-            pcm += open(cache, "rb").read()
-            continue
-        if did_api and REQUEST_DELAY > 0:
-            time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
-        print(f"  rendering chunk {i}/{len(chunks)} ({len(ch)} chars)…", file=sys.stderr)
-        try:
-            data = synth(ch); did_api = True
-        except RuntimeError as e:
-            failed = (i, str(e))
-            print(f"  ! chunk {i} failed: {e}", file=sys.stderr)
-            print(f"  ! {i-1} chunk(s) cached — re-run the SAME command to resume "
-                  f"from chunk {i} (cached chunks are NOT re-rendered).", file=sys.stderr)
-            break
-        with open(cache, "wb") as f:
-            f.write(data)
+            data = open(cache, "rb").read()
+        else:
+            if did_api and REQUEST_DELAY > 0:
+                time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
+            print(f"  rendering chunk {i}/{len(chunks)} ({len(dlg)} chars)…", file=sys.stderr)
+            try:
+                data = synth(dlg); did_api = True
+            except RuntimeError as e:
+                failed = (i, str(e))
+                print(f"  ! chunk {i} failed: {e}", file=sys.stderr)
+                print(f"  ! {i-1} chunk(s) cached — re-run the SAME command to resume "
+                      f"from chunk {i} (cached chunks are NOT re-rendered).", file=sys.stderr)
+                break
+            with open(cache, "wb") as f:
+                f.write(data)
         pcm += data
+        dur = len(data) / (RATE * WIDTH * CHANNELS)
+        timing_chunks.append({
+            "startSec": round(cum, 2), "endSec": round(cum + dur, 2),
+            "turns": [{"speaker": sp, "text": txt} for sp, txt in ch],
+        })
+        cum += dur
     if not pcm:
         die(failed[1] if failed else "no audio rendered")
 
@@ -182,6 +263,13 @@ def main():
         w.writeframes(bytes(pcm))
     secs = len(pcm) / (RATE * WIDTH * CHANNELS)
     print(f"WAV → {wav_path}  (~{secs/60:.1f} min)", file=sys.stderr)
+
+    # sync sidecar: real per-chunk audio windows so build_episode.py can anchor the
+    # transcript to actual audio positions (accurate) instead of a global char guess.
+    timing_path = OUTBASE + ".timing.json"
+    json.dump({"durationSec": round(secs, 2), "chunks": timing_chunks},
+              open(timing_path, "w"), ensure_ascii=False, indent=1)
+    print(f"TIMING → {timing_path}  ({len(timing_chunks)} chunk anchor(s))", file=sys.stderr)
 
     ff = os.environ.get("FFMPEG_BIN") or shutil.which("ffmpeg")
     if not ff:

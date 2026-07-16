@@ -24,11 +24,11 @@ ALEX: The Iran story escalated again, but the vector changed. This isn't a tanke
 
 SAM: So we've gone from a shipping-lane risk to a state-on-state strike calendar. That's a different kind of tail — it's got a date attached now.
 
-ALEX: Which is why the oil bid won't leave. Brent settled eighty-four ninety-five, WTI around seventy-nine sixty, forecast desks drawing lines toward ninety. And the second-order tell is the real one: India just raised windfall taxes on diesel and jet-fuel exports because cracks are blowing out, and US refiners are looking at a quarter where profits could triple.
+ALEX: Which is why the oil bid won't leave. Brent settled 84.95, WTI around 79.60, forecast desks drawing lines toward 90. And the second-order tell is the real one: India just raised windfall taxes on diesel and jet-fuel exports because cracks are blowing out, and US refiners are looking at a quarter where profits could triple.
 
 SAM: When the refiners are the trade, the barrel isn't the story — the spread is.
 
-ALEX: Exactly. And that's the part markets underprice — a Hormuz scare shows up in the crack spread and the retail pump price before it shows up in the CPI. Kalshi's got an eighty-eight percent chance the national gas average tops four dollars by month-end. That's the political transmission of an oil shock, in real time.
+ALEX: Exactly. And that's the part markets underprice — a Hormuz scare shows up in the crack spread and the retail pump price before it shows up in the CPI. Kalshi's got an 88% chance the national gas average tops $4 by month-end. That's the political transmission of an oil shock, in real time.
 
 SAM: And a strike-next-week clock isn't something the curve can price cleanly.
 
@@ -36,9 +36,9 @@ ALEX: It can't, so it doesn't try — it keeps a premium in the front and fat ta
 
 SAM: Second world story — Brazil. Trade.
 
-ALEX: The US is putting a twenty-five percent tariff on most Brazilian goods, framed as a Section 301 unfair-trade action. And notably it replaces the tariffs the Supreme Court struck down — so this is the administration rebuilding the wall on firmer legal ground. On top of it, a separate forced-labor probe could stack another twelve-and-a-half points.
+ALEX: The US is putting a 25% tariff on most Brazilian goods, framed as a Section 301 unfair-trade action. And notably it replaces the tariffs the Supreme Court struck down — so this is the administration rebuilding the wall on firmer legal ground. On top of it, a separate forced-labor probe could stack another 12.5 points.
 
-SAM: Twenty-five, potentially thirty-seven-and-a-half. That's not a warning shot, that's a rupture between the two biggest economies in the Americas. What breaks first?
+SAM: 25, potentially 37.5. That's not a warning shot, that's a rupture between the two biggest economies in the Americas. What breaks first?
 
 ALEX: Coffee and orange juice on the soft-commodity side — coffee futures already sold off on demand-destruction math — then the retaliation question. Lula called it a lamentable milestone, which is diplomatic for "we will respond." And it's not isolated: there's a Russia-sanctions bill moving through Congress that hands the White House new tariff powers against India, Japan, and parts of the EU. The tariff machine is moving from goods-deficit logic to political-leverage logic.
 
@@ -50,19 +50,19 @@ SAM: Good bridge to the tape. Market overview.
 
 ## SEGMENT ONE — MARKET OVERVIEW
 
-ALEX: Wednesday's close: S&P up thirty-eight basis points to seventy-five seventy-two, Nasdaq up sixty-two to twenty-six-two-sixty-nine, Dow up a quarter percent to fifty-two-six-fifty-nine. Records within reach. The engine was a cooler June PPI landing on top of the cooler June CPI — two disinflation prints in a row, so the rates fear drained out.
+ALEX: Wednesday's close: S&P up 38 basis points to 7,572, Nasdaq up 62 to 26,269, Dow up 0.29% to 52,659. Records within reach. The engine was a cooler June PPI landing on top of the cooler June CPI — two disinflation prints in a row, so the rates fear drained out.
 
-SAM: And you can see it in the curve. Ten-year down three to four-five-five, two-year down five to four-one-three. That's a small bull-steepening — the front end rallying harder as the hike scare eases.
+SAM: And you can see it in the curve. 10-year down 3 to 4.55%, 2-year down 5 to 4.13%. That's a small bull-steepening — the front end rallying harder as the hike scare eases.
 
-ALEX: Gold gave back to forty-fifty-one, off about four-tenths, which fits: less inflation panic, less debasement bid. But here's the part that matters — the leadership was inside-out. Money rotated out of semiconductors and into megacap tech. Alphabet, Microsoft, Meta, Amazon led; the chips lagged. The momentum trade had its biggest single unwind since 2001.
+ALEX: Gold gave back to 4,051, off about 0.4%, which fits: less inflation panic, less debasement bid. But here's the part that matters — the leadership was inside-out. Money rotated out of semiconductors and into megacap tech. Alphabet, Microsoft, Meta, Amazon led; the chips lagged. The momentum trade had its biggest single unwind since 2001.
 
 SAM: Since 2001. That's a positioning earthquake, not a fundamentals story.
 
-ALEX: It's entirely positioning, and it set up the whiplash. Because overnight, while New York slept, the chip complex came apart in Asia. Kospi down six-point-four percent. SK Hynix off eleven. Samsung down eight. Korea Exchange briefly halted trading. Micron's down two pre-market here, and US futures are pointing lower on what the tape's calling a fresh AI wobble.
+ALEX: It's entirely positioning, and it set up the whiplash. Because overnight, while New York slept, the chip complex came apart in Asia. Kospi down 6.4%. SK Hynix off 11. Samsung down 8. Korea Exchange briefly halted trading. Micron's down 2 pre-market here, and US futures are pointing lower on what the tape's calling a fresh AI wobble.
 
 SAM: So the setup is almost comic. The best data point of the week is about to hit the wires — and the stocks that should love it are getting hit.
 
-ALEX: Priced-for-perfection in one sentence. And it's landed the market squarely in the bubble debate. Cramer said out loud he wants cold, hard proof AI is paying off for the customers, not just the infrastructure sellers. Apollo's Torsten Slok is running around saying the sixty-forty portfolio is dead because AI is now too big to avoid. And there's a liquidity worry underneath it — the buildout only works if investors keep financing it.
+ALEX: Priced-for-perfection in one sentence. And it's landed the market squarely in the bubble debate. Cramer said out loud he wants cold, hard proof AI is paying off for the customers, not just the infrastructure sellers. Apollo's Torsten Slok is running around saying the 60/40 portfolio is dead because AI is now too big to avoid. And there's a liquidity worry underneath it — the buildout only works if investors keep financing it.
 
 SAM: So the bull case and the bear case are the same fact. AI is enormous — which is either why you can't lose or why you can't diversify away the risk.
 
@@ -84,11 +84,11 @@ SAM: Start with the referee.
 
 ## SEGMENT ONE — U.S. BUSINESS
 
-ALEX: TSMC. Second-quarter net income was seven-hundred-six-point-six billion Taiwan dollars — call it twenty-two billion US — up seventy-seven percent year on year, a record, and it blew past the roughly six-twenty-five-billion estimate. Fifth straight record quarter. And they didn't just beat; they raised the full-year revenue outlook and lifted capex, with management calling AI demand "extremely robust."
+ALEX: TSMC. Second-quarter net income was 706.6 billion Taiwan dollars — call it $22 billion US — up 77% year on year, a record, and it blew past the roughly $625 billion estimate. Fifth straight record quarter. And they didn't just beat; they raised the full-year revenue outlook and lifted capex, with management calling AI demand "extremely robust."
 
 SAM: So the single most important supply-chain node in the entire AI trade just told you demand is accelerating and put its capex where its mouth is. And the stock fell.
 
-ALEX: The stock fell. On profit-taking, on "expectations are now exceptionally high" — a fund-manager phrase doing a lot of work. They also bumped US investment by another hundred billion to two-sixty-five, four new two-nanometer fabs in Arizona. Cleanest possible print, and the reaction is the throughline: when a name is priced for perfection, a blowout isn't a catalyst, it's an exit.
+ALEX: The stock fell. On profit-taking, on "expectations are now exceptionally high" — a fund-manager phrase doing a lot of work. They also bumped US investment by another $100 billion to $265 billion, 4 new 2-nanometer fabs in Arizona. Cleanest possible print, and the reaction is the throughline: when a name is priced for perfection, a blowout isn't a catalyst, it's an exit.
 
 SAM: Which is the same argument the memory crater is making — Hynix and Samsung didn't get worse overnight, the price just got ahead of the story. And it validates the capex, which is the thing the bears keep saying is speculative.
 
@@ -96,7 +96,7 @@ ALEX: That's the underrated read. TSMC raising capex is contracted demand, not a
 
 SAM: Second US story — away from AI entirely. The real economy.
 
-ALEX: And it's printing fine. The bank season was a record windfall — trading desks, prime brokerage, investment-banking fees all humming; the prime-brokerage engine in particular had a record quarter, and the banks flagged a resilient consumer with rising loan balances and clean credit. Now the handoff: J-and-J beat, two-ninety against two-eighty-four, on twenty-five-three in revenue. United Airlines crushed it — two-forty-six against a one-eighty-nine estimate. And UnitedHealth reports this morning, where the whole story is the medical-cost trend.
+ALEX: And it's printing fine. The bank season was a record windfall — trading desks, prime brokerage, investment-banking fees all humming; the prime-brokerage engine in particular had a record quarter, and the banks flagged a resilient consumer with rising loan balances and clean credit. Now the handoff: J-and-J beat, 2.90 against 2.84, on 25.3 billion in revenue. United Airlines crushed it — 2.46 against a 1.89 estimate. And UnitedHealth reports this morning, where the whole story is the medical-cost trend.
 
 SAM: So the breadth is real even if the headline index is a megacap puppet show. Banks, healthcare, airlines — that's the non-AI economy compounding.
 
@@ -110,15 +110,15 @@ SAM: So volatility is a revenue line, not just a risk. Two international.
 
 ## SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS
 
-ALEX: The Bank of Korea hiked — twenty-five basis points, its first hike since 2023. And read why: to counter inflation fueled by the US-Iran conflict. So Korea joins the ECB, the BOJ, and the Philippine central bank all tightening into the oil shock, while the Fed sits on its hands debating.
+ALEX: The Bank of Korea hiked — 25 basis points, its first hike since 2023. And read why: to counter inflation fueled by the US-Iran conflict. So Korea joins the ECB, the BOJ, and the Philippine central bank all tightening into the oil shock, while the Fed sits on its hands debating.
 
-SAM: That's the global picture nobody's framing cleanly. The Fed is the outlier dove, and everyone else is fighting imported inflation. For a chip-heavy economy like Korea, hiking on the same morning the Kospi's down six-plus percent is a genuinely brutal bind.
+SAM: That's the global picture nobody's framing cleanly. The Fed is the outlier dove, and everyone else is fighting imported inflation. For a chip-heavy economy like Korea, hiking on the same morning the Kospi's down more than 6% is a genuinely brutal bind.
 
 ALEX: It's the same bind we keep circling — defend the currency, fight the fuel-price pass-through, and pay for it by tightening into an equity air-pocket. The synchronized-tightening trade is back on, and it keeps a floor under global yields even when US disinflation prints cool. That floor is why the US ten-year can't rally as far as the data alone would justify.
 
 SAM: Second story — Europe.
 
-ALEX: Europe Inc is heading into its strongest earnings season in more than three years — genuinely good numbers coming. But the investor worry is structural: Europe doesn't have the AI growth engines to keep pace with the US, so even a strong season reads as "good, but not compounding." And the regulatory backdrop tightened — Brussels accepted Musk's X remediation plan under the Digital Services Act, after last year's hundred-twenty-million-euro fine.
+ALEX: Europe Inc is heading into its strongest earnings season in more than three years — genuinely good numbers coming. But the investor worry is structural: Europe doesn't have the AI growth engines to keep pace with the US, so even a strong season reads as "good, but not compounding." And the regulatory backdrop tightened — Brussels accepted Musk's X remediation plan under the Digital Services Act, after last year's €120 million fine.
 
 SAM: So Europe's problem isn't the quarter, it's the multiple. Earnings without an AI story get a value multiple, not a growth one.
 
@@ -128,7 +128,7 @@ SAM: China to close the block.
 
 ## SEGMENT ONE — CHINA
 
-ALEX: The China story ties directly into the memory crater. CXMT — China's DRAM champion — is running an eight-point-six-billion-dollar Shanghai IPO, and analysts are already calling it China Shock 3.0. Same playbook they ran in steel and EVs: scale hard at the low end, take share on price, then move up the stack at Samsung, Hynix, and Micron. Even the underwriting tells the story — six Chinese banks splitting forty-one million in fees, reviving a domestic IPO machine that had gone quiet.
+ALEX: The China story ties directly into the memory crater. CXMT — China's DRAM champion — is running an $8.6 billion Shanghai IPO, and analysts are already calling it China Shock 3.0. Same playbook they ran in steel and EVs: scale hard at the low end, take share on price, then move up the stack at Samsung, Hynix, and Micron. Even the underwriting tells the story — 6 Chinese banks splitting $41 million in fees, reviving a domestic IPO machine that had gone quiet.
 
 SAM: So the same week the Korean memory names crater on valuation, the Chinese memory challenger raises a war chest. That's not a coincidence, that's the incumbents' whole bear case wearing a party hat.
 
@@ -154,7 +154,7 @@ ALEX: And the physical grid is straining in real time to make the point. PJM —
 
 SAM: And that congestion point is underrated. It's not just "not enough generation" — it's that the electrons can't physically move from where they're made to where the load is.
 
-ALEX: Right, the wires are the bottleneck as much as the megawatts. You can have spare generation in one zone and a shortfall two hundred miles away and no way to shuttle it — because the transformer and high-voltage line lead times run years, and the OEM backlog on large power transformers and gas turbines stretches toward the end of the decade. That's why the build keeps going behind-the-meter: hyperscalers signing dedicated on-site generation to skip the queue entirely.
+ALEX: Right, the wires are the bottleneck as much as the megawatts. You can have spare generation in one zone and a shortfall 200 miles away and no way to shuttle it — because the transformer and high-voltage line lead times run years, and the OEM backlog on large power transformers and gas turbines stretches toward the end of the decade. That's why the build keeps going behind-the-meter: hyperscalers signing dedicated on-site generation to skip the queue entirely.
 
 SAM: Which sets up the contrast that actually decides the AI race. Lay it out.
 
@@ -166,7 +166,7 @@ ALEX: And that reframes every US energy trade. If the binding constraint is elec
 
 SAM: And the commodity underneath all of it is copper.
 
-ALEX: Copper's up twelve-and-a-half percent on the year, shadowing the hyperscaler stocks almost tick for tick — you can't build a substation, a transformer, or a campus without tonnes of it. And US industrial construction is up eighteen percent, led specifically by suppliers of data-center equipment. Even the warehouse builders are back, stocking the gear for the buildout. The physical economy is repricing around this whether or not the chip stocks have a good week.
+ALEX: Copper's up 12.5% on the year, shadowing the hyperscaler stocks almost tick for tick — you can't build a substation, a transformer, or a campus without tonnes of it. And US industrial construction is up 18%, led specifically by suppliers of data-center equipment. Even the warehouse builders are back, stocking the gear for the buildout. The physical economy is repricing around this whether or not the chip stocks have a good week.
 
 SAM: So the tell isn't Nvidia's multiple — it's the copper price and the permit queue. And there's a water angle folded into the siting fight too.
 
@@ -184,7 +184,7 @@ ALEX: The typhoon story eased. Inday — international name Bavi — weakened an
 
 SAM: And that lands straight on a central bank that's already boxed in. Where's the peso and where's the BSP?
 
-ALEX: Peso's near sixty-one-seventy, back toward its record low. And the important thing is why — it's not a policy failure, it's oil. The Hormuz premium widens the import bill and hits every energy-importing emerging-market currency at once; the peso's just the cleanest expression of it in the region. The BSP is already at four-seventy-five after June's second straight hike, and MUFG is now penciling a peak of five-twenty-five by year-end — another fifty basis points of tightening.
+ALEX: Peso's near 61.70, back toward its record low. And the important thing is why — it's not a policy failure, it's oil. The Hormuz premium widens the import bill and hits every energy-importing emerging-market currency at once; the peso's just the cleanest expression of it in the region. The BSP is already at 4.75% after June's second straight hike, and MUFG is now penciling a peak of 5.25% by year-end — another 50 basis points of tightening.
 
 SAM: So they're hiking into a currency problem that's really an oil problem, and today's oil headline is a US strike calendar. That's a brutal external position to manage.
 
@@ -276,7 +276,7 @@ SAM: Nicely put. To the meme.
 
 SAM: Segment six — the trending meme, reported straight.
 
-ALEX: The format eating feeds this week is "2026 is the new 2016" — a nostalgia wave where people run 2016-era filters and aesthetics over present-day clips. It's big: something like fifty-five million videos using the 2016-style look, and a real spike in people just searching the year "2016" on the platforms.
+ALEX: The format eating feeds this week is "2026 is the new 2016" — a nostalgia wave where people run 2016-era filters and aesthetics over present-day clips. It's big: something like 55 million videos using the 2016-style look, and a real spike in people just searching the year "2016" on the platforms.
 
 SAM: And the meta-read on why now?
 
@@ -288,7 +288,7 @@ SAM: Nostalgia as a risk-off trade. Even the memes are de-grossing.
 
 SAM: And before we let you go — one good thing to end on.
 
-ALEX: A big one. The team behind the R21/Matrix-M malaria vaccine just won the European Inventor Award for 2026 — the low-cost, high-volume vaccine, roughly seventy-five to eighty percent protection, already rolling out across about twenty countries, on track to prevent tens of thousands of childhood deaths. Not a lab result — a deployed, scaling, life-saving thing.
+ALEX: A big one. The team behind the R21/Matrix-M malaria vaccine just won the European Inventor Award for 2026 — the low-cost, high-volume vaccine, roughly 75 to 80% protection, already rolling out across about 20 countries, on track to prevent tens of thousands of childhood deaths. Not a lab result — a deployed, scaling, life-saving thing.
 
 SAM: A vaccine that's actually in arms, not in a press release. That's the good version of a scaling story.
 

@@ -85,7 +85,7 @@ async function viewListen() {
             <input type="range" id="seek" min="0" max="1000" value="0">
             <span class="time" id="dur">${fmtTime(CUR.durationSec)}</span>
           </div>
-          <div class="speeds" id="speeds"></div>
+          <div class="speeds" id="speeds"><span class="slowbadge" id="slowbadge" hidden>1× · 中文</span></div>
         </div>
       </div>
       <div class="offline-row">
@@ -238,9 +238,12 @@ function renderHighlight(now) {
     }
     if (act >= 0) { TURNS[act].el.classList.add('speaking'); if (S.follow) followScroll(TURNS[act].el); }
     activeTurn = act; activeWord = null;
-    // auto-slow to 1x on Chinese/Mandarin turns, restore the user's speed on exit
-    const target = rateForTurn(act);
+    // auto-slow to 1x on Chinese/Mandarin turns, restore the user's speed on exit,
+    // and surface it with a small "1× · 中文" badge so the speed drop is visible.
+    const slow = isChineseTurn(act);
+    const target = slow ? CHINESE_RATE : S.speed;
     if (audio.playbackRate !== target) audio.playbackRate = target;
+    const badge = $('#slowbadge'); if (badge) badge.hidden = !slow;
   }
   if (act < 0) return;
 

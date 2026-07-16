@@ -58,6 +58,9 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;heigh
 .speeds button{flex:0 0 auto;padding:6px 10px;border-radius:999px;border:1px solid var(--line);
   background:var(--panel2);color:var(--muted);font-weight:600;font-size:13px;cursor:pointer}
 .speeds button.on{background:var(--accent);color:#1a1206;border-color:var(--accent)}
+.slowbadge{align-self:center;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:600;
+  color:#04203f;background:var(--accent2);border:1px solid var(--accent2);white-space:nowrap}
+.slowbadge[hidden]{display:none}
 
 /* segment chips */
 .chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 2px;-webkit-overflow-scrolling:touch}

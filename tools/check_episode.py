@@ -11,7 +11,7 @@ Usage:
     tools/check_episode.py <YYYY-MM-DD>
 
 Env:
-    MIN_SEGMENTS   default 11
+    MIN_SEGMENTS   default 10  (canonical show is ~11 after the meme segment was dropped)
     MIN_DURATION   default 1500 (seconds — the 25-min floor)
     ALLOW_SHORT    set to any value to permit a below-floor duration (e.g. a
                    deliberately published partial) — downgrades it to a warning
@@ -24,7 +24,7 @@ def main():
         print("usage: check_episode.py <YYYY-MM-DD>", file=sys.stderr)
         sys.exit(2)
     date = sys.argv[1]
-    min_seg = int(os.environ.get("MIN_SEGMENTS", "11"))
+    min_seg = int(os.environ.get("MIN_SEGMENTS", "10"))
     min_dur = int(os.environ.get("MIN_DURATION", "1500"))
 
     idx = json.load(open(os.path.join("data", "index.json")))

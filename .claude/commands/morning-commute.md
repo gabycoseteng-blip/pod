@@ -62,9 +62,26 @@ script then re-expresses; the script is the only place prose belongs). Cover
 exactly what the steering prompt's segments require, with **real, accurate**
 numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angle,
 2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
-theme, Philippines weather + BSP + peso, art/pop, the trending meme, one good
-thing). Pick one throughline that connects the macro blocks. Cross-check the
-history ledger from step 0 — pick **fresh** stories, not ones already covered.
+theme, Philippines weather + BSP + peso, arts & culture, one good thing). Pick one
+throughline that connects the macro blocks. Cross-check the history ledger from
+step 0 — pick **fresh** stories, not ones already covered.
+
+**Philippines — source from the local desks.** Pull the weather + macro from
+**Rappler**, the **Philippine Daily Inquirer** (`inquirer.net` / `newsinfo.inquirer.net`),
+and **GMA News** (`gmanetwork.com/news`) — plus **PAGASA** for the storm bulletin and
+the **BSP** for rates/peso. Web-search/fetch those domains directly; they carry the
+local detail (PAGASA signal levels, landfall, BSP statements) the wires miss.
+
+**Arts & Culture — visual/fine art, opera, literature first (not just movies).**
+Lead with **visual & fine art** (exhibitions, biennials, art fairs, auctions, notable
+gallery shows), **opera & classical**, and **literature** (releases, prizes,
+criticism); film/pop is a minor slice. Sources: **The Art Newspaper**, **ARTnews**,
+**Artforum**, **Hyperallergic**, **Frieze** (visual art); **Van Magazine**,
+**Operawire**, **Gramophone** (opera/classical); **NYRB**, **LRB**, **LitHub**, the
+**Paris Review**, and major prize news — Booker, Pulitzer, Nobel (literature); plus
+**FT Life & Arts** and **NYT Arts**. Also check the user's inbox (Gmail) for
+gallery/fair mail she gets — e.g. `from:anatebgi.com OR from:companygallery.us OR
+from:tokyogendai.com` — to surface specific shows she'd care about.
 
 **Energy / data centers / utilities — research deep.** Assume the listener knows
 the AI-infrastructure capex cycle cold (she works in energy/data-center development —
@@ -153,8 +170,9 @@ relies on:
   length and burn a second render. (If the render voice/model is ever changed,
   re-measure chars-per-second from one short calibration render and update this
   number — the char target follows the engine's pace.)
-- Hosts announce each segment; no run-of-show in the cold open; the meme segment
-  **reports** the meme (no performed bit); close on One Good Thing.
+- Hosts announce each segment; no run-of-show in the cold open; **there is no
+  trending-meme segment** (removed) — go Arts & Culture → One Good Thing; close on
+  One Good Thing.
 - **VOCAB OF THE DAY — conduct the whole segment IN-LANGUAGE** (immersion, not a
   101): 2 Mandarin then 2 Tagalog, each tied to a story in today's show, and each
   a **new** word not in the history ledger. For the Mandarin stretch the hosts
@@ -280,11 +298,11 @@ guardrail can gate the deploy.
 
 ## 7. Guardrail check, then deploy
 `tools/daily.sh` now runs `tools/check_episode.py` automatically and **refuses to
-push a malformed episode** (needs ≥ 11 segments, `durationSec` ≥ 1500, `hasAudio`),
+push a malformed episode** (needs ≥ 10 segments, `durationSec` ≥ 1500, `hasAudio`),
 and it asserts you're on `$DEPLOY_BRANCH` before pushing. To publish a deliberate
 partial (e.g. audio truncated by a quota outage), pass `ALLOW_SHORT=1`. You should
 still eyeball it:
-Inspect `data/index.json` for `$date` — it should show **~12 segments** and
+Inspect `data/index.json` for `$date` — it should show **~11 segments** and
 **`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix
 the script/vocab, re-run step 6, and only continue once it looks right. Confirm

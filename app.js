@@ -134,6 +134,10 @@ async function viewListen() {
 // collapsing the timeline. charLen (used for per-word spans within a turn) uses the
 // same weighting so words are spaced by speaking time, not byte count.
 const CJK = /[㐀-鿿豈-﫿＀-￯]/g;
+const CJK_ONE = new RegExp(CJK.source);   // non-global copy for boolean turn tests
+const CHINESE_RATE = 1;                    // auto-slow Mandarin/Chinese turns to 1x
+const isChineseTurn = i => i >= 0 && i < TURNS.length && CJK_ONE.test(TURNS[i].text);
+const rateForTurn = i => isChineseTurn(i) ? CHINESE_RATE : S.speed;
 function spokenWeight(s) {
   const cjk = (s.match(CJK) || []).length;
   return ((s.length - cjk) + cjk * 2.6) || 1;
@@ -234,6 +238,9 @@ function renderHighlight(now) {
     }
     if (act >= 0) { TURNS[act].el.classList.add('speaking'); if (S.follow) followScroll(TURNS[act].el); }
     activeTurn = act; activeWord = null;
+    // auto-slow to 1x on Chinese/Mandarin turns, restore the user's speed on exit
+    const target = rateForTurn(act);
+    if (audio.playbackRate !== target) audio.playbackRate = target;
   }
   if (act < 0) return;
 
@@ -307,7 +314,9 @@ function setupPlayer(url, date) {
   [1, 1.25, 1.5, 1.75, 2].forEach(r => {
     const b = document.createElement('button'); b.textContent = r + '×';
     b.className = r === S.speed ? 'on' : '';
-    b.onclick = () => { S.speed = r; audio.playbackRate = r; saveState();
+    b.onclick = () => { S.speed = r;
+      // honor auto-1x if we're currently inside a Chinese turn; else apply the pick now
+      audio.playbackRate = isChineseTurn(activeTurn) ? CHINESE_RATE : r; saveState();
       $$('#speeds button').forEach(x => x.classList.toggle('on', x === b)); };
     speeds.append(b);
   });

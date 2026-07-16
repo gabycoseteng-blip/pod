@@ -13,9 +13,8 @@ You are producing **"The Morning Commute,"** a daily ~30-minute, two-host news p
 2. ENERGY / DATA CENTERS / UTILITIES (~5 min): assume a reader who already knows the AI-infrastructure capex cycle cold — go deep, not 101.
 3. PHILIPPINES (~5 min)
 4. VOCAB OF THE DAY (~5 min): 2 Mandarin words, then 2 Tagalog words — segment conducted IN-LANGUAGE (see Vocab rule).
-5. ART / POP (~2 min)
-6. TRENDING MEME (~2 min): REPORT the trending meme only — no comedy bit, no performed joke.
-7. ONE GOOD THING (~1 min): a single uplifting story from anywhere, then a warm sign-off.
+5. ARTS & CULTURE (~4 min): lead with **visual & fine art** (major exhibitions, biennials, art fairs, auctions, notable gallery shows), **opera & classical music**, and **literature** (notable releases, prizes, criticism); **theater & dance** welcome. Film/TV/pop is a *minor* slice, not the whole segment. Report with a critic's eye — the work, the maker, why it matters — not a listings roundup.
+6. ONE GOOD THING (~1 min): a single uplifting story from anywhere, then a warm sign-off.
 
 **Hard rules:**
 - Cover every item in the brief. Do not drop segments to save time; trim wording instead.

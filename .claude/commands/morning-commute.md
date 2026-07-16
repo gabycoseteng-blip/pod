@@ -87,6 +87,16 @@ offtake; **The Generalist** & **Chartbook/Adam Tooze** for the macro-compute ang
 Use `search_threads` then `get_thread` for the ones worth citing; attribute figures
 to the source. This is the difference between a 101 and a desk read.
 
+**Fallback — never let the energy segment silently degrade.** The Gmail connector is
+OAuth, so a scheduled/headless run may not have it (if `ToolSearch` for
+`mcp__Gmail__*` finds nothing, or the query errors, treat it as unavailable). In that
+case, **fall back** to web-searching those same publications' public posts
+(`SemiAnalysis`, `Utility Dive`, `Latitude Media/CTVC`, `RTO Insider`, FERC/PJM/ERCOT
+dockets) — degrade gracefully, don't drop the depth. **Either way, state which path
+you used in the end-of-run report** ("energy sourced from inbox newsletters" vs
+"…from web — Gmail connector unavailable"), so a broken inbox path is visible
+immediately instead of quietly reverting to general press.
+
 **Accuracy:** pull the actual prior-session closes/levels and movers from the FMP
 connector — never approximate index levels, prices, or yields from memory. If
 markets were closed (weekend or holiday), use the **last trading session** and say
@@ -285,4 +295,5 @@ gained a line for `$date`. When it all checks out:
 git push
 ```
 Then report in a few lines: the throughline, segment count, the four vocab words,
-the audio duration, and that the deploy push landed.
+the audio duration, **which source the energy segment used** (inbox newsletters vs
+web fallback — see the Energy fallback note), and that the deploy push landed.

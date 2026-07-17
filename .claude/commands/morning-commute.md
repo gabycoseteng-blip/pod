@@ -38,8 +38,18 @@ git checkout "$DEPLOY_BRANCH" && git pull --rebase origin "$DEPLOY_BRANCH"
   exit 1; }
 
 pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a SessionStart hook also does this — render/upload fail cold without them
-tail -n 60 data/history.jsonl   # the ledger you MUST dedup against — from the deploy branch
+
+# Build the "already covered" exclusion block ONCE, from the deploy branch's ledger,
+# and reuse it verbatim in every research subagent (step 1) so a fan-out never
+# surfaces already-aired stories/vocab (which is what forces a costly re-research).
+EXCLUDE="$(python3 tools/exclude_context.py --recent 8)"
+printf '%s\n' "$EXCLUDE"   # the ledger you MUST dedup against — recent stories + explainers + ALL used vocab
 ```
+(A **SessionStart guard** — `tools/preflight_deploy_branch.sh` — also runs
+automatically and shouts if this branch's command file/ledger is behind the deploy
+branch. If you see that warning, `git checkout $DEPLOY_BRANCH && git pull` and
+re-open `/morning-commute` before doing anything — otherwise you're running a stale
+playbook against a stale ledger, exactly the failure that causes duplicate research.)
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`
 (see README → "Audio storage" and `routine/README.md`). If `GEMINI_API_KEY` is
 missing, do steps 1–3, then stop and report — do not fabricate audio.
@@ -129,6 +139,16 @@ for the ~10 names you'll actually cite, `economics treasury-rates`, `commodity` 
 distilled numbers, so the raw JSON never lands in the main context.
 `tools/market_snapshot.py` (needs `FMP_API_KEY`) prints one compact block for the
 whole market section.
+
+**Dedup the fan-out at the SOURCE — paste `$EXCLUDE` into every research subagent.**
+The single most expensive daily failure is *duplicate research*: agents told only
+"don't repeat June" surface a week of already-aired stories, which you then discard
+and re-run (that is precisely what cost 2026-07-17 a second research pass + a full
+rewrite). Prevent it by handing each agent the exclusion block you built in step 0:
+include the verbatim `$EXCLUDE` text in the prompt and instruct "return only items
+NOT already on this list; a genuinely new development on a running story is fine, a
+recap is not." Regenerate it any time with `python3 tools/exclude_context.py --recent 8`.
+This is far cheaper than deduping after the fact.
 
 ## 2. Write the script → `routine/commute-two-host-script-$date.md`
 Turn the brief into the spoken two-host script, following
@@ -256,7 +276,11 @@ python3 tools/check_dedup.py routine/vocab-$date.json routine/digest-$date.json
 ```
 Exit 0 = all four words fresh. Non-zero = a word (or an exact story slug) already
 aired — pick a fresh one and rewrite that vocab turn **before** rendering. (Bypass
-only with `DEDUP_OVERRIDE=1`, and only deliberately.)
+only with `DEDUP_OVERRIDE=1`, and only deliberately.) The check also **warns on
+semantic story repeats** — a slug that reuses the same story with different words
+(token-overlap against the ledger, tunable via `NEAR_DUP_THRESHOLD`) — so a "same
+story, new slug" recap gets flagged even when it isn't a byte-for-byte match.
+Treat those warnings as "confirm this is a genuinely new development, or drop it."
 
 ## 5. Render audio → `commute-gemini-$date.mp3`
 ```bash

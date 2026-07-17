@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-17",
+  "cards": [
+    {
+      "id": "2026-07-17-zh-1",
+      "lang": "Mandarin",
+      "word": "尽管",
+      "pinyin": "jǐnguǎn",
+      "pronunciation": "jin gwan",
+      "tones": "3 · 3",
+      "meaning": "although; even though; despite (the outcome happens anyway)",
+      "example": "尽管芯片股昨天大跌，AI 的建设还在加速。",
+      "examplePinyin": "jǐnguǎn xīnpiàn gǔ zuótiān dà diē, AI de jiànshè hái zài jiāsù",
+      "exampleMeaning": "Although chip stocks plunged yesterday, the AI buildout keeps accelerating.",
+      "note": "HSK-4 advanced connective, formal/书面语-leaning. Fixed pairing 尽管…还是/仍然… ('although X, still Y'). Near-synonym contrast vs 虽然 (suīrán): both mean 'although,' but 虽然 is the neutral everyday word, while 尽管 is stronger and more emphatic — it stresses that no matter how big the obstacle, the result happens anyway (顶着压力). Perfect for a market that keeps bidding despite the warnings.",
+      "tiesTo": "the AI buildout accelerating despite the chip-stock rout"
+    },
+    {
+      "id": "2026-07-17-zh-2",
+      "lang": "Mandarin",
+      "word": "加剧",
+      "pinyin": "jiājù",
+      "pronunciation": "jyah jyu",
+      "tones": "1 · 4",
+      "meaning": "to intensify; to aggravate; to sharpen (something tense or negative)",
+      "example": "中东局势加剧，通胀压力也随之加剧。",
+      "examplePinyin": "Zhōngdōng júshì jiājù, tōngzhàng yālì yě suízhī jiājù",
+      "exampleMeaning": "As the Middle East situation intensifies, inflationary pressure intensifies right along with it.",
+      "note": "HSK-4 abstract collocation, formal/书面语 — everywhere in financial and geopolitical copy. Pairs with tense, negative nouns: 紧张局势加剧 (tensions intensify), 通胀压力加剧, 矛盾加剧. Near-synonym contrast vs 增加 (zēngjiā): 增加 is a neutral increase in quantity (增加产量, raise output); 加剧 is the intensification of something already strained. Quantity versus severity.",
+      "tiesTo": "escalating Middle East conflict feeding the inflation and oil bid"
+    },
+    {
+      "id": "2026-07-17-tl-1",
+      "lang": "Tagalog",
+      "word": "igting",
+      "pinyin": "",
+      "pronunciation": "ig-TING",
+      "tones": "",
+      "meaning": "intensity; mounting tension; the tautness of a situation stretched tight",
+      "example": "Lalong tumindi ang igting sa Gitnang Silangan ngayong linggo.",
+      "examplePinyin": "",
+      "exampleMeaning": "The tension in the Middle East intensified further this week.",
+      "note": "Native-speaker contrast vs init: init is heat — anger, or passing political 'heat' — whereas igting is the tightening of a situation, like a rope (lubid) pulled taut. It fits both markets and war: igting ng benta (the intensity of a selloff), igting ng labanan (the intensity of the fighting). It's the natural Tagalog counterpart of the Mandarin 加剧 taught above.",
+      "tiesTo": "the escalating Middle East conflict and the two-day market selloff"
+    },
+    {
+      "id": "2026-07-17-tl-2",
+      "lang": "Tagalog",
+      "word": "pasanin",
+      "pinyin": "",
+      "pronunciation": "pah-sah-NIN",
+      "tones": "",
+      "meaning": "a burden one shoulders; a load of responsibility or hardship carried",
+      "example": "Mabigat na pasanin ng bawat OFW ang kanyang pamilya, lalo na ngayong mahina ang piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "Each overseas Filipino worker carries the heavy burden of family — all the more now, with a weak peso.",
+      "note": "Native-speaker contrast vs dalahin: dalahin is simply to carry an object (a neutral, physical load); pasanin is a burden borne on the shoulders — usually figurative and heavy: responsibility, hardship, the weight of others' needs. The related pasan-pasan means to shoulder something wholesale. It carries dignity and strain at once.",
+      "tiesTo": "the weakening peso, the oil-import bill, and softening OFW remittances"
+    }
+  ]
+}

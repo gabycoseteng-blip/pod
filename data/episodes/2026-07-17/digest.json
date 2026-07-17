@@ -1,0 +1,32 @@
+{
+  "throughline": "The AI trade's second down day is a growth-guide reckoning (Alphabet slips on Gemini) while the same oil bid keeping the Fed boxed hold-vs-hike lands as real costs — a $6B airline fuel hit and a data-center line item on power bills",
+  "stories": [
+    "iran-war-second-week-no-ceasefire-hormuz-crude-bid-mid80s-toward-90",
+    "ukraine-zelensky-fires-defense-minister-fedorov-new-wartime-cabinet-syrsky-doctrine-clash",
+    "us-market-overview-second-down-day-sp-7533-nasdaq-25881-dow-52552-chips-lead",
+    "alphabet-down-4pct-gemini-3.5-pro-delayed-growth-guide-punished",
+    "june-cpi-3.5-cool-minus0.4-mom-core-2.6-yet-yields-rise-10y-4.57-hold-vs-hike-fomc-jul28-29",
+    "united-airlines-q2-eps-1.99-rev-17.7b-plus16-raises-fy-9-11-despite-6bn-fuel-cost",
+    "unitedhealth-q2-eps-6.38-beat-rev-112b-mlr-86.7-raises-fy-19.5-20-stock-plus7",
+    "novartis-myricx-bio-up-to-1.5bn-adc-nmti-b7h3-her2-patent-cliff-bolt-on",
+    "burnham-elected-uk-labour-leader-replaces-starmer-pm-monday-gilt-fiscal-watch",
+    "iea-critical-minerals-outlook-china-rare-earth-curbs-6.5trillion-western-production-at-risk",
+    "ppl-pennsylvania-4.9pct-rate-hike-7.42mo-first-datacenter-rate-class-vs-virginia-281-bill",
+    "white-house-second-ratepayer-protection-summit-whitmer-michigan-datacenter-plan",
+    "ge-vernova-100gw-gas-backlog-baker-hughes-kodiak-btm-turbine-1gw-scalable-1.8",
+    "philippines-remittances-soft-2pct-2.71b-may-record-h1-14.11b-habagat-luzon-peso-61.7-98pct-oil-import",
+    "art-pop-rick-ross-set-in-stone-new-music-friday-toy-story-5-808.6m-number3-of-2026",
+    "meme-hatsune-miku-world-cup-custody-battle-fan-art-per-winning-nation",
+    "one-good-thing-pinpoint-blood-test-99pct-gynae-cancer-16481-patients-nhs-skip-biopsies"
+  ],
+  "explainers": [
+    "growth-guide-reckoning-tape-punishes-any-deceleration-in-ai-leadership-names",
+    "oil-shock-lands-on-margins-not-demand-airline-eats-84pct-fuel-jump-and-guides-up",
+    "managed-care-medical-loss-ratio-under-87-as-the-signal-utilization-back-under-control",
+    "two-models-of-datacenter-cost-allocation-absorb-into-all-bills-vs-carve-out-rate-class",
+    "behind-the-meter-turbines-skip-interconnection-queue-order-books-as-proof-build-is-real",
+    "rare-earth-export-controls-as-mirror-image-of-being-short-electrons-permit-factory-still-no-neodymium",
+    "remittances-as-thinning-shock-absorber-tenth-of-gdp-vs-widening-oil-import-bill"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained this episode. This episode ADVANCES the week's running Iran-oil / AI-power / Philippines-bind story rather than recapping it: fresh discrete items were chosen deliberately to avoid the 07-09 through 07-16 coverage (bank earnings, TSMC capex, China Q2 GDP, PJM auction, ERCOT queue, Prologis-Segro, Bank-of-Korea hike, Gracie Abrams, Moana, Tatooine-weather meme all already aired and were NOT reused). Vocab (尽管, 加剧, igting, pasanin) folds in automatically from vocab.json — do not list here."
+}

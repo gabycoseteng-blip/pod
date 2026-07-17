@@ -18,7 +18,55 @@ Env:
     DEPLOY_BRANCH    branch to dedup against (default: main; --branch overrides)
     DEDUP_OVERRIDE   set to any value to downgrade a vocab collision to a warning
 """
-import argparse, json, os, subprocess, sys
+import argparse, json, os, re, subprocess, sys
+
+# tokens too generic to signal a shared story on their own
+_STOP = {
+    "us", "the", "of", "and", "to", "in", "on", "for", "a", "an", "vs", "at",
+    "market", "overview", "q1", "q2", "q3", "q4", "2026", "2027", "record",
+    "new", "up", "down", "pct", "bn", "bps", "day", "week", "high", "low",
+}
+
+
+def _stem(t):
+    """crude suffix-strip so raises/raised/raising collapse to one token (no NLTK
+    dependency; good enough to make reworded slugs overlap)."""
+    for suf in ("ing", "ed", "es", "s"):
+        if t.endswith(suf) and len(t) - len(suf) >= 3:
+            return t[: -len(suf)]
+    return t
+
+
+def _tokens(slug):
+    """significant, stemmed word tokens of a kebab-case story slug (drop generic/stop
+    words and pure numbers, so 'tsmc-raises-capex-guide' and 'tsmc-capex-revenue-raised'
+    still overlap on {tsmc, capex, rais})."""
+    toks = re.split(r"[^a-z0-9]+", slug.lower())
+    return {_stem(t) for t in toks
+            if t and t not in _STOP and not t.isdigit() and len(t) > 2}
+
+
+def near_duplicates(today, seen, threshold):
+    """for each of today's story slugs, the best prior slug whose token-overlap
+    (Jaccard) meets `threshold` OR that shares >= 3 significant tokens — the
+    semantic repeats an exact-match check misses."""
+    hits = []
+    seen_tok = [(s, _tokens(s)) for s in seen]
+    for s in today:
+        a = _tokens(s)
+        if not a:
+            continue
+        best, best_j = None, 0.0
+        for prior, b in seen_tok:
+            if not b or prior == s:
+                continue
+            inter = len(a & b)
+            j = inter / len(a | b)
+            if (j >= threshold or inter >= 3) and j > best_j:
+                best, best_j = prior, j
+        if best:
+            hits.append((s, best, round(best_j, 2)))
+    return hits
 
 
 def load_ledger(branch):
@@ -61,16 +109,24 @@ def main():
     words = [c.get("word", "") for c in cards if c.get("word")]
     clashes = [w for w in words if w in seen_vocab]
 
-    story_clashes = []
+    story_clashes, near = [], []
     if a.digest and os.path.isfile(a.digest):
         stories = json.load(open(a.digest, encoding="utf-8")).get("stories", [])
         story_clashes = [s for s in stories if s in seen_stories]
+        threshold = float(os.environ.get("NEAR_DUP_THRESHOLD", "0.5"))
+        near = [h for h in near_duplicates(stories, seen_stories, threshold)
+                if h[0] not in seen_stories]  # don't double-report exact hits
 
     print(f"dedup vs origin/{a.branch}: {len(ledger)} prior episodes, "
           f"{len(seen_vocab)} vocab words on record")
     if story_clashes:
         print("⚠ story slug(s) exactly repeat a prior episode — advance, don't recap: "
               + ", ".join(story_clashes))
+    if near:
+        print("⚠ story slug(s) look like a SEMANTIC repeat (same story, different words) — "
+              "confirm it's a genuinely new development, not a recap:")
+        for s, prior, j in near:
+            print(f"    {s}  ~  {prior}  (overlap {j})")
 
     if not clashes:
         print(f"✓ all {len(words)} vocab words are fresh: {' '.join(words)}")

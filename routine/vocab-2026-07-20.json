@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-20",
+  "cards": [
+    {
+      "id": "2026-07-20-zh-1",
+      "lang": "Mandarin",
+      "word": "然而",
+      "pinyin": "rán'ér",
+      "pronunciation": "rahn err",
+      "tones": "2 · 2",
+      "meaning": "however; yet; nevertheless (formal contrastive connective)",
+      "example": "AI 的建设还在加速，然而相关股票却连跌三天。",
+      "examplePinyin": "AI de jiànshè hái zài jiāsù, rán'ér xiāngguān gǔpiào què lián diē sān tiān",
+      "exampleMeaning": "The AI buildout keeps accelerating; however, the related stocks have fallen three days straight.",
+      "note": "HSK-4 advanced connective, formal/书面语. Near-synonym contrast vs 但是 (dànshì): near-identical meaning, but 然而 belongs to written language and financial commentary while 但是 is more colloquial. Often introduces a result that contradicts — and surprises against — what came before (基本面很强，然而市场并不买账 — the fundamentals are strong, yet the market isn't buying it). Reaches for the editorial register a finance desk lives in.",
+      "tiesTo": "the gap between a roaring AI buildout and a third straight down day in AI stocks"
+    },
+    {
+      "id": "2026-07-20-zh-2",
+      "lang": "Mandarin",
+      "word": "蔓延",
+      "pinyin": "mànyán",
+      "pronunciation": "mahn yen",
+      "tones": "4 · 2",
+      "meaning": "to spread; to creep outward (like fire or a vine) — now mostly of negative sentiment or a crisis",
+      "example": "星期五，恐慌从科技股蔓延到整个市场，甚至蔓延到亚洲。",
+      "examplePinyin": "Xīngqīwǔ, kǒnghuāng cóng kējì gǔ mànyán dào zhěnggè shìchǎng, shènzhì mànyán dào Yàzhōu",
+      "exampleMeaning": "On Friday, the panic spread from tech stocks to the whole market, and even spread across to Asia.",
+      "note": "HSK-4+ abstract collocation, formal/书面语 — all over financial and crisis copy. Near-synonym contrast vs 扩大 (kuòdà): 扩大 is to enlarge a scope deliberately/on purpose (扩大投资, expand investment); 蔓延 is uncontrolled, creeping outward on its own, and usually negative. You say 恐慌蔓延 / 危机蔓延 / 抛售蔓延 (panic/crisis/selloff spreads) — you'd never say 恐慌扩大 as naturally. Deliberate expansion versus contagion.",
+      "tiesTo": "Friday's selloff spreading from tech to the whole market and across to Asia"
+    },
+    {
+      "id": "2026-07-20-tl-1",
+      "lang": "Tagalog",
+      "word": "lumaganap",
+      "pinyin": "",
+      "pronunciation": "loo-ma-ga-NAP",
+      "tones": "",
+      "meaning": "to spread widely; to proliferate (of news, fire, a crisis)",
+      "example": "Noong Biyernes, mabilis na lumaganap ang benta mula sa Wall Street hanggang sa Asya.",
+      "examplePinyin": "",
+      "exampleMeaning": "On Friday, the selloff spread fast from Wall Street all the way to Asia.",
+      "note": "Native-speaker contrast vs kumalat: they're close, but kumalat is everyday — kumalat ang tsismis (a rumor spreads), kumalat ang sakit (a disease spreads). Lumaganap (noun paglaganap) is broader and more formal in feel — paglaganap ng teknolohiya, paglaganap ng krisis (the spread of technology, of a crisis). It is the natural Tagalog counterpart of the Mandarin 蔓延 taught above.",
+      "tiesTo": "the selloff spreading from Wall Street across to Asian markets"
+    },
+    {
+      "id": "2026-07-20-tl-2",
+      "lang": "Tagalog",
+      "word": "tiisin",
+      "pinyin": "",
+      "pronunciation": "ti-i-SIN",
+      "tones": "",
+      "meaning": "to endure; to bear hardship or pain patiently without giving up (root: tiis)",
+      "example": "Tinitiis ng ekonomiya ng Pilipinas ang pagsipa ng langis at ang paghina ng piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Philippine economy is enduring the surge in oil and the weakening of the peso.",
+      "note": "Native-speaker contrast vs batahin: batahin is to lift or carry a physical weight; tiisin (from tiis) is to endure — it carries courage and patience, the sense that even when it hurts you keep going. It sits at the heart of a deeply Filipino value, being matiisin (long-suffering, uncomplaining). Distinct from pasanin (a burden shouldered): pasanin is the load; tiisin is the enduring of it.",
+      "tiesTo": "the Philippine economy absorbing the oil shock and a near-record-low peso"
+    }
+  ]
+}

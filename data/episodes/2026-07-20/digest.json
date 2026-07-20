@@ -1,0 +1,37 @@
+{
+  "throughline": "The AI-stock wobble broadened into a global risk-off — the crack spreading from one name to the whole complex and across to Asia — even as the oil-and-rates vise tightens into a live hold-vs-hike Fed and the physical AI-power build roars on regardless.",
+  "stories": [
+    "sudan-rsf-hemedti-genocide-death-sentence-uk-sanctions",
+    "denmark-eu-presidency-article7-hungary-orban-ukraine-veto",
+    "us-market-third-down-day-broadens-to-dow-china-tech-rout",
+    "chip-rout-tsmc-capex-guide-moonshot-kimi-k3-open-weight",
+    "netflix-drops-7pct-soft-q3-guide-annual-engagement-disclosure",
+    "fifth-third-comerica-q2-nii-up-48pct-ninth-largest-bank",
+    "travelers-q2-blowout-combined-ratio-83.6-reserve-release",
+    "saab-record-backlog-poland-submarine-order-eu-rearmament",
+    "airbus-china-state-carrier-orders-a350-a320neo-boeing-woes",
+    "china-ai-derating-star50-down-7pct-waic-world-ai-cooperation-org",
+    "pjm-2028-29-auction-clears-at-325-cap-6.8gw-short-500mw-new",
+    "ferc-large-load-showcause-six-rtos-generation-adequacy-july20",
+    "bofa-100gw-generation-shortfall-turbines-sold-out-2030",
+    "coravel-acs-blackrock-jv-140mw-dfw-integrated-power-shell-ops",
+    "digital-realty-kansas-city-esa-600mw-to-2gw",
+    "amazon-google-25bn-montgomery-county-missouri-load-concentration",
+    "bsp-holds-4.75-hawkish-raises-2026-inflation-forecast-6.4",
+    "philippines-core-inflation-rises-4.4-headline-eases-6.4-june",
+    "philippines-peso-61.67-near-record-trade-gap-5.5bn-may",
+    "marcos-fifth-sona-july27",
+    "ana-mendieta-tate-modern-survey-silueta",
+    "waldmuller-landscapes-national-gallery-first-uk-show",
+    "bbc-proms-first-night-stasevska-yunchan-lim-ravel-g-major",
+    "sigrid-nunez-it-will-come-back-to-you-first-story-collection",
+    "one-good-thing-new-england-forest-recovery-massachusetts-90pct-cleared-to-60pct-moomaw"
+  ],
+  "explainers": [
+    "why a capacity auction clearing at its price cap is a broken new-build signal",
+    "co-located behind-the-meter gas and FERC's cross-RTO large-load rulemaking",
+    "the integrated power+shell+ops data-center lease model vs standalone colo",
+    "why hold-vs-hike (not hold-vs-cut) is the Fed frame when oil reverses disinflation"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so we don't re-explain. Iran/Hormuz advanced only as the oil driver inside Market Overview, not re-run as a standalone world headline."
+}

@@ -43,7 +43,10 @@ pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + ima
 # and reuse it verbatim in every research subagent (step 1) so a fan-out never
 # surfaces already-aired stories/vocab (which is what forces a costly re-research).
 EXCLUDE="$(python3 tools/exclude_context.py --recent 8)"
-printf '%s\n' "$EXCLUDE"   # the ledger you MUST dedup against — recent stories + explainers + ALL used vocab
+printf '%s\n' "$EXCLUDE" | tee "${TMPDIR:-/tmp}/commute-exclude.txt"   # the ledger you MUST dedup against — recent stories + explainers + ALL used vocab
+# Then hand research subagents the FILE (${TMPDIR:-/tmp}/commute-exclude.txt) instead of
+# re-pasting this ~240-line block into every subagent prompt AND your own context — write
+# it once, reference it by path. (Re-dumping it per-agent is pure token waste.)
 ```
 (A **SessionStart guard** — `tools/preflight_deploy_branch.sh` — also runs
 automatically and shouts if this branch's command file/ledger is behind the deploy
@@ -173,7 +176,12 @@ relies on:
   dialogue per audio-second** — measured, not the old ~8 figure — so **~18–20k
   chars renders only ~16–17 min and FAILS the guardrail.** Write **~30,000–33,000
   characters** of `ALEX:`/`SAM:` dialogue (≈ 5,000–5,600 words) to land **~26–29
-  min**, comfortably clearing the 25-min floor with margin. Before rendering,
+  min**, comfortably clearing the 25-min floor with margin. **Aim for the MIDDLE of
+  the band (~31–32k) on the FIRST draft** — a first pass that lands near ~27k fails
+  the floor and forces an expansion loop (re-emitted prose + repeat lint passes) that
+  a correct initial target avoids. `check_script.py` now also WARNs when you clear the
+  floor but sit under ~30k (thin margin) — treat that warning as "add ~1k now," not
+  "good enough." Before rendering,
   count with a Unicode-aware counter (`wc -c` counts bytes and over-counts the
   Mandarin/Tagalog vocab segment ~3x):
   ```bash
@@ -282,6 +290,14 @@ semantic story repeats** — a slug that reuses the same story with different wo
 story, new slug" recap gets flagged even when it isn't a byte-for-byte match.
 Treat those warnings as "confirm this is a genuinely new development, or drop it."
 
+**Keep a backup so a dedup hit doesn't force a re-research pass.** `check_dedup.py`
+runs against the **full** ledger (every episode ever), while `$EXCLUDE` / `--recent 8`
+only shows recent shows — so a story or **One Good Thing** from more than 8 episodes
+back can pass your research subagents yet trip here (e.g. 2026-07-21's mangroves
+One-Good-Thing collided with a much older episode). Cheapest defense: have the arts /
+One-Good-Thing subagent return **2–3 candidates** up front, so when one collides you
+swap in a ready backup instead of spinning a fresh search + rewrite.
+
 ## 5. Render audio → `commute-gemini-$date.mp3`
 ```bash
 # Fewer, bigger chunks = fewer API calls against the free-tier DAILY request cap
@@ -311,6 +327,15 @@ cached beside the output (`<base>.chunkNNN.pcm`) and only the missing chunks hit
 the API, so you spend one request, not a whole episode. Caches clear on full
 success. Set `FFMPEG_BIN=/path/to/ffmpeg` to force a specific ffmpeg if both
 `which ffmpeg` and `imageio_ffmpeg` miss.
+
+**Wait on the render as ONE background job — don't stack pollers.** The render is a
+single long-running job; run it in the background and wait for the *one* completion
+signal the harness sends when it exits. Do **not** pile a Monitor **and** a
+ScheduleWakeup poll **and** repeated reads of the output file on top of a job you're
+already going to be notified about — that's redundant orchestration for one event, and
+the interim output-file reads come back "unchanged" (wasted calls). One job, one
+notification; when it fires, check for the mp3 + `.timing.json` and move on to step 6.
+Likewise don't fill the wait with unrelated file reads "to stay busy" — idle is fine.
 
 ## 6. Build + commit (no push yet)
 ```bash

@@ -1,0 +1,37 @@
+{
+  "throughline": "Referendum day — the week's AI-stock panic pauses as the chip rout reverses green and the first Magnificent-7 verdicts (Tesla, Alphabet, Intel) land tonight, while the pressure migrates from equity to the oil-and-rates vise: Brent toggling near $90 on a 10-day Iran ceasefire push, the 10-year at 4.60% climbing into a live hold-vs-hike Fed",
+  "stories": [
+    "iran-hormuz-diplomacy-toggles-brent-91-then-88-10day-ceasefire-push-kavomaleas-tanker-halt",
+    "ukraine-deepest-strikes-inside-russia-2yrs-7-shadow-fleet-tankers-crimea-substations-russia-40-missiles-kyiv",
+    "us-market-overview-sp-7443-nasdaq-flat-dow-lags-51839-russell-worst-semis-bounce-yields-up-10y-460-gold-4069",
+    "mag7-earnings-jury-tesla-alphabet-intel-amc-first-prints-referendum-73-cos-report",
+    "charles-schwab-q2-record-client-assets-1314t-eps-155-nna-499b",
+    "novartis-q2-beat-594b-core-reaffirms-guide-launch-portfolio-value-earnings-europe",
+    "eu-fines-aliexpress-550m-record-dsa-exceeds-temu-200m-x-120m",
+    "china-state-council-li-qiang-vows-hit-5pct-growth-fiscal-push-after-q2-undershoot",
+    "steel-river-google-solar-groundbreaking-arkansas-16gw-19gwh-25gw-2029-largest-google-offtake-entergy-4b-dc",
+    "lazard-2026-lcoe-solar-40-wind-37-ccgt-51-new-gas-15yr-high-yet-capacity-surging",
+    "ferc-july-orders-nerc-largeload-reliability-standard-load-registry-caiso-spp-seams-sept30",
+    "champlain-hudson-chpe-1250mw-6b-hvdc-repeated-fault-offline-july-n-1-single-tie-fragility",
+    "philippines-lpa-east-visayas-mindanao-medium-td-chance-24h-habagat-no-signals",
+    "philippines-peso-61745-fresh-near-record-bsp-warns-banks-fx-derivatives-malacanang-lead-stabilizer",
+    "philippines-marcos-fifth-sona-july27-20229-police-simple-but-dignified-no-celebrity-directors",
+    "richard-dadd-beyond-bedlam-royal-academy-100works-fairy-feller-past-mad-genius-cliche",
+    "bayreuth-150th-anniversary-first-rienzi-ai-projection-ring-salzburg-carmen-grigorian-currentzis-carrizo",
+    "colson-whitehead-cool-machine-final-ray-carney-harlem-trilogy-booker-2026-longlist-jul28-mary-beard",
+    "one-good-thing-living-plastic-self-destructs-six-days-no-microplastics-bacillus-subtilis-shenzhen-synthetic-biology"
+  ],
+  "explainers": [
+    "war-premium-now-two-fronts-iran-strait-plus-ukraine-shadow-fleet-higher-oil-floor-under-any-ceasefire",
+    "dow-and-small-cap-down-day-with-semis-green-is-a-positioning-unwind-not-an-ai-fundamental-scare",
+    "gold-and-yields-rising-together-is-reflation-and-war-premium-not-a-fear-bid",
+    "a-miss-tonight-re-rates-the-multiple-not-the-economy-earnings-breadth-makes-ai-derating-contained",
+    "hyperscalers-anchoring-merchant-solar-plus-storage-directly-bypassing-utility-irp-solar-as-firming-input",
+    "gas-bridge-ordered-at-15yr-high-lcoe-paying-for-dispatchability-and-speed-not-economics",
+    "ferc-federalizes-large-load-reliability-registration-ride-through-a-new-compliance-surface-distinct-from-cost-allocation",
+    "single-hvdc-tie-with-no-redundancy-is-not-firm-power-n-1-lesson-for-data-center-interconnection",
+    "buildout-constrained-by-deliverability-not-capital-firm-electron-at-a-substation-on-a-date-is-the-scarce-good",
+    "bsp-verbal-fx-defense-jawboning-banks-off-derivatives-curbing-not-blocking-the-peso-slide-without-a-hike"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained this episode so they won't be re-explained. Vocab words added by build_episode — not listed here."
+}

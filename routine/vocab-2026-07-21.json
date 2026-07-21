@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-21",
+  "cards": [
+    {
+      "id": "2026-07-21-zh-1",
+      "lang": "Mandarin",
+      "word": "究竟",
+      "pinyin": "jiūjìng",
+      "pronunciation": "jyoh jing",
+      "tones": "1 · 4",
+      "meaning": "actually; after all; exactly (what) — an emphatic adverb that presses a question to its core",
+      "example": "市场究竟在担心什么 —— 是芯片，还是石油和利率？",
+      "examplePinyin": "Shìchǎng jiūjìng zài dānxīn shénme — shì xīnpiàn, háishì shíyóu hé lìlǜ?",
+      "exampleMeaning": "What is the market really worried about, after all — chips, or oil and rates?",
+      "note": "HSK-4 emphatic connective-adverb, 书面语/formal. Near-synonym contrast vs 到底 (dàodǐ): the meanings are nearly identical — both intensify a question ('what on earth / what exactly') — but 到底 is more spoken/colloquial while 究竟 belongs to written and editorial language, so a finance desk reaches for 究竟 (市场究竟怎么了). Collocation: sits in front of the question word — 究竟是什么 / 究竟该不该 / 究竟会不会. Can also mean 'the outcome / the whole story' as a noun (问个究竟, to get to the bottom of it).",
+      "tiesTo": "referendum day — pressing the real question of what the market is actually worried about, chips or oil and rates"
+    },
+    {
+      "id": "2026-07-21-zh-2",
+      "lang": "Mandarin",
+      "word": "反弹",
+      "pinyin": "fǎntán",
+      "pronunciation": "fahn tahn",
+      "tones": "3 · 2",
+      "meaning": "to rebound; to bounce back (of a price, index, or sentiment) off a low",
+      "example": "星期一芯片股大幅反弹，但投资者究竟会不会追？",
+      "examplePinyin": "Xīngqīyī xīnpiàn gǔ dàfú fǎntán, dàn tóuzīzhě jiūjìng huì bù huì zhuī?",
+      "exampleMeaning": "Monday chip stocks rebounded sharply, but will investors really chase it?",
+      "note": "HSK-4 abstract finance collocation, register-neutral (common in both commentary and speech). Near-synonym contrast vs 回升 (huíshēng): 回升 is a slow, steady climb back (经济回升, 气温回升 — the economy/temperature recovers gradually); 反弹 is a sudden, sharp snap up off a low. So sentiment and prices 反弹, while data and fundamentals 回升. Collocations: 技术性反弹 (technical rebound), 报复性反弹 (revenge/relief rebound), 强劲反弹 (strong bounce). Opposite of 回落 (pull back).",
+      "tiesTo": "the week-long chip rout reversing — semis leading green on Monday"
+    },
+    {
+      "id": "2026-07-21-tl-1",
+      "lang": "Tagalog",
+      "word": "bumawi",
+      "pinyin": "",
+      "pronunciation": "boo-ma-WEE",
+      "tones": "",
+      "meaning": "to recoup; to win back or make up for something lost (root: bawi)",
+      "example": "Bumawi ang mga semiconductor noong Lunes, ngunit hindi pa bumabangon nang lubusan ang buong sektor.",
+      "examplePinyin": "",
+      "exampleMeaning": "The semiconductors recouped on Monday, but the whole sector hasn't fully gotten back on its feet yet.",
+      "note": "Native-speaker contrast vs bumangon: bumangon is to get back up after falling — broader and more physical (bumangon mula sa pagkakadapa). Bumawi is specific — you are winning back a particular thing that was taken from you: bumawi ng lugi (recoup a loss), bumawi sa talunan (avenge a defeat). It carries a note of getting even, of reclaiming. Everyday register; you also hear it in sport and gambling. The Tagalog counterpart of the Mandarin 反弹 taught above.",
+      "tiesTo": "the market recouping losses — chip stocks bouncing back off the week's rout"
+    },
+    {
+      "id": "2026-07-21-tl-2",
+      "lang": "Tagalog",
+      "word": "pigilin",
+      "pinyin": "",
+      "pronunciation": "pee-gee-LEEN",
+      "tones": "",
+      "meaning": "to curb; to restrain or hold back a force already in motion (root: pigil)",
+      "example": "Sinusubukan ng BSP na pigilin ang bilis ng paghina ng piso, binabalaan ang mga bangko laban sa FX derivatives.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP is trying to curb how fast the peso weakens, warning the banks against FX derivatives.",
+      "note": "Native-speaker contrast vs hadlangan: hadlangan is to block outright, like a wall stopping something before it moves (hadlangan ang daan). Pigilin is to slow or restrain a force that is already moving — you may not stop it fully, but you can rein it in (pigilin ang luha, pigilin ang galit, pigilin ang pagbagsak). That nuance is exactly right for a central bank that cannot block an oil shock but can slow a currency's slide. Everyday-to-formal register.",
+      "tiesTo": "the BSP moving to curb peso volatility and rein in FX-derivative speculation"
+    }
+  ]
+}

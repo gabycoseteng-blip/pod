@@ -364,3 +364,68 @@ git push
 Then report in a few lines: the throughline, segment count, the four vocab words,
 the audio duration, **which source the energy segment used** (inbox newsletters vs
 web fallback — see the Energy fallback note), and that the deploy push landed.
+
+## 8. Scorecard + retro (runs every publish — grade the run, track the trend)
+The point of this step is that **every run self-evaluates against fixed GOALS and
+records the result**, so quality/efficiency improve over time instead of drifting.
+
+- **Before you build**, drop a one-line self-report so the efficiency goals aren't
+  blind (artifacts can't see how many renders/research passes you spent):
+  ```bash
+  cat > routine/run-meta-$date.json <<JSON
+  {"render_calls": 1, "research_passes": 1, "energy_source": "inbox"}
+  JSON
+  ```
+  Set `render_calls` to how many times you invoked `render_gemini.py` (goal **1** —
+  resume, don't re-render), `research_passes` to how many research rounds you ran
+  (goal **1** — dedup at the source), and `energy_source` to `"inbox"` or `"web"`.
+- `tools/daily.sh` then runs `tools/episode_scorecard.py $date` automatically (step
+  2c) — it prints a scorecard and appends one line to **`data/run_metrics.jsonl`**.
+  It's **telemetry, never a gate** (the real gates stay `check_episode.py` +
+  `check_dedup.py`), so it can't block a publish.
+- **After the run**, glance at the trend and act on anything systemic:
+  ```bash
+  python3 tools/run_retro.py
+  ```
+  It flags a goal missed in **≥ 2 of the last 3 runs** as SYSTEMIC — meaning fix the
+  *playbook* (this command file, a tool, or a threshold), not just today's episode.
+
+### GOALS (the evals — aim for a green scorecard, score ≥ 90)
+| Goal | Target | Why |
+| --- | --- | --- |
+| Dialogue length | **30,000–34,000** chars | one render, ~26–29 min with margin |
+| Audio duration | **1,560–1,800 s** (26–30 min) | clears the 1,500 s floor comfortably |
+| Segments | **≥ 11** with turns | full show, nothing dropped |
+| Host balance | ALEX **42–58%** of turns | genuine two-hander, not a monologue |
+| Numerals | **0** spelled-out numbers | clean transcript; TTS expands numerals itself |
+| Required segments | Headlines, Market, Energy, Philippines, Vocab, Arts, One Good Thing all present | coverage |
+| Vocab split | exactly **2 Mandarin + 2 Tagalog** | format |
+| Vocab freshness | **all 4 fresh** vs the full ledger | hard rule — never reuse a word |
+| Vocab in script | all 4 taught words appear in the script | flashcards match the audio |
+| Mandarin calibration | **≥ 1** connective/abstract (HSK-4) | targets the listener's weak spot |
+| Story freshness | **0** exact repeats | advance running stories, don't recap |
+| Efficiency | **1** render call, **1** research pass, energy from **inbox** | the token-discipline goals |
+
+A miss is a signal, not a failure — expand the script, pick a fresh word, or note why,
+then move on. Persistent misses (the retro's SYSTEMIC list) are where you change the
+playbook so the next run starts ahead.
+
+### Process + external metrics (grade the RUN, not just the artifact)
+Beyond the fixed goals above, the scorecard measures **how the run executed** and
+calibrates against the show's own reality — so the process gets more efficient over
+time instead of just passing static bars:
+- `render_gemini.py` writes a **`commute-gemini-$date.render-stats.json`** sidecar
+  (API calls, chunks reused on resume, backoff retries, wall time). The scorecard's
+  **Process** section grades render efficiency and retries (quota friction), and
+  cross-checks your self-reported `render_calls` against evidence (cached chunks ⇒ it
+  was a resume).
+- **Pace calibration is the key external metric.** The finished audio reveals the true
+  speaking rate (`dialogue_chars ÷ durationSec`). When that drifts from the
+  `CHARS_PER_SEC` constant the length target is built on, the target mis-predicts
+  duration — you over-write (wasted tokens) or under-write (a sub-floor render).
+  `run_retro.py` watches the **median** measured pace across runs and, when it settles
+  >5% off, recommends the exact `CHARS_PER_SEC` to set (in `check_script.py` + this
+  file) and the char target to match. Apply it and the next run's length is right the
+  first time. That's the loop: the audio tunes the script targeting, not a fixed guess.
+- Treat `run_retro.py`'s `⚙` lines (pace drift, render friction) as **process** work
+  items — they change the toolchain/constants, not one episode.

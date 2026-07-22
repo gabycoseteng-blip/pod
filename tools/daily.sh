@@ -48,6 +48,13 @@ if [ -f tools/check_episode.py ]; then
     exit 1; }
 fi
 
+# 2c. scorecard — grade the episode against the quality + efficiency GOALS and record
+#     one line to data/run_metrics.jsonl for trend tracking (tools/run_retro.py).
+#     TELEMETRY ONLY: never blocks the publish (the gates above already did that).
+if [ -f tools/episode_scorecard.py ]; then
+  python3 tools/episode_scorecard.py "$date" || true
+fi
+
 # 3. make sure the script is committed as plain text (the durable, greppable
 #    history). If it already lives in the repo (e.g. routine/…), stage it in
 #    place; otherwise archive a copy under scripts/.

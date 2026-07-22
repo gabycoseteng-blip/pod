@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-22",
+  "cards": [
+    {
+      "id": "2026-07-22-zh-1",
+      "lang": "Mandarin",
+      "word": "随着",
+      "pinyin": "suí zhe",
+      "pronunciation": "sway juh",
+      "tones": "2 · 0",
+      "meaning": "as; along with; in step with (a trend or change)",
+      "example": "随着油价上涨，比索跌到了历史新低。",
+      "examplePinyin": "suí zhe yóu jià shàng zhǎng, bǐ suǒ diē dào le lì shǐ xīn dī",
+      "exampleMeaning": "As oil prices rise, the peso has fallen to a record low.",
+      "note": "书面语 / written-formal — a news-desk staple. Contrast with 跟着 (gēn zhe), which is concrete physical following (跟着一个人走, 'follow a person'); 随着 is abstract accompaniment over time. Collocation: 随着…的 + noun, e.g. 随着时间的推移 ('as time goes by').",
+      "tiesTo": "The war premium widening → peso and yields moving with oil"
+    },
+    {
+      "id": "2026-07-22-zh-2",
+      "lang": "Mandarin",
+      "word": "导致",
+      "pinyin": "dǎo zhì",
+      "pronunciation": "dao jr",
+      "tones": "3 · 4",
+      "meaning": "to lead to; to result in (usually a negative outcome)",
+      "example": "油价冲击导致了输入型通胀。",
+      "examplePinyin": "yóu jià chōng jī dǎo zhì le shū rù xíng tōng zhàng",
+      "exampleMeaning": "The oil shock has led to imported inflation.",
+      "note": "书面语 / formal, abstract. Near-synonym contrast: 导致 usually precedes a bad result; 造成 (zào chéng) is more concrete damage/loss (造成损失); 使得 (shǐ dé) is neutral 'to cause X to happen.' Collocation: 导致 + negative result.",
+      "tiesTo": "Oil shock → imported inflation boxing the PBOC / Fed"
+    },
+    {
+      "id": "2026-07-22-tl-1",
+      "lang": "Tagalog",
+      "word": "humina",
+      "pinyin": "",
+      "pronunciation": "hoo-mee-NAH",
+      "tones": "",
+      "meaning": "to weaken; to grow faint or feeble (gradually)",
+      "example": "Humina ang piso hanggang umabot muli sa pinakamababang halaga nito.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso weakened until it reached its lowest value again.",
+      "note": "Native-speaker nuance: 'humina' is gradual, a slow weakening. Contrast 'bumagsak' (a sudden, sharp fall — a crash) and 'lumubog' (to sink — more severe still, like a sinking ship). For a currency drifting to a record low, 'humina' is the precise verb. Collocation: humina ang piso.",
+      "tiesTo": "The peso matching its record low on higher oil"
+    },
+    {
+      "id": "2026-07-22-tl-2",
+      "lang": "Tagalog",
+      "word": "kalakalan",
+      "pinyin": "",
+      "pronunciation": "ka-la-KA-lan",
+      "tones": "",
+      "meaning": "trade; commerce (as a system)",
+      "example": "Ang kalakalang panlabas ang sentro ng usapan nina Rubio at Marcos.",
+      "examplePinyin": "",
+      "exampleMeaning": "Foreign trade is the center of the Rubio–Marcos talks.",
+      "note": "Register: formal / newsroom. Contrast 'negosyo' (a single business or livelihood) with 'kalakalan' (the whole system of buying and selling — the macro level). Key collocation: kalakalang panlabas ('foreign trade') — the phrase for balance-of-payments and freight stories.",
+      "tiesTo": "PH balance of payments, Rubio–Marcos trade talks, Bab el-Mandeb freight"
+    }
+  ]
+}

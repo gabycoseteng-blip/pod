@@ -1,0 +1,34 @@
+{
+  "throughline": "The war premium goes geographic — Houthis blockade Bab el-Mandeb as Hormuz stays shut — boxing the Fed, PBOC and BSP at once, while the AI build meets its earnings jury and a transformer/transmission wall",
+  "stories": [
+    "houthis-blockade-saudi-bab-el-mandeb-two-vlccs-uturn-suez-war-premium-widens-freight",
+    "zelensky-sacks-cinc-syrsky-names-drapatyi-after-fedorov-firing-protests-pre-istanbul",
+    "us-market-overview-sp-7509-nasdaq-25837-dow-52224-russell-leads-plus1.29-breadth-broadens",
+    "yields-back-up-2yr-4.26-10yr-4.63-30yr-5.13-less-dovish-into-fomc-jul28",
+    "brent-through-94-plus3.9pct-gold-4122-yen-163-reflation-posture",
+    "mag7-earnings-jury-tesla-alphabet-intel-consensus-bars-capex-vs-cloud-revenue-test",
+    "intel-fortinet-first-cyber-foundry-customer-google-cloud-ai-reclaims-100",
+    "trump-generic-drug-tariff-cliff-free-till-2028-then-100pct-then-200pct-india-reshoring",
+    "julius-baer-h1-profit-plus128-chf673m-record-aum-547bn-derisk-warning-2027",
+    "france-env-minister-barbut-resigns-duplomb-law-neonicotinoid-acetamiprid-waiver",
+    "pboc-holds-lpr-14th-month-3.00-3.50-q2-gdp-4.3-weakest-since-2022-debt-deflation-trap",
+    "dominion-virginia-scc-rider-t1-1.5bn-transmission-but-for-causation-large-load-aug1",
+    "transformer-breaker-lead-times-gsu-160wk-hv-breaker-125wk-electrical-gear-20bn-to-65bn-prepay",
+    "philippines-lpa-kiyapo-forms-par-11th-tc-northern-luzon-friday-habagat-active",
+    "peso-record-low-61.75-oil-driven-bsp-hold-4.75",
+    "philippines-june-bop-3.4bn-surplus-21mo-high-financing-account-not-exports",
+    "rubio-marcos-asean-pax-silica-trade-ayungin-clash-china-summons-envoy",
+    "met-antiquities-bragg-repatriates-59-45-from-met-troilus-krater-95m-tally",
+    "david-zwirner-closes-ues-townhouse-consolidates-chelsea-tribeca-market-gravity-shift",
+    "julie-buntin-famous-men-riverhead-second-novel-nine-years-after-marlena",
+    "one-good-thing-perseverance-rover-marathon-mars-26.2-miles-jezero"
+  ],
+  "explainers": [
+    "bab-el-mandeb-second-chokepoint-tonne-miles-freight-premium-widens-vs-deepens",
+    "financing-account-bop-surplus-vs-export-strength-why-it-doesnt-help-the-peso",
+    "but-for-causation-standard-for-large-load-transmission-cost-allocation",
+    "transformer-switchgear-bottleneck-prepay-financing-and-n-1-redundancy-degradation",
+    "debt-deflation-trap-oil-import-inflation-narrows-pboc-cut-room"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so we don't re-explain them. Vocab (随着, 导致, humina, kalakalan) folded in automatically — not listed here."
+}

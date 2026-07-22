@@ -8,6 +8,8 @@ __pycache__/
 commute-gemini-*.mp3
 # per-render transcript-timing anchors
 commute-gemini-*.timing.json
+# per-render process telemetry (durable form lives in data/run_metrics.jsonl)
+commute-gemini-*.render-stats.json
 sample_*.wav
 # per-chunk render-resume caches
 *.pcm

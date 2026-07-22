@@ -251,6 +251,49 @@ def grade(date, strict):
         c.add("Efficiency", "self-reported run meta", "na",
               f"write routine/run-meta-{date}.json to track render/research/energy")
 
+    # ── PROCESS (measured from the run itself — external calibration, not fixed bars) ─
+    # These grade HOW the run executed, against the show's own measured reality rather
+    # than aspirational thresholds. The headline one is pace calibration: the finished
+    # audio reveals the true speaking rate, and if it has drifted from the constant the
+    # length target is built on, the target mis-predicts duration — writing too much
+    # (wasted tokens) or too little (a sub-floor render). The metric tells you to retune
+    # the constant, which is the process improving itself from an external signal.
+    if chars and dur:
+        measured = round(chars / dur, 2)
+        metrics["measured_cps"] = measured
+        drift = (measured - cps) / cps
+        det = f"{measured} chars/s vs configured {cps} ({drift:+.0%})"
+        if abs(drift) <= 0.08:
+            c.add("Process", "pace calibration (chars/s)", "pass", det)
+        else:
+            rec = "raise" if measured > cps else "lower"
+            c.add("Process", "pace calibration (chars/s)", "warn",
+                  det + f" — {rec} CHARS_PER_SEC toward {round(measured)} so the length "
+                        f"target predicts duration accurately (see run_retro for the trend)")
+    else:
+        c.add("Process", "pace calibration (chars/s)", "na", "need chars + duration")
+
+    rstats = _json(os.path.join(ROOT, f"commute-gemini-{date}.render-stats.json"))
+    if rstats:
+        api, chunks_n = rstats.get("apiCalls"), rstats.get("chunks")
+        cached, retries = rstats.get("cached", 0), rstats.get("retries", 0)
+        metrics["render_api_calls"] = api
+        metrics["render_cached"] = cached
+        metrics["render_retries"] = retries
+        metrics["render_wall_s"] = rstats.get("wallSeconds")
+        c.add("Process", "render API efficiency",
+              "pass" if (api and chunks_n and api <= chunks_n) else "warn",
+              f"{api} call(s) for {chunks_n} chunk(s)"
+              + (f", {cached} reused on resume" if cached else ""))
+        c.add("Process", "render retries (quota friction)",
+              "pass" if retries == 0 else "warn", str(retries))
+        if meta and meta.get("render_calls") == 1 and cached:
+            c.add("Process", "render_calls self-report vs evidence", "warn",
+                  f"reported 1 render but {cached} chunk(s) were cached — that was a resume")
+    else:
+        c.add("Process", "render telemetry", "na",
+              "no render-stats sidecar (older render, or not rendered here)")
+
     return c, metrics
 
 

@@ -50,6 +50,13 @@ CHUNK_CHARS = int(os.environ.get("CHUNK_CHARS", "7000"))   # chars of dialogue p
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "30"))  # seconds between calls — paces free-tier RPM
 MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "4"))         # retries on 429 / 5xx with backoff
 
+# ── run telemetry (process metrics the scorecard reads) ───────────────────────
+# Counts what actually happened during the render — API calls made, chunks reused
+# from cache on a resume, and backoff retries (429/5xx/network) — so the scorecard
+# can grade render EFFICIENCY (not just the finished audio) and cross-check the
+# run's self-reported render_calls against evidence (cached>0 ⇒ this was a resume).
+STATS = {"api_calls": 0, "cached": 0, "retries": 0}
+
 _DEFAULT_STYLE = ("Two polished financial-news anchors, as on a Bloomberg or FT broadcast. "
     "Crisp, confident, authoritative and professional. Controlled energy and clean diction "
     "— measured, not peppy, not sleepy. Alex is the domain expert; Sam asks the questions. "
@@ -211,6 +218,7 @@ def synth(dialogue):
                 wait = REQUEST_DELAY * (2 ** attempt)
                 print(f"    {e.code} (attempt {attempt+1}/{MAX_RETRIES}); backing off {wait:.0f}s…",
                       file=sys.stderr)
+                STATS["retries"] += 1
                 time.sleep(wait)
                 continue
             raise RuntimeError(f"API {e.code}: {msg}")
@@ -222,6 +230,7 @@ def synth(dialogue):
                 wait = REQUEST_DELAY * (2 ** attempt)
                 print(f"    network error '{type(e).__name__}' (attempt {attempt+1}/{MAX_RETRIES}); "
                       f"backing off {wait:.0f}s…", file=sys.stderr)
+                STATS["retries"] += 1
                 time.sleep(wait)
                 continue
             raise RuntimeError(f"network error after retries: {e}")
@@ -233,6 +242,7 @@ def synth(dialogue):
 
 def main():
     if not API_KEY: die("GEMINI_API_KEY not set")
+    t0 = time.time()
     turns = extract_turns(SCRIPT)
     chunks = chunk_turns(turns, CHUNK_CHARS)
     print(f"{len(turns)} turns → {len(chunks)} chunk(s) | model={MODEL} "
@@ -250,12 +260,13 @@ def main():
             print(f"  chunk {i}/{len(chunks)} — reusing cached render "
                   f"({os.path.getsize(cache)} bytes)", file=sys.stderr)
             data = open(cache, "rb").read()
+            STATS["cached"] += 1
         else:
             if did_api and REQUEST_DELAY > 0:
                 time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
             print(f"  rendering chunk {i}/{len(chunks)} ({len(dlg)} chars)…", file=sys.stderr)
             try:
-                data = synth(dlg); did_api = True
+                data = synth(dlg); did_api = True; STATS["api_calls"] += 1
             except RuntimeError as e:
                 failed = (i, str(e))
                 print(f"  ! chunk {i} failed: {e}", file=sys.stderr)
@@ -287,6 +298,19 @@ def main():
     json.dump({"durationSec": round(secs, 2), "chunks": timing_chunks},
               open(timing_path, "w"), ensure_ascii=False, indent=1)
     print(f"TIMING → {timing_path}  ({len(timing_chunks)} chunk anchor(s))", file=sys.stderr)
+
+    # process telemetry sidecar — what the render actually cost, for the scorecard.
+    # (Pace calibration is derived downstream from the script's dialogue chars ÷ this
+    # actualSec, so it isn't duplicated here.)
+    stats_path = OUTBASE + ".render-stats.json"
+    json.dump({
+        "chunks": len(chunks), "apiCalls": STATS["api_calls"],
+        "cached": STATS["cached"], "retries": STATS["retries"],
+        "wallSeconds": round(time.time() - t0, 1), "actualSec": round(secs, 2),
+        "partial": bool(failed),
+    }, open(stats_path, "w"), ensure_ascii=False, indent=1)
+    print(f"RENDER-STATS → {stats_path}  ({STATS['api_calls']} API call(s), "
+          f"{STATS['cached']} cached, {STATS['retries']} retr(y/ies))", file=sys.stderr)
 
     ff = os.environ.get("FFMPEG_BIN") or shutil.which("ffmpeg")
     if not ff:

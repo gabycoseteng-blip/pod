@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-23",
+  "cards": [
+    {
+      "id": "2026-07-23-zh-1",
+      "lang": "Mandarin",
+      "word": "从而",
+      "pinyin": "cóng ér",
+      "pronunciation": "tsohng arr",
+      "tones": "2 · 2",
+      "meaning": "thus; thereby; consequently (formal connective linking a cause to its resulting effect)",
+      "example": "资本支出激增，从而自由现金流转为负。",
+      "examplePinyin": "zī běn zhī chū jī zēng, cóng ér zì yóu xiàn jīn liú zhuǎn wéi fù",
+      "exampleMeaning": "Capital spending surged, thereby turning free cash flow negative.",
+      "note": "书面语 / finance-desk register. Unlike 因此 (yīn cǐ, general 'therefore') or 于是 (yú shì, temporal 'and so'), 从而 marks a purposeful RESULT of the same subject's action — the earlier clause enables the later one. Pairs with a deliberate consequence, not a coincidence. Keep-it-handy chunk: X，从而 Y = 'X, and as a result Y.'",
+      "tiesTo": "Alphabet/Tesla capex surge turning free cash flow negative"
+    },
+    {
+      "id": "2026-07-23-zh-2",
+      "lang": "Mandarin",
+      "word": "势必",
+      "pinyin": "shì bì",
+      "pronunciation": "shrr bee",
+      "tones": "4 · 4",
+      "meaning": "be bound to; will inevitably (expresses logical inevitability)",
+      "example": "油价持续上涨，势必推高通胀预期。",
+      "examplePinyin": "yóu jià chí xù shàng zhǎng, shì bì tuī gāo tōng zhàng yù qī",
+      "exampleMeaning": "If oil keeps climbing, it is bound to push inflation expectations higher.",
+      "note": "书面语 / formal, common in analyst notes. Stronger and more reasoned than colloquial 一定 (yí dìng, 'definitely') and different from 难免 (nán miǎn, 'hard to avoid') — 势必 asserts a logical, almost mechanical certainty from a stated premise. Collocation: often 势必 + verb of consequence (推高 / 导致 / 影响).",
+      "tiesTo": "Brent toward $98 → inflation and yields up into the Fed"
+    },
+    {
+      "id": "2026-07-23-tl-1",
+      "lang": "Tagalog",
+      "word": "ubos",
+      "pinyin": "",
+      "pronunciation": "u-BÓS",
+      "tones": "",
+      "meaning": "used up; depleted; completely spent, with nothing left",
+      "example": "Naubos ang cash ng kumpanya kahit tumaas ang benta.",
+      "examplePinyin": "",
+      "exampleMeaning": "The company's cash got used up even though sales rose.",
+      "note": "Everyday register, but sharper than 'kulang' (short/insufficient) or 'salat' (scarce): 'ubos' means the well is DRY — total depletion, not a shortfall. Common forms: naubos (got used up), inubos (deliberately spent it all), paubos na (running out). The connotation is finality — you cannot draw on what is ubos.",
+      "tiesTo": "Negative free cash flow / the BSP spending dollar reserves"
+    },
+    {
+      "id": "2026-07-23-tl-2",
+      "lang": "Tagalog",
+      "word": "hadlang",
+      "pinyin": "",
+      "pronunciation": "HÁD-lang",
+      "tones": "",
+      "meaning": "a barrier; an obstacle that actively blocks progress or passage",
+      "example": "Ang kakulangan ng kuryente at tubig ang pinakamalaking hadlang sa pagbuo ng data center.",
+      "examplePinyin": "",
+      "exampleMeaning": "The lack of power and water is the biggest barrier to building the data center.",
+      "note": "Register-neutral. Distinguish from near-synonyms: 'sagabal' is a nuisance in the way (something you step around), 'balakid' is a hurdle you clear — but 'hadlang' is a wall that genuinely stops you, and it collocates with abstract blockers (hadlang sa kaunlaran, hadlang sa kasunduan). Verb form: humadlang (to block), hinadlangan (was blocked).",
+      "tiesTo": "The power-and-water wall blocking the AI build / the court order blocking the Paramount–WBD deal"
+    }
+  ]
+}

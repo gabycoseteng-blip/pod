@@ -1,0 +1,43 @@
+{
+  "throughline": "The market stops paying for the build — Alphabet and Tesla beat but get punished for negative free cash flow as AI capex outruns cash, the same capex slamming into a power/water wall, while the war premium turns kinetic (Houthis torch two Saudi tankers, Brent toward $98) and pushes yields up into next week's Fed",
+  "stories": [
+    "houthis-strike-two-saudi-tankers-encelia-layla-red-sea-first-vessel-strike-since-bab-el-mandeb-blockade-brent-98",
+    "iran-hormuz-trump-bridge-power-plant-per-ship-doctrine-12th-night-strikes-rubio-china-navigation",
+    "us-market-overview-sp-7499-nasdaq-25691-dow-52219-russell-worst-yields-up-10y-467-into-fomc-jul28",
+    "alphabet-q2-rev-119.8b-cloud-24.8b-plus82-backlog-514b-capex-guide-195-205b-fcf-neg-5.9b-eps-2.85-miss-stock-minus5",
+    "tesla-q2-eps-0.33-miss-rev-28.2b-deliveries-480k-record-op-margin-1.4-capex-plus142-fcf-neg-1.1b-cash-burn",
+    "intel-reports-tonight-thu-q2-preview-foundry-174m-18a-yields-watch",
+    "paramount-skydance-wbd-110b-eu-clears-conditional-12-state-bonta-suit-federal-tro-doj-split",
+    "repligen-buys-biolife-solutions-1.5b-31-per-share-24pct-premium-bioprocessing-consolidation",
+    "gm-beat-raise-3.57-servicenow-att-3m-beat-synchrony-miss-consumer-credit-tell",
+    "nestle-h1-organic-3.6-rig-1.5-net-profit-minus31.4-chf3.5b-waters-jv-platinum-equity-3b",
+    "bnp-paribas-q2-net-income-plus33-4.35b-record-equity-trading-dividend-plus24",
+    "china-h1-fiscal-revenue-plus4.7-12.1tn-expenditure-only-plus1.5-passive-tightening-yuan-6.7933-pboc-lpr-hold-14th",
+    "srp-marigold-1.7gw-600mw-solar-675mw-gas-400mw-battery-phoenix-load-pocket-public-power",
+    "we-energies-invenergy-1510mw-gas-2.26b-microsoft-vantage-openai-oracle-wisconsin-no-irp",
+    "microsoft-mistral-rent-ai-compute-200mw-2027-1gw-2030-4b-euro-neocloud-bridge",
+    "khi-us-datacenters-183twh-2024-to-426twh-2030-water-2-4x-56pct-fossil-230gw-vs-93gw-gap",
+    "ferc-pjm-el26-67-consumer-advocates-rehearing-dc-pay-full-network-upgrades",
+    "doe-coal-council-federal-ppas-loan-guarantees-2.85gw-new-14gw-preserve",
+    "philippines-td-kiyapo-signal-1-northern-luzon-landfall-friday-highest-signal-2-3-habagat-gale-mindanao",
+    "peso-matches-record-low-61.75-bsp-sells-dollars-onshore-intervention-gdp-2.8-target-cut-3.5-4.5",
+    "philippines-remittance-downgrade-2.7pct-36.6b-2026-sona-july27-metro-manila-full-alert",
+    "peter-hujar-contact-morgan-library-contact-sheets-downtown-new-york",
+    "art-market-h1-6.8b-plus70-k-shaped-christies-3.4b-single-owner-estates-newhouse-lewis",
+    "ariadne-auf-naxos-glyndebourne-ticciati-pelly-wunderlin-zerbinetta-four-stars",
+    "martinu-complete-symphonies-bamberg-hrusa-dg-gramophone-recording-of-the-month",
+    "claire-vaye-watkins-yellow-pine-riverhead-mojave-homestead-eco",
+    "one-good-thing-likweli-new-monkey-colobus-congoensis-lomami-drc-fifth-african-monkey-in-75-years"
+  ],
+  "explainers": [
+    "negative-free-cash-flow-as-the-new-verdict-market-punishes-capex-that-outruns-cash-even-on-a-beat",
+    "neocloud-bridge-hyperscalers-renting-third-party-capacity-they-cant-self-build-fast-enough",
+    "water-as-the-underpriced-siting-constraint-2-4x-draw-in-arid-load-pockets",
+    "no-irp-states-permit-gas-before-need-is-proven-cost-allocation-moves-upstream",
+    "federal-ppas-for-coal-sovereign-balance-sheet-keeps-dispatchable-mw-markets-are-retiring",
+    "dc-pays-100pct-of-network-upgrades-standard-would-reprice-pjm-interconnection",
+    "bsp-from-jawbone-to-intervention-selling-dollar-reserves-to-hold-61.75-boxed-by-oil-and-sub-target-growth",
+    "k-shaped-art-market-recovery-trophy-single-owner-consignments-top-while-the-middle-gasps"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so they aren't re-taught. Vocab (从而, 势必, ubos, hadlang) added by build_episode.py — not listed here."
+}

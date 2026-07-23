@@ -27,7 +27,7 @@ Usage:
     tools/episode_scorecard.py <YYYY-MM-DD> [--strict] [--no-record]
 
 Env:
-    RECOMMEND_CHARS default 30000   CHARS_PER_SEC default 19
+    RECOMMEND_CHARS default 27000   CHARS_PER_SEC default 17
 """
 import argparse, json, os, re, sys
 
@@ -125,11 +125,15 @@ def grade(date, strict):
         return c, metrics
 
     # ── LENGTH / DURATION (render-once discipline) ──────────────────────────────
-    cps = float(os.environ.get("CHARS_PER_SEC", "19"))
+    cps = float(os.environ.get("CHARS_PER_SEC", "17"))
     dialogue = re.findall(r"^(?:ALEX|SAM):.*", script, re.M)
     chars = sum(len(l) for l in dialogue)
     metrics["dialogue_chars"] = chars
-    c.band("Length", "dialogue chars in band", chars, 30000, 34000, 29000, 36000, hard=True)
+    # char band tracks the audio-duration band at the measured pace (~17 chars/s):
+    # 1560-1800s * 17 ≈ 26.5-30.6k. Keeping the two bands consistent means a script
+    # that passes chars also lands in the duration band (a 32k script renders ~31 min,
+    # over the 30-min goal — that mismatch is what the 2026-07-23 recalibration fixed).
+    c.band("Length", "dialogue chars in band", chars, 27000, 30000, 26000, 32000, hard=True)
 
     dur = entry.get("durationSec")
     if dur is None:  # standalone run before build — fall back to the timing sidecar

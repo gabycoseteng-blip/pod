@@ -21,9 +21,10 @@ Usage:
 Env:
     MIN_SEGMENTS    default 11
     MIN_DURATION    default 1500  (seconds — the 25-min floor)
-    CHARS_PER_SEC   default 19    (measured pace of gemini-2.5-flash-preview-tts;
-                                   re-measure if the voice/model changes)
-    RECOMMEND_CHARS default 30000 (the comfortable first-draft target; a script that
+    CHARS_PER_SEC   default 17    (measured median pace of gemini-2.5-flash-preview-tts
+                                   across runs — see run_retro.py; re-measure if the
+                                   voice/model changes)
+    RECOMMEND_CHARS default 27000 (the comfortable first-draft target; a script that
                                    clears the floor but sits under this gets a WARN —
                                    thin margin, a slightly slower render can dip under)
 """
@@ -37,8 +38,8 @@ def main():
     text = open(sys.argv[1], encoding="utf-8").read()
     min_seg = int(os.environ.get("MIN_SEGMENTS", "11"))
     min_dur = int(os.environ.get("MIN_DURATION", "1500"))
-    cps = float(os.environ.get("CHARS_PER_SEC", "19"))
-    rec_chars = int(os.environ.get("RECOMMEND_CHARS", "30000"))
+    cps = float(os.environ.get("CHARS_PER_SEC", "17"))
+    rec_chars = int(os.environ.get("RECOMMEND_CHARS", "27000"))
 
     problems, warns = [], []
 

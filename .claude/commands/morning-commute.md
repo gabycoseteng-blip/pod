@@ -172,16 +172,18 @@ relies on:
 - **Length target (this controls the duration — get it right the FIRST time so
   you render once, not twice):** the hard gate is step 7's guardrail —
   `durationSec` must be **≥ 1500** (25 min). The current renderer
-  (`render_gemini.py` + `gemini-2.5-flash-preview-tts`) speaks **~19 characters of
-  dialogue per audio-second** — measured, not the old ~8 figure — so **~18–20k
-  chars renders only ~16–17 min and FAILS the guardrail.** Write **~30,000–33,000
-  characters** of `ALEX:`/`SAM:` dialogue (≈ 5,000–5,600 words) to land **~26–29
-  min**, comfortably clearing the 25-min floor with margin. **Aim for the MIDDLE of
-  the band (~31–32k) on the FIRST draft** — a first pass that lands near ~27k fails
-  the floor and forces an expansion loop (re-emitted prose + repeat lint passes) that
-  a correct initial target avoids. `check_script.py` now also WARNs when you clear the
-  floor but sit under ~30k (thin margin) — treat that warning as "add ~1k now," not
-  "good enough." Before rendering,
+  (`render_gemini.py` + `gemini-2.5-flash-preview-tts`) speaks **~17 characters of
+  dialogue per audio-second** — the measured median across runs (run_retro.py), not
+  the old ~19 or ~8 figures — so **~18–20k chars renders only ~18–20 min and FAILS
+  the guardrail.** Write **~27,000–30,000 characters** of `ALEX:`/`SAM:` dialogue
+  (≈ 4,500–5,000 words) to land **~26–29 min**, comfortably clearing the 25-min floor
+  with margin. **Aim for the MIDDLE of the band (~28–29k) on the FIRST draft** — a
+  first pass that lands near ~25k fails the floor and forces an expansion loop
+  (re-emitted prose + repeat lint passes) that a correct initial target avoids; a pass
+  much over ~31k over-writes (wasted tokens) and lands long (over the ~30-min goal
+  band). `check_script.py` now also WARNs when you clear the floor but sit under ~27k
+  (thin margin) — treat that warning as "add ~1k now," not "good enough." Before
+  rendering,
   count with a Unicode-aware counter (`wc -c` counts bytes and over-counts the
   Mandarin/Tagalog vocab segment ~3x):
   ```bash
@@ -189,12 +191,12 @@ relies on:
   import re, sys
   t = open(sys.argv[1], encoding='utf-8').read()
   d = '\n'.join(m.group(0) for m in re.finditer(r'^(ALEX|SAM):.*', t, re.M))
-  print(f"{len(d)} dialogue chars  ~{round(len(d)/19)}s  (~{round(len(d)/19/60,1)} min)")
+  print(f"{len(d)} dialogue chars  ~{round(len(d)/17)}s  (~{round(len(d)/17/60,1)} min)")
   PY
   ```
-  If under ~29,000, expand the substantive segments (Headlines, Energy,
+  If under ~26,000, expand the substantive segments (Headlines, Energy,
   Philippines, Vocab) with more real content — never pad or repeat; if over
-  ~35,000, trim wording. Do this **before** step 5 so you don't render a bad
+  ~32,000, trim wording. Do this **before** step 5 so you don't render a bad
   length and burn a second render. (If the render voice/model is ever changed,
   re-measure chars-per-second from one short calibration render and update this
   number — the char target follows the engine's pace.)
@@ -393,7 +395,7 @@ records the result**, so quality/efficiency improve over time instead of driftin
 ### GOALS (the evals — aim for a green scorecard, score ≥ 90)
 | Goal | Target | Why |
 | --- | --- | --- |
-| Dialogue length | **30,000–34,000** chars | one render, ~26–29 min with margin |
+| Dialogue length | **27,000–30,000** chars | one render, ~26–29 min with margin at ~17 chars/s |
 | Audio duration | **1,560–1,800 s** (26–30 min) | clears the 1,500 s floor comfortably |
 | Segments | **≥ 11** with turns | full show, nothing dropped |
 | Host balance | ALEX **42–58%** of turns | genuine two-hander, not a monologue |

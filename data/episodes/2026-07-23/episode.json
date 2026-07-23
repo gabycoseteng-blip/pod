@@ -1,0 +1,1058 @@
+{
+  "date": "2026-07-23",
+  "title": "Thursday, July 23, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-07-23.mp3",
+  "durationSec": 1861,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. It's Thursday, July 23rd. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Here's the thread this morning: the market has stopped paying for the build.",
+          "startSec": 4.4,
+          "endSec": 9.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "Meaning?",
+          "startSec": 9.55,
+          "endSec": 10.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Meaning Alphabet and Tesla both reported after the bell last night, and both beat on the top line — and both got punished anyway, because free cash flow went negative. The spending is now outrunning the cash, and the tape is finally charging for that.",
+          "startSec": 10.01,
+          "endSec": 24.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the twist is that the same spending — the AI capex — is running straight into a physical wall. Power, water, transformers. Two verdicts landing at once.",
+          "startSec": 24.36,
+          "endSec": 33.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. Wall Street's verdict is about cash. The grid's verdict is about electrons. And sitting underneath both of them is a war premium that turned kinetic overnight — the Houthis actually set two Saudi tankers on fire, Brent is bid toward 98 dollars, and that's pushing yields up into next week's Fed meeting.",
+          "startSec": 33.28,
+          "endSec": 51.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the oil-and-rates vise and the AI-cash reckoning are the same story today. Let's get into it, starting overseas.",
+          "startSec": 51.12,
+          "endSec": 57.7
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two world stories to open, and both of them are why crude is up almost 5% this morning. Alex, the Red Sea first.",
+          "startSec": 57.7,
+          "endSec": 64.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is the escalation everyone was worried about. Overnight, Houthi forces struck two Saudi oil tankers — the Encelia and the Layla — with missiles and drones. Both caught fire. UK Maritime Trade Operations confirmed a strike roughly 70 nautical miles southwest of Al Shuqaiq, with crews fighting the blaze.",
+          "startSec": 64.1,
+          "endSec": 81.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this is no longer a blockade on paper. Earlier this week the Houthis declared Bab el-Mandeb closed. Now they're hitting hulls.",
+          "startSec": 81.71,
+          "endSec": 89.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the key distinction. This is the first actual vessel strike since the blockade declaration. The Houthis say roughly 10 ships have turned back; the Institute for the Study of War counts at least 7 rerouting around to the Suez approaches or holding off.",
+          "startSec": 89.09,
+          "endSec": 103.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Give people the scale of what Bab el-Mandeb actually is.",
+          "startSec": 103.84,
+          "endSec": 107.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bab el-Mandeb carries about 5% of seaborne oil. The reason the market cares so much is the stacking: Hormuz is still effectively shut, and now you've got a second chokepoint under fire. Put a closed Hormuz together with a contested Bab el-Mandeb and you're threatening something like a quarter of global oil and gas flow.",
+          "startSec": 107.05,
+          "endSec": 125.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that's why this reads as a supply shock, not a fear bid. It lifts real yields instead of crushing them.",
+          "startSec": 125.4,
+          "endSec": 131.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right. A fear bid sends money into Treasuries and pulls yields down. This is doing the opposite — oil up, yields up, because it's an inflation impulse. It keeps the Fed's hold-versus-hike box firmly shut.",
+          "startSec": 131.52,
+          "endSec": 143.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Story two is the other end of that war premium — Iran and the strait itself, where the rhetoric got very specific.",
+          "startSec": 143.18,
+          "endSec": 149.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "President Trump laid out what you might call a \"bridge-for-a-ship\" doctrine. He warned that every time Iran targets a vessel in Hormuz, the US will destroy one bridge or one power plant inside Iran. Tit-for-tat, infrastructure for shipping.",
+          "startSec": 149.7,
+          "endSec": 163.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Tehran's answer?",
+          "startSec": 163.43,
+          "endSec": 164.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Iran said the strait will \"never return to pre-war conditions\" and threatened regional energy infrastructure in kind. US forces carried out their 12th consecutive night of strikes on Iranian targets. So this is a fully articulated escalation ladder now, and it's tied directly to shipping.",
+          "startSec": 164.57,
+          "endSec": 181.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is exactly what removes the off-ramp. When the trigger is a passing tanker, any single ship can re-light the whole thing.",
+          "startSec": 181.1,
+          "endSec": 188.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's why the strait trades as a live tail risk that can gap oil at any hour. One diplomatic thread worth watching: Secretary of State Rubio publicly credited China — of all countries — for backing freedom of navigation through Hormuz. China takes a huge share of Gulf crude, so its incentive to keep the strait open is real.",
+          "startSec": 188.36,
+          "endSec": 207.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "Interesting that Washington is leaning on Beijing as a stabilizer here. File that one away. Let's bring it home to the tape.",
+          "startSec": 207.0,
+          "endSec": 214.09
+        }
+      ],
+      "startSec": 57.7
+    },
+    {
+      "raw": "SEGMENT ONE — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Let's set the board. Wednesday's close, the last completed session: the S&P 500 finished at 7,498.96, down 0.14%. The Nasdaq Composite at 25,690.90, down 0.57% — the laggard again on chips. The Dow essentially flat at 52,218.58, down 6 points. And the Russell 2000 was the worst of the majors, down 0.92% to 2,959.94.",
+          "startSec": 214.09,
+          "endSec": 236.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "So small caps at the bottom, Nasdaq soft, Dow flat. That's a rates-and-positioning day, not a growth scare.",
+          "startSec": 236.61,
+          "endSec": 244.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Precisely. Look at the bond market: the 2-year rose 5 basis points to 4.31%, the 10-year up 4 to 4.67%, the 30-year at 5.15%. Yields grinding higher right into the July 28th-29th FOMC. That's the oil bid feeding straight into the curve.",
+          "startSec": 244.21,
+          "endSec": 260.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "And gold?",
+          "startSec": 260.97,
+          "endSec": 261.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Gold pulled back to about 4,097 dollars from a 4,152 close — consistent with a real-yields-up day rather than a pure panic. The yen stayed weak past 163. But honestly, Wednesday's tape was just the warm-up act. The real verdict came after the bell.",
+          "startSec": 261.61,
+          "endSec": 279.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Magnificent-7 earnings jury. Alphabet first — and this one is the template for the whole day.",
+          "startSec": 279.22,
+          "endSec": 286.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Alphabet beat almost everywhere. Revenue 119.8 billion dollars, up 24%. Google Cloud 24.8 billion, up 82% — and the cloud backlog ballooned to 514 billion dollars, from roughly 106 billion a year ago. Search 63.3 billion, up 17%. Operating income 40.8 billion, up 30%.",
+          "startSec": 286.11,
+          "endSec": 305.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is a monster quarter. So why did the stock fall 5% after hours?",
+          "startSec": 305.15,
+          "endSec": 309.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Two numbers. Adjusted earnings came in at 2.85 dollars a share, just under the 2.89 the Street wanted — a rare bottom-line miss. But the real trigger was capital spending. Q2 capex hit 44.9 billion dollars, roughly double year-on-year, and that pushed free cash flow to negative 5.9 billion, versus positive 10.4 billion a year ago.",
+          "startSec": 309.98,
+          "endSec": 333.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the company is generating enormous revenue and burning cash at the same time.",
+          "startSec": 333.56,
+          "endSec": 339.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And it guided the spend higher. Alphabet raised full-year capex to 195 to 205 billion dollars, up from 180 to 190, and said 2027 will rise \"significantly.\" That's the third capex guide-up in three quarters. The market's message is blunt: a beat on fundamentals is not enough when the spend curve keeps bending up and cash flow goes negative.",
+          "startSec": 339.24,
+          "endSec": 363.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Tesla told the exact same story in a different accent.",
+          "startSec": 363.46,
+          "endSec": 367.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Almost eerily so. Tesla's revenue was actually a beat — 28.24 billion dollars, up 26%, its first quarter over 100 billion on a trailing-twelve-month basis. Deliveries were a record second quarter: 480,126 vehicles, up 25%, about 74,000 above consensus.",
+          "startSec": 367.58,
+          "endSec": 385.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the top line and the units were fine. Where's the damage?",
+          "startSec": 385.48,
+          "endSec": 389.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Everywhere below the top line. Non-GAAP earnings were 33 cents a share against expectations closer to 48 to 53 cents — a big miss. Operating margin collapsed to 1.4%, from 4.1%. Operating income fell 57% to 398 million dollars. And here's the punchline that rhymes with Alphabet: capex jumped 142% to 5.79 billion dollars, and free cash flow was negative 1.09 billion — Tesla's first cash burn since early 2024.",
+          "startSec": 389.74,
+          "endSec": 418.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "Regulatory credits?",
+          "startSec": 418.93,
+          "endSec": 420.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Down 67%, to just 146 million. So the cushion is gone too. The stock closed at 374 and drifted to around 371 after hours. The read across both names is identical: the AI-and-robotaxi story stock is now spending like a hyperscaler while the actual margins evaporate. Negative free cash flow is the new verdict.",
+          "startSec": 420.28,
+          "endSec": 442.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "And there's a third shoe still to drop tonight — Intel.",
+          "startSec": 442.23,
+          "endSec": 446.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, and let's be careful here: Intel has not reported yet. It prints tonight, Thursday, after the close. So we have no numbers. The Street is looking for about 14.4 billion in revenue and 21 to 22 cents a share. The things that matter for our purposes: external foundry revenue — it was only 174 million last quarter — plus 18A yields, and whether any large cloud customer commits to 18A. The stock ran up hard into the number, so the bar is high.",
+          "startSec": 446.14,
+          "endSec": 478.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "So we frame Intel as tonight's catalyst, not last night's. The next shoe, not a result.",
+          "startSec": 478.1,
+          "endSec": 484.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. Don't report numbers that don't exist yet.",
+          "startSec": 484.28,
+          "endSec": 487.9
+        }
+      ],
+      "startSec": 214.1
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two US business stories, and the first is a regulatory knot rather than a financing one. Paramount, Skydance, and Warner Bros. Discovery.",
+          "startSec": 487.9,
+          "endSec": 495.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is the roughly 110-billion-dollar media combination, and it's now caught in a genuinely unusual split. On Wednesday the European Commission granted conditional approval — Paramount agreed to drop its Universal film-distribution joint venture in Europe to get it through.",
+          "startSec": 495.8,
+          "endSec": 511.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "So Brussels is a green light. But at home it's tangled.",
+          "startSec": 511.67,
+          "endSec": 514.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Very. The Department of Justice already approved the deal. But a 12-state coalition, led by California Attorney General Bonta, is suing to block it on Clayton Act antitrust grounds — and a federal judge issued a 14-day temporary restraining order on Monday freezing the whole thing.",
+          "startSec": 514.84,
+          "endSec": 531.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "So you have state attorneys general fighting a merger that the federal DOJ has already blessed. That's the story — not whether they can pay for it.",
+          "startSec": 531.11,
+          "endSec": 539.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly it. The gating item here is regulatory risk from an unusual direction — a state-versus-federal antitrust split over one of the largest media deals ever attempted. If you own either stock, the courtroom calendar matters more than the synergy math right now.",
+          "startSec": 539.59,
+          "endSec": 555.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "Story two is a cleaner, number-first deal — Repligen buying BioLife Solutions.",
+          "startSec": 555.22,
+          "endSec": 559.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Announced Wednesday. Repligen is acquiring BioLife for roughly 1.5 billion dollars in cash and stock. BioLife holders get 11.25 dollars in cash plus 0.1442 of a Repligen share — that works out to about 31 dollars a share, a 24% premium to the 90-day average price. Enterprise value around 1.5 billion, closing expected in the fourth quarter.",
+          "startSec": 559.72,
+          "endSec": 579.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the signal in that?",
+          "startSec": 579.4,
+          "endSec": 580.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bioprocessing and cell-therapy tools consolidation is alive and well. Even with the tape fretting about AI spend, bolt-on M&A in life-sciences tools keeps happening — Repligen is buying into the cold-chain and biopreservation layer that every cell-therapy pipeline depends on.",
+          "startSec": 580.72,
+          "endSec": 596.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "Before we leave the US, give people the breadth check — the non-AI economy.",
+          "startSec": 596.65,
+          "endSec": 600.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It held up nicely on Wednesday. General Motors beat and raised — 3.57 dollars a share against 3.13 expected — and popped almost 5%. ServiceNow beat and raised, subscription revenue up 23% in constant currency, its AI annual contract value crossed 1 billion dollars, and the stock jumped almost 5% after hours. AT&T beat on subscribers — 65 cents against 59, with more than a million net adds — up about 5%. 3M rose 7%.",
+          "startSec": 600.97,
+          "endSec": 625.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Any cracks?",
+          "startSec": 625.09,
+          "endSec": 625.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One worth flagging: Synchrony Financial missed on revenue and fell about 2%. That's a card lender, so it's a small tell on the consumer-credit side. But the through-line is that the old economy — autos, industrials, enterprise software, telecom — is compounding just fine. The crack is specifically in negative-free-cash-flow AI names, which is why value and cash-return stories are being bid as the AI-capex names get sold.",
+          "startSec": 625.72,
+          "endSec": 650.18
+        }
+      ],
+      "startSec": 487.9
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Across the Atlantic, two European prints this morning that tell the same margin story in different sectors. Nestlé first.",
+          "startSec": 650.18,
+          "endSec": 657.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nestlé reported first half numbers. And here's the shape: the volumes are finally coming back. Organic growth was 3.6%, with the second quarter at 3.7%, and — importantly — real internal growth, the actual volume number, turned positive at 1.5%. For a company that spent two years pushing price and losing volume, that's a genuine recovery.",
+          "startSec": 657.16,
+          "endSec": 676.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "But the profit line?",
+          "startSec": 676.78,
+          "endSec": 677.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the catch. First-half net profit fell 31.4%, to 3.5 billion Swiss francs from 5.1 billion. So growth returned, and margins paid for it — restructuring and input costs biting while pricing power fades. Management raised the full-year organic guide to 3 to 4%, and unveiled a waters and premium-beverages joint venture with Platinum Equity that's expected to raise around 3 billion euros.",
+          "startSec": 677.93,
+          "endSec": 700.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the CEO is signaling a leaner portfolio while eating the cost of the volume rebuild. And BNP Paribas is the mirror image of the US bank tape.",
+          "startSec": 700.6,
+          "endSec": 708.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Completely. BNP's second-quarter net income rose about a third to 4.35 billion euros — that's 4.97 billion dollars — beating the 4.21 billion consensus. The driver was record equity-trading revenue plus a retail-banking rebound. Group revenue up 12% to 14.1 billion euros, and they lifted the interim dividend 24% to 3.23 euros a share.",
+          "startSec": 708.91,
+          "endSec": 729.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the volatility-driven trading windfall we saw at the US banks is global.",
+          "startSec": 729.11,
+          "endSec": 733.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the takeaway. It isn't a Wall Street quirk. When markets are choppy and volumes are huge, the big universal banks on both sides of the Atlantic print records off the same market structure. The war premium and the AI-capex churn are, ironically, very good for the people making the markets.",
+          "startSec": 733.62,
+          "endSec": 751.41
+        }
+      ],
+      "startSec": 650.2
+    },
+    {
+      "raw": "SEGMENT ONE — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One China item, and it's the two-speed economy showing up in the government's own books.",
+          "startSec": 751.41,
+          "endSec": 756.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "China released first-half fiscal data. Fiscal revenue rose 4.7% year-on-year to 12.1 trillion yuan, with tax revenue up 5.3% to 9.79 trillion — and the pace is actually accelerating, up from 4% in the first five months. On the surface, that's fine.",
+          "startSec": 756.7,
+          "endSec": 771.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "So where's the two-speed part?",
+          "startSec": 771.61,
+          "endSec": 773.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On the spending side. Fiscal expenditure rose only 1.5%, to 14.33 trillion yuan. So revenue is growing more than three times as fast as spending. That is de facto passive tightening — the government is collecting faster than it's spending, at exactly the moment it keeps promising a fiscal push to hit around 5% growth.",
+          "startSec": 773.41,
+          "endSec": 792.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Li Qiang has been out there pledging stimulus. But it's not in the outlay data yet.",
+          "startSec": 792.59,
+          "endSec": 797.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It isn't. And the constraint is partly the oil story we opened with — imported energy inflation narrows the PBOC's room to ease. They held the loan prime rate for a 14th straight month, at 3.00 and 3.50%, and set the yuan fixing weaker, at 6.7933 to the dollar. So Beijing is walking the currency lower and talking up stimulus, while the actual spending stays cautious. The rhetoric and the ledger don't match — and for a debt-deflation economy, that gap is the whole ballgame.",
+          "startSec": 797.58,
+          "endSec": 826.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "The tell is always the spending, not the speeches. Let's go to the segment where the AI story stops being abstract — the power.",
+          "startSec": 826.25,
+          "endSec": 833.88
+        }
+      ],
+      "startSec": 751.4
+    },
+    {
+      "raw": "SEGMENT TWO — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "And this is where the two verdicts I mentioned up top actually connect. Because the same Alphabet capex number that spooked equity investors is a demand signal for the grid — 514 billion dollars of cloud backlog is contracted compute that has to find a substation.",
+          "startSec": 833.88,
+          "endSec": 849.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "Start with that Alphabet capex through the energy lens, because there was a line in the call that matters for your world.",
+          "startSec": 849.75,
+          "endSec": 857.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There was. Alphabet — a company with one of the best-funded fleets on Earth — said it will expand third-party capacity, meaning neocloud rental, \"as a bridge.\" Read that carefully: even Alphabet cannot self-build electrons and shells fast enough, so it's renting. Every one of these capex guide-ups widens what these reports keep calling a 100-gigawatt-plus generation deficit.",
+          "startSec": 857.03,
+          "endSec": 879.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Microsoft did the same thing in Europe this week — literally became a tenant.",
+          "startSec": 879.69,
+          "endSec": 884.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On Tuesday. Microsoft struck a multi-billion-dollar deal to rent AI compute from Mistral, the French model company, which is targeting 200 megawatts by 2027 and 1 gigawatt by 2030 on 4 billion euros of European data-center investment. So the buy-versus-rent line is blurring at the gigawatt scale. And note the siting problem: 1 gigawatt of new load landing on French and Nordic grids that are already tighter than PJM or ERCOT.",
+          "startSec": 884.56,
+          "endSec": 910.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "Let's get concrete on projects, because you always say the megawatts are where the truth is. What caught your eye?",
+          "startSec": 910.29,
+          "endSec": 917.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Two, and they're a study in contrast. First, in Arizona: Salt River Project is taking a 1.7-gigawatt \"Marigold Energy Center\" to its board in September. The mix is the story — 600 megawatts of solar, up to 675 megawatts of gas, and 400 megawatts of battery storage, plus four miles of 230-kV line and a new substation, about 45 miles south of Phoenix.",
+          "startSec": 917.14,
+          "endSec": 938.24
+        },
+        {
+          "speaker": "SAM",
+          "text": "So solar for the energy, a big gas block for firm capacity, storage to shape it. And it's a public-power utility.",
+          "startSec": 938.24,
+          "endSec": 944.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's what makes it interesting. A public-power utility building an integrated firm-power package on its own balance sheet, right in the Phoenix load pocket. It skips both the merchant interconnection queue and the risk of the turbine makers being sold out. Watch whether that gas block is what actually clears the board — the gas is the firm capacity everyone's fighting over.",
+          "startSec": 944.87,
+          "endSec": 967.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the second project is the one with the ratepayer fight baked in.",
+          "startSec": 967.05,
+          "endSec": 971.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Wisconsin. We Energies is seeking to acquire two Invenergy gas plants — Red Oak Ridge at 1,186 megawatts and Foundry Ridge at 324 — so 1,510 megawatts combined, for 2.26 billion dollars. And they've said out loud what it's for: a Microsoft campus, and a Vantage project leased to OpenAI and Oracle.",
+          "startSec": 971.03,
+          "endSec": 988.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the data centers are named. And the reason this is a fight?",
+          "startSec": 988.52,
+          "endSec": 992.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Wisconsin has no integrated resource plan. That sounds procedural, but it's the whole game. Without an IRP, plant-construction approval and the utility's \"public need\" acquisition review are separate steps. By the time the utility has to prove the need, the gas plant is already permitted to be built. It's a template for how gas-for-data-centers gets rate-based with the cost-and-alternatives test effectively neutered. The cost-allocation battle is moving upstream, into siting and approval sequencing.",
+          "startSec": 992.15,
+          "endSec": 1021.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "And who ends up paying is exactly the fight at FERC right now.",
+          "startSec": 1021.72,
+          "endSec": 1025.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is. Consumer advocates from Delaware, Illinois, Maryland, Ohio, and Pennsylvania are pressing FERC for a rehearing of its late-June show-cause order in PJM. Their argument is sharp: they call it \"arbitrary and capricious\" for FERC to declare a duty to prevent cost-shifting while leaving the actual cost shifts in the PJM tariff intact. They want data centers forced to pay the full cost of their network upgrades.",
+          "startSec": 1025.36,
+          "endSec": 1049.82
+        },
+        {
+          "speaker": "SAM",
+          "text": "And if they win that \"data center pays 100%\" standard?",
+          "startSec": 1049.82,
+          "endSec": 1052.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It reprices every interconnection cost model in PJM overnight — and it pushes even more load toward behind-the-meter generation, where you can escape the network-upgrade allocation entirely. So the FERC fight and the behind-the-meter gas boom are two ends of the same lever.",
+          "startSec": 1052.99,
+          "endSec": 1069.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "There was also a striking data point on the raw scale of the demand — and on water.",
+          "startSec": 1069.07,
+          "endSec": 1073.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A Kansas Health Institute report put US data centers at 183 terawatt-hours in 2024 — already more than 4% of national electricity — and projected that to grow 133% to 426 terawatt-hours by 2030. But the underpriced constraint is water: direct data-center water use was 17 billion gallons in 2023 and could double to quadruple by 2028.",
+          "startSec": 1073.94,
+          "endSec": 1093.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "Because cooling.",
+          "startSec": 1093.53,
+          "endSec": 1094.47
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because cooling, and because 20% of US data centers already sit in water-stressed basins — the same arid load pockets, Phoenix, West Texas, that are chasing the cheap solar. So deliverability isn't only an electron problem; water permitting is becoming a parallel gate. And that report's power mix — 56% fossil, 22% renewables, 21% nuclear — is exactly the counterfactual keeping a coal revival politically alive.",
+          "startSec": 1094.47,
+          "endSec": 1118.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is the last energy item — Washington reaching for coal.",
+          "startSec": 1118.7,
+          "endSec": 1122.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On Monday, the Department of Energy's coal advisory council formally recommended loan guarantees, grants, and federal power-purchase agreements to keep existing coal online and even build new plants, on reliability and load-growth grounds. That sits on top of about 850 million dollars DOE already put toward two new coal plants — 2.85 gigawatts combined, in Alaska and West Virginia — plus 425 million to preserve 14 gigawatts of existing coal.",
+          "startSec": 1122.28,
+          "endSec": 1148.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "Federal PPAs for coal. That's the sovereign balance sheet stepping in.",
+          "startSec": 1148.38,
+          "endSec": 1152.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the whole idea — using the government's balance sheet to keep dispatchable megawatts that the markets are retiring. For a developer, it changes the merit-order math: coal that couldn't clear on economics may get kept as a capacity backstop. It softens the turbine bottleneck at the margin, but it adds carbon and stranded-asset risk to any grid your data center plugs into. The through-line for the whole segment: the constraint isn't capital anymore — it's a firm electron, at a substation, on a date, with water to cool it.",
+          "startSec": 1152.49,
+          "endSec": 1185.21
+        }
+      ],
+      "startSec": 833.9
+    },
+    {
+      "raw": "SEGMENT THREE — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To the Philippines, and the weather lead has escalated overnight. Alex, Kiyapo.",
+          "startSec": 1185.21,
+          "endSec": 1190.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Yes — what we flagged earlier this week as a low-pressure area is now Tropical Depression Kiyapo. As of the late-morning PAGASA bulletin, it was about 830 kilometers east of Northern Luzon, with maximum sustained winds of 45 kilometers per hour, gusts to 55, central pressure 1002 hectopascals, and it's accelerating — moving northwest at 25 kilometers per hour.",
+          "startSec": 1190.07,
+          "endSec": 1212.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "And signals are up.",
+          "startSec": 1212.34,
+          "endSec": 1213.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tropical Cyclone Wind Signal Number 1 is hoisted over parts of Northern Luzon — expanded across roughly 11 to 14 areas through the day. PAGASA sees a possible landfall tomorrow, Friday, over extreme Northern Luzon. The highest expected signal is Number 2, but Number 3 is possible if it strengthens to a severe tropical storm crossing the Batanes-Babuyan area. They're flagging 50 to 100 millimeters of rain for Cagayan into Friday.",
+          "startSec": 1213.51,
+          "endSec": 1240.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "And it's dragging the monsoon in behind it.",
+          "startSec": 1240.08,
+          "endSec": 1242.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the second-order effect. Kiyapo is enhancing the habagat — the southwest monsoon — which means strong-to-gale-force gusts over much of Mindanao, plus Siquijor, Bohol, and Southern Leyte, with flood and landslide risk in the north. And in the Philippines, weather is a monetary variable, because food is such a heavy weight in the inflation basket. Which takes us straight to the peso.",
+          "startSec": 1242.72,
+          "endSec": 1266.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the peso is at the wall.",
+          "startSec": 1266.77,
+          "endSec": 1268.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It matched its all-time record low, 61.75 to the dollar, in the latest session — from 61.745 the day before and 61.686 on Monday. The driver is the oil bid we opened the show with; Brent pushing toward the mid-90s and up revives the imported-inflation fear directly, because the Philippines imports about 98% of its oil.",
+          "startSec": 1268.5,
+          "endSec": 1288.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "And here's the genuinely new development — the BSP didn't just talk this time.",
+          "startSec": 1288.18,
+          "endSec": 1292.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Correct. This is the escalation. The Bangko Sentral intervened — it sold dollars in the onshore market, after Wednesday's close, to defend the line. That's a step beyond the verbal jawboning and the warnings on FX derivatives we discussed before. It's actual reserves being spent to hold 61.75. The Philippines joins India in defending an oil-hit currency with intervention.",
+          "startSec": 1292.98,
+          "endSec": 1315.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "What are forecasters saying about the floor?",
+          "startSec": 1315.98,
+          "endSec": 1318.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The near-term calls have crept lower. Reyes Tacandong sees 61.60 to 61.90; BMI, Fitch's shop, sees 61 to 63 in the coming months, citing the US-Iran escalation, dollar firmness, and the seasonal import-demand peak. Analysts are now openly pricing a break past 63.",
+          "startSec": 1318.69,
+          "endSec": 1334.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "And all of this lands on a central bank that's already boxed.",
+          "startSec": 1334.87,
+          "endSec": 1338.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Completely boxed. There's a piece out this morning framed as \"twin inflation shocks and growth woes test the BSP's credibility.\" Growth has slowed three straight quarters to a post-pandemic low of 2.8% in the first quarter, and the government just cut its 2026 GDP target to 3.5 to 4.5%. So oil and the currency argue for hikes; sub-target growth argues for cuts. That's the vise.",
+          "startSec": 1338.62,
+          "endSec": 1361.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "And there's a fiscal-cushion angle too.",
+          "startSec": 1361.99,
+          "endSec": 1364.39
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The BSP now expects cash remittances to grow just 2.7% this year, to 36.6 billion dollars — slower than last year's 3.3%. Remittances are about a tenth of GDP, the classic shock-absorber, and it's thinning right as the oil-import bill widens the trade gap. All of this is the backdrop for President Marcos's fifth State of the Nation address on Monday — Metro Manila goes on full alert from 5 p.m. Friday, with protest groups mobilizing. A record-low peso, mid-90s oil, and sticky inflation is a hostile stage to walk onto.",
+          "startSec": 1364.39,
+          "endSec": 1384.68
+        }
+      ],
+      "startSec": 1185.2
+    },
+    {
+      "raw": "SEGMENT FOUR — VOCAB OF THE DAY",
+      "label": "Vocab Of The Day",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Vocab of the day. Two Mandarin, then two Tagalog — and today every word is tied to a story we just told. Alex, take us into Mandarin.",
+          "startSec": 1384.68,
+          "endSec": 1389.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "今天的两个中文词都跟\"钱花光了\"这个主题有关。(Today's two Chinese words both connect to the theme of \"the money running out.\") 第一个词是\"从而\"。(The first word is \"cóng ér.\")",
+          "startSec": 1389.84,
+          "endSec": 1397.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "从而是一个很正式的连接词,对吗?(是——它是书面语。) (Is \"cóng ér\" a very formal connective? — Yes, it's written-language register.)",
+          "startSec": 1397.15,
+          "endSec": 1402.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "没错。我们可以说:资本支出激增,从而自由现金流转为负。(Exactly. We can say: capital spending surged, thereby free cash flow turned negative.) 谷歌和特斯拉就是这样。(Google and Tesla are exactly like this.)",
+          "startSec": 1402.54,
+          "endSec": 1411.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "我想确认一下用法。从而、因此、于是——它们有什么区别?(I want to confirm the usage. \"Cóng ér,\" \"yīn cǐ,\" \"yú shì\" — what's the difference?)",
+          "startSec": 1411.07,
+          "endSec": 1416.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "好问题。因此比较普通,就是\"所以\"。(Good question. \"Yīn cǐ\" is more ordinary — it just means \"therefore.\") 于是强调时间上的先后。(Yú shì\" emphasizes temporal sequence.) 但是从而不一样:它表示前一句\"使得\"后一句发生,主语要一致。(But \"cóng ér\" is different: it means the first clause brings about the second, and the subject must be the same.)",
+          "startSec": 1416.72,
+          "endSec": 1430.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "所以从而更强调\"结果是有目的的\"。(So \"cóng ér\" stresses that the result is purposeful.)",
+          "startSec": 1430.76,
+          "endSec": 1434.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "对。在分析报告里,从而用得非常多。(Right. In analyst reports, \"cóng ér\" is used very often.) 第二个词是\"势必\"——意思是\"一定会\",但是更正式、更有逻辑。(The second word is \"shì bì\" — it means \"will definitely,\" but more formal and more logical.)",
+          "startSec": 1434.38,
+          "endSec": 1444.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "造个句子吧。(Make a sentence.)",
+          "startSec": 1444.38,
+          "endSec": 1445.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "油价持续上涨,势必推高通胀预期。(If oil keeps rising, it is bound to push up inflation expectations.) 这就是今天的主线。(That's exactly today's main thread.)",
+          "startSec": 1445.62,
+          "endSec": 1452.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "势必和\"一定\"有什么不一样?(How is \"shì bì\" different from \"yí dìng\"?)",
+          "startSec": 1452.11,
+          "endSec": 1455.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "一定是口语,什么都能用。(Yí dìng\" is colloquial — you can use it for anything.) 势必是书面语,而且它表示一种\"从前提推出来的必然\"。(Shì bì\" is written-language, and it expresses an inevitability derived from a premise.) 它常常跟\"推高\"、\"导致\"、\"影响\"这样的词搭配。(It often pairs with verbs like \"push up,\" \"lead to,\" \"affect.\")",
+          "startSec": 1455.0,
+          "endSec": 1468.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "懂了。势必——逻辑上的必然。(Got it. \"Shì bì\" — a logical inevitability.) 现在换到菲律宾语。(Now let's switch to Tagalog.)",
+          "startSec": 1468.54,
+          "endSec": 1473.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sa Tagalog, ang unang salita ay \"ubos.\" (In Tagalog, the first word is \"ubos.\") Ang ibig sabihin: wala nang natira — lahat nagamit na. (It means: nothing left — everything's been used up.)",
+          "startSec": 1473.5,
+          "endSec": 1480.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya perpekto ito para sa negatibong free cash flow. (So it's perfect for negative free cash flow.) Halimbawa? (An example?)",
+          "startSec": 1480.79,
+          "endSec": 1485.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Naubos ang cash ng kumpanya kahit tumaas ang benta. (The company's cash got used up even though sales rose.) O kaya: inubos ng BSP ang ilang dolyar para depensahan ang piso. (Or: the BSP spent down some dollars to defend the peso.)",
+          "startSec": 1485.6,
+          "endSec": 1494.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ano ang pagkakaiba ng \"ubos\" sa \"kulang\" o \"salat\"? (What's the difference between \"ubos,\" \"kulang,\" and \"salat\"?)",
+          "startSec": 1494.57,
+          "endSec": 1498.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Magandang tanong. Ang \"kulang\" ay hindi sapat — mayroon pa, pero hindi tama ang dami. (Good question. \"Kulang\" is insufficient — there's still some, but not enough.) Ang \"salat\" ay kakaunti, mahirap. (Salat\" is scarce, meagre.) Pero ang \"ubos\" — wala na talaga, tuyot na ang balon. (But \"ubos\" — there's genuinely nothing, the well is dry.)",
+          "startSec": 1498.99,
+          "endSec": 1512.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya ang \"ubos\" ay may pakiramdam ng katapusan. (So \"ubos\" carries a sense of finality.)",
+          "startSec": 1512.18,
+          "endSec": 1515.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama. Hindi ka makakakuha ng wala. (Right. You can't draw from nothing.) Ang pangalawang salita ay \"hadlang\" — ibig sabihin, isang bagay na humaharang. (The second word is \"hadlang\" — meaning something that blocks the way.)",
+          "startSec": 1515.6,
+          "endSec": 1524.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "Parang ang pader ng kuryente at tubig sa data center? (Like the wall of power and water for the data center?)",
+          "startSec": 1524.25,
+          "endSec": 1528.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Eksakto. Ang kakulangan ng kuryente at tubig ang pinakamalaking hadlang sa pagbuo ng data center. (Exactly. The lack of power and water is the biggest barrier to building the data center.) O ang utos ng korte na naging hadlang sa deal ng Paramount. (Or the court order that became a barrier to the Paramount deal.)",
+          "startSec": 1528.48,
+          "endSec": 1545.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "At paano ito naiiba sa \"sagabal\" o \"balakid\"? (And how is it different from \"sagabal\" or \"balakid\"?)",
+          "startSec": 1545.47,
+          "endSec": 1550.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang \"sagabal\" ay abala lang — nakakaistorbo pero naikakansa mo. (Sagabal\" is just a nuisance — annoying but you can step around it.) Ang \"balakid\" ay parang hurdle na nalalagpasan mo. (Balakid\" is like a hurdle you get over.) Pero ang \"hadlang\" ay tunay na humaharang — pader na pumipigil sa iyo. (But \"hadlang\" genuinely blocks — a wall that stops you.)",
+          "startSec": 1550.89,
+          "endSec": 1570.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "从而, 势必, ubos, hadlang. Apat na salita, isang kuwento. (Four words, one story.) Napakaganda. Sa susunod na segment naman. (Beautiful. On to the next segment.)",
+          "startSec": 1570.04,
+          "endSec": 1578.89
+        }
+      ],
+      "startSec": 1384.7
+    },
+    {
+      "raw": "SEGMENT FIVE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts and culture, and we're leading with photography this morning. Alex, the Morgan.",
+          "startSec": 1578.89,
+          "endSec": 1583.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The lead is a show at the Morgan Library in New York called \"Hujar: Contact\" — Peter Hujar, the great chronicler of downtown, queer 1970s and 80s New York. What makes this one unusual is that it's built from more than 110 contact sheets and 20 enlargements — the darkroom work-prints, the ones never meant to hang on a wall.",
+          "startSec": 1583.43,
+          "endSec": 1600.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which sounds, on paper, like archive-milking. A show of contact sheets?",
+          "startSec": 1600.97,
+          "endSec": 1604.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That was exactly the critic's skepticism going in — Hyperallergic's reviewer admits she expected a scraping-the-vaults exercise. And then recants. Because the sheets reveal Hujar's famous portraits as, in her phrase, \"excerpts of a conversation, rather than memories snatched from the ether.\" You watch him work toward the image. The contact sheet is the sketchbook of a photographer who almost never showed his hand.",
+          "startSec": 1604.81,
+          "endSec": 1627.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the throwaway becomes the revelation. What's the market backdrop this morning — because the auction houses just closed their books on the first half.",
+          "startSec": 1627.38,
+          "endSec": 1635.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They did, and the verdict is a very 2026 word: K-shaped. ArtTactic's half-year report has Christie's, Sotheby's, and Phillips taking a combined 6.8 billion dollars including fees, up 70% year-on-year — the best first half since 2022. But look under it: Christie's did 3.4 billion, Sotheby's 2.8, and Phillips trails badly at about 505 million.",
+          "startSec": 1635.6,
+          "endSec": 1654.17
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the recovery is real, but it's stacked at the very top.",
+          "startSec": 1654.17,
+          "endSec": 1657.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Stacked at the top and propped by death and estates. Nearly a third of the total came from single-owner estate sales — the S.I. Newhouse collection over 630 million, the Joe Lewis collection 406 million, a UK record. So it's a rebound built on trophy consignments while the market's middle still gasps for air. A masterpiece market, not a healthy one.",
+          "startSec": 1657.3,
+          "endSec": 1676.3
+        },
+        {
+          "speaker": "SAM",
+          "text": "To opera — Glyndebourne, and a Strauss that apparently sounds better than it looks.",
+          "startSec": 1676.3,
+          "endSec": 1680.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A lovely line from the critic on this one. It's Richard Strauss's \"Ariadne auf Naxos\" at the Glyndebourne Festival, Robin Ticciati conducting the London Philharmonic in Laurent Pelly's staging. Rachel Willis-Sørensen sings Ariadne, Samantha Hankey the Composer. Four stars from BroadwayWorld, whose reviewer said it's \"not always a visual feast for the eyes\" but \"a mouthwatering banquet for the ears\" — and singled out Alina Wunderlin's Zerbinetta as \"worth the ticket price alone.\"",
+          "startSec": 1680.79,
+          "endSec": 1706.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a classical recording pick to go with it.",
+          "startSec": 1706.93,
+          "endSec": 1709.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Gramophone's Recording of the Month is the complete Martinů symphonies — the Bamberg Symphony under Jakub Hrůša, on Deutsche Grammophon. It's the first complete Martinů symphony cycle DG has ever issued, and Gramophone says Hrůša makes a \"wonderfully powerful case,\" the textures \"stunningly vivid.\" Timely, because Hrůša is one of the most-watched conductors of his generation right now.",
+          "startSec": 1709.37,
+          "endSec": 1730.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "And close us on a book.",
+          "startSec": 1730.37,
+          "endSec": 1731.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Claire Vaye Watkins is back — the author of \"Battleborn\" and \"Gold Fame Citrus\" — with a novel called \"Yellow Pine,\" out this week from Riverhead. It's a Mojave-homestead story of eco-activism and a troubled love. Publishers Weekly starred it, and Joy Williams — no soft touch — calls it \"a fresh classic of desert writing, a lament and hymn to the great Mojave.\" If you liked the parched, luminous California of her earlier work, this is that voice, matured.",
+          "startSec": 1731.61,
+          "endSec": 1761.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "A banquet for the ears and a hymn to the desert. Good morning to that. One more.",
+          "startSec": 1761.94,
+          "endSec": 1767.23
+        }
+      ],
+      "startSec": 1578.9
+    },
+    {
+      "raw": "SEGMENT SIX — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "One good thing, and it's a genuine wonder-of-the-world story. Scientists have formally described a brand-new species of monkey deep in the Congo Basin.",
+          "startSec": 1767.23,
+          "endSec": 1777.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "A whole new monkey. In 2026.",
+          "startSec": 1777.2,
+          "endSec": 1779.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A whole new monkey. It's called the likweli — scientific name Colobus congoensis — a small, black, long-tailed monkey with striking orange-cream patches on its face and white markings under its tail. It lives in lowland rainforest between the Lomami and Lilo rivers in the Democratic Republic of Congo.",
+          "startSec": 1779.06,
+          "endSec": 1799.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "How rare is it to describe a new primate?",
+          "startSec": 1799.01,
+          "endSec": 1801.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is only the fifth new African monkey species described in 75 years — and it's the first primate ever named for the DRC itself. The team, led by John Hart, Junior Amboko, and Kate Detwiler, logged 114 field observations before publishing in the journal PLOS One in mid-July. It's a discovery, not a rediscovery.",
+          "startSec": 1801.72,
+          "endSec": 1822.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "I love that the map still has blank spaces on it. That in one of the most-studied disciplines on Earth, in a forest people have walked through for millennia, there was a monkey nobody had named.",
+          "startSec": 1822.54,
+          "endSec": 1835.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly the feeling. It's a reminder that the natural world is still, quietly, larger than our catalog of it — and that patient people in the field, watching and counting, are still adding to the sum of what we know. A good note to carry into the day.",
+          "startSec": 1835.36,
+          "endSec": 1852.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "The likweli. Named at last. That's The Morning Commute for Thursday, July 23rd. Take care of each other.",
+          "startSec": 1852.4,
+          "endSec": 1859.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And we'll see you tomorrow.",
+          "startSec": 1859.28,
+          "endSec": 1861.06
+        }
+      ],
+      "startSec": 1767.2
+    }
+  ]
+}

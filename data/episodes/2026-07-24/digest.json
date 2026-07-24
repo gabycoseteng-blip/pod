@@ -1,0 +1,34 @@
+{
+  "throughline": "Two verdicts, one week: the AI-capex de-rating breaks into a global risk-off (Nikkei -2.7%, SoftBank -7.4%) as the tape charges for capex outrunning cash, while the war premium goes kinetic on land (Iran hits Gulf power/desalination, Brent through $100) and bear-steepens yields into a Fed that meets the same 72 hours the four biggest hyperscalers report",
+  "stories": [
+    "iran-strikes-second-gulf-power-desalination-plant-two-days-bahrain-intercepts-war-goes-land-brent-through-100",
+    "us-treasury-presses-boj-to-keep-hiking-yen-163.8-40yr-low-katayama-24hr-contact-boj-jul31",
+    "us-market-overview-sp-7408-worst-month-nasdaq-25137-minus2.2-tsla-minus14.5-vix-18.70-bear-steepen-10y-4.71-global-riskoff-nikkei-minus2.7-softbank-minus7.4",
+    "amex-q2-record-rev-17.9b-plus9-eps-4.08-dividend-plus15-95c-affluent-consumer-strong",
+    "charter-verizon-friday-telecom-broadband-net-losses-fiber-fwa-vz-cuts-13000-jobs-274-stores-6.5pct-yield",
+    "volkswagen-q2-op-profit-3.5b-euro-minus10-withdraws-outlook-2026-rev-down-3-china-deliveries-minus37",
+    "ecb-holds-deposit-2.25-mro-2.40-nagel-good-position-september-flags-mideast-energy-risk",
+    "pboc-biggest-liquidity-5mo-2.1tn-reverse-repo-500b-mlf-net-100b-q2-gdp-4.3-holds-lpr-yuan-6.774-quantity-not-price",
+    "ge-vernova-q2-turbine-backlog-116gw-only-53-firm-63-reservations-10gw-converted-rev-11.1b-plus22",
+    "ferc-grid-enhancing-technology-get-taskforce-swett-dynamic-line-ratings-reconductoring-2x-roe-adders",
+    "chevron-project-kilby-pecos-tx-2.67gw-7-9b-capex-microsoft-20yr-ge-vernova-turbines-btm-gas-oil-major-as-power-developer",
+    "hyperscaler-capex-anchors-into-next-week-meta-125-145b-aws-200b-alphabet-195-205b-neg-fcf-report-jul29-31",
+    "philippines-ts-kiyapo-noul-signal-2-135km-e-aparri-babuyan-landfall-friday-may-rapid-intensify-typhoon-wps",
+    "philippines-peso-fresh-record-low-61.845-breaks-61.75-brent-100-98pct-oil-import-bsp-remolona-smooth-gir-104.8b",
+    "us-125pct-forced-labor-tariff-on-philippine-exports-from-10-41-economies-roque-panel-marcos-5th-sona-jul27-debt-18.55tn",
+    "old-masters-london-classics-week-76.7m-gbp-plus9.4-20pct-new-buyers-rembrandt-botticelli-laocoon-new-money",
+    "constable-hay-wain-returns-to-suffolk-ipswich-constable-250-studio-not-plein-air-climate-crisis-reading",
+    "maggie-ofarrell-land-tenth-novel-1865-famine-ordnance-survey-mapmaker-booker-2026-longlist-jul28-mary-beard",
+    "one-good-thing-north-atlantic-right-whales-23-calves-best-since-2009-380-left-4yr-calving-interval-recovers"
+  ],
+  "explainers": [
+    "war-premium-loses-its-off-ramp-when-targets-shift-from-reroutable-hulls-to-fixed-existential-desalination-water",
+    "us-pressing-boj-to-hike-is-a-mirror-image-currency-fight-plus-carry-trade-unwind-tail-risk-aug-2024-echo",
+    "softbank-as-the-levered-beta-proxy-for-the-whole-ai-capex-trade",
+    "turbine-sold-out-wall-is-half-optionality-slot-reservations-vs-firm-orders-conversion-rate-is-the-real-tell",
+    "grid-enhancing-technology-attacks-deliverability-from-the-corridor-side-12-24mo-vs-5-7yr-reconductoring-as-ratebase",
+    "pboc-quantity-over-price-reverse-repo-temporary-vs-lpr-cut-durable-and-yuan-negative-fx-as-the-binding-constraint",
+    "bsp-wont-hike-to-defend-peso-because-it-would-tighten-into-externally-caused-weakness-importing-someone-elses-war"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained so we don't re-teach. Running stories (Iran/Hormuz war premium, yen weakness, peso record, PBOC easing, AI de-rate, GE Vernova turbines, BTM gas) advanced only with genuinely new datapoints."
+}

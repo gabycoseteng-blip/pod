@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-24",
+  "cards": [
+    {
+      "id": "2026-07-24-zh-1",
+      "lang": "Mandarin",
+      "word": "后果",
+      "pinyin": "hòu guǒ",
+      "pronunciation": "hoh gwaw",
+      "tones": "4 · 3",
+      "meaning": "consequence(s) — the (usually bad) outcome you have to answer for",
+      "example": "资本开支超过现金流会带来严重的后果。",
+      "examplePinyin": "zī běn kāi zhī chāo guò xiàn jīn liú huì dài lái yán zhòng de hòu guǒ",
+      "exampleMeaning": "Capital spending outrunning cash flow brings serious consequences.",
+      "note": "书面语 / newsroom register. Crucial near-synonym contrast: 后果 (hòuguǒ) is negative — the consequences you bear — while 结果 (jiéguǒ) is a neutral 'result/outcome.' A negotiation has a 结果; a wrong policy has 后果. Keep-it-handy collocation: 承担后果 (chéngdān hòuguǒ), 'to bear the consequences.'",
+      "tiesTo": "AI capex outrunning free cash flow / market de-rating"
+    },
+    {
+      "id": "2026-07-24-zh-2",
+      "lang": "Mandarin",
+      "word": "否则",
+      "pinyin": "fǒu zé",
+      "pronunciation": "foh dzuh",
+      "tones": "3 · 2",
+      "meaning": "otherwise; if not (formal connective introducing the negative alternative)",
+      "example": "开发商必须做出投资决定，否则就会失去涡轮机的名额。",
+      "examplePinyin": "kāi fā shāng bì xū zuò chū tóu zī jué dìng, fǒu zé jiù huì shī qù wō lún jī de míng é",
+      "exampleMeaning": "Developers must reach an investment decision, otherwise they lose the turbine slot.",
+      "note": "HSK-4 connective, 书面语/formal. Same meaning as 不然 (bùrán) but 否则 is the written, finance-desk choice; 不然 is colloquial. Pattern: [do X], 否则 [bad consequence follows]. Pairs naturally with today's other word: 否则会有严重后果 ('otherwise there'll be serious consequences').",
+      "tiesTo": "turbine slot-reservations converting to firm orders / FERC energy policy"
+    },
+    {
+      "id": "2026-07-24-tl-1",
+      "lang": "Tagalog",
+      "word": "lubog",
+      "pinyin": "",
+      "pronunciation": "loo-BOHG",
+      "tones": "",
+      "meaning": "submerged, sunk; (figuratively) drowning under something",
+      "example": "Lumubog ang piso sa bagong record na mababa.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso sank to a new record low.",
+      "note": "Native-speaker nuance: literal (a sunken ship, lubog sa tubig) and figurative in one word. The figurative collocation is everywhere in finance: lubog sa utang — 'drowning in debt' — e.g. the ₱18.55T national debt. Verb form lumubog = 'to sink.' Vivid and idiomatic, not clinical like the borrowed 'bumaba' (to go down).",
+      "tiesTo": "peso sinking to a record-low 61.845 / national debt"
+    },
+    {
+      "id": "2026-07-24-tl-2",
+      "lang": "Tagalog",
+      "word": "pananggalang",
+      "pinyin": "",
+      "pronunciation": "pa-nang-GA-lang",
+      "tones": "",
+      "meaning": "a shield, buffer, or defense against something",
+      "example": "Ang dolyar na reserba ng BSP ay pananggalang laban sa pagbagsak ng piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP's dollar reserves are a buffer against the peso's fall.",
+      "note": "Native-speaker nuance: more formal and native than the Spanish-borrowed 'depensa.' Root is sanggalang (protection). Fixed collocation: pananggalang laban sa — 'a shield against.' Register: dignified, used for real protection (reserves, armor, safeguards), not casual cover.",
+      "tiesTo": "BSP's $104.8B gross international reserves as the peso's buffer"
+    }
+  ]
+}

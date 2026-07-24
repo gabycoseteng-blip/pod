@@ -109,7 +109,7 @@ def main():
     # settles away from the configured constant, recommend retuning it — so the NEXT
     # run's length target predicts duration correctly instead of over/under-writing.
     import statistics
-    cfg_cps = float(os.environ.get("CHARS_PER_SEC", "19"))
+    cfg_cps = float(os.environ.get("CHARS_PER_SEC", "18"))
     paces = [e["measured_cps"] for e in rows if isinstance(e.get("measured_cps"), (int, float))]
     if len(paces) >= 2:
         med = round(statistics.median(paces), 1)

@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-27",
+  "cards": [
+    {
+      "id": "2026-07-27-zh-1",
+      "lang": "Mandarin",
+      "word": "回落",
+      "pinyin": "huí luò",
+      "pronunciation": "hway lwaw",
+      "tones": "2 · 4",
+      "meaning": "to fall back, retreat, ease off (of a price/level from a high)",
+      "example": "油价从100美元回落到89美元左右。",
+      "examplePinyin": "yóu jià cóng yì bǎi měi yuán huí luò dào bā shí jiǔ měi yuán zuǒ yòu",
+      "exampleMeaning": "Oil prices fell back from 100 dollars to around 89.",
+      "note": "书面语 / financial-desk register. Crucial near-synonym contrast: 回落 (huíluò) means falling back FROM A HIGH toward a lower level — a pullback — while 下跌 (xiàdiē) is just 'to go down' with no sense of returning. Natural collocations: 油价回落, 股价回落, 通胀回落 (oil / share prices / inflation ease back). Use it for a correction off a peak, not a general decline.",
+      "tiesTo": "Brent crude falling back ~8% from ~$100 toward $89 on the Iran strike pause"
+    },
+    {
+      "id": "2026-07-27-zh-2",
+      "lang": "Mandarin",
+      "word": "与此同时",
+      "pinyin": "yǔ cǐ tóng shí",
+      "pronunciation": "yoo tsuh tong shr",
+      "tones": "3 · 3 · 2 · 2",
+      "meaning": "meanwhile; at the same time (formal connective linking two simultaneous developments)",
+      "example": "油价回落；与此同时，人工智能股票继续下跌。",
+      "examplePinyin": "yóu jià huí luò; yǔ cǐ tóng shí, rén gōng zhì néng gǔ piào jì xù xià diē",
+      "exampleMeaning": "Oil prices fell back; meanwhile, AI stocks kept falling.",
+      "note": "HSK-4 connective, 书面语/formal. Same idea as the colloquial 同时 (tóngshí) but 与此同时 is the written, newsroom choice and usually opens the clause introducing the second, simultaneous event. Pattern: [event A]，与此同时，[event B]. Pairs perfectly with the day's throughline — one pressure receding 与此同时 another persisting.",
+      "tiesTo": "the throughline — war premium receding while the AI-capex de-rating continues at the same time"
+    },
+    {
+      "id": "2026-07-27-tl-1",
+      "lang": "Tagalog",
+      "word": "kaluwagan",
+      "pinyin": "",
+      "pronunciation": "ka-loo-WA-gan",
+      "tones": "",
+      "meaning": "easing, relief, breathing room; slack or leeway after a period of tightness",
+      "example": "Ang pagbaba ng presyo ng langis ay nagbigay ng kaluwagan sa piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The fall in oil prices gave the peso some relief.",
+      "note": "Native-speaker nuance and a useful contrast with the already-learned ginhawa: ginhawa is a felt sense of comfort/ease, while kaluwagan is the space or slack you get after a tightness lets up — financial or otherwise. Root is luwag (looseness). Collocations: magbigay ng kaluwagan (to give relief), may kaluwagan (to have breathing room). Common in economics writing for policy or budget relief.",
+      "tiesTo": "cheaper oil easing the pressure on the peso and the family budget (98%-oil-import economy)"
+    },
+    {
+      "id": "2026-07-27-tl-2",
+      "lang": "Tagalog",
+      "word": "katipiran",
+      "pinyin": "",
+      "pronunciation": "ka-ti-PI-ran",
+      "tones": "",
+      "meaning": "austerity; thrift or economizing as a policy or principle",
+      "example": "Ang tema ng SONA ni Marcos ay katipiran.",
+      "examplePinyin": "",
+      "exampleMeaning": "The theme of Marcos's State of the Nation address is austerity.",
+      "note": "Register contrast: everyday tipid (to be thrifty, save money) is personal and casual; katipiran elevates it to a policy or principle — the frugality of a government, an institution, or a whole nation. Root is tipid. Fits the formal SONA framing of belt-tightening; you would not use katipiran for skipping a coffee, but you would for a national austerity program.",
+      "tiesTo": "Marcos's fifth SONA framed around austerity against ₱18.6T national debt"
+    }
+  ]
+}

@@ -96,27 +96,27 @@
         },
         {
           "speaker": "ALEX",
-          "text": "Trump is hosting Zelensky today. Zelensky is in Washington partly for Senator Lindsey Graham's funeral, and he's set to meet all one hundred senators this evening as the chamber weighs the bill that carries Graham's name — the Lindsey O. Graham Sanctioning Russia Act. It's been revised down from an original blanket 500% tariff to a 100% tariff, but specifically targeted at the world's top five buyers of Russian oil and gas.",
+          "text": "Trump is hosting Zelensky today. Zelensky is in Washington partly for Senator Lindsey Graham's funeral, and he's set to meet all 100 senators this evening as the chamber weighs the bill that carries Graham's name — the Lindsey O. Graham Sanctioning Russia Act. It's been revised down from an original blanket 500% tariff to a 100% tariff, but specifically targeted at the world's top five buyers of Russian oil and gas.",
           "startSec": 146.15,
-          "endSec": 169.21
+          "endSec": 168.78
         },
         {
           "speaker": "SAM",
           "text": "Who's on that list?",
-          "startSec": 169.21,
-          "endSec": 170.24
+          "startSec": 168.78,
+          "endSec": 169.81
         },
         {
           "speaker": "ALEX",
           "text": "China and India, at the top. So this isn't abstract Russia sanctions anymore — it's a secondary-tariff weapon aimed at two of the biggest economies on earth, timed to land right next to a Fed decision and a week of hyperscaler earnings. The bill has stalled twice already since Graham's death on July 11th, even with more than sixty cosponsors, so don't assume passage — but the fact that it's back on the floor the same week as everything else makes it a genuine tail risk to price.",
-          "startSec": 170.24,
-          "endSec": 196.32
+          "startSec": 169.81,
+          "endSec": 195.89
         },
         {
           "speaker": "SAM",
           "text": "Structure on oil, sanctions leverage on Russia. Let's get to the tape.",
-          "startSec": 196.32,
-          "endSec": 200.1
+          "startSec": 195.89,
+          "endSec": 199.67
         }
       ],
       "startSec": 78.3
@@ -128,8 +128,8 @@
         {
           "speaker": "ALEX",
           "text": "The board this morning: S&P 500 at 7,413.18, up just 0.02%. Nasdaq Composite at 24,932.08, down 0.18%. Dow at 52,210.08, up a healthy 0.51%. Russell 2000 at 2,948.04, up 0.62%.",
-          "startSec": 200.1,
-          "endSec": 209.61
+          "startSec": 199.67,
+          "endSec": 209.18
         },
         {
           "speaker": "SAM",
@@ -174,7 +174,7 @@
           "endSec": 287.62
         }
       ],
-      "startSec": 200.1
+      "startSec": 199.7
     },
     {
       "raw": "SEGMENT ONE — U.S. BUSINESS",

@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-28",
+  "cards": [
+    {
+      "id": "2026-07-28-zh-1",
+      "lang": "Mandarin",
+      "word": "不仅…而且",
+      "pinyin": "bù jǐn ... ér qiě",
+      "pronunciation": "boo jin ... are chyeh",
+      "tones": "4-3 · 2-3",
+      "meaning": "not only ... but also (formal connective stacking a second, stronger fact onto the first)",
+      "example": "英伟达这次不仅要为OpenAI的巨额资本支出提供担保，而且还要资助他们购买自己的芯片。",
+      "examplePinyin": "Yīngwěidá zhè cì bùjǐn yào wèi OpenAI de jù'é zīběn zhīchū tígōng dānbǎo, érqiě hái yào zīzhù tāmen gòumǎi zìjǐ de xīnpiàn.",
+      "exampleMeaning": "This time Nvidia not only has to guarantee OpenAI's massive capex, but also finance their purchase of its own chips.",
+      "note": "书面语 / formal, the analyst-note register — heavier than spoken 不但…而且. Unlike 不但…而且 (neutral, works in speech), 不仅…而且 signals the writer is building an argument, often escalating from an already-serious first clause to a more surprising second one. Collocation: 不仅 X，而且 Y, where Y is the sharper or less expected fact.",
+      "tiesTo": "Nvidia's $600B circular financing with OpenAI — lease guarantee AND chip financing"
+    },
+    {
+      "id": "2026-07-28-zh-2",
+      "lang": "Mandarin",
+      "word": "施压",
+      "pinyin": "shī yā",
+      "pronunciation": "shr yah",
+      "tones": "1 · 1",
+      "meaning": "to exert pressure (on someone/something); to pressure",
+      "example": "参议院正准备立法，向购买俄罗斯石油的国家施压。",
+      "examplePinyin": "Cānyìyuàn zhèng zhǔnbèi lìfǎ, xiàng gòumǎi Éluósī shíyóu de guójiā shīyā.",
+      "exampleMeaning": "The Senate is preparing legislation to pressure the countries that buy Russian oil.",
+      "note": "书面语 / formal, political and diplomatic register — the word of choice in news coverage of sanctions, trade talks, and central-bank jawboning. Distinguish from 逼迫 (bīpò, 'to force/coerce'), which implies direct coercion leaving no choice; 施压 is pressure applied from outside, the target can still resist. Collocation: 向 + [target] + 施压 ('exert pressure on ___').",
+      "tiesTo": "The Senate's Russia sanctions bill pressuring China and India as top buyers of Russian oil"
+    },
+    {
+      "id": "2026-07-28-tl-1",
+      "lang": "Tagalog",
+      "word": "katatagan",
+      "pinyin": "",
+      "pronunciation": "ka-ta-TA-gan",
+      "tones": "",
+      "meaning": "stability; steadfastness — the quality of holding firm under pressure",
+      "example": "Pinapanatili ng BSP ang katatagan ng piso sa pamamagitan ng maliit na interbensyon, hindi agresibong pagtaas ng interes.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP maintains the peso's stability through small intervention, not an aggressive rate hike.",
+      "note": "Formal/official register — the word central banks and government spokespeople reach for, distinct from 'lakas' (raw strength/power). 'Katatagan' doesn't mean the peso is strong, it means it's being held steady on purpose; you can have katatagan even while weakening slowly, as long as the move is controlled. Root: tatag (firm, resolute).",
+      "tiesTo": "BSP's light, deliberate intervention to hold the peso steady rather than defend it aggressively"
+    },
+    {
+      "id": "2026-07-28-tl-2",
+      "lang": "Tagalog",
+      "word": "nakaliligaw",
+      "pinyin": "",
+      "pronunciation": "na-ka-li-li-GAW",
+      "tones": "",
+      "meaning": "misleading; causing one to be led astray",
+      "example": "Sabi ni Gobernador Remolona, nakaliligaw ang numerong iyon dahil sa pangkalahatang lakas ng dolyar, hindi partikular na kahinaan ng piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "Governor Remolona said that number is misleading, because it reflects broad dollar strength, not peso-specific weakness.",
+      "note": "Formal/media register, from the root 'ligaw' (to stray, to go astray) — sharper and more precise than the informal 'peke' ('fake'), which would imply the number was fabricated. 'Nakaliligaw' means the number is real but points you to the wrong conclusion; it's a word for framing and interpretation, not fraud.",
+      "tiesTo": "Remolona calling the peso's record-low print a 'misleading number'"
+    }
+  ]
+}

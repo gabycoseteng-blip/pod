@@ -1,0 +1,43 @@
+{
+  "throughline": "Oil re-escalates overnight (IRGC missile attempt on US Gulf forces, Brent +5.3%) hours before the Fed announces, while Boeing's cash-flow beat gets rewarded and Visa's clean beat gets punished the day before Microsoft and Meta report, and China's chip de-rating jumps from Seoul into Shanghai",
+  "stories": [
+    "iran-irgc-missile-attempt-us-gulf-forces-overnight-three-vessels-hit-strait-imo-brent-plus5.3-88.55-wti-82.93",
+    "fomc-decision-day-jul29-hold-65pct-hike-35pct-priced-logan-hammack-expected-dissents-first-of-warsh-tenure",
+    "france-lecornu-invokes-special-power-forces-2026-budget-no-vote-no-confidence-motions-filed",
+    "germany-merz-confirms-buying-hosting-us-tomahawk-cruise-missiles-typhon-launchers-historic-postwar-break",
+    "ukraine-100-drones-russian-bomber-bases-russia-oreshnik-irbm-response-14-dead-80-wounded-5-cities",
+    "us-market-overview-sp-7428.78-nasdaq-24876.91-dow-52747.32-russell-2953.80-dow-leads-gold-flat-vs-oil-spike",
+    "boeing-q2-actual-loss-0.67-eps-wider-than-cons-air-force-one-charge-rev-24.6b-beat-fcf-positive-600m-backlog-715b-stock-plus4.76",
+    "visa-fiscal-q3-actual-eps-3.32-beat-rev-11.6b-beat-crossborder-plus13-stock-falls-2.12pct-premarket-despite-beat",
+    "msft-meta-report-tonight-jul29-msft-capex-190b-annualized-azure-39-40pct-meta-capex-125-145b-rev-decelerating",
+    "barclays-h1-pretax-plus17-6.1b-gbp-q2-plus30pct-3.3b-buyback-1b-dividend-800m-raised-fy26-target-31.5b",
+    "philips-q2-cost-savings-132m-euro-on-track-1.5b-euro-2026-2028-restructuring-program",
+    "china-ai-derate-spreads-mainland-shanghai-minus1.16-shenzhen-minus4.52-13509-cambricon-minus9.1-zhongji-minus15.7-smic-minus4.9",
+    "centerpoint-houston-ercot-17gw-batch-zero-interconnection-14gw-eligible-900m-customer-deposits-2030-energize",
+    "bnef-chip-shipment-datacenter-demand-model-118gw-2030-207gw-2033-bottoms-up-methodology-shift",
+    "pjm-backstop-capacity-auction-september-555-mwday-cap-6.8gw-shortfall-vs-325-base-auction-cap-ferc-filing",
+    "lbnl-national-retail-power-price-3pct-above-2019-real-terms-regional-split-california-plus6c-northeast-plus2-4c",
+    "new-york-datacenter-moratorium-masks-stalled-third-renewable-sourcing-mandate-2030-existing-facilities",
+    "pepco-maryland-rate-case-consumer-advocate-seeks-roe-cut-not-just-smaller-increase",
+    "lazard-lcos-v19-4hr-battery-storage-210-292-mwh-reverses-2yr-decline-china-lfp-cell-tariffs",
+    "doe-transmission-needs-study-grid-congestion-cost-12b-2024-up-from-11b-2023-nyiso-northerngrid-miso-relief",
+    "philippines-peso-61.410-third-session-gains-off-61.847-record-low-oil-risk-from-overnight-spike",
+    "philippines-psei-6304.03-minus0.17pct-profit-taking-mideast-caution",
+    "philippines-lpa-rapu-rapu-albay-to-macalelon-quezon-exits-par-thu-flood-landslide-risk-no-signals",
+    "bsp-remolona-open-to-50bp-hike-aug27-meeting-if-inflation-worsens-metro-manila-wage-hike-tariffs-oil",
+    "aspen-art-fair-opens-jul29-third-edition-kelly-cornell-35-exhibitors-debut-outdoor-sculpture-garden",
+    "anish-kapoor-hayward-gallery-first-uk-retrospective-28-years-rugoff-curated-southbank-75th-anniversary",
+    "frida-making-of-an-icon-tate-modern-140k-tickets-presold-frieze-review-tate-mistakes-icon-for-artist",
+    "glyndebourne-die-fledermaus-opens-jul29-liam-steel-thomas-atkins",
+    "george-saunders-vigil-nyrb-review-winslow-yost-oil-ceo-afterlife-climate-grief-greenwashing-indictment",
+    "one-good-thing-international-tiger-day-global-population-plus40pct-2015-2022-nepal-121-to-429"
+  ],
+  "explainers": [
+    "gold-flat-vs-oil-spike-signals-hormuz-specific-supply-shock-not-broad-risk-off",
+    "clean-beat-punished-vs-cash-flow-beat-rewarded-as-a-preview-of-the-bar-for-tonights-hyperscaler-prints",
+    "pjm-backstop-auction-cap-71pct-above-base-auction-cap-as-a-market-priced-number-for-unfirm-reliability",
+    "national-flat-power-prices-vs-constrained-region-premium-load-growth-inverts-the-old-cost-spreading-rule",
+    "bnef-shift-to-bottoms-up-chip-shipment-forecasting-vs-noisy-announced-megawatt-figures"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts explained, so future episodes won't re-explain them"
+}

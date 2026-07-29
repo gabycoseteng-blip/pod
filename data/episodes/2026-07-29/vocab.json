@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-29",
+  "cards": [
+    {
+      "id": "2026-07-29-zh-1",
+      "lang": "Mandarin",
+      "word": "分歧",
+      "pinyin": "fēn qí",
+      "pronunciation": "fen chee",
+      "tones": "1 · 2",
+      "meaning": "a difference of opinion; divergence (within a group that still functions together)",
+      "example": "今天联储内部很可能出现分歧——达拉斯联储的Logan和克利夫兰联储的Hammack预计都会投反对票，这是沃什主席上任以来第一次出现这种分歧。",
+      "examplePinyin": "Jīntiān liánchǔ nèibù hěn kěnéng chūxiàn fēnqí — Dálāsī liánchǔ de Logan hé Kèlìfūlán liánchǔ de Hammack yùjì dōu huì tóu fǎnduìpiào, zhè shì Wòshí zhǔxí shàngrèn yǐlái dì-yī cì chūxiàn zhè zhǒng fēnqí.",
+      "exampleMeaning": "The Fed is likely to show internal divergence today — Dallas Fed's Logan and Cleveland Fed's Hammack are both expected to dissent, the first such divergence since Chair Warsh took office.",
+      "note": "书面语 / formal, standard in financial and political analysis. Distinguish from 分裂 (fēnliè, 'a split/rupture') — 分裂 implies an actual breakup where the body can no longer function as one; 分歧 is milder, just disagreement within a group that still operates together and still reaches a decision. Collocation: 出现分歧 ('divergence emerges'), 内部分歧 ('internal disagreement').",
+      "tiesTo": "Fed's expected hawkish dissents (Logan, Hammack) at today's FOMC decision"
+    },
+    {
+      "id": "2026-07-29-zh-2",
+      "lang": "Mandarin",
+      "word": "未必",
+      "pinyin": "wèi bì",
+      "pronunciation": "way bee",
+      "tones": "4 · 4",
+      "meaning": "not necessarily (adverb, softly hedges or pushes back on a claim)",
+      "example": "Visa这次业绩全面超预期，但是股价盘前还是跌了——这就说明，达标未必意味着上涨。",
+      "examplePinyin": "Visa zhè cì yèjì quánmiàn chāo yùqī, dànshì gǔjià pánqián háishì diē le — zhè jiù shuōmíng, dábiāo wèibì yìwèizhe shàngzhǎng.",
+      "exampleMeaning": "Visa beat expectations across the board this time, but the stock still fell in premarket trading — which shows that hitting the number doesn't necessarily mean the stock rises.",
+      "note": "书面语 / formal, common in financial commentary and serious analysis. Distinguish from the everyday spoken equivalent 不一定 (bù yīdìng, 'not necessarily/not for sure') — 不一定 is casual, used in daily conversation; 未必 is more literary and carries a gentler, more understated pushback, often introducing a counterpoint rather than a flat denial. Collocation: [claim] + 未必 + [expected consequence] — states the claim doesn't automatically produce the outcome.",
+      "tiesTo": "Visa's clean earnings beat that the market punished anyway, previewing tonight's Microsoft/Meta bar"
+    },
+    {
+      "id": "2026-07-29-tl-1",
+      "lang": "Tagalog",
+      "word": "gumaan",
+      "pinyin": "",
+      "pronunciation": "gu-ma-AN",
+      "tones": "",
+      "meaning": "became lighter/eased — relief from pressure or weight, without the pressure being fully gone",
+      "example": "Gumaan ang presyon sa piso sa nakaraang tatlong araw, dahil bumaba ang presyo ng langis bago pa ang biglaang pagtaas ngayong gabi.",
+      "examplePinyin": "",
+      "exampleMeaning": "The pressure on the peso eased over the past three days, as oil prices fell before tonight's sudden spike.",
+      "note": "Natural spoken register, from the root 'gaan' (lightness). Distinguish from 'bumaba' or 'humina' ('fell' / 'weakened'), which describe the number itself moving; 'gumaan' describes the feeling of reduced weight or pressure — you can say something 'gumaan' even if the underlying problem hasn't fully resolved, because the word is about relief, not resolution.",
+      "tiesTo": "The peso's three-session recovery, built on softer oil, now at risk from tonight's overnight spike"
+    },
+    {
+      "id": "2026-07-29-tl-2",
+      "lang": "Tagalog",
+      "word": "pag-iingat",
+      "pinyin": "",
+      "pronunciation": "pag-i-i-NGAT",
+      "tones": "",
+      "meaning": "carefulness; sustained caution (a deliberate, ongoing practice, not a passing warning)",
+      "example": "Nananawagan ang PAGASA ng pag-iingat sa mga lugar na maaaring apektuhan ng baha at pagguho ng lupa, habang tumatawid ang mababang presyon patungo sa West Philippine Sea.",
+      "examplePinyin": "",
+      "exampleMeaning": "PAGASA is calling for continued caution in areas that could be affected by flooding and landslides, as the low-pressure area crosses toward the West Philippine Sea.",
+      "note": "Formal/official register, from the root 'ingat' (care). Distinguish from the simple standalone 'ingat' — a quick, casual caution said in passing (like a goodbye); 'pag-iingat' is heavier and describes a continued, deliberate practice of care over time, the register PAGASA and BSP both reach for when they want sustained vigilance, not a one-off alert.",
+      "tiesTo": "PAGASA's flood/landslide advisory and BSP Governor Remolona's watchful policy stance, both today"
+    }
+  ]
+}

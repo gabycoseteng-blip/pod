@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-30",
+  "cards": [
+    {
+      "id": "2026-07-30-zh-1",
+      "lang": "Mandarin",
+      "word": "除非",
+      "pinyin": "chú fēi",
+      "pronunciation": "choo fay",
+      "tones": "2 · 1",
+      "meaning": "unless (a formal connective marking the one exclusive condition that would change the outcome)",
+      "example": "除非双方达成新的协议，否则霍尔木兹海峡的僵局恐怕会持续数月。",
+      "examplePinyin": "Chúfēi shuāngfāng dáchéng xīn de xiéyì, fǒuzé Huò'ěrmùzī Hǎixiá de jiāngjú kǒngpà huì chíxù shùyuè.",
+      "exampleMeaning": "Unless both sides reach a new agreement, the standoff over the Strait of Hormuz will likely continue for months.",
+      "note": "中性偏正式 / neutral-to-formal, common in both spoken and written registers. Fixed collocation 除非……否则……: state the one exclusive condition first, then what happens if it isn't met. Distinguish from the weaker 如果 ('if') — 除非 signals there is essentially no other way out besides the stated condition, a stronger and more definite frame than a plain conditional.",
+      "tiesTo": "Iran's rejection of Oman's Hormuz proposal, with officials warning the standoff could run for months absent a breakthrough"
+    },
+    {
+      "id": "2026-07-30-zh-2",
+      "lang": "Mandarin",
+      "word": "相反",
+      "pinyin": "xiāng fǎn",
+      "pronunciation": "shyang fan",
+      "tones": "1 · 3",
+      "meaning": "on the contrary; conversely (a freestanding transition introducing a whole contrasting fact)",
+      "example": "大家原以为资本支出增加对两家公司都是坏消息，相反，微软股价却因此上涨。",
+      "examplePinyin": "Dàjiā yuán yǐwéi zīběn zhīchū zēngjiā duì liǎng jiā gōngsī dōu shì huài xiāoxi, xiāngfǎn, Wēiruǎn gǔjià què yīncǐ shàngzhǎng.",
+      "exampleMeaning": "Everyone originally thought rising capex would be bad news for both companies; on the contrary, Microsoft's stock actually rose because of it.",
+      "note": "书面语 / formal, frequent in news analysis. Distinguish from 反而 (taught previously) — 反而 sits inside one sentence to flag that a specific result is the opposite of expectation, while 相反 usually opens its own clause or sentence to introduce an entire contrasting fact, making it more formal and better suited to pivoting an argument.",
+      "tiesTo": "Microsoft's stock rising and Meta's falling on the same night, for the same behavior — raised AI capex guidance"
+    },
+    {
+      "id": "2026-07-30-tl-1",
+      "lang": "Tagalog",
+      "word": "umangat",
+      "pinyin": "",
+      "pronunciation": "u-ma-NGAT",
+      "tones": "",
+      "meaning": "to rise; to climb; to improve (general upward movement, not necessarily a recovery)",
+      "example": "Umangat ang piso at ang PSEi kahapon, matapos sabihin ni Gobernador Remolona na maliit lang ang tsansa ng malaking pagtaas ng interest rate.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso and the PSEi climbed yesterday, after Governor Remolona said there's only a small chance of a big rate hike.",
+      "note": "Everyday register, common in financial news. Distinguish from 'bumawi' (taught previously) — bumawi specifically means actively recovering after a clear drop, while 'umangat' is more general: any rise or improvement, with no prior fall implied. From the root 'angat' (elevation, lift).",
+      "tiesTo": "The peso's and PSEi's climb to a one-month high after BSP's dovish rate-hike framing"
+    },
+    {
+      "id": "2026-07-30-tl-2",
+      "lang": "Tagalog",
+      "word": "abot-kaya",
+      "pinyin": "",
+      "pronunciation": "a-bot-ka-YA",
+      "tones": "",
+      "meaning": "affordable; accessible (reachable in both price and ease of use)",
+      "example": "Mas abot-kaya na ngayon ang paglilipat ng pera dahil sa mga bagong serbisyo ng BSP tulad ng Direct Debit PH at InstaPay for Business.",
+      "examplePinyin": "",
+      "exampleMeaning": "Sending money is now more affordable and accessible because of BSP's new services like Direct Debit PH and InstaPay for Business.",
+      "note": "Compound word: 'abot' (to reach) + 'kaya' (to be able/afford) — literally 'able to be reached.' Used for both prices and services, closer to English 'accessible' than a narrower 'mura' ('cheap') — captures BSP's financial-inclusion framing, which is about reach, not just cost.",
+      "tiesTo": "BSP and PPMI's launch of Direct Debit PH and InstaPay for Business, aimed at financial inclusion"
+    }
+  ]
+}

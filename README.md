@@ -2,7 +2,7 @@
 
 A no-build, installable **PWA** for the daily two-host news podcast:
 
-- **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point.
+- **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point. The **Vocab of the Day** segment auto-slows so the language drills are followable — Mandarin (汉字) plays at **0.5×** and Tagalog at **1×**, then it restores your chosen speed on exit (a small badge shows the current drop).
 - **Vocab** — a reference + learning surface for the daily Mandarin + Tagalog words across the whole archive. **Cards** mode gives flippable flashcards with a lightweight Leitner **spaced-repetition** schedule (flip for meaning / example / nuance, tap 🔊 to hear it); **List** mode is a scannable, tap-to-expand reference for revisiting old lessons. A **search** box filters everything (words, pinyin, meanings, notes), and a built-in **tutor chatbot** answers follow-up questions about any word (see *Vocab chat* below).
 - **Search** — full-text search across every episode's transcript + vocab, with highlighted snippets; tap a result to open it. Runs client-side off a prebuilt `data/search.json`.
 - **Archive** — every past episode, newest first; tap to open.

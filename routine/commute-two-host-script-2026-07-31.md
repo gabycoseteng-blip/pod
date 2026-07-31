@@ -132,7 +132,7 @@ ALEX: NextEra and Brookfield are building a data center campus north of 100 bill
 
 SAM: And the utility side of that deal is not who you'd expect.
 
-ALEX: Not a big investor-owned utility at all — the local counterparties are Big Rivers Electric Corp, Jackson Purchase Energy Cooperative, and Paducah Power System. Tiny co-ops and a muni, suddenly underwriting gigawatt-scale interconnection. Eight thousand construction jobs, 600 permanent, completion around 2031. This is the first major case of a federal brownfield being repurposed as a data center site rather than a multi-year greenfield siting fight, and it's a real test of whether small co-ops can actually carry that kind of load themselves, or whether NextEra and Brookfield's capital is just quietly substituting for the co-op balance sheet.
+ALEX: Not a big investor-owned utility at all — the local counterparties are Big Rivers Electric Corp, Jackson Purchase Energy Cooperative, and Paducah Power System. Tiny co-ops and a muni, suddenly underwriting gigawatt-scale interconnection. 8,000 construction jobs, 600 permanent, completion around 2031. This is the first major case of a federal brownfield being repurposed as a data center site rather than a multi-year greenfield siting fight, and it's a real test of whether small co-ops can actually carry that kind of load themselves, or whether NextEra and Brookfield's capital is just quietly substituting for the co-op balance sheet.
 
 SAM: How does that compare to the other federal-land deals we've tracked — DOE's coal-council loan guarantees, for instance?
 

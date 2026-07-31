@@ -377,51 +377,51 @@
         },
         {
           "speaker": "ALEX",
-          "text": "Not a big investor-owned utility at all — the local counterparties are Big Rivers Electric Corp, Jackson Purchase Energy Cooperative, and Paducah Power System. Tiny co-ops and a muni, suddenly underwriting gigawatt-scale interconnection. Eight thousand construction jobs, 600 permanent, completion around 2031. This is the first major case of a federal brownfield being repurposed as a data center site rather than a multi-year greenfield siting fight, and it's a real test of whether small co-ops can actually carry that kind of load themselves, or whether NextEra and Brookfield's capital is just quietly substituting for the co-op balance sheet.",
+          "text": "Not a big investor-owned utility at all — the local counterparties are Big Rivers Electric Corp, Jackson Purchase Energy Cooperative, and Paducah Power System. Tiny co-ops and a muni, suddenly underwriting gigawatt-scale interconnection. 8,000 construction jobs, 600 permanent, completion around 2031. This is the first major case of a federal brownfield being repurposed as a data center site rather than a multi-year greenfield siting fight, and it's a real test of whether small co-ops can actually carry that kind of load themselves, or whether NextEra and Brookfield's capital is just quietly substituting for the co-op balance sheet.",
           "startSec": 746.47,
-          "endSec": 781.67
+          "endSec": 781.19
         },
         {
           "speaker": "SAM",
           "text": "How does that compare to the other federal-land deals we've tracked — DOE's coal-council loan guarantees, for instance?",
-          "startSec": 781.67,
-          "endSec": 788.14
+          "startSec": 781.19,
+          "endSec": 787.65
         },
         {
           "speaker": "ALEX",
           "text": "Those were about propping up existing coal capacity with federal financing. This is different in kind — it's the federal government's own retired nuclear-enrichment real estate becoming a live data center site, which means the environmental and transmission groundwork is already largely done. Expect DOE to shop more of its Cold War-era land portfolio the same way now that there's a template that closed.",
-          "startSec": 788.14,
-          "endSec": 810.2
+          "startSec": 787.65,
+          "endSec": 809.71
         },
         {
           "speaker": "SAM",
           "text": "Second one — the Entergy gas plant deal that's been wobbling.",
-          "startSec": 810.2,
-          "endSec": 813.51
+          "startSec": 809.71,
+          "endSec": 813.02
         },
         {
           "speaker": "ALEX",
           "text": "Entergy's 1.8 billion dollar purchase of the 1.26 gigawatt Cottonwood, Texas gas plant from private equity seller Atlas Holdings is now being called, by at least one analyst, increasingly in doubt. CEO Drew Marsh actually defended it on Thursday's call in almost apologetic terms — quote, we know Cottonwood isn't the shiniest new plant out there.",
-          "startSec": 813.51,
-          "endSec": 832.37
+          "startSec": 813.02,
+          "endSec": 831.88
         },
         {
           "speaker": "SAM",
           "text": "That's a remarkable thing for a CEO to say about an acquisition he's trying to close.",
-          "startSec": 832.37,
-          "endSec": 836.98
+          "startSec": 831.88,
+          "endSec": 836.5
         },
         {
           "speaker": "ALEX",
           "text": "It is, and the Louisiana Public Service Commission staff's own analysis says the deal could add 7 to 8 dollars a month to a typical residential bill. The plant's had recent unplanned outages, and Atlas is charging roughly a 1 billion dollar premium over replacement value for what is, by Marsh's own description, a second-hand, outage-prone asset. The whole thing is tied to serving Meta's 10 billion dollar, more than 4 million square foot data center in Richland Parish — and Governor Landry has publicly said Entergy promised him Meta, not ratepayers, would bear the cost, then punted the actual fight to the LPSC. Target close is January 2027, but this is the first genuinely concrete \"who eats the cost of speed\" case study we've seen, not just a policy argument.",
-          "startSec": 836.98,
-          "endSec": 878.71
+          "startSec": 836.5,
+          "endSec": 878.22
         },
         {
           "speaker": "SAM",
           "text": "Third — FirstEnergy's numbers are just startling on their own.",
-          "startSec": 878.71,
-          "endSec": 882.08
+          "startSec": 878.22,
+          "endSec": 881.59
         },
         {
           "speaker": "ALEX",

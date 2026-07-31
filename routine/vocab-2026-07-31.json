@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-31",
+  "cards": [
+    {
+      "id": "2026-07-31-zh-1",
+      "lang": "Mandarin",
+      "word": "供不应求",
+      "pinyin": "gōng bù yìng qiú",
+      "pronunciation": "gong boo ying chyoh",
+      "tones": "1 · 4 · 4 · 2",
+      "meaning": "supply cannot meet demand (a four-character economic idiom for a market shortfall)",
+      "example": "三星这个季度的存储芯片就是典型的供不应求，需求远远超过了产能，所以利润才会暴涨这么多。",
+      "examplePinyin": "Sānxīng zhège jìdù de cúnchǔ xīnpiàn jiùshì diǎnxíng de gōng bù yìng qiú, xūqiú yuǎnyuǎn chāoguòle chǎnnéng, suǒyǐ lìrùn cái huì bàozhǎng zhème duō.",
+      "exampleMeaning": "Samsung's memory chips this quarter are a textbook case of supply falling short of demand — demand has so far outstripped capacity that profit exploded the way it did.",
+      "note": "书面语/formal, a fixed four-character collocation common in financial reporting. Distinguish from the colloquial 不够 ('not enough'), which vaguely flags insufficient quantity — 供不应求 specifically names a market imbalance where demand exceeds supply, an economic concept rather than a simple shortage. Its opposite is 供过于求 (supply exceeding demand, overcapacity).",
+      "tiesTo": "Samsung's record Q2 chip profit (memory/HBM demand outstripping supply) set against Apple's supply-constrained guidance from the same shortage"
+    },
+    {
+      "id": "2026-07-31-zh-2",
+      "lang": "Mandarin",
+      "word": "毕竟",
+      "pinyin": "bì jìng",
+      "pronunciation": "bee jing",
+      "tones": "4 · 4",
+      "meaning": "after all; when all is said and done (a connective giving the underlying reason that qualifies what preceded)",
+      "example": "亚马逊上调了两百二十亿美元的资本支出预期，股价却不跌反涨，毕竟云业务的增长速度摆在那儿，投资人没什么好担心的。",
+      "examplePinyin": "Yàmǎxùn shàngtiáole liǎng bǎi èrshí yì měiyuán de zīběn zhīchū yùqī, gǔjià què bú diē fǎn zhǎng, bìjìng yúnyèwù de zēngzhǎng sùdù bǎi zài nàr, tóuzīrén méishénme hǎo dānxīn de.",
+      "exampleMeaning": "Amazon raised its capex guidance and the stock still rose rather than fell — after all, the cloud business's growth rate speaks for itself, so investors had nothing to worry about.",
+      "note": "中性偏书面 / neutral-to-formal, common in both spoken usage and financial commentary. Distinguish from 到底, which is typically used in questions pressing for the real truth of a matter ('到底发生了什么' — what actually happened); 毕竟 isn't a question — it offers a convincing reason that acknowledges what was just said while emphasizing the more fundamental fact underneath it.",
+      "tiesTo": "Amazon's stock rising despite a $220B capex raise, because AWS's 37% growth justified it"
+    },
+    {
+      "id": "2026-07-31-tl-1",
+      "lang": "Tagalog",
+      "word": "kakulangan",
+      "pinyin": "",
+      "pronunciation": "ka-ku-la-NGAN",
+      "tones": "",
+      "meaning": "shortage; scarcity; deficiency in a specific item or supply",
+      "example": "Ang kakulangan sa memory chips ang dahilan kung bakit umangat nang husto ang kita ng Samsung ngayong quarter.",
+      "examplePinyin": "",
+      "exampleMeaning": "The shortage in memory chips is the reason Samsung's earnings jumped so sharply this quarter.",
+      "note": "Neutral, everyday register. Distinguish from kakapusan (taught previously): kakapusan is more general, often used for money or day-to-day resources (e.g. a budget shortfall), while kakulangan fits better for a specific item or product whose supply isn't sufficient — a chip shortage, a labor shortage.",
+      "tiesTo": "The Samsung/Apple memory-chip shortage story"
+    },
+    {
+      "id": "2026-07-31-tl-2",
+      "lang": "Tagalog",
+      "word": "pabago-bago",
+      "pinyin": "",
+      "pronunciation": "pa-ba-go-BA-go",
+      "tones": "",
+      "meaning": "fickle; ever-changing; volatile (general instability, no fixed direction)",
+      "example": "Pabago-bago talaga ang piso ngayong linggo — bumagsak, bumawi nang kaunti, tapos umuusad-usad na lang habang naghihintay ng datos ng implasyon sa Agosto 5.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso has really been volatile this week — it dropped, clawed back a little, and now it's just drifting while the market waits on the August 5 inflation data.",
+      "note": "Neutral register, common in everyday and financial talk. Distinguish from umangat (taught previously), which names only a rise — one direction; pabago-bago describes a lack of overall stability, sometimes up, sometimes down, so it's used for a whole market or situation rather than one specific movement.",
+      "tiesTo": "The peso's choppy trading this week and oil-price volatility from the Hormuz standoff"
+    }
+  ]
+}

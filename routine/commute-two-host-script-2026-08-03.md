@@ -72,6 +72,14 @@ SAM: Small caps lagging on a day the headline indices are up is worth sitting wi
 
 ALEX: It usually means the rally's being carried by a narrower set of large-cap names rather than genuine broad-based risk appetite, which matters heading into a week that's got Palantir tonight, ISM this morning, and jobs data Friday — three separate chances for that narrow-breadth pattern to either resolve into a real rally or snap back.
 
+SAM: Walk me through why ISM specifically matters this morning, given everything else on the calendar.
+
+ALEX: Because it's the first hard domestic data point of the week that isn't a company earnings print or a geopolitical headline — it's a read on actual US factory activity, independent of the oil story or the AI-capex story. If it comes in soft on top of June's ugly jobs miss, that reinforces the case for the Fed to actually cut later this year rather than just hold. If it surprises to the upside, it undercuts that case right as the bond market's been pricing in some relief from the recent yield spike. Either way, it's the cleanest signal of the morning before the open.
+
+SAM: And jobs Friday is really the other half of that same question.
+
+ALEX: Exactly — one soft ISM plus one soft jobs report starts to look like a genuine trend rather than a single bad month, and that's the kind of two-data-point confirmation that actually moves Fed expectations, as opposed to a single noisy print either side of it.
+
 ## SEGMENT ONE — U.S. BUSINESS
 
 SAM: Two stories here, and they're basically opposite trades on the same anxiety — how much cash a company should be holding versus spending.
@@ -151,6 +159,10 @@ ALEX: Project Camellia — a 3.2 gigawatt, at least 20 billion dollar data cente
 SAM: How does the cost allocation actually work on this one, compared to the Entergy and FirstEnergy fights we've covered?
 
 ALEX: This is the inverse case. OpenAI is paying the full cost of the electric infrastructure and service the project needs itself, and Georgia Power's guaranteeing existing residential customers won't see a rate impact from it. Compare that to Entergy's Cottonwood plant or FirstEnergy's Mon Power surcharge, where a general ratepayer base is being asked to help finance dedicated generation for one hyperscaler's load. Here, the hyperscaler is underwriting its own interconnection outright, plus an 80 million dollar community benefits package on top, and OpenAI's committed to cutting its own consumption first during system stress, ahead of anyone else on the grid.
+
+SAM: Why would OpenAI volunteer for that kind of self-imposed curtailment, rather than fight for guaranteed uptime the way most of these deals go?
+
+ALEX: Because it's cheaper than the alternative, honestly. Offering to be first-curtailed is exactly what let this project skip the multi-year fight over cost allocation that's tied up Entergy's Cottonwood plant in the Louisiana Public Service Commission — Georgia Power gets to say no ratepayer bears any of the risk, and OpenAI gets a signed 25-year agreement without a contested rate case attached to it. It's effectively buying speed to power-on with flexibility, rather than paying for guaranteed firm delivery every single hour.
 
 SAM: So depending on which utility you're reading, hyperscalers are either paying their own way entirely, or leaning on ratepayers to help carry it.
 

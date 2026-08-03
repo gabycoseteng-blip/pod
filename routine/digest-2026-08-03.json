@@ -1,0 +1,31 @@
+{
+  "throughline": "Oil gets its first real de-escalation of the cycle — Trump calls off a new wave of Iran strikes and claims a Hormuz-opening framework Iran hasn't confirmed, Brent craters ~7% — rippling into a Philippine peso/PSEi rally, while the AI-capex jury turns to Palantir tonight, Berkshire hoards a record $277B cash pile as the opposite trade, and China's slowdown broadens from factories into services and construction",
+  "stories": [
+    "trump-calls-off-iran-strike-wave-claims-hormuz-opening-framework-unconfirmed-by-iran-brent-minus7pct",
+    "hamas-ghazi-hamad-confirms-disarmament-agreement-in-principle-israel-disputes-shape-of-deal-blair-board-of-peace",
+    "us-market-overview-sp-7489.72-nasdaq-25373.85-dow-52485.03-russell-2931.34-fri-close-brent-monday-minus7.4pct-83.49",
+    "berkshire-hathaway-q2-record-277bn-cash-pile-op-profit-plus15pct-11.6b-apple-stake-cut-half-abel-first-full-quarter",
+    "palantir-q2-earnings-tonight-consensus-1.812b-rev-0.34-eps-9.6-12pct-swing-priced-eighth-straight-beat-streak",
+    "astrazeneca-bristol-myers-squibb-400bn-merger-talks-ft-broken-aug2-oncology-antitrust-risk-uk-national-champion-angle",
+    "boe-holds-3.75pct-6-3-vote-pill-greene-mann-dissent-for-hike-to-4pct-energy-inflation-concern",
+    "china-non-manufacturing-pmi-49.0-first-contraction-services-49.3-construction-47.0-slowdown-broadens-beyond-manufacturing",
+    "exelon-datacenter-pipeline-deflates-18gw-to-11gw-43gw-to-25gw-tsa-collateral-1bn-joliet-1.8gw-20bn-canceled",
+    "southern-company-q2-eps-1.13-plus23pct-datacenter-load-plus55pct-openai-project-camellia-3.2gw-20bn-savannah-georgia-power-25yr-ppa-oai-pays-own-infrastructure",
+    "philippines-td-luis-forms-signal-1-ten-areas-track-uncertain-typhoon-dolphin-enhances-habagat-japan-bound",
+    "philippines-peso-61.24-firms-oil-de-escalation-psei-6334.72-plus1.58pct-record-debt-19.07tn-record-exports-8.8bn",
+    "sara-duterte-impeachment-marcos-approves-release-of-subpoenaed-tax-records-to-senate-court",
+    "michael-asher-retrospective-closes-moca-la-institutional-critique-museum-as-medium",
+    "frieze-five-shows-to-catch-europe-august-chloe-wise-lap-see-lam",
+    "lucerne-festival-bartoli-capuano-gluck-orfeo-ed-euridice-1769-parma-version-didonato-new-leadership",
+    "fiona-mozley-awake-awake-elmet-followup-jewish-grandfather-hitler-memory-novel",
+    "one-good-thing-whale-shark-ethogram-ningaloo-reef-36-behaviors-6-new-to-science-gliding-slow-feeding-deep-dive-feeding"
+  ],
+  "explainers": [
+    "trump-announcement-of-de-escalation-does-real-work-on-price-before-terms-are-confirmed-oil-moved-on-the-claim-alone",
+    "berkshire-record-cash-hoard-as-mirror-image-of-ai-capex-anxiety-hoarding-vs-spending-same-cycle",
+    "queue-collateral-tsa-mechanism-finally-shrinking-headline-gw-pipeline-numbers-rather-than-inflating-them",
+    "hyperscaler-pays-own-infrastructure-vs-ratepayer-surcharge-as-the-real-dividing-line-not-whether-gigawatts-get-built-but-who-signs-the-check"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them",
+  "vocab": ["意味着", "万一", "pag-asenso", "pananagutan"]
+}

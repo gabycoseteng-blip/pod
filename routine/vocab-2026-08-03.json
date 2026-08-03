@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-03",
+  "cards": [
+    {
+      "id": "2026-08-03-zh-1",
+      "lang": "Mandarin",
+      "word": "意味着",
+      "pinyin": "yì wèi zhe",
+      "pronunciation": "yee way juh",
+      "tones": "4 · 4 · 5",
+      "meaning": "to mean, to signify, to imply (an abstract collocation for reading the deeper implication behind a signal or event)",
+      "example": "特朗普说霍尔木兹海峡要开放了，但伊朗还没有确认，这到底意味着什么呢？",
+      "examplePinyin": "Tèlǎngpǔ shuō Huò'ěrmùzī hǎixiá yào kāifàng le, dàn Yīlǎng hái méiyǒu quèrèn, zhè dàodǐ yìwèizhe shénme ne?",
+      "exampleMeaning": "Trump says the Strait of Hormuz is going to open, but Iran hasn't confirmed it — what does that actually signify?",
+      "note": "书面语/formal, extremely common in financial and political news because it interprets the deeper implication behind a signal rather than simply stating a fact. Distinguish from the more direct 表示 (to express/state), which is something stated outright, e.g. someone explicitly expressing agreement; 意味着 is an implication inferred from a phenomenon or behavior, often never stated aloud by anyone.",
+      "tiesTo": "The unconfirmed Iran/Hormuz de-escalation and whether the market's 7% oil drop is justified by an announcement alone"
+    },
+    {
+      "id": "2026-08-03-zh-2",
+      "lang": "Mandarin",
+      "word": "万一",
+      "pinyin": "wàn yī",
+      "pronunciation": "wahn ee",
+      "tones": "4 · 1",
+      "meaning": "just in case; in the unlikely event that (an advanced connective flagging a low-probability but consequential scenario)",
+      "example": "万一伊朗最后不承认这个协议，油价很可能会立刻反弹回去。",
+      "examplePinyin": "Wànyī Yīlǎng zuìhòu bù chéngrèn zhège xiéyì, yóujià hěn kěnéng huì lìkè fǎntán huíqù.",
+      "exampleMeaning": "In case Iran ultimately doesn't confirm this deal, oil prices would very likely bounce right back up immediately.",
+      "note": "口语和书面语都常见 / used in both spoken and written registers, favored specifically by financial commentators because it carries a built-in risk-hedging tone. Distinguish from the neutral 如果 (if), which works for any condition without extra worry attached; 万一 specifically flags a scenario you consider unlikely but whose consequences would be serious if it did occur.",
+      "tiesTo": "The fragile, unconfirmed Iran/Hormuz stand-down and the risk it doesn't hold"
+    },
+    {
+      "id": "2026-08-03-tl-1",
+      "lang": "Tagalog",
+      "word": "pag-asenso",
+      "pinyin": "",
+      "pronunciation": "pag-a-SEN-so",
+      "tones": "",
+      "meaning": "progress; advancement; upward economic development",
+      "example": "Malaking pag-asenso ang makikita sa exports natin — umabot ng 8.8 bilyong dolyar noong Hunyo, pinakamataas na naitala kailanman.",
+      "examplePinyin": "",
+      "exampleMeaning": "There's real progress visible in our exports — they reached 8.8 billion dollars in June, the highest ever recorded.",
+      "note": "Neutral-to-formal register, common in economic commentary. Distinguish from katatagan (taught previously), which is about staying unchanged and stable rather than growing; pag-asenso is specifically about the upward direction of development, so an economy can show pag-asenso without katatagan — growing while still volatile overall.",
+      "tiesTo": "The Philippines' record June export figure, set the same week as a fresh record in national debt"
+    },
+    {
+      "id": "2026-08-03-tl-2",
+      "lang": "Tagalog",
+      "word": "pananagutan",
+      "pinyin": "",
+      "pronunciation": "pa-na-na-goo-TAN",
+      "tones": "",
+      "meaning": "accountability; responsibility; being answerable for one's own actions or decisions",
+      "example": "Hiningi ng Senado ang mga rekord ng buwis ni Sara Duterte bilang bahagi ng paghingi ng pananagutan sa kaso ng hindi maipaliwanag na yaman.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Senate requested Sara Duterte's tax records as part of demanding accountability in the case of unexplained wealth.",
+      "note": "Formal register, common in legal and political contexts. Distinguish from pasanin (taught previously), which is about a burden one carries, often not of one's own making; pananagutan points the opposite direction — it's what one owes an answer for, arising specifically from one's own decisions or actions.",
+      "tiesTo": "Sara Duterte's ongoing Senate impeachment trial and the release of her subpoenaed tax records"
+    }
+  ]
+}

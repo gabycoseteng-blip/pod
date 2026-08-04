@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-04",
+  "cards": [
+    {
+      "id": "2026-08-04-zh-1",
+      "lang": "Mandarin",
+      "word": "一方面……另一方面",
+      "pinyin": "yì fāngmiàn ... lìng yì fāngmiàn",
+      "pronunciation": "ee fahng-myen ... ling ee fahng-myen",
+      "tones": "4·1·4 ... 4·4·1·4",
+      "meaning": "on one hand ... on the other hand",
+      "example": "一方面，标普和纳斯达克都创下新高；另一方面，德黑兰否认了霍尔木兹海峡的框架协议。",
+      "examplePinyin": "yì fāngmiàn, biāopǔ hé nàsīdákè dōu chuàngxià xīngāo; lìng yì fāngmiàn, dé hēi lán fǒurèn le huò ěr mù zī hǎixiá de kuàngjià xiéyì.",
+      "exampleMeaning": "On one hand, the S&P and Nasdaq both hit new highs; on the other hand, Tehran denies the Hormuz framework exists.",
+      "note": "Neutral-to-formal register, common in financial reporting and news analysis — built to lay out two opposing facts without passing judgment. Near-synonym: 虽然……但是 leans toward concession/turn; 一方面……另一方面 is more balanced, just stating two coexisting realities with neither overriding the other.",
+      "tiesTo": "market pricing resolution on three fronts while the underlying facts stay unresolved"
+    },
+    {
+      "id": "2026-08-04-zh-2",
+      "lang": "Mandarin",
+      "word": "逆转",
+      "pinyin": "nì zhuǎn",
+      "pronunciation": "nee jwahn",
+      "tones": "4 · 3",
+      "meaning": "to reverse, to turn completely around",
+      "example": "帕兰泰尔一份财报就逆转了整整两周的跌势。",
+      "examplePinyin": "pà lán tài ěr yí fèn cáibào jiù nìzhuǎn le zhěngzhěng liǎng zhōu de diēshì.",
+      "exampleMeaning": "One earnings report from Palantir completely reversed two weeks of decline.",
+      "note": "Emphasizes a complete, clean flip of the original direction — used for scores, market trends, things with a clear direction. Near-synonym 扭转 is gentler and more abstract (turning around a situation or an image), not necessarily a full reversal, just an adjustment toward something better.",
+      "tiesTo": "Palantir's Q2 beat reversing the AI-capex-punishment pullback"
+    },
+    {
+      "id": "2026-08-04-tl-1",
+      "lang": "Tagalog",
+      "word": "umatras",
+      "pinyin": "",
+      "pronunciation": "oo-mah-TRAS",
+      "tones": "",
+      "meaning": "to retreat, to back off, to give back ground",
+      "example": "Umatras ang piso ngayong araw, mula sa pinakamalakas nitong pagsara sa loob ng mahigit isang buwan noong Lunes.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso retreated today, from its strongest close in over a month on Monday.",
+      "note": "Opposite direction from bumawi (already taught) — bumawi is rising back up after a fall; umatras is giving way, pulling back after a rise. From Spanish 'atrás,' carries a tactical, deliberate sense of backing off rather than simply weakening.",
+      "tiesTo": "the peso giving back Monday's de-escalation-driven rally"
+    },
+    {
+      "id": "2026-08-04-tl-2",
+      "lang": "Tagalog",
+      "word": "lumaho",
+      "pinyin": "",
+      "pronunciation": "loo-mah-HO",
+      "tones": "",
+      "meaning": "to vanish, to fade away, to dissipate completely",
+      "example": "Lumaho na ang bagyong Luis ilang oras lamang matapos tumama sa lupa.",
+      "examplePinyin": "",
+      "exampleMeaning": "Storm Luis vanished just hours after making landfall.",
+      "note": "More literary than plain mawala ('to be gone/lost') — carries a sense of gradualness, like smoke or mist slowly fading until no trace is left, rather than an abrupt disappearance. Doubles as a metaphor for something slowly disappearing, not just weather.",
+      "tiesTo": "Tropical Depression Luis dissipating hours after landfall, and Ellen Pau's elegy to a vanishing Hong Kong"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-05",
+  "cards": [
+    {
+      "id": "2026-08-05-zh-1",
+      "lang": "Mandarin",
+      "word": "既然……就……",
+      "pinyin": "jìrán ... jiù ...",
+      "pronunciation": "jee-rahn ... jyoh ...",
+      "tones": "4·2 ... 4",
+      "meaning": "since / given that ... then ...",
+      "example": "既然芯片需求依然旺盛，中国的出口就持续创出新高。",
+      "examplePinyin": "jìrán xīnpiàn xūqiú yīrán wàngshèng, zhōngguó de chūkǒu jiù chíxù chuàngchū xīngāo.",
+      "exampleMeaning": "Since chip demand remains strong, China's exports keep hitting new record highs.",
+      "note": "Formal/书面语 register, common in financial and economic analysis. Contrasts with 如果……就……, which is hypothetical (something not yet established); 既然 takes an already-confirmed fact as its premise and draws a conclusion from it, which is why it reads as more assured and authoritative in reporting.",
+      "tiesTo": "China's record June trade surplus, driven by the same AI-chip demand cycle as AMD's earnings beat"
+    },
+    {
+      "id": "2026-08-05-zh-2",
+      "lang": "Mandarin",
+      "word": "打破",
+      "pinyin": "dǎ pò",
+      "pronunciation": "dah-pwoh",
+      "tones": "3 · 4",
+      "meaning": "to break (a record, a deadlock, a status quo)",
+      "example": "标普和道琼斯昨天同时打破了历史纪录。",
+      "examplePinyin": "biāopǔ hé dàoqióngsī zuótiān tóngshí dǎpò le lìshǐ jìlù.",
+      "exampleMeaning": "The S&P and the Dow simultaneously broke their all-time record highs yesterday.",
+      "note": "Common collocations: 打破纪录 (break a record), 打破僵局 (break a deadlock), 打破平衡 (break a balance). Near-synonym 突破 emphasizes surpassing a threshold or limit (e.g. a technological breakthrough), while 打破 emphasizes completely overturning an existing state. Both work in speech and writing, but 突破 is more common in tech/analytical contexts.",
+      "tiesTo": "the S&P and Dow's simultaneous record closes off AMD's earnings beat"
+    },
+    {
+      "id": "2026-08-05-tl-1",
+      "lang": "Tagalog",
+      "word": "lumakas",
+      "pinyin": "",
+      "pronunciation": "loo-mah-KAS",
+      "tones": "",
+      "meaning": "to strengthen, to intensify, to gain force",
+      "example": "Unti-unti pang lumalakas ang bagyong Maymay habang papalapit sa Ilocos.",
+      "examplePinyin": "",
+      "exampleMeaning": "Storm Maymay is still gradually strengthening as it nears Ilocos.",
+      "note": "Direct opposite of humina (already taught) — humina is a gradual loss of strength, lumakas is strength increasing. Also used outside weather (lumakas ang tugtugan, the music got louder), but in economic or weather reporting its usage is clearer and more formal than the more colloquial tumindi.",
+      "tiesTo": "Tropical Storm Maymay slightly intensifying off Ilocos Sur"
+    },
+    {
+      "id": "2026-08-05-tl-2",
+      "lang": "Tagalog",
+      "word": "salungat",
+      "pinyin": "",
+      "pronunciation": "sah-loo-NGAT",
+      "tones": "",
+      "meaning": "conflicting, contrary, opposing",
+      "example": "Salungat ang dalawang hula tungkol sa BSP — sabi ng isa, isa pang hike; sabi ng isa, titigil na sa pagtaas ng interes.",
+      "examplePinyin": "",
+      "exampleMeaning": "The two forecasts about BSP conflict — one says one more hike, another says it will pause rate hikes.",
+      "note": "Stronger than the plain word magkaiba (simply different, like different colors). Salungat carries a sense of active conflict — two things that can't both be right, opposing directions — and is more formal, often used in analysis or debate rather than casual conversation.",
+      "tiesTo": "BofA's call for one more BSP hike versus reports that BSP is seen pausing on August 27"
+    }
+  ]
+}

@@ -735,21 +735,21 @@
         },
         {
           "speaker": "ALEX",
-          "text": "It really is — and it's not just a joke name. Giving a genus a memorable, culturally resonant name genuinely helps public engagement with insect conservation, which is chronically under-resourced compared to charismatic mammals. A beetle nobody's heard of is easy to ignore; a beetle named after a character with a hundred million readers is a lot harder to ignore.",
+          "text": "It really is — and it's not just a joke name. Giving a genus a memorable, culturally resonant name genuinely helps public engagement with insect conservation, which is chronically under-resourced compared to charismatic mammals. A beetle nobody's heard of is easy to ignore; a beetle named after a character with 100 million readers is a lot harder to ignore.",
           "startSec": 1503.72,
-          "endSec": 1524.35
+          "endSec": 1524.01
         },
         {
           "speaker": "SAM",
           "text": "A fittingly light note to end on. That's The Morning Commute for Wednesday, August 5. We'll see you tomorrow.",
-          "startSec": 1524.35,
-          "endSec": 1530.52
+          "startSec": 1524.01,
+          "endSec": 1530.18
         },
         {
           "speaker": "ALEX",
           "text": "Have a good one, and we'll catch you then.",
-          "startSec": 1530.52,
-          "endSec": 1532.89
+          "startSec": 1530.18,
+          "endSec": 1532.55
         }
       ],
       "startSec": 1473.1

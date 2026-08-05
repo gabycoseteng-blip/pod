@@ -247,7 +247,7 @@ ALEX: The Danish Natural History Museum has named a brand-new genus of rove beet
 
 SAM: Scientists naming a beetle after an anime character is exactly the kind of thing that makes taxonomy fun.
 
-ALEX: It really is — and it's not just a joke name. Giving a genus a memorable, culturally resonant name genuinely helps public engagement with insect conservation, which is chronically under-resourced compared to charismatic mammals. A beetle nobody's heard of is easy to ignore; a beetle named after a character with a hundred million readers is a lot harder to ignore.
+ALEX: It really is — and it's not just a joke name. Giving a genus a memorable, culturally resonant name genuinely helps public engagement with insect conservation, which is chronically under-resourced compared to charismatic mammals. A beetle nobody's heard of is easy to ignore; a beetle named after a character with 100 million readers is a lot harder to ignore.
 
 SAM: A fittingly light note to end on. That's The Morning Commute for Wednesday, August 5. We'll see you tomorrow.
 

@@ -177,7 +177,7 @@ ALEX: Because the backstop auction clears at a price PJM sets centrally — util
 
 SAM: And capital's chasing the demand-side answer too — Base Power just raised a huge round.
 
-ALEX: One billion dollars, Series D, at a 13 billion dollar valuation — up from 4 billion ten months ago, over 2.5 billion raised total. Their new product, Base Core, is a 39.2 kilowatt-hour LFP residential battery with a 12-year life, entering production at Base Factory 1 in Austin.
+ALEX: $1 billion, Series D, at a 13 billion dollar valuation — up from 4 billion ten months ago, over 2.5 billion raised total. Their new product, Base Core, is a 39.2 kilowatt-hour LFP residential battery with a 12-year life, entering production at Base Factory 1 in Austin.
 
 SAM: A home battery — why does that belong in a gigawatt-scale segment?
 

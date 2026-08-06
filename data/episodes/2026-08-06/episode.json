@@ -522,33 +522,33 @@
         },
         {
           "speaker": "ALEX",
-          "text": "One billion dollars, Series D, at a 13 billion dollar valuation — up from 4 billion ten months ago, over 2.5 billion raised total. Their new product, Base Core, is a 39.2 kilowatt-hour LFP residential battery with a 12-year life, entering production at Base Factory 1 in Austin.",
+          "text": "$1 billion, Series D, at a 13 billion dollar valuation — up from 4 billion ten months ago, over 2.5 billion raised total. Their new product, Base Core, is a 39.2 kilowatt-hour LFP residential battery with a 12-year life, entering production at Base Factory 1 in Austin.",
           "startSec": 833.05,
-          "endSec": 849.12
+          "endSec": 848.6
         },
         {
           "speaker": "SAM",
           "text": "A home battery — why does that belong in a gigawatt-scale segment?",
-          "startSec": 849.12,
-          "endSec": 852.93
+          "startSec": 848.6,
+          "endSec": 852.41
         },
         {
           "speaker": "ALEX",
           "text": "Because capital's now pricing distributed residential batteries as genuine grid-capacity infrastructure, not just backup power. Base claims 500-plus megawatt-hours deployed and 200-plus megawatts in utility deals — aggregated at scale, a real alternative to the gas-turbine capacity utilities are racing to build for data-center load. The Austin-manufactured angle also plays into the tariff story around Chinese LFP cells we flagged with the Lazard cost data — a distinct, fresh capital story on top of that trend.",
-          "startSec": 852.93,
-          "endSec": 882.71
+          "startSec": 852.41,
+          "endSec": 882.19
         },
         {
           "speaker": "SAM",
           "text": "So today's energy story in one line: Texas hits the brakes on the supply side, PJM utilities race to lock in demand before the auction prices it for them, and capital keeps hedging toward distributed alternatives to both.",
-          "startSec": 882.71,
-          "endSec": 895.48
+          "startSec": 882.19,
+          "endSec": 894.96
         },
         {
           "speaker": "ALEX",
           "text": "That's exactly it.",
-          "startSec": 895.48,
-          "endSec": 896.53
+          "startSec": 894.96,
+          "endSec": 896.0
         }
       ],
       "startSec": 674.9
@@ -560,89 +560,89 @@
         {
           "speaker": "SAM",
           "text": "Manila turned the SONA promises into an actual work plan today.",
-          "startSec": 896.53,
-          "endSec": 900.17
+          "startSec": 896.0,
+          "endSec": 899.65
         },
         {
           "speaker": "ALEX",
           "text": "President Marcos convened the fourth LEDAC meeting — that's the Legislative-Executive Development Advisory Council — at Malacañang this morning, and notably, he held it despite a storm work-suspension order in effect the same day. Twenty-four priority bills got locked in as the Common Legislative Agenda, with a target of passage by the end of June 2027.",
-          "startSec": 900.17,
-          "endSec": 920.69
+          "startSec": 899.65,
+          "endSec": 920.17
         },
         {
           "speaker": "SAM",
           "text": "What's actually on that list?",
-          "startSec": 920.69,
-          "endSec": 922.37
+          "startSec": 920.17,
+          "endSec": 921.85
         },
         {
           "speaker": "ALEX",
           "text": "The headline ones: the Anti-Political Dynasty Law, a Party-List System Reform Act, the Freedom of Information or Right to Information Act, the BRIGHT Act, which amends bank-deposit-secrecy rules, a Travel Tax Abolition bill, EPIRA amendments to abolish the system-loss charge, and a Child Online Safety and Protection Act.",
-          "startSec": 922.37,
-          "endSec": 940.98
+          "startSec": 921.85,
+          "endSec": 940.46
         },
         {
           "speaker": "SAM",
           "text": "That's a genuinely ambitious list — dynasty reform and bank-secrecy reform on the same agenda is not a small ask politically.",
-          "startSec": 940.98,
-          "endSec": 948.21
+          "startSec": 940.46,
+          "endSec": 947.69
         },
         {
           "speaker": "ALEX",
           "text": "Worth flagging as fresh, not an SONA recap — this is the mechanism, the actual bill list and the June 2027 deadline, turning the July 27th SONA rhetoric into legislation. Worth watching which of the twenty-four actually move.",
-          "startSec": 948.21,
-          "endSec": 961.22
+          "startSec": 947.69,
+          "endSec": 960.7
         },
         {
           "speaker": "SAM",
           "text": "On the economy — the peso had its best day in weeks.",
-          "startSec": 961.22,
-          "endSec": 964.22
+          "startSec": 960.7,
+          "endSec": 963.7
         },
         {
           "speaker": "ALEX",
           "text": "It closed at 60.751 to the dollar Wednesday, up 41.4 centavos from Tuesday's 61.165 — the strongest since June 18th's 60.567. Two drivers: externally, positive movement in the Qatar-mediated Middle East talks boosted broad emerging-market demand; domestically, a softer-than-expected July inflation print sparked a rally in local fixed income.",
-          "startSec": 964.22,
-          "endSec": 984.05
+          "startSec": 963.7,
+          "endSec": 983.53
         },
         {
           "speaker": "SAM",
           "text": "A fresh inflation number behind that?",
-          "startSec": 984.05,
-          "endSec": 986.19
+          "startSec": 983.53,
+          "endSec": 985.67
         },
         {
           "speaker": "ALEX",
           "text": "The January-through-July average now sits at 5.0% — still above the 2-to-4% target band, but meaningfully below BSP's own 6.4% full-year projection. China Banking Corporation's chief economist, Domini Velasquez, now sees the peso settling near 60 by year-end absent fresh geopolitical shock.",
-          "startSec": 986.19,
-          "endSec": 1003.02
+          "startSec": 985.67,
+          "endSec": 1002.5
         },
         {
           "speaker": "SAM",
           "text": "And the storm off Ilocos is finally moving on.",
-          "startSec": 1003.02,
-          "endSec": 1005.68
+          "startSec": 1002.5,
+          "endSec": 1005.16
         },
         {
           "speaker": "ALEX",
           "text": "Tropical Storm Maymay, international name Kujira, weakened to a tropical depression this morning and exited northern Luzon into the Philippine Sea by this afternoon — downgraded to just Signal 1, down from Signal 2 yesterday. PAGASA expects it to weaken into a remnant low as early as tonight. Notably, the LEDAC meeting went ahead despite Metro Manila and twenty-two provinces still under work suspension.",
-          "startSec": 1005.68,
-          "endSec": 1029.15
+          "startSec": 1005.16,
+          "endSec": 1028.63
         },
         {
           "speaker": "SAM",
           "text": "Governance didn't wait for the weather to clear.",
-          "startSec": 1029.15,
-          "endSec": 1031.92
+          "startSec": 1028.63,
+          "endSec": 1031.4
         },
         {
           "speaker": "ALEX",
           "text": "It didn't.",
-          "startSec": 1031.92,
-          "endSec": 1032.5
+          "startSec": 1031.4,
+          "endSec": 1031.98
         }
       ],
-      "startSec": 896.5
+      "startSec": 896.0
     },
     {
       "raw": "SEGMENT FOUR — VOCAB OF THE DAY",
@@ -651,8 +651,8 @@
         {
           "speaker": "SAM",
           "text": "Time for today's vocab. Two Mandarin, then two Tagalog, and as always, we're doing this one in the language itself.",
-          "startSec": 1032.5,
-          "endSec": 1039.15
+          "startSec": 1031.98,
+          "endSec": 1038.63
         },
         {
           "speaker": "ALEX",
@@ -847,7 +847,7 @@
           "endSec": 1239.97
         }
       ],
-      "startSec": 1032.5
+      "startSec": 1032.0
     },
     {
       "raw": "SEGMENT FIVE — ARTS & CULTURE",

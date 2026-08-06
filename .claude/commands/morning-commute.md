@@ -75,7 +75,8 @@ script then re-expresses; the script is the only place prose belongs). Cover
 exactly what the steering prompt's segments require, with **real, accurate**
 numbers (only the **big/notable** market moves — see below, 2 world + 2 US-business
 + 2 international + 1 China item, the **deep-dive** item, the energy/AI-power
-theme, Philippines politics + business/economy, arts & culture, one good thing).
+theme, Philippines politics + business/economy, arts & culture, **1–2 op-eds /
+commentary pieces**, one good thing).
 **Market overview — keep it TIGHT.** Don't recite every US index and all the global
 markets; spend the brief (and the script) only on **genuinely big moves** — a large
 swing, a record, a real catalyst (CPI, the Fed, a marquee earnings print, a sharp
@@ -131,6 +132,19 @@ criticism); film/pop is a minor slice. Sources: **The Art Newspaper**, **ARTnews
 **FT Life & Arts** and **NYT Arts**. Also check the user's inbox (Gmail) for
 gallery/fair mail she gets — e.g. `from:anatebgi.com OR from:companygallery.us OR
 from:tokyogendai.com` — to surface specific shows she'd care about.
+
+**Op-Eds & Commentary — the day's argument, with a counter-take.** Pull **1–2**
+notable opinion pieces/editorials shaping the conversation right now, and for each
+give the writer + outlet, the **steelmanned argument**, and a sharp **counter-take**
+— report opinion critically, don't just summarize. Sources: the major columnists and
+editorial boards (**NYT Opinion**, **WSJ Opinion**, **FT**, **Washington Post**,
+**Bloomberg Opinion**, **The Economist**, **The Atlantic**, **Foreign Affairs**,
+**Project Syndicate**) plus the **popular/viral op-eds** doing the rounds (marquee
+Substack essays — e.g. Noahpinion, Slow Boring, Silver Bulletin — and widely-shared
+opinion columns). Keep it **distinct from the Deep Dive**: the Deep Dive goes deep on
+one *feature/thread*; this is the day's *contested argument*. Pick **fresh** pieces
+(cross-check the ledger), and have a backup ready. State attribution clearly in the
+script.
 
 **Energy / data centers / utilities — research deep.** Assume the listener knows
 the AI-infrastructure capex cycle cold (she works in energy/data-center development —
@@ -237,8 +251,8 @@ relies on:
   re-measure chars-per-second from one short calibration render and update this
   number — the char target follows the engine's pace.)
 - Hosts announce each segment; no run-of-show in the cold open; **there is no
-  trending-meme segment** (removed) — go Arts & Culture → One Good Thing; close on
-  One Good Thing.
+  trending-meme segment** (removed) — go Arts & Culture → Op-Eds & Commentary →
+  One Good Thing; close on One Good Thing.
 - **VOCAB OF THE DAY — conduct the whole segment IN-LANGUAGE** (immersion, not a
   101): 2 Mandarin then 2 Tagalog, each tied to a story in today's show, and each
   a **new** word not in the history ledger. For the Mandarin stretch the hosts
@@ -389,7 +403,7 @@ push a malformed episode** (needs ≥ 10 segments, `durationSec` ≥ 1500, `hasA
 and it asserts you're on `$DEPLOY_BRANCH` before pushing. To publish a deliberate
 partial (e.g. audio truncated by a quota outage), pass `ALLOW_SHORT=1`. You should
 still eyeball it:
-Inspect `data/index.json` for `$date` — it should show **~12 segments** and
+Inspect `data/index.json` for `$date` — it should show **~13 segments** and
 **`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix
 the script/vocab, re-run step 6, and only continue once it looks right. Confirm
@@ -437,7 +451,7 @@ records the result**, so quality/efficiency improve over time instead of driftin
 | Segments | **≥ 11** with turns | full show, nothing dropped |
 | Host balance | ALEX **42–58%** of turns | genuine two-hander, not a monologue |
 | Numerals | **0** spelled-out numbers | clean transcript; TTS expands numerals itself |
-| Required segments | Headlines, Market, Deep Dive, Energy, Philippines, Vocab, Arts, One Good Thing all present | coverage |
+| Required segments | Headlines, Market, Deep Dive, Energy, Philippines, Vocab, Arts, Op-Eds, One Good Thing all present | coverage |
 | Vocab split | exactly **2 Mandarin + 2 Tagalog** | format |
 | Vocab freshness | **all 4 fresh** vs the full ledger | hard rule — never reuse a word |
 | Vocab in script | all 4 taught words appear in the script | flashcards match the audio |

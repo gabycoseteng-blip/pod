@@ -4,7 +4,7 @@
 **Voices:** ALEX = Host A, domain expert (Sulafat). SAM = Host B, sharp generalist (Charon).
 **Style (render):** Two polished financial-news anchors — crisp, authoritative, controlled energy, British accent.
 **Audience assumption:** fluent in markets and current events. No 101 explainers; lead with the number and the second-order read.
-**Segment rules:** open straight into the first story — NO run-of-show / segment preview in the cold open. The meme segment REPORTS the trending meme only — no comedy bit. Close on a ~1 min "One Good Thing" + a warm sign-off.
+**Segment rules:** open straight into the first story — NO run-of-show / segment preview in the cold open. There is NO meme segment. Close on a ~1 min "One Good Thing" + a warm sign-off.
 
 > RENDER NOTE: Only `ALEX:` / `SAM:` lines are spoken. `##` headers and `<!-- … -->` comments are silent. ONE line per turn — no markdown, no line breaks inside a turn. Numbers as NUMERALS.
 
@@ -52,11 +52,11 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
      Mandarin: 汉字 with the English gloss in (parentheses); HSK-4; >=1 an advanced connective/abstract collocation; converse in Mandarin.
      Tagalog: natural spelling + gloss; converse in Tagalog. English appears ONLY as a gloss after each foreign sentence. No tone-drilling. -->
 
-## SEGMENT FIVE — ART / POP
-<!-- ~2 min. Fresh releases/culture; avoid items covered in recent episodes. -->
+## SEGMENT FIVE — ARTS & CULTURE
+<!-- ~4 min. LEAD with visual & fine art (exhibitions, biennials, art fairs, auctions, gallery shows), opera & classical, and literature (releases, prizes, criticism); theater & dance welcome. Film/TV/pop is a MINOR slice. Critic's eye — the work, the maker, why it matters — not a listings roundup. Avoid items covered in recent episodes. -->
 
-## SEGMENT SIX — TRENDING MEME
-<!-- Report the trending meme straight — no performed bit. -->
+## SEGMENT SIX — OP-EDS & COMMENTARY
+<!-- ~3 min. 1–2 notable opinion pieces/editorials shaping the debate right now (NYT/WSJ/FT/WaPo/Bloomberg Opinion/Economist/Atlantic/Foreign Affairs + popular Substack/viral op-eds). Name the writer + outlet, STEELMAN the argument, then the sharp COUNTER-take. Distinct from the Deep Dive — this is the day's ARGUMENT, not a feature. Fresh vs the ledger; attribute clearly. -->
 
 ## SEGMENT SEVEN — ONE GOOD THING
 <!-- One uplifting story from anywhere; warm sign-off. (Do NOT include driving references unless the listener actually drives.) -->

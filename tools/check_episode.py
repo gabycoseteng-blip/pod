@@ -11,7 +11,7 @@ Usage:
     tools/check_episode.py <YYYY-MM-DD>
 
 Env:
-    MIN_SEGMENTS   default 10  (canonical show is ~11 after the meme segment was dropped)
+    MIN_SEGMENTS   default 10  (canonical show is ~13: + Deep Dive and Op-Eds, no meme segment)
     MIN_DURATION   default 1500 (seconds — the 25-min floor)
     ALLOW_SHORT    set to any value to permit a below-floor duration (e.g. a
                    deliberately published partial) — downgrades it to a warning

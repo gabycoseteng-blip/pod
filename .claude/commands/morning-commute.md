@@ -73,9 +73,14 @@ Using web search + the connected market/news connectors (FMP for quotes / indice
 item, NOT prose paragraphs (a prose brief pays output tokens twice for facts the
 script then re-expresses; the script is the only place prose belongs). Cover
 exactly what the steering prompt's segments require, with **real, accurate**
-numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angle,
-2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
+numbers (only the **big/notable** market moves — see below, 2 world + 2 US-business
++ 2 international + 1 China item, the **deep-dive** item, the energy/AI-power
 theme, Philippines politics + business/economy, arts & culture, one good thing).
+**Market overview — keep it TIGHT.** Don't recite every US index and all the global
+markets; spend the brief (and the script) only on **genuinely big moves** — a large
+swing, a record, a real catalyst (CPI, the Fed, a marquee earnings print, a sharp
+rates move). Still pull the actual closes/levels from FMP for accuracy, but if the
+tape was quiet, note it in one line — the freed-up time goes to the Deep Dive.
 **World & international headlines lean current events** — politics, geopolitics,
 conflict, elections, policy, society — not market moves (markets live in the
 market-overview beat + the Energy segment). **Philippines leads with politics and
@@ -96,6 +101,25 @@ local detail the wires miss. **Weather is conditional:** only cover it (via
 flooding — otherwise skip the routine forecast. **Don't report the PSEi unless it
 made a major move** (a large swing or a record); a routine daily close isn't worth
 a line.
+
+**Deep Dive — pick ONE thing and go deep.** This is the marquee segment (the time
+freed by trimming the market recap). Choose **EITHER**:
+- **a standout feature from the listener's subscribed newsletters** — use the Gmail
+  connector (`search_threads` → `get_thread`) on the ones she reads (e.g.
+  `from:semianalysis@substack.com OR from:hello@ctvc.co OR from:thegeneralist@substack.com
+  OR from:newsletter@divenewsletter.com newer_than:7d`, plus Chartbook/Adam Tooze,
+  The Generalist, Stratechery-style essays) and lead with the piece's actual argument;
+- **OR a genuinely viral article/thread on X or Reddit** — something with real,
+  verifiable engagement that's being widely discussed *right now* (web-search X /
+  `reddit.com/r/<sub>` for the day's high-traction threads; confirm it's actually
+  going viral, not niche). Read the primary piece, don't paraphrase a screenshot.
+
+Return a **1–2 sentence summary + the source handle/name + why it matters**, and
+have **a backup candidate** ready (a viral thread can fizzle or turn out to be
+misinformation — verify before committing). Attribute clearly in the script
+("a feature in <newsletter>" / "a thread blowing up on <X / Reddit>"). If the Gmail
+connector is unavailable (headless run), default to the X/Reddit path — don't drop
+the segment. **State which path you used** in the end-of-run report.
 
 **Arts & Culture — visual/fine art, opera, literature first (not just movies).**
 Lead with **visual & fine art** (exhibitions, biennials, art fairs, auctions, notable
@@ -365,7 +389,7 @@ push a malformed episode** (needs ≥ 10 segments, `durationSec` ≥ 1500, `hasA
 and it asserts you're on `$DEPLOY_BRANCH` before pushing. To publish a deliberate
 partial (e.g. audio truncated by a quota outage), pass `ALLOW_SHORT=1`. You should
 still eyeball it:
-Inspect `data/index.json` for `$date` — it should show **~11 segments** and
+Inspect `data/index.json` for `$date` — it should show **~12 segments** and
 **`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix
 the script/vocab, re-run step 6, and only continue once it looks right. Confirm
@@ -377,7 +401,8 @@ git push
 ```
 Then report in a few lines: the throughline, segment count, the four vocab words,
 the audio duration, **which source the energy segment used** (inbox newsletters vs
-web fallback — see the Energy fallback note), and that the deploy push landed.
+web fallback — see the Energy fallback note), **what the Deep Dive was + its source
+path** (inbox newsletter vs X/Reddit), and that the deploy push landed.
 
 ## 8. Scorecard + retro (runs every publish — grade the run, track the trend)
 The point of this step is that **every run self-evaluates against fixed GOALS and
@@ -412,7 +437,7 @@ records the result**, so quality/efficiency improve over time instead of driftin
 | Segments | **≥ 11** with turns | full show, nothing dropped |
 | Host balance | ALEX **42–58%** of turns | genuine two-hander, not a monologue |
 | Numerals | **0** spelled-out numbers | clean transcript; TTS expands numerals itself |
-| Required segments | Headlines, Market, Energy, Philippines, Vocab, Arts, One Good Thing all present | coverage |
+| Required segments | Headlines, Market, Deep Dive, Energy, Philippines, Vocab, Arts, One Good Thing all present | coverage |
 | Vocab split | exactly **2 Mandarin + 2 Tagalog** | format |
 | Vocab freshness | **all 4 fresh** vs the full ledger | hard rule — never reuse a word |
 | Vocab in script | all 4 taught words appear in the script | flashcards match the audio |

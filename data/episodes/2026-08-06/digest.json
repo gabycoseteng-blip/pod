@@ -1,0 +1,36 @@
+{
+  "throughline": "The Hormuz de-escalation trade keeps compounding as Iran and Oman move from announcing an interim deal to fighting over who keeps the toll revenue, oil extending its slide toward $80/$75, while Wall Street's record streak cracks for the first time in days -- the Dow hits a fresh record even as the Nasdaq and Russell pull back -- the same efficiency-versus-scale tension shows up in a Chinese AI lab's new attention mechanism and in Texas freezing its entire data-center interconnection queue pending an audit, and Manila turns its SONA promises into an actual 24-bill legislative timeline the same day a weakening storm exits Luzon",
+  "stories": [
+    "india-bihar-bankipur-bypoll-jan-suraaj-prashant-kishor-unseats-bjp-18953-votes",
+    "hormuz-deal-toll-fee-split-dispute-iran-oman-50-50-shipping-lobbies-protest-un",
+    "us-market-overview-sp-7723.55-nasdaq-26363.44-dow-54349.12-record-russell-3019.19-first-split-tape-dow-only-climber",
+    "eli-lilly-q2-2026-rev-23.0b-plus48pct-mounjaro-zepbound-14.9b-eps-7.94-raised-fy26-guide-85-87b",
+    "spacex-first-public-earnings-post-ipo-rev-7.8b-plus92pct-starlink-4.3b-stock-minus5pct-capex-concerns-lockup",
+    "honda-raises-fy27-op-profit-guide-650b-yen-plus30pct-weak-yen-us-hybrid-demand",
+    "toyota-raises-fy26-net-profit-guide-3.25t-yen-weak-yen-alternative-export-routes-mideast",
+    "china-drone-export-controls-us-case-by-case-6-entity-ban-ahead-xi-september-us-visit",
+    "semianalysis-kimi-k3-kda-attention-3to1-ratio-75pct-kv-cache-cut-electrons-wall-second-valve",
+    "texas-abbott-pauses-all-ercot-datacenter-interconnections-pending-audit-474gw-queue-batch-zero-suspended",
+    "pseg-floats-datacenter-power-proposals-pjm-bilateral-contracting-nuclear-uprate-offtake",
+    "base-power-1b-series-d-13b-valuation-39.2kwh-lfp-home-battery-austin-manufactured",
+    "marcos-4th-ledac-malacanang-24-priority-bills-jun2027-anti-dynasty-partylist-foi-bright-act",
+    "peso-60.751-wednesday-strongest-since-june18-qatar-talks-soft-inflation-7mo-avg-5.0pct",
+    "weather-ts-maymay-kujira-downgrades-td-exits-luzon-signal1-only-thursday",
+    "met-leonardo-da-vinci-madonna-yarnwinder-ken-griffin-loan-no-announcement-gallery609",
+    "taryn-simon-guggenheim-full-rotunda-first-photography-artist-father-country-42-chapters",
+    "zurbaran-national-gallery-london-closes-aug23-first-major-uk-show-5star-reviews-final-pwyw-friday-aug7",
+    "bbc-proms-weber-oberon-first-ever-proms-performance-mark-elder-200yr-anniversary",
+    "authers-bloomberg-opinion-occams-razor-earnings-explain-record-rally-aug4",
+    "authers-bloomberg-opinion-hormuz-toll-as-good-as-it-gets-aug5",
+    "one-good-thing-nz-marine-reserve-expansion-otago-308km2-te-au-roa-o-te-rakihouia-kai-tahu-co-management"
+  ],
+  "explainers": [
+    "kimi-k3-kda-3to1-hybrid-attention-ratio-is-both-confession-and-achievement-linear-attention-still-cant-fully-replace-full-attention",
+    "algorithmic-efficiency-as-a-second-valve-on-the-electrons-wall-alongside-hardware-perf-per-mw-does-it-blunt-demand-or-jevons-pull-in-more",
+    "texas-ownership-disclosure-requirement-targets-opaque-capital-holding-speculative-interconnection-queue-placeholders",
+    "pjm-bilateral-contracting-track-lets-utilities-lock-in-datacenter-customers-before-the-centralized-backstop-auction-clearing-price-is-set",
+    "distributed-residential-batteries-now-priced-by-capital-as-grid-capacity-infrastructure-not-just-backup-power",
+    "hormuz-toll-fee-fight-is-the-mechanics-layer-underneath-the-already-announced-interim-deal-sovereignty-via-revenue-split-not-lane-geography",
+    "occams-razor-cuts-both-ways-a-concentrated-ai-earnings-driven-rally-isnt-simple-its-fragile-same-story-flipped-sign-three-weeks-ago"
+  ]
+}

@@ -24,7 +24,7 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
      ALEX: "And I'm Alex." Then the THROUGHLINE in 3–5 sentences (the thread that ties the macro blocks), and hand off. NO segment preview. -->
 
 ## SEGMENT ONE — HEADLINES
-<!-- 2 WORLD stories. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. -->
+<!-- 2 WORLD stories — CURRENT EVENTS (politics, geopolitics, conflict, elections, policy, society), NOT market moves. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. -->
 
 ## SEGMENT ONE — MARKET OVERVIEW
 <!-- US close (S&P/Nasdaq/Dow + %), breadth, the day's catalyst (CPI / Fed / earnings), the rates move (2y/10y/30y), key large-cap movers, world markets. REAL FMP numbers only — never from memory. -->
@@ -33,7 +33,7 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 <!-- 2 US-business stories. Finance-desk framing: number first, then the "why it matters." -->
 
 ## SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS
-<!-- 2 international business/politics stories. -->
+<!-- 2 international stories — lean politics/current events over markets. -->
 
 ## SEGMENT ONE — CHINA
 <!-- 1 China item, through the two-speed / debt-deflation lens. -->
@@ -42,7 +42,7 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 <!-- GO DEEP (SemiAnalysis / Utility Dive level): specific projects, MW/GW & capex figures, off-takers, interconnection-queue and transformer/turbine bottlenecks, the second-order read. NOT a 101. Lead with the new data point. -->
 
 ## SEGMENT THREE — PHILIPPINES
-<!-- Weather lead (PAGASA: typhoon/habagat) → BSP policy + peso macro. Tie back to the throughline (oil / rates). -->
+<!-- LEAD with politics + business/economy (national politics/governance, BSP policy + peso, major deals). Weather ONLY if there's an active PAGASA storm/landfall/major flooding. NO PSEi unless it made a major move. Tie back to the throughline. -->
 
 ## SEGMENT FOUR — VOCAB OF THE DAY
 <!-- IN-LANGUAGE immersion. 2 Mandarin then 2 Tagalog, each tied to a today story, each NEW vs the ledger (run check_dedup).

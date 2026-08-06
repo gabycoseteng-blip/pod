@@ -75,15 +75,27 @@ script then re-expresses; the script is the only place prose belongs). Cover
 exactly what the steering prompt's segments require, with **real, accurate**
 numbers (most-recent US close for S&P/Nasdaq/Dow, notable movers, rates/Fed angle,
 2 world + 2 US-business + 2 international + 1 China item, the energy/AI-power
-theme, Philippines weather + BSP + peso, arts & culture, one good thing). Pick one
-throughline that connects the macro blocks. Cross-check the history ledger from
+theme, Philippines politics + business/economy, arts & culture, one good thing).
+**World & international headlines lean current events** — politics, geopolitics,
+conflict, elections, policy, society — not market moves (markets live in the
+market-overview beat + the Energy segment). **Philippines leads with politics and
+business/economy** (national politics, governance, BSP + peso, major deals): pull
+**weather only when there's an active PAGASA storm signal / landfall / major
+flooding**, and **skip the PSEi unless it made a genuinely major move** (a large
+swing or a record — not a routine close). Pick one throughline that connects the
+macro blocks. Cross-check the history ledger from
 step 0 — pick **fresh** stories, not ones already covered.
 
-**Philippines — source from the local desks.** Pull the weather + macro from
-**Rappler**, the **Philippine Daily Inquirer** (`inquirer.net` / `newsinfo.inquirer.net`),
-and **GMA News** (`gmanetwork.com/news`) — plus **PAGASA** for the storm bulletin and
-the **BSP** for rates/peso. Web-search/fetch those domains directly; they carry the
-local detail (PAGASA signal levels, landfall, BSP statements) the wires miss.
+**Philippines — source from the local desks.** Lead with **politics and
+business/economy**, not weather. Pull national politics/governance and the economy
+from **Rappler**, the **Philippine Daily Inquirer** (`inquirer.net` /
+`newsinfo.inquirer.net`), and **GMA News** (`gmanetwork.com/news`) — plus the
+**BSP** for rates/peso. Web-search/fetch those domains directly; they carry the
+local detail the wires miss. **Weather is conditional:** only cover it (via
+**PAGASA** for signal levels / landfall) when there's an active storm or major
+flooding — otherwise skip the routine forecast. **Don't report the PSEi unless it
+made a major move** (a large swing or a record); a routine daily close isn't worth
+a line.
 
 **Arts & Culture — visual/fine art, opera, literature first (not just movies).**
 Lead with **visual & fine art** (exhibitions, biennials, art fairs, auctions, notable

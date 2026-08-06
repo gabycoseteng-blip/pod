@@ -85,7 +85,7 @@ async function viewListen() {
             <input type="range" id="seek" min="0" max="1000" value="0">
             <span class="time" id="dur">${fmtTime(CUR.durationSec)}</span>
           </div>
-          <div class="speeds" id="speeds"><span class="slowbadge" id="slowbadge" hidden>1× · 中文</span></div>
+          <div class="speeds" id="speeds"><span class="slowbadge" id="slowbadge" hidden>0.5× · 中文</span></div>
         </div>
       </div>
       <div class="offline-row">
@@ -135,12 +135,21 @@ async function viewListen() {
 // same weighting so words are spaced by speaking time, not byte count.
 const CJK = /[㐀-鿿豈-﫿＀-￯]/g;
 const CJK_ONE = new RegExp(CJK.source);   // non-global copy for boolean turn tests
-const CHINESE_RATE = 1;                    // auto-slow Mandarin/Chinese turns to 1x
+// Auto-slow the VOCAB OF THE DAY segment so the language drills are followable:
+// Mandarin (汉字) at 0.5×, Tagalog at 1× — everything else plays at the user's speed.
+const CHINESE_RATE = 0.5;                  // Mandarin/Chinese turns → 0.5×
+const TAGALOG_RATE = 1;                    // Tagalog vocab turns    → 1×
+const isVocabTurn   = i => i >= 0 && i < TURNS.length && /vocab/i.test(TURNS[i].seg || '');
 const isChineseTurn = i => i >= 0 && i < TURNS.length && CJK_ONE.test(TURNS[i].text);
-const rateForTurn = i => isChineseTurn(i) ? CHINESE_RATE : S.speed;
+// A vocab turn with no CJK is the Tagalog stretch (or its English gloss framing).
+const isTagalogTurn = i => isVocabTurn(i) && !isChineseTurn(i);
+const rateForTurn = i =>
+  isChineseTurn(i) ? CHINESE_RATE :
+  isTagalogTurn(i) ? TAGALOG_RATE :
+  S.speed;
 function spokenWeight(s) {
   const cjk = (s.match(CJK) || []).length;
-  return ((s.length - cjk) + cjk * 2.6) || 1;
+  return (s.length - cjk) + cjk * 2.6;     // 0 for the empty string (see buildTurn)
 }
 
 // Prefer the real, per-chunk-anchored timings baked into episode.json by
@@ -153,12 +162,12 @@ function computeTiming(ep) {
   ep.segments.forEach(sg => sg.turns.forEach(t => flat.push(t)));
   const hasReal = dur && flat.length && flat.every(t => typeof t.startSec === 'number' && typeof t.endSec === 'number');
   if (hasReal) {
-    flat.forEach(t => { t.charLen = spokenWeight(t.text); });
+    flat.forEach(t => { t.charLen = spokenWeight(t.text) || 1; });
   } else {
     const total = flat.reduce((n, t) => n + spokenWeight(t.text), 0) || 1;
     let elapsed = 0;
     flat.forEach(t => {
-      t.charLen = spokenWeight(t.text);
+      t.charLen = spokenWeight(t.text) || 1;
       t.startSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
       elapsed += t.charLen;
       t.endSec = dur ? +(elapsed / total * dur).toFixed(2) : null;
@@ -175,12 +184,12 @@ function buildTranscript(audioUrl) {
     const sec = document.createElement('section');
     sec.className = 'seg'; sec.id = 'seg-' + i;
     const h = document.createElement('h3'); h.textContent = sg.label; sec.append(h);
-    sg.turns.forEach(t => sec.append(buildTurn(t, audioUrl)));
+    sg.turns.forEach(t => sec.append(buildTurn(t, audioUrl, sg.label)));
     root.append(sec);
   });
 }
 
-function buildTurn(t, audioUrl) {
+function buildTurn(t, audioUrl, segLabel) {
   const gi = TURNS.length;
   const who = t.speaker === 'ALEX' ? 'alex' : 'sam';
   const wrap = document.createElement('div');
@@ -197,8 +206,10 @@ function buildTurn(t, audioUrl) {
     const core = chunk.replace(/\s+$/, ''); const tail = chunk.slice(core.length);
     const w = document.createElement('span'); w.className = 'w'; w.textContent = core;
     if (t.startSec != null) {
-      const s = t.startSec + (c / t.charLen) * span; c += core.length;
-      const e = t.startSec + (c / t.charLen) * span; c += tail.length;
+      // Advance by SPOKEN weight (CJK ~2.6×), matching charLen — otherwise word
+      // highlights on Chinese turns race through the first ~38% then stall.
+      const s = t.startSec + (c / t.charLen) * span; c += spokenWeight(core);
+      const e = t.startSec + (c / t.charLen) * span; c += spokenWeight(tail);
       w.dataset.s = s; w.dataset.e = e;
       words.push({ s, e, el: w });
     }
@@ -208,7 +219,7 @@ function buildTurn(t, audioUrl) {
 
   wrap.append(whoEl, txt);
   if (t.startSec != null) { wrap.dataset.start = t.startSec; wrap.dataset.end = t.endSec; }
-  TURNS.push({ gi, start: t.startSec, end: t.endSec, el: wrap, words, text: t.text });
+  TURNS.push({ gi, start: t.startSec, end: t.endSec, el: wrap, words, text: t.text, seg: segLabel });
 
   // tap a line (or a specific word) to seek the audio there
   wrap.addEventListener('click', ev => {
@@ -238,12 +249,16 @@ function renderHighlight(now) {
     }
     if (act >= 0) { TURNS[act].el.classList.add('speaking'); if (S.follow) followScroll(TURNS[act].el); }
     activeTurn = act; activeWord = null;
-    // auto-slow to 1x on Chinese/Mandarin turns, restore the user's speed on exit,
-    // and surface it with a small "1× · 中文" badge so the speed drop is visible.
-    const slow = isChineseTurn(act);
-    const target = slow ? CHINESE_RATE : S.speed;
+    // Auto-slow the vocab drills (Mandarin 0.5×, Tagalog 1×), restore the user's
+    // speed on exit, and surface the drop with a small badge so it's visible.
+    const target = rateForTurn(act);
     if (audio.playbackRate !== target) audio.playbackRate = target;
-    const badge = $('#slowbadge'); if (badge) badge.hidden = !slow;
+    const badge = $('#slowbadge');
+    if (badge) {
+      if (isChineseTurn(act)) { badge.hidden = false; badge.textContent = '0.5× · 中文'; }
+      else if (isTagalogTurn(act)) { badge.hidden = false; badge.textContent = '1× · Tagalog'; }
+      else badge.hidden = true;
+    }
   }
   if (act < 0) return;
 
@@ -318,8 +333,8 @@ function setupPlayer(url, date) {
     const b = document.createElement('button'); b.textContent = r + '×';
     b.className = r === S.speed ? 'on' : '';
     b.onclick = () => { S.speed = r;
-      // honor auto-1x if we're currently inside a Chinese turn; else apply the pick now
-      audio.playbackRate = isChineseTurn(activeTurn) ? CHINESE_RATE : r; saveState();
+      // honor the vocab auto-slow if we're inside a Mandarin/Tagalog turn; else apply now
+      audio.playbackRate = rateForTurn(activeTurn); saveState();
       $$('#speeds button').forEach(x => x.classList.toggle('on', x === b)); };
     speeds.append(b);
   });

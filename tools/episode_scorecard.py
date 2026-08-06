@@ -56,7 +56,8 @@ _SPELLED_NUM = re.compile(rf"\b{_NUMWORD}[\s-]+(?:hundred|thousand|million|billi
 REQUIRED_SEGMENTS = {  # keyword → human label; each must appear in some `## ` header
     "HEADLINE": "Headlines", "MARKET": "Market overview", "DEEP DIVE": "Deep Dive",
     "ENERGY": "Energy", "PHILIPPINE": "Philippines", "VOCAB": "Vocab",
-    "ART": "Arts & Culture", "ONE GOOD THING": "One Good Thing",
+    "ART": "Arts & Culture", "OP-ED": "Op-Eds & Commentary",
+    "ONE GOOD THING": "One Good Thing",
 }
 
 

@@ -27,7 +27,7 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 <!-- 2 WORLD stories — CURRENT EVENTS (politics, geopolitics, conflict, elections, policy, society), NOT market moves. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. -->
 
 ## SEGMENT ONE — MARKET OVERVIEW
-<!-- US close (S&P/Nasdaq/Dow + %), breadth, the day's catalyst (CPI / Fed / earnings), the rates move (2y/10y/30y), key large-cap movers, world markets. REAL FMP numbers only — never from memory. -->
+<!-- KEEP IT TIGHT — do NOT recite every US index + all global markets by rote. Only spend time on BIG/notable moves (a large swing, a record, a real catalyst — CPI/Fed/earnings, a sharp rates move). If the tape was quiet, one quick line to set it and move on. Lead with the notable move + the "why it matters." REAL FMP numbers only — never from memory. -->
 
 ## SEGMENT ONE — U.S. BUSINESS
 <!-- 2 US-business stories. Finance-desk framing: number first, then the "why it matters." -->
@@ -37,6 +37,9 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 
 ## SEGMENT ONE — CHINA
 <!-- 1 China item, through the two-speed / debt-deflation lens. -->
+
+## SEGMENT — DEEP DIVE
+<!-- ~5 min on ONE thing, going DEEP (not a skim) — this is where the time trimmed from the market recap goes. Pick EITHER a standout feature from one of the subscribed newsletters (inbox) OR a genuinely viral article/thread on X or Reddit (high engagement, being widely discussed right now). Set up the piece, then bring the hosts' real analysis: the argument, what's contested, the second-order read, why it matters to this listener. Attribute the source clearly ("a feature in <newsletter>", "a thread blowing up on <X/Reddit>"). Must be FRESH vs the ledger. -->
 
 ## SEGMENT TWO — ENERGY / DATA CENTERS / UTILITIES
 <!-- GO DEEP (SemiAnalysis / Utility Dive level): specific projects, MW/GW & capex figures, off-takers, interconnection-queue and transformer/turbine bottlenecks, the second-order read. NOT a 101. Lead with the new data point. -->

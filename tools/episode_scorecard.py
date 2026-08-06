@@ -54,9 +54,9 @@ _SPELLED_NUM = re.compile(rf"\b{_NUMWORD}[\s-]+(?:hundred|thousand|million|billi
                           rf"trillion|percent)\b", re.I)
 
 REQUIRED_SEGMENTS = {  # keyword → human label; each must appear in some `## ` header
-    "HEADLINE": "Headlines", "MARKET": "Market overview", "ENERGY": "Energy",
-    "PHILIPPINE": "Philippines", "VOCAB": "Vocab", "ART": "Arts & Culture",
-    "ONE GOOD THING": "One Good Thing",
+    "HEADLINE": "Headlines", "MARKET": "Market overview", "DEEP DIVE": "Deep Dive",
+    "ENERGY": "Energy", "PHILIPPINE": "Philippines", "VOCAB": "Vocab",
+    "ART": "Arts & Culture", "ONE GOOD THING": "One Good Thing",
 }
 
 

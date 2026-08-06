@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-06",
+  "cards": [
+    {
+      "id": "2026-08-06-zh-1",
+      "lang": "Mandarin",
+      "word": "归根结底",
+      "pinyin": "guī gēn jié dǐ",
+      "pronunciation": "gway-gun-jyeh-dee",
+      "tones": "1·1·2·3",
+      "meaning": "at the end of the day / when you get down to the root of it",
+      "example": "归根结底，Kimi K3的效率提升到底是会减少电力需求，还是会刺激更多算力涌入，现在还不好说。",
+      "examplePinyin": "guī gēn jié dǐ, Kimi K3 de xiàolǜ tíshēng dàodǐ shì huì jiǎnshǎo diànlì xūqiú, háishì huì cìjī gèng duō suànlì yǒngrù, xiànzài hái bù hǎo shuō.",
+      "exampleMeaning": "At the end of the day, whether Kimi K3's efficiency gain will actually reduce power demand, or just draw in even more compute, is still hard to say.",
+      "note": "Formal/书面语 register, common in financial commentary and current-affairs analysis. Near-synonym contrast with 总的来说 (a loose, casual summary): 归根结底 carries analytical weight, implying you've walked through surface-level detail to reach the real core underneath — that's why financial reporting reaches for it more often.",
+      "tiesTo": "Deep Dive — whether Kimi K3's attention-mechanism efficiency gain blunts or accelerates AI data-center power demand"
+    },
+    {
+      "id": "2026-08-06-zh-2",
+      "lang": "Mandarin",
+      "word": "息息相关",
+      "pinyin": "xī xī xiāng guān",
+      "pronunciation": "shee-shee-shyang-gwan",
+      "tones": "1·1·1·1",
+      "meaning": "closely, intimately connected / bound up with each other",
+      "example": "霍尔木兹海峡的过路费谈判，跟全球油价的走势息息相关。",
+      "examplePinyin": "Huò'ěrmùzī hǎixiá de guòlùfèi tánpàn, gēn quánqiú yóujià de zǒushì xī xī xiāng guān.",
+      "exampleMeaning": "The Hormuz Strait toll-fee negotiations are closely tied to the direction of global oil prices.",
+      "note": "Four-character idiom used when two things look unrelated on the surface but are actually deeply intertwined. Near-synonym contrast with 有关 (casual, vague — just says some connection exists): 息息相关 is much stronger, stressing the two are inseparable and that a change in one guarantees an effect on the other.",
+      "tiesTo": "World/Markets throughline — Hormuz toll-fee mechanics tied to the global oil-price slide, and grid stability tied to Texas's data-center interconnection freeze"
+    },
+    {
+      "id": "2026-08-06-tl-1",
+      "lang": "Tagalog",
+      "word": "humupa",
+      "pinyin": "",
+      "pronunciation": "hoo-moo-PA",
+      "tones": "",
+      "meaning": "to subside, recede, gradually fade away (storm, illness, anger)",
+      "example": "Humupa na ang bagyong Maymay pagkalabas nito sa Northern Luzon, mula bagyo tungong depresyon tropikal.",
+      "examplePinyin": "",
+      "exampleMeaning": "Storm Maymay subsided after it exited Northern Luzon, weakening from a tropical storm into a tropical depression.",
+      "note": "More specific than humina (already taught) — humina is a general decrease in strength for any subject, while humupa carries the sense of gradually receding until almost gone, like floodwater or a storm subsiding. Emphasizes the process of ebbing out, not just a weaker state.",
+      "tiesTo": "Philippines weather — Tropical Storm Maymay/Kujira weakening and exiting Luzon"
+    },
+    {
+      "id": "2026-08-06-tl-2",
+      "lang": "Tagalog",
+      "word": "isulong",
+      "pinyin": "",
+      "pronunciation": "ee-soo-LONG",
+      "tones": "",
+      "meaning": "to advance, push forward (an agenda, proposal, or goal) with real energy",
+      "example": "Isinulong ni Pangulong Marcos ang dalawampu't apat na priyoridad na panukalang batas sa ikaapat na pagpupulong ng LEDAC.",
+      "examplePinyin": "",
+      "exampleMeaning": "President Marcos pushed forward twenty-four priority bills at the fourth LEDAC meeting.",
+      "note": "Near-synonym contrast with itaguyod (to champion/support): itaguyod is about supporting or defending a proposal as it's advanced by others, while isulong carries the sense of personally pulling it forward — more apt when the speaker is the one actively driving the agenda, as with Marcos and the LEDAC bills.",
+      "tiesTo": "Philippines politics — Marcos convening the 4th LEDAC meeting and locking in a 24-bill legislative agenda"
+    }
+  ]
+}

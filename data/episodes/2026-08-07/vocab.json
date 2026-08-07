@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-07",
+  "cards": [
+    {
+      "id": "2026-08-07-zh-1",
+      "lang": "Mandarin",
+      "word": "因而",
+      "pinyin": "yīn'ér",
+      "pronunciation": "yin-er",
+      "tones": "1·2",
+      "meaning": "as a result / thus / therefore (formal causal connective)",
+      "example": "DeepMind的核心团队相继出走，谷歌因而把资源更多地投向了云端芯片销售。",
+      "examplePinyin": "DeepMind de héxīn tuánduì xiāngjì chūzǒu, Gǔgē yīn'ér bǎ zīyuán gèng duō de tóuxiàng le yúnduān xīnpiàn xiāoshòu.",
+      "exampleMeaning": "DeepMind's core team departed one after another, and as a result Google shifted more of its resources toward selling cloud chips instead.",
+      "note": "Formal/书面语 causal connective, common in news analysis and financial writing. Near-synonym contrast with 所以 (口语/informal, the everyday 'so'): 因而 signals a more deliberate, analytical link between cause and effect — you reach for it when tracing WHY a strategic shift happened, not just narrating what happened next.",
+      "tiesTo": "Deep Dive — DeepMind's leadership exodus and Google's pivot toward monetizing TPU compute over frontier-model ambition"
+    },
+    {
+      "id": "2026-08-07-zh-2",
+      "lang": "Mandarin",
+      "word": "增长乏力",
+      "pinyin": "zēngzhǎng fálì",
+      "pronunciation": "dzung-jahng fa-lee",
+      "tones": "1·3·2·4",
+      "meaning": "anemic growth / growth that lacks momentum",
+      "example": "菲律宾第二季度经济增长乏力，创下2009年以来的最低增速。",
+      "examplePinyin": "Fēilǜbīn dì-èr jìdù jīngjì zēngzhǎng fálì, chuàngxià 2009 nián yǐlái de zuìdī zēngsù.",
+      "exampleMeaning": "The Philippine economy showed anemic growth in the second quarter, hitting its lowest growth rate since 2009.",
+      "note": "Formal economic collocation — 乏力 (lacking strength) pairs specifically with abstract nouns like 增长 or 动力 in finance-desk writing. Near-synonym contrast with the colloquial 长得慢 ('growing slowly'): 长得慢 is a flat observation, while 增长乏力 implies an underlying structural weakness behind the slowdown, not just a slow number.",
+      "tiesTo": "Philippines — Q2 GDP printing 2.3%, the weakest since 2009"
+    },
+    {
+      "id": "2026-08-07-tl-1",
+      "lang": "Tagalog",
+      "word": "bumagsak",
+      "pinyin": "",
+      "pronunciation": "boo-mag-SAK",
+      "tones": "",
+      "meaning": "fell, dropped, collapsed (a rate, a sector, a structure)",
+      "example": "Bumagsak nang 2.4 porsiyento ang sektor ng industriya, kaya hindi umabot sa target ang buong ekonomiya.",
+      "examplePinyin": "",
+      "exampleMeaning": "The industry sector fell by 2.4 percent, which is why the overall economy missed its target.",
+      "note": "Stronger and more concrete than umatras (already taught, which suggests a retreat or pullback) — bumagsak carries the sense of an abrupt, often steep drop, the way a builder or a chart 'falls,' not a gradual step back. Used for hard numbers, not sentiment.",
+      "tiesTo": "Philippines — the industry sector's -2.4% contraction inside the Q2 GDP miss"
+    },
+    {
+      "id": "2026-08-07-tl-2",
+      "lang": "Tagalog",
+      "word": "ipagpaliban",
+      "pinyin": "",
+      "pronunciation": "ee-pag-pa-lee-BAN",
+      "tones": "",
+      "meaning": "to postpone, defer, put off",
+      "example": "Hiniling ni Marcos na ipagpaliban muna ng Kongreso ang pagpapatupad ng bagong batas sa buwis-ari-arian.",
+      "examplePinyin": "",
+      "exampleMeaning": "Marcos asked Congress to postpone, for now, the implementation of the new property-tax law.",
+      "note": "Formal/administrative register — used for official deferrals of laws, hearings, or schedules, distinct from the more everyday ipagpaliban ng tipanan (postponing a personal appointment). The same word covers both the property-valuation law suspension and today's habagat-triggered class suspensions, showing how one verb spans policy and everyday disruption.",
+      "tiesTo": "Philippines — Marcos's ask to suspend the RPVARA property-tax law, and today's habagat class suspensions"
+    }
+  ]
+}

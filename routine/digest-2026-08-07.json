@@ -1,0 +1,33 @@
+{
+  "throughline": "Wall Street's record streak finally cracks the same week Google effectively concedes the frontier-model race to bet on selling compute instead of building it, a capital-allocation logic rippling into Texas's paused interconnection queue and Duke's $10B equity raise for gas, even as Gaza's disarmament-sequencing dispute and a deadly new Houthi strike on Yemen keep flaring under the still-compounding Hormuz oil trade, and the growth cost of it all shows up hardest in the Philippines, where GDP just posted its weakest print since 2009",
+  "stories": [
+    "gaza-disarm-sequencing-dispute-netanyahu-rejects-board-of-peace-roadmap",
+    "houthi-yemen-govt-forces-attack-hadramout-deadliest-since-2022",
+    "us-market-overview-sp-7709.96-nasdaq-26348.35-dow-53885.10-minus0.85pct-first-full-pullback-russell-3001.55",
+    "gold-4379-plus1.86pct-brent-81.82-wti-77-78-pre-nfp-jobs-report-consensus-83k",
+    "airbnb-q2-beat-rev-3.61b-mideast-headwind-fy26-guide-raise",
+    "wbd-q2-miss-rev-8.717b-paramount-merger-ticking-fee-7m-day-oct1",
+    "brazil-50pct-tariff-effective-aug6-highest-latam-rate",
+    "philippines-q2-gdp-actual-2.3pct-weakest-since-2009-vs-2.8pct-consensus",
+    "china-july-trade-surplus-112.5b-exports-decelerating-front-loading-tariff-uncertainty",
+    "semianalysis-deepmind-leadership-exodus-hassabis-jeff-dean-gcp-tpu-platform-strategy-2027-growth-guide",
+    "nrg-1.2gw-hyperscaler-deal-texas-pause-moat-bnef-20pct-us-pipeline-at-risk",
+    "duke-energy-10bn-equity-raise-gas-capex-nc-ratepayer-pushback",
+    "dominion-cvow-cost-jump-300m-pjm-reallocation-tariffs-turbine-logistics",
+    "philippines-marcos-rpvara-suspension-ask-4th-ledac",
+    "philippines-duterte-impeachment-day13-escudero-poa-conflict-ruling",
+    "philippines-habagat-class-suspensions-metro-manila-no-active-cyclone",
+    "fra-angelico-fiesole-altarpiece-hidden-throne-restoration",
+    "sumi-jo-maria-callas-prize-2026-first-asian-winner",
+    "paul-yoon-etna-novel-war-dog-odyssey",
+    "hal-brands-bloomberg-opinion-axis-ganging-up-russia-china-iran-nk",
+    "one-good-thing-megalodon-fossil-rediscovery-copenhagen-79ft"
+  ],
+  "explainers": [
+    "gcp-platform-strategy-selling-tpu-compute-to-anthropic-meta-over-reserving-for-gemini-is-a-compute-allocation-story-not-just-model-quality",
+    "texas-interconnection-pause-inverts-into-a-moat-for-incumbents-with-firm-creditworthy-offtake-vs-speculative-queue-squatters",
+    "philippines-industry-contraction-traces-to-flood-control-graft-scandal-freezing-public-construction-spending-not-just-external-oil-shock",
+    "axis-of-upheaval-framing-overstates-coherence-among-russia-china-iran-nk-despite-real-transactional-coordination"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

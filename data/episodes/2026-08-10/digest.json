@@ -1,0 +1,34 @@
+{
+  "throughline": "A jobs report bad enough to read as good news for markets — payrolls actually shrank in July — sets off a live argument about whether the economy's cracking or just cooling, the same capital-discipline split shows up inside earnings (Atlassian's AI-fueled beat vs. The Trade Desk's ad-spend collapse) and inside the power market, where SpaceX joins Microsoft as a new gigawatt-scale buyer of electricity just as RWE cashes out of US offshore wind entirely, and the Philippines turns its SONA promises into a hard budget number",
+  "stories": [
+    "gaza-rafah-quiet-rebuild-vs-public-disarm-first-line-netanyahu-katz",
+    "sudan-kordofan-offensive-rsf-hemedti-vows-khartoum-return",
+    "us-market-overview-sp-7757.64-nasdaq-26690.62-dow-54036.93-russell-3034.49-jobs-miss-rally",
+    "july-nfp-payrolls-minus23k-vs-plus80k-est-unemployment-4.1pct-may-june-revised-down-103k",
+    "atlassian-fq4-beat-eps-1.87-rev-1.77b-cloud-plus31pct-rovo-ai-80pct-fortune500-stock-plus35pct",
+    "trade-desk-q2-miss-rev-715.1m-q3-guide-implies-minus12pct-yoy-stock-minus21.8pct-downgrades",
+    "mecca-defense-pact-saudi-turkey-pakistan-nato-article5-style-israel-sunni-axis-framing",
+    "adani-1trillion-rupee-ai-datacenter-odisha-1gw-conglomerate-financing-strategic-partners-remark",
+    "china-july-cpi-ppi-cooling-cpi-0.5pct-ppi-3.5pct-both-miss-vs-hot-trade-surplus",
+    "semianalysis-spacex-10gw-2027-microsoft-largest-offtaker-nvidia-vendor-financing",
+    "rwe-1.22bn-doi-offshore-wind-lease-buyout-fifth-settlement-clearing-price",
+    "energy-capital-partners-8.1bn-fund-close-avantus-1.05bn-credit-facility-upsize",
+    "philippines-2027-budget-7.2t-submitted-marcos-dbm-6pct-increase-21.7pct-gdp",
+    "philippines-house-panel-income-tax-exemption-ceiling-bill-approved",
+    "philippines-quiboloy-extradition-palace-decision-weeks-doj-received-request",
+    "philippines-duterte-impeachment-postponed-habagat-weather-resumes-aug11",
+    "philippines-habagat-orange-rainfall-warning-no-active-cyclone-peilou-outside-par",
+    "duchamp-moma-retrospective-closing-split-reviews-artnews-vs-frieze",
+    "salzburg-castellucci-messiaen-saint-francois-dassise-premiere-vs-currentzis-carmen",
+    "nyrb-aucoin-dylan-mattingly-profile-six-hour-operas",
+    "krugman-vs-wapo-editorial-jobs-report-fed-communication-fight",
+    "one-good-thing-orphaned-rhinos-give-birth-kwazulu-natal-ezemvelo"
+  ],
+  "explainers": [
+    "spacex-power-buyer-economics-100bn-per-gw-inference-revenue-vs-12bn-per-gw-cost-nvidia-vendor-financing",
+    "rwe-lease-buyout-establishes-a-real-clearing-price-for-exiting-stalled-us-offshore-wind-positions",
+    "philippines-2027-budget-as-first-hard-number-behind-sona-promises",
+    "krugman-labor-pool-shrinkage-from-immigration-crackdown-undercuts-his-own-weak-jobs-alarm"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

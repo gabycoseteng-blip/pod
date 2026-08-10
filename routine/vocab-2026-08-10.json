@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-10",
+  "cards": [
+    {
+      "id": "2026-08-10-zh-1",
+      "lang": "Mandarin",
+      "word": "在…的推动下",
+      "pinyin": "zài… de tuīdòng xià",
+      "pronunciation": "dzai... duh twee-dong shya",
+      "tones": "4 … 1·4·4",
+      "meaning": "driven by / propelled by (a specific force pushing an outcome forward)",
+      "example": "在疲软就业数据的推动下，股市反而全线上涨了。",
+      "examplePinyin": "Zài píruǎn jiùyè shùjù de tuīdòng xià, gǔshì fǎn'ér quánxiàn shàngzhǎng le.",
+      "exampleMeaning": "Driven by the weak jobs data, the stock market rallied across the board instead.",
+      "note": "Formal/书面语 collocation standard in financial and industry-trend reporting, HSK 4. Contrasts with the plain causal 因为…所以 ('because...so'), which anyone can use for any cause-effect pair — 在…的推动下 specifically frames a named force as actively pushing an outcome forward, and implies the push is ongoing, not a one-off trigger, which is why finance writers reach for it over the plain-causal version.",
+      "tiesTo": "Market Overview / Deep Dive — markets rallying on the weak jobs print, and SpaceX's build pace accelerating on Nvidia's vendor financing"
+    },
+    {
+      "id": "2026-08-10-zh-2",
+      "lang": "Mandarin",
+      "word": "供需失衡",
+      "pinyin": "gōngxū shīhéng",
+      "pronunciation": "gong-shu shr-hung",
+      "tones": "1·1 1·2",
+      "meaning": "supply-demand imbalance (a structural mismatch between supply and demand)",
+      "example": "数据中心用电的供需失衡，逼着SpaceX这样的公司自己建电厂。",
+      "examplePinyin": "Shùjù zhōngxīn yòngdiàn de gōngxū shīhéng, bīzhe SpaceX zhèyàng de gōngsī zìjǐ jiàn diànchǎng.",
+      "exampleMeaning": "The supply-demand imbalance in data-center electricity is forcing a company like SpaceX to build its own power plants.",
+      "note": "Formal economic collocation, HSK 4, contrasts with the casual 不够用 ('not enough to use'), which just flags a plain quantity shortfall. 供需失衡 names a structural mismatch between the whole supply system and demand growth — the two curves themselves don't line up — rather than a temporary shortage, the register analysts reach for describing capacity crunches like the AI-power buildout.",
+      "tiesTo": "Energy segment — the data-center power/interconnection crunch driving SpaceX, Microsoft, and RWE's exit from US offshore wind"
+    },
+    {
+      "id": "2026-08-10-tl-1",
+      "lang": "Tagalog",
+      "word": "pagbaba",
+      "pinyin": "",
+      "pronunciation": "pag-ba-BA",
+      "tones": "",
+      "meaning": "decline, drop (a gradual or general decrease)",
+      "example": "Malaking pagbaba ang naitala sa trabaho sa Estados Unidos noong Hulyo.",
+      "examplePinyin": "",
+      "exampleMeaning": "A large decline was recorded in US jobs in July.",
+      "note": "More general and neutral than bumagsak (already taught, which is abrupt and forceful, like a building or price 'collapsing') — pagbaba covers gradual or ongoing decreases, such as inflation slowing over several months, not a sudden steep drop in one print.",
+      "tiesTo": "Market Overview / China — the July US jobs decline and China's cooling CPI/PPI data"
+    },
+    {
+      "id": "2026-08-10-tl-2",
+      "lang": "Tagalog",
+      "word": "ipinasa",
+      "pinyin": "",
+      "pronunciation": "ee-pee-na-SA",
+      "tones": "",
+      "meaning": "passed, forwarded (a bill, budget, or formal proposal through official process)",
+      "example": "Ipinasa na ng Kagawaran ng Badyet ang 7.2 trilyong pisong badyet kay Pangulong Marcos.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Department of Budget and Management has already forwarded the 7.2-trillion-peso budget to President Marcos.",
+      "note": "Implies a formal process behind the transfer — a vote, committee approval, or official submission — distinct from the simpler ibinigay ('given/handed over'), which carries no procedural weight. Used for both the DBM's budget submission and the House committee's approval of the tax-exemption bill.",
+      "tiesTo": "Philippines — the ₱7.2 trillion 2027 budget submission and the House panel's income-tax exemption bill"
+    }
+  ]
+}

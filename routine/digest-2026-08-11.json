@@ -1,0 +1,36 @@
+{
+  "throughline": "The AI-power buildout splits into a live bet on speed versus certainty — Vistra wants Texas's interconnection queue culled while PPL and Blackstone reserve gas turbines years ahead of any signed contract and Constellation bets existing nuclear beats greenfield gas on speed-to-power — the same fungibility argument shows up in software, where SemiAnalysis's TileRT closes most of the GPU-vs-ASIC inference gap with code instead of new silicon, while markets take a quiet breather after Friday's jobs-miss rally, Iran and the US harden into a reparations standoff instead of reopening Hormuz, and the Philippines absorbs its worst flood death toll of the year the same week a leaked account of the 2022 Marcos-Duterte alliance collapse resurfaces",
+  "stories": [
+    "iran-us-reparations-standoff-trump-rejects-demands-50yr-damages-counter",
+    "ukraine-deepest-strike-petrochemical-plant-2000km-kyiv",
+    "us-market-overview-sp-7753.11-nasdaq-26605.36-dow-53975.98-russell-3017.40-quiet-pullback",
+    "datadog-q2-beat-eps0.65-rev1.12b-plus36pct-stock-falls-15-17pct-valuation-reset",
+    "on-holding-q2-miss-rev850.3m-chf-eps-beat-stock-falls-13-15pct",
+    "japan-fy26-gdp-forecast-cut-0.9pct-from-1.3pct-mideast-energy-costs",
+    "arcelormittal-q2-rev16.5b-op-profit2.1b-stock-plus65.3pct-ytd-ai-infra-demand",
+    "china-july-cpi-ppi-cooling-cpi0.5pct-ppi3.5pct-miss-deflationary-producer-prices",
+    "semianalysis-tilert-gpu-vs-asic-inference-persistent-engine-kernel-340toks",
+    "vistra-backs-texas-queue-cull-ercot-overstated-20x-helix-1bn-kkr-nvidia",
+    "ppl-blackstone-invitium-5gw-gas-turbines-pennsylvania-zero-offtake-signed",
+    "constellation-bedrock-existing-generation-dominguez-55gw-22gw-nuclear",
+    "siemens-gas-turbine-backlog-69gw-15gw-booked-quarter-3yr-leadtimes",
+    "texas-pause-stranded-deposits-50k-per-mw-hundreds-of-millions-at-risk",
+    "philippines-flood-death-toll-19-habagat-luis-maymay-2.27m-affected",
+    "philippines-marcos-duterte-alliance-collapse-account-sandro-marcos-2022-post-demands",
+    "philippines-duterte-impeachment-resumes-coa-auditor-del-campo",
+    "philippines-doh-secretary-mercado-replaces-pujalte",
+    "philippines-bsp-remolona-softer-tilt-gdp-2.3pct-worst-since-2021",
+    "tokyo-gendai-2026-vip-registration-63-exhibitors-miki-section-maebashi-biennale",
+    "white-cube-signs-tesfaye-urgessa-ethiopian-painter-venice-2024",
+    "nyrb-mendelsohn-nolan-odyssey-review",
+    "authers-abbey-aindicators-credit-market-doubt-railroad-bond-parallel",
+    "kashyap-wapo-fed-should-explain-decisions-warsh-independence",
+    "one-good-thing-total-solar-eclipse-aug12-iceland-spain-mainland-europe-since-1999"
+  ],
+  "explainers": [
+    "gpu-fungibility-vs-asic-purpose-built-tradeoff-batch-size-1-speed-tier-config-reallocation",
+    "texas-queue-cull-vs-build-ahead-vs-existing-generation-three-competing-power-buildout-strategies",
+    "aindicators-credit-market-tell-vs-equity-market-tell-for-ai-buildout-risk"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-11",
+  "cards": [
+    {
+      "id": "2026-08-11-zh-1",
+      "lang": "Mandarin",
+      "word": "与其…不如",
+      "pinyin": "yǔqí…bùrú",
+      "pronunciation": "yoo-chee... boo-roo",
+      "tones": "3·2 … 4·2",
+      "meaning": "rather than X, better to Y (weighing two options and favoring the second)",
+      "example": "与其等合同，不如先把涡轮机订下来。",
+      "examplePinyin": "Yǔqí děng hétong, bùrú xiān bǎ lúnjī dìng xiàlái.",
+      "exampleMeaning": "Rather than wait for a contract, better to reserve the turbines first.",
+      "note": "Formal/书面语 advanced connective, HSK 4, common in financial commentary for weighing strategic tradeoffs. Contrasts with the plainer 比起…更 ('compared to X, more Y'), which just ranks two things — 与其…不如 specifically frames a decision, implying the speaker is recommending the second option over the first, not just comparing them.",
+      "tiesTo": "Energy segment — Vistra's queue-cull-first posture versus PPL-Blackstone's build-ahead-of-contract bet on gas turbines"
+    },
+    {
+      "id": "2026-08-11-zh-2",
+      "lang": "Mandarin",
+      "word": "说到底",
+      "pinyin": "shuōdàodǐ",
+      "pronunciation": "shwaw-daow-dee",
+      "tones": "1·4·3",
+      "meaning": "when you get down to it, in the final analysis (cutting through to the core claim)",
+      "example": "说到底，TileRT的论点是软件的灵活性胜过硬件的专用性。",
+      "examplePinyin": "Shuōdàodǐ, TileRT de lùndiǎn shì ruǎnjiàn de línghuóxìng shèngguò yìngjiàn de zhuānyòngxìng.",
+      "exampleMeaning": "When you get down to it, TileRT's argument is that software flexibility beats hardware specialization.",
+      "note": "Upper-register abstract collocation, HSK 4, used to summarize a whole argument down to its core claim — a step more measured and analytical than the blunter, more casual 说白了 ('to put it bluntly'), which a speaker reaches for to cut through niceties rather than to close out a reasoned analysis.",
+      "tiesTo": "Deep Dive — SemiAnalysis's TileRT piece, where GPU fungibility beats purpose-built ASIC hardware"
+    },
+    {
+      "id": "2026-08-11-tl-1",
+      "lang": "Tagalog",
+      "word": "nabuwag",
+      "pinyin": "",
+      "pronunciation": "na-boo-WAG",
+      "tones": "",
+      "meaning": "broken up, dissolved (an alliance, relationship, or organization coming apart)",
+      "example": "Nabuwag ang alyansang UniTeam nang malantad ang tunay na kasunduan noong 2022.",
+      "examplePinyin": "",
+      "exampleMeaning": "The UniTeam alliance broke up when the real 2022 agreement was exposed.",
+      "note": "Specifically for relationships, alliances, or organizations coming apart — distinct from bumagsak (already taught, used for something physical or abrupt, like a building or a price, giving way all at once). Nabuwag is the precise word for a political alliance dissolving, not just failing.",
+      "tiesTo": "Philippines — Rep. Sandro Marcos's account of how the 2022 Marcos-Duterte alliance actually fell apart"
+    },
+    {
+      "id": "2026-08-11-tl-2",
+      "lang": "Tagalog",
+      "word": "lumala",
+      "pinyin": "",
+      "pronunciation": "loo-ma-LA",
+      "tones": "",
+      "meaning": "worsened, intensified (a bad situation growing more severe, not just more frequent)",
+      "example": "Lumala ang bilang ng mga namatay dahil sa tuluy-tuloy na pag-ulan.",
+      "examplePinyin": "",
+      "exampleMeaning": "The death toll worsened because of the continuing rain.",
+      "note": "Describes an existing bad situation intensifying, distinct from a simple count going up — it signals the whole crisis is deepening, not just one number changing, which is why it fits a rising, still-active flood death toll rather than a single data point.",
+      "tiesTo": "Philippines — the habagat/tropical-storm flood death toll rising through the week"
+    }
+  ]
+}

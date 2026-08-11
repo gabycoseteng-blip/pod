@@ -36,7 +36,7 @@ SAM: Let's do markets — and I promise we'll be quick, because there isn't much
 ALEX: Monday's close: S&P 500 at 7,753.11, down just 4.53 points, 0.06%. Nasdaq 26,605.36, off 0.32%. Dow 53,975.98, down 0.11%. Russell 2000 the laggard at 3,017.40, down 0.56%.
 SAM: So essentially flat across the board.
 ALEX: A breather, not a reversal. This is the first small give-back after Friday's jobs-miss rally pushed everything to records. No catalyst behind it — just digestion.
-SAM: Gold ticked up to $4,440 an ounce, about half a percent, and that one does have a driver — the Iran reparations escalation we just covered. Brent's holding near $87.43, still close to a four-day high after last week's five percent spike.
+SAM: Gold ticked up to $4,440 an ounce, about half a percent, and that one does have a driver — the Iran reparations escalation we just covered. Brent's holding near $87.43, still close to a four-day high after last week's 5% spike.
 ALEX: Week ahead — Cisco reports Thursday, sorry, Wednesday after the close, consensus $1.17 EPS on $16.7 to $16.9 billion revenue, and Applied Materials follows Thursday. Those are your next AI-capex data points.
 SAM: Onto US business, and two beat-but-fell stories, which tells you something about where investor patience sits right now.
 
@@ -166,10 +166,10 @@ SAM: Last one, and it's a sharp piece of criticism, not an exhibition.
 ALEX: Daniel Mendelsohn, the classicist, has a piece in the NYRB's August 20th issue on Christopher Nolan's "The Odyssey." His read is that the film is, quote, "densely braided," but its hero "sounds like the heroes of Christopher Nolan movies."
 SAM: Ouch.
 ALEX: It's a genuinely sharp critique of what happens when an epic gets run through a very specific directorial voice — worth reading if you've seen the film and felt something was slightly off about Odysseus's register.
-SAM: It's the classic adaptation problem — the source material survives three thousand years of retelling precisely because it isn't any one voice, and the moment a famously singular director gets his hands on it, the hero starts sounding like every other protagonist that director's ever made.
+SAM: It's the classic adaptation problem — the source material survives 3,000 years of retelling precisely because it isn't any one voice, and the moment a famously singular director gets his hands on it, the hero starts sounding like every other protagonist that director's ever made.
 ALEX: Mendelsohn's point, more or less — technically dazzling, but Homer's polytropos, the "man of many turns," becomes just another Nolan puzzle-box lead.
 SAM: It's the kind of review that's more useful than a straightforward pan, honestly — it tells you exactly what you're getting and exactly what you're trading away for it, which is more than most opening-weekend coverage manages.
-ALEX: That's the value of having an actual classicist review it instead of a film critic alone — he's grading it against three thousand years of prior adaptations, not just this year's box office.
+ALEX: That's the value of having an actual classicist review it instead of a film critic alone — he's grading it against 3,000 years of prior adaptations, not just this year's box office.
 
 ## SEGMENT SIX — OP-EDS & COMMENTARY
 SAM: Op-eds — two pieces genuinely shaping conversation right now, and they're in tension with each other in an interesting way.

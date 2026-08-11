@@ -169,21 +169,21 @@
         },
         {
           "speaker": "SAM",
-          "text": "Gold ticked up to $4,440 an ounce, about half a percent, and that one does have a driver — the Iran reparations escalation we just covered. Brent's holding near $87.43, still close to a four-day high after last week's five percent spike.",
+          "text": "Gold ticked up to $4,440 an ounce, about half a percent, and that one does have a driver — the Iran reparations escalation we just covered. Brent's holding near $87.43, still close to a four-day high after last week's 5% spike.",
           "startSec": 217.42,
-          "endSec": 230.78
+          "endSec": 230.21
         },
         {
           "speaker": "ALEX",
           "text": "Week ahead — Cisco reports Thursday, sorry, Wednesday after the close, consensus $1.17 EPS on $16.7 to $16.9 billion revenue, and Applied Materials follows Thursday. Those are your next AI-capex data points.",
-          "startSec": 230.78,
-          "endSec": 242.44
+          "startSec": 230.21,
+          "endSec": 241.88
         },
         {
           "speaker": "SAM",
           "text": "Onto US business, and two beat-but-fell stories, which tells you something about where investor patience sits right now.",
-          "startSec": 242.44,
-          "endSec": 249.2
+          "startSec": 241.88,
+          "endSec": 248.64
         }
       ],
       "startSec": 196.5
@@ -195,41 +195,41 @@
         {
           "speaker": "ALEX",
           "text": "Datadog first. Q2 EPS 65 cents, beat the 58-cent estimate. Revenue $1.12 billion, up 36% year-on-year, also a beat. Customers spending over $100,000 a year grew 23% to roughly 4,720, and they raised the full-year guide to $4.45 to $4.47 billion.",
-          "startSec": 249.2,
-          "endSec": 263.0
+          "startSec": 248.64,
+          "endSec": 262.44
         },
         {
           "speaker": "SAM",
           "text": "And the stock fell 15 to 17% premarket anyway.",
-          "startSec": 263.0,
-          "endSec": 265.6
+          "startSec": 262.44,
+          "endSec": 265.03
         },
         {
           "speaker": "ALEX",
           "text": "On a clean beat and raise. This isn't a demand problem — it's a valuation reset. The market's gotten fussier about what \"good\" needs to look like for high-multiple software names.",
-          "startSec": 265.6,
-          "endSec": 275.68
+          "startSec": 265.03,
+          "endSec": 275.12
         },
         {
           "speaker": "SAM",
           "text": "Same story, different sport — On Holding. Revenue up 21.6% constant-currency to 850.3 million Swiss francs, missed the 881.4 million estimate. EPS beat at 31 centimes versus 29 expected, net income swung to 105 million from a 40.9 million loss a year ago.",
-          "startSec": 275.68,
-          "endSec": 290.05
+          "startSec": 275.12,
+          "endSec": 289.48
         },
         {
           "speaker": "ALEX",
           "text": "DTC channel up 34.3% constant-currency — the direct-to-consumer strength is real. But the stock's down 13 to 15% on the top-line miss. Growth quality is being priced with a much finer comb than it was a month ago.",
-          "startSec": 290.05,
-          "endSec": 302.05
+          "startSec": 289.48,
+          "endSec": 301.49
         },
         {
           "speaker": "SAM",
           "text": "Internationally — Japan just cut its own growth forecast, and the reason is the story we've been tracking all week.",
-          "startSec": 302.05,
-          "endSec": 308.53
+          "startSec": 301.49,
+          "endSec": 307.96
         }
       ],
-      "startSec": 249.2
+      "startSec": 248.6
     },
     {
       "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
@@ -238,20 +238,20 @@
         {
           "speaker": "ALEX",
           "text": "Japan trimmed its fiscal 2026 real GDP growth forecast to 0.9%, down from 1.3%, and cited higher energy costs from the Middle East war directly. That's the Hormuz oil premium showing up in a G7 government's own numbers — not analyst commentary, an official forecast revision.",
-          "startSec": 308.53,
-          "endSec": 324.02
+          "startSec": 307.96,
+          "endSec": 323.46
         },
         {
           "speaker": "SAM",
           "text": "And on the industrial side of the AI buildout — ArcelorMittal's Q2. Revenue $16.5 billion, underlying operating profit $2.1 billion, and the stock is up 65.3% year to date.",
-          "startSec": 324.02,
-          "endSec": 333.71
+          "startSec": 323.46,
+          "endSec": 333.15
         },
         {
           "speaker": "ALEX",
           "text": "Steel doesn't usually run like a growth stock. This is the AI-capex-into-hard-infrastructure trade landing another rung down the supply chain — data centers and grid buildout need steel long before they need chips.",
-          "startSec": 333.71,
-          "endSec": 345.77
+          "startSec": 333.15,
+          "endSec": 345.21
         },
         {
           "speaker": "SAM",
@@ -266,7 +266,7 @@
           "endSec": 364.46
         }
       ],
-      "startSec": 308.5
+      "startSec": 308.0
     },
     {
       "raw": "SEGMENT ONE — CHINA",
@@ -909,27 +909,27 @@
         },
         {
           "speaker": "SAM",
-          "text": "It's the classic adaptation problem — the source material survives three thousand years of retelling precisely because it isn't any one voice, and the moment a famously singular director gets his hands on it, the hero starts sounding like every other protagonist that director's ever made.",
+          "text": "It's the classic adaptation problem — the source material survives 3,000 years of retelling precisely because it isn't any one voice, and the moment a famously singular director gets his hands on it, the hero starts sounding like every other protagonist that director's ever made.",
           "startSec": 1390.98,
-          "endSec": 1409.05
+          "endSec": 1408.49
         },
         {
           "speaker": "ALEX",
           "text": "Mendelsohn's point, more or less — technically dazzling, but Homer's polytropos, the \"man of many turns,\" becomes just another Nolan puzzle-box lead.",
-          "startSec": 1409.05,
-          "endSec": 1418.37
+          "startSec": 1408.49,
+          "endSec": 1417.81
         },
         {
           "speaker": "SAM",
           "text": "It's the kind of review that's more useful than a straightforward pan, honestly — it tells you exactly what you're getting and exactly what you're trading away for it, which is more than most opening-weekend coverage manages.",
-          "startSec": 1418.37,
-          "endSec": 1432.45
+          "startSec": 1417.81,
+          "endSec": 1431.89
         },
         {
           "speaker": "ALEX",
-          "text": "That's the value of having an actual classicist review it instead of a film critic alone — he's grading it against three thousand years of prior adaptations, not just this year's box office.",
-          "startSec": 1432.45,
-          "endSec": 1444.33
+          "text": "That's the value of having an actual classicist review it instead of a film critic alone — he's grading it against 3,000 years of prior adaptations, not just this year's box office.",
+          "startSec": 1431.89,
+          "endSec": 1443.21
         }
       ],
       "startSec": 1227.0
@@ -941,20 +941,20 @@
         {
           "speaker": "SAM",
           "text": "Op-eds — two pieces genuinely shaping conversation right now, and they're in tension with each other in an interesting way.",
-          "startSec": 1444.33,
-          "endSec": 1452.03
+          "startSec": 1443.21,
+          "endSec": 1450.9
         },
         {
           "speaker": "ALEX",
           "text": "First, John Authers and Richard Abbey in Bloomberg Opinion, a piece called \"AIndicators Hint at Doubts in Credit Markets,\" published yesterday.",
-          "startSec": 1452.03,
-          "endSec": 1460.97
+          "startSec": 1450.9,
+          "endSec": 1459.85
         },
         {
           "speaker": "SAM",
           "text": "Steelman it for me.",
-          "startSec": 1460.97,
-          "endSec": 1462.16
+          "startSec": 1459.85,
+          "endSec": 1461.03
         },
         {
           "speaker": "ALEX",
@@ -1005,7 +1005,7 @@
           "endSec": 1579.84
         }
       ],
-      "startSec": 1444.3
+      "startSec": 1443.2
     },
     {
       "raw": "SEGMENT SEVEN — ONE GOOD THING",

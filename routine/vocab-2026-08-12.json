@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-12",
+  "cards": [
+    {
+      "id": "2026-08-12-zh-1",
+      "lang": "Mandarin",
+      "word": "不然",
+      "pinyin": "bùrán",
+      "pronunciation": "boo-ran",
+      "tones": "4·2",
+      "meaning": "otherwise, or else (a casual, spoken-register way to flag a consequence)",
+      "example": "今天的CPI数据必须保持温和，不然美联储的降息路径就得重新评估。",
+      "examplePinyin": "Jīntiān de CPI shùjù bìxū bǎochí wēnhé, bùrán Měilián Chǔ de jiàngxī lùjìng jiù děi chóngxīn pínggū.",
+      "exampleMeaning": "Today's CPI data has to come in mild, otherwise the Fed's rate-cut path will need to be reassessed.",
+      "note": "口语/informal register — the everyday counterpart to the more formal 否则 (already taught): a colleague chatting about the market would reach for 不然, while a written research note or an anchor reading a script would use 否则. Same logical function, different register — swap them and the sentence still works, but the tone shifts from conversational to buttoned-up.",
+      "tiesTo": "Market overview — this morning's July CPI print and what it means for the Fed's rate path"
+    },
+    {
+      "id": "2026-08-12-zh-2",
+      "lang": "Mandarin",
+      "word": "由此可见",
+      "pinyin": "yóucǐ kějiàn",
+      "pronunciation": "yo-tsuh keh-jyen",
+      "tones": "2·3·3·4",
+      "meaning": "this shows that / from this it's clear that (drawing a conclusion from evidence just presented)",
+      "example": "由此可见，同一个借款人，优先贷款和次级贷款的定价可以天差地别。",
+      "examplePinyin": "Yóucǐ kějiàn, tóng yī gè jièkuǎnrén, yōuxiān dàikuǎn hé cìjí dàikuǎn de dìngjià kěyǐ tiānchàdìbié.",
+      "exampleMeaning": "This shows that, for the same borrower, senior and subordinate loan pricing can be worlds apart.",
+      "note": "书面语/formal analytical connective, HSK 4 — used to step back from a pile of specifics and state the conclusion they point to. More measured and evidence-based than the casual 看得出来 ('you can tell'), which just reports an impression rather than formally drawing an inference from stated facts — the register a research note or an anchor summarizing data uses, not a text-message.",
+      "tiesTo": "Deep Dive — CoreWeave's debt trading in visibly different tiers by contract quality, same borrower"
+    },
+    {
+      "id": "2026-08-12-tl-1",
+      "lang": "Tagalog",
+      "word": "pagtatalo",
+      "pinyin": "",
+      "pronunciation": "pag-ta-ta-LÓ",
+      "tones": "",
+      "meaning": "dispute, heated argument (an exchange where two sides push back hard against each other)",
+      "example": "Nagkaroon ng matinding pagtatalo sa pagitan ng depensa at prosekusyon sa paglilitis.",
+      "examplePinyin": "",
+      "exampleMeaning": "There was an intense dispute between the defense and the prosecution at the trial.",
+      "note": "Names the exchange itself — two sides actively contending — distinct from a one-sided accusation or complaint; used for a live back-and-forth clash, which is exactly what a tense cross-examination looks like, not just a disagreement stated once.",
+      "tiesTo": "Philippines — the Duterte impeachment trial's tense Day 15 cross-examination"
+    },
+    {
+      "id": "2026-08-12-tl-2",
+      "lang": "Tagalog",
+      "word": "katiwalian",
+      "pinyin": "",
+      "pronunciation": "ka-ti-wa-LI-an",
+      "tones": "",
+      "meaning": "corruption, malfeasance (an official or institutional betrayal of trust, not just a simple mistake)",
+      "example": "Ipinasara ang pabrika matapos madiskubre ang katiwalian sa mga permiso at sahod ng mga manggagawa.",
+      "examplePinyin": "",
+      "exampleMeaning": "The factory was shut down after malfeasance in the workers' permits and wages was uncovered.",
+      "note": "Specifically implies a breach of entrusted duty — a permit, a fund, an office misused — not just an honest error; that's what separates it from a plainer word like pagkakamali (mistake), and why it fits a labor-permit and wage-violation scandal rather than routine noncompliance.",
+      "tiesTo": "Philippines — DOLE cancelling Chuangxing Steel's Chinese workers' permits over labor-law violations"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "throughline": "AI-power buildout risk gets priced with precision (CoreWeave debt tiers, hyperscaler-backed LDES, turbine/genset backlogs) while the physical grid fails in mundane ways (jellyfish knock out a French nuclear plant) and political/macro risk stays unpriced (US data-center backlash, El-Erian's swerving world economy), against a quiet market ahead of CPI, a deadly Colombia quake, Turkey's PKK pardon bill, and the Philippines' tensest impeachment-trial day yet",
+  "stories": [
+    "colombia-earthquake-224-dead",
+    "turkey-pkk-conditional-pardon-passes",
+    "us-market-quiet-pre-cpi-aug11-close",
+    "july-cpi-due-today",
+    "plug-power-q2-beat-guide-raised",
+    "vestas-q2-blowout-order-book",
+    "gravelines-jellyfish-nuclear-outage",
+    "shanghai-pullback-hormuz-optimism-fades",
+    "davefriedman-coreweave-debt-tiering-payment-certainty",
+    "caterpillar-genset-demand-72pct",
+    "evergy-2.5gw-signed-load-capital-raise",
+    "sunrun-guide-cut-affiliate-stress",
+    "caiso-der-wholesale-accounting-change",
+    "ferc-206-showcause-miso-spp-transmission-fight",
+    "ctvc-ldes-2h26-leaderboard-form-energy-pine-island",
+    "ferc-docket-signals-energos-bess-rwe-camp-creek",
+    "philippines-duterte-impeachment-day15-tense",
+    "philippines-dole-cancels-chuangxing-steel-permits",
+    "philippines-peso-bsp-context-aug12",
+    "rossini-opera-festival-opens-siege-de-corinthe",
+    "abramovic-seven-deaths-artreview",
+    "lrb-gaby-wood-anna-atkins-cyanotypes",
+    "noahsmith-banning-data-centers-economy",
+    "elerian-world-economy-swerving",
+    "one-good-thing-eastern-barred-bandicoot-genetic-rescue-phillip-island"
+  ],
+  "explainers": [
+    "GPU-backed AI infra debt collateral tiering (senior non-recourse vs mezzanine tranches)",
+    "wrong-way risk in fixed-price GPU-hour contracts vs a falling forward market",
+    "bring-your-own-capacity (BYOC) interconnection-queue jump via firm storage",
+    "FERC Section 206 show-cause and competitive transmission bidding in RTOs"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

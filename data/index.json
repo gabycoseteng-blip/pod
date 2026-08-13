@@ -2,6 +2,15 @@
   "title": "The Morning Commute",
   "episodes": [
     {
+      "date": "2026-08-13",
+      "title": "Thursday, August 13, 2026",
+      "day": "Thursday",
+      "durationSec": 1715,
+      "hasAudio": true,
+      "vocabCount": 4,
+      "segmentCount": 13
+    },
+    {
       "date": "2026-08-11",
       "title": "Tuesday, August 11, 2026",
       "day": "Tuesday",

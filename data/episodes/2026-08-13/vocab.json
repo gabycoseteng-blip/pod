@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-13",
+  "cards": [
+    {
+      "id": "2026-08-13-zh-1",
+      "lang": "Mandarin",
+      "word": "不可否认",
+      "pinyin": "bùkě fǒurèn",
+      "pronunciation": "boo-kuh-foh-run",
+      "tones": "4·3·3·4",
+      "meaning": "it cannot be denied that / admittedly (concede a valid point before pivoting to a rebuttal)",
+      "example": "不可否认，今年七月Anthropic和OpenAI的收入都超过了预期，但支撑这一切的杠杆非常脆弱。",
+      "examplePinyin": "Bùkě fǒurèn, jīnnián qīyuè Anthropic hé OpenAI de shōurù dōu chāoguòle yùqī, dàn zhīchēng zhè yīqiè de gànggǎn fēicháng cuìruò.",
+      "exampleMeaning": "It cannot be denied that Anthropic and OpenAI both beat their revenue targets in July, but the leverage underneath it all is extremely fragile.",
+      "note": "书面语/formal register — common in editorials, research notes, and scripted anchor delivery; the spoken-register equivalent is simply 确实 or 说实话. Specifically structures a 'concede, then rebut' move — unlike 显然 (obviously), which just states a fact with no concessive implication.",
+      "tiesTo": "Op-Eds & Commentary — Wallace-Wells/Sarin's NYT piece on AI as both real technology and real financial bubble"
+    },
+    {
+      "id": "2026-08-13-zh-2",
+      "lang": "Mandarin",
+      "word": "抢占先机",
+      "pinyin": "qiǎngzhàn xiānjī",
+      "pronunciation": "chyahng-jahn-shyen-jee",
+      "tones": "3·4·1·1",
+      "meaning": "to seize the first-mover advantage (grab a favorable position before competitors can react)",
+      "example": "Google在长时储能这个赛道上抢占先机，提前锁定了最好的供应商。",
+      "examplePinyin": "Google zài chángshí chǔnéng zhège sàidào shàng qiǎngzhàn xiānjī, tíqián suǒdìngle zuì hǎo de gōngyìngshāng.",
+      "exampleMeaning": "Google is seizing the first-mover advantage in the long-duration-storage race, locking up the best suppliers ahead of time.",
+      "note": "A common business-Chinese collocation — 抢占 pairs just as naturally with 市场 (market) or 份额 (share). Distinct from a neutral phrase like 提前准备 (prepare in advance): 抢占先机 carries a competitive, exclusive edge — once a rival seizes the position, it's gone for everyone else.",
+      "tiesTo": "Deep Dive — Google's right-of-first-refusal lockups with Form Energy and Energy Dome in the LDES race"
+    },
+    {
+      "id": "2026-08-13-tl-1",
+      "lang": "Tagalog",
+      "word": "pananagutan",
+      "pinyin": "",
+      "pronunciation": "pa-na-na-goo-TAN",
+      "tones": "",
+      "meaning": "accountability, liability (answerable for consequences before the law or an authority, not just a duty in name)",
+      "example": "Idineklara ng COA na may pananagutan si Bise Presidente Duterte sa 73 milyong pisong hindi wastong paggastos.",
+      "examplePinyin": "",
+      "exampleMeaning": "The COA declared that Vice President Duterte has liability for 73 million pesos in improperly spent funds.",
+      "note": "Stronger than the plain word for duty, responsibilidad — pananagutan implies real consequences if the obligation isn't met, such as a legal proceeding, not just an unmet role or task.",
+      "tiesTo": "Philippines — Day 16 of the Duterte impeachment trial, the first hard peso liability figure"
+    },
+    {
+      "id": "2026-08-13-tl-2",
+      "lang": "Tagalog",
+      "word": "panggigipit",
+      "pinyin": "",
+      "pronunciation": "pang-gi-gi-PIT",
+      "tones": "",
+      "meaning": "coercion, applying sustained pressure to force compliance (a strategy, not just a single statement)",
+      "example": "Nag-panggigipit umano ang embahada ng Tsina sa pamamagitan ng banta ng pag-aresto sa mga OFW.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Chinese embassy allegedly engaged in coercive pressure through the threat of arresting OFWs.",
+      "note": "Distinct from banta (already taught) — banta is the threat itself, the specific statement made; panggigipit is the broader campaign of ongoing pressure that a threat is often just one tool within.",
+      "tiesTo": "Philippines — the Chinese Embassy's threat to arrest Filipino workers over the Sanjia-Steel dispute"
+    }
+  ]
+}

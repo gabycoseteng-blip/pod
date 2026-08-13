@@ -1,0 +1,31 @@
+{
+  "throughline": "Markets hit fresh records on cooling CPI while the AI-power buildout's capital discipline spreads from turbines into long-duration storage (hyperscalers now bankrolling LDES) and into hard grid-reliability rules (FERC/NERC mandating data-center ride-through after a 3.8GW Virginia trip), even as geopolitical friction sharpens everywhere — Ukraine strikes the Russian navy directly, North Korea tests a second missile in a week, Congress fast-tracks 100% tariffs on Russian-oil buyers — and China's leasehold crisis and the Philippines' new China-threat/impeachment drama both expose stress sitting just beneath the calm tape",
+  "stories": [
+    "ukraine-strikes-black-sea-fleet-novorossiysk",
+    "north-korea-2nd-missile-test-week",
+    "us-july-cpi-3.4pct-cooling-core-2.5pct",
+    "wendys-trian-peltz-take-private-bid",
+    "nebius-coreweave-neocloud-earnings-blowout",
+    "house-fast-tracks-russia-iran-sanctions-100pct-tariff",
+    "trump-renews-effort-fire-fed-governor-lisa-cook",
+    "china-property-leasehold-crisis-shanghai-fix",
+    "ctvc-ldes-hyperscaler-buyer-form-energy-google-rofr",
+    "pjm-computational-load-ride-through-nerc-ferc-3.8gw-trip",
+    "caterpillar-q2-record-72b-backlog-datacenter-gensets",
+    "paocc-china-threat-arrest-filipino-workers-sanjia-steel",
+    "duterte-impeachment-day16-coa-p73m-liability",
+    "philippines-peso-61.26-worst-drop-since-april",
+    "sid-motion-beers-gallery-closures-london",
+    "deborah-levy-position-of-spoons-essays",
+    "wallacewells-sarin-ai-bubble-or-not-nyt",
+    "noahsmith-banning-data-centers-economy",
+    "one-good-thing-voyager2-big-bang-power-maneuver"
+  ],
+  "explainers": [
+    "ride-through reliability requirements as the demand-side mirror of generator ride-through rules",
+    "bring-your-own-capacity storage financing shifting non-lithium LDES past lithium-ion on hyperscaler criteria (speed, cycle life) over lowest cost",
+    "leasehold vs freehold commercial property collateral risk under debt-deflation",
+    "right-of-first-refusal supplier lockups as the same logic across turbines and storage"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-14",
+  "cards": [
+    {
+      "id": "2026-08-14-zh-1",
+      "lang": "Mandarin",
+      "word": "不容忽视",
+      "pinyin": "bùróng hūshì",
+      "pronunciation": "boo-rong-hoo-shrr",
+      "tones": "4·2·1·4",
+      "meaning": "cannot be ignored / cannot be tolerated to be overlooked (a risk or problem serious enough that ignoring it has real consequences)",
+      "example": "今天Ascend Analytics的报告说，到2030年，得州超过八成的大型用电项目可能拿不到匹配的发电量——这个风险不容忽视。",
+      "examplePinyin": "Jīntiān Ascend Analytics de bàogào shuō, dào 2030 nián, dézhōu chāoguò bāchéng de dàxíng yòngdiàn xiàngmù kěnéng ná bù dào pǐpèi de fādiànliàng — zhège fēngxiǎn bùróng hūshì.",
+      "exampleMeaning": "Today's Ascend Analytics report says that by 2030, more than 80% of Texas's large power-hungry projects may not have matching generation available — this risk cannot be ignored.",
+      "note": "书面语/formal register — common in policy reports and analyst notes, typically paired with 问题/风险/趋势 (problem/risk/trend). Stronger than 值得关注 (worth paying attention to): 值得关注 just suggests noting something, while 不容忽视 is a warning that ignoring it carries real consequences.",
+      "tiesTo": "Energy segment — Ascend Analytics's warning that most large Texas loads chasing power won't have matching generation by 2030"
+    },
+    {
+      "id": "2026-08-14-zh-2",
+      "lang": "Mandarin",
+      "word": "由此可见",
+      "pinyin": "yóucǐ kějiàn",
+      "pronunciation": "yo-tsuh-kuh-jyen",
+      "tones": "2·3·3·4",
+      "meaning": "from this it can be seen that / this shows that (draws a conclusion from evidence just stated)",
+      "example": "今天中国七月的工业增加值和零售数据同时不及预期，可以说：由此可见，出口和消费两方面同时放缓，问题不只是外部需求。",
+      "examplePinyin": "Jīntiān Zhōngguó qīyuè de gōngyè zēngjiāzhí hé língshòu shùjù tóngshí bùjí yùqī, kěyǐ shuō: yóucǐ kějiàn, chūkǒu hé xiāofèi liǎng fāngmiàn tóngshí fàng huǎn, wèntí bù zhǐ shì wàibù xūqiú.",
+      "exampleMeaning": "Today China's July industrial-production and retail figures both missed forecasts at once, so you could say: from this it can be seen that both exports and consumption are slowing at the same time — this isn't just an external-demand problem.",
+      "note": "书面语/formal transition phrase, usually opens a sentence that summarizes preceding evidence — emphasizes the reasoning process. Casual speech uses simpler 看来 or 看样子 instead, which don't carry the same argumentative rigor as 由此可见.",
+      "tiesTo": "China segment — July industrial production and retail sales both missing forecasts at once"
+    },
+    {
+      "id": "2026-08-14-tl-1",
+      "lang": "Tagalog",
+      "word": "katiwalian",
+      "pinyin": "",
+      "pronunciation": "ka-ti-wa-li-AN",
+      "tones": "",
+      "meaning": "corruption, malfeasance (abuse of entrusted authority, not just petty wrongdoing)",
+      "example": "Idinetalye ni dating DPWH Sekretaryo Bonoan ang umano'y katiwalian sa 24-bilyong-pisong \"leadership fund.\"",
+      "examplePinyin": "",
+      "exampleMeaning": "Former DPWH Secretary Bonoan detailed the alleged corruption in the 24-billion-peso \"leadership fund.\"",
+      "note": "Stronger and more formal than the colloquial korap — korap reads as gossip or a casual accusation, while katiwalian is the term used in news reporting, investigative pieces, and formal proceedings like a Sandiganbayan case.",
+      "tiesTo": "Philippines — the ₱24 billion DPWH \"leadership fund\" testimony before the Sandiganbayan"
+    },
+    {
+      "id": "2026-08-14-tl-2",
+      "lang": "Tagalog",
+      "word": "pag-aalinlangan",
+      "pinyin": "",
+      "pronunciation": "pag-a-a-lin-la-NGAN",
+      "tones": "",
+      "meaning": "hesitation, uncertainty (doubt over whether to act, especially in a deliberative or institutional sense)",
+      "example": "Dahil sa mahinang GDP, nasa pag-aalinlangan ang BSP kung ipagpapatuloy pa nila ang mahigpit na patakaran sa interes.",
+      "examplePinyin": "",
+      "exampleMeaning": "Because of the weak GDP print, the BSP is in a state of hesitation over whether to continue its tight interest-rate policy.",
+      "note": "Weightier and more institutional than the casual medyo nag-aalangan — the casual phrase sounds like everyday personal indecision, while pag-aalinlangan describes a more deliberate, consequential wavering, the kind a central bank weighs in public.",
+      "tiesTo": "Philippines — BSP Governor Remolona's cautious tone on further rate hikes after a weak Q2 GDP print"
+    }
+  ]
+}

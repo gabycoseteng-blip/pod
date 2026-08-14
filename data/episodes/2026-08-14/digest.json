@@ -1,0 +1,34 @@
+{
+  "throughline": "The AI buildout's binding constraint keeps shifting from capital to physical, legal and political friction — a 550-foot easement stranding a gigawatt of finished Colorado wind, a chip startup betting against four-year transformer lead times, Texas's own forecaster warning most large loads won't have power by 2030, the same day Bloomberg flags Texas's own governor cooling on data-center deals — while markets consolidate after back-to-back records, Iran hardens its Hormuz stance against US claims of control, and Manila's DPWH budget produces a fresh ₱24 billion graft number",
+  "stories": [
+    "iran-hormuz-no-transit-without-permission-rejects-trump-total-control-claim",
+    "huckabee-calls-israeli-settlers-terrorists-qusra-west-bank-siege",
+    "us-market-overview-sp-7798.99-nasdaq-26803.03-dow-53839.99-2nd-record-first-close-above-7800",
+    "smci-blowout-guide-vs-cerebras-q2-miss-ai-capex-split-screen",
+    "thoma-bravo-accelerant-holdings-take-private-4bn-20.25-per-share",
+    "boj-july-summary-faster-hike-pace-signal-yen-159.15",
+    "uk-q2-gdp-0.4pct-7th-straight-quarter-retail-wholesale-flat",
+    "china-july-industrial-production-5.7pct-miss-retail-sales-miss-both-legs-cooling",
+    "generalist-saplings-unstable-ground-founder-childhood-instability-giannini-ellison-turner-lika-shing-lemann",
+    "xcel-psco-colorado-supreme-court-eminent-domain-gen-tie-550ft-easement-1.05gw-stranded-wind",
+    "mitsubishi-power-35gw-turbine-backlog-plus52pct-yoy",
+    "heron-power-100m-factory-chip-based-solid-state-transformer-alternative",
+    "ercot-record-peak-91.1gw-ascend-analytics-80pct-large-loads-no-matching-generation-by-2030",
+    "philippines-dpwh-leadership-fund-24bn-bonoan-testimony-sandiganbayan-zubiri-disputes-lacson-abolish",
+    "philippines-peso-61.343-weakest-2wk-stalled-us-iran-talks-oil-dollar",
+    "philippines-bsp-remolona-q2-gdp-disappointing-not-that-bad-citi-two-more-hikes-5.25pct-yearend",
+    "sothebys-blaquier-collection-450m-van-gogh-chataignier-150-200m-november-sale",
+    "lucas-museum-narrative-art-opens-sept22-la-exposition-park-25-admission-90037-free-access",
+    "giordano-marina-opera-140yr-lost-world-premiere-decca-buratto-de-tommaso",
+    "casselman-nyt-ai-data-cant-keep-up-yale-budget-lab-occupational-churn",
+    "denning-bloomberg-opinion-texas-cools-on-ai-datacenters-abbott",
+    "one-good-thing-postcard-26-years-late-bob-sheppard-copenhagen-2000"
+  ],
+  "explainers": [
+    "gen-tie-lines-as-private-project-infrastructure-not-public-use-under-eminent-domain-law",
+    "transformer-lead-times-as-a-bigger-hardware-bottleneck-than-turbines-and-the-silicon-substitution-bet-against-it",
+    "interconnection-queue-growth-vs-realistic-completion-rate-as-a-hard-physical-cap-independent-of-queue-reform-politics",
+    "waiting-for-clean-aggregate-labor-data-to-resolve-ai-disruption-is-itself-a-policy-choice-favoring-inaction"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -29,15 +29,15 @@
         },
         {
           "speaker": "ALEX",
-          "text": "That's the same day Bloomberg flags Texas's own governor cooling on the data-center deals he was championing less than a year ago. And in the Philippines, a fresh graft number just landed — twenty-four billion pesos, straight out of the public-works budget.",
+          "text": "That's the same day Bloomberg flags Texas's own governor cooling on the data-center deals he was championing less than a year ago. And in the Philippines, a fresh graft number just landed — 24 billion pesos, straight out of the public-works budget.",
           "startSec": 34.52,
-          "endSec": 50.09
+          "endSec": 49.55
         },
         {
           "speaker": "SAM",
           "text": "Plenty to get through. Let's start with the world.",
-          "startSec": 50.09,
-          "endSec": 53.12
+          "startSec": 49.55,
+          "endSec": 52.57
         }
       ],
       "startSec": 0.0
@@ -49,65 +49,65 @@
         {
           "speaker": "ALEX",
           "text": "Iran's joint military command declared yesterday that no vessel can transit the Strait of Hormuz without Tehran's permission — flatly rejecting Trump's claim of \"total control\" over the strait.",
-          "startSec": 53.12,
-          "endSec": 64.81
+          "startSec": 52.57,
+          "endSec": 64.26
         },
         {
           "speaker": "SAM",
           "text": "Senior political-military official Rasoul Sanaei-Rad went further, saying Iran won't actually reopen the strait until the US meets its commitments under last month's interim deal. Shipping traffic through Hormuz is reportedly sitting at three-month lows.",
-          "startSec": 64.81,
-          "endSec": 80.19
+          "startSec": 64.26,
+          "endSec": 79.65
         },
         {
           "speaker": "ALEX",
           "text": "That's a genuinely different posture from where we left this story — Tehran isn't just stalling on reparations anymore, it's publicly contesting the basic premise that the US has any control there at all.",
-          "startSec": 80.19,
-          "endSec": 92.55
+          "startSec": 79.65,
+          "endSec": 92.01
         },
         {
           "speaker": "SAM",
           "text": "Which matters beyond the optics — it's the same oil-price uncertainty that's now showing up directly in the Philippines peso, which we'll get to.",
-          "startSec": 92.55,
-          "endSec": 101.33
+          "startSec": 92.01,
+          "endSec": 100.79
         },
         {
           "speaker": "ALEX",
           "text": "Second story — US Ambassador to Israel Mike Huckabee, a longtime settlement-movement ally, called an Israeli settler siege in the West Bank town of Qusra an \"act of terror\" yesterday.",
-          "startSec": 101.33,
-          "endSec": 112.42
+          "startSec": 100.79,
+          "endSec": 111.87
         },
         {
           "speaker": "SAM",
           "text": "Settlers besieged three Palestinian homes — including one belonging to a US citizen — trapping around fifteen people, two of them children, without power or water for days. Israel's military dismantled two outposts and detained one Israeli in response.",
-          "startSec": 112.42,
-          "endSec": 127.68
+          "startSec": 111.87,
+          "endSec": 127.14
         },
         {
           "speaker": "ALEX",
           "text": "The word choice is the story here. American officials essentially never apply \"terrorist\" to settlers — that language is reserved for the other side. Coming from Huckabee specifically, of all people, it's a real signal.",
-          "startSec": 127.68,
-          "endSec": 140.95
+          "startSec": 127.14,
+          "endSec": 140.4
         },
         {
           "speaker": "SAM",
           "text": "Worth watching whether that language holds or gets walked back in the next news cycle. Either way, it's a notable crack in a normally very disciplined US line.",
-          "startSec": 140.95,
-          "endSec": 150.58
+          "startSec": 140.4,
+          "endSec": 150.03
         },
         {
           "speaker": "ALEX",
           "text": "And it lands at an awkward moment for Washington generally — an administration trying to hold together both a fragile Gaza framework and a stalled Hormuz track can't really afford its own ambassador freelancing on language this loaded, even in service of a legitimate rebuke.",
-          "startSec": 150.58,
-          "endSec": 167.23
+          "startSec": 150.03,
+          "endSec": 166.69
         },
         {
           "speaker": "SAM",
           "text": "Two stories, same underlying pattern really — actors testing exactly how far rhetoric can move before it forces an actual policy response.",
-          "startSec": 167.23,
-          "endSec": 175.59
+          "startSec": 166.69,
+          "endSec": 175.05
         }
       ],
-      "startSec": 53.1
+      "startSec": 52.6
     },
     {
       "raw": "SEGMENT ONE — MARKET OVERVIEW",
@@ -116,47 +116,47 @@
         {
           "speaker": "ALEX",
           "text": "On the tape — Thursday was record number two in a row. S&P 500 closed at 7,798.99, up 0.65%, its first close above 7,800. Nasdaq 26,803.03, up 0.81%, led by Meta, Micron and Netflix.",
-          "startSec": 175.59,
-          "endSec": 186.61
+          "startSec": 175.05,
+          "endSec": 186.07
         },
         {
           "speaker": "SAM",
           "text": "Dow barely moved, up 0.13% to 53,839.99. Russell 2000 up 0.24% to 3,052.85. Ten-year sitting at 4.68% — that print's actually two days stale, nothing fresher available this morning, so take it as a marker, not gospel.",
-          "startSec": 186.61,
-          "endSec": 199.76
+          "startSec": 186.07,
+          "endSec": 199.21
         },
         {
           "speaker": "ALEX",
           "text": "Oil's flat — Brent 87.18, up just 0.13%. WTI around 81.30, essentially unchanged. Gold down slightly, 4,407.50, off 0.29% — no safe-haven bid despite the Hormuz rhetoric.",
-          "startSec": 199.76,
-          "endSec": 210.06
+          "startSec": 199.21,
+          "endSec": 209.51
         },
         {
           "speaker": "SAM",
           "text": "Today's tape looks genuinely quiet after that — Europe's mixed, FTSE down 0.3%, CAC flat, DAX actually up half a percent bucking the trend. Asia's mixed too, and US futures are little-changed heading in.",
-          "startSec": 210.06,
-          "endSec": 222.35
+          "startSec": 209.51,
+          "endSec": 221.81
         },
         {
           "speaker": "ALEX",
           "text": "No fresh catalyst overnight — Thursday's CPI-driven record run is still the story propping up sentiment. Today's just digestion.",
-          "startSec": 222.35,
-          "endSec": 230.1
+          "startSec": 221.81,
+          "endSec": 229.56
         },
         {
           "speaker": "SAM",
           "text": "Worth flagging the stale ten-year print again, because it matters for how you read today — if yields actually moved meaningfully since Wednesday, this calm surface could be hiding more than it's showing. We'll know for certain by Monday.",
-          "startSec": 230.1,
-          "endSec": 244.46
+          "startSec": 229.56,
+          "endSec": 243.91
         },
         {
           "speaker": "ALEX",
           "text": "Until then, treat today as a hold-your-breath session — nothing's forcing a move either way, and that's exactly the kind of tape where a single surprise headline does outsized damage.",
-          "startSec": 244.46,
-          "endSec": 255.54
+          "startSec": 243.91,
+          "endSec": 255.0
         }
       ],
-      "startSec": 175.6
+      "startSec": 175.1
     },
     {
       "raw": "SEGMENT ONE — U.S. BUSINESS",
@@ -165,41 +165,41 @@
         {
           "speaker": "SAM",
           "text": "Two AI-infrastructure earnings landed Thursday and went in completely opposite directions. Super Micro rallied more than 6% on a blowout guide — adjusted EPS of 1.01 to 1.10 dollars against a 76-cent consensus, revenue guide of 14.5 to 15.5 billion.",
-          "startSec": 255.54,
-          "endSec": 270.62
+          "startSec": 255.0,
+          "endSec": 270.08
         },
         {
           "speaker": "ALEX",
           "text": "Cerebras went the other way, down 14% after Q2 revenue of 180 million missed the 194 million estimate. Same AI-datacenter trade, same week, completely different verdict — the pattern we've tracked all summer on hyperscaler earnings, just one tier down the supply chain now.",
-          "startSec": 270.62,
-          "endSec": 287.16
+          "startSec": 270.08,
+          "endSec": 286.62
         },
         {
           "speaker": "SAM",
           "text": "Second story — Thoma Bravo is taking insurance platform Accelerant Holdings private, 20.25 dollars a share cash, a 49% premium to Wednesday's close. Deal's worth more than 4 billion.",
-          "startSec": 287.16,
-          "endSec": 298.18
+          "startSec": 286.62,
+          "endSec": 297.64
         },
         {
           "speaker": "ALEX",
           "text": "Largest holder Altamont Capital, which controls about 82% of the vote, has already agreed to support it, so this isn't speculative — expected to close in the first half of 2027.",
-          "startSec": 298.18,
-          "endSec": 308.9
+          "startSec": 297.64,
+          "endSec": 308.36
         },
         {
           "speaker": "SAM",
           "text": "Another name on a take-private list that's gotten genuinely long this year. Once a board and a controlling shareholder are aligned like this, the stock just trades to the deal price and stops reacting to anything else.",
-          "startSec": 308.9,
-          "endSec": 322.11
+          "startSec": 308.36,
+          "endSec": 321.56
         },
         {
           "speaker": "ALEX",
           "text": "Two very different sectors, same underlying signal — capital's getting more selective and more decisive at the same time. Reward conviction fast, punish a miss fast, and take a whole company off the public market the moment control and price line up.",
-          "startSec": 322.11,
-          "endSec": 337.25
+          "startSec": 321.56,
+          "endSec": 336.71
         }
       ],
-      "startSec": 255.5
+      "startSec": 255.0
     },
     {
       "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
@@ -208,20 +208,20 @@
         {
           "speaker": "SAM",
           "text": "In Japan — the Bank of Japan's July meeting summary flagged rising inflation risk, with at least one board member floating a faster hike pace than markets had priced.",
-          "startSec": 337.25,
-          "endSec": 347.31
+          "startSec": 336.71,
+          "endSec": 346.76
         },
         {
           "speaker": "ALEX",
           "text": "Yen firmed on it, about 0.2% to 159.15 against the dollar — pulling back from the 160 level that's become the market's informal intervention trigger. July producer prices came in at 7.2% year-on-year, just under the 7.4% forecast and down slightly from June.",
-          "startSec": 347.31,
-          "endSec": 362.93
+          "startSec": 346.76,
+          "endSec": 362.39
         },
         {
           "speaker": "SAM",
           "text": "So the signal's consistent — inflation's still hot enough in Japan that a \"faster than expected\" framing from the BOJ carries real weight, even without an actual move yet.",
-          "startSec": 362.93,
-          "endSec": 373.29
+          "startSec": 362.39,
+          "endSec": 372.74
         },
         {
           "speaker": "ALEX",
@@ -248,7 +248,7 @@
           "endSec": 417.64
         }
       ],
-      "startSec": 337.2
+      "startSec": 336.7
     },
     {
       "raw": "SEGMENT ONE — CHINA",
@@ -444,21 +444,21 @@
         },
         {
           "speaker": "SAM",
-          "text": "And Texas just handed us the clearest evidence yet that all of this matters. ERCOT hit a new all-time peak demand of 91.1 gigawatts on July 22nd, six percent above the old record — but Ascend Analytics is now warning that more than 80% of the new large loads chasing power in Texas won't actually have matching generation online by 2030.",
+          "text": "And Texas just handed us the clearest evidence yet that all of this matters. ERCOT hit a new all-time peak demand of 91.1 gigawatts on July 22nd, 6% above the old record — but Ascend Analytics is now warning that more than 80% of the new large loads chasing power in Texas won't actually have matching generation online by 2030.",
           "startSec": 899.32,
-          "endSec": 918.58
+          "endSec": 918.06
         },
         {
           "speaker": "ALEX",
           "text": "The interconnection queue has grown by over 200 gigawatts since 2024, and Ascend puts the realistic completion rate at only about 55%. So even setting aside the politics of the queue-cull fight we've covered before, there's a hard physical cap here — roughly half the projects that get through the process still won't have power to run on.",
-          "startSec": 918.58,
-          "endSec": 937.95
+          "startSec": 918.06,
+          "endSec": 937.43
         },
         {
           "speaker": "SAM",
           "text": "Three different bottlenecks, three different fixes being tried — a legal fight over 550 feet of land, a chip company betting against a four-year transformer wait, and a state grid operator's own forecaster admitting the math doesn't work at current build rates. None of them are about capital anymore. Capital's the one input in this cycle that's never actually been the constraint.",
-          "startSec": 937.95,
-          "endSec": 959.77
+          "startSec": 937.43,
+          "endSec": 959.26
         }
       ],
       "startSec": 717.6
@@ -470,50 +470,50 @@
         {
           "speaker": "ALEX",
           "text": "In the Philippines — a genuinely fresh corruption story broke this week, and it's a big number. Former DPWH Secretary Manuel Bonoan testified before the Sandiganbayan on Tuesday that every single senator received a share of what he called a 24-billion-peso \"leadership fund\" tucked into the 2025 Department of Public Works budget.",
-          "startSec": 959.77,
-          "endSec": 978.63
+          "startSec": 959.26,
+          "endSec": 978.11
         },
         {
           "speaker": "SAM",
           "text": "At least 500 million pesos per senator, up to a billion for committee chairs, according to the testimony. Senate President Migz Zubiri is disputing that 24-billion figure outright, and Senator Panfilo Lacson renewed his call to abolish the fund entirely yesterday, calling it — his words — \"not pork barrel, worse.\"",
-          "startSec": 978.63,
-          "endSec": 996.62
+          "startSec": 978.11,
+          "endSec": 996.11
         },
         {
           "speaker": "ALEX",
           "text": "The Palace weighed in today too — spokesperson Claire Castro said Marcos has \"no personal knowledge\" of the fund, and that nothing like it exists in the 2027 budget currently before Congress.",
-          "startSec": 996.62,
-          "endSec": 1007.54
+          "startSec": 996.11,
+          "endSec": 1007.02
         },
         {
           "speaker": "SAM",
           "text": "\"No personal knowledge\" is doing a lot of work in that sentence. It answers a much narrower question than the one everyone's actually asking, and it leaves the door open either way depending on what investigators turn up next.",
-          "startSec": 1007.54,
-          "endSec": 1020.45
+          "startSec": 1007.02,
+          "endSec": 1019.94
         },
         {
           "speaker": "ALEX",
           "text": "On the economic side, the peso closed at 61.343 to the dollar Thursday, down about 16 centavos, its weakest level in two weeks. The driver ties directly back to our first headline today — the stalled US-Iran talks are pushing oil and the dollar higher together, and the Philippines imports essentially all of its oil.",
-          "startSec": 1020.45,
-          "endSec": 1038.56
+          "startSec": 1019.94,
+          "endSec": 1038.05
         },
         {
           "speaker": "SAM",
           "text": "BSP Governor Eli Remolona put a fresh, notably more sanguine spin on that same growth number today, calling it \"disappointing, but not that bad\" — a softer read than the central bank's tone when the 2.3% print first landed. He says weak growth gives room to ease up on tightening, but wants clearer disinflation evidence before actually doing that.",
-          "startSec": 1038.56,
-          "endSec": 1058.45
+          "startSec": 1038.05,
+          "endSec": 1057.93
         },
         {
           "speaker": "ALEX",
           "text": "Here's the tension worth flagging, though — Citi's own economists are still penciling in two more 25-basis-point hikes this year, in August and October, landing the policy rate at 5.25% by year-end. So Remolona's public tone right now is running noticeably softer than what the market's own forecasters still expect the BSP to actually do.",
-          "startSec": 1058.45,
-          "endSec": 1077.81
+          "startSec": 1057.93,
+          "endSec": 1077.3
         },
         {
           "speaker": "SAM",
           "text": "Quick status check on the impeachment trial, since we've been following it closely — day fifteen wrapped Tuesday with the Senate adjourning after a sharp clash between the defense and prosecution over COA testimony. Next session isn't until Monday the 17th, so nothing new to report there today.",
-          "startSec": 1077.81,
-          "endSec": 1094.67
+          "startSec": 1077.3,
+          "endSec": 1094.16
         },
         {
           "speaker": "ALEX",
@@ -534,7 +534,7 @@
           "endSec": 1148.81
         }
       ],
-      "startSec": 959.8
+      "startSec": 959.3
     },
     {
       "raw": "SEGMENT FOUR — VOCAB OF THE DAY",
@@ -724,45 +724,45 @@
         },
         {
           "speaker": "ALEX",
-          "text": "The counter is that waiting for clean, aggregate data to settle the question is itself a choice, and it favors inaction. AI-attributed layoffs at Amazon, Salesforce, Meta, Accenture and IBM topped roughly fifty thousand in a single bad month last October, and companies are increasingly naming AI explicitly in their layoff filings even if economists can't yet prove causation in the topline numbers.",
+          "text": "The counter is that waiting for clean, aggregate data to settle the question is itself a choice, and it favors inaction. AI-attributed layoffs at Amazon, Salesforce, Meta, Accenture and IBM topped roughly 50,000 in a single bad month last October, and companies are increasingly naming AI explicitly in their layoff filings even if economists can't yet prove causation in the topline numbers.",
           "startSec": 1530.88,
-          "endSec": 1554.22
+          "endSec": 1553.76
         },
         {
           "speaker": "SAM",
           "text": "\"Too soon to tell\" can be a genuinely honest position, but it can also quietly become a permanent alibi — the data will always lag the disruption it's trying to measure, and by the time it's clean enough to be certain, the disruption's already happened to the people it happened to.",
-          "startSec": 1554.22,
-          "endSec": 1570.68
+          "startSec": 1553.76,
+          "endSec": 1570.21
         },
         {
           "speaker": "ALEX",
           "text": "Second piece — Liam Denning at Bloomberg Opinion, \"When Texas Cools on AI Data Centers, Big Tech Has a Problem,\" published yesterday.",
-          "startSec": 1570.68,
-          "endSec": 1578.44
+          "startSec": 1570.21,
+          "endSec": 1577.98
         },
         {
           "speaker": "SAM",
           "text": "His steelman ties directly into our energy segment today. Governor Abbott stood on a stage with Alphabet's Sundar Pichai less than a year ago, calling Texas the epicenter of AI development — and now he's visibly cooler on the buildout, as grid strain, local opposition and ratepayer anger have all sharpened. Denning's point is that if even the most AI-friendly state in the country is hedging, that's a leading indicator for how hyperscalers should be pricing political risk everywhere else.",
-          "startSec": 1578.44,
-          "endSec": 1607.15
+          "startSec": 1577.98,
+          "endSec": 1606.69
         },
         {
           "speaker": "ALEX",
           "text": "The counter is that local friction in one or two counties isn't the same thing as statewide policy risk. ERCOT's market structure and a genuinely pro-growth legislature both have strong incentives to keep courting hyperscaler tax revenue, and the actual grid buildout — the turbines, the transformers, the interconnection fights we just covered — keeps proceeding regardless of one governor's rhetorical mood.",
-          "startSec": 1607.15,
-          "endSec": 1631.02
+          "startSec": 1606.69,
+          "endSec": 1630.56
         },
         {
           "speaker": "SAM",
           "text": "Read those two together with everything else in today's show, and there's a real pattern — the AI story keeps getting harder to cleanly measure or cleanly predict, on the labor-market side and the political-support side both, exactly while the physical buildout underneath it keeps moving forward on its own momentum regardless.",
-          "startSec": 1631.02,
-          "endSec": 1650.16
+          "startSec": 1630.56,
+          "endSec": 1649.7
         },
         {
           "speaker": "ALEX",
           "text": "Which might be the most honest one-line summary of where this cycle actually is right now — nobody can prove the disruption yet, nobody can stop the buildout yet, and both of those things are true for the same underlying reason: reality's simply moving faster than anyone's ability to measure or govern it.",
-          "startSec": 1650.16,
-          "endSec": 1668.02
+          "startSec": 1649.7,
+          "endSec": 1667.56
         }
       ],
       "startSec": 1493.1
@@ -774,53 +774,53 @@
         {
           "speaker": "SAM",
           "text": "One good thing today — a postcard that took twenty-six years to arrive.",
-          "startSec": 1668.02,
-          "endSec": 1672.17
+          "startSec": 1667.56,
+          "endSec": 1671.7
         },
         {
           "speaker": "ALEX",
           "text": "Bob Sheppard, in Long Beach, California, opened his mailbox this week and found a postcard his parents had mailed him from Copenhagen back in July of 2000. Signed simply \"M and D\" — Mom and Dad.",
-          "startSec": 1672.17,
-          "endSec": 1683.49
+          "startSec": 1671.7,
+          "endSec": 1683.02
         },
         {
           "speaker": "SAM",
           "text": "Both of his parents have since passed — his mother four years ago, his father six years ago. The postal service has no real explanation for where it sat for a quarter of a century, or why it finally moved now.",
-          "startSec": 1683.49,
-          "endSec": 1695.68
+          "startSec": 1683.02,
+          "endSec": 1695.22
         },
         {
           "speaker": "ALEX",
           "text": "There's something genuinely lovely about a small, ordinary piece of mail outlasting the two people who sent it, and then landing in exactly the right hands anyway, decades later than planned.",
-          "startSec": 1695.68,
-          "endSec": 1706.83
+          "startSec": 1695.22,
+          "endSec": 1706.36
         },
         {
           "speaker": "SAM",
           "text": "Sheppard said it felt like hearing from them again, out of nowhere, on an otherwise completely normal day. Sometimes the good thing really is just that simple.",
-          "startSec": 1706.83,
-          "endSec": 1716.11
+          "startSec": 1706.36,
+          "endSec": 1715.64
         },
         {
           "speaker": "ALEX",
           "text": "That's the show for today.",
-          "startSec": 1716.11,
-          "endSec": 1717.63
+          "startSec": 1715.64,
+          "endSec": 1717.16
         },
         {
           "speaker": "SAM",
           "text": "That's The Morning Commute. We'll see you tomorrow.",
-          "startSec": 1717.63,
-          "endSec": 1720.6
+          "startSec": 1717.16,
+          "endSec": 1720.14
         },
         {
           "speaker": "ALEX",
           "text": "Take care, everyone.",
-          "startSec": 1720.6,
-          "endSec": 1721.77
+          "startSec": 1720.14,
+          "endSec": 1721.3
         }
       ],
-      "startSec": 1668.0
+      "startSec": 1667.6
     }
   ]
 }

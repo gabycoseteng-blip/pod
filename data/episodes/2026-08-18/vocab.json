@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-18",
+  "cards": [
+    {
+      "id": "2026-08-18-zh-1",
+      "lang": "Mandarin",
+      "word": "换句话说",
+      "pinyin": "huàn jù huà shuō",
+      "pronunciation": "hwan-jyew-hwa-shwo",
+      "tones": "4·4·4·1",
+      "meaning": "in other words / to put it another way (rephrases a technical point in plainer terms)",
+      "example": "SemiAnalysis算出，PJM的模型少算了大约四十亿瓦的现有产能——换句话说，只要修正这四十亿瓦的误差，两年的拍卖价格本可以便宜一百一十六亿美元。",
+      "examplePinyin": "SemiAnalysis suàn chū, PJM de móxíng shǎo suàn le dàyuē sìshí yì wǎ de xiànyǒu chǎnnéng — huàn jù huà shuō, zhǐyào xiūzhèng zhè sìshí yì wǎ de wùchā, liǎng nián de pāimài jiàgé běn kěyǐ piányi yībǎi yīshíliù yì měiyuán.",
+      "exampleMeaning": "SemiAnalysis calculated that PJM's model undercounts about 4 gigawatts of existing capacity — in other words, correcting just that 4-gigawatt error would have made two years of auction prices $11.6 billion cheaper.",
+      "note": "书面语/口语皆可 — bridges written analysis and spoken explanation, common when an analyst restates a technical finding for a general audience. Near-synonym contrast: 也就是说 (a lighter, more immediate restating — 'that is to say') vs 换句话说 (a deliberate rephrase, often making a technical point more accessible) vs 简而言之 (summarizes a conclusion rather than rephrasing a point).",
+      "tiesTo": "Deep Dive — SemiAnalysis's finding that PJM's capacity model undercredits ~4GW, worth $11.6B across two auctions"
+    },
+    {
+      "id": "2026-08-18-zh-2",
+      "lang": "Mandarin",
+      "word": "潜在",
+      "pinyin": "qiánzài",
+      "pronunciation": "chyen-dzai",
+      "tones": "2·4",
+      "meaning": "potential, latent (a risk or possibility that exists but hasn't materialized yet)",
+      "example": "霍尔木兹海峡的协议一旦到期，市场立刻重新计入这个潜在风险——原油涨到每桶90.71美元，三十年期美债收益率升到5.31%，创2007年6月以来新高。",
+      "examplePinyin": "Huò'ěrmùzī Hǎixiá de xiéyì yīdàn dàoqí, shìchǎng lìkè chóngxīn jìrù zhège qiánzài fēngxiǎn — yuányóu zhǎng dào měi tǒng 90.71 měiyuán, sānshí nián qī měizhài shōuyìlǜ shēng dào 5.31%, chuàng 2007 nián liùyuè yǐlái xīn gāo.",
+      "exampleMeaning": "The moment the Hormuz Strait truce lapsed, the market immediately re-priced this potential risk — oil rose to $90.71 a barrel, and the 30-year Treasury yield climbed to 5.31%, its highest since June 2007.",
+      "note": "书面语/formal register, standard in risk and finance writing — pairs with 风险/影响/威胁/客户 (潜在风险, 潜在影响). Near-synonym contrast: 潜在 (a possibility that could still happen) vs 现实 (actual, already-realized) — 潜在风险 hasn't hit yet but is being priced in; 实际风险 already has.",
+      "tiesTo": "Market overview — oil and yields jumping as the market re-prices the Hormuz risk premium after the truce lapsed"
+    },
+    {
+      "id": "2026-08-18-tl-1",
+      "lang": "Tagalog",
+      "word": "pangungurakot",
+      "pinyin": "",
+      "pronunciation": "pa-ngu-ngu-ra-KOT",
+      "tones": "",
+      "meaning": "plunder, large-scale misappropriation of public funds (more severe and systemic than everyday corruption)",
+      "example": "Sinabi ni dating DPWH Sekretaryong Bonoan sa Sandiganbayan na umano'y dumanas ng malawakang pangungurakot ang 24-bilyong-pisong \"leadership fund\" ng Senado.",
+      "examplePinyin": "",
+      "exampleMeaning": "Former DPWH Secretary Bonoan told the Sandiganbayan that the Senate's 24-billion-peso \"leadership fund\" allegedly suffered widespread plunder.",
+      "note": "Mas malakas at mas pormal kaysa sa katiwalian (corruption/malfeasance in general) — pangungurakot ay tumutukoy partikular sa malawakan, sistematikong pagnanakaw ng pondo ng bayan, karaniwang salita sa plunder cases sa Sandiganbayan. Kadalasang kasama ang pondo, kaban ng bayan.",
+      "tiesTo": "Philippines — the ₱24 billion Senate \"leadership fund\" testimony before the Sandiganbayan"
+    },
+    {
+      "id": "2026-08-18-tl-2",
+      "lang": "Tagalog",
+      "word": "pagtanggi",
+      "pinyin": "",
+      "pronunciation": "pag-tang-GI",
+      "tones": "",
+      "meaning": "denial, refusal (a formal rejection of a claim or accusation)",
+      "example": "Sa kabila ng testimonya ni Bonoan, mariing ipinahayag ni dating Senate President Zubiri ang kanyang pagtanggi sa alegasyon.",
+      "examplePinyin": "",
+      "exampleMeaning": "Despite Bonoan's testimony, former Senate President Zubiri firmly issued his denial of the allegation.",
+      "note": "Pormal, karaniwang ginagamit sa balita kapag may opisyal na tumatanggi sa akusasyon — mas mabigat kaysa sa payak na 'ayaw' sa pang-araw-araw na usapan. Magkasalungat sa pag-amin (admission/confession).",
+      "tiesTo": "Philippines — Zubiri's public denial of the leadership-fund allegations"
+    }
+  ]
+}

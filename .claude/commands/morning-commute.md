@@ -146,6 +146,20 @@ one *feature/thread*; this is the day's *contested argument*. Pick **fresh** pie
 (cross-check the ledger), and have a backup ready. State attribution clearly in the
 script.
 
+**One Good Thing — favor a person over a phenomenon.** Prefer a genuine
+human-interest story: someone overcoming real adversity, or someone else's quiet,
+unprompted generosity that changed their trajectory (a boss quietly covering an
+employee's tuition, a family reunited after decades, a stranger's small act with
+an outsized effect). These land harder than nature/wildlife/space trivia (whale
+counts, fossil finds, eclipses) — pleasant, but nothing to feel something about.
+Use a wildlife/space item only when no solid human-interest story turns up that
+day. Sources: **Good News Network**, **CBS News's "The Uplift,"** **Sunny Skyz**.
+Pick a story with a clean arc that needs no editorializing — no caveat, no
+counter-take, just the story — and cross-check the ledger, since these outlets
+recirculate the same stories for days. Have a backup ready in case the primary
+turns out to collide with an older episode (`check_dedup.py` runs against the
+**full** ledger, not just the recent-8 window).
+
 **Energy / data centers / utilities — research deep.** Assume the listener knows
 the AI-infrastructure capex cycle cold (she works in energy/data-center development —
 pitch it to a practitioner, never a 101). Pull the sophisticated sources, not general

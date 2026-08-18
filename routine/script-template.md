@@ -59,4 +59,4 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 <!-- ~3 min. 1–2 notable opinion pieces/editorials shaping the debate right now (NYT/WSJ/FT/WaPo/Bloomberg Opinion/Economist/Atlantic/Foreign Affairs + popular Substack/viral op-eds). Name the writer + outlet, STEELMAN the argument, then the sharp COUNTER-take. Distinct from the Deep Dive — this is the day's ARGUMENT, not a feature. Fresh vs the ledger; attribute clearly. -->
 
 ## SEGMENT SEVEN — ONE GOOD THING
-<!-- One uplifting story from anywhere; warm sign-off. (Do NOT include driving references unless the listener actually drives.) -->
+<!-- One uplifting story — PREFER a personal human-interest story (someone's quiet, unprompted generosity; a family reunited; an individual overcoming adversity) over nature/wildlife/space trivia (whale counts, fossil finds, eclipses), which read as trivia rather than something to feel something about. Clean arc, zero editorializing, no caveat needed. Warm sign-off. (Do NOT include driving references unless the listener actually drives.) -->

@@ -698,9 +698,9 @@
         },
         {
           "speaker": "SAM",
-          "text": "One more on the acquisitions side — the Rijksmuseum has just received a rare 17th-century book of drawings, donated by the Van Eeghen family after more than three hundred years of private ownership.",
+          "text": "One more on the acquisitions side — the Rijksmuseum has just received a rare 17th-century book of drawings, donated by the Van Eeghen family after more than 300 years of private ownership.",
           "startSec": 1381.9,
-          "endSec": 1393.67
+          "endSec": 1393.08
         },
         {
           "speaker": "ALEX",
@@ -796,9 +796,9 @@
       "turns": [
         {
           "speaker": "SAM",
-          "text": "Let's end on something warm. In southern Italy, a woman threw away a lottery ticket worth one million euros — by accident.",
+          "text": "Let's end on something warm. In southern Italy, a woman threw away a lottery ticket worth 1 million euros — by accident.",
           "startSec": 1601.66,
-          "endSec": 1608.48
+          "endSec": 1608.37
         },
         {
           "speaker": "ALEX",
@@ -820,27 +820,27 @@
         },
         {
           "speaker": "SAM",
-          "text": "And they found it. Intact. One million euros, recovered from a garbage truck by people who had absolutely no obligation to spend their day doing that.",
+          "text": "And they found it. Intact. 1 million euros, recovered from a garbage truck by people who had absolutely no obligation to spend their day doing that.",
           "startSec": 1645.08,
-          "endSec": 1654.2
+          "endSec": 1654.08
         },
         {
           "speaker": "ALEX",
           "text": "SANB covered the entire cost of the search themselves — no fee, no fuss, just a company deciding that was the right thing to do for someone in their community.",
-          "startSec": 1654.2,
-          "endSec": 1663.87
+          "startSec": 1654.08,
+          "endSec": 1663.75
         },
         {
           "speaker": "SAM",
           "text": "That's the show for today. I'm Sam.",
-          "startSec": 1663.87,
-          "endSec": 1666.0
+          "startSec": 1663.75,
+          "endSec": 1665.88
         },
         {
           "speaker": "ALEX",
           "text": "And I'm Alex. We'll see you tomorrow.",
-          "startSec": 1666.0,
-          "endSec": 1668.25
+          "startSec": 1665.88,
+          "endSec": 1668.13
         }
       ],
       "startSec": 1601.7

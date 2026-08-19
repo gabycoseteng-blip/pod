@@ -129,7 +129,7 @@ SAM: There's also a genuinely good recovery story — São Paulo police have rec
 ALEX: They've gone back to the Mário de Andrade Library, where they were stolen from. Combined they're worth around 200,000 dollars — modest by art-market standards, but five Candido Portinari works taken in the same December heist are still missing and are suspected of already being sold; one suspect has been arrested.
 SAM: Over to opera — Cecilia Bartoli and Melissa Petit are starring in Gluck's "Orfeo ed Euridice" at the Lucerne Festival on August 23rd, conducted by Gianluca Capuano.
 ALEX: Bartoli in Gluck is about as reliable a pairing as opera offers right now — that's a genuine can't-miss if you're anywhere near Lucerne that week.
-SAM: One more on the acquisitions side — the Rijksmuseum has just received a rare 17th-century book of drawings, donated by the Van Eeghen family after more than three hundred years of private ownership.
+SAM: One more on the acquisitions side — the Rijksmuseum has just received a rare 17th-century book of drawings, donated by the Van Eeghen family after more than 300 years of private ownership.
 ALEX: Three centuries in one family's hands, and it goes on public view today. That's the kind of quiet provenance story that doesn't make headlines the way an auction record does, but it's genuinely significant for scholars — a body of drawings that's essentially been invisible to the public since before the museum itself existed.
 SAM: And on the page — the new NYRB has Laura Marsh reviewing John Lanchester's latest novel, "Look What You Made Me Do."
 ALEX: The premise, per Marsh's review, is a couple whose private language — all the in-jokes and shorthand that make a marriage feel like its own country — gets turned into a weapon against them. Sounds like Lanchester doing what he does best, taking something intimate and domestic and finding the menace inside it.
@@ -147,11 +147,11 @@ SAM: The pushback?
 ALEX: It assumes a level of regime cohesion and staying power that Iran's own economic strain — squeezed by the reparations standoff we covered earlier — may not actually support. Sustaining low-grade conflict indefinitely is a strategy that requires internal discipline, and the same pressure that makes confrontation useful to hardliners could just as easily fracture the coalition holding that strategy together.
 
 ## SEGMENT SEVEN — ONE GOOD THING
-SAM: Let's end on something warm. In southern Italy, a woman threw away a lottery ticket worth one million euros — by accident.
+SAM: Let's end on something warm. In southern Italy, a woman threw away a lottery ticket worth 1 million euros — by accident.
 ALEX: She'd checked it at a tobacconist's machine, which flagged it as "non-payable." She read that as "you didn't win," when it actually meant the prize was too large for that shop to pay out directly. So she binned it.
 SAM: A relative later realized her usual numbers had actually hit, and she called the local waste-management company, SANB, in a bit of a panic.
 ALEX: The company's administrator, Roberto Nicola Toscano, tracked down exactly which collection truck had picked up her neighborhood's trash that day, and led a full crew through a full day of hand-searching an entire truckload at a specialized facility.
-SAM: And they found it. Intact. One million euros, recovered from a garbage truck by people who had absolutely no obligation to spend their day doing that.
+SAM: And they found it. Intact. 1 million euros, recovered from a garbage truck by people who had absolutely no obligation to spend their day doing that.
 ALEX: SANB covered the entire cost of the search themselves — no fee, no fuss, just a company deciding that was the right thing to do for someone in their community.
 SAM: That's the show for today. I'm Sam.
 ALEX: And I'm Alex. We'll see you tomorrow.

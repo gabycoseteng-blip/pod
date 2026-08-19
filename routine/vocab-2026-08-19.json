@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-19",
+  "cards": [
+    {
+      "id": "2026-08-19-zh-1",
+      "lang": "Mandarin",
+      "word": "总之",
+      "pinyin": "zǒng zhī",
+      "pronunciation": "dzong jrr",
+      "tones": "3 · 1",
+      "meaning": "in short; to sum up — introduces a concluding statement",
+      "example": "总之，只要收益率不回落，风险资产就很难喘口气。",
+      "examplePinyin": "zǒng zhī, zhǐ yào shōu yì lǜ bù huí luò, fēng xiǎn zī chǎn jiù hěn nán chuǎn kǒu qì",
+      "exampleMeaning": "In short, as long as yields don't come down, risk assets will struggle to catch a breath.",
+      "note": "Both written and spoken register, but especially common in news/finance broadcasting to snap a long analysis into one takeaway. More formal near-synonym: 总而言之 (zǒng ér yán zhī) — same meaning, heavier and more literary; 总之 is the natural spoken choice. Common pattern: 总之，重点是…… ('in short, the point is...').",
+      "tiesTo": "30-year Treasury yield near multi-decade highs"
+    },
+    {
+      "id": "2026-08-19-zh-2",
+      "lang": "Mandarin",
+      "word": "引发",
+      "pinyin": "yǐn fā",
+      "pronunciation": "yin fah",
+      "tones": "3 · 1",
+      "meaning": "to trigger, spark, give rise to (a chain reaction — usually an event, emotion, or reaction)",
+      "example": "收益率飙升，直接引发了芯片股的抛售。",
+      "examplePinyin": "shōu yì lǜ biāo shēng, zhí jiē yǐn fā le xīn piàn gǔ de pāo shòu",
+      "exampleMeaning": "The yield spike directly triggered a sell-off in chip stocks.",
+      "note": "Near-synonym contrast with 导致 (dǎo zhì, 'to cause/lead to'): 导致 is neutral and takes any result, good or bad; 引发 carries a sense of 'igniting' something, and almost always pairs with an event or emotion — 引发担忧 (spark worry), 引发争议 (spark controversy), 引发关注 (draw attention). You'd say 这个政策引发了热烈的讨论, not 导致了热烈的讨论 — 引发 has that spark.",
+      "tiesTo": "yield spike triggering the chip-stock sell-off"
+    },
+    {
+      "id": "2026-08-19-tl-1",
+      "lang": "Tagalog",
+      "word": "kabutihang-loob",
+      "pinyin": "",
+      "pronunciation": "ka-bu-TI-hang LO-ob",
+      "tones": "",
+      "meaning": "genuine, heartfelt kindness or magnanimity — goodness that comes from one's inner self",
+      "example": "Ang kabutihang-loob nila ay talagang kahanga-hanga, hindi nila kailangang gawin iyon, pero ginawa nila nang buo ang puso.",
+      "examplePinyin": "",
+      "exampleMeaning": "Their inner goodness was truly admirable — they didn't have to do it, but they did it wholeheartedly.",
+      "note": "Native-speaker nuance: deeper than the everyday word for kindness, 'kabaitan,' which can just mean politeness or being pleasant. 'Kabutihang-loob' is built on 'loob,' the inner self — a core concept in Filipino values — so it specifically marks unprompted, unrewarded generosity, not just courtesy. It's the word for someone who goes well beyond what duty required.",
+      "tiesTo": "the Italy lottery-ticket good-news story"
+    },
+    {
+      "id": "2026-08-19-tl-2",
+      "lang": "Tagalog",
+      "word": "pagsosyo",
+      "pinyin": "",
+      "pronunciation": "pag-SOS-yo",
+      "tones": "",
+      "meaning": "to go into a business partnership or venture together",
+      "example": "Maharlika ay maaaring makipagsosyo sa mga dayuhang kumpanya para sa Pax Silica hub sa New Clark City.",
+      "examplePinyin": "",
+      "exampleMeaning": "Maharlika may go into partnership with foreign companies for the Pax Silica hub in New Clark City.",
+      "note": "From 'sosyo,' a business partner or associate — so 'pagsosyo' is specifically forming a commercial partnership, close to the English 'joint venture,' carrying a sense of shared capital, shared risk, and shared profit. More specific than 'pakikipagtulungan,' the general word for 'cooperation,' which doesn't necessarily involve money changing hands.",
+      "tiesTo": "Maharlika Investment Corp as a JV partner for the Pax Silica chip hub"
+    }
+  ]
+}

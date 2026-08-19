@@ -1,0 +1,39 @@
+{
+  "throughline": "Long yields ripping to multi-decade highs (30Y 5.28%, 10Y 4.71%) reprice risk everywhere at once -- hitting AI/chip stocks hardest on Wall Street's third straight down day, weakening the peso to a three-week low in Manila, and even showing up inside the AI-power buildout's own physical economics, where Cerebras's CS-4 needs 5-6x the power per rack and Fermi America's flagship nuclear campus quietly leans on gas to deliver power on time, while Iran hardens its Hormuz reopening demands and a market-integrity crack surfaces in California's own day-ahead power market",
+  "stories": [
+    "us-market-overview-sp-7691.76-nasdaq-26289.71-dow-53343.40-russell-3017.89-3rd-down-day-yield-driven",
+    "10y-4.71pct-30y-5.28pct-multidecade-highs-nvidia-minus2.3pct-amd-minus4.3pct-broadcom-minus3.2pct-chip-rotation",
+    "target-q2fy26-rev-26.54b-eps-4.11-inflated-994m-tariff-refund-comps-3.8pct-guide-raise",
+    "madison-air-acquires-ebm-papst-5.4bn-ev-14.6x-ebitda-first-deal-since-ipo",
+    "russia-threatens-uk-lavrov-direct-involvement-warning-drone-strikes",
+    "iran-hormuz-explicit-preconditions-ghalibaf-lift-sanctions-end-threats-uae-missile-threat",
+    "gaza-israel-strikes-hamas-commanders-despite-ceasefire-reaffirmation",
+    "mongolia-apologizes-china-protesters-disrupt-kherlen-tohoi-oil-site-foison-energy",
+    "pboc-digital-yuan-expands-30-bank-operators-8-new-lenders-16.7t-yuan-cumulative",
+    "generalist-rain-farooq-malik-stablecoin-cards-38x-volume-250m-series-c-1.95b-valuation-mastercard",
+    "semianalysis-cerebras-cs4-launch-doubled-clockspeed-125-135kw-rack-tdp-4000-toks-per-sec",
+    "fermi-america-project-matador-mcintire-ceo-hillcore-2.6gw-gas-anchored-buildout-tensorwave-650mw-lease",
+    "caiso-edam-benefit-numbers-dont-reproduce-cpuc-staff-592.5mw-3590mw-flags-six-cities-negligible-benefits",
+    "ferc-miso-pjm-seam-transmission-cost-recovery-comed-904m-duke-ohio-precedent",
+    "pacific-nw-draft-ninth-power-plan-11gw-2032-5gw-storage-2bn-per-year",
+    "philippines-duterte-impeachment-3rd-weather-postponement-acosta-testimony-paused",
+    "philippines-peso-61.785-3wk-low-bsp-remolona-less-aggressive-aug27-review",
+    "philippines-maharlika-pax-silica-jv-partner-frederick-go-new-clark-city-1619-hectares",
+    "getty-npg-london-joshua-reynolds-portrait-of-mai-61m-joint-acquisition",
+    "frieze-seoul-relocates-ddp-2027-coex-redevelopment-kiaf-stays",
+    "sao-paulo-matisse-jazz-8-works-recovered-mario-de-andrade-library-portinari-missing",
+    "bartoli-orfeo-ed-euridice-lucerne-festival-aug23-capuano",
+    "rijksmuseum-van-eeghen-family-drawings-book-300yr-donation",
+    "nyrb-marsh-lanchester-look-what-you-made-me-do-review",
+    "wapo-editorial-40-trillion-debt-milestone-spending-problem-432b-july-deficit",
+    "champion-bloomberg-opinion-iran-leaders-need-continue-war-ceasefire-lease-on-life",
+    "one-good-thing-italy-garbage-workers-recover-1m-euro-lottery-ticket-sanb-toscano"
+  ],
+  "explainers": [
+    "long-yield-spike-hits-longest-duration-cashflow-names-hardest-ai-hardware-vs-ai-software-rotation-not-verdict",
+    "cerebras-cs4-perf-gain-is-perfdollar-not-perfwatt-power-density-per-rack-climbing-with-every-chip-generation",
+    "fermi-matador-nuclear-branding-vs-gas-first-near-term-build-same-speed-vs-certainty-tension-as-constellation-ppl-vistra",
+    "caiso-edam-benefit-accounting-cant-be-independently-reproduced-credibility-gap-as-west-scales-flexibility-pooling",
+    "wapo-debt-op-ed-spending-addiction-framing-vs-entitlement-interest-costs-plus-corporate-bond-issuance-crowding-out-treasury"
+  ]
+}

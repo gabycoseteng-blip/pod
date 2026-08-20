@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-20",
+  "cards": [
+    {
+      "id": "2026-08-20-zh-1",
+      "lang": "Mandarin",
+      "word": "进而",
+      "pinyin": "jìn ér",
+      "pronunciation": "jin er",
+      "tones": "4 · 2",
+      "meaning": "and then; going a step further — marks a further action building on what was just said, not necessarily a direct cause",
+      "example": "收益率回落，进而带动了整个板块的反弹。",
+      "examplePinyin": "shōu yì lǜ huí luò, jìn ér dài dòng le zhěng gè bǎn kuài de fǎn tán",
+      "exampleMeaning": "Yields came down, and that went on to drive a rebound across the whole sector.",
+      "note": "Near-synonym contrast with 从而 (cóng ér, 'thereby, as a result'): 从而 marks a direct cause-and-result link; 进而 marks a further, extended step building on the previous action, without claiming strict causation. '收益率回落，从而提振了股市' states a result; '收益率回落，进而带动了整个板块的反弹' extends outward to a wider chain reaction. Both are formal, common in news analysis and financial writing.",
+      "tiesTo": "Treasury doubling long-bond buybacks easing the yield 'buyers strike'"
+    },
+    {
+      "id": "2026-08-20-zh-2",
+      "lang": "Mandarin",
+      "word": "不可避免",
+      "pinyin": "bù kě bì miǎn",
+      "pronunciation": "boo kuh bee myen",
+      "tones": "4 · 3 · 4 · 3",
+      "meaning": "unavoidable, inevitable",
+      "example": "不管技术怎么进步，芯片对电力的需求都不可避免地在增长。",
+      "examplePinyin": "bù guǎn jì shù zěn me jìn bù, xīn piàn duì diàn lì de xū qiú dōu bù kě bì miǎn de zài zēng zhǎng",
+      "exampleMeaning": "No matter how the technology advances, chips' demand for power is inevitably growing.",
+      "note": "书面语 (formal register) — common in news analysis and policy writing, where it signals objectivity and weight. Common pattern: '……是不可避免的' or '不可避免地导致……'. The casual spoken equivalent would be something like '躲不开' or '没办法', but a finance desk almost always reaches for '不可避免' instead.",
+      "tiesTo": "AI chip power demand growing regardless of efficiency gains"
+    },
+    {
+      "id": "2026-08-20-tl-1",
+      "lang": "Tagalog",
+      "word": "kaligtasan",
+      "pinyin": "",
+      "pronunciation": "ka-lig-TA-san",
+      "tones": "",
+      "meaning": "safety — a broad, principled state of being safe or protected",
+      "example": "Ang kaligtasan ng mga bata sa paaralan ang dapat na unang priyoridad, hindi ito dapat ipagpaliban pa.",
+      "examplePinyin": "",
+      "exampleMeaning": "The safety of children in school should be the top priority, this shouldn't be postponed any further.",
+      "note": "Built from the root 'ligtas' (safe) plus the abstract-noun affix 'ka-...-an'. More formal and principle-level than the plain adjective 'ligtas' — used in policy and news contexts, e.g. 'kaligtasan sa daan' (road safety) or 'pambansang kaligtasan' (national security), versus the everyday check-in question 'ligtas ka ba?' (are you safe?).",
+      "tiesTo": "the Philippine Senate hearing on school violence and youth safety"
+    },
+    {
+      "id": "2026-08-20-tl-2",
+      "lang": "Tagalog",
+      "word": "paghahabla",
+      "pinyin": "",
+      "pronunciation": "pag-ha-HA-bla",
+      "tones": "",
+      "meaning": "the act of filing a lawsuit or formally pressing charges",
+      "example": "Nagsampa ng kaso ang DOJ laban sa Bise Presidente dahil sa umano'y banta niya noong Nobyembre, ngayon may paghahabla na sa korte.",
+      "examplePinyin": "",
+      "exampleMeaning": "The DOJ filed a case against the Vice President over her alleged threat last November, and now there's a court filing underway.",
+      "note": "From the verb 'maghabla' (to sue, to file a case). More precise than the everyday noun 'kaso' (case), which people use loosely for any dispute — 'paghahabla' specifically names the act of formally initiating legal proceedings, the register you'd hear in news and legal reporting rather than casual conversation.",
+      "tiesTo": "VP Sara Duterte's grave-threats indictment oral arguments"
+    }
+  ]
+}

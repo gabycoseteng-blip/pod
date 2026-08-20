@@ -1,0 +1,36 @@
+{
+  "throughline": "Institutions reach for the narrowest lever they actually control because the bigger machine is out of reach -- Treasury doubling long-bond buybacks to calm a yield buyers' strike snaps Wall Street's losing streak, Pennsylvania builds a regulatory fast lane so data centers self-supply power instead of waiting on a queue, the UAE severs trade with Iran while Trump threatens ally Oman, and Manila's central bank threads inflation against a peso a hair from a record low",
+  "stories": [
+    "us-market-overview-sp-7707.98-nasdaq-26331.09-dow-53463.05-russell-3032.94-snaps-3day-losing-streak",
+    "bessent-doubles-long-end-treasury-buybacks-4bn-min-sept9-nov4-10y-falls-6bp",
+    "uae-suspends-iran-trade-oman-threat-trump-bomb-oman-warning-adani-tankers-hit",
+    "india-cockroach-movement-22m-follower-account-pulled",
+    "estee-lauder-q4-beat-plus18.4pct-fy27-guide-eps-3.10-3.35",
+    "merck-moderna-intismeran-keytruda-melanoma-vaccine-phase3-win-plus11.2pct",
+    "uk-july-cpi-2.9pct-4mo-high-ofgem-cap-plus13pct-gas-plus14.7pct",
+    "china-blocks-eu-jdcom-ceconomy-probe-cooperation-blocking-statute",
+    "china-july-youth-unemployment-17.9pct-3yr-high",
+    "tooze-chartbook-heat-labor-productivity-gdp-loss-grid-adequacy-derating-gap",
+    "pa-shapiro-grid-requirements-eo-datacenter-25mw-rolling-permit-review",
+    "iso-ne-ferc-asset-condition-reviewer-authority-filing-blumenthal",
+    "evergy-3gw-large-load-book-21.6bn-capex-12pct-ratebase-growth",
+    "fermi-america-project-matador-mcintire-ceo-17gw-scope-bechtel-hire",
+    "philippines-senate-school-violence-hearing-ateneo-zamboanga-shooting-roblox",
+    "philippines-sara-duterte-grave-threats-oral-arguments-qc-rtc",
+    "philippines-peso-61.995-intraday-record-low-61.815-close",
+    "philippines-bsp-remolona-july-inflation-6.2pct-aug27-review-upside-risks",
+    "met-ptolemaic-odyssey-papyrus-fragment-gallery162-book20-variant-lines",
+    "herbert-lust-estate-giacometti-christies-sothebys-battle-60m",
+    "kluth-bloomberg-opinion-asia-pivot-u-turn-carrier-gap",
+    "sharma-bloomberg-opinion-mecca-pact-no-sunni-nato-nuclear-umbrella-doubt",
+    "one-good-thing-joshua-schneeloch-reunited-father-55-years-dna-kit"
+  ],
+  "explainers": [
+    "treasury-debt-buyback-as-direct-supply-management-distinct-from-fed-rate-policy",
+    "pa-grid-requirements-eo-locks-developers-out-of-general-interconnection-queue-optionality",
+    "hyperscaler-tariff-model-as-the-rate-base-growth-story-independent-of-generation-mix",
+    "fermi-ceo-swap-as-tell-for-financier-to-construction-phase-handoff-across-other-gigawatt-campuses",
+    "summer-peak-demand-and-thermal-plant-heat-derating-as-a-correlated-not-separate-grid-adequacy-risk"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

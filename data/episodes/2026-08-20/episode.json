@@ -66,21 +66,21 @@
         },
         {
           "speaker": "SAM",
-          "text": "Second world story, and it's a data point on whether a protest movement can survive losing its megaphone. India's Gen-Z \"Cockroach Janta Party\" already forced the resignation of Education Minister Dharmendra Pradhan back in July, after a leaked medical-entrance exam affecting two million candidates competing for a hundred and forty thousand seats.",
+          "text": "Second world story, and it's a data point on whether a protest movement can survive losing its megaphone. India's Gen-Z \"Cockroach Janta Party\" already forced the resignation of Education Minister Dharmendra Pradhan back in July, after a leaked medical-entrance exam affecting 2 million candidates competing for 140,000 seats.",
           "startSec": 99.96,
-          "endSec": 119.07
+          "endSec": 117.81
         },
         {
           "speaker": "ALEX",
-          "text": "The movement got its name from the Chief Justice's own dismissive jab — comparing unemployed young people to cockroaches — which is exactly the kind of insult that tends to backfire spectacularly. And the fresh development: its social account, twenty-two million-plus followers, got taken down yesterday.",
-          "startSec": 119.07,
-          "endSec": 135.72
+          "text": "The movement got its name from the Chief Justice's own dismissive jab — comparing unemployed young people to cockroaches — which is exactly the kind of insult that tends to backfire spectacularly. And the fresh development: its social account, 22 million-plus followers, got taken down yesterday.",
+          "startSec": 117.81,
+          "endSec": 134.03
         },
         {
           "speaker": "SAM",
           "text": "So the question now is whether it fragments without its main organizing platform, or whether losing the account just gives it a new grievance to organize around.",
-          "startSec": 135.72,
-          "endSec": 144.54
+          "startSec": 134.03,
+          "endSec": 142.84
         }
       ],
       "startSec": 42.7
@@ -92,59 +92,59 @@
         {
           "speaker": "ALEX",
           "text": "To the tape, and there's an actual policy story underneath it today, not just drift. US equities snapped a three-day losing streak. S&P 500 closed at 7,707.98, up 0.21%. Nasdaq 26,331.09, up 0.16%. Dow 53,463.05, up 0.22%. Russell 2000 led, up half a percent to 3,032.94.",
-          "startSec": 144.54,
-          "endSec": 159.39
+          "startSec": 142.84,
+          "endSec": 157.69
         },
         {
           "speaker": "SAM",
           "text": "What actually turned it around?",
-          "startSec": 159.39,
-          "endSec": 161.08
+          "startSec": 157.69,
+          "endSec": 159.39
         },
         {
           "speaker": "ALEX",
-          "text": "Treasury Secretary Bessent doubled the size of the government's long-end debt buybacks — the minimum per operation goes from two billion dollars to over four billion, targeting ten-to-twenty and twenty-to-thirty-year maturities, running from September 9th through November 4th. That's a direct policy response to the \"buyers' strike\" that's been driving the long end to multi-decade highs — thirty-year at 5.28%, ten-year at 4.71%, as of Tuesday's close.",
-          "startSec": 161.08,
-          "endSec": 185.95
+          "text": "Treasury Secretary Bessent doubled the size of the government's long-end debt buybacks — the minimum per operation goes from $2 billion to over $4 billion, targeting 10-to-20 and 20-to-30-year maturities, running from September 9th through November 4th. That's a direct policy response to the \"buyers' strike\" that's been driving the long end to multi-decade highs — thirty-year at 5.28%, ten-year at 4.71%, as of Tuesday's close.",
+          "startSec": 159.39,
+          "endSec": 182.94
         },
         {
           "speaker": "SAM",
           "text": "And it worked, at least for a day.",
-          "startSec": 185.95,
-          "endSec": 187.81
+          "startSec": 182.94,
+          "endSec": 184.8
         },
         {
           "speaker": "ALEX",
           "text": "Ten-year yield fell about six basis points intraday to roughly 4.637%. It's a small move on its own, but it's the government explicitly stepping in to backstop demand it can't otherwise force into existence — you can't order pension funds and foreign buyers to want long bonds, but you can buy some back yourself and shrink the supply they're refusing to absorb.",
-          "startSec": 187.81,
-          "endSec": 207.64
+          "startSec": 184.8,
+          "endSec": 204.63
         },
         {
           "speaker": "SAM",
           "text": "Is that actually different from the Fed cutting rates, or just a cousin of the same idea?",
-          "startSec": 207.64,
-          "endSec": 212.51
+          "startSec": 204.63,
+          "endSec": 209.5
         },
         {
           "speaker": "ALEX",
           "text": "Different lever entirely. The Fed sets the short end and influences the curve indirectly through expectations. This is Treasury directly managing supply at the long end, through its own debt-management operations — a tool that's usually background plumbing, not headline news. The fact it's being doubled, and doubled publicly, tells you how uncomfortable Treasury's gotten watching the long end drift on its own.",
-          "startSec": 212.51,
-          "endSec": 235.14
+          "startSec": 209.5,
+          "endSec": 232.12
         },
         {
           "speaker": "SAM",
           "text": "Commodities briefly — gold basically flat at 4,545.10 an ounce. Oil ticked up, WTI 85.67, Brent 91.66, on renewed ambiguity around Hormuz transit — same underlying tension we just covered, just showing up in the price.",
-          "startSec": 235.14,
-          "endSec": 247.08
+          "startSec": 232.12,
+          "endSec": 244.06
         },
         {
           "speaker": "ALEX",
           "text": "Quiet day for the tape otherwise, which is exactly why the freed-up time is going into the Deep Dive and Energy today.",
-          "startSec": 247.08,
-          "endSec": 253.54
+          "startSec": 244.06,
+          "endSec": 250.53
         }
       ],
-      "startSec": 144.5
+      "startSec": 142.8
     },
     {
       "raw": "SEGMENT ONE — U.S. BUSINESS",
@@ -153,53 +153,53 @@
         {
           "speaker": "SAM",
           "text": "Two from corporate America. Estée Lauder had its best single-day pop in years — stock up 18.4%.",
-          "startSec": 253.54,
-          "endSec": 258.74
+          "startSec": 250.53,
+          "endSec": 255.73
         },
         {
           "speaker": "ALEX",
           "text": "Fourth straight quarterly beat. Fourth-quarter revenue 3.63 billion against a 3.54 billion estimate. Full fiscal-year net sales up 5% to 15 billion. Adjusted EPS 2.51, against 1.51 a year earlier. And the guide is what actually moved the stock — fiscal 2027 adjusted EPS of 3.10 to 3.35, operating margin raised to 12.7 to 13.5%.",
-          "startSec": 258.74,
-          "endSec": 276.76
+          "startSec": 255.73,
+          "endSec": 273.75
         },
         {
           "speaker": "SAM",
           "text": "That's a name that's been a value trap in prestige beauty for years.",
-          "startSec": 276.76,
-          "endSec": 280.49
+          "startSec": 273.75,
+          "endSec": 277.47
         },
         {
           "speaker": "ALEX",
           "text": "Which is exactly why the market's reaction was that sharp — the first credible signal the turnaround narrative might actually be real, not just management talking their own book.",
-          "startSec": 280.49,
-          "endSec": 290.24
+          "startSec": 277.47,
+          "endSec": 287.22
         },
         {
           "speaker": "SAM",
           "text": "Second one's a genuine scientific milestone dressed as a stock move. Merck jumped 11.2% on a Phase 3 win for a personalized mRNA cancer vaccine, developed with Moderna.",
-          "startSec": 290.24,
-          "endSec": 299.44
+          "startSec": 287.22,
+          "endSec": 296.43
         },
         {
           "speaker": "ALEX",
           "text": "The vaccine, Intismeran, paired with Keytruda, hit both its primary endpoint — recurrence-free survival — and a key secondary endpoint, distant metastasis-free survival, in a trial of 1,137 patients with resected stage IIB-to-IV melanoma, against Keytruda alone. No new safety signals.",
-          "startSec": 299.44,
-          "endSec": 315.05
+          "startSec": 296.43,
+          "endSec": 312.04
         },
         {
           "speaker": "SAM",
           "text": "Why does that matter beyond one drug?",
-          "startSec": 315.05,
-          "endSec": 317.07
+          "startSec": 312.04,
+          "endSec": 314.06
         },
         {
           "speaker": "ALEX",
           "text": "Because it's the first-ever randomized Phase 3 proof of concept for neoantigen cancer vaccines as a category — every biotech that's been chasing a personalized-vaccine thesis just got real clinical validation, and it justifies the multi-billion-dollar bet Merck made on Moderna's mRNA platform in the first place.",
-          "startSec": 317.07,
-          "endSec": 334.22
+          "startSec": 314.06,
+          "endSec": 331.21
         }
       ],
-      "startSec": 253.5
+      "startSec": 250.5
     },
     {
       "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
@@ -208,8 +208,8 @@
         {
           "speaker": "SAM",
           "text": "Two more outside the US. The UK's July inflation print broke a run of good news — CPI came in at 2.9%, up from 2.6% in June, a four-month high.",
-          "startSec": 334.22,
-          "endSec": 342.05
+          "startSec": 331.21,
+          "endSec": 339.04
         },
         {
           "speaker": "ALEX",
@@ -230,7 +230,7 @@
           "endSec": 399.57
         }
       ],
-      "startSec": 334.2
+      "startSec": 331.2
     },
     {
       "raw": "SEGMENT ONE — CHINA",
@@ -287,57 +287,57 @@
         },
         {
           "speaker": "ALEX",
-          "text": "Tooze is walking through a new Allianz macro model on what repeat record-hot summers actually cost, and the headline number is stark — labor productivity falls about a dollar thirty per hour worked for every degree above thirty Celsius. Run that forward under a repeat-hottest-years scenario and the model shows cumulative GDP losses of five to seven percent by 2030 for France, Italy, Spain, Germany, and Japan.",
+          "text": "Tooze is walking through a new Allianz macro model on what repeat record-hot summers actually cost, and the headline number is stark — labor productivity falls about a dollar thirty per hour worked for every degree above thirty Celsius. Run that forward under a repeat-hottest-years scenario and the model shows cumulative GDP losses of 5 to 7% by 2030 for France, Italy, Spain, Germany, and Japan.",
           "startSec": 484.93,
-          "endSec": 508.35
+          "endSec": 507.56
         },
         {
           "speaker": "SAM",
           "text": "That's a macro story on its own, but why does it land in an energy segment?",
-          "startSec": 508.35,
-          "endSec": 512.61
+          "startSec": 507.56,
+          "endSec": 511.82
         },
         {
           "speaker": "ALEX",
           "text": "Because Tooze doesn't stop at labor productivity — he flags a policy gap that's directly a grid-planning problem. The same heat that spikes air-conditioning demand also physically derates thermal generation, because power plants lose output as ambient and cooling-water temperatures rise. You get peak demand and peak generating capacity moving in opposite directions at exactly the same moment, and almost no current grid-adequacy model prices that coincidence properly.",
-          "startSec": 512.61,
-          "endSec": 539.38
+          "startSec": 511.82,
+          "endSec": 538.59
         },
         {
           "speaker": "SAM",
           "text": "Is that a new problem, or just a bigger version of something planners already account for?",
-          "startSec": 539.38,
-          "endSec": 544.5
+          "startSec": 538.59,
+          "endSec": 543.7
         },
         {
           "speaker": "ALEX",
           "text": "It's already in the engineering literature — utilities know thermal plants derate in heat — but Tooze's point is that resource-adequacy planning still largely treats summer peak and summer derating as separate line items instead of a single, correlated risk. That's the same blind spot we've flagged before around cold-weather uprating assumptions, just the hot-weather mirror of it, and it hasn't gotten nearly the same regulatory attention.",
-          "startSec": 544.5,
-          "endSec": 569.62
+          "startSec": 543.7,
+          "endSec": 568.82
         },
         {
           "speaker": "SAM",
           "text": "Does the piece connect this to the data-center buildout specifically, or is that our extension of it?",
-          "startSec": 569.62,
-          "endSec": 575.36
+          "startSec": 568.82,
+          "endSec": 574.56
         },
         {
           "speaker": "ALEX",
           "text": "Tooze doesn't go there directly — this is genuinely a Europe-macro piece first — but the mechanism is identical to what we've been tracking domestically. Every gigawatt of new AI load being planned against a summer-peak capacity number is implicitly assuming that number holds up in the exact conditions where it's least likely to. If Allianz's repeat-hottest-years scenario is even roughly right, the safety margin utilities are underwriting large-load contracts against is thinner than the headline capacity figures suggest.",
-          "startSec": 575.36,
-          "endSec": 605.26
+          "startSec": 574.56,
+          "endSec": 604.46
         },
         {
           "speaker": "SAM",
           "text": "What's the honest caveat on a piece like this?",
-          "startSec": 605.26,
-          "endSec": 607.87
+          "startSec": 604.46,
+          "endSec": 607.07
         },
         {
           "speaker": "ALEX",
           "text": "It's a model, not an observed outcome — Allianz is projecting off a scenario, not measuring realized derates across a full fleet. But the underlying physics isn't controversial, and the policy gap Tooze identifies — nobody's grid-adequacy math currently treats summer peak-demand and summer plant-derating as correlated — is a real, checkable hole, whether or not this particular GDP number holds up exactly.",
-          "startSec": 607.87,
-          "endSec": 631.06
+          "startSec": 607.07,
+          "endSec": 630.26
         }
       ],
       "startSec": 474.4
@@ -349,32 +349,32 @@
         {
           "speaker": "SAM",
           "text": "Energy, and there's real regulatory news today, not just capex updates. Pennsylvania just built the first state-level version of a trade we've seen utilities cut ad hoc for a year.",
-          "startSec": 631.06,
-          "endSec": 641.29
+          "startSec": 630.26,
+          "endSec": 640.49
         },
         {
           "speaker": "ALEX",
           "text": "Governor Shapiro signed Executive Order 2026-05 on Monday — effective for any Department of Environmental Protection permit application filed after that date, for any project over twenty-five megawatts of peak demand. The trade: commit to \"GRID Requirements\" — bring your own new generation, bear your own infrastructure costs, disclose community and workforce commitments — and DEP runs your permits on a rolling, parallel-track review instead of sequential.",
-          "startSec": 641.29,
-          "endSec": 667.38
+          "startSec": 640.49,
+          "endSec": 666.58
         },
         {
           "speaker": "SAM",
           "text": "That's a state formalizing, in regulation, what ERCOT and PJM utilities have been doing informally through large-load tariffs.",
-          "startSec": 667.38,
-          "endSec": 674.54
+          "startSec": 666.58,
+          "endSec": 673.74
         },
         {
           "speaker": "ALEX",
           "text": "Correct, and it's cheaper politically than building new transmission — you're not asking ratepayers to fund generation for hyperscalers, you're asking hyperscalers to fund their own and rewarding them with speed. Watch whether North Carolina, Georgia, or Ohio copy the rolling-review mechanic specifically — that's the exportable part.",
-          "startSec": 674.54,
-          "endSec": 693.58
+          "startSec": 673.74,
+          "endSec": 692.78
         },
         {
           "speaker": "SAM",
           "text": "What's the catch for a developer weighing whether to take that trade?",
-          "startSec": 693.58,
-          "endSec": 697.5
+          "startSec": 692.78,
+          "endSec": 696.7
         },
         {
           "speaker": "ALEX",
@@ -402,96 +402,96 @@
         },
         {
           "speaker": "ALEX",
-          "text": "Same genus, different attack angle. PJM's twelve billion-dollar ratepayer modeling mistake and CAISO's day-ahead accounting that couldn't be independently reproduced were both about whether the numbers underneath a market are trustworthy. This is about whether a utility's own self-certified \"reliability\" capex is trustworthy in the first place. If FERC grants ISO-NE this authority, expect PJM and MISO ratepayer advocates to push for the identical power over their own — much larger — asset-condition backlogs.",
+          "text": "Same genus, different attack angle. PJM's $12 billion ratepayer modeling mistake and CAISO's day-ahead accounting that couldn't be independently reproduced were both about whether the numbers underneath a market are trustworthy. This is about whether a utility's own self-certified \"reliability\" capex is trustworthy in the first place. If FERC grants ISO-NE this authority, expect PJM and MISO ratepayer advocates to push for the identical power over their own — much larger — asset-condition backlogs.",
           "startSec": 744.37,
-          "endSec": 770.36
+          "endSec": 769.85
         },
         {
           "speaker": "SAM",
           "text": "Third — a name most listeners outside the sector won't recognize yet, and that's exactly the point.",
-          "startSec": 770.36,
-          "endSec": 775.38
+          "startSec": 769.85,
+          "endSec": 774.87
         },
         {
           "speaker": "ALEX",
-          "text": "Evergy — a mid-cap utility serving Kansas and Missouri — just disclosed a signed large-load book of three gigawatts: two-and-a-half gigawatts of tariff-backed data centers, plus five hundred megawatts of smaller non-tariff loads. Broader pipeline is over ten gigawatts, and management says it's highly confident of at least one more signed deal this year.",
-          "startSec": 775.38,
-          "endSec": 793.36
+          "text": "Evergy — a mid-cap utility serving Kansas and Missouri — just disclosed a signed large-load book of 3 gigawatts: 2.5 gigawatts of tariff-backed data centers, plus 500 megawatts of smaller non-tariff loads. Broader pipeline is over ten gigawatts, and management says it's highly confident of at least one more signed deal this year.",
+          "startSec": 774.87,
+          "endSec": 791.64
         },
         {
           "speaker": "SAM",
           "text": "That's PPL or AEP-scale numbers out of a utility most people have never heard of.",
-          "startSec": 793.36,
-          "endSec": 797.47
+          "startSec": 791.64,
+          "endSec": 795.75
         },
         {
           "speaker": "ALEX",
-          "text": "Which is exactly the story — hyperscaler-tariff economics are no longer confined to the usual PJM and Texas names. To match that load, Evergy's building over five gigawatts of new generation through 2032 — three-point-nine gigawatts of gas, about eight hundred megawatts of solar, four hundred fifty megawatts of batteries. Their five-year capital plan just got raised a billion dollars, to 21.6 billion, pushing their rate-base growth rate to 12% a year.",
-          "startSec": 797.47,
-          "endSec": 820.52
+          "text": "Which is exactly the story — hyperscaler-tariff economics are no longer confined to the usual PJM and Texas names. To match that load, Evergy's building over 5 gigawatts of new generation through 2032 — 3.9 gigawatts of gas, about 800 megawatts of solar, 450 megawatts of batteries. Their five-year capital plan just got raised $1 billion, to $21.6 billion, pushing their rate-base growth rate to 12% a year.",
+          "startSec": 795.75,
+          "endSec": 816.42
         },
         {
           "speaker": "SAM",
-          "text": "Twelve percent rate-base growth is the kind of number that used to be reserved for utilities in the middle of a genuine renewables build-out, not a two-state Midwest utility most investors weren't watching closely a year ago.",
-          "startSec": 820.52,
-          "endSec": 831.92
+          "text": "12% rate-base growth is the kind of number that used to be reserved for utilities in the middle of a genuine renewables build-out, not a two-state Midwest utility most investors weren't watching closely a year ago.",
+          "startSec": 816.42,
+          "endSec": 827.26
         },
         {
           "speaker": "ALEX",
           "text": "Which tells you the hyperscaler-tariff model itself is the growth story now — the generation mix underneath it is almost secondary. Whoever signs the large-load contracts gets the rate-base expansion, gas or otherwise.",
-          "startSec": 831.92,
-          "endSec": 842.97
+          "startSec": 827.26,
+          "endSec": 838.31
         },
         {
           "speaker": "SAM",
           "text": "And that gas-heavy build puts them in the same queue as everyone else chasing turbines.",
-          "startSec": 842.97,
-          "endSec": 847.38
+          "startSec": 838.31,
+          "endSec": 842.72
         },
         {
           "speaker": "ALEX",
           "text": "Right — competing for the identical Siemens and Mitsubishi delivery slots we've already flagged are backlogged years out.",
-          "startSec": 847.38,
-          "endSec": 853.51
+          "startSec": 842.72,
+          "endSec": 848.85
         },
         {
           "speaker": "SAM",
           "text": "Last one, and it closes a loop from a story we've followed for weeks — Fermi America's Project Matador just replaced its CEO.",
-          "startSec": 853.51,
-          "endSec": 859.84
+          "startSec": 848.85,
+          "endSec": 855.18
         },
         {
           "speaker": "ALEX",
           "text": "Lee McIntire — forty years of megaproject construction across Bechtel, CH2M Hill, TerraPower, and McDermott — replacing ousted co-founder Toby Neugebauer. Board chair Marius Haas was explicit the mandate is construction and power delivery, not deal financing.",
-          "startSec": 859.84,
-          "endSec": 872.96
+          "startSec": 855.18,
+          "endSec": 868.3
         },
         {
           "speaker": "SAM",
           "text": "So the project's moving from raising money to actually building.",
-          "startSec": 872.96,
-          "endSec": 876.21
+          "startSec": 868.3,
+          "endSec": 871.55
         },
         {
           "speaker": "ALEX",
           "text": "That's the read, and the scope kept growing while that transition happened — total campus is now seventeen gigawatts, up from the eleven floated back in March. A career-Bechtel hire, right as scope expands that fast, is a stronger signal about construction-readiness than any individual lease headline — it tells you what kind of execution risk the project's operators think they're actually facing next.",
-          "startSec": 876.21,
-          "endSec": 896.68
+          "startSec": 871.55,
+          "endSec": 892.02
         },
         {
           "speaker": "SAM",
           "text": "Is there a read-through to how we should treat other pre-construction gigawatt campuses that are still in the deal-structuring phase?",
-          "startSec": 896.68,
-          "endSec": 903.42
+          "startSec": 892.02,
+          "endSec": 898.75
         },
         {
           "speaker": "ALEX",
           "text": "Yes — watch for the same handoff elsewhere. A financier-led team is fine for raising capital and signing offtake, but the moment a site needs to actually pour concrete on schedule, the market should expect exactly this kind of executive swap. If it doesn't happen, that's worth treating as a yellow flag, not a green one.",
-          "startSec": 903.42,
-          "endSec": 919.68
+          "startSec": 898.75,
+          "endSec": 915.02
         }
       ],
-      "startSec": 631.1
+      "startSec": 630.3
     },
     {
       "raw": "SEGMENT THREE — PHILIPPINES",
@@ -500,62 +500,62 @@
         {
           "speaker": "SAM",
           "text": "To Manila, and today it's genuinely politics leading, not weather or the peso — though the peso's got its own story too.",
-          "startSec": 919.68,
-          "endSec": 925.76
+          "startSec": 915.02,
+          "endSec": 921.1
         },
         {
           "speaker": "ALEX",
           "text": "The lead is grim. The Senate holds a joint hearing today — women and children, family relations, science and technology, and basic education committees together — on school violence and digital-platform influence on minors.",
-          "startSec": 925.76,
-          "endSec": 937.06
+          "startSec": 921.1,
+          "endSec": 932.4
         },
         {
           "speaker": "SAM",
           "text": "What triggered it?",
-          "startSec": 937.06,
-          "endSec": 937.97
+          "startSec": 932.4,
+          "endSec": 933.31
         },
         {
           "speaker": "ALEX",
           "text": "Monday's shooting at Ateneo de Zamboanga University — a Grade 9 student livestreamed an attack that killed a schoolmate, then died jumping from the fifth floor. That's layered on top of a June shooting in Tacloban. Marcos ordered a, quote, \"thorough investigation\" the same day, and the Presidential Communications Office asked media for caution reporting on minors involved.",
-          "startSec": 937.97,
-          "endSec": 956.97
+          "startSec": 933.31,
+          "endSec": 952.31
         },
         {
           "speaker": "SAM",
           "text": "What's actually on the table at the hearing?",
-          "startSec": 956.97,
-          "endSec": 959.2
+          "startSec": 952.31,
+          "endSec": 954.54
         },
         {
           "speaker": "ALEX",
           "text": "Online gaming platforms specifically — Roblox was named — and the broader effect of social media on youth mental health. It's the first serious national policy response to a livestreamed school shooting here, and it could open the door to platform-regulation conversations that haven't had this kind of political urgency before.",
-          "startSec": 959.2,
-          "endSec": 975.82
+          "startSec": 954.54,
+          "endSec": 971.16
         },
         {
           "speaker": "SAM",
           "text": "Is there an actual bill likely to come out of today, or is this still fact-finding?",
-          "startSec": 975.82,
-          "endSec": 980.03
+          "startSec": 971.16,
+          "endSec": 975.36
         },
         {
           "speaker": "ALEX",
           "text": "Still fact-finding at this stage — no draft legislation yet. But a joint hearing across four committees, called this fast after an incident this raw, usually means leadership wants a bill filed within weeks, not months. Worth watching whether it lands as platform regulation, school-security funding, or both.",
-          "startSec": 980.03,
-          "endSec": 995.68
+          "startSec": 975.36,
+          "endSec": 991.02
         },
         {
           "speaker": "SAM",
           "text": "There's also a separate legal story involving the Vice President, happening the same day.",
-          "startSec": 995.68,
-          "endSec": 1000.19
+          "startSec": 991.02,
+          "endSec": 995.53
         },
         {
           "speaker": "ALEX",
           "text": "Quezon City court holds oral arguments this morning on Vice President Sara Duterte's motion to quash the grave-threats indictment filed against her earlier this month, over remarks last November about having Marcos, the First Lady, and the then-Speaker assassinated.",
-          "startSec": 1000.19,
-          "endSec": 1013.67
+          "startSec": 995.53,
+          "endSec": 1009.01
         },
         {
           "speaker": "SAM",
@@ -606,7 +606,7 @@
           "endSec": 1125.93
         }
       ],
-      "startSec": 919.7
+      "startSec": 915.0
     },
     {
       "raw": "SEGMENT FOUR — VOCAB OF THE DAY",
@@ -765,21 +765,21 @@
         },
         {
           "speaker": "ALEX",
-          "text": "Herbert Lust — investment banker, onetime literature professor, and a genuine personal friend of Alberto Giacometti from his Sorbonne days — died in May at ninety-nine, after decades quietly building a collection. The estate's shopping around three hundred works valued near sixty million dollars, and both houses are competing hard for the consignment.",
+          "text": "Herbert Lust — investment banker, onetime literature professor, and a genuine personal friend of Alberto Giacometti from his Sorbonne days — died in May at ninety-nine, after decades quietly building a collection. The estate's shopping around 300 works valued near $60 million, and both houses are competing hard for the consignment.",
           "startSec": 1372.66,
-          "endSec": 1394.24
+          "endSec": 1393.02
         },
         {
           "speaker": "SAM",
           "text": "What's the top lot?",
-          "startSec": 1394.24,
-          "endSec": 1395.4
+          "startSec": 1393.02,
+          "endSec": 1394.18
         },
         {
           "speaker": "ALEX",
           "text": "A major Giacometti sculpture, with Robert Indiana, Frank Stella, Hans Bellmer, and Mary Bauermeister filling out the rest. It's as much a biographical story as a market one — a decades-long friendship that quietly produced one of the more significant private collections nobody's heard of — and the fact both houses are fighting this hard for it says something about how confident they're both feeling heading into a rebounding second half of the year.",
-          "startSec": 1395.4,
-          "endSec": 1423.04
+          "startSec": 1394.18,
+          "endSec": 1421.81
         }
       ],
       "startSec": 1315.4
@@ -791,20 +791,20 @@
         {
           "speaker": "SAM",
           "text": "One argument worth chewing on — Bloomberg Opinion's Andreas Kluth says, without anyone in Washington announcing it as policy, America's fifteen-year pivot to Asia just quietly reversed.",
-          "startSec": 1423.04,
-          "endSec": 1434.35
+          "startSec": 1421.81,
+          "endSec": 1433.13
         },
         {
           "speaker": "ALEX",
           "text": "His steelman: the USS George Washington — the last US carrier actually in the Pacific theater — is steaming to the Middle East to relieve the war-worn USS Abraham Lincoln, leaving zero American carrier presence to deter China or North Korea. He reads that as strategic drift, not a decision — Middle East entanglement crowding out the Indo-Pacific commitment that three straight administrations treated as the actual long game.",
-          "startSec": 1434.35,
-          "endSec": 1460.46
+          "startSec": 1433.13,
+          "endSec": 1459.23
         },
         {
           "speaker": "SAM",
           "text": "What's the pushback?",
-          "startSec": 1460.46,
-          "endSec": 1461.68
+          "startSec": 1459.23,
+          "endSec": 1460.46
         },
         {
           "speaker": "ALEX",
@@ -837,7 +837,7 @@
           "endSec": 1541.53
         }
       ],
-      "startSec": 1423.0
+      "startSec": 1421.8
     },
     {
       "raw": "SEGMENT SEVEN — ONE GOOD THING",

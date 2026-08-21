@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-21",
+  "asOf": "Thursday, August 21, 2026 close",
+  "groups": [
+    {
+      "name": "US Indices",
+      "rows": [
+        { "label": "S&P 500", "value": "7,641.16", "change": "-0.87%", "dir": "down" },
+        { "label": "Nasdaq", "value": "26,067.17", "change": "-1.00%", "dir": "down" },
+        { "label": "Dow", "value": "52,759.21", "change": "-1.32%", "dir": "down" },
+        { "label": "Russell 2000", "value": "2,992.43", "change": "-1.34%", "dir": "down" }
+      ]
+    },
+    {
+      "name": "Rates",
+      "rows": [
+        { "label": "UST 10Y", "value": "4.69%", "change": "", "dir": "up" },
+        { "label": "UST 30Y", "value": "5.23%", "change": "", "dir": "up" }
+      ]
+    },
+    {
+      "name": "Commodities",
+      "rows": [
+        { "label": "Gold", "value": "4,571.40", "change": "+0.5%", "dir": "up" },
+        { "label": "WTI Crude", "value": "86.16", "change": "", "dir": "up" },
+        { "label": "Brent", "value": "93.01", "change": "", "dir": "up" }
+      ]
+    },
+    {
+      "name": "FX",
+      "rows": [
+        { "label": "USD/PHP", "value": "61.67", "change": "-0.15", "dir": "down" }
+      ]
+    }
+  ],
+  "note": "Prior-session close — full levels so the show can stay brief. Populated each morning by the daily routine."
+}

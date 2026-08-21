@@ -81,7 +81,29 @@ commentary pieces**, one good thing).
 markets; spend the brief (and the script) only on **genuinely big moves** — a large
 swing, a record, a real catalyst (CPI, the Fed, a marquee earnings print, a sharp
 rates move). Still pull the actual closes/levels from FMP for accuracy, but if the
-tape was quiet, note it in one line — the freed-up time goes to the Deep Dive.
+tape was quiet, note it in one line — the freed-up time goes to the Deep Dive. **The
+full index levels live in the app's Markets tab, so the show doesn't read them aloud
+— it names the notable move and spends the segment on analysis/opinion.**
+
+**Emit `routine/markets-$date.json` for the Markets tab.** Using the same real FMP
+numbers you gather here, write a compact snapshot the app's Markets tab renders (so
+the listener can *see* every index without the hosts reading them). Either run
+`FMP_API_KEY=… python3 tools/market_snapshot.py --json routine/markets-$date.json`,
+or hand-write it from the brief numbers. Schema (all values pre-formatted strings,
+`dir` is `up`/`down`/`flat`):
+```json
+{ "date": "$date", "asOf": "<Weekday>, <Month> <D> close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,641.16", "change": "-0.87%", "dir": "down"} ]},
+    {"name": "Rates",       "rows": [{"label": "UST 10Y", "value": "4.69%", "change": "+3 bps", "dir": "up"}]},
+    {"name": "Commodities", "rows": [{"label": "Gold",    "value": "4,571.40", "change": "+0.5%", "dir": "up"}]},
+    {"name": "FX",          "rows": [{"label": "USD/PHP", "value": "61.67", "change": "-0.24", "dir": "down"}]} ],
+  "note": "Prior-session close — full levels so the show can stay brief." }
+```
+`build_episode.py` copies this to `data/episodes/$date/markets.json` and refreshes
+`data/markets.json` (the latest snapshot the tab reads). It's optional — a missing
+file just leaves the tab on the previous day's snapshot.
 **World & international headlines lean current events** — politics, geopolitics,
 conflict, elections, policy, society — not market moves (markets live in the
 market-overview beat + the Energy segment). **Philippines leads with politics and
@@ -265,15 +287,33 @@ relies on:
   re-measure chars-per-second from one short calibration render and update this
   number — the char target follows the engine's pace.)
 - Hosts announce each segment; no run-of-show in the cold open; **there is no
-  trending-meme segment** (removed) — go Arts & Culture → Op-Eds & Commentary →
-  One Good Thing; close on One Good Thing.
-- **VOCAB OF THE DAY — conduct the whole segment IN-LANGUAGE** (immersion, not a
-  101): 2 Mandarin then 2 Tagalog, each tied to a story in today's show, and each
-  a **new** word not in the history ledger. For the Mandarin stretch the hosts
-  actually **converse in Mandarin**, using the words in real sentences; for the
-  Tagalog stretch they **converse in Tagalog**. English appears **only as a
-  translation/gloss** right after each foreign sentence. Write Mandarin in
-  **characters (汉字)** with the English gloss in parentheses, e.g.
+  trending-meme segment** (removed). **Segment order (see the steering prompt):**
+  Cold Open → Headlines (world + US business + international) → Market Overview →
+  Deep Dive → Energy → **Tagalog Vocab → Philippines** → **Mandarin Vocab → China** →
+  Arts & Culture → Op-Eds & Commentary → One Good Thing; close on One Good Thing. Each
+  target-language vocab segment sits **directly before its country** so the two words
+  taught recur in that news beat.
+- **Breadth over over-explanation.** Every turn must add a new fact/number/angle;
+  cut turns that only restate or perform curiosity ("What's the read?", "Is that
+  actually X?"). **Follow-up cap:** lead story of a section ≤1 follow-up, secondary
+  stories 0 — spend the room on more of the day's news. Exempt: Deep Dive and Op-Eds.
+- **In-language news beats.** **Market Overview:** read only the notable move aloud —
+  the Markets tab carries the full index levels — and spend the segment on analysis /
+  opinion. **Philippines:** deliver 2–3 lead politics/economy sentences in natural
+  Tagalog + short English gloss (using that day's two Tagalog words). **China:**
+  deliver the lead sentence in Mandarin (汉字) + gloss, using an HSK-4 connective and
+  that day's two Mandarin words. Language *replaces* the English sentence — it doesn't
+  lengthen the show. The app auto-slows Mandarin turns to 0.5×.
+- **VOCAB — two IN-LANGUAGE segments, each placed before its country** (immersion,
+  not a 101). The vocab is **split**: **Tagalog Vocab** (2 Tagalog words) sits
+  directly before the **Philippines** beat, and **Mandarin Vocab** (2 Mandarin words)
+  directly before the **China** beat — so the two words taught **recur in the news
+  beat that immediately follows**, in context. Each word is tied to a story in today's
+  show and is **new** vs the history ledger. In the Mandarin stretch the hosts
+  actually **converse in Mandarin**; in the Tagalog stretch they **converse in
+  Tagalog**. English appears **only as a translation/gloss** right after each foreign
+  sentence. Write Mandarin in **characters (汉字)** with the English gloss in
+  parentheses, e.g.
   `ALEX: 尽管市场震荡，机构还是加仓了。(Despite the market turbulence, institutions still added to positions.)`;
   write Tagalog with its **natural spelling** so it's pronounced correctly, gloss
   in parentheses. Don't drill or explain tone numbers or spell out pronunciation —
@@ -320,12 +360,12 @@ just don't drill them in the audio. For **Tagalog**: leave `tones` empty, but fi
 `pronunciation` (and `pinyin` may stay empty) with a clear **Tagalog-syllable
 respelling that marks stress**, e.g. `"a-lim-PÚ-yo"` (natural Tagalog vowels and a
 stressed syllable) — not an English-phonetic respelling — so the card shows the
-right pronunciation. Ids `"$date-zh-1/2"`, `"$date-tl-1/2"`; write `note` on
+right pronunciation. Ids `"$date-tl-1/2"`, `"$date-zh-1/2"`; write `note` on
 register (书面语/formal vs. 口语/informal) / collocation / near-synonym contrast,
 calibrated to HSK 4 — **no tone-drill explanations**; `tiesTo` the story.
-**The four words here must be exactly the four taught in the VOCAB OF THE DAY
-segment** — same words, same order (2 Mandarin then 2 Tagalog) — so the flashcards
-match the audio.
+**The four words here must be exactly the four taught in the two vocab segments** —
+same words, and now ordered **Tagalog first, then Mandarin** (2 Tagalog, then 2
+Mandarin) to match the new segment order — so the flashcards match the audio.
 
 ## 4. Write the digest → `routine/digest-$date.json`
 The day's contribution to the show's compact memory (`data/history.jsonl`), so
@@ -417,8 +457,9 @@ push a malformed episode** (needs ≥ 10 segments, `durationSec` ≥ 1500, `hasA
 and it asserts you're on `$DEPLOY_BRANCH` before pushing. To publish a deliberate
 partial (e.g. audio truncated by a quota outage), pass `ALLOW_SHORT=1`. You should
 still eyeball it:
-Inspect `data/index.json` for `$date` — it should show **~13 segments** and
-**`durationSec` ≥ 1500** (25 min), with `hasAudio: true`. If segments are missing,
+Inspect `data/index.json` for `$date` — it should show **~14 segments** (the split
+Tagalog/Mandarin vocab beats add one vs the old ~13) and **`durationSec` ≥ 1500**
+(25 min), with `hasAudio: true`. If segments are missing,
 the duration is too short, or the audio is wrong, the episode is malformed: fix
 the script/vocab, re-run step 6, and only continue once it looks right. Confirm
 (R2 mode) that `data/episodes/$date/episode.json`'s `audio` is the R2 URL — the

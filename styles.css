@@ -69,6 +69,21 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;heigh
   background:var(--panel2);color:var(--muted);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
 .chip.on{background:var(--accent2);color:#04203f;border-color:var(--accent2)}
 
+/* markets tab */
+.mkt-head{margin:2px 2px 12px}
+.mkt-group{padding:6px 14px}
+.mkt-group-name{font-weight:650;font-size:13px;color:var(--muted);letter-spacing:.03em;
+  text-transform:uppercase;padding:8px 0 6px;border-bottom:1px solid var(--line)}
+.mkt-row{display:flex;align-items:baseline;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.mkt-row:last-child{border-bottom:0}
+.mkt-label{flex:1;font-weight:600}
+.mkt-val{font-variant-numeric:tabular-nums;font-weight:650;font-size:16px}
+.mkt-chg{font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:var(--muted);
+  min-width:88px;text-align:right}
+.mkt-chg.up{color:var(--good)}
+.mkt-chg.down{color:#e5686f}
+.mkt-note{margin:4px 2px 0}
+
 /* transcript */
 .seg{scroll-margin-top:230px;margin-top:18px}
 .seg h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);

@@ -13,50 +13,76 @@ HOW TO USE THIS TEMPLATE (slot-filling to save tokens & mistakes):
 - Fill each segment's turns; keep the header lines and structure verbatim.
 - Delete these <!-- --> guidance comments as you go (they're ignored by the parser
   and never spoken, so leaving them is harmless — but a clean script is nicer).
-- Target ~30,000–33,000 chars of ALEX:/SAM: dialogue (~26–29 min). Run
+- Target ~28,000–31,000 chars of ALEX:/SAM: dialogue (~26–29 min). Run
   tools/check_script.py before rendering.
+
+BREADTH > OVER-EXPLANATION (the governing rule this show is tuned for):
+- EVERY turn must add a NEW fact, number, or genuinely new angle. CUT any turn
+  whose only job is to restate the prior turn or perform curiosity ("What's the
+  read on it?", "Is that actually X though?", "That's a strange combination").
+- Per-section FOLLOW-UP CAP: the LEAD story of a section gets at most ONE
+  follow-up exchange; secondary stories get ZERO. Spend the reclaimed room on
+  MORE of the day's important news (an extra world headline, a second arts item),
+  not more back-and-forth on the same fact.
+- EXEMPT from the cap — depth is the point in these two: the DEEP DIVE (one thing,
+  go deep) and OP-EDS (the steelman → counter-take is a real second angle, keep it).
+- The MARKET segment is the biggest trim: don't read every index aloud — the
+  Markets tab shows the full levels. Name only the notable move + why, then spend
+  the segment on ANALYSIS / OPINION, not a numbers readout.
+
+IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length):
+- PHILIPPINES: deliver 2–3 of the lead politics/economy sentences in NATURAL
+  TAGALOG with a short English gloss right after — heritage/enrichment level, not
+  a lesson. Say it in Tagalog INSTEAD of in English; the gloss keeps it followable.
+- CHINA: deliver the LEAD sentence of the China story in MANDARIN (汉字) + English
+  gloss, using an HSK-4 connective the listener is weak on (尽管…还是, 一旦,
+  既然…就, 反而, 不仅…而且), then continue in English. The app auto-slows any
+  Mandarin turn to 0.5×, so keep the gloss on the same line if you want it slowed too.
+- TAGALOG VOCAB sits right BEFORE Philippines and MANDARIN VOCAB right BEFORE
+  China — teach the two words, then immediately hear them used in that news beat.
 -->
 
 ---
 
 ## COLD OPEN
 <!-- SAM: greet — "Good morning, this is The Morning Commute. <Weekday>, <Month> <D>. I'm Sam."
-     ALEX: "And I'm Alex." Then the THROUGHLINE in 3–5 sentences (the thread that ties the macro blocks), and hand off. NO segment preview. -->
+     ALEX: "And I'm Alex." Then the THROUGHLINE in 3–4 sentences (the thread that ties the macro blocks), and hand off. NO segment preview. Keep it to ~4 turns total. -->
 
 ## SEGMENT ONE — HEADLINES
-<!-- 2 WORLD stories — CURRENT EVENTS (politics, geopolitics, conflict, elections, policy, society), NOT market moves. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. -->
-
-## SEGMENT ONE — MARKET OVERVIEW
-<!-- KEEP IT TIGHT — do NOT recite every US index + all global markets by rote. Only spend time on BIG/notable moves (a large swing, a record, a real catalyst — CPI/Fed/earnings, a sharp rates move). If the tape was quiet, one quick line to set it and move on. Lead with the notable move + the "why it matters." REAL FMP numbers only — never from memory. -->
+<!-- 2–3 WORLD stories — CURRENT EVENTS (politics, geopolitics, conflict, elections, policy, society), NOT market moves. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. FOLLOW-UP CAP: lead story ≤1 follow-up, others 0 — use the room for a third headline when the day warrants it. -->
 
 ## SEGMENT ONE — U.S. BUSINESS
-<!-- 2 US-business stories. Finance-desk framing: number first, then the "why it matters." -->
+<!-- 2 US-business stories. Finance-desk framing: number first, then the "why it matters." Cap: 1 follow-up on the lead, 0 on the second. -->
 
 ## SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS
-<!-- 2 international stories — lean politics/current events over markets. -->
+<!-- 2 international stories — lean politics/current events over markets. Cap: 1 follow-up on the lead, 0 on the second. Vary the regions across the week. -->
 
-## SEGMENT ONE — CHINA
-<!-- 1 China item, through the two-speed / debt-deflation lens. -->
+## SEGMENT TWO — MARKET OVERVIEW
+<!-- KEEP IT BRIEF — do NOT read every US index + global market aloud; the MARKETS TAB shows the full levels. Name only the BIG/notable move (a large swing, a record, a real catalyst — CPI/Fed/earnings, a sharp rates move) and spend the segment on ANALYSIS / OPINION — the "why it matters," the tension, what to watch. If the tape was quiet, one line and move on. REAL FMP numbers only — never from memory. Also emit routine/markets-<date>.json (see the command file) so the tab is populated. -->
 
-## SEGMENT — DEEP DIVE
-<!-- ~5 min on ONE thing, going DEEP (not a skim) — this is where the time trimmed from the market recap goes. Pick EITHER a standout feature from one of the subscribed newsletters (inbox) OR a genuinely viral article/thread on X or Reddit (high engagement, being widely discussed right now). Set up the piece, then bring the hosts' real analysis: the argument, what's contested, the second-order read, why it matters to this listener. Attribute the source clearly ("a feature in <newsletter>", "a thread blowing up on <X/Reddit>"). Must be FRESH vs the ledger. -->
+## SEGMENT THREE — DEEP DIVE
+<!-- ~5 min on ONE thing, going DEEP (NOT subject to the follow-up cap) — this is where the time trimmed from the market recap goes. Pick EITHER a standout feature from one of the subscribed newsletters (inbox) OR a genuinely viral article/thread on X or Reddit (high engagement, being widely discussed right now). Set up the piece, then bring the hosts' real analysis: the argument, what's contested, the second-order read, why it matters to this listener. Attribute the source clearly ("a feature in <newsletter>", "a thread blowing up on <X/Reddit>"). Must be FRESH vs the ledger. -->
 
-## SEGMENT TWO — ENERGY / DATA CENTERS / UTILITIES
-<!-- GO DEEP (SemiAnalysis / Utility Dive level): specific projects, MW/GW & capex figures, off-takers, interconnection-queue and transformer/turbine bottlenecks, the second-order read. NOT a 101. Lead with the new data point. -->
+## SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES
+<!-- GO DEEP (SemiAnalysis / Utility Dive level): specific projects, MW/GW & capex figures, off-takers, interconnection-queue and transformer/turbine bottlenecks, the second-order read. NOT a 101. Lead with the new data point. This is the listener's professional core — density here is welcome, not over-explanation. -->
 
-## SEGMENT THREE — PHILIPPINES
-<!-- LEAD with politics + business/economy (national politics/governance, BSP policy + peso, major deals). Weather ONLY if there's an active PAGASA storm/landfall/major flooding. NO PSEi unless it made a major move. Tie back to the throughline. -->
+## SEGMENT FIVE — TAGALOG VOCAB
+<!-- 2 TAGALOG words tied to today's Philippines stories, each NEW vs the ledger (run check_dedup). Conducted IN TAGALOG (heritage/enrichment): natural spelling, English gloss ONLY as a translation after each sentence. Spend the time on connotation, register, and when you'd actually use it. These two words then RECUR in the Philippines segment that follows. -->
 
-## SEGMENT FOUR — VOCAB OF THE DAY
-<!-- IN-LANGUAGE immersion. 2 Mandarin then 2 Tagalog, each tied to a today story, each NEW vs the ledger (run check_dedup).
-     Mandarin: 汉字 with the English gloss in (parentheses); HSK-4; >=1 an advanced connective/abstract collocation; converse in Mandarin.
-     Tagalog: natural spelling + gloss; converse in Tagalog. English appears ONLY as a gloss after each foreign sentence. No tone-drilling. -->
+## SEGMENT SIX — PHILIPPINES
+<!-- LEAD with politics + business/economy (national politics/governance, BSP policy + peso, major deals). Deliver 2–3 lead sentences in NATURAL TAGALOG + short English gloss (using today's two Tagalog vocab words where they fit), then continue in English. Weather ONLY if there's an active PAGASA storm/landfall/major flooding. NO PSEi unless it made a major move. Tie back to the throughline. Follow-up cap applies to the English news turns. -->
 
-## SEGMENT FIVE — ARTS & CULTURE
-<!-- ~4 min. LEAD with visual & fine art (exhibitions, biennials, art fairs, auctions, gallery shows), opera & classical, and literature (releases, prizes, criticism); theater & dance welcome. Film/TV/pop is a MINOR slice. Critic's eye — the work, the maker, why it matters — not a listings roundup. Avoid items covered in recent episodes. -->
+## SEGMENT SEVEN — MANDARIN VOCAB
+<!-- 2 MANDARIN words tied to today's China story, each NEW vs the ledger. Conducted IN MANDARIN (汉字 + English gloss in parentheses); HSK-4; ≥1 an advanced connective / abstract collocation (NOT a concrete noun); flag register (书面语/口语), a near-synonym contrast, and the collocation pattern. No tone-drilling. These two words then RECUR in the China segment that follows. -->
 
-## SEGMENT SIX — OP-EDS & COMMENTARY
-<!-- ~3 min. 1–2 notable opinion pieces/editorials shaping the debate right now (NYT/WSJ/FT/WaPo/Bloomberg Opinion/Economist/Atlantic/Foreign Affairs + popular Substack/viral op-eds). Name the writer + outlet, STEELMAN the argument, then the sharp COUNTER-take. Distinct from the Deep Dive — this is the day's ARGUMENT, not a feature. Fresh vs the ledger; attribute clearly. -->
+## SEGMENT EIGHT — CHINA
+<!-- 1 China item, through the two-speed / debt-deflation lens. Deliver the LEAD sentence in MANDARIN (汉字) + English gloss — using an HSK-4 connective and today's two Mandarin vocab words where they fit — then continue in English. The app auto-slows Mandarin turns to 0.5×. -->
 
-## SEGMENT SEVEN — ONE GOOD THING
+## SEGMENT NINE — ARTS & CULTURE
+<!-- ~4 min. LEAD with visual & fine art (exhibitions, biennials, art fairs, auctions, gallery shows), opera & classical, and literature (releases, prizes, criticism); theater & dance welcome. Film/TV/pop is a MINOR slice. Critic's eye — the work, the maker, why it matters — not a listings roundup. 1 follow-up cap; use the room for a second art item when there's a strong one. Avoid items covered in recent episodes. -->
+
+## SEGMENT TEN — OP-EDS & COMMENTARY
+<!-- ~3 min. 1–2 notable opinion pieces/editorials shaping the debate right now (NYT/WSJ/FT/WaPo/Bloomberg Opinion/Economist/Atlantic/Foreign Affairs + popular Substack/viral op-eds). Name the writer + outlet, STEELMAN the argument, then the sharp COUNTER-take (NOT subject to the follow-up cap — the counter is a real second angle). Distinct from the Deep Dive. Fresh vs the ledger; attribute clearly. -->
+
+## SEGMENT ELEVEN — ONE GOOD THING
 <!-- One uplifting story — PREFER a personal human-interest story (someone's quiet, unprompted generosity; a family reunited; an individual overcoming adversity) over nature/wildlife/space trivia (whale counts, fossil finds, eclipses), which read as trivia rather than something to feel something about. Clean arc, zero editorializing, no caveat needed. Warm sign-off. (Do NOT include driving references unless the listener actually drives.) -->

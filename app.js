@@ -46,7 +46,7 @@ function toast(msg) {
 function setTab(tab) {
   S.tab = tab; saveState();
   $$('.tabbar button').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
-  ({ listen: viewListen, vocab: viewVocab, search: viewSearch, archive: viewArchive }[tab])();
+  ({ listen: viewListen, markets: viewMarkets, vocab: viewVocab, search: viewSearch, archive: viewArchive }[tab])();
 }
 $$('.tabbar button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
 
@@ -135,10 +135,15 @@ async function viewListen() {
 // same weighting so words are spaced by speaking time, not byte count.
 const CJK = /[㐀-鿿豈-﫿＀-￯]/g;
 const CJK_ONE = new RegExp(CJK.source);   // non-global copy for boolean turn tests
-// Auto-slow the VOCAB OF THE DAY segment so the language drills are followable:
-// Mandarin (汉字) at 0.5×, Tagalog at 1× — everything else plays at the user's speed.
-const CHINESE_RATE = 0.5;                  // Mandarin/Chinese turns → 0.5×
-const TAGALOG_RATE = 1;                    // Tagalog vocab turns    → 1×
+// Auto-slow the target-language stretches so they're followable. Mandarin (汉字)
+// drops to 0.5× ANYWHERE it appears — the Mandarin Vocab segment AND the lead
+// Mandarin sentence now folded into the China beat — because it's keyed on the CJK
+// in the turn, not on the segment name. Tagalog drops to 1× only inside a vocab
+// segment (Tagalog is Latin script, indistinguishable from English by character, so
+// we can't detect it in the Philippines beat — there it rides the user's speed as
+// natural-speed heritage immersion). Everything else plays at the user's speed.
+const CHINESE_RATE = 0.5;                  // any Mandarin/Chinese turn → 0.5×
+const TAGALOG_RATE = 1;                    // Tagalog vocab turns       → 1×
 const isVocabTurn   = i => i >= 0 && i < TURNS.length && /vocab/i.test(TURNS[i].seg || '');
 const isChineseTurn = i => i >= 0 && i < TURNS.length && CJK_ONE.test(TURNS[i].text);
 // A vocab turn with no CJK is the Tagalog stretch (or its English gloss framing).
@@ -442,6 +447,43 @@ async function viewSearch() {
     $$('.result').forEach(el => el.onclick = async () => { await loadEpisode(el.dataset.date); setTab('listen'); });
   };
   q.oninput = run; q.focus();
+}
+
+// ================= MARKETS =================
+// A reference snapshot of the major index/rate/commodity/FX levels the show used to
+// read aloud. The daily routine writes data/markets.json (latest) from the same FMP
+// numbers that back the Market Overview segment, so the listener can SEE the tape
+// instead of hearing every index recited. Static, per-episode — not live/intraday.
+const MKT_DIR = { up: '▲', down: '▼', flat: '·' };
+async function viewMarkets() {
+  const view = $('#view');
+  $('#ep-title').textContent = 'Markets';
+  view.innerHTML = `<div class="empty">Loading markets…</div>`;
+  let m = null;
+  try { m = await getJSON(`${DATA}markets.json`); } catch { m = null; }
+  if (!m || !Array.isArray(m.groups) || !m.groups.length) {
+    $('#ep-sub').textContent = '';
+    view.innerHTML = `<div class="empty">No market snapshot yet — it publishes with the next episode.</div>`;
+    return;
+  }
+  $('#ep-sub').textContent = m.asOf || m.date || '';
+  const rowHTML = r => {
+    const dir = ['up', 'down', 'flat'].includes(r.dir) ? r.dir : '';
+    const chg = r.change ? `<span class="mkt-chg ${dir}">${dir ? MKT_DIR[dir] + ' ' : ''}${escHTML(r.change)}</span>` : '';
+    return `<div class="mkt-row">
+      <span class="mkt-label">${escHTML(r.label || '')}</span>
+      <span class="mkt-val">${escHTML(r.value != null ? String(r.value) : '')}</span>
+      ${chg}</div>`;
+  };
+  const groupHTML = g => `
+    <section class="card mkt-group">
+      <div class="mkt-group-name">${escHTML(g.name || '')}</div>
+      ${(g.rows || []).map(rowHTML).join('')}
+    </section>`;
+  view.innerHTML = `
+    <div class="mkt-head muted small">${escHTML(m.asOf || m.date || '')}</div>
+    ${m.groups.map(groupHTML).join('')}
+    ${m.note ? `<div class="mkt-note muted small">${escHTML(m.note)}</div>` : ''}`;
 }
 
 // ================= VOCAB =================

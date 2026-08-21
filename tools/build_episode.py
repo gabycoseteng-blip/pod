@@ -216,6 +216,13 @@ def main():
     if os.path.isfile(digest_src):
         shutil.copyfile(digest_src, os.path.join(out, "digest.json"))
 
+    # markets snapshot (optional): the routine writes routine/markets-<date>.json (the
+    # major index/rate/commodity/FX levels for the Markets tab). Keep a per-episode copy
+    # so data/markets.json — the "latest" snapshot the tab reads — is rebuilt durably.
+    markets_src = os.path.join(ROOT, "routine", f"markets-{date}.json")
+    if os.path.isfile(markets_src):
+        shutil.copyfile(markets_src, os.path.join(out, "markets.json"))
+
     rebuild_index()
     rebuild_history()
     print(f"OK  {date}: {len(segments)} segments, {duration//60}m audio, {vcount} vocab cards")
@@ -225,6 +232,7 @@ def rebuild_index():
     """Rebuild data/index.json (the archive list) and data/search.json (a flat,
     client-searchable text doc per episode: transcript + vocab)."""
     eps, search = [], []
+    latest_markets = None  # newest episode's markets.json → published as data/markets.json
     for d in sorted(os.listdir(EPDIR), reverse=True):
         ep_json = os.path.join(EPDIR, d, "episode.json")
         if not os.path.isfile(ep_json):
@@ -235,11 +243,15 @@ def rebuild_index():
         if os.path.isfile(v):
             try: cards = json.load(open(v))["cards"]
             except Exception: cards = []
+        mk = os.path.join(EPDIR, d, "markets.json")
+        if latest_markets is None and os.path.isfile(mk):
+            latest_markets = mk  # loop runs newest-first, so the first hit is the latest
         eps.append({
             "date": e["date"], "title": e.get("title", e["date"]),
             "day": e.get("day", ""), "durationSec": e.get("durationSec", 0),
             "hasAudio": bool(e.get("audio")), "vocabCount": len(cards),
             "segmentCount": len(e.get("segments", [])),
+            "hasMarkets": os.path.isfile(mk),
         })
         # one searchable text blob per episode: segment labels + every spoken
         # turn + vocab words/meanings, so a substring search covers the archive.
@@ -260,6 +272,10 @@ def rebuild_index():
     json.dump({"docs": search},
               open(os.path.join(DATA, "search.json"), "w"),
               ensure_ascii=False, indent=2)
+    # publish the latest episode's market snapshot as data/markets.json (the tab reads
+    # this single stable URL). Leave any prior file untouched if no episode has one.
+    if latest_markets:
+        shutil.copyfile(latest_markets, os.path.join(DATA, "markets.json"))
 
 
 def rebuild_history():

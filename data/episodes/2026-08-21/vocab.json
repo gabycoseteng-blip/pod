@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-21",
+  "cards": [
+    {
+      "id": "2026-08-21-zh-1",
+      "lang": "Mandarin",
+      "word": "不管……都……",
+      "pinyin": "bù guǎn ... dōu ...",
+      "pronunciation": "bu guan ... dou ...",
+      "tones": "4 · 3 · 1",
+      "meaning": "no matter what/how ... always — asserts a result holds regardless of the condition",
+      "example": "不管市场情绪多悲观，只要基本面够硬，股价就能反弹。",
+      "examplePinyin": "bù guǎn shì chǎng qíng xù duō bēi guān, zhǐ yào jī běn miàn gòu yìng, gǔ jià jiù néng fǎn tán",
+      "exampleMeaning": "No matter how pessimistic market sentiment gets, as long as the fundamentals are strong enough, the stock can rebound.",
+      "note": "Near-synonym contrast with 无论……都……: 不管 is more colloquial, carrying a firm 'whatever happens, the result is the same' tone; 无论 is more formal/written, common in policy or news-analysis register. Using 不管 here emphasizes a judgment that isn't swayed by sentiment.",
+      "tiesTo": "Kospi's -5.8%/+6.1% two-day round trip on the SK Hynix buyback"
+    },
+    {
+      "id": "2026-08-21-zh-2",
+      "lang": "Mandarin",
+      "word": "表面上……实际上……",
+      "pinyin": "biǎo miàn shàng ... shí jì shàng ...",
+      "pronunciation": "biao mian shang ... shi ji shang ...",
+      "tones": "3 · 4 · 4 · 2 · 4 · 4",
+      "meaning": "on the surface ... but in reality ... — a contrast pair distinguishing appearance from underlying fact",
+      "example": "表面上沃尔玛的业绩超出预期，但实际上市场担心这份增长的含金量。",
+      "examplePinyin": "biǎo miàn shàng wò ěr mǎ de yè jì chāo chū yù qī, dàn shí jì shàng shì chǎng dān xīn zhè fèn zēng zhǎng de hán jīn liàng",
+      "exampleMeaning": "On the surface Walmart's results beat expectations, but in reality the market is worried about the quality of that growth.",
+      "note": "书面语 (formal register), a standard finance-reporting collocation for separating headline appearance from underlying substance — used here because much of Walmart's beat came from tariff refunds rather than real sales growth.",
+      "tiesTo": "Walmart's beat-and-raise stock drop on earnings-quality concerns"
+    },
+    {
+      "id": "2026-08-21-tl-1",
+      "lang": "Tagalog",
+      "word": "pagbawi",
+      "pinyin": "",
+      "pronunciation": "pag-BA-wi",
+      "tones": "",
+      "meaning": "formal retraction/withdrawal — the act of officially taking back a statement or testimony",
+      "example": "Ibinawi ni Guteza ang kanyang testimonya laban kay Romualdez, dahil umano sa panggigipit sa kanya ng ilang mambabatas.",
+      "examplePinyin": "",
+      "exampleMeaning": "Guteza withdrew his testimony against Romualdez, allegedly because of pressure from some lawmakers.",
+      "note": "From the verb 'bawiin' (to take back/retract). More formal and legal in register than the everyday 'binago niya ang sinabi niya' (he changed what he said) — 'pagbawi' specifically names the formal act of withdrawing a sworn statement or testimony, the word you'd hear in news and court reporting, not casual conversation.",
+      "tiesTo": "Orly Guteza formally recanting his testimony in the flood-control kickback scandal"
+    },
+    {
+      "id": "2026-08-21-tl-2",
+      "lang": "Tagalog",
+      "word": "pag-asenso",
+      "pinyin": "",
+      "pronunciation": "pag-a-SEN-so",
+      "tones": "",
+      "meaning": "advancement, upward progress — usually at a national/economic scale",
+      "example": "Unang beses bumaba nang isang-digit ang antas ng kahirapan sa Pilipinas — isang malaking hakbang sa pag-asenso ng bansa.",
+      "examplePinyin": "",
+      "exampleMeaning": "For the first time, poverty in the Philippines dropped to single digits — a big step in the country's advancement.",
+      "note": "From the root 'asenso' (progress/advancement) plus the 'pag-' gerund prefix, framing it as an ongoing upward process. More macro and formal than the everyday 'gumaganda ang buhay' (life is getting better), which describes one person's day-to-day situation — 'pag-asenso' is the register used for economic and national development.",
+      "tiesTo": "PSA's poverty incidence falling to single digits (9.7%) for the first time"
+    }
+  ]
+}

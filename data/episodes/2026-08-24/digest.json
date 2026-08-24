@@ -1,0 +1,36 @@
+{
+  "throughline": "What doesn't make headlines is where the real risk sits -- a quiet Friday tape hides a Treasury market propped up by leveraged hedge-fund basis trades, Beijing formally closes the books on Evergrande the same week China's AI-linked stocks rip to multi-year highs, Nvidia hedges the AI buildout by buying equity in the power-siting bottleneck itself, and Manila's central bank has to raise rates into the weakest growth print in 16 years",
+  "stories": [
+    "iran-bessent-economic-dday-secondary-sanctions-hormuz-seizure-threat",
+    "ukraine-zelensky-peace-plan-ceasefire-free-economic-zone-donbas-buffer",
+    "gaza-netanyahu-kite-drone-balloon-strike-escalation-evacuation-threat",
+    "deere-uaw-rejects-contract-extension-negotiations-push-fall-2027",
+    "paramount-wbd-california-bonta-cable-divestiture-antitrust-settlement-meeting",
+    "shell-us-chemicals-8bn-sale-exxon-lyondellbasell-apollo-kuwait-bids",
+    "eu-six-countries-windfall-tax-oil-profits-iran-war-dublin-ecofin-september",
+    "us-market-overview-sp-7674.37-nasdaq-26180.46-dow-53277.01-russell-3017.87-quiet-broad-updday",
+    "brent-crude-minus3.49pct-monday-intraday-no-confirmed-catalyst",
+    "tooze-chartbook469-hedge-fund-basis-trade-treasury-market-fragility-830bn",
+    "nvidia-cloverleaf-infrastructure-investment-powered-land-datacenter-siting",
+    "duke-energy-carolinas-resource-plan-18.5gw-solar-14gw-gas-13gw-storage-4.5gw-nuclear-2041",
+    "pjm-150gw-surplus-interconnection-stranded-capacity-broken-approval-process",
+    "ercot-texas-datacenter-audit-dec10-deadline-abbott-moratorium",
+    "philippines-duterte-impeachment-schedule-fight-acosta-testimony-resumes-fajarda-next",
+    "philippines-bsp-rate-hike-poll-aug27-5.00pct-q2-gdp-2.3pct-16yr-low",
+    "philippines-peso-61.639-flat-off-record-low",
+    "philippines-typhoon-obet-par-entry-tcws1-batanes-habagat-enhance",
+    "evergrande-hui-kayan-life-sentence-hengda-liquidation-accepted-guangzhou",
+    "sjoo-alison-jacques-gallery-lawsuit-estate-buyer-vetting-breach-of-contract",
+    "inside-literary-prize-2026-book-censors-library-al-essa-incarcerated-judges",
+    "whitney-biennial-2026-closes-aug23-guerrero-sawyer-56-artists-critics-split",
+    "yglesias-slow-boring-datacenter-opposition-8020-poll-utility-rate-design",
+    "economist-leader-could-ais-become-conscious-precautionary-disclosure-rules",
+    "one-good-thing-heidi-widmer-carole-neighbor-friendship-culver-city-gofundme"
+  ],
+  "explainers": [
+    "hedge-fund-basis-trade-mechanics-cash-futures-arbitrage-as-marginal-treasury-buyer",
+    "powered-land-model-lock-interconnection-before-datacenter-developer-breaks-ground",
+    "surplus-interconnection-service-as-distinct-pathway-from-new-generation-queue"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = any concept actually explained, so it won't be re-explained"
+}

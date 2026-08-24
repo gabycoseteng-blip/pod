@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-24",
+  "cards": [
+    {
+      "id": "2026-08-24-tl-1",
+      "lang": "Tagalog",
+      "word": "patuloy",
+      "pinyin": "",
+      "pronunciation": "pa-tu-LOY",
+      "tones": "",
+      "meaning": "ongoing, continuing -- describes a process or event still in progress",
+      "example": "Patuloy ang paglilitis kay Bise Presidente Duterte sa Senado ngayong linggo, habang tinatalakay pa rin kung ilalayo ba sa umaga ang mga pagdinig.",
+      "examplePinyin": "",
+      "exampleMeaning": "The impeachment trial against Vice President Duterte continues in the Senate this week, while lawmakers still debate whether to move the hearings out of the morning slot.",
+      "note": "From the root 'tuloy' (to continue/proceed) plus the 'pa-' prefix marking an ongoing state. More neutral and news-register than 'tumatagal' (dragging on), which carries a note of fatigue or frustration -- 'patuloy' simply reports that something is still in motion, the word you'd use in a straight news lead rather than a complaint.",
+      "tiesTo": "Duterte impeachment trial resuming with Gina Acosta's testimony"
+    },
+    {
+      "id": "2026-08-24-tl-2",
+      "lang": "Tagalog",
+      "word": "pagtaas",
+      "pinyin": "",
+      "pronunciation": "pag-TA-as",
+      "tones": "",
+      "meaning": "a rise or increase -- typically used for rates, prices, or levels going up",
+      "example": "Inaasahan ng mga ekonomista ang posibleng pagtaas ng interest rate ng BSP sa Huwebes, dahil sa mataas pa ring implasyon kahit humina ang paglago ng ekonomiya.",
+      "examplePinyin": "",
+      "exampleMeaning": "Economists expect a possible BSP interest rate increase on Thursday, because inflation is still high even though economic growth has slowed.",
+      "note": "From the root 'taas' (height/high) plus the 'pag-' gerund prefix, naming the act or fact of rising as a noun. The standard finance-desk term for a rate or price hike -- more formal and precise than the verb form 'tumaas' (it rose), which just narrates the event rather than naming it as a measurable data point.",
+      "tiesTo": "BSP expected to hike rates a third straight time to 5.00% on Aug 27"
+    },
+    {
+      "id": "2026-08-24-zh-1",
+      "lang": "Mandarin",
+      "word": "无论……都……",
+      "pinyin": "wú lùn ... dōu ...",
+      "pronunciation": "wu lun ... dou ...",
+      "tones": "2 · 4 · 1 · 1",
+      "meaning": "no matter what/how ... always -- asserts a result holds regardless of the condition",
+      "example": "无论外界如何质疑恒大重组的诚意，广州法院这次都决定正式了结这起持续五年的债务危局。",
+      "examplePinyin": "wú lùn wài jiè rú hé zhì yí héng dà chóng zǔ de chéng yì, guǎng zhōu fǎ yuàn zhè cì dōu jué dìng zhèng shì liǎo jié zhè qǐ chí xù wǔ nián de zhài wù wēi jú",
+      "exampleMeaning": "No matter how much outside observers question the sincerity of Evergrande's restructuring, the Guangzhou court has this time decided to formally wrap up this five-year debt crisis.",
+      "note": "书面语 (formal, written register) -- a near-synonym of the more colloquial 不管……都……, which sounds like everyday spoken judgment ('whatever happens, same result'), while 无论……都…… reads as considered, deliberate reasoning, the register you'd hear from a news anchor or in a policy analysis rather than a casual conversation.",
+      "tiesTo": "Guangzhou court accepting Hengda's liquidation petition regardless of restructuring claims"
+    },
+    {
+      "id": "2026-08-24-zh-2",
+      "lang": "Mandarin",
+      "word": "了结",
+      "pinyin": "liǎo jié",
+      "pronunciation": "liao jie",
+      "tones": "3 · 2",
+      "meaning": "to conclude, wrap up, formally settle -- bringing a matter to a definitive close",
+      "example": "许家印被判无期徒刑之后，恒大地产的破产清算也终于得到法院受理，算是了结了这桩五年的债务案。",
+      "examplePinyin": "xǔ jiā yìn bèi pàn wú qī tú xíng zhī hòu, héng dà dì chǎn de pò chǎn qīng suàn yě zhōng yú dé dào fǎ yuàn shòu lǐ, suàn shì liǎo jié le zhè zhuāng wǔ nián de zhài wù àn",
+      "exampleMeaning": "After Hui Ka Yan was sentenced to life in prison, Hengda Real Estate's bankruptcy liquidation was finally accepted by the court too -- effectively concluding this five-year debt case.",
+      "note": "书面语 (formal register), an abstract verb that collocates with 案件 (a case), 纠纷 (a dispute), or 债务 (debt) -- it names the act of definitively closing a matter, distinct from 解决 (to resolve/solve), which implies a problem was actually fixed rather than simply brought to an end.",
+      "tiesTo": "Evergrande/Hengda liquidation as formal legal closure, not a debt fix"
+    }
+  ]
+}

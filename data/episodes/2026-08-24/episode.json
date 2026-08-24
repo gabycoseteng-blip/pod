@@ -1,0 +1,809 @@
+{
+  "date": "2026-08-24",
+  "title": "Monday, August 24, 2026",
+  "day": "Monday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-08-24.mp3",
+  "durationSec": 1583,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute for Monday, August 24th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Today's thread is that the real risk sits in whatever doesn't make the headline. Friday's tape looked quiet, but underneath it the Treasury market is now propped up by leveraged hedge funds, not central banks.",
+          "startSec": 3.92,
+          "endSec": 15.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "Beijing formally closes the book on Evergrande this week — a life sentence and a bankruptcy filing — the same week China's AI stocks are ripping to multi-year highs.",
+          "startSec": 15.56,
+          "endSec": 24.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nvidia's hedging its own buildout by buying into the power-siting bottleneck directly, and Manila's central bank has to raise rates into the weakest growth print in sixteen years. Let's get into it.",
+          "startSec": 24.17,
+          "endSec": 34.51
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Starting with Iran, and Washington's turning the screws hard. Treasury Secretary Scott Bessent used a Sunday FT op-ed to declare what he's calling an economic D-Day against Tehran — his words, \"the greatest financial offensive ever marshalled against an adversary\" — with a press conference today detailing a new secondary-sanctions package.",
+          "startSec": 34.51,
+          "endSec": 52.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It targets any country, bank, or shipping and insurance operation still touching Iranian oil. Iran's answer is Hormuz threats — security chief Mohsen Rezaei says he'll halt Hormuz flow entirely if neighboring states join Washington's campaign, and fewer than 20 ships transited the strait all weekend.",
+          "startSec": 52.31,
+          "endSec": 68.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "There's a crack on Tehran's side too — President Pezeshkian said publicly Iran, quote, \"cannot continue with war forever.\"",
+          "startSec": 68.02,
+          "endSec": 74.39
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the tell to watch. An internal fault line between hardliners threatening seizures and a president signaling exhaustion is exactly the kind of split that determines whether Bessent's sanctions actually bite or just harden Tehran's public line. We'll know more once his press conference lands today. And that under-20-ships weekend figure matters on its own — Hormuz normally carries roughly a fifth of global oil supply daily, so shipping's already voting with its routing decisions before Bessent's even finished detailing the sanctions.",
+          "startSec": 74.39,
+          "endSec": 102.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story, Ukraine — there's an actual structural advance here, not just another round of talks. Zelensky says the US, Ukraine and Europe have consolidated the Witkoff-Kushner-mediated talks into a single peace-plan document.",
+          "startSec": 102.79,
+          "endSec": 114.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The core of it: a ceasefire of 60-plus days, mutual troop withdrawal from parts of Donbas to create a free-economic-zone buffer under EU-NATO-backed third-party administration, and defined next steps toward EU and NATO accession. That's well beyond the \"coalition of the willing\" framework from last week.",
+          "startSec": 114.69,
+          "endSec": 130.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's still unresolved?",
+          "startSec": 130.62,
+          "endSec": 131.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Who actually administers that buffer zone, and how withdrawal gets verified as genuinely reciprocal on both sides. And notably, the planned Witkoff-Kushner Moscow visit just got postponed — unlikely before month's end — so the document exists, but the next diplomatic step is stalled.",
+          "startSec": 131.87,
+          "endSec": 146.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, Gaza, and the ceasefire is fraying at the edges again. Kites, drones and improvised balloons launched from Gaza landed in Kibbutz Nahal Oz over the weekend, and Netanyahu and Defense Minister Katz are now threatening to intensify strikes and evacuate the launch areas.",
+          "startSec": 146.69,
+          "endSec": 161.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Israeli strikes over the weekend killed at least three Palestinians, including a four-year-old, hit a Hamas weapons-production site, and killed a Hamas commander — all despite the standing ceasefire. The UAE joined seven other Arab and Islamic nations condemning Israel, while still routing 800 tonnes of aid into Gaza on 75 lorries. Kushner's regional visit produced no breakthrough.",
+          "startSec": 161.05,
+          "endSec": 181.1
+        }
+      ],
+      "startSec": 34.5
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "On the corporate side, Deere just lost a bet on labor peace. The UAW voted Sunday to reject a proposed two-year contract extension that would've avoided reopening full talks.",
+          "startSec": 181.1,
+          "endSec": 190.18
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That pushes full negotiations out to fall 2027, when the current agreement was due to be renegotiated anyway — Deere called itself \"disappointed,\" framing the extension as stability in what it called a challenging environment. Reading between the lines, the union didn't think the offer was worth giving up its full leverage two years early.",
+          "startSec": 190.18,
+          "endSec": 207.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, media consolidation's day of reckoning — Paramount Skydance and California AG Rob Bonta's 12-state coalition are meeting today to try to settle the antitrust suit over the roughly $8 billion Paramount-Warner Bros. Discovery merger.",
+          "startSec": 207.98,
+          "endSec": 220.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bonta's expected ask is a cable-channel divestiture, plus keeping the Paramount and WBD film studios operationally separate as the price of dropping the suit. Worth flagging — this meeting is happening as we're recording, so the actual terms, or whether it even produces a deal at all, may only be public after this airs.",
+          "startSec": 220.46,
+          "endSec": 237.22
+        }
+      ],
+      "startSec": 181.1
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Shell's cleaning house. They've received non-binding bids that could fetch up to $8 billion for their US chemicals portfolio — 4 plants across Louisiana, Texas and Pennsylvania, including the $14 billion Monaca complex.",
+          "startSec": 237.22,
+          "endSec": 248.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The bidder list is a who's-who: ExxonMobil, LyondellBasell, private-equity firm Apollo, and Kuwait Petroleum's chemicals arm. Bids range from whole-portfolio offers to piecemeal plant-by-plant bids, which tells you the market's split on whether this is one clean asset or four separate ones.",
+          "startSec": 248.65,
+          "endSec": 263.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a policy story tying straight back to Iran — six EU countries want a windfall tax on oil-company profits.",
+          "startSec": 263.84,
+          "endSec": 269.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Germany, Italy, Austria, Poland, Portugal and Spain sent a joint letter arguing refined-product margins now exceed the rise in crude prices since the Iran war disrupted Hormuz shipping — in other words, oil majors are pocketing more than the actual cost shock justifies. German finance minister Lars Klingbeil put it bluntly: excessive crisis profits need to go back to consumers. They want it on the agenda at September's ECOFIN meeting in Dublin, September 18th and 19th, under Ireland's EU presidency.",
+          "startSec": 269.53,
+          "endSec": 295.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Six countries isn't the whole bloc, though.",
+          "startSec": 295.84,
+          "endSec": 298.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It isn't, and that's the fight to watch — a windfall tax needs unanimity or at least a broad qualified majority to move at the EU level, and the six signatories notably don't include France or the Netherlands, both home to major refiners with a direct stake in blocking it. This ties straight back to the Hormuz risk premium we've been tracking — it's the first concrete policy response trying to claw some of that premium back from producers instead of just absorbing it as a cost.",
+          "startSec": 298.09,
+          "endSec": 323.25
+        }
+      ],
+      "startSec": 237.2
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "To the tape, and Friday was genuinely quiet — a broad, unremarkable up day. S&P 500 closed 7,674.37, up 0.43%. Nasdaq 26,180.46, also up 0.43%. Dow led at 53,277.01, up 0.98%. Russell 2000 up 0.85% to 3,017.87. Nothing broke 1%, no records, nothing here worth dwelling on — full levels are on the Markets tab.",
+          "startSec": 323.25,
+          "endSec": 339.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "Anything actually worth flagging this morning?",
+          "startSec": 339.68,
+          "endSec": 342.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One thing — Brent crude is down 3.5% intraday this morning, a real move. We don't have a confirmed catalyst yet; the news feeds we'd normally pull from were down this run, so I'm not going to guess at a cause. Just flagging it as something to watch as the session develops.",
+          "startSec": 342.12,
+          "endSec": 356.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "Yields?",
+          "startSec": 356.64,
+          "endSec": 357.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ticked up slightly Friday — ten-year to 4.74%, thirty-year to 5.27%, both up about five basis points. Nothing dramatic on the surface. But \"nothing dramatic on the surface\" is basically today's whole theme, so let's go straight to why.",
+          "startSec": 357.01,
+          "endSec": 369.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "Anything on the calendar worth watching this week?",
+          "startSec": 369.5,
+          "endSec": 372.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The real catalyst isn't today, it's Wednesday through Friday — Jackson Hole. New Fed chair Kevin Warsh delivers his first keynote there Thursday, and that's a bigger tell for where yields go next than anything in this morning's quiet tape. Manila's BSP decision lands Thursday too, which we'll get to.",
+          "startSec": 372.16,
+          "endSec": 388.16
+        }
+      ],
+      "startSec": 323.2
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Which is exactly where today's Deep Dive lives. Adam Tooze published a new Chartbook yesterday — number 469 — on what he's calling the risk of unwind in the Treasury market, and it's the plumbing underneath everything we've been covering on yields the last two weeks.",
+          "startSec": 388.16,
+          "endSec": 402.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His argument starts with what's changed. The old story of who buys US Treasuries was foreign central banks recycling their trade surpluses back into dollar debt — the \"Bretton Woods 2.0\" mechanism. That's largely collapsed since 2008, and China specifically is now actively diversifying away from Treasuries even as its trade surplus stays enormous.",
+          "startSec": 402.36,
+          "endSec": 420.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "So who's actually buying now?",
+          "startSec": 420.91,
+          "endSec": 422.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Leveraged hedge funds, and Tooze cites new NY Fed research from economist Phillip Monin showing hedge funds' Treasury holdings now exceed those of mutual funds AND US-chartered depository institutions combined. That's a real structural handoff, not a marginal shift.",
+          "startSec": 422.45,
+          "endSec": 436.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "But hedge funds buying Treasuries with their own capital is one thing —",
+          "startSec": 436.59,
+          "endSec": 440.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "— and that's the second half of the argument, it isn't their own capital. Office of Financial Research data show hedge-fund repo borrowing up 154% since 2022, prime-brokerage borrowing up 83%. Nearly half of hedge funds' 2.4-trillion-dollar long Treasury position as of last September is leveraged arbitrage — mostly the basis trade, arbitraging cash Treasuries against futures.",
+          "startSec": 440.37,
+          "endSec": 460.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "The basis trade — that's the same mechanism from March 2020.",
+          "startSec": 460.46,
+          "endSec": 463.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the one — Tooze's prior post, Chartbook 468, walks through the actual Sunday emergency FOMC call that March, when the basis trade unwind nearly broke the Treasury market and needed roughly 75 billion dollars a day of emergency Fed purchases to stop it. Basis-trade volume today is around 830 billion dollars — nearly double its early-2020 peak — now 3.5% of privately-held Treasuries by value versus a 2.5% peak back then. That's a 40% jump in concentration risk sitting in the exact same trade that broke once already.",
+          "startSec": 463.65,
+          "endSec": 491.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the \"safest, most liquid market in the world\" is now structurally dependent on leveraged, rate-sensitive positioning.",
+          "startSec": 491.67,
+          "endSec": 498.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the read, and it's why Friday's quiet tape and the yield moves we've tracked for two weeks — the 30-year hitting 5.28%, Bessent doubling the buyback program — aren't separate stories. They're all downstream of the same fragile plumbing. If that leverage has to unwind fast, \"quiet\" can turn into March 2020 very quickly, and there's more of it sitting there now than there was then.",
+          "startSec": 498.05,
+          "endSec": 518.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "What would actually trigger a fast unwind, rather than just sitting there as a risk?",
+          "startSec": 518.73,
+          "endSec": 523.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The basis trade only works while the cash-futures spread stays predictable and repo funding stays cheap. A sharp funding-cost spike, or a margin call that forces funds to sell the cash leg faster than they can unwind the futures leg, is exactly what happened in March 2020 — and it doesn't need a Treasury-specific shock to start, just a liquidity squeeze anywhere that forces deleveraging. Tooze's point is that the 40% jump in concentration since then means the same trigger now has a bigger position to unwind through a market that hasn't gotten any deeper.",
+          "startSec": 523.19,
+          "endSec": 552.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the Fed's the backstop either way.",
+          "startSec": 552.96,
+          "endSec": 554.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is, but that's Bessent's own dilemma — the buyback program he doubled two weeks ago is partly an attempt to manage exactly this fragility before it needs an emergency response, not after. Whether direct Treasury purchases from the demand side can substitute for hedge-fund leverage at this scale is, genuinely, untested.",
+          "startSec": 554.98,
+          "endSec": 572.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "How does this connect back to what China's doing with Evergrande later in the show?",
+          "startSec": 572.16,
+          "endSec": 576.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's the same underlying question from two different angles — who's actually willing to hold long-term debt when the official, central-bank-driven buyer base thins out. China's dealing with it in real estate, where the answer has been years of extend-and-pretend before this week's forced reckoning. The US version is still in the \"extend\" phase, with leveraged funds standing in for the buyers who used to show up automatically — Tooze's whole point is that phase doesn't last forever either.",
+          "startSec": 576.57,
+          "endSec": 602.78
+        }
+      ],
+      "startSec": 388.2
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Onto power, and Nvidia's making a move that says a lot about how tight it thinks the power constraint really is. They're in advanced talks to put hundreds of millions into Cloverleaf Infrastructure, a data-center power developer.",
+          "startSec": 602.78,
+          "endSec": 614.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Cloverleaf's model is locking utility interconnection and land before a data-center developer even breaks ground, then selling \"powered land\" as a finished product. They've already sold over 7 gigawatts of powered sites — including Wisconsin land that went to Oracle and OpenAI — and they're sitting on a 10-plus gigawatt pipeline. Nvidia stepping into that is different from the SpaceX and Microsoft vendor-financing pattern we've covered — this is Nvidia buying equity directly in the power-siting bottleneck, not just financing the compute that needs it.",
+          "startSec": 614.95,
+          "endSec": 644.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "Duke Energy filed something big for the Carolinas.",
+          "startSec": 644.56,
+          "endSec": 647.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Eighteen and a half gigawatts of solar, 14 gigawatts of gas, 13 gigawatts of storage, and four and a half gigawatts of new nuclear, all by 2041 — filed August 17th with South Carolina and North Carolina regulators. What's notable is the shape of it: instead of picking one lane the way Constellation bet on existing nuclear, or PPL and Blackstone bet on gas turbines, Duke's hedging across all four generation types at once for data-center-driven load growth.",
+          "startSec": 647.22,
+          "endSec": 672.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "There's also a stranded-capacity story at PJM worth flagging.",
+          "startSec": 672.71,
+          "endSec": 676.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "About 150 gigawatts of surplus interconnection capacity — capacity at plants that already have a grid connection — is sitting behind a broken approval process. Only two of eight applications have been approved since 2023. PJM opened an issue charge on it in early August, and it's now in their Market Implementation Committee. MISO's separately studying 14.8 gigawatts of the same pathway, SPP 14.3 gigawatts — this is a genuinely different bottleneck than the new-generation interconnection queue we usually talk about.",
+          "startSec": 676.1,
+          "endSec": 704.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Texas has a deadline now on its data-center audit.",
+          "startSec": 704.98,
+          "endSec": 707.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "ERCOT says it'll complete Governor Abbott's audit of roughly 300 Texas data centers — the 75-megawatt-plus \"Batch Zero\" cohort — by December 10th. That audit, ordered August 3rd, came with a moratorium on new interconnections in the meantime, covering tax incentives, water use and state financial assistance. The detail that matters for anyone with money in the Texas queue: December 10th lands after the November election, so the freeze on new interconnections won't resolve before voters go to the polls.",
+          "startSec": 707.98,
+          "endSec": 736.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Four different states, four different tools — equity stakes, an all-of-the-above resource plan, a market-design fix, and a regulatory freeze.",
+          "startSec": 736.13,
+          "endSec": 743.96
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the real story underneath all four — there's no single playbook for the power constraint right now, everyone from chipmakers to state regulators is improvising their own lever, and which lever wins matters enormously for anyone underwriting a project against a specific state's rules.",
+          "startSec": 743.96,
+          "endSec": 760.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which of those four is actually the fastest lever to pull?",
+          "startSec": 760.12,
+          "endSec": 763.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The PJM surplus-interconnection fix, on paper — 150 gigawatts already sitting behind existing grid connections is faster to unlock than building 18 gigawatts of new Duke Energy solar or waiting on Nvidia's powered-land pipeline to convert into signed offtake. But \"on paper\" is doing a lot of work there — it's exactly the approval-process backlog, only 2 of 8 applications cleared since 2023, that's kept it stranded this long, and there's no guarantee PJM's Market Implementation Committee moves any faster than the queue reform fights we've covered all month.",
+          "startSec": 763.34,
+          "endSec": 794.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "And MISO and SPP studying their own surplus capacity too.",
+          "startSec": 794.56,
+          "endSec": 797.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "14.8 gigawatts at MISO, 14.3 at SPP — so this isn't a PJM-specific quirk, it's a pattern across every major RTO: capacity that's already interconnected but locked behind paperwork, which is a fundamentally cheaper fix than new build if anyone can actually get the process moving. Watch which grid operator clears its backlog first — that's a real competitive advantage for siting the next wave of data centers.",
+          "startSec": 797.72,
+          "endSec": 820.49
+        }
+      ],
+      "startSec": 602.8
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Time for today's Tagalog. First word — patuloy.",
+          "startSec": 820.49,
+          "endSec": 823.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Patuloy — ongoing, still continuing. It comes from the root \"tuloy,\" to continue, with the \"pa-\" prefix marking an ongoing state. It's neutral, news-register language — the word you'd use in a straight lead, not \"tumatagal,\" which carries a note of fatigue, like something dragging on too long.",
+          "startSec": 823.1,
+          "endSec": 839.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word — pagtaas.",
+          "startSec": 839.43,
+          "endSec": 840.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pagtaas — a rise, an increase. From \"taas,\" height, with the \"pag-\" gerund prefix turning it into a noun naming the act of rising itself. It's the finance-desk term for a rate hike or a price increase — more precise than the verb \"tumaas,\" which just narrates that something went up, without naming it as a measurable figure.",
+          "startSec": 840.65,
+          "endSec": 858.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Patuloy for something still in motion, pagtaas for a number climbing — both come right back in the Philippines segment.",
+          "startSec": 858.7,
+          "endSec": 865.31
+        }
+      ],
+      "startSec": 820.5
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Patuloy ang paglilitis kay Bise Presidente Duterte sa Senado ngayong linggo, habang tinatalakay pa rin kung ilalayo ba sa umaga ang mga pagdinig.",
+          "startSec": 865.31,
+          "endSec": 873.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "In English — the impeachment trial against Vice President Duterte continues in the Senate this week, while lawmakers are still debating whether to move the hearings out of the morning slot. Senate President Gatchalian confirmed the trial keeps its morning time for now, but Senator Lacson is pushing a majority-backed plan to shift hearings to two-thirty to seven-thirty in the evening, Monday through Wednesday, so morning plenary business isn't squeezed out. A decision's expected this week.",
+          "startSec": 873.36,
+          "endSec": 900.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The trial itself resumes hostile-witness Gina Acosta's testimony on the alleged 125-million-peso confidential-fund misuse under Article One — former DepEd disbursing officer Edward Fajarda is queued as the next witness. House prosecutor Joel Chua still wants to close evidence presentation by end of September, though weather-related postponements keep complicating that timeline.",
+          "startSec": 900.74,
+          "endSec": 921.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Now the economy — inaasahan ng mga ekonomista ang posibleng pagtaas ng interest rate ng BSP sa Huwebes, dahil sa mataas pa ring implasyon kahit humina ang paglago ng ekonomiya.",
+          "startSec": 921.84,
+          "endSec": 931.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Economists expect a possible BSP interest rate increase this Thursday, because inflation is still high even though growth has slowed. Concretely — a fresh poll ahead of Thursday's review has most analysts calling for a third straight 25-basis-point hike, to 5%, since July inflation sat at 6.2%, well above target, even as second-quarter GDP grew just 2.3%, the weakest quarterly print in sixteen years outside the pandemic. One survey had six of nine economists for the hike, another put it at nineteen of twenty-four. The minority case for a pause leans on that growth slump plus easing core inflation, down to 4.2% from 4.4% in June.",
+          "startSec": 931.62,
+          "endSec": 966.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "The peso's holding steady through all that.",
+          "startSec": 966.94,
+          "endSec": 969.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "61.639 to the dollar today, essentially flat against Friday's 61.650 close — a lot steadier than the intraday record low of 61.995 we saw back on the 19th. That's the tension the BSP has to thread Thursday: hike again to defend the peso and keep fighting 6.2% inflation, or hold to avoid choking off growth that's already at a sixteen-year low outside the pandemic. There's no clean answer, which is exactly why the poll is split.",
+          "startSec": 969.33,
+          "endSec": 993.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "One weather note before we move on.",
+          "startSec": 993.21,
+          "endSec": 995.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A former typhoon entered Philippine waters at 1:20 this afternoon, renamed Obet, the fifteenth cyclone of the year, packing near-super-typhoon strength. PAGASA's hoisted signal one over Batanes and the Babuyan Islands — it should stay well clear of the main landmass and may exit within twelve hours, but it's enhancing the habagat monsoon, so expect heavy rain risk across Luzon over the next several days.",
+          "startSec": 995.15,
+          "endSec": 1017.43
+        }
+      ],
+      "startSec": 865.3
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "On to Mandarin. First phrase — 无论……都…….",
+          "startSec": 1017.43,
+          "endSec": 1019.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "无论……都……, wúlùn... dōu... — \"no matter what, always.\" It's 书面语, formal written register, and it's the more considered cousin of the more colloquial 不管……都……. Where 不管 reads like an everyday judgment — whatever happens, same result — 无论 reads like something you'd hear from a news anchor, deliberate and analytical rather than casual.",
+          "startSec": 1019.83,
+          "endSec": 1039.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second — 了结.",
+          "startSec": 1039.09,
+          "endSec": 1039.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "了结, liǎojié — to conclude, to wrap up, to formally settle. Also 书面语, an abstract verb that collocates with 案件, a case, 纠纷, a dispute, or 债务, debt. It's distinct from 解决, to resolve — 解决 implies the underlying problem actually got fixed, while 了结 just means the matter was brought to a definitive close, resolved or not.",
+          "startSec": 1039.93,
+          "endSec": 1058.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "No matter what, always — and formally wrapping something up. Both land in today's China story.",
+          "startSec": 1058.88,
+          "endSec": 1064.03
+        }
+      ],
+      "startSec": 1017.4
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "无论外界如何质疑恒大重组的诚意，广州法院这次都决定正式了结这起持续五年的债务危局。",
+          "startSec": 1064.03,
+          "endSec": 1069.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "In English — no matter how much outside observers question the sincerity of Evergrande's restructuring, the Guangzhou court has this time decided to formally wrap up this five-year debt crisis. And there's real news behind that line. On the 20th, a Shenzhen court sentenced Evergrande founder Hui Ka Yan to life in prison for fraud and bribery, stripped of political rights for life — Evergrande Group and Evergrande Real Estate were also fined a combined roughly 2.3 billion dollars for inflating assets and concealing liabilities that ran past 300 billion dollars.",
+          "startSec": 1069.78,
+          "endSec": 1100.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Three days later, on Friday, a Guangzhou court accepted a bankruptcy liquidation petition against Hengda Real Estate — that's Evergrande's actual mainland operating unit, distinct from the Hong Kong-listed holding company a Hong Kong court already ordered liquidated back in January 2024. It's the first time Beijing's courts have moved to formally wind down the mainland business itself, five years after the 2021 default first cracked open China's property crisis.",
+          "startSec": 1100.77,
+          "endSec": 1126.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the read?",
+          "startSec": 1126.28,
+          "endSec": 1127.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Beijing's choosing legal finality over the extend-and-pretend posture it's held since 2021 — but formal liquidation forces a real accounting of what's left for onshore creditors, mostly thinly-capitalized regional banks, at the same moment Beijing's racing to defuse a separate 148-billion-dollar expiring-leasehold problem in commercial property. And it lands the same week China's AI-linked equities — the STAR 50, ChiNext, chipmaker CXMT — are ripping to multi-year highs. Same country, same week: legacy real-estate debt getting formally buried in bankruptcy court on one side, frothy tech capital markets booming on the other.",
+          "startSec": 1127.16,
+          "endSec": 1161.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does the liquidation actually recover much for creditors, or is this mostly symbolic?",
+          "startSec": 1161.71,
+          "endSec": 1166.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Realistically mostly symbolic for recovery — Hengda's liabilities ran past $300 billion against assets that have been picked over for five years already, so Guangzhou Rural Commercial Bank and the other creditors filing this petition are likely fighting over cents on the dollar. The real function of the ruling is closing the legal chapter, not making anyone whole.",
+          "startSec": 1166.36,
+          "endSec": 1186.4
+        }
+      ],
+      "startSec": 1064.0
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To arts, and a market story that's really about who galleries think deserves to own art. Collectors Yoed and Natasha Anise are suing London's Alison Jacques gallery for breach of contract, after it cancelled their 2023 purchase of three paintings by the late Swedish eco-feminist painter Monica Sjöö.",
+          "startSec": 1186.4,
+          "endSec": 1202.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They'd paid 264,000 pounds — a 20% discount — but the paintings stayed on loan to Modern Art Oxford, and the gallery, backed by Sjöö's estate, is now arguing the buyers' adviser misrepresented the couple as proven, careful stewards of the work. It's a rare public airing of the informal vetting galleries and estates do on who's allowed to buy — usually invisible — landing right as Sjöö gets her first major museum survey.",
+          "startSec": 1202.82,
+          "endSec": 1225.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is that vetting even enforceable once money's changed hands?",
+          "startSec": 1225.98,
+          "endSec": 1229.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's precisely what's being tested here — the Anises are asking for their money back plus damages for lost \"pleasure, amenity, prestige and heritage value,\" which is a striking way to frame what a completed, paid-for sale is actually supposed to guarantee a buyer. If a gallery can claw back a sale on the estate's say-so after full payment, that reshapes how every emerging-artist purchase with an involved living estate gets structured going forward.",
+          "startSec": 1229.27,
+          "endSec": 1254.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "In literature, a genuinely different kind of prize. The 2026 Inside Literary Prize — the only US literary prize judged entirely by incarcerated readers — went to \"The Book Censor's Library,\" by Kuwaiti novelist Bothayna Al-Essa.",
+          "startSec": 1254.13,
+          "endSec": 1266.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nearly 200 incarcerated judges chose it from five 2024 National Book Award finalists in fiction and translated literature. The novel follows a censor in a dystopian regime, tasked with policing \"dangerous\" books, who starts to doubt the whole apparatus — discovering how a single redaction can spark quiet rebellion. A story about who gets to imagine, chosen by readers living under literal institutional control — that's a genuinely resonant pairing.",
+          "startSec": 1266.61,
+          "endSec": 1291.3
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a closing bell in visual art — the 2026 Whitney Biennial wrapped this weekend, closing August 23rd after a five-and-a-half-month run.",
+          "startSec": 1291.3,
+          "endSec": 1298.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Curators Marcela Guerrero and Drew Sawyer skipped a thematic title entirely, letting conversations with 56 participating artists and collectives guide the show instead — pulling from 25 states plus Puerto Rico, and artists connected to Afghanistan, Chile, Iraq, Okinawa, the Philippines and Vietnam, exploring interspecies kinship, family, and geopolitical entanglement. Critics ended up split down the middle: some called it the least didactic Biennial since the museum moved to Chelsea in 2015, others accused that same \"upbeat weirdness\" of dressing up political passivity. That kind of divide, at the show meant to be the pulse-check of American art, is itself the real headline.",
+          "startSec": 1298.8,
+          "endSec": 1336.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "Three very different stories, but there's a thread — a gallery deciding who's allowed to own a work after the fact, a prize built specifically to hand that judgment to people usually excluded from it, and a flagship museum show that critics can't agree deserves credit or blame for staying out of the fight.",
+          "startSec": 1336.2,
+          "endSec": 1352.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "All three are really about who gets to decide what art means and who it belongs to — that question's louder in the culture right now than it's been in years, and it's showing up everywhere from the auction house to the prison book club.",
+          "startSec": 1352.3,
+          "endSec": 1364.67
+        }
+      ],
+      "startSec": 1186.4
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds — first up, Matthew Yglesias in Slow Boring, arguing for giving people what they actually want instead of data centers.",
+          "startSec": 1364.67,
+          "endSec": 1371.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His steelman: data-center opposition polls roughly 80-20 against, and Yglesias says politicians should treat that as legitimate, not something to override. He splits the objections — aesthetic and environmental complaints are, his word, \"very fake\" — but water-strain and rate-hike concerns are real governance failures. His fix isn't blocking projects, it's redesigning utility-rate structures and tax abatements so host communities actually see the benefit, using his own coastal Maine town as the model.",
+          "startSec": 1371.28,
+          "endSec": 1397.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter?",
+          "startSec": 1397.81,
+          "endSec": 1398.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "He's treating an 80-20 \"pause\" too lightly. That's functionally how projects actually die in practice — we've tracked it all month, Georgia's PSC delays, the ERCOT queue fights. And his fix assumes state utility commissions have the regulatory capacity to redesign rate structures on demand, which most of them currently don't.",
+          "startSec": 1398.44,
+          "endSec": 1415.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is there a version of this that actually works?",
+          "startSec": 1415.59,
+          "endSec": 1418.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Probably, but it needs sequencing he skips over — you'd need the rate-design fix in place before communities are asked to accept the project, not as a promise made after opposition already hardened. His own Maine example worked because the benefit was visible from day one, not retrofitted in as a concession.",
+          "startSec": 1418.05,
+          "endSec": 1434.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, The Economist's leader asking whether AIs could become conscious.",
+          "startSec": 1434.25,
+          "endSec": 1438.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Their steelman isn't metaphysical — even if no AI is conscious in any deep sense, a growing number of people already treat chatbots as sentient, from relationships to what's being called AI psychosis. That mistaken belief alone could reshape law, welfare policy, and human relationships, so build disclosure rules and anti-anthropomorphic design guardrails now, as a precaution, rather than wait for settled science that may never arrive.",
+          "startSec": 1438.08,
+          "endSec": 1461.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the pushback?",
+          "startSec": 1461.05,
+          "endSec": 1461.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Critics say the piece leans on an outdated premise — that only living things can be conscious — sidestepping decades of functionalist philosophy-of-mind work. And it risks pulling attention toward a speculative debate when this month alone has handed AI governance harder, already-visible data to work with — labor displacement, financial-stability exposure — that deserves the same urgency.",
+          "startSec": 1461.94,
+          "endSec": 1482.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which side of that do you actually buy?",
+          "startSec": 1482.44,
+          "endSec": 1484.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The precautionary case for disclosure rules stands on its own regardless of the consciousness question — you don't need to resolve philosophy of mind to justify telling people they're talking to software. Where the piece overreaches is treating that as the urgent AI-policy question of the moment, when the measurable stuff — the labor and financial-stability data — is sitting right there, unresolved, getting less airtime.",
+          "startSec": 1484.49,
+          "endSec": 1506.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's a strange split, prioritizing a philosophical question over an economic one that's already showing up in the data.",
+          "startSec": 1506.72,
+          "endSec": 1512.96
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is — one piece is asking whether the technology might eventually deserve moral consideration, and the harder question is what happens to the labor market and financial stability while everyone's still debating that. The urgent policy conversation is the second one, and it's getting a fraction of the attention.",
+          "startSec": 1512.96,
+          "endSec": 1529.42
+        }
+      ],
+      "startSec": 1364.7
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "And finally, one good thing. Heidi Widmer moved to Culver City, California, from Buffalo after a divorce, and was initially annoyed by noise from her upstairs neighbor — turned out it was 86-year-old Carole's walker.",
+          "startSec": 1529.42,
+          "endSec": 1540.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Carole has Parkinson's, and one day she dropped her recycling in the hallway. Widmer stopped to help, and what started as one small moment turned into an actual friendship — she now helps Carole with cooking, cleaning, medical benefits, legal paperwork, all of it. A GoFundMe for Carole has raised more than 50,000 dollars, and Widmer calls her \"grandmother\" now. Her own words: Carole gave her purpose.",
+          "startSec": 1540.75,
+          "endSec": 1561.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "No plan, no ask — just a neighbor who stopped to help once and kept showing up.",
+          "startSec": 1561.88,
+          "endSec": 1566.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's really the whole story. Nothing about it needed engineering — just two people who happened to live in the same building, and one of them decided the noise upstairs was worth knocking on a door about instead of complaining about.",
+          "startSec": 1566.02,
+          "endSec": 1578.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's The Morning Commute for Monday, August 24th. We'll see you tomorrow.",
+          "startSec": 1578.35,
+          "endSec": 1582.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a great day.",
+          "startSec": 1582.28,
+          "endSec": 1583.17
+        }
+      ],
+      "startSec": 1529.4
+    }
+  ]
+}

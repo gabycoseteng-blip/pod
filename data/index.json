@@ -2,13 +2,24 @@
   "title": "The Morning Commute",
   "episodes": [
     {
+      "date": "2026-08-24",
+      "title": "Monday, August 24, 2026",
+      "day": "Monday",
+      "durationSec": 1583,
+      "hasAudio": true,
+      "vocabCount": 4,
+      "segmentCount": 14,
+      "hasMarkets": true
+    },
+    {
       "date": "2026-08-21",
       "title": "Friday, August 21, 2026",
       "day": "Friday",
       "durationSec": 1649,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": true
     },
     {
       "date": "2026-08-20",
@@ -17,7 +28,8 @@
       "durationSec": 1600,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-19",
@@ -26,7 +38,8 @@
       "durationSec": 1668,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-18",
@@ -35,7 +48,8 @@
       "durationSec": 1591,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-14",
@@ -44,7 +58,8 @@
       "durationSec": 1721,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-13",
@@ -53,7 +68,8 @@
       "durationSec": 1715,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-11",
@@ -62,7 +78,8 @@
       "durationSec": 1628,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-10",
@@ -71,7 +88,8 @@
       "durationSec": 1663,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-07",
@@ -80,7 +98,8 @@
       "durationSec": 1715,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-06",
@@ -89,7 +108,8 @@
       "durationSec": 1546,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 13
+      "segmentCount": 13,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-05",
@@ -98,7 +118,8 @@
       "durationSec": 1532,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-08-04",
@@ -107,7 +128,8 @@
       "durationSec": 1729,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-31",
@@ -116,7 +138,8 @@
       "durationSec": 1670,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-30",
@@ -125,7 +148,8 @@
       "durationSec": 1506,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-29",
@@ -134,7 +158,8 @@
       "durationSec": 1634,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-28",
@@ -143,7 +168,8 @@
       "durationSec": 1671,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-27",
@@ -152,7 +178,8 @@
       "durationSec": 1680,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-24",
@@ -161,7 +188,8 @@
       "durationSec": 1578,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-23",
@@ -170,7 +198,8 @@
       "durationSec": 1861,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-22",
@@ -179,7 +208,8 @@
       "durationSec": 1860,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-21",
@@ -188,7 +218,8 @@
       "durationSec": 1752,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-20",
@@ -197,7 +228,8 @@
       "durationSec": 1902,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 11
+      "segmentCount": 11,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-17",
@@ -206,7 +238,8 @@
       "durationSec": 1545,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-16",
@@ -215,7 +248,8 @@
       "durationSec": 1611,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-15",
@@ -224,7 +258,8 @@
       "durationSec": 1249,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-13",
@@ -233,7 +268,8 @@
       "durationSec": 1162,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-10",
@@ -242,7 +278,8 @@
       "durationSec": 1663,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-07-09",
@@ -251,7 +288,8 @@
       "durationSec": 1552,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-06-25",
@@ -260,7 +298,8 @@
       "durationSec": 1563,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     },
     {
       "date": "2026-06-23",
@@ -269,7 +308,8 @@
       "durationSec": 2230,
       "hasAudio": true,
       "vocabCount": 4,
-      "segmentCount": 12
+      "segmentCount": 12,
+      "hasMarkets": false
     }
   ]
 }

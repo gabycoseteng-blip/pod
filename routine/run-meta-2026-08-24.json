@@ -1,0 +1,1 @@
+{"render_calls": 2, "research_passes": 1, "energy_source": "inbox", "deep_dive_source": "inbox", "note": "first render (1453s) landed under the 1500s floor -- measured pace was 18.9 chars/s vs the assumed 18; expanded script ~2.6k chars and re-rendered"}

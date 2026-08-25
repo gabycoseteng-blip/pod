@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-25",
+  "cards": [
+    {
+      "id": "2026-08-25-tl-1",
+      "lang": "Tagalog",
+      "word": "salaysay",
+      "pinyin": "",
+      "pronunciation": "sa-LAY-say",
+      "tones": "",
+      "meaning": "a testimony, account, or narrative -- what someone says happened, given as a record",
+      "example": "Sa kanyang salaysay sa Senado ngayong Martes, inamin ni Ortonio na siya mismo ang tumakip sa kulang na 150,000 pisong liquidation noong 2024.",
+      "examplePinyin": "",
+      "exampleMeaning": "In his testimony to the Senate this Tuesday, Ortonio admitted he personally covered a 150,000-peso liquidation shortfall from 2024.",
+      "note": "The standard word for a formal spoken or written account -- what a witness gives on the stand, or what a report tells you happened. More neutral and documentary than 'kwento' (a story, which can be casual or embellished); 'salaysay' is the word you'd use for sworn testimony or a news dispatch, not a bedtime story.",
+      "tiesTo": "Duterte impeachment trial Day 18 -- Ortonio declared hostile witness, testifies to covering a 150,000-peso liquidation gap"
+    },
+    {
+      "id": "2026-08-25-tl-2",
+      "lang": "Tagalog",
+      "word": "paghihigpit",
+      "pinyin": "",
+      "pronunciation": "pag-hi-HIG-pit",
+      "tones": "",
+      "meaning": "a tightening -- policy, rules, or conditions being made stricter",
+      "example": "Inaasahan ng mga analyst ang isa pang paghihigpit sa patakaran ng BSP tuwing Huwebes, dahil patuloy pa ring mataas ang implasyon.",
+      "examplePinyin": "",
+      "exampleMeaning": "Analysts expect another BSP policy tightening this Thursday, because inflation is still running high.",
+      "note": "From the root 'higpit' (strictness/tightness) plus the 'pag-hi-' gerund pattern, naming tightening as a deliberate act of policy. The finance-desk word for a central bank raising rates or squeezing conditions -- distinct from 'paghina' (a weakening), which describes something losing strength rather than being reined in on purpose.",
+      "tiesTo": "BusinessWorld poll: 19 of 24 analysts expect a 25bp BSP hike at Thursday's Aug 27 review"
+    },
+    {
+      "id": "2026-08-25-zh-1",
+      "lang": "Mandarin",
+      "word": "只有…才…",
+      "pinyin": "zhǐ yǒu ... cái ...",
+      "pronunciation": "zhi you ... cai ...",
+      "tones": "3 · 3 · 2",
+      "meaning": "only if ... then -- states a necessary condition, without which the result cannot happen",
+      "example": "只有房地产市场真正企稳，央行才有可能进一步放松货币政策。",
+      "examplePinyin": "zhǐ yǒu fáng dì chǎn shì chǎng zhēn zhèng qǐ wěn, yāng háng cái yǒu kě néng jìn yī bù fàng sōng huò bì zhèng cè",
+      "exampleMeaning": "Only if the property market genuinely stabilizes will the central bank be able to further loosen monetary policy.",
+      "note": "书面语 (formal register), the standard connective for a strict necessary condition -- distinct from 一旦……就…… (once ... then), which marks a trigger that immediately produces a result. 只有……才…… says the opposite logical shape: nothing else will get you there, this is the one precondition that unlocks it -- the phrase a policy analyst reaches for, not a casual conversation.",
+      "tiesTo": "China's 10Y bond yield falling to a 13-month low as investors bet the PBOC won't truly ease further until growth stabilizes"
+    },
+    {
+      "id": "2026-08-25-zh-2",
+      "lang": "Mandarin",
+      "word": "背离",
+      "pinyin": "bèi lí",
+      "pronunciation": "bei li",
+      "tones": "4 · 2",
+      "meaning": "to deviate from, diverge from -- move away from an expected path or relationship",
+      "example": "债市持续走强，股市却屡创新高，两者的走势已经明显背离。",
+      "examplePinyin": "zhài shì chí xù zǒu qiáng, gǔ shì què lǚ chuàng xīn gāo, liǎng zhě de zǒu shì yǐ jīng míng xiǎn bèi lí",
+      "exampleMeaning": "Bonds keep strengthening while equities keep hitting new highs -- the two have clearly diverged.",
+      "note": "书面语 (formal, financial-register), an abstract verb that collocates with 趋势 (a trend) or 走势 (a market movement) -- it carries a sense that something has broken away from where it should track. A near-synonym of 分化 (to split/differentiate), which is the more neutral word for a group splitting into subgroups; 背离 specifically flags two things that used to move together now pulling apart.",
+      "tiesTo": "China's bond yields at a 13-month low even as AI-linked equities keep ripping to multi-year highs -- the two-speed decoupling"
+    }
+  ]
+}

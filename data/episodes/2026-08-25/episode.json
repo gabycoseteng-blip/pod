@@ -1,0 +1,873 @@
+{
+  "date": "2026-08-25",
+  "title": "Tuesday, August 25, 2026",
+  "day": "Tuesday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-08-25.mp3",
+  "durationSec": 1549,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Tuesday, August 25th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Today's throughline: escalation keeps landing on whoever didn't start the fight.",
+          "startSec": 4.04,
+          "endSec": 9.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "Trump's tariff war with Canada spills onto Detroit's automakers and Korean chipmakers, Bessent's new Iran sanctions send oil lower on a priced-in read even as Manila's pump prices jump from the same Hormuz disruption, and in Georgia, a fight over one AI data-center contract turns into a referendum on who actually governs the buildout.",
+          "startSec": 9.23,
+          "endSec": 27.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Same underlying question all morning, really — who ends up paying for a decision they didn't get a vote on. We'll trace that from Washington all the way to a gas pump in Manila.",
+          "startSec": 27.8,
+          "endSec": 37.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Let's get into it.",
+          "startSec": 37.59,
+          "endSec": 38.58
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Top story: the US-Canada trade war just got personal. Talks collapsed on the 21st, 50% US tariffs on hundreds of Canadian goods took effect the 22nd, and now Trump and Ontario Premier Doug Ford are trading insults in public — \"flunky,\" \"loser,\" the whole thing.",
+          "startSec": 38.58,
+          "endSec": 53.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And it's not just theater. Trump's now threatening to raise the Canadian auto and steel tariff to 50% from January 1st, 2027 — doubling the current 25% rate — citing a $60 billion trade deficit.",
+          "startSec": 53.01,
+          "endSec": 63.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "Canada's retaliatory tariffs are teed up for September 8th. So we're 2 weeks from both sides live-firing at once.",
+          "startSec": 63.73,
+          "endSec": 69.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second: the Supreme Court ruled 6-3 yesterday to let Trump implement parts of his mail-in voting executive order ahead of the midterms. DHS can compile a citizenship list, DOJ can prioritize prosecuting state officials over ineligible ballots, USPS can set its own ballot-design rules.",
+          "startSec": 69.98,
+          "endSec": 85.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sotomayor's dissent says this only postpones the real fight — the core piece, USPS withholding ballots from unverified voters, is still blocked by a Boston judge's order from August 11th.",
+          "startSec": 85.73,
+          "endSec": 96.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The pieces that did clear are the ones that build infrastructure without triggering an immediate ballot-access fight — a citizenship list, prosecutorial priority. It's a majority letting the administration build the plumbing now, while holding the one piece that would actually change outcomes at the ballot box for a separate fight later.",
+          "startSec": 96.07,
+          "endSec": 114.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "And third — Bessent's threatened \"economic D-Day\" on Iran became real yesterday. Treasury sanctioned roughly 60 entities, individuals, and vessels under something called Operation Economic Outcast — hitting Iran's digital-asset, gold, aviation, and shipping networks, with targets tied to Singapore, China, and Hong Kong.",
+          "startSec": 114.81,
+          "endSec": 132.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the follow-through on what was a threat last week. Iran's security chief Rezaei is vowing to \"neutralize\" the pressure and threatening to halt Hormuz oil flow entirely, warning of what he called \"seismic\" retaliation.",
+          "startSec": 132.55,
+          "endSec": 144.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "We'll come back to Hormuz in the market segment — because the tape didn't read it as escalation. Onto US business now. Apple cut jobs on its Siri and Vision Pro teams yesterday, days before Tim Cook retires as CEO on the 31st and John Ternus takes over September 1st.",
+          "startSec": 144.93,
+          "endSec": 159.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Classic timing — clear out the unpleasant restructuring before the handoff, let the new CEO start clean. Ternus inherits a Siri team that's already been cut once this year, and a Vision Pro line that still hasn't found a mass-market use case 3 years in.",
+          "startSec": 159.69,
+          "endSec": 173.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Worth watching whether Ternus reads that as \"stop the bleeding\" or \"double down\" — his background is hardware engineering, not services, so the early signal on AI strategy will matter more than the org-chart reshuffle itself.",
+          "startSec": 173.67,
+          "endSec": 186.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the Canada tariff threat split Monday's tape right down sector lines — Ford down 3%, Stellantis down 3.3%, GM down 1.2%, while the steelmakers ripped: Cleveland-Cliffs up 6.4%, Nucor up 2.9%, Steel Dynamics up 2.6%.",
+          "startSec": 186.11,
+          "endSec": 198.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "Clean read-through — tariff protection is a direct wealth transfer from automakers' input costs to steelmakers' pricing power, and the market priced it instantly.",
+          "startSec": 198.22,
+          "endSec": 207.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "International business — Alibaba priced a $10.2 billion Hong Kong share placement Sunday, at an 8.4% discount to Friday's close, to fund its AI buildout. Stock fell as much as 10% when trading resumed Monday.",
+          "startSec": 207.17,
+          "endSec": 219.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the largest-ever Hong Kong primary follow-on, and the third-largest global raise this year, behind only Alphabet and Intel. The market's telling Alibaba the AI capex bill is getting expensive to finance even for a company its size.",
+          "startSec": 219.84,
+          "endSec": 234.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And in Seoul, SK Hynix fell just over 5%, Samsung down almost 3%, on reports of US pressure for Korean chipmakers to shift investment and production onto American soil — piling onto disappointment over Samsung's 90 to 110 trillion won shareholder-return plan from last week.",
+          "startSec": 234.33,
+          "endSec": 251.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "Same pattern as Detroit, different continent — trade policy reshuffling who eats the capex.",
+          "startSec": 251.02,
+          "endSec": 256.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Third international item — PDD Holdings, the parent of Temu, posted mixed Q2 numbers. Revenue up 8% to 112.36 billion yuan, about $16.6 billion, which missed the 115.41 billion yuan estimate. Net income fell 12% to 27.18 billion yuan, roughly $4 billion, but that beat expectations.",
+          "startSec": 256.56,
+          "endSec": 273.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "And separately, EU regulators fined the platform more than $230 million over illegal products showing up on the marketplace.",
+          "startSec": 273.73,
+          "endSec": 281.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So PDD's actually managing the margin side better than the top line — cutting costs faster than growth is slowing, which is the opposite problem most e-commerce platforms have right now.",
+          "startSec": 281.28,
+          "endSec": 292.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "Zoom out on that whole headlines block for a second — Canada, Korea, China, all 3 getting squeezed by US trade or tech policy on the same trading day. That's not a coincidence, that's the strategy right now.",
+          "startSec": 292.61,
+          "endSec": 305.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, this administration's running the same playbook simultaneously across 3 different relationships — allies and rivals both — and the market's pricing each one separately rather than as one coordinated trade posture. That gap between how markets are pricing it and how coordinated the policy actually is might be the more interesting mispricing than any single headline today.",
+          "startSec": 305.21,
+          "endSec": 328.35
+        }
+      ],
+      "startSec": 38.6
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Quick tape check from Monday's close. S&P 500 down 0.28% to 7,652.86, Nasdaq off 0.77% to 25,980, Russell down 0.76%. Dow was the outlier, up 0.26% to 53,417 on that steel rotation. Tens and thirties both down 4 basis points — 4.70 and 5.23%.",
+          "startSec": 328.35,
+          "endSec": 343.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The real story wasn't equities, it was oil. WTI and Brent both fell more than 2% on the actual Iran sanctions rollout — that's backwards from what you'd expect on an escalation headline.",
+          "startSec": 343.09,
+          "endSec": 354.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the market's saying what — Rezaei's Hormuz threat is noise until crude actually stops moving through the strait?",
+          "startSec": 354.42,
+          "endSec": 361.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Essentially. Sanctions on entities and vessels are a known quantity now — we've watched this administration telegraph and then execute for weeks. A physical strait closure is a different, much higher bar, and until that bar's crossed, oil trades the de-escalation, not the rhetoric.",
+          "startSec": 361.42,
+          "endSec": 378.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Meanwhile chips were quietly ugly into Wednesday — Nvidia down almost 3% to $208.48, AMD down 3.5%, Broadcom down 2.6%, the SOXX off 4%. No single catalyst.",
+          "startSec": 378.59,
+          "endSec": 388.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's positioning, not panic — funds de-risking single names 2 days ahead of the print that actually matters this week.",
+          "startSec": 388.09,
+          "endSec": 395.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Gold ticked up 0.37% to $4,697.80 an ounce, which is a small move given everything else in the headlines — usually you'd expect a bigger safe-haven bid on a sanctions announcement.",
+          "startSec": 395.4,
+          "endSec": 406.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which tells you the same thing the oil move tells you — this market's treating Iran as a contained, known-quantity risk, not an open-ended one. If that changes, gold and oil move together and much harder.",
+          "startSec": 406.36,
+          "endSec": 418.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more thing worth flagging — the Dow-versus-Nasdaq split on the day. Steel and industrials carrying the Dow while growth and chips dragged the Nasdaq is a rotation story, not a risk-off one.",
+          "startSec": 418.79,
+          "endSec": 430.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, a genuine risk-off day takes everything down together. Monday was sector-specific repricing on 2 separate catalysts — tariffs favoring steel, positioning ahead of Nvidia hitting chips — layered on top of each other. Full index levels are on the Markets tab if you want them; Wednesday's the tell.",
+          "startSec": 430.54,
+          "endSec": 448.43
+        }
+      ],
+      "startSec": 328.4
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Deep dive today comes from CTVC's Powerstack newsletter — their August 24th feature, \"The Georgia Power Play.\"",
+          "startSec": 448.43,
+          "endSec": 454.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "We covered Project Camellia's regulatory delay last week — OpenAI's $20 billion, 3.2-gigawatt Georgia campus hitting an August 26th PSC deadline. This piece goes past the delay and asks a bigger question: who actually gets to decide?",
+          "startSec": 454.92,
+          "endSec": 468.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "Because Georgia is one of only 10 states where utility regulators are directly elected. And in November 2025, voters already flipped 2 Public Service Commission seats on a straight affordability message — after Georgia Power pushed through 6 rate hikes in 3 years, roughly $43 a month added to bills.",
+          "startSec": 468.68,
+          "endSec": 486.39
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's the number that makes this a live scandal, not just a policy fight — Georgia Power's own PSC staff flagged that the Camellia contract fails to protect ratepayers on early exit, and it was filed fully redacted, despite the commission's own 2025 rules being written specifically to stop that.",
+          "startSec": 486.39,
+          "endSec": 503.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "2 more PSC seats are on the ballot this November. So this isn't hypothetical — it's the closest thing in the country to a live referendum on who bears the cost of the AI buildout.",
+          "startSec": 503.93,
+          "endSec": 514.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "CTVC's own read is more contrarian than you'd expect, though. Their argument is that the \"affordability\" backlash has become a kitchen-sink complaint — blaming data centers for cost increases that are really about 25, 30-year-old grid infrastructure aging out, regardless of AI demand.",
+          "startSec": 514.5,
+          "endSec": 531.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that squeezing utility ROE or freezing rates as a populist response backfires, because it raises the utility's own cost of capital — which then gets passed straight back to ratepayers anyway.",
+          "startSec": 531.32,
+          "endSec": 542.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Their fix isn't \"block the data centers,\" it's fair cost allocation — large-load tariffs that make hyperscalers actually pay their marginal grid cost, rather than spreading it across residential bills.",
+          "startSec": 542.84,
+          "endSec": 554.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Put some numbers on the underlying system, because they're bigger than Camellia itself. The PSC approved a 10-gigawatt system expansion for Georgia Power carrying a $50 to $60 billion price tag — 80% of that new load earmarked for data centers.",
+          "startSec": 554.7,
+          "endSec": 569.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And here's the timing that makes it look deliberate — that expansion was approved just 13 days before the 2 newly-elected commissioners, the ones who'd unseated incumbents by 25 points, actually took their seats.",
+          "startSec": 569.11,
+          "endSec": 581.63
+        },
+        {
+          "speaker": "SAM",
+          "text": "Lame-duck approval, essentially, on the way out the door.",
+          "startSec": 581.63,
+          "endSec": 584.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "More than 20 Georgia counties and municipalities have since passed their own data-center moratoria, after statewide moratorium bills failed in the legislature — so the backlash is already showing up locally, just not yet at the state regulatory level.",
+          "startSec": 584.99,
+          "endSec": 599.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "What makes this the story to watch is the arithmetic — 9 of the 10 states with elected utility regulators have PSC seats up this November. Georgia just showed the playbook: jam capex approval through before a hostile new commission gets seated.",
+          "startSec": 599.81,
+          "endSec": 614.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Watch for that exact timing move in the other 9 states before their own races. This is now a national mechanism, not a Georgia quirk — state utility elections quietly becoming the AI buildout's actual veto point.",
+          "startSec": 614.22,
+          "endSec": 626.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "If you're underwriting anything long-dated against a state's power grid right now, the regulatory calendar just became as material as the interconnection queue.",
+          "startSec": 626.73,
+          "endSec": 636.18
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the real takeaway. Everyone's been modeling physical constraints — turbines, transformers, queue position. This piece is the reminder that the political constraint runs on its own separate clock, and that clock doesn't care how far along construction is.",
+          "startSec": 636.18,
+          "endSec": 651.59
+        }
+      ],
+      "startSec": 448.4
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Staying on power. FERC just forced PJM to unlock roughly 4.9 gigawatts of demand-response and virtual power plant capacity it had been keeping out of its auction.",
+          "startSec": 651.59,
+          "endSec": 660.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is a measurement-rule case, not a construction one — FERC sided with the VPP aggregator Voltus and the Mission:data Coalition, ordering PJM to accept statistical sampling as valid for measuring DR and VPP resources. That was the exact technical barrier PJM had used to exclude most of that capacity.",
+          "startSec": 660.23,
+          "endSec": 676.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "And FERC's own language is blunt — PJM is losing out on at least 4.9 gigawatts \"at a time when PJM is experiencing unprecedented load growth driven in part by hyperscale data center development, threatening reliability.\"",
+          "startSec": 676.45,
+          "endSec": 688.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the fastest-arriving megawatt in the entire PJM stack right now — faster than any turbine order, any transformer delivery. It builds directly on the precedent Google set with bring-your-own-capacity, and now expect the same statistical-sampling fight to hit MISO and SPP as their own dockets come up.",
+          "startSec": 688.19,
+          "endSec": 704.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story — first utility-versus-developer lawsuit of this cycle. NV Energy sued Tract in Washoe County district court, filed back on July 24th but headlining Utility Dive's roundup yesterday.",
+          "startSec": 704.57,
+          "endSec": 714.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "NV Energy's claim is that Tract is trying to route a rate and allocation fight into private arbitration specifically to keep it out of the Nevada Public Utilities Commission's public process. At stake — 2 Tract data-center campuses near Reno, over 2 gigawatts combined, roughly a third of NV Energy's entire statewide generating capacity.",
+          "startSec": 714.97,
+          "endSec": 733.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this is a venue fight as much as a cost fight — public rate case, transparent and regulator-set, versus private arbitration, opaque and developer-favorable.",
+          "startSec": 733.0,
+          "endSec": 741.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly, and however it resolves becomes the template every other state is watching — Georgia, Texas, Pennsylvania — for whether hyperscaler-backed developers can contract their way around state oversight entirely.",
+          "startSec": 741.48,
+          "endSec": 752.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "It also flips the usual dynamic — normally it's ratepayer advocates or regulators pushing back on a utility for being too cozy with a big developer. Here the utility itself is the one suing to keep the fight public.",
+          "startSec": 752.9,
+          "endSec": 764.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which tells you NV Energy thinks it loses more by letting Tract set the precedent quietly than by fighting it loudly in court.",
+          "startSec": 764.37,
+          "endSec": 771.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third — Commonwealth Fusion Systems raised another billion dollars, taking their total to 4 billion. Announced July 30th, but Utility Dive flagged it again yesterday because the investor list changed.",
+          "startSec": 771.09,
+          "endSec": 781.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This round pulled in pension funds, sovereign wealth funds, infrastructure and industrial corporate partners — not just venture capital. That capital finishes SPARC, their proof-of-concept in Devens, Massachusetts, targeting breakeven in 2027, and advances planning for ARC, the first commercial plant, sited in Virginia.",
+          "startSec": 781.76,
+          "endSec": 798.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pension and sovereign wealth money at billion-dollar check sizes — that's the same underwriting profile now going into SMR and microreactor rounds.",
+          "startSec": 798.89,
+          "endSec": 806.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, fusion's being priced as infrastructure, not a moonshot. But be precise about the timeline — SPARC breakeven in 2027 and ARC well beyond that means zero megawatts land in the 2026-to-2030 window that actually matters for this buildout. This is a 2030s hedge, financed today, running parallel to — not substituting for — the gas, existing nuclear, and storage scramble that's actually powering this cycle.",
+          "startSec": 806.73,
+          "endSec": 828.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Three very different fixes to the same underlying problem, though — a measurement-rule change unlocking megawatts this year, a lawsuit trying to keep the next decade's contracts transparent, and a capital bet on power that doesn't exist until the 2030s.",
+          "startSec": 828.66,
+          "endSec": 842.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is really the whole buildout in miniature right now — everyone's solving for a different time horizon simultaneously, and none of those solutions substitute for each other.",
+          "startSec": 842.16,
+          "endSec": 851.65
+        }
+      ],
+      "startSec": 651.6
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Time for today's Tagalog words, tied to 2 Philippines stories coming up. First: salaysay.",
+          "startSec": 851.65,
+          "endSec": 856.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Salaysay — a testimony, an account, a narrative. The word for what someone gives as a formal record — a witness on the stand, a news dispatch.",
+          "startSec": 856.4,
+          "endSec": 865.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Sa kanyang salaysay sa Senado ngayong Martes, inamin ni Ortonio na siya mismo ang tumakip sa kulang na 150,000 pisong liquidation noong 2024.\" In his testimony to the Senate this Tuesday, Ortonio admitted he personally covered a 150,000-peso liquidation shortfall from 2024.",
+          "startSec": 865.24,
+          "endSec": 882.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's more documentary than \"kwento\" — a story, which can be casual, even embellished. Salaysay is the register for sworn testimony, not a bedtime story.",
+          "startSec": 882.37,
+          "endSec": 891.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second word: paghihigpit.",
+          "startSec": 891.83,
+          "endSec": 893.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "Paghihigpit — a tightening. Policy, rules, or conditions being made stricter, deliberately.",
+          "startSec": 893.39,
+          "endSec": 899.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Inaasahan ng mga analyst ang isa pang paghihigpit sa patakaran ng BSP tuwing Huwebes, dahil patuloy pa ring mataas ang implasyon.\" Analysts expect another BSP policy tightening this Thursday, because inflation is still running high.",
+          "startSec": 899.05,
+          "endSec": 913.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "From the root \"higpit,\" strictness, plus that \"pag-hi-\" gerund pattern — it names tightening as a deliberate act. Different from \"paghina,\" a weakening, which is losing strength rather than being reined in on purpose.",
+          "startSec": 913.56,
+          "endSec": 927.07
+        }
+      ],
+      "startSec": 851.6
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Manila now. Lead story — the Duterte impeachment trial hit Day 18 today, and there's a new hostile witness.",
+          "startSec": 927.07,
+          "endSec": 933.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Senate impeachment court declared OVP Assistant Chief of Staff Lemuel Ortonio the trial's second hostile witness. His salaysay — his testimony — was damaging: he says he helped transport confiscated-fund cash for former disbursing officer Gina Acosta, filed protective intelligence reports without even reading them, and personally covered that 150,000-peso liquidation gap from 2024 that's still unreimbursed.",
+          "startSec": 933.74,
+          "endSec": 959.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A hostile-witness designation this deep into the trial usually means the court thinks he's protecting someone above him in the chain. Ortonio's the second hostile witness now — the pattern building is mid-level OVP staff absorbing the personal financial risk to shield the office itself.",
+          "startSec": 959.51,
+          "endSec": 977.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the 150,000-peso detail is small in absolute terms, but it's exactly the kind of granular, receipts-level admission that moves a Senate trial more than a big round number would.",
+          "startSec": 977.39,
+          "endSec": 988.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second — the BSP's Thursday rate decision. A BusinessWorld poll of 24 analysts found 19 expect a 25-basis-point hike at the August 27th review — about as close to consensus as this market gets — with the peso trading in a 61.60-to-62 range today as the market positions for that paghihigpit.",
+          "startSec": 988.66,
+          "endSec": 1006.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "And third, tying straight back to our Iran headline — DOE-mandated pump price hikes take effect today through the 31st. Diesel up 2.31 pesos a liter, gasoline up 1.08, kerosene up 0.95 — attributed directly to Hormuz-linked disruptions squeezing Asian refinery supply.",
+          "startSec": 1006.78,
+          "endSec": 1023.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So the sanctions story from segment one just showed up on a receipt in Manila. That's the throughline in one line — a policy decision in Washington becomes a fuel bill in the Philippines within 72 hours. No PSEi move worth flagging today, and no active weather signal — Typhoon Obet already exited the Philippine Area of Responsibility yesterday without making landfall.",
+          "startSec": 1023.46,
+          "endSec": 1046.5
+        }
+      ],
+      "startSec": 927.1
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Mandarin vocab, tied to our China story. First phrase: 只有…才…, zhǐyǒu... cái.",
+          "startSec": 1046.5,
+          "endSec": 1051.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "只有…才…, only if, then. It states a strict necessary condition — without this one thing, nothing else gets you there.",
+          "startSec": 1051.53,
+          "endSec": 1058.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "\"只有房地产市场真正企稳，央行才有可能进一步放松货币政策。\" Only if the property market genuinely stabilizes will the central bank be able to further loosen monetary policy.",
+          "startSec": 1058.99,
+          "endSec": 1070.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Formal register, 书面语 — and worth contrasting with 一旦…就…, once, then, which we taught before. 一旦…就… marks an immediate trigger; 只有…才… says the opposite logical shape — this is the one precondition, nothing else substitutes.",
+          "startSec": 1070.65,
+          "endSec": 1085.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word: 背离, bèilí.",
+          "startSec": 1085.67,
+          "endSec": 1087.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "背离 — to deviate from, to diverge from. An abstract verb, also formal register, that collocates with 趋势, a trend, or 走势, a market movement.",
+          "startSec": 1087.3,
+          "endSec": 1096.49
+        },
+        {
+          "speaker": "SAM",
+          "text": "\"债市持续走强，股市却屡创新高，两者的走势已经明显背离。\" Bonds keep strengthening while equities keep hitting new highs — the two have clearly diverged.",
+          "startSec": 1096.49,
+          "endSec": 1105.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's a near-synonym of 分化, to split into subgroups, which is more neutral. 背离 specifically flags two things that used to move together now visibly pulling apart.",
+          "startSec": 1105.79,
+          "endSec": 1115.14
+        }
+      ],
+      "startSec": 1046.5
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "China, through the two-speed lens again. \"债市持续走强，股市却屡创新高，两者的走势已经明显背离。\" Bonds keep strengthening while equities keep hitting new highs — the two have clearly diverged.",
+          "startSec": 1115.14,
+          "endSec": 1126.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "China's 10-year government bond yield fell to about 1.68% — its lowest since mid-July 2025 — after a fresh PBOC liquidity injection boosted demand for sovereign debt.",
+          "startSec": 1126.73,
+          "endSec": 1135.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "At the same time, AI-linked equities keep ripping to multi-year highs. So bonds are pricing more disinflation and easing ahead, while risk assets are pricing the opposite.",
+          "startSec": 1135.99,
+          "endSec": 1145.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "只有房地产市场真正企稳，央行才有可能进一步放松货币政策 — only if the property market genuinely stabilizes will the central bank meaningfully ease further. That's the tension bond traders are actually pricing right now.",
+          "startSec": 1145.54,
+          "endSec": 1158.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the NPC Standing Committee session running the 25th through the 28th is the thing to watch — any fresh stimulus signal there, after Beijing's own growth undershoot, moves both sides of that 背离 at once.",
+          "startSec": 1158.62,
+          "endSec": 1170.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "If the Committee leans toward more fiscal support, that's exactly the scenario the bond market is currently pricing as unlikely near-term — so a surprise there would hit yields harder than it hits equities, given how far apart the two have already drifted.",
+          "startSec": 1170.24,
+          "endSec": 1184.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "Worth setting this against the Philippines segment we just did, too — Beijing's easing bias and Manila's tightening bias are pointing in opposite directions in the same week, for exactly opposite reasons: China fighting weak growth, the Philippines fighting sticky inflation.",
+          "startSec": 1184.53,
+          "endSec": 1199.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Same region, same week, completely different central-bank problem. That's the two-speed story at the country level, not just inside China's own markets.",
+          "startSec": 1199.89,
+          "endSec": 1208.37
+        }
+      ],
+      "startSec": 1115.1
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Arts. The National Gallery of Art in Washington has quietly acquired around 190 works since March, spanning 5 centuries.",
+          "startSec": 1208.37,
+          "endSec": 1215.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's an enormous haul for 5 months. What's actually in it?",
+          "startSec": 1215.07,
+          "endSec": 1218.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A major Wifredo Lam painting, the museum's first-ever Ben Shahn painting, a 17th-century María Josefa Sánchez crucifix, works by Marie Bracquemond, T.C. Cannon woodblock prints, and photographs from Lillian Bassman and Paul Himmel.",
+          "startSec": 1218.42,
+          "endSec": 1231.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "Bracquemond next to a 17th-century Mexican crucifix is a genuinely unusual pairing for one acquisition wave — that's a museum filling gaps deliberately, not just chasing headline names.",
+          "startSec": 1231.32,
+          "endSec": 1241.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And it's not a scattershot haul either — it reads like a deliberate push to diversify a collection that had leaned heavily European and male for decades. Bassman and Himmel's fashion photography sitting next to a colonial-era devotional crucifix tells you the acquisitions team is thinking across centuries, not just filling a wish list.",
+          "startSec": 1241.65,
+          "endSec": 1260.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second — Sotheby's is running a selling exhibition in London called \"The Artists Among Us,\" through the 28th, with a concurrent New York viewing.",
+          "startSec": 1260.46,
+          "endSec": 1268.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "12 works, brought together from major UK regional museum collections through Art UK — Lucian Freud, Francis Bacon, Dame Lucie Rie, Frank Bowling, R.B. Kitaj, and Dame Magdalene Odundo.",
+          "startSec": 1268.56,
+          "endSec": 1278.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's notable is the format — it's not an auction, it's a selling show built around loans from provincial UK institutions, which almost never travel to London together. Bowling and Odundo alongside Freud and Bacon is a real statement about which postwar British artists deserve equal billing.",
+          "startSec": 1278.83,
+          "endSec": 1295.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bowling's a particularly sharp inclusion — a Guyanese-British abstractionist who spent decades being treated as a footnote to the Freud-Bacon axis of postwar British painting, and this show is effectively correcting that record in public, gallery by gallery.",
+          "startSec": 1295.19,
+          "endSec": 1309.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Same with Odundo — a ceramicist, not a painter, placed on equal footing with 2 of the most canonized painters in British art history. That's a curatorial argument as much as a sales exhibition: that the medium hierarchy in postwar British art was always somewhat arbitrary.",
+          "startSec": 1309.59,
+          "endSec": 1325.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Worth watching what these 12 works actually sell for, since regional UK museums rarely part with pieces like this — the prices will tell us how the market's currently pricing artists who were historically undervalued relative to their peers.",
+          "startSec": 1325.15,
+          "endSec": 1338.89
+        }
+      ],
+      "startSec": 1208.4
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds. First, a Washington Post editorial from yesterday — headline: \"Trump again treats allies worse than adversaries, and it could cost Republicans in the midterms.\"",
+          "startSec": 1338.89,
+          "endSec": 1348.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Their argument is that the 50% tariffs on Canadian autos and steel, effective January 1st, exemplify a pattern — Trump consistently hits allies harder than adversaries — and that the economic fallout lands on the GOP at the ballot box.",
+          "startSec": 1348.46,
+          "endSec": 1361.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's the counter-take though — the delayed effective date is itself evidence this is opening leverage, not settled policy. And historically, midterm voters punish pocketbook pain directly, not the diplomatic framing around it. The Post's ally-versus-adversary lens might just be overreading the political risk.",
+          "startSec": 1361.86,
+          "endSec": 1379.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Worth noting the Post's own editorial board isn't exactly a Trump-friendly venue to begin with, so the piece is less a neutral forecast and more an attempt to build the political case before the midterms actually arrive.",
+          "startSec": 1379.64,
+          "endSec": 1392.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second piece — Bloomberg Opinion, Mihir Sharma, \"AI Is Fixing UK Productivity. But There's a Cost.\"",
+          "startSec": 1392.18,
+          "endSec": 1397.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sharma's citing Bank of England data — AI adoption boosting UK productivity and growth, June up 0.3%, business investment up 1.7% — but the gains are concentrated, and they're coming at the expense of wages and jobs in AI-exposed professions, hardest on young workers.",
+          "startSec": 1397.82,
+          "endSec": 1413.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take is a measurement problem, though — crediting AI for an early productivity uptick risks mismeasurement. One-off capex from a handful of visible firms shows up in aggregate statistics long before real productivity actually diffuses through an economy. Both the gain and the cost in that piece may be overstated this early in the cycle.",
+          "startSec": 1413.1,
+          "endSec": 1433.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's also a policy trap buried in Sharma's framing — if you accept \"AI is boosting productivity\" as settled fact this early, you back yourself into supporting whatever redistribution policy follows, before you've actually confirmed the premise.",
+          "startSec": 1433.05,
+          "endSec": 1447.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Right, and the young-workers-hit-hardest claim deserves the same scrutiny — entry-level roles get cut for lots of reasons in a slowing hiring market. Attributing all of it to AI displacement specifically is exactly the kind of causal leap that measurement problem should make you skeptical of.",
+          "startSec": 1447.13,
+          "endSec": 1463.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What both pieces share, actually, is writers reaching a strong conclusion off genuinely early data — the Post on midterm consequences that are still 14 months out, Sharma on productivity gains that are 2 data points into a trend.",
+          "startSec": 1463.83,
+          "endSec": 1476.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "Good copy, worth reading — just read it as an argument in progress, not a verdict.",
+          "startSec": 1476.88,
+          "endSec": 1481.56
+        }
+      ],
+      "startSec": 1338.9
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing. This is a story about a man named Dave Bell, from Powhatan, Virginia.",
+          "startSec": 1481.56,
+          "endSec": 1486.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bell plays Santa for his community every year. Earlier this summer he lost 40 pounds specifically to qualify as a living kidney donor, then donated a kidney to a complete stranger — a non-directed donation, at Henrico Doctors' Hospital.",
+          "startSec": 1486.4,
+          "endSec": 1499.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "What got me was his own explanation for it. He said: \"It's kind of selfish if I have two sandwiches and the kid next to me has none and I don't share — same thing with kidneys. I have two, they have none.\"",
+          "startSec": 1499.85,
+          "endSec": 1511.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "No dramatic backstory needed, no ask for anything in return. Just a straightforward decision to give away something he could spare, to someone he'd never meet.",
+          "startSec": 1511.54,
+          "endSec": 1520.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "A non-directed donation like this also kicks off what transplant programs call a chain — his kidney frees up a recipient whose own willing donor wasn't a match for them, and that donor can then give to the next person on the list.",
+          "startSec": 1520.6,
+          "endSec": 1533.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So one decision by a guy who dresses up as Santa every December could end up moving several other families off the waiting list this year, not just the one stranger he actually met.",
+          "startSec": 1533.46,
+          "endSec": 1543.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's The Morning Commute for Tuesday, August 25th. Thanks for listening.",
+          "startSec": 1543.59,
+          "endSec": 1547.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "We'll see you tomorrow.",
+          "startSec": 1547.72,
+          "endSec": 1549.01
+        }
+      ],
+      "startSec": 1481.6
+    }
+  ]
+}

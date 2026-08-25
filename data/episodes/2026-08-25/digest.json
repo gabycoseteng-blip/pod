@@ -1,0 +1,34 @@
+{
+  "throughline": "Escalation keeps landing on whoever didn't start the fight -- Trump's tariff war with Canada spills onto Detroit automakers and Korean chipmakers, Bessent's new Iran sanctions send oil lower on a priced-in read even as Manila's pump prices jump from the same Hormuz disruption, and in Georgia a fight over one AI data-center contract turns into a referendum on who actually governs the buildout",
+  "stories": [
+    "us-canada-trade-war-ford-trump-insults-50pct-tariffs-jan2027-auto-steel",
+    "scotus-mail-voting-order-6-3-preliminary-win-trump-dhs-citizenship-list",
+    "iran-bessent-operation-economic-outcast-60-entities-sanctioned-hormuz-threat",
+    "apple-layoffs-siri-visionpro-ahead-cook-ternus-handoff-aug31",
+    "detroit-vs-steel-canada-tariff-stock-split-ford-stellantis-gm-cleveland-cliffs-nucor",
+    "us-market-overview-sp-7652.86-nasdaq-25980.19-dow-53417.16-russell-2995.08-oil-selloff-iran-sanctions",
+    "chip-stocks-slide-ahead-nvidia-wednesday-earnings-amd-broadcom-soxx",
+    "alibaba-10.2bn-hk-share-placement-stock-falls-10pct-ai-buildout-funding",
+    "sk-hynix-samsung-slide-us-pressure-korea-chip-investment-shift",
+    "ctvc-georgia-power-play-elected-psc-referendum-data-centers-2024-flip-camellia-redacted-contract",
+    "ferc-forces-pjm-unlock-4.9gw-demand-response-vpp-voltus-mission-data-ruling",
+    "nv-energy-sues-tract-reno-datacenters-2gw-private-arbitration-venue-fight",
+    "commonwealth-fusion-systems-1bn-raise-4bn-total-sparc-2027-arc-virginia",
+    "philippines-duterte-impeachment-day18-ortonio-hostile-witness-150k-unreimbursed",
+    "bsp-poll-19of24-expect-25bp-hike-aug27-review-peso-61.60-62",
+    "philippines-fuel-price-hike-aug25-diesel-2.31-gas-1.08-hormuz-refinery-disruption",
+    "china-10y-bond-yield-13mo-low-1.68pct-pboc-liquidity-npc-standing-committee-aug25-28",
+    "national-gallery-of-art-190-works-acquired-wifredo-lam-ben-shahn-five-centuries",
+    "sothebys-artists-among-us-london-freud-bacon-rie-bowling-kitaj-odundo-uk-regional-collections",
+    "wapo-editorial-trump-allies-worse-than-adversaries-canada-tariffs-midterms",
+    "sharma-bloomberg-opinion-ai-fixing-uk-productivity-cost-wages-young-workers",
+    "one-good-thing-dave-bell-santas-helper-kidney-donation-stranger-henrico-virginia"
+  ],
+  "explainers": [
+    "elected-state-psc-seats-as-a-de-facto-referendum-mechanism-on-ai-buildout-ratepayer-exposure",
+    "ferc-statistical-sampling-ruling-as-the-fastest-arriving-mw-in-pjm-vs-new-generation-or-turbines",
+    "utility-sues-developer-over-arbitration-venue-as-a-fight-over-transparency-not-just-cost",
+    "pension-and-sovereign-wealth-money-in-fusion-signaling-infrastructure-grade-underwriting-despite-zero-near-term-mw"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

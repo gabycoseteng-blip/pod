@@ -2,6 +2,16 @@
   "title": "The Morning Commute",
   "episodes": [
     {
+      "date": "2026-08-27",
+      "title": "Thursday, August 27, 2026",
+      "day": "Thursday",
+      "durationSec": 1636,
+      "hasAudio": true,
+      "vocabCount": 4,
+      "segmentCount": 14,
+      "hasMarkets": true
+    },
+    {
       "date": "2026-08-25",
       "title": "Tuesday, August 25, 2026",
       "day": "Tuesday",
@@ -86,7 +96,7 @@
       "title": "Tuesday, August 11, 2026",
       "day": "Tuesday",
       "durationSec": 1628,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 13,
       "hasMarkets": false
@@ -96,7 +106,7 @@
       "title": "Monday, August 10, 2026",
       "day": "Monday",
       "durationSec": 1663,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 13,
       "hasMarkets": false
@@ -106,7 +116,7 @@
       "title": "Friday, August 7, 2026",
       "day": "Friday",
       "durationSec": 1715,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 13,
       "hasMarkets": false
@@ -116,7 +126,7 @@
       "title": "Thursday, August 6, 2026",
       "day": "Thursday",
       "durationSec": 1546,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 13,
       "hasMarkets": false
@@ -126,7 +136,7 @@
       "title": "Wednesday, August 5, 2026",
       "day": "Wednesday",
       "durationSec": 1532,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -136,7 +146,7 @@
       "title": "Tuesday, August 4, 2026",
       "day": "Tuesday",
       "durationSec": 1729,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -146,7 +156,7 @@
       "title": "Friday, July 31, 2026",
       "day": "Friday",
       "durationSec": 1670,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -156,7 +166,7 @@
       "title": "Thursday, July 30, 2026",
       "day": "Thursday",
       "durationSec": 1506,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -166,7 +176,7 @@
       "title": "Wednesday, July 29, 2026",
       "day": "Wednesday",
       "durationSec": 1634,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -176,7 +186,7 @@
       "title": "Tuesday, July 28, 2026",
       "day": "Tuesday",
       "durationSec": 1671,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -186,7 +196,7 @@
       "title": "Monday, July 27, 2026",
       "day": "Monday",
       "durationSec": 1680,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -196,7 +206,7 @@
       "title": "Friday, July 24, 2026",
       "day": "Friday",
       "durationSec": 1578,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -206,7 +216,7 @@
       "title": "Thursday, July 23, 2026",
       "day": "Thursday",
       "durationSec": 1861,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -216,7 +226,7 @@
       "title": "Wednesday, July 22, 2026",
       "day": "Wednesday",
       "durationSec": 1860,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -226,7 +236,7 @@
       "title": "Tuesday, July 21, 2026",
       "day": "Tuesday",
       "durationSec": 1752,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -236,7 +246,7 @@
       "title": "Monday, July 20, 2026",
       "day": "Monday",
       "durationSec": 1902,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 11,
       "hasMarkets": false
@@ -246,7 +256,7 @@
       "title": "Friday, July 17, 2026",
       "day": "Friday",
       "durationSec": 1545,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -256,7 +266,7 @@
       "title": "Thursday, July 16, 2026",
       "day": "Thursday",
       "durationSec": 1611,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -266,7 +276,7 @@
       "title": "Wednesday, July 15, 2026",
       "day": "Wednesday",
       "durationSec": 1249,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -276,7 +286,7 @@
       "title": "Monday, July 13, 2026",
       "day": "Monday",
       "durationSec": 1162,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -286,7 +296,7 @@
       "title": "Friday, July 10, 2026",
       "day": "Friday",
       "durationSec": 1663,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -296,7 +306,7 @@
       "title": "Thursday, July 9, 2026",
       "day": "Thursday",
       "durationSec": 1552,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -306,7 +316,7 @@
       "title": "Thursday, June 25, 2026",
       "day": "Thursday",
       "durationSec": 1563,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false
@@ -316,7 +326,7 @@
       "title": "Tuesday, June 23, 2026",
       "day": "Tuesday",
       "durationSec": 2230,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": false

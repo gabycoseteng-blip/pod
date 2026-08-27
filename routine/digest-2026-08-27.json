@@ -1,0 +1,35 @@
+{
+  "throughline": "Institutions everywhere start actually enforcing rules they'd been letting slide -- state AGs force Meta to redesign its apps for teens, Manila's watchdogs turn lifestyle checks on customs and the LTO, Beijing enforces a retroactive satire law against an artist who mocked Mao decades ago, and Bessent's own mentor argues the bond market is the last disciplinarian Washington has left",
+  "stories": [
+    "pakistan-islamabad-hospital-nursery-fire-14-dead",
+    "ukraine-strikes-norsi-refinery-kstovo-800km",
+    "nigeria-niger-state-mosque-mass-kidnapping",
+    "nvidia-q2fy27-96.2bn-rev-supply-commitments-279bn",
+    "salesforce-q2fy27-anthropic-stake-gain-87pct-net-income",
+    "canada-us-tariff-retaliation-dollar-for-dollar-20bn",
+    "saudi-france-mbs-paris-10bn-deal-package",
+    "us-markets-quiet-tape-nvidia-salesforce-single-stock-standouts",
+    "meta-teen-safety-settlement-17.1bn-state-ags",
+    "openai-jalapeno-asic-benchmark-broadcom",
+    "utility-datacenter-contract-disputes-microsoft-wisconsin-hillwood-comed",
+    "nrdc-540gw-renewables-loss-trump-policy",
+    "ferc-spp-topology-optimization-grid-congestion",
+    "harbert-acquires-mid-georgia-cogen-plant",
+    "philippines-bsp-hikes-5.00pct-third-2026-hike",
+    "philippines-coa-auditor-shortage-384-flood-control-scandal",
+    "philippines-ombudsman-107-officials-lifestyle-checks-lto-customs",
+    "china-industrial-profits-july-11.2pct-7mo-low-ai-electronics-divergence",
+    "gao-zhen-sentenced-3yr-satirical-mao-artwork",
+    "yiyun-li-qian-zhongshu-fortress-besieged-nyrb",
+    "lili-elbe-opera-santa-fe-closes-mixed-verdict",
+    "druckenmiller-wsj-let-bond-market-speak",
+    "harold-james-project-syndicate-dollar-outer-defenses-breached",
+    "one-good-thing-bronx-mother-stranger-3000-fire"
+  ],
+  "explainers": [
+    "state-ag-settlements-as-a-parallel-enforcement-track-to-state-utility-commissions",
+    "chip-architecture-designed-around-fixed-power-envelope-rather-than-siting-around-chip-needs",
+    "topology-optimization-as-software-squeezing-mw-from-existing-grid-without-new-steel"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

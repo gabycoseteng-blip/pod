@@ -1,0 +1,851 @@
+{
+  "date": "2026-08-27",
+  "title": "Thursday, August 27, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-08-27.mp3",
+  "durationSec": 1636,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Thursday, August 27th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Let's get straight into it.",
+          "startSec": 4.34,
+          "endSec": 6.75
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Top story this morning is heartbreaking. A fire tore through the neonatal nursery at Islamabad's main public hospital, PIMS, in the middle of the night on Wednesday. At least 14 newborns are dead.",
+          "startSec": 6.75,
+          "endSec": 18.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "An air-conditioning compressor exploded on the third floor of the Mother and Child Centre around 6:45 in the morning. Only one baby was pulled out alive. Prime Minister Shehbaz Sharif has ordered an investigation, and a fact-finding committee is due to report within 24 hours on exactly how fire safety and emergency response failed that badly.",
+          "startSec": 18.25,
+          "endSec": 38.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "Families said they were locked out of the ward as the fire spread — that detail alone tells you this wasn't just an equipment failure, it was a systems failure at every level.",
+          "startSec": 38.44,
+          "endSec": 48.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second story: Ukraine hit a very different, much bigger target overnight Tuesday into Wednesday. Special-operations forces and drones struck the NORSI refinery in Kstovo, deep inside Russia — roughly 800 kilometers from the border.",
+          "startSec": 48.72,
+          "endSec": 62.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's Russia's fourth-largest refinery and its second-largest gasoline producer, 17 million tonnes a year of capacity. A large fire, processing halted. This isn't the naval strikes on Novorossiysk from last week — it's a separate target Ukraine's hit repeatedly through the year, but it's the first strike there since July.",
+          "startSec": 62.27,
+          "endSec": 81.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Russia hit back at Kherson's combined heat-and-power plant and sparked fires in Sloviansk, so the exchange is very much still live on both sides of that front.",
+          "startSec": 81.29,
+          "endSec": 90.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, a genuinely awful story out of Nigeria. Armed men in military-style clothing stormed two villages in Niger State's Borgu area on August 21st, surrounding a mosque right as Friday prayers ended.",
+          "startSec": 90.62,
+          "endSec": 102.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Police now say more than 40 people were killed and over 100 abducted across four villages, and the attackers came back the next day for more captives. No group's claimed responsibility yet. President Tinubu ordered a manhunt, but this is part of a wider wave of mass kidnappings that's also hit Kwara State this year.",
+          "startSec": 102.36,
+          "endSec": 120.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "Three very different countries, the same thread underneath them all — state capacity failing exactly when it's needed most, whether that's fire-code enforcement or basic rural security.",
+          "startSec": 120.97,
+          "endSec": 131.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And on Ukraine specifically, worth flagging the pattern shift — hitting a refinery 800 kilometers from the border, deep in Nizhny Novgorod, is a statement about reach, not just damage. That's well past the frontline strikes we were describing even a few weeks ago.",
+          "startSec": 131.83,
+          "endSec": 147.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "Right, and NORSI matters because it's been hit and repaired four separate times this year already — April, May, June, July, and now this. Russia keeps patching it back up, which tells you it's genuinely load-bearing for their fuel supply, not a symbolic target.",
+          "startSec": 147.32,
+          "endSec": 162.64
+        }
+      ],
+      "startSec": 6.8
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "US business — Nvidia's quarter, out after the bell last night, is the number of the week. $96.2 billion in revenue for the period ended July 26th, up 106% year over year.",
+          "startSec": 162.64,
+          "endSec": 172.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Non-GAAP earnings of $2.22 a share beat the roughly $2.06 to $2.09 consensus, gross margin held at 75%. But the number that matters going forward is supply commitments — those more than doubled in a single quarter, $119 billion to $279 billion, mostly memory procurement.",
+          "startSec": 172.62,
+          "endSec": 188.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Shares popped about 4% in premarket trading after CFO Colette Kress said strong sales growth carries into fiscal 2028. They did guide gross margin down to 71 to 72% next quarter, so there's a real cost story building underneath the growth story.",
+          "startSec": 188.52,
+          "endSec": 202.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second — Salesforce's quarter, out Wednesday after the close, with an unusual driver. Revenue of $11.35 billion, up 11%, beat expectations — but net income jumped 87% to $3.53 billion, or $4.29 a share.",
+          "startSec": 202.9,
+          "endSec": 214.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That jump wasn't really the core business — it's a $2.6 billion mark-to-market gain on their equity stake in Anthropic. Strip that out and it's a solid, unspectacular beat-and-raise quarter with a giant one-time AI windfall bolted on top.",
+          "startSec": 214.76,
+          "endSec": 228.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "Stock still soared about 14% after hours, so the market's not exactly punishing them for taking the win.",
+          "startSec": 228.73,
+          "endSec": 234.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Put the two together and it's a useful contrast, actually — Nvidia's beat comes from selling the picks and shovels of the AI buildout, Salesforce's comes from having invested in one of the labs doing the digging. Two very different ways to monetize the same boom, both working right now.",
+          "startSec": 234.83,
+          "endSec": 251.68
+        }
+      ],
+      "startSec": 162.6
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "International — Canada just matched Trump dollar for dollar. New retaliatory tariffs of 15, 25, and 50%, covering roughly $20 billion of annual imports from the US — steel, dairy, appliances, agricultural equipment, electronics, more than 700 items — effective September 8th.",
+          "startSec": 251.68,
+          "endSec": 267.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Finance Minister Champagne's own language: matching US tariffs \"dollar for dollar, rate for rate.\" He also rolled out a 7.5 billion Canadian dollar loan program for Canadian industries getting hit by the US's own 50% tariffs, which already took effect after talks collapsed.",
+          "startSec": 267.82,
+          "endSec": 283.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "Two weeks from both sides live-firing simultaneously — this is the same fight from Monday's Ford-versus-steelmakers split, just escalating to the government level now.",
+          "startSec": 283.9,
+          "endSec": 293.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second story, and a much friendlier one — Mohammed bin Salman's two-day Paris visit produced more than $10 billion across 21 deals spanning energy, transport, AI, defense, and tourism.",
+          "startSec": 293.7,
+          "endSec": 304.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "The specifics: roughly $3.7 billion in Aramco purchase agreements, a credit line up to $5 billion, and a 6 billion euro deal for three Saudi-funded theme parks outside Paris — one of them Dragon Ball Z themed — tied to the Qiddiya megaproject back home.",
+          "startSec": 304.5,
+          "endSec": 319.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Macron and MBS also launched the first-ever French-Saudi Strategic Partnership Council. Same week Canada's drawing hard lines with a longtime ally, France is deepening ties with a much newer one — worth noticing which relationships are actually getting closer right now versus which ones are fraying.",
+          "startSec": 319.35,
+          "endSec": 336.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the theme-park piece is a small but telling detail — Saudi Arabia isn't just buying French planes or grain this time, it's exporting Qiddiya-style entertainment infrastructure onto European soil, which is a genuinely new direction for that relationship.",
+          "startSec": 336.96,
+          "endSec": 352.05
+        }
+      ],
+      "startSec": 251.7
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Quick tape check from Wednesday's close, and honestly, it's a quiet one. S&P up 0.32%, Nasdaq up 0.66%, Dow up 0.3% for its third straight up day. Nothing there clears a real move.",
+          "startSec": 352.05,
+          "endSec": 362.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Same on rates — tens roughly flat around 4.64%, thirties around 5.18%, both continuing a multi-week climbdown off the multi-decade highs we talked about last week. Oil and gold were basically directionless too. None of it needed a number read tonight — full levels are on the Markets tab.",
+          "startSec": 362.61,
+          "endSec": 378.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "The real action wasn't the index tape at all, it was two single stocks — Nvidia's supply commitments nearly tripling, and Salesforce's Anthropic stake gain, both of which we just covered.",
+          "startSec": 378.01,
+          "endSec": 388.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the actual story of this market right now — the AI trade's returns are concentrating into specific mechanisms, a chip supply commitment here, an equity stake in a lab there, rather than showing up as a broad index move. The index is calm because the volatility's been rerouted into individual names and structures instead.",
+          "startSec": 388.0,
+          "endSec": 405.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "So if you're only watching the S&P, you're missing where the real repricing is actually happening.",
+          "startSec": 405.7,
+          "endSec": 410.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — and the quiet retreat in long yields matters more than it looks, too. Two weeks ago we were talking about 30-year yields at multi-decade highs; now they've come in more than 10 basis points without anyone declaring victory. That's the kind of move that only gets noticed in hindsight.",
+          "startSec": 410.94,
+          "endSec": 426.55
+        }
+      ],
+      "startSec": 352.1
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Deep dive today comes straight from the inbox — NYT's \"The Evening\" and Bloomberg's Morning Briefing both led Wednesday night with the same story: Meta just settled with dozens of US states over claims it deliberately designed Facebook and Instagram to be addictive to teens, and the number involved is enormous.",
+          "startSec": 426.55,
+          "endSec": 443.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Up to $17.1 billion, plus a real overhaul of core product features. Bloomberg's framing is what actually makes this a story rather than just a fine — Meta was staring down a trial where the potential exposure was as high as $1.4 trillion, close to the company's entire market value.",
+          "startSec": 443.23,
+          "endSec": 458.3
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's why they settled mid-trial instead of rolling the dice with a jury. But the money's almost beside the point for a company Meta's size — the real fight was over the product changes, and some of them cut directly against the ad-engagement model that funds everything else.",
+          "startSec": 458.3,
+          "endSec": 473.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Walk through what's actually changing. Teens capped at two hours a day on Instagram and Facebook combined, locked out entirely from midnight to 6 AM, notifications muted during school hours. Anyone under 18 who stays on the app for 15 consecutive minutes gets an interruption prompt.",
+          "startSec": 473.11,
+          "endSec": 488.24
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Meta has to limit or remove specific features psychologists link to negative social comparison — beauty filters, visible \"like\" counts, the exact mechanics engineered to keep a teenager checking back.",
+          "startSec": 488.24,
+          "endSec": 499.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's the unresolved variable that decides whether any of this actually bites — age verification. Nothing in the settlement nails down how aggressively Meta actually has to verify a user's real age, and without that, a lot of these rules are opt-in in practice rather than enforced.",
+          "startSec": 499.15,
+          "endSec": 514.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the real question for us — is this a genuine behavioral win, or a settlement engineered to look tough on paper while leaving the one enforcement mechanism that would make it bite deliberately soft?",
+          "startSec": 514.28,
+          "endSec": 524.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "I'd bet on the latter until we see how age verification actually gets implemented. And this is worth watching structurally too — it's the same playbook we've tracked all month with state-level leverage on the AI buildout: Georgia's PSC fight, Pennsylvania's grid order, Nevada's arbitration dispute. States are increasingly the ones with actual teeth against companies this size, not Washington.",
+          "startSec": 524.97,
+          "endSec": 546.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "It also sets a template — other platforms, and probably the AI chatbot companies facing their own youth-harm suits right now, are going to get measured against exactly this settlement going forward.",
+          "startSec": 546.08,
+          "endSec": 556.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A trillion-dollar company chose to negotiate rather than let a jury decide what its product actually costs kids. That tells you everything about how its own lawyers rated the odds.",
+          "startSec": 556.67,
+          "endSec": 566.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more thread worth a mention before we move on — Adam Tooze's Chartbook flagged that Bessent's Treasury buyback program is now being read by serious people as price manipulation rather than liquidity management, with even his own old mentor weighing in. We'll get to that fully in Op-Eds later in the show.",
+          "startSec": 566.29,
+          "endSec": 582.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Back to Meta for a second, though, because there's a second-order effect worth naming — this settlement effectively hands every state attorney general a proven template for extracting product concessions from a hyperscaler-adjacent company. Georgia's PSC and Nevada's PUC have been doing something structurally similar to utilities all year.",
+          "startSec": 582.81,
+          "endSec": 601.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "So we're watching the same enforcement muscle develop in parallel across completely different regulatory bodies — state AGs on consumer platforms, state utility commissions on the AI-power buildout — and neither one needed Washington to move first.",
+          "startSec": 601.04,
+          "endSec": 614.3
+        }
+      ],
+      "startSec": 426.6
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Staying on the AI buildout. OpenAI's first in-house chip, code-named \"Jalapeño,\" got benchmarked publicly for the first time this week, and the numbers are striking for a first-generation part.",
+          "startSec": 614.3,
+          "endSec": 624.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Built with Broadcom, roughly 16 months tapeout to silicon — it beats Nvidia's Blackwell and matches Vera Rubin on tokens per megawatt despite being first-gen. HBM4 memory at 15.4 terabytes a second, 700 watts a die, running MXFP4 precision.",
+          "startSec": 624.62,
+          "endSec": 637.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "The system-level number is the one that actually matters here — a full two-rack setup, the CPU host rack they're calling \"Katsu\" plus a 128-XPU rack called \"Vindaloo,\" draws about 160 kilowatts total. Basically a double-wide GB300 rack.",
+          "startSec": 637.45,
+          "endSec": 650.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And here's the real shift — Jensen Huang's own line on it was, quote, \"if you have 1 gigawatt of power, then throughput per watt is revenue.\" Chip architecture is now being designed around a fixed power envelope, not the other way around. The power constraint has moved upstream, out of siting decisions and straight into silicon design itself.",
+          "startSec": 650.06,
+          "endSec": 668.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next milestone for OpenAI is 100 megawatts of deployed capacity, with the real production ramp mostly landing in Q4 2027.",
+          "startSec": 668.45,
+          "endSec": 674.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second story, and it's a genuine inversion of the usual utility fight. Microsoft is now saying its own Wisconsin data-center service agreements fail to protect ratepayers.",
+          "startSec": 674.92,
+          "endSec": 684.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a hyperscaler arguing a utility's contract terms are too weak — the opposite of every fight we've covered this month. Separately, the large-load developer PowerHouse Hillwood is accusing Exelon's ComEd of using monopoly power to quash an Illinois data-center agreement entirely.",
+          "startSec": 684.06,
+          "endSec": 699.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So the Georgia Camellia playbook — redacted terms, ratepayer protection, exit clauses — is now surfacing in Wisconsin and Illinois simultaneously, just with the parties swapped depending on who benefits from which contract structure.",
+          "startSec": 699.3,
+          "endSec": 712.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, and this one's a straight capacity-math shock, not an opinion piece. NRDC's policy director Amanda Levin says Trump-era energy policy could cost the US 540 gigawatts of renewables that were otherwise expected to get built.",
+          "startSec": 712.29,
+          "endSec": 725.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Her actual line: \"we lose more than half of everything we expected to be able to build with the combination of market forces and proactive policy.\" Every gigawatt of renewables that doesn't get built has to be backfilled by something — gas turbines already on multi-year lead times, behind-the-meter generation, or nuclear and microreactors.",
+          "startSec": 725.06,
+          "endSec": 744.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which tightens exactly the same supply pool hyperscalers are racing to lock down through PPAs right now. Less renewable buildout doesn't mean less power demand — it just funnels all of it into the scarcer, pricier options.",
+          "startSec": 744.08,
+          "endSec": 756.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Fourth — FERC approved SPP's new \"topology optimization\" plan this past week, letting the grid operator dynamically reconfigure transmission switching to relieve congestion without building new steel.",
+          "startSec": 756.46,
+          "endSec": 767.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "MISO's already running something similar and it's saved roughly $100 million this year alone — so there's a real dollar benchmark to project onto SPP's footprint as data-center load keeps growing across that region. It's another example of software squeezing extra megawatts out of a grid that already exists, same logic as the PJM demand-response ruling we covered a few weeks back.",
+          "startSec": 767.61,
+          "endSec": 788.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Last one — Harbert just acquired the Mid-Georgia Cogen plant, an existing gas plant that already sells power to Georgia Power under a long-term contract, with thermal output going to an adjacent Frito-Lay facility. Capital's pivoting to buying existing flexible generation rather than waiting years on new builds, and it's happening in the exact same state currently fighting over the Camellia contract.",
+          "startSec": 788.97,
+          "endSec": 811.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "Every one of these stories is the same underlying fact pattern — power, not chips, not capital, is the actual bottleneck on this entire buildout, and everyone's racing to solve it through whatever mechanism is fastest, whether that's litigation, M&A, or a new benchmark chip.",
+          "startSec": 811.44,
+          "endSec": 826.78
+        }
+      ],
+      "startSec": 614.3
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Bago tayo pumunta sa Pilipinas, dalawang salita muna, parehong konektado sa balita ngayong araw.",
+          "startSec": 826.78,
+          "endSec": 832.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Una, \"kapos.\" Karaniwang salita ito sa pang-araw-araw na usapan — ibig sabihin, hindi sapat, kulang sa dapat.",
+          "startSec": 832.13,
+          "endSec": 838.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Halimbawa, \"kapos sa tauhan ang COA\" — ibig sabihin, kulang sila sa mga awditor. Iba ito sa \"kakapusan,\" na mas pormal at parang naglalarawan ng isang matagal nang kondisyon, habang ang \"kapos\" ay mas kaswal, parang sinasabi mo lang sa kaibigan mo na may kulang.",
+          "startSec": 838.21,
+          "endSec": 852.82
+        },
+        {
+          "speaker": "SAM",
+          "text": "Puwede rin itong gamitin sa pera — \"kapos ang budget namin ngayong buwan\" — o sa oras, \"kapos na ang oras natin.\" Flexible na salita, pero laging may diwa ng kakulangan.",
+          "startSec": 852.82,
+          "endSec": 862.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pangalawa naman, \"pagmamanman\" — mas pormal ito, mas malapit sa balitang pampahayagan. Ibig sabihin, malapit na pagbabantay o surveillance.",
+          "startSec": 862.25,
+          "endSec": 870.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mula ito sa salitang-ugat na \"manman,\" na ibig sabihing subaybayan nang mabuti, halos hindi inaalis ang mata. Ang \"pagmamanman\" ay ginagamit kapag may institusyon o awtoridad na sadyang binabantayan ang isang tao o grupo.",
+          "startSec": 870.0,
+          "endSec": 882.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Halimbawa, \"pagmamanman sa mga opisyal ng gobyerno\" — hindi lang basta pagtingin, kundi sinasadya at may target. Mas seryoso ang dating nito kumpara sa \"pagbabantay,\" na puwedeng gamitin kahit sa pagbabantay ng bata o alagang hayop.",
+          "startSec": 882.32,
+          "endSec": 895.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya sa balitang ito, parang magkatambal talaga ang dalawang salitang ito — kapos ang tauhan, kaya kailangan ng mas mahigpit na pagmamanman. Diretso na tayo sa balita.",
+          "startSec": 895.26,
+          "endSec": 904.57
+        }
+      ],
+      "startSec": 826.8
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Sa wakas, hinataw na ng BSP ang rate hike — dinagdagan nila ng 25 basis points papuntang 5.00 percent ngayong Huwebes, ang ikatlong beses na sa taong ito.",
+          "startSec": 904.57,
+          "endSec": 913.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pinuna ni Gobernador Eli Remolona ang panganib mula sa presyo ng langis, posibleng malubhang El Niño, at pagtaas ng sahod bilang dahilan — sinabi niyang kailangan ng \"preemptive monetary action.\" Pero parang tapos na raw sila sa pag-hike sa ngayon.",
+          "startSec": 913.16,
+          "endSec": 926.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "For our listeners following along in English — this resolves the poll we flagged Tuesday, 19 of 24 analysts expected exactly this. Cumulative tightening is now 75 basis points since April, and Remolona explicitly pushed back on growth-drag concerns — the BSP's job is price stability, not GDP.",
+          "startSec": 926.99,
+          "endSec": 943.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Philippine economy is already growing at its weakest pace in years, 2.3% in Q2, so hiking into that is a real bet that inflation risk outweighs growth risk right now.",
+          "startSec": 943.33,
+          "endSec": 952.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story, and this is where \"kapos\" comes in. COA Chairman Gamaliel Cordoba admitted during budget hearings that the Commission on Audit is kapos — short 384 auditors and almost 2.5 billion pesos — to stand up 146 more pre-audit teams.",
+          "startSec": 952.81,
+          "endSec": 966.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's the number that makes it land: COA had exactly two auditors covering DPWH's First District Engineering Office in Bulacan — ground zero of the flood-control corruption scandal. Cordoba's own warning is that this shortage could undercut oversight of next year's entire infrastructure budget.",
+          "startSec": 966.14,
+          "endSec": 982.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, and here's \"pagmamanman.\" Ombudsman Jesus Crispin Remulla told Congress that 107 government officials are currently under pagmamanman, concentrated in what he called \"income-generating agencies\" — the LTO and the Bureau of Customs.",
+          "startSec": 982.64,
+          "endSec": 995.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His actual quote was blunt — \"this is where most of the lifestyle sins happen.\" More names are expected as intelligence comes in; this follows Marcos's government-wide order for lifestyle checks after the flood-control scandal broke.",
+          "startSec": 995.92,
+          "endSec": 1008.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "Quick aside — the Duterte impeachment trial is now on day 19 or 20, more testimony this week on 122 million pesos in confidential-fund spending logged as \"medicine.\" We've covered that trial in real depth already this month, so we'll leave it there for today.",
+          "startSec": 1008.91,
+          "endSec": 1023.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Three different stories, same shape though — the state finally checking its own homework. No PAGASA storm signal active right now, and the peso didn't move enough post-decision to need a number here — it's all on the Markets tab.",
+          "startSec": 1023.35,
+          "endSec": 1036.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Worth linking all three back to the same root cause too — the flood-control scandal keeps forcing every oversight body in Manila, from COA to the Ombudsman to the BSP's own risk calculus, to admit publicly how thin its capacity actually was before this year.",
+          "startSec": 1036.12,
+          "endSec": 1050.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is a more honest accounting than most governments manage after a scandal this size — admitting the shortage instead of just quietly reshuffling names and moving on.",
+          "startSec": 1050.51,
+          "endSec": 1060.29
+        }
+      ],
+      "startSec": 904.6
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words before China, both tied to today's story about a very uneven profit report.",
+          "startSec": 1060.29,
+          "endSec": 1065.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First one's a connective, and it's the kind of construction you'd really only hear in writing or a formal news broadcast — 并非…而是…, bìngfēi ... ér shì ....",
+          "startSec": 1065.69,
+          "endSec": 1074.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "It literally corrects a false impression — \"it's not actually X, it's really Y.\" Plainer Mandarin would just use 不是…而是…, which is neutral, just stating a substitution. 并非 adds an argumentative edge — you're specifically pushing back on something someone might reasonably believe.",
+          "startSec": 1074.92,
+          "endSec": 1091.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's how it lands in a sentence: 工业利润的回升并非内需真正好转，而是人工智能产业链价格上涨所致。(The pickup in industrial profit isn't really domestic demand recovering — it's the AI supply chain's price surge that's doing it.)",
+          "startSec": 1091.51,
+          "endSec": 1105.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's exactly the move a finance-desk analyst makes on a call — \"don't be fooled by the headline number, here's what's actually driving it.\" Very 书面语, very formal register.",
+          "startSec": 1105.75,
+          "endSec": 1115.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second word: 分化, fēnhuà — to diverge, to split apart, to stratify.",
+          "startSec": 1115.98,
+          "endSec": 1119.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's an abstract word, not a physical thing — you'd pair it with 行业 (an industry) or 效益 (performance): 电子行业与传统制造业的利润出现明显分化。(Profit performance has clearly diverged between electronics and traditional manufacturing.)",
+          "startSec": 1119.96,
+          "endSec": 1134.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The near-synonym to watch is 分裂, fēnliè — that one implies an actual rupture, a break, like a political split. 分化 is softer and more gradual — things that used to move together, slowly drifting apart, without anything actually breaking.",
+          "startSec": 1134.44,
+          "endSec": 1148.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "Both words are built for exactly the story we're about to get into — a number that looks fine on the surface hiding two very different economies underneath it.",
+          "startSec": 1148.38,
+          "endSec": 1157.52
+        }
+      ],
+      "startSec": 1060.3
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "中国工业利润的增长并非在加速，而是连续第三个月放缓。(China's industrial profit growth isn't accelerating — it's slowed for a third straight month.)",
+          "startSec": 1157.52,
+          "endSec": 1166.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "NBS data out today: industrial-firm profits rose 11.2% year over year in July, down from 15.1% in June — the weakest reading of the year, pulling the January-to-July cumulative pace down to 17.6% from 18.7% in the first half.",
+          "startSec": 1166.78,
+          "endSec": 1179.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "But that headline number is exactly the kind of thing 并非…而是… was built for, because underneath it, computer and electronics-equipment manufacturing profit growth jumped 110% year over year. Non-ferrous metal smelting, up 91.8%. Fibre-optic and optical-cable manufacturing, up 468.4%.",
+          "startSec": 1179.72,
+          "endSec": 1196.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "All of that riding the AI buildout and data-center demand directly. Meanwhile factory-gate prices are still in outright deflation — PPI down 3.5% year over year in July — and everything outside that narrow AI-linked sliver keeps getting squeezed by price wars.",
+          "startSec": 1196.37,
+          "endSec": 1211.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "这正是分化的典型例子——电子行业在飞涨，传统制造业却在挣扎。(This is a textbook example of divergence — electronics is soaring while traditional manufacturing struggles.)",
+          "startSec": 1211.32,
+          "endSec": 1221.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is precisely the dynamic Beijing's \"anti-involution\" campaign is aimed at — trying to stop firms from competing purely on destructive price cuts. This isn't two separate stories, it's one release with two economies hiding inside it.",
+          "startSec": 1221.85,
+          "endSec": 1235.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Worth watching whether Beijing leans harder into that anti-involution push, or just lets the AI-linked sliver keep propping up the aggregate number while everything else quietly deflates.",
+          "startSec": 1235.54,
+          "endSec": 1246.3
+        }
+      ],
+      "startSec": 1157.5
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts and culture, and today it's genuinely one of the more charged stories we've covered in this segment. A court in Hebei sentenced the artist Gao Zhen to three years on Tuesday, the maximum, for \"slandering China's heroes and martyrs.\"",
+          "startSec": 1246.3,
+          "endSec": 1259.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Gao Zhen, half of the Gao Brothers duo and a US permanent resident, is being prosecuted over works up to two decades old — mainly \"Miss Mao,\" which renders Mao satirically, and the 2009 kneeling statue \"Mao's Guilt.\" The law being used dates to 2021, applied retroactively to art that sat tolerated, even shown internationally, for years.",
+          "startSec": 1259.93,
+          "endSec": 1279.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "He's appealing. His family, who aren't even charged, have reportedly been barred from leaving the country. A 2024 open letter for his release drew signatures from Wang Xiaoshuai, Ma Jian, and Jung Chang, plus a 20,000-signature petition and a UN arbitrary-detention complaint.",
+          "startSec": 1279.36,
+          "endSec": 1295.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The real test here is how far Xi-era historical-memory law can reach backward into work that already exists in museum collections abroad — a much bigger question than any one artist's sentence.",
+          "startSec": 1295.24,
+          "endSec": 1306.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sticking with China for a second, actually — Yiyun Li has a sharp new essay in the NYRB, \"Life in the Fortress,\" reintroducing Qian Zhongshu's 1947 satirical classic \"Fortress Besieged.\" New Directions reissued it in May with her new introduction.",
+          "startSec": 1306.34,
+          "endSec": 1320.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Her line on it: \"War and Peace without the war\" — a comic novel about pompous intellectuals fleeing the Japanese invasion, written by a scholar who lived through the war he's mocking. It was suppressed or just ignored for decades in China, until a 1990 TV adaptation made it a surprise bestseller.",
+          "startSec": 1320.54,
+          "endSec": 1337.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Read against the Gao Zhen sentence, it's a pointed pairing — one satire that survived precisely because it refused to moralize, next to a state right now prosecuting satire it used to tolerate.",
+          "startSec": 1337.62,
+          "endSec": 1348.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Third item, away from China entirely — Tobias Picker's opera \"Lili Elbe\" closes its American premiere run at Santa Fe today. It dramatizes the Danish painter who was the first known recipient of gender-confirmation surgery.",
+          "startSec": 1348.72,
+          "endSec": 1361.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "It picked up a Best World Premiere nod at the 2024 Oper! Awards for its European debut, but the reviews here split down the middle — critics loved the orchestral and choral writing, evocative of 1920s Copenhagen, but called Picker's vocal lines jagged and too declamatory for the material. One review's verdict: \"flawed but fascinating.\"",
+          "startSec": 1361.55,
+          "endSec": 1380.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's three attempts this year at turning real historical trauma into opera, and this is the first one that's landed as a genuine mixed verdict rather than a clean win either way.",
+          "startSec": 1380.93,
+          "endSec": 1391.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which might actually be the more useful data point for anyone tracking the genre — ambition alone doesn't guarantee the music catches up to the subject, and Santa Fe's willingness to stage it anyway, verdict be damned, says something about how the company wants to be judged this decade.",
+          "startSec": 1391.28,
+          "endSec": 1407.78
+        }
+      ],
+      "startSec": 1246.3
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds today, and this one's personal in a way that makes it more interesting. Stanley Druckenmiller wrote in the Wall Street Journal Monday, \"Let the Bond Market Speak\" — and Druckenmiller is literally Bessent's old boss at Duquesne.",
+          "startSec": 1407.78,
+          "endSec": 1421.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His argument: the 30-year yield is \"the most important price in the world,\" the last real fiscal disciplinarian left now that neither Congress nor voters show any appetite for restraint. There was no liquidity freeze-up that justified Treasury doubling its long-end buybacks — so this was price management dressed up as liquidity management, in his words \"a mistake far larger than $4 billion suggests.\" He calls it a subsidy to procrastination.",
+          "startSec": 1421.24,
+          "endSec": 1448.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's the counter, though — Druckenmiller frames the market as some neutral truth-teller, but multi-decade-high yields reflect term-premium and basis-trade fragility just as much as any verdict on fiscal virtue. Tweaking buyback size and duration mix is routine debt management every Treasury Secretary does, not some novel act of price-fixing.",
+          "startSec": 1448.26,
+          "endSec": 1469.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And there's a real irony problem — Druckenmiller built his fortune betting against exactly this kind of government price defense, breaking the pound with Soros. He's got a trading book's stake in yields staying elevated, not a disinterested scold's.",
+          "startSec": 1469.2,
+          "endSec": 1484.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "Oh, and the piece was reportedly AI-drafted, which the Journal publicly defended — its own small subplot.",
+          "startSec": 1484.32,
+          "endSec": 1490.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second piece — Harold James in Project Syndicate, \"The Dollar's Outer Defenses Have Been Breached.\" He's reframing Bessent's other big move this month, the joint US-Japan yen intervention, the first in 28 years.",
+          "startSec": 1490.7,
+          "endSec": 1503.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "James's argument: this isn't really about propping up Japan. It's Washington fearing that a crisis anywhere in the dollar system, starting with an ally's currency, boomerangs straight back into US markets, the same way European monetary strain hit the US in the 1960s. Read that way, the intervention is reactive crisis management dressed up as strength.",
+          "startSec": 1503.51,
+          "endSec": 1525.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Counter-take: the 1960s analogy was a fixed-exchange-rate crisis. Nobody's defending a peg here — this was a one-off, sterilized, coordinated move against an idiosyncratic BOJ-hike-driven yen swing. Joint action with an ally reads just as easily as alliance cohesion as it does desperation, and a weaker yen actually suits Japan's own exporters and its own inflation fight.",
+          "startSec": 1525.0,
+          "endSec": 1547.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "Two very different op-eds, same underlying anxiety — that the people managing the world's most important prices might not be as in control as they're pretending to be.",
+          "startSec": 1547.65,
+          "endSec": 1557.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And there's a real tell in the timing — both interventions, the buyback and the yen defense, came within days of each other this month. Whether that's coordinated crisis management or just two separate fires that happened to break out simultaneously is genuinely unclear, and neither op-ed fully settles it.",
+          "startSec": 1557.79,
+          "endSec": 1576.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is probably the honest read — Jackson Hole this Friday is where we find out whether Warsh treats these as connected or insists they're not, and that answer matters more than either op-ed's verdict on its own.",
+          "startSec": 1576.43,
+          "endSec": 1589.42
+        }
+      ],
+      "startSec": 1407.8
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "One good thing to send you off today. A woman in the Bronx, a mother of three, was displaced back in June when a fire tore through the building next door. By August she was living in a hotel, overdrawing her bank account just to keep her kids fed.",
+          "startSec": 1589.42,
+          "endSec": 1604.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "A Long Island man named Scott Evans saw her story on the local news and just decided, in his words, \"this was something I could do something about.\" He gave her $3,000 — no strings, no ask for anything back.",
+          "startSec": 1604.41,
+          "endSec": 1616.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She's since found a new apartment and finished her degree in human services. She calls him her angel.",
+          "startSec": 1616.98,
+          "endSec": 1623.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's it, that's the whole story — sometimes the good thing really is just someone deciding to help, right when it counts. That's The Morning Commute for Thursday, August 27th. We'll see you tomorrow.",
+          "startSec": 1623.12,
+          "endSec": 1635.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a good one.",
+          "startSec": 1635.32,
+          "endSec": 1636.29
+        }
+      ],
+      "startSec": 1589.4
+    }
+  ]
+}

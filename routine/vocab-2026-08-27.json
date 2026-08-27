@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-27",
+  "cards": [
+    {
+      "id": "2026-08-27-tl-1",
+      "lang": "Tagalog",
+      "word": "kapos",
+      "pinyin": "",
+      "pronunciation": "KA-pos",
+      "tones": "",
+      "meaning": "falling short, not enough -- lacking what's needed",
+      "example": "Kapos sa tauhan ang COA -- kulang sila ng 384 na awditor.",
+      "examplePinyin": "",
+      "exampleMeaning": "The COA is short-staffed -- they're lacking 384 auditors.",
+      "note": "A casual, everyday-register word for a shortfall -- money, time, staff, whatever's not enough. Distinct from the more formal 'kakapusan,' which sounds like a report describing a standing condition; 'kapos' is what you'd say to a friend when something just doesn't stretch far enough.",
+      "tiesTo": "COA admits it's short 384 auditors, undercutting oversight of the flood-control-scandal infrastructure budget"
+    },
+    {
+      "id": "2026-08-27-tl-2",
+      "lang": "Tagalog",
+      "word": "pagmamanman",
+      "pinyin": "",
+      "pronunciation": "pag-ma-mAn-man",
+      "tones": "",
+      "meaning": "close monitoring, surveillance -- deliberate, targeted watching",
+      "example": "107 opisyal ng gobyerno ang sinasailalim sa pagmamanman ng Ombudsman.",
+      "examplePinyin": "",
+      "exampleMeaning": "107 government officials are being subjected to the Ombudsman's lifestyle-check monitoring.",
+      "note": "A formal, journalistic-register word built on the root 'manman' (to watch closely, without looking away) -- used when an institution or authority is deliberately watching a specific person or group, not casual observation. Carries more weight than 'pagbabantay,' which is neutral enough to describe watching a child or a pet.",
+      "tiesTo": "Ombudsman puts 107 officials under lifestyle checks, focused on LTO and Customs"
+    },
+    {
+      "id": "2026-08-27-zh-1",
+      "lang": "Mandarin",
+      "word": "并非…而是…",
+      "pinyin": "bìngfēi ... ér shì ...",
+      "pronunciation": "bing-fay ... er shr ...",
+      "tones": "4 · 1 · 2 · 4",
+      "meaning": "it's not actually X -- it's really Y -- corrects a false impression",
+      "example": "工业利润的回升并非内需真正好转，而是人工智能产业链价格上涨所致。",
+      "examplePinyin": "gōng yè lì rùn de huí shēng bìng fēi nèi xū zhēn zhèng hǎo zhuǎn, ér shì rén gōng zhì néng chǎn yè liàn jià gé shàng zhǎng suǒ zhì",
+      "exampleMeaning": "The pickup in industrial profit isn't really domestic demand recovering -- it's the AI supply chain's price surge that's doing it.",
+      "note": "书面语 (formal register), the analyst's connective -- distinct from plain 不是…而是…, which neutrally states a substitution. 并非 carries an argumentative edge: you're specifically correcting a false impression someone might reasonably hold, which is why it fits business and data journalism so naturally.",
+      "tiesTo": "China's July industrial-profit growth cools to a 7-month low even as AI-linked electronics profits triple-digit"
+    },
+    {
+      "id": "2026-08-27-zh-2",
+      "lang": "Mandarin",
+      "word": "分化",
+      "pinyin": "fēn huà",
+      "pronunciation": "fen hwa",
+      "tones": "1 · 4",
+      "meaning": "to diverge, split apart, stratify",
+      "example": "电子行业与传统制造业的利润出现明显分化。",
+      "examplePinyin": "diàn zǐ háng yè yǔ chuán tǒng zhì zào yè de lì rùn chū xiàn míng xiǎn fēn huà",
+      "exampleMeaning": "Profit performance has clearly diverged between electronics and traditional manufacturing.",
+      "note": "书面语 (formal, financial-register), an abstract verb that collocates with 行业 (an industry) or 效益 (performance) -- carries a sense of things that used to move together now drifting apart. A near-synonym of 分裂 (fēnliè), which implies an actual rupture or break; 分化 is softer and gradual, no break required.",
+      "tiesTo": "China's industrial-profit release showing electronics/AI-linked sectors soaring while traditional manufacturing keeps getting squeezed by price wars"
+    }
+  ]
+}

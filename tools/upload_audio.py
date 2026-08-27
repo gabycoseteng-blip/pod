@@ -57,8 +57,25 @@ def main():
         region_name="auto",
     )
     bucket, key = os.environ["R2_BUCKET"], f"{date}.mp3"
-    s3.upload_file(path, bucket, key, ExtraArgs={"ContentType": "audio/mpeg"})
-    print(f"OK  uploaded {key} -> r2://{bucket}")
+    from botocore.exceptions import ClientError
+    try:
+        s3.upload_file(path, bucket, key, ExtraArgs={"ContentType": "audio/mpeg"})
+        # verify the object actually landed intact — an upload that "succeeded"
+        # but is missing/short would publish an episode whose player 404s.
+        head = s3.head_object(Bucket=bucket, Key=key)
+    except ClientError as e:
+        code = e.response.get("Error", {}).get("Code", "")
+        if code in ("404", "NoSuchBucket"):
+            die(f"bucket '{bucket}' not found — R2_BUCKET is wrong (check the exact "
+                "name in the Cloudflare dashboard)")
+        if code in ("403", "AccessDenied", "InvalidAccessKeyId", "SignatureDoesNotMatch"):
+            die(f"R2 rejected the credentials ({code}) — fix the R2 key env vars")
+        die(f"upload failed ({code or e}) — nothing published")
+    local, remote = os.path.getsize(path), head.get("ContentLength", -1)
+    if remote != local:
+        die(f"uploaded object size mismatch ({remote} bytes remote vs {local} local) — "
+            "re-run the upload")
+    print(f"OK  uploaded {key} -> r2://{bucket}  ({local} bytes, verified)")
     base = os.environ.get("AUDIO_BASE_URL", "").rstrip("/")
     if base:
         print(f"URL {base}/{key}")

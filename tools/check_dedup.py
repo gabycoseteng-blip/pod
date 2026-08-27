@@ -131,9 +131,20 @@ def main():
     ap.add_argument("vocab")
     ap.add_argument("digest", nargs="?")
     ap.add_argument("--branch", default=os.environ.get("DEPLOY_BRANCH", "main"))
+    ap.add_argument("--date", help="episode date being checked (default: parsed from "
+                                   "the vocab filename) — that ledger entry is skipped")
     a = ap.parse_args()
 
+    # Skip the ledger entry for the date under check: on a same-day RE-RUN the
+    # first publish's words are already on the upstream ledger, and without this
+    # the gate hard-fails the episode against itself.
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(a.vocab))
+    today = a.date or (m.group(1) if m else None)
     ledger = load_ledger(a.branch)
+    if today and any(e.get("date") == today for e in ledger):
+        print(f"note: ledger already has an entry for {today} (same-day re-run) — "
+              f"excluding it from the dedup comparison")
+        ledger = [e for e in ledger if e.get("date") != today]
     seen_vocab = {w for e in ledger for w in e.get("vocab", [])}
     seen_vocab_norm = {norm_word(w) for w in seen_vocab}
     seen_stories = {s for e in ledger for s in e.get("stories", [])}

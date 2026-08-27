@@ -23,6 +23,24 @@ vocab="${3:-}"
 date="$(grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' <<<"$(basename "$script")" | head -1 || true)"
 [ -n "$date" ] || { echo "ERROR: no YYYY-MM-DD in script filename: $script" >&2; exit 1; }
 
+# Guard the dev-mode fallback: with an MP3 in hand but AUDIO_BASE_URL unset,
+# build_episode.py would silently COPY THE MP3 INTO GIT (~20 MB/episode) — the
+# classic symptom of a routine session whose env vars didn't load. Hard-stop
+# instead; a deliberate local/dev publish can pass ALLOW_LOCAL_AUDIO=1.
+if [ -n "$audio" ] && [ -z "${AUDIO_BASE_URL:-}" ] && [ -z "${ALLOW_LOCAL_AUDIO:-}" ]; then
+  echo "ERROR: AUDIO_BASE_URL is not set — refusing to fall back to committing the MP3" >&2
+  echo "       into git. Fix the R2/audio env (see README), or set ALLOW_LOCAL_AUDIO=1" >&2
+  echo "       only if you really mean a local dev-mode publish." >&2
+  exit 1
+fi
+
+# Schema-gate the day's model-authored JSON (vocab/digest/markets) BEFORE the
+# build: build_episode.py forgives malformed files by silently degrading them
+# (0 vocab cards, an empty ledger line), which blinds future dedup.
+if [ -n "$vocab" ] && [ -f tools/validate_artifacts.py ]; then
+  python3 tools/validate_artifacts.py "$date" || exit 1
+fi
+
 # 0. dedup backstop — refuse to publish if a vocab word was already taught.
 #    The routine should also run this BEFORE rendering; this is the last line of
 #    defense so a reused word can't reach the deploy. Bypass with DEDUP_OVERRIDE=1.

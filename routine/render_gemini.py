@@ -33,7 +33,7 @@ Notes:
   prompt MUST match the names in speaker_voice_configs ("Alex", "Sam").
 - A global style instruction is prepended so delivery stays brisk and warm.
 """
-import os, re, sys, json, time, base64, wave, shutil, subprocess, urllib.request, urllib.error, http.client
+import os, re, sys, json, time, base64, wave, shutil, hashlib, subprocess, urllib.request, urllib.error, http.client
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TODAY = __import__("datetime").date.today().isoformat()
@@ -49,6 +49,16 @@ ACCENT     = os.environ.get("ACCENT", "British English")
 CHUNK_CHARS = int(os.environ.get("CHUNK_CHARS", "7000"))   # chars of dialogue per call. 7000 ≈ 14 min audio/call (3 calls for a ~37-min show); set 4000 for ~8 min/call (5 calls) to stay well under the per-call output cap.
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "30"))  # seconds between calls — paces free-tier RPM
 MAX_RETRIES = int(os.environ.get("MAX_RETRIES", "4"))         # retries on 429 / 5xx with backoff
+
+# Truncation guard: the per-call output cap can silently cut a chunk's audio short
+# — the API returns 200 with less audio than the text needs, and without a check
+# that short chunk would be CACHED and poison every resume. A chunk whose audio
+# runs under TRUNC_FRACTION of the pace-implied floor (script chars ÷ chars/sec;
+# ~17.4 measured for this show, and CJK-heavy chunks only run LONGER) is retried
+# once, then treated as a failed chunk with "lower CHUNK_CHARS" guidance.
+# TRUNC_FRACTION=0 disables the guard.
+CHARS_PER_SEC = float(os.environ.get("TTS_CHARS_PER_SEC", "17.4"))
+TRUNC_FRACTION = float(os.environ.get("TRUNC_FRACTION", "0.5"))
 
 # ── run telemetry (process metrics the scorecard reads) ───────────────────────
 # Counts what actually happened during the render — API calls made, chunks reused
@@ -278,25 +288,67 @@ def main():
     for i, ch in enumerate(chunks, 1):
         dlg = dialogue_of(ch)            # numerals expanded to words for the model
         cache = f"{OUTBASE}.chunk{i:03d}.pcm"
+        sha_file = f"{OUTBASE}.chunk{i:03d}.sha"
+        dlg_sha = hashlib.sha256(dlg.encode("utf-8")).hexdigest()
+        # a cached chunk is reusable ONLY if it was rendered from this exact text —
+        # otherwise a script edit between runs would resume into audio that no
+        # longer matches the transcript. The .sha sidecar carries that proof.
+        cached_ok = False
         if os.path.isfile(cache) and os.path.getsize(cache) > 0:
+            stored = ""
+            if os.path.isfile(sha_file):
+                stored = open(sha_file, encoding="utf-8").read().strip()
+            if stored == dlg_sha:
+                cached_ok = True
+            else:
+                print(f"  chunk {i}/{len(chunks)} — cached render is STALE "
+                      f"(script text changed since it was rendered) — re-rendering",
+                      file=sys.stderr)
+                for p in (cache, sha_file):
+                    try:
+                        os.remove(p)
+                    except OSError:
+                        pass
+        if cached_ok:
             print(f"  chunk {i}/{len(chunks)} — reusing cached render "
                   f"({os.path.getsize(cache)} bytes)", file=sys.stderr)
             data = open(cache, "rb").read()
             STATS["cached"] += 1
         else:
-            if did_api and REQUEST_DELAY > 0:
-                time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
-            print(f"  rendering chunk {i}/{len(chunks)} ({len(dlg)} chars)…", file=sys.stderr)
-            try:
-                data = synth(dlg); did_api = True; STATS["api_calls"] += 1
-            except RuntimeError as e:
-                failed = (i, str(e))
-                print(f"  ! chunk {i} failed: {e}", file=sys.stderr)
+            # pace-implied duration floor for the truncation guard (raw script
+            # chars, pre number-expansion — expansion only lengthens the audio)
+            raw_chars = sum(len(txt) for _, txt in ch)
+            floor = (raw_chars / CHARS_PER_SEC) * TRUNC_FRACTION if TRUNC_FRACTION > 0 else 0
+            data = None
+            for attempt in ("first", "retry"):
+                if did_api and REQUEST_DELAY > 0:
+                    time.sleep(REQUEST_DELAY)   # pace requests to respect free-tier RPM
+                print(f"  rendering chunk {i}/{len(chunks)} ({len(dlg)} chars)…", file=sys.stderr)
+                try:
+                    data = synth(dlg); did_api = True; STATS["api_calls"] += 1
+                except RuntimeError as e:
+                    failed = (i, str(e)); data = None
+                    break
+                dur = len(data) / (RATE * WIDTH * CHANNELS)
+                if dur >= floor:
+                    break
+                print(f"  ! chunk {i} audio looks TRUNCATED: {dur:.0f}s for ~{raw_chars} "
+                      f"script chars (floor {floor:.0f}s) — the per-call output cap; "
+                      f"{'retrying once…' if attempt == 'first' else 'still short after retry.'}",
+                      file=sys.stderr)
+                if attempt == "retry":
+                    failed = (i, f"truncated audio ({dur:.0f}s < {floor:.0f}s floor) — "
+                                 f"lower CHUNK_CHARS (e.g. 4000) and re-run; cached chunks are kept")
+                    data = None
+            if data is None:
+                print(f"  ! chunk {i} failed: {failed[1]}", file=sys.stderr)
                 print(f"  ! {i-1} chunk(s) cached — re-run the SAME command to resume "
                       f"from chunk {i} (cached chunks are NOT re-rendered).", file=sys.stderr)
                 break
             with open(cache, "wb") as f:
                 f.write(data)
+            with open(sha_file, "w", encoding="utf-8") as f:
+                f.write(dlg_sha)
         pcm += data
         dur = len(data) / (RATE * WIDTH * CHANNELS)
         timing_chunks.append({
@@ -350,14 +402,14 @@ def main():
         print("ffmpeg not found — kept WAV only.", file=sys.stderr)
 
     if not failed:
-        # full render succeeded — drop the per-chunk resume caches
+        # full render succeeded — drop the per-chunk resume caches (+ .sha proofs)
         for i in range(1, len(chunks) + 1):
-            c = f"{OUTBASE}.chunk{i:03d}.pcm"
-            if os.path.isfile(c):
-                try:
-                    os.remove(c)
-                except OSError:
-                    pass
+            for c in (f"{OUTBASE}.chunk{i:03d}.pcm", f"{OUTBASE}.chunk{i:03d}.sha"):
+                if os.path.isfile(c):
+                    try:
+                        os.remove(c)
+                    except OSError:
+                        pass
 
     if failed:
         print(f"\nPARTIAL: stopped at chunk {failed[0]}/{len(chunks)} — {failed[1]}\n"

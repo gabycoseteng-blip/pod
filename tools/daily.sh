@@ -36,6 +36,14 @@ if [ -n "$audio" ] && [ -n "${AUDIO_BASE_URL:-}" ]; then
   python3 tools/upload_audio.py "$audio" "$date"
 fi
 
+# 1b. audio retention — delete episode MP3s older than RETAIN_AUDIO_DAYS
+#     (default 14) from R2 and mark those episodes script-only (text stays
+#     forever). Runs BEFORE the build so index.json's hasAudio flags refresh in
+#     the same commit. A failure here warns but never blocks the publish.
+if [ -f tools/prune_audio.py ]; then
+  python3 tools/prune_audio.py || echo "⚠ audio retention pass failed — continuing with publish" >&2
+fi
+
 # 2. build episode.json + index.json + search.json (records the R2 URL, no copy)
 echo "→ building episode $date…"
 python3 tools/build_episode.py "$script" ${audio:+"$audio"} ${vocab:+"$vocab"}

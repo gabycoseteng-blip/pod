@@ -61,6 +61,10 @@ def main():
     ap.add_argument("--recent", type=int, default=8)
     ap.add_argument("--branch", default=os.environ.get("DEPLOY_BRANCH", "main"))
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--out", metavar="FILE",
+                    help="write the block to FILE and print only a one-line summary "
+                         "— keeps the ~200-line block OUT of the orchestrating "
+                         "agent's context (subagents read the file by path)")
     a = ap.parse_args()
 
     ledger = load_ledger(a.branch)
@@ -109,7 +113,15 @@ def main():
              "at any age; pick fresh words:")
     L.append("  " + "  ".join(all_vocab))
     L.append("=== END exclusion list ===")
-    print("\n".join(L))
+    block = "\n".join(L)
+    if a.out:
+        with open(a.out, "w", encoding="utf-8") as f:
+            f.write(block + "\n")
+        print(f"exclusion list → {a.out}  ({len(ledger)} episodes, "
+              f"{len(recent_stories)} recent stories, {len(all_vocab)} vocab words, "
+              f"{len(block)} chars) — hand subagents the PATH, don't cat it")
+    else:
+        print(block)
 
 
 if __name__ == "__main__":

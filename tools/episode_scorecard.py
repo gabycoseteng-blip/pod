@@ -35,9 +35,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 try:
-    from check_dedup import near_duplicates, _tokens  # pure functions, no network
+    from check_dedup import near_duplicates, _tokens, norm_word  # pure functions, no network
 except Exception:                                      # pragma: no cover
     near_duplicates = None
+    def norm_word(w):  # fallback: exact comparison
+        return w
 
 # HSK-4 connectives / abstract discourse markers the steering prompt asks for
 # (≥1 of the two Mandarin words should be one of these, not a concrete noun).
@@ -46,7 +48,19 @@ _ZH_CONNECTIVES = {
     "总之", "然而", "却", "虽然", "不管", "无论", "即使", "甚至", "除非", "反正",
     "毕竟", "究竟", "到底", "于是", "因此", "从而", "进而", "以及", "并且", "何况",
     "固然", "宁可", "总而言之", "换言之", "简而言之", "综上",
+    "只有", "只要", "即便", "哪怕", "由于", "以免", "不然", "要么", "以致",
 }
+
+
+def _zh_connective_like(word):
+    """True when a Mandarin vocab word is a connective / abstract discourse item:
+    a PAIRED PATTERN (contains an ellipsis — 只有…才…, 无论……都……, which is a
+    connective by construction) or contains a known connective as its headword.
+    Plain equality misses every paired form, which is why 无论……都…… used to WARN."""
+    if "…" in word or "⋯" in word:
+        return True
+    w = re.sub(r"[…⋯·・\s]+", "", word)
+    return any(k in w for k in _ZH_CONNECTIVES)
 _NUMWORD = (r"(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|"
             r"thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|"
             r"thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)")
@@ -193,7 +207,8 @@ def grade(date, strict):
 
     # freshness vs the ledger (exclude today's own line, which build folds in)
     seen_vocab, seen_stories, ledger_n = _ledger_seen(date)
-    clashes = [w for w in words if w in seen_vocab]
+    seen_vocab_norm = {norm_word(w) for w in seen_vocab}
+    clashes = [w for w in words if norm_word(w) in seen_vocab_norm]
     metrics["vocab_fresh"] = not clashes
     c.add("Vocab", "all vocab fresh vs ledger", "pass" if not clashes else "fail",
           "fresh" if not clashes else "REUSED: " + ", ".join(clashes), hard=True)
@@ -202,7 +217,7 @@ def grade(date, strict):
     c.add("Vocab", "taught words appear in script", "pass" if len(in_script) == len(words)
           else "warn", f"{len(in_script)}/{len(words)} found in script")
 
-    zh_conn = any(w in _ZH_CONNECTIVES for w in (c_.get("word", "") for c_ in zh))
+    zh_conn = any(_zh_connective_like(c_.get("word", "")) for c_ in zh)
     c.add("Vocab", "≥1 Mandarin connective/abstract (HSK-4)", "pass" if zh_conn else "warn",
           "present" if zh_conn else "none matched a known connective — verify calibration")
 

@@ -27,7 +27,7 @@ Usage:
     tools/episode_scorecard.py <YYYY-MM-DD> [--strict] [--no-record]
 
 Env:
-    RECOMMEND_CHARS default 27000   CHARS_PER_SEC default 17
+    CHARS_PER_SEC default 17
 """
 import argparse, json, os, re, sys
 

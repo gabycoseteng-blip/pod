@@ -293,6 +293,33 @@ def grade(date, strict):
     else:
         c.add("Process", "pace calibration (chars/s)", "na", "need chars + duration")
 
+    # Digest slug compactness — long slugs (index levels baked into the id) re-bill
+    # tokens in EVERY future exclusion file and defeat the near-dup matcher. Warn-only.
+    if stories:
+        long_slugs = [x for x in stories if len(x) > 50]
+        avg = round(sum(map(len, stories)) / len(stories))
+        if not long_slugs:
+            c.add("Process", "digest slug compactness", "pass", f"avg {avg} chars")
+        else:
+            eg = max(long_slugs, key=len)
+            c.add("Process", "digest slug compactness", "warn",
+                  f"{len(long_slugs)}/{len(stories)} slugs > 50 chars (avg {avg}) — "
+                  f"slugs are identity, not summary; e.g. {eg[:70]}…")
+        metrics["long_slugs"] = len(long_slugs)
+
+    # Brief compactness — the brief is re-read while scripting, so prose bloat is a
+    # per-run token tax. Structured lines, not paragraphs. Warn-only.
+    brief = _read(os.path.join(ROOT, "routine", f"commute-brief-{date}.md"))
+    if brief is not None:
+        bk = len(brief)
+        metrics["brief_chars"] = bk
+        if bk <= 14000:
+            c.add("Process", "brief compactness", "pass", f"{bk} chars")
+        else:
+            c.add("Process", "brief compactness", "warn",
+                  f"{bk} chars (target ≤ ~14k) — keep the brief structured one-liners; "
+                  f"prose belongs only in the script")
+
     rstats = _json(os.path.join(ROOT, f"commute-gemini-{date}.render-stats.json"))
     if rstats:
         api, chunks_n = rstats.get("apiCalls"), rstats.get("chunks")

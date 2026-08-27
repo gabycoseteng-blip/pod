@@ -91,6 +91,7 @@ Cost stays trivial — R2 storage is ~$0.015/GB·mo with **no egress fees**, so 
 
 ## Notes / tradeoffs
 - **Audio lives in R2, not git.** Every episode — the `2026-06-23` seed included — stores only its R2 URL (set `AUDIO_BASE_URL`); no audio files are committed.
+- **Audio keeps a rolling 2-week window; text is forever.** `tools/daily.sh` runs `tools/prune_audio.py` each publish: episode MP3s older than `RETAIN_AUDIO_DAYS` (default 14) are deleted from R2 and those episodes flip to script-only in the app (transcript, vocab, and search stay intact — and an episode you saved for offline keeps playing from the device cache). Pass `--dry-run` to preview.
 - **Offline audio:** the shell, transcript, vocab, and search always work offline. Audio is cross-origin (R2), and range requests (206) can't be cached automatically — so use **⤓ Save audio for offline** to download an episode for a no-signal commute.
 - **Search scales as one file.** `data/search.json` is the whole archive's text loaded client-side — fine for the first several years (a few MB). Past a few thousand episodes, swap the client filter for a prebuilt index (e.g. MiniSearch) or a small serverless search endpoint; the per-episode JSON stays the source of truth either way.
 - **Segment seek is approximate** — estimated from spoken-character share, since Gemini-TTS doesn't return word timings. Text jumps are exact; audio position is a best guess.

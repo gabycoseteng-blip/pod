@@ -40,13 +40,12 @@ git checkout "$DEPLOY_BRANCH" && git pull --rebase origin "$DEPLOY_BRANCH"
 pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a SessionStart hook also does this — render/upload fail cold without them
 
 # Build the "already covered" exclusion block ONCE, from the deploy branch's ledger,
-# and reuse it verbatim in every research subagent (step 1) so a fan-out never
-# surfaces already-aired stories/vocab (which is what forces a costly re-research).
-EXCLUDE="$(python3 tools/exclude_context.py --recent 8)"
-printf '%s\n' "$EXCLUDE" | tee "${TMPDIR:-/tmp}/commute-exclude.txt"   # the ledger you MUST dedup against — recent stories + explainers + ALL used vocab
-# Then hand research subagents the FILE (${TMPDIR:-/tmp}/commute-exclude.txt) instead of
-# re-pasting this ~240-line block into every subagent prompt AND your own context — write
-# it once, reference it by path. (Re-dumping it per-agent is pure token waste.)
+# straight into a FILE — the ~22KB block never enters your own context (that tee
+# used to cost ~5k tokens/run). Every research subagent (step 1) is told to READ
+# this path first, so a fan-out never surfaces already-aired stories/vocab
+# (which is what forces a costly re-research). Do NOT cat this file yourself —
+# the one-line summary it prints is all you need.
+python3 tools/exclude_context.py --recent 8 --out "${TMPDIR:-/tmp}/commute-exclude.txt"
 ```
 (A **SessionStart guard** — `tools/preflight_deploy_branch.sh` — also runs
 automatically and shouts if this branch's command file/ledger is behind the deploy
@@ -237,14 +236,16 @@ distilled numbers, so the raw JSON never lands in the main context.
 `tools/market_snapshot.py` (needs `FMP_API_KEY`) prints one compact block for the
 whole market section.
 
-**Dedup the fan-out at the SOURCE — paste `$EXCLUDE` into every research subagent.**
-The single most expensive daily failure is *duplicate research*: agents told only
-"don't repeat June" surface a week of already-aired stories, which you then discard
-and re-run (that is precisely what cost 2026-07-17 a second research pass + a full
-rewrite). Prevent it by handing each agent the exclusion block you built in step 0:
-include the verbatim `$EXCLUDE` text in the prompt and instruct "return only items
-NOT already on this list; a genuinely new development on a running story is fine, a
-recap is not." Regenerate it any time with `python3 tools/exclude_context.py --recent 8`.
+**Dedup the fan-out at the SOURCE — every research subagent READS the exclusion
+file first.** The single most expensive daily failure is *duplicate research*:
+agents told only "don't repeat June" surface a week of already-aired stories, which
+you then discard and re-run (that is precisely what cost 2026-07-17 a second
+research pass + a full rewrite). Prevent it by starting each agent prompt with:
+"FIRST read ${TMPDIR:-/tmp}/commute-exclude.txt — return only items NOT already on
+that list; a genuinely new development on a running story is fine, a recap is not."
+Handing the PATH (not the pasted block) keeps the ~22KB list out of your context
+and out of every prompt you compose. Regenerate it any time with
+`python3 tools/exclude_context.py --recent 8 --out <file>`.
 This is far cheaper than deduping after the fact.
 
 ## 2. Write the script → `routine/commute-two-host-script-$date.md`
@@ -279,16 +280,10 @@ relies on:
   (thin margin — 2026-08-25's 27.4k chars rendered 1549s, just under the 1560s
   comfort band) — treat that warning as "add ~1k now," not "good enough." Before
   rendering,
-  count with a Unicode-aware counter (`wc -c` counts bytes and over-counts the
-  Mandarin/Tagalog vocab segment ~3x):
-  ```bash
-  python3 - "routine/commute-two-host-script-$date.md" <<'PY'
-  import re, sys
-  t = open(sys.argv[1], encoding='utf-8').read()
-  d = '\n'.join(m.group(0) for m in re.finditer(r'^(ALEX|SAM):.*', t, re.M))
-  print(f"{len(d)} dialogue chars  ~{round(len(d)/17)}s  (~{round(len(d)/17/60,1)} min)")
-  PY
-  ```
+  count with `python3 tools/check_script.py routine/commute-two-host-script-$date.md`
+  — it prints the Unicode-aware dialogue char count + predicted duration (`wc -c`
+  counts bytes and over-counts the Mandarin/Tagalog vocab segment ~3x; don't use it,
+  and don't hand-roll a counter — the lint already is one).
   If under ~26,000, expand the substantive segments (Headlines, Energy,
   Philippines, Vocab) with more real content — never pad or repeat; if over
   ~32,000, trim wording. Do this **before** step 5 so you don't render a bad
@@ -387,6 +382,13 @@ short phrases, not prose. Schema:
   "explainers": ["interconnection-queue mechanics", "what a PPA off-take is"],
   "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
 }
+```
+**Slugs: 3–6 short tokens, ≤ ~50 chars — identity, not summary.** A slug like
+`us-market-overview-sp-7652.86-nasdaq-25980.19-dow-53417.16-…` re-bills its index
+levels in EVERY future exclusion file (8 episodes × ~20 slugs, every single run)
+and defeats the near-dup matcher, which keys on significant tokens, not prices.
+Write `us-markets-iran-oil-selloff`, not the whole tape. The scorecard warns when
+slugs run long.
 ```
 `build_episode.py` picks this up automatically and folds it (plus the vocab words)
 into `data/history.jsonl`. Vocab words are added for you — don't list them here.

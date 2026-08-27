@@ -28,6 +28,38 @@ _STOP = {
 }
 
 
+def norm_word(w):
+    """canonical form of a vocab word for reuse comparison: ellipses (… / ……),
+    interpuncts, and whitespace stripped, lowercased — so a paired pattern taught
+    as 无论……都…… also blocks 无论…都… (and 'Pag-asenso' == 'pag-asenso')."""
+    return re.sub(r"[…⋯·・\s]+", "", w).lower()
+
+
+def _has_cjk(w):
+    return any("\u4e00" <= ch <= "\u9fff" for ch in w)
+
+
+def word_containments(new_words, seen):
+    """(new, prior) pairs where one normalized word CONTAINS the other — the same
+    headword resurfacing inside a longer pattern (无论 vs 无论……都……, taas vs
+    pagtaas). Not a hard clash — a judgment call the run should look at. Latin
+    words need >= 4 chars on the shorter side to avoid substring noise; CJK >= 2."""
+    seen_norm = {norm_word(w): w for w in seen}
+    hits = []
+    for w in new_words:
+        nw = norm_word(w)
+        if not nw or nw in seen_norm:
+            continue  # exact reuse is reported as a hard clash, not here
+        for pn, orig in seen_norm.items():
+            if not pn or (nw not in pn and pn not in nw):
+                continue
+            shorter = min(len(nw), len(pn))
+            if shorter >= (2 if (_has_cjk(nw) or _has_cjk(pn)) else 4):
+                hits.append((w, orig))
+                break
+    return hits
+
+
 def _stem(t):
     """crude suffix-strip so raises/raised/raising collapse to one token (no NLTK
     dependency; good enough to make reworded slugs overlap)."""
@@ -103,11 +135,13 @@ def main():
 
     ledger = load_ledger(a.branch)
     seen_vocab = {w for e in ledger for w in e.get("vocab", [])}
+    seen_vocab_norm = {norm_word(w) for w in seen_vocab}
     seen_stories = {s for e in ledger for s in e.get("stories", [])}
 
     cards = json.load(open(a.vocab, encoding="utf-8")).get("cards", [])
     words = [c.get("word", "") for c in cards if c.get("word")]
-    clashes = [w for w in words if w in seen_vocab]
+    clashes = [w for w in words if norm_word(w) in seen_vocab_norm]
+    near_words = word_containments(words, seen_vocab)
 
     story_clashes, near = [], []
     if a.digest and os.path.isfile(a.digest):
@@ -119,6 +153,11 @@ def main():
 
     print(f"dedup vs origin/{a.branch}: {len(ledger)} prior episodes, "
           f"{len(seen_vocab)} vocab words on record")
+    if near_words:
+        print("⚠ vocab word(s) look like a NEAR-reuse (same headword, longer/shorter "
+              "form) — confirm it teaches something genuinely new:")
+        for w, prior in near_words:
+            print(f"    {w}  ~  {prior}")
     if story_clashes:
         print("⚠ story slug(s) exactly repeat a prior episode — advance, don't recap: "
               + ", ".join(story_clashes))

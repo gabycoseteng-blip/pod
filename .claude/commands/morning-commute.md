@@ -137,6 +137,14 @@ freed by trimming the market recap). Choose **EITHER**:
   `reddit.com/r/<sub>` for the day's high-traction threads; confirm it's actually
   going viral, not niche). Read the primary piece, don't paraphrase a screenshot.
 
+**Rotate the territory.** Before choosing, scan the RECENT THROUGHLINES in
+`$EXCLUDE`: if the last couple of shows already went deep on the same ground (the
+AI-capex/tariff macro has a way of colonizing every segment — the semantic
+near-dup count climbing across runs is the symptom), pick today's Deep Dive from a
+**different domain** — science, culture, law, geopolitics, a business story outside
+tech/energy. The Deep Dive is the one segment with no fixed beat; use it to widen
+the show, not double down on the throughline.
+
 Return a **1–2 sentence summary + the source handle/name + why it matters**, and
 have **a backup candidate** ready (a viral thread can fizzle or turn out to be
 misinformation — verify before committing). Attribute clearly in the script
@@ -267,8 +275,9 @@ relies on:
   first pass that lands near ~25k fails the floor and forces an expansion loop
   (re-emitted prose + repeat lint passes) that a correct initial target avoids; a pass
   much over ~31k over-writes (wasted tokens) and lands long (over the ~30-min goal
-  band). `check_script.py` now also WARNs when you clear the floor but sit under ~27k
-  (thin margin) — treat that warning as "add ~1k now," not "good enough." Before
+  band). `check_script.py` now also WARNs when you clear the floor but sit under ~27.5k
+  (thin margin — 2026-08-25's 27.4k chars rendered 1549s, just under the 1560s
+  comfort band) — treat that warning as "add ~1k now," not "good enough." Before
   rendering,
   count with a Unicode-aware counter (`wc -c` counts bytes and over-counts the
   Mandarin/Tagalog vocab segment ~3x):

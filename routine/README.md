@@ -39,5 +39,5 @@ tools/daily.sh \
 `daily.sh` keeps audio out of git (it goes to R2; only the URL is stored). The
 rendered `commute-gemini-*.mp3` / `*.wav` at the repo root are gitignored.
 
-Seed example included: **2026-06-23** (brief, script, vocab). Its MP3 is still in
-`data/episodes/2026-06-23/audio.mp3` pending the R2 migration (see top-level README).
+Seed example included: **2026-06-23** (brief, script, vocab). Its audio, like every
+episode's, lives in R2 — only the URL is stored in `episode.json`.

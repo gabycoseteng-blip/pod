@@ -121,8 +121,26 @@ def _year_words(y):
     """1900-2099 read as pairs: 2026 -> 'twenty twenty-six', 2001 -> 'two thousand one'."""
     hi, lo = y//100, y%100
     if lo == 0: return _int_words(hi)+" hundred"
-    if lo < 10: return _int_words(hi)+" oh "+_ONES[lo] if False else _int_words(y)
+    if lo < 10: return _int_words(y)
     return _int_words(hi)+" "+_int_words(lo)
+
+_ORD_IRREG = {"one": "first", "two": "second", "three": "third", "five": "fifth",
+              "eight": "eighth", "nine": "ninth", "twelve": "twelfth"}
+
+def _ordinal_words(n):
+    """'25' -> 'twenty-fifth', '22' -> 'twenty-second', '20' -> 'twentieth' —
+    ordinalize the FINAL word of the cardinal so date ordinals read naturally."""
+    words = _int_words(n)
+    head, sep, last = words.rpartition("-")
+    if not sep:
+        head, sep, last = words.rpartition(" ")
+    if last in _ORD_IRREG:
+        last = _ORD_IRREG[last]
+    elif last.endswith("y"):
+        last = last[:-1] + "ieth"
+    else:
+        last += "th"
+    return head + sep + last
 
 _SCALE_WORD = r"(?:trillion|billion|million|thousand)"
 _N = r"\d(?:[\d,]*\d)?(?:\.\d+)?"   # comma-safe number: never captures a trailing comma
@@ -144,6 +162,10 @@ def normalize_numbers(text):
     # bare number + scale word: 706.6 billion
     text = re.sub(r"\b("+_N+r")\s+("+_SCALE_WORD+r")\b",
                   lambda m: _num_words(m.group(1))+" "+m.group(2), text)
+    # ordinals — dates and rankings: 25th / 22nd / 1st / 3rd. MUST run before the
+    # bare-number catch-all, which would otherwise emit "twenty-fiveth" / "onest".
+    text = re.sub(r"\b(\d+)(?:st|nd|rd|th)\b",
+                  lambda m: _ordinal_words(int(m.group(1))), text)
     # years 1900-2099 (whole-word, no decimal/comma)
     text = re.sub(r"\b(?:19|20)\d{2}\b", lambda m: _year_words(int(m.group(0))), text)
     # any remaining number (decimals, comma-grouped, integers)

@@ -90,7 +90,7 @@ Cost stays trivial — R2 storage is ~$0.015/GB·mo with **no egress fees**, so 
 `lang` is `Mandarin` or `Tagalog`. For Tagalog leave `pinyin`/`tones` empty and use `pronunciation`. To make this fully automatic, have the script step emit `vocab.json` directly from the VOCAB segment.
 
 ## Notes / tradeoffs
-- **Audio lives in R2, not git.** New episodes store only the URL (set `AUDIO_BASE_URL`). The seed episode (`2026-06-23`) still has its MP3 committed; to migrate it, run `tools/upload_audio.py data/episodes/2026-06-23/audio.mp3 2026-06-23`, then re-run `build_episode.py` (with `AUDIO_BASE_URL` set) and `git rm` the committed MP3.
+- **Audio lives in R2, not git.** Every episode — the `2026-06-23` seed included — stores only its R2 URL (set `AUDIO_BASE_URL`); no audio files are committed.
 - **Offline audio:** the shell, transcript, vocab, and search always work offline. Audio is cross-origin (R2), and range requests (206) can't be cached automatically — so use **⤓ Save audio for offline** to download an episode for a no-signal commute.
 - **Search scales as one file.** `data/search.json` is the whole archive's text loaded client-side — fine for the first several years (a few MB). Past a few thousand episodes, swap the client filter for a prebuilt index (e.g. MiniSearch) or a small serverless search endpoint; the per-episode JSON stays the source of truth either way.
 - **Segment seek is approximate** — estimated from spoken-character share, since Gemini-TTS doesn't return word timings. Text jumps are exact; audio position is a best guess.

@@ -26,9 +26,11 @@ Env:
                                    voice/model changes. Kept slightly ABOVE the raw
                                    median (~17.6) so the gate under-predicts duration —
                                    the safe direction for the floor check.)
-    RECOMMEND_CHARS default 27000 (the comfortable first-draft target; a script that
-                                   clears the floor but sits under this gets a WARN —
-                                   thin margin, a slightly slower render can dip under)
+    RECOMMEND_CHARS default 27500 (the comfortable first-draft floor; a script that
+                                   clears the duration floor but sits under this gets a
+                                   WARN — thin margin: 2026-08-25 rendered 27.4k chars to
+                                   1549s, just under the 1560s comfort band, at a
+                                   slightly-slow ~17.7 chars/s pace)
 """
 import os, re, sys
 
@@ -41,7 +43,7 @@ def main():
     min_seg = int(os.environ.get("MIN_SEGMENTS", "11"))
     min_dur = int(os.environ.get("MIN_DURATION", "1500"))
     cps = float(os.environ.get("CHARS_PER_SEC", "18"))
-    rec_chars = int(os.environ.get("RECOMMEND_CHARS", "27000"))
+    rec_chars = int(os.environ.get("RECOMMEND_CHARS", "27500"))
 
     problems, warns = [], []
 

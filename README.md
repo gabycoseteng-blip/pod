@@ -2,7 +2,7 @@
 
 A no-build, installable **PWA** for the daily two-host news podcast:
 
-- **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point. The language stretches auto-slow so they're followable — **any Mandarin (汉字) turn** plays at **0.5×** (the Mandarin Vocab segment *and* the Mandarin sentence folded into the China beat), and the Tagalog Vocab drills play at **1×** — then your chosen speed is restored on exit (a small badge shows the current drop).
+- **Listen** — audio player (defaults to 1.5×, your speed) with a read-along transcript. Speaker-colored turns, tappable segment chips that jump the script (and approximately seek the audio), lock-screen controls, and a saved resume point. The language stretches auto-slow so they're followable — **any Mandarin (汉字) turn** plays at **0.5×** (the Mandarin Vocab segment *and* the Mandarin sentence folded into the China beat), and the Tagalog Vocab drills play at **1×** — then your chosen speed is restored on exit (a small badge shows the current drop). Every Mandarin line in the transcript also carries a **译 tap-to-translate** button — a bottom sheet with the full English translation and a word-by-word pinyin + gloss breakdown of *every* word in the sentence, not just the day's vocab (served by [`api/translate.js`](api/translate.js), cached per device; needs the same Vercel + `ANTHROPIC_API_KEY` setup as the vocab chat, and degrades to a friendly note without it).
 - **Markets** — a reference snapshot of the major index / rate / commodity / FX levels the show used to read aloud. The daily routine writes `data/markets.json` from the same numbers behind the Market Overview segment, so you can *see* the tape instead of hearing every index recited (which lets the segment stay brief and spend its time on analysis). Static per-episode — not live/intraday.
 - **Vocab** — a reference + learning surface for the daily Mandarin + Tagalog words across the whole archive. **Cards** mode gives flippable flashcards with a lightweight Leitner **spaced-repetition** schedule (flip for meaning / example / nuance, tap 🔊 to hear it); **List** mode is a scannable, tap-to-expand reference for revisiting old lessons. A **search** box filters everything (words, pinyin, meanings, notes), and a built-in **tutor chatbot** answers follow-up questions about any word (see *Vocab chat* below).
 - **Search** — full-text search across every episode's transcript + vocab, with highlighted snippets; tap a result to open it. Runs client-side off a prebuilt `data/search.json`.
@@ -25,8 +25,9 @@ python3 -m http.server 8000     # then open http://localhost:8000
 The Vocab tab has a built-in tutor chatbot for follow-up questions ("how is 一旦 different from 如果?", "give me another sentence with *banta*"). It's served by a tiny Vercel serverless function at [`api/chat.js`](api/chat.js) that proxies the Anthropic Messages API, so no key ever reaches the browser. To enable it, set project env vars in Vercel:
 
 ```
-ANTHROPIC_API_KEY=sk-ant-…        # required
+ANTHROPIC_API_KEY=sk-ant-…        # required (shared by chat + translate)
 CHAT_MODEL=claude-sonnet-5        # optional, this is the default
+TRANSLATE_MODEL=claude-sonnet-5   # optional — tap-to-translate model, defaults to CHAT_MODEL
 ```
 
 The client posts the current card + the whole (small) deck as context. Without the key — or on static hosts like GitHub Pages that don't run the function — the chat degrades gracefully with a "not set up" message; every other feature keeps working.

@@ -290,7 +290,10 @@ relies on:
   length and burn a second render. (If the render voice/model is ever changed,
   re-measure chars-per-second from one short calibration render and update this
   number — the char target follows the engine's pace.)
-- Hosts announce each segment; no run-of-show in the cold open; **there is no
+- Hosts announce each segment; **the cold open is greet + date + GO** — no
+  run-of-show, no story menu, and no throughline/thesis announcement ("today's
+  throughline is…"): ~2 turns, then the first story is already being told (the
+  throughline surfaces via callbacks during the show); **there is no
   trending-meme segment** (removed). **Segment order (see the steering prompt):**
   Cold Open → Headlines (world + US business + international) → Market Overview →
   Deep Dive → Energy → **Tagalog Vocab → Philippines** → **Mandarin Vocab → China** →
@@ -301,28 +304,35 @@ relies on:
   cut turns that only restate or perform curiosity ("What's the read?", "Is that
   actually X?"). **Follow-up cap:** lead story of a section ≤1 follow-up, secondary
   stories 0 — spend the room on more of the day's news. Exempt: Deep Dive and Op-Eds.
-- **In-language news beats.** **Market Overview:** read only the notable move aloud —
-  the Markets tab carries the full index levels — and spend the segment on analysis /
-  opinion. **Philippines:** deliver 2–3 lead politics/economy sentences in natural
-  Tagalog + short English gloss (using that day's two Tagalog words). **China:**
-  deliver the lead sentence in Mandarin (汉字) + gloss, using an HSK-4 connective and
-  that day's two Mandarin words. Language *replaces* the English sentence — it doesn't
-  lengthen the show. The app auto-slows Mandarin turns to 0.5×.
+- **In-language news beats — asymmetric translation.** **Market Overview:** NO tape
+  check — read a number aloud only for a genuinely major swing (≈ ≥1.5% index move, a
+  record, ≥10 bp rates, ≥2% commodity/FX with a catalyst); everything else lives on
+  the Markets tab, and the segment is analysis/opinion. **Philippines:** deliver 2–3
+  lead politics/economy sentences in natural Tagalog with NO English translation
+  after them (using that day's two Tagalog words) — the listener is a heritage
+  speaker. **China:** deliver the lead sentence in Mandarin (汉字) IMMEDIATELY
+  followed by its English translation, using an HSK-4 connective and that day's two
+  Mandarin words — every Mandarin sentence in the show gets that immediate
+  translation. Language *replaces* the English sentence — it doesn't lengthen the
+  show. The app auto-slows Mandarin turns to 0.5×.
 - **VOCAB — two IN-LANGUAGE segments, each placed before its country** (immersion,
   not a 101). The vocab is **split**: **Tagalog Vocab** (2 Tagalog words) sits
   directly before the **Philippines** beat, and **Mandarin Vocab** (2 Mandarin words)
   directly before the **China** beat — so the two words taught **recur in the news
   beat that immediately follows**, in context. Each word is tied to a story in today's
-  show and is **new** vs the history ledger. In the Mandarin stretch the hosts
-  actually **converse in Mandarin**; in the Tagalog stretch they **converse in
-  Tagalog**. English appears **only as a translation/gloss** right after each foreign
-  sentence. Write Mandarin in **characters (汉字)** with the English gloss in
-  parentheses, e.g.
-  `ALEX: 尽管市场震荡，机构还是加仓了。(Despite the market turbulence, institutions still added to positions.)`;
-  write Tagalog with its **natural spelling** so it's pronounced correctly, gloss
-  in parentheses. Don't drill or explain tone numbers or spell out pronunciation —
-  say each word correctly once, then spend the time on usage, register,
-  collocation, and near-synonym contrast, all delivered in-language. For
+  show and is **new** vs the history ledger. The two segments run **different
+  language policies**, matched to the listener's level in each. **Tagalog Vocab:
+  full immersion** — the entire segment (definitions, register notes, contrasts,
+  examples) is conducted in Tagalog with NO English anywhere; write Tagalog with
+  its **natural spelling** so it's pronounced correctly. **Mandarin Vocab:
+  scaffolded** — the hosts explain each word in ENGLISH (usage, register,
+  collocation, near-synonym contrast), example sentences are in **characters
+  (汉字)** with the English translation in parentheses immediately after, e.g.
+  `ALEX: 尽管市场震荡，机构还是加仓了。(Despite the market turbulence, institutions still added to positions.)`
+  — and that Mandarin-then-English pattern holds for every Mandarin sentence
+  anywhere in the show. Don't drill or explain tone numbers or spell out
+  pronunciation — say each word correctly once, then spend the time on usage,
+  register, collocation, and near-synonym contrast. For
   **Mandarin**, follow the **HSK 4 calibration** in
   `routine/notebooklm-steering-prompt.md`: pick HSK-4-level items targeting the
   listener's weak spots (advanced connectives, abstract pairings, formal/informal

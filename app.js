@@ -222,6 +222,17 @@ function buildTurn(t, audioUrl, segLabel) {
     if (tail) txt.append(document.createTextNode(tail));
   });
 
+  // Mandarin lines get a 「译」 button: tap for a full translation + word-by-word
+  // pinyin/gloss of EVERY word (not just the day's vocab). Stopped propagation so
+  // it doesn't double as tap-to-seek.
+  if (CJK_ONE.test(t.text)) {
+    const tr = document.createElement('button');
+    tr.className = 'zhbtn'; tr.type = 'button'; tr.textContent = '译';
+    tr.title = 'Translate + pinyin';
+    tr.addEventListener('click', ev => { ev.stopPropagation(); openZhSheet(t.text); });
+    txt.append(tr);
+  }
+
   wrap.append(whoEl, txt);
   if (t.startSec != null) { wrap.dataset.start = t.startSec; wrap.dataset.end = t.endSec; }
   TURNS.push({ gi, start: t.startSec, end: t.endSec, el: wrap, words, text: t.text, seg: segLabel });
@@ -866,6 +877,95 @@ async function callChat() {
   try { data = await r.json(); } catch { throw new Error('Chat service returned an unexpected response.'); }
   if (!r.ok || data.error) throw new Error(data.error || `Chat error (${r.status}).`);
   return data.reply || '(no response)';
+}
+
+// ================= MANDARIN TAP-TO-TRANSLATE =================
+// Bottom sheet showing a Mandarin line's full translation + per-word pinyin/gloss.
+// Served by /api/translate (same serverless proxy pattern as the vocab chat) and
+// cached in localStorage so each sentence costs at most one call per device.
+const ZH_CACHE_KEY = 'commute.zhTr.v1';
+const ZH_CACHE_MAX = 150;
+
+function zhCache() {
+  try { return JSON.parse(localStorage.getItem(ZH_CACHE_KEY)) || {}; } catch { return {}; }
+}
+function zhCachePut(k, v) {
+  try {
+    const c = zhCache();
+    c[k] = v;
+    const keys = Object.keys(c);
+    if (keys.length > ZH_CACHE_MAX) keys.slice(0, keys.length - ZH_CACHE_MAX).forEach(x => delete c[x]);
+    localStorage.setItem(ZH_CACHE_KEY, JSON.stringify(c));
+  } catch { /* private mode etc. — sheet still works, just uncached */ }
+}
+
+function ensureZhSheet() {
+  let el = $('#zhsheet');
+  if (el) return el;
+  el = document.createElement('div');
+  el.id = 'zhsheet'; el.hidden = true;
+  el.innerHTML = `
+    <div class="zh-back"></div>
+    <div class="zh-panel">
+      <div class="zh-head">
+        <div class="ttl">译 · Translation</div>
+        <button class="iconbtn zh-close" type="button">✕</button>
+      </div>
+      <div class="zh-src"></div>
+      <div class="zh-body"></div>
+    </div>`;
+  document.body.append(el);
+  el.querySelector('.zh-back').onclick = () => { el.hidden = true; };
+  el.querySelector('.zh-close').onclick = () => { el.hidden = true; };
+  return el;
+}
+
+async function openZhSheet(text) {
+  const el = ensureZhSheet();
+  el.hidden = false;
+  el.querySelector('.zh-src').textContent = text;
+  const body = el.querySelector('.zh-body');
+  const key = text.trim();
+
+  const esc = x => String(x).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+  const paint = d => {
+    body.innerHTML = `
+      <div class="zh-tr-full">${esc(d.translation || '')}</div>
+      ${(d.words && d.words.length) ? `<div class="zh-words">${d.words.map(w => `
+        <div class="zh-w">
+          <div class="zh-w-zh">${esc(w.zh)}</div>
+          <div class="zh-w-py">${esc(w.pinyin || '')}</div>
+          <div class="zh-w-en">${esc(w.gloss || '')}</div>
+        </div>`).join('')}</div>` : ''}`;
+  };
+
+  const hit = zhCache()[key];
+  if (hit) { paint(hit); return; }
+
+  body.innerHTML = `<div class="muted small">Translating…</div>`;
+  let r, data;
+  try {
+    r = await fetch('/api/translate', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text: key }),
+    });
+  } catch {
+    body.innerHTML = `<div class="muted small">Can’t reach the translation service — check your connection.</div>`;
+    return;
+  }
+  // A real /api/translate always answers JSON — a 404/405/501 or an HTML error
+  // page means we're on a static host with no serverless function (GitHub Pages,
+  // python -m http.server), so say that instead of a cryptic parse error.
+  try { data = await r.json(); } catch { data = null; }
+  if (!data) {
+    body.innerHTML = `<div class="muted small">Translation isn’t available on this deployment (it needs the Vercel serverless function + API key — see the README).</div>`;
+    return;
+  }
+  if (!r.ok || data.error) {
+    body.innerHTML = `<div class="muted small">${data.error || `Translation error (${r.status}).`}</div>`;
+    return;
+  }
+  zhCachePut(key, data);
+  paint(data);
 }
 
 // ================= ARCHIVE =================

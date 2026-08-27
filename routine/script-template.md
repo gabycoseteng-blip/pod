@@ -30,14 +30,17 @@ BREADTH > OVER-EXPLANATION (the governing rule this show is tuned for):
   Markets tab shows the full levels. Name only the notable move + why, then spend
   the segment on ANALYSIS / OPINION, not a numbers readout.
 
-IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length):
-- PHILIPPINES: deliver 2–3 of the lead politics/economy sentences in NATURAL
-  TAGALOG with a short English gloss right after — heritage/enrichment level, not
-  a lesson. Say it in Tagalog INSTEAD of in English; the gloss keeps it followable.
-- CHINA: deliver the LEAD sentence of the China story in MANDARIN (汉字) + English
-  gloss, using an HSK-4 connective the listener is weak on (尽管…还是, 一旦,
-  既然…就, 反而, 不仅…而且), then continue in English. The app auto-slows any
-  Mandarin turn to 0.5×, so keep the gloss on the same line if you want it slowed too.
+IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length) —
+ASYMMETRIC TRANSLATION POLICY, matched to the listener's level in each language:
+- TAGALOG IS NEVER TRANSLATED (heritage speaker — it stands on its own):
+  PHILIPPINES delivers 2–3 of the lead politics/economy sentences in NATURAL
+  TAGALOG with NO English gloss after them, then continues in English.
+- MANDARIN IS ALWAYS TRANSLATED (HSK-4 learner — unglossed Mandarin is noise):
+  CHINA delivers the LEAD sentence in MANDARIN (汉字) IMMEDIATELY followed by its
+  English translation, using an HSK-4 connective the listener is weak on
+  (尽管…还是, 一旦, 既然…就, 反而, 不仅…而且), then continues in English. EVERY
+  Mandarin sentence anywhere in the show gets this same immediate translation.
+  The app auto-slows any Mandarin turn to 0.5× and offers tap-to-translate.
 - TAGALOG VOCAB sits right BEFORE Philippines and MANDARIN VOCAB right BEFORE
   China — teach the two words, then immediately hear them used in that news beat.
 -->
@@ -46,7 +49,10 @@ IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length):
 
 ## COLD OPEN
 <!-- SAM: greet — "Good morning, this is The Morning Commute. <Weekday>, <Month> <D>. I'm Sam."
-     ALEX: "And I'm Alex." Then the THROUGHLINE in 3–4 sentences (the thread that ties the macro blocks), and hand off. NO segment preview. Keep it to ~4 turns total. -->
+     ALEX: "And I'm Alex." — then GO: the very next turn is already telling the first story.
+     NO segment preview, NO story menu, NO throughline/thesis announcement ("today's
+     throughline…", "we'll trace that from…"). ~2 turns total. The throughline surfaces
+     through callbacks DURING the show, never as a table of contents at the top. -->
 
 ## SEGMENT ONE — HEADLINES
 <!-- 2–3 WORLD stories — CURRENT EVENTS (politics, geopolitics, conflict, elections, policy, society), NOT market moves. Lead with the newest datapoint; ADVANCE running stories, don't recap from zero. FOLLOW-UP CAP: lead story ≤1 follow-up, others 0 — use the room for a third headline when the day warrants it. -->
@@ -58,7 +64,7 @@ IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length):
 <!-- 2 international stories — lean politics/current events over markets. Cap: 1 follow-up on the lead, 0 on the second. Vary the regions across the week. -->
 
 ## SEGMENT TWO — MARKET OVERVIEW
-<!-- KEEP IT BRIEF — do NOT read every US index + global market aloud; the MARKETS TAB shows the full levels. Name only the BIG/notable move (a large swing, a record, a real catalyst — CPI/Fed/earnings, a sharp rates move) and spend the segment on ANALYSIS / OPINION — the "why it matters," the tension, what to watch. If the tape was quiet, one line and move on. REAL FMP numbers only — never from memory. Also emit routine/markets-<date>.json (see the command file) so the tab is populated. -->
+<!-- NO TAPE CHECK — never open with a run of index closes; the MARKETS TAB shows every level. Read a number aloud ONLY for a genuinely MAJOR swing (≈ ≥1.5% on a major index, a record close, ≥10 bp one-day rates move, ≥2% commodity/FX move with a real catalyst). Sub-threshold moves: at most one clause, NO numbers ("equities drifted — it's on the Markets tab"). Spend the whole segment on ANALYSIS / OPINION — the "why," the tension, what to watch. Quiet tape = one line and move on. REAL FMP numbers only — never from memory. Also emit routine/markets-<date>.json (see the command file) so the tab is populated. -->
 
 ## SEGMENT THREE — DEEP DIVE
 <!-- ~5 min on ONE thing, going DEEP (NOT subject to the follow-up cap) — this is where the time trimmed from the market recap goes. Pick EITHER a standout feature from one of the subscribed newsletters (inbox) OR a genuinely viral article/thread on X or Reddit (high engagement, being widely discussed right now). Set up the piece, then bring the hosts' real analysis: the argument, what's contested, the second-order read, why it matters to this listener. Attribute the source clearly ("a feature in <newsletter>", "a thread blowing up on <X/Reddit>"). Must be FRESH vs the ledger. -->
@@ -67,16 +73,16 @@ IN-LANGUAGE NEWS BEATS (language that REPLACES English, doesn't add length):
 <!-- GO DEEP (SemiAnalysis / Utility Dive level): specific projects, MW/GW & capex figures, off-takers, interconnection-queue and transformer/turbine bottlenecks, the second-order read. NOT a 101. Lead with the new data point. This is the listener's professional core — density here is welcome, not over-explanation. -->
 
 ## SEGMENT FIVE — TAGALOG VOCAB
-<!-- 2 TAGALOG words tied to today's Philippines stories, each NEW vs the ledger (run check_dedup). Conducted IN TAGALOG (heritage/enrichment): natural spelling, English gloss ONLY as a translation after each sentence. Spend the time on connotation, register, and when you'd actually use it. These two words then RECUR in the Philippines segment that follows. -->
+<!-- 2 TAGALOG words tied to today's Philippines stories, each NEW vs the ledger (run check_dedup). Conducted ENTIRELY IN TAGALOG — definitions, register notes, contrasts, examples, everything; NO English anywhere in this segment (heritage speaker; English is filler here). Natural spelling. Spend the time on connotation, register, and when you'd actually use it. These two words then RECUR (untranslated) in the Philippines segment that follows. -->
 
 ## SEGMENT SIX — PHILIPPINES
-<!-- LEAD with politics + business/economy (national politics/governance, BSP policy + peso, major deals). Deliver 2–3 lead sentences in NATURAL TAGALOG + short English gloss (using today's two Tagalog vocab words where they fit), then continue in English. Weather ONLY if there's an active PAGASA storm/landfall/major flooding. NO PSEi unless it made a major move. Tie back to the throughline. Follow-up cap applies to the English news turns. -->
+<!-- LEAD with politics + business/economy (national politics/governance, BSP policy + peso, major deals). Deliver 2–3 lead sentences in NATURAL TAGALOG with NO English translation after them (using today's two Tagalog vocab words where they fit), then continue in English for the rest of the beat. Weather ONLY if there's an active PAGASA storm/landfall/major flooding. NO PSEi unless it made a major move. Tie back to the throughline. Follow-up cap applies to the English news turns. -->
 
 ## SEGMENT SEVEN — MANDARIN VOCAB
-<!-- 2 MANDARIN words tied to today's China story, each NEW vs the ledger. Conducted IN MANDARIN (汉字 + English gloss in parentheses); HSK-4; ≥1 an advanced connective / abstract collocation (NOT a concrete noun); flag register (书面语/口语), a near-synonym contrast, and the collocation pattern. No tone-drilling. These two words then RECUR in the China segment that follows. -->
+<!-- 2 MANDARIN words tied to today's China story, each NEW vs the ledger. EXPLANATIONS IN ENGLISH (register 书面语/口语, near-synonym contrast, collocation pattern); EXAMPLE SENTENCES in Mandarin (汉字), each IMMEDIATELY followed by its English translation in parentheses. HSK-4; ≥1 an advanced connective / abstract collocation (NOT a concrete noun). No tone-drilling. These two words then RECUR in the China segment that follows. -->
 
 ## SEGMENT EIGHT — CHINA
-<!-- 1 China item, through the two-speed / debt-deflation lens. Deliver the LEAD sentence in MANDARIN (汉字) + English gloss — using an HSK-4 connective and today's two Mandarin vocab words where they fit — then continue in English. The app auto-slows Mandarin turns to 0.5×. -->
+<!-- 1 China item, through the two-speed / debt-deflation lens. Deliver the LEAD sentence in MANDARIN (汉字) IMMEDIATELY followed by its English translation — using an HSK-4 connective and today's two Mandarin vocab words where they fit — then continue in English. Every Mandarin sentence in this beat gets the immediate English translation. The app auto-slows Mandarin turns to 0.5×. -->
 
 ## SEGMENT NINE — ARTS & CULTURE
 <!-- ~4 min. LEAD with visual & fine art (exhibitions, biennials, art fairs, auctions, gallery shows), opera & classical, and literature (releases, prizes, criticism); theater & dance welcome. Film/TV/pop is a MINOR slice. Critic's eye — the work, the maker, why it matters — not a listings roundup. 1 follow-up cap; use the room for a second art item when there's a strong one. Avoid items covered in recent episodes. -->

@@ -46,15 +46,27 @@ pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + ima
 # (which is what forces a costly re-research). Do NOT cat this file yourself —
 # the one-line summary it prints is all you need.
 python3 tools/exclude_context.py --recent 8 --out "${TMPDIR:-/tmp}/commute-exclude.txt"
+
+# PREFLIGHT — verify creds/model/disk/ledger BEFORE spending research or render
+# quota (a wrong R2_BUCKET otherwise only fails AFTER the full render). Live
+# checks report presence + HTTP status only, never secret values.
+python3 tools/preflight.py
 ```
+**Act on the preflight verdict, don't second-guess it:** exit **0** → proceed
+(read any ⚠ lines — e.g. `FMP_API_KEY` missing means hand-write the markets
+snapshot from real brief numbers). Exit **3** (audio-side: Gemini/R2/ffmpeg/disk)
+→ do the TEXT steps (1–4), then **stop and report exactly which check failed** —
+no render, no publish, never fabricate audio. Exit **1** (hard: ledger/data
+broken) → stop immediately and report. Do not "fix" a failing credential by
+guessing values or bypassing the gate.
 (A **SessionStart guard** — `tools/preflight_deploy_branch.sh` — also runs
 automatically and shouts if this branch's command file/ledger is behind the deploy
 branch. If you see that warning, `git checkout $DEPLOY_BRANCH && git pull` and
 re-open `/morning-commute` before doing anything — otherwise you're running a stale
 playbook against a stale ledger, exactly the failure that causes duplicate research.)
 The publish step needs the R2 env vars and the renderer needs `GEMINI_API_KEY`
-(see README → "Audio storage" and `routine/README.md`). If `GEMINI_API_KEY` is
-missing, do steps 1–3, then stop and report — do not fabricate audio.
+(see README → "Audio storage" and `routine/README.md`) — `tools/preflight.py`
+above verifies all of them live and its exit code tells you how far to go.
 
 **Read the history ledger first (don't repeat the archive).** `data/history.jsonl`
 is the show's compact memory — one JSON line per past episode with its
@@ -452,7 +464,12 @@ and stitch) — rock-solid but many more calls, so mind the rate limit.
 dropped connection), **re-run the exact same command** — each chunk's audio is
 cached beside the output (`<base>.chunkNNN.pcm`) and only the missing chunks hit
 the API, so you spend one request, not a whole episode. Caches clear on full
-success. Set `FFMPEG_BIN=/path/to/ffmpeg` to force a specific ffmpeg if both
+success. Two guards run automatically: a cached chunk is reused **only if the
+script text hasn't changed** since it was rendered (a `.sha` sidecar proves it —
+so editing the script between runs can't produce audio that mismatches the
+transcript), and a chunk whose audio comes back **far shorter than its text
+implies** (the per-call output cap) is retried once, then failed with
+"lower `CHUNK_CHARS`" — truncated audio is never cached or published. Set `FFMPEG_BIN=/path/to/ffmpeg` to force a specific ffmpeg if both
 `which ffmpeg` and `imageio_ffmpeg` miss.
 
 **Wait on the render as ONE background job — don't stack pollers.** The render is a

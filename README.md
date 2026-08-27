@@ -72,9 +72,13 @@ One-time setup:
 5. Provide these to the routine's environment (locally `export`, or as CI/GitHub secrets):
    ```
    AUDIO_BASE_URL=https://audio.yourdomain.com
-   R2_ACCOUNT_ID=…  R2_ACCESS_KEY_ID=…  R2_SECRET_ACCESS_KEY=…  R2_BUCKET=morning-commute-audio
+   R2_ACCOUNT_ID=…  R2_ACCESS_KEY_ID=…  R2_SECRET_ACCESS_KEY=…  R2_BUCKET=…
    ```
+   `R2_BUCKET` must be the bucket's **exact** name from the Cloudflare dashboard — a
+   near-miss only surfaces as `NoSuchBucket` at upload time, *after* the render.
    The uploader needs `boto3`: `pip install -r tools/requirements.txt`.
+   Verify the whole audio/publish env in one shot with `python3 tools/preflight.py`
+   (live credential checks — it prints statuses, never secrets).
 
 Cost stays trivial — R2 storage is ~$0.015/GB·mo with **no egress fees**, so years of audio run well under $1/month.
 

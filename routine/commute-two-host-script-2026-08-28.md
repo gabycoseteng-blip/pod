@@ -83,7 +83,7 @@ ALEX: Exactly, and it cuts both ways — DOE has 120 days to write the actual re
 SAM: So the theme today isn't "power is scarce," it's "every lever anyone pulls to fix that has a second-order cost attached."
 ALEX: That's the whole cycle in one sentence, and there's a fourth story that shows exactly how tangled those levers get. RWE just settled its wind-down of three US offshore projects — the New York, California, and Louisiana leases — for $1.2 billion from a federal fund, on condition it reinvests in "conventional energy."
 SAM: So a wind company gets paid to stop building wind and go build something else instead.
-ALEX: Nine hundred million of that $1.2 billion is going straight into buying a stake in Woodside's Louisiana LNG project — which happens to be gas capacity that could eventually serve data-center load, so it's not off-thesis for us. But the seller is the interesting part.
+ALEX: $900 million of that $1.2 billion is going straight into buying a stake in Woodside's Louisiana LNG project — which happens to be gas capacity that could eventually serve data-center load, so it's not off-thesis for us. But the seller is the interesting part.
 SAM: Who's the seller?
 ALEX: A private equity fund run by Michael Dorrell — a Mar-a-Lago neighbor who gave the Trump-Vance inaugural committee just over a million dollars combined across two donations in late 2024. The Washington Post flagged the connection Thursday.
 SAM: So federal dollars earmarked to unwind offshore wind end up, a few steps later, in a donor's LNG stake.
@@ -155,7 +155,7 @@ SAM: This is starting to look like a pattern — fast, professional hits on Euro
 ALEX: Which raises the real question for smaller municipal museums specifically — they hold genuinely priceless material with security budgets built for a very different threat model than what's clearly now an organized, repeatable playbook.
 SAM: Is there any realistic path to recovery, or does Bronze Age gold just disappear into a melt-down market once it's gone?
 ALEX: That's the grim part — unlike a painting, which is basically unsellable once it's known stolen, gold objects can be melted down and the metal resold with the history erased entirely. Investigators are racing a clock the Louvre and Dresden cases showed can be very short.
-SAM: So the Kusama story is about how a career gets remembered, and the Villena story is about how quickly three thousand years of material culture can just vanish.
+SAM: So the Kusama story is about how a career gets remembered, and the Villena story is about how quickly 3,000 years of material culture can just vanish.
 
 ## SEGMENT TEN — OP-EDS & COMMENTARY
 SAM: Two op-eds worth arguing with today. First, Daniel Moss in Bloomberg Opinion, Wednesday.

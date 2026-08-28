@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-28",
+  "cards": [
+    {
+      "id": "2026-08-28-tl-1",
+      "lang": "Tagalog",
+      "word": "lugmok",
+      "pinyin": "",
+      "pronunciation": "lug-MOK",
+      "tones": "",
+      "meaning": "to sink to the lowest point, to be mired -- more forceful than a simple decline",
+      "example": "Lugmok na naman ang piso sa bagong record-low -- 62.25 sa dolyar.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso has sunk to a new record low again -- 62.25 to the dollar.",
+      "note": "Stronger than plain 'bumagsak' (to fall/drop) -- 'lugmok' implies hitting the worst point, not just moving downward. Common in economic and literary writing, but also everyday ('lugmok sa hirap,' mired in hardship, for someone stuck in prolonged difficulty).",
+      "tiesTo": "Peso hits fresh record low of 62.25/USD on elevated oil prices widening the current-account concern"
+    },
+    {
+      "id": "2026-08-28-tl-2",
+      "lang": "Tagalog",
+      "word": "pantapal",
+      "pinyin": "",
+      "pronunciation": "pan-ta-PAL",
+      "tones": "",
+      "meaning": "a patch, a stopgap fix -- literally something stuck on to cover a hole",
+      "example": "Pantapal lang ang ginagawa ng DPWH -- wala pa itong iisang pambansang plano.",
+      "examplePinyin": "",
+      "exampleMeaning": "DPWH is just doing patchwork -- they still don't have a single national plan.",
+      "note": "Literally a patch or plaster stuck over a hole; used figuratively for a temporary, incomplete fix rather than a real solution. Distinct from 'solusyon' (solution), which can be permanent -- 'pantapal' always carries the implication that a genuine fix is still needed later.",
+      "tiesTo": "DPWH Sec. Vince Dizon admits no unified national flood-control master plan exists -- only river-basin-by-basin patches, 14 of 18 basins still pending"
+    },
+    {
+      "id": "2026-08-28-zh-1",
+      "lang": "Mandarin",
+      "word": "看似…实则…",
+      "pinyin": "kànsì ... shízé ...",
+      "pronunciation": "kahn-suh ... shr-zuh ...",
+      "tones": "4 · 4 · 2 · 2",
+      "meaning": "seems to be X on the surface, but is in fact Y -- corrects a reasonable-sounding misreading",
+      "example": "看似是新的经济刺激，实则是地方政府债务成本的减负。",
+      "examplePinyin": "kàn sì shì xīn de jīng jì cì jī, shí zé shì dì fāng zhèng fǔ zhài wù chéng běn de jiǎn fù",
+      "exampleMeaning": "It seems like new economic stimulus, but it's in fact interest-cost relief for local governments.",
+      "note": "书面语 (literary/journalistic register) -- the kind of phrasing you'd see in a news analysis piece or headline. The colloquial equivalent is 好像…其实…, which says the same thing but is how you'd put it to a friend, not in print. 看似…实则… carries more analytical weight -- it signals the writer is about to correct the reader's likely first impression.",
+      "tiesTo": "China's 4-trillion-yuan local-debt swap framed as interest-cost relief, not new economic stimulus"
+    },
+    {
+      "id": "2026-08-28-zh-2",
+      "lang": "Mandarin",
+      "word": "减负",
+      "pinyin": "jiǎn fù",
+      "pronunciation": "jyen foo",
+      "tones": "3 · 4",
+      "meaning": "to lighten a burden -- most often financial or administrative",
+      "example": "新的债券置换政策为地方政府减负，节省了超过四千五百亿元利息。",
+      "examplePinyin": "xīn de zhài quàn zhì huàn zhèng cè wèi dì fāng zhèng fǔ jiǎn fù, jié shěng le chāo guò sì qiān wǔ bǎi yì yuán lì xī",
+      "exampleMeaning": "The new bond-swap policy lightens the burden on local governments, saving over 450 billion yuan in interest.",
+      "note": "书面语/formal but standard policy-document vocabulary, not stiff -- the compressed two-character version you'd see in a bulletin's headline. Near-synonym 减轻负担 (jiǎnqīng fùdān) means the same thing spelled out in four characters -- use that when explaining the mechanism, use 减负 for the clipped, official tone.",
+      "tiesTo": "Liao Yuanyu confirms local-debt swap cuts local governments' average interest cost by over 2.5 percentage points"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "throughline": "Institutions admitting their own gaps out loud -- DPWH admits no unified flood-control master plan exists, WSJ's editor defends an op-ed on its argument not its AI-assisted authorship, Beijing's debt swap admits it's interest-cost triage not stimulus -- while a hundred-year astrophysics puzzle gets solved because the model that said 'too faint to see' was simply wrong",
+  "stories": [
+    "nepal-china-glacier-collapse-flash-flood-389dead-1300missing",
+    "us-visa-freeze-reinstated-public-charge-retraining",
+    "dhs-mandatory-paper-ballot-audits-midterms",
+    "dollar-tree-q2fy26-tariff-refund-margin-beat",
+    "hormel-q3fy26-rev-miss-eps-floor-raise",
+    "baidu-q2-2026-rev-miss-ai-cloud-plus50pct-search-minus19pct",
+    "us-venezuela-oil-equity-stake-talks-90bn-barrels",
+    "us-markets-nasdaq-plus1.5pct-tech-led-single-stock",
+    "betelgeuse-companion-star-directly-imaged-100yr-mystery",
+    "pjm-data-center-9pct-wholesale-costs-56.7bn",
+    "army-janus-microreactor-contracts-5-bases-2.2bn",
+    "trump-eo-foreign-grid-equipment-ban-national-emergency",
+    "rwe-900m-offshore-wind-settlement-dorrell-lng-donor",
+    "philippines-peso-record-low-62.25",
+    "philippines-dpwh-no-flood-masterplan-admission",
+    "philippines-2027-budget-bill-7.2trillion-filed",
+    "philippines-impeachment-gag-order-binds-duterte",
+    "china-local-debt-swap-not-stimulus-4trillion-yuan",
+    "kusama-amsterdam-retrospective-posthumous-tribute",
+    "villena-bronze-age-gold-heist-spain",
+    "moss-bloomberg-fed-dollar-diplomacy-yen-intervention",
+    "legrain-project-syndicate-middle-powers-solidarity",
+    "gigot-wsj-defends-ai-drafted-op-ed-standard",
+    "one-good-thing-joe-symonds-doordash-driver-gofundme"
+  ],
+  "explainers": [
+    "pjm-capacity-market-clearing-price-pricing-in-data-center-load-before-generation-exists",
+    "debt-swap-as-interest-cost-relief-distinct-from-new-stimulus-demand",
+    "high-contrast-imaging-instruments-as-the-limiting-factor-not-the-physics"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

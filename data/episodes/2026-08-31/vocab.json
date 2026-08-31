@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-31",
+  "cards": [
+    {
+      "id": "2026-08-31-tl-1",
+      "lang": "Tagalog",
+      "word": "pagtitiwala",
+      "pinyin": "",
+      "pronunciation": "pag-ti-ti-WA-la",
+      "tones": "",
+      "meaning": "confidence or trust in a person or institution -- grounded in evidence, not casual faith",
+      "example": "Pinanatili pa rin ng isang Japanese credit agency ang kanilang pagtitiwala sa Pilipinas, kahit humihina ang piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "A Japanese credit agency still kept its confidence in the Philippines, even as the peso weakens.",
+      "note": "More formal and weightier than plain 'tiwala,' which is casual -- tiwala sa kaibigan (trust in a friend). Pagtitiwala is reserved for institutions, governments, or markets, where the confidence is built over time on a track record, not a feeling.",
+      "tiesTo": "JCR affirms Philippines A- rating, stable outlook, despite the peso hitting a record low"
+    },
+    {
+      "id": "2026-08-31-tl-2",
+      "lang": "Tagalog",
+      "word": "kapalit",
+      "pinyin": "",
+      "pronunciation": "ka-pa-LIT",
+      "tones": "",
+      "meaning": "successor -- the one who takes over a position or role",
+      "example": "Nagbukas na ng aplikasyon ang JBC para sa kapalit ni Chief Justice Gesmundo.",
+      "examplePinyin": "",
+      "exampleMeaning": "The JBC has opened applications for Chief Justice Gesmundo's successor.",
+      "note": "Distinct from the verb 'pumalit' (to replace) -- kapalit as a noun names the person or thing itself. Carries an implication of continuation, not just filling a vacancy -- a kapalit can bring a new direction to the role, not merely occupy it.",
+      "tiesTo": "JBC opens search for Chief Justice Gesmundo's successor, Marcos's first Chief Justice pick"
+    },
+    {
+      "id": "2026-08-31-zh-1",
+      "lang": "Mandarin",
+      "word": "即使…也…",
+      "pinyin": "jíshǐ ... yě ...",
+      "pronunciation": "jee-shr ... yeh ...",
+      "tones": "2 · 3 · 3",
+      "meaning": "even if X, Y still holds -- a more emphatic, extreme-case cousin of 虽然…但是",
+      "example": "即使制造业数据有所改善，非制造业指数也停留在收缩区间。",
+      "examplePinyin": "jíshǐ zhìzàoyè shùjù yǒu suǒ gǎishàn, fēi zhìzàoyè zhǐshù yě tíngliú zài shōusuō qūjiān",
+      "exampleMeaning": "Even though the manufacturing data improved somewhat, the non-manufacturing index still remains in contraction territory.",
+      "note": "虽然…但是 is neutral, textbook-level -- it just states a contrast. 即使…也 pushes the contrast to its edge -- you reach for it to say 'even in the best case, this would still be true,' not merely when two ordinary facts differ.",
+      "tiesTo": "China's August manufacturing PMI improves to 49.8 while non-manufacturing PMI stays flat at 49"
+    },
+    {
+      "id": "2026-08-31-zh-2",
+      "lang": "Mandarin",
+      "word": "低迷",
+      "pinyin": "dīmí",
+      "pronunciation": "dee-mee",
+      "tones": "1 · 2",
+      "meaning": "sluggish, depressed -- describing economic activity stuck below where it should be",
+      "example": "建筑业持续低迷，8月分项指数跌至46.9。",
+      "examplePinyin": "jiànzhùyè chíxù dīmí, bā yuè fēnxiàng zhǐshù diē zhì sìshíliù diǎn jiǔ",
+      "exampleMeaning": "The construction sector remains persistently sluggish, with the August sub-index falling to 46.9.",
+      "note": "书面语/formal, standard in financial reporting -- precise and clinical, not something you'd say about your own mood. The colloquial equivalent is 不景气 (times are bad). 低迷 pairs naturally with 需求, 消费, 楼市 -- demand, consumption, the property market.",
+      "tiesTo": "China's construction PMI sub-index falls to 46.9, dragged by the property slump"
+    }
+  ]
+}

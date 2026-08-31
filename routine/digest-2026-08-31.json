@@ -1,0 +1,33 @@
+{
+  "throughline": "Who eats the risk when today's deal turns out badly tomorrow -- Venezuela's 100-year oil concessions, Georgia Power's exit-cost-socialization clause for AI data centers, Manila front-loading 77% of its borrowing plan with five months left, and Duke Energy grandfathering an old rate case around Florida's new large-load law",
+  "stories": [
+    "us-strikes-iran-larak-island-sea-mine-launchers",
+    "ukraine-myla-ammo-depot-strike-38-dead",
+    "iceland-eu-referendum-rejects-accession-talks",
+    "vanguard-altruist-4.6bn-acquisition",
+    "imax-open-to-sale-no-buyers-emerge",
+    "trump-venezuela-oil-deal-65bn-barrels-55pct-stake",
+    "uk-2.1bn-israeli-settlement-linked-contracts",
+    "us-markets-quiet-tape-warsh-hawkish-jackson-hole",
+    "tooze-chartbook472-junger-marble-cliffs-nihilism",
+    "semianalysis-clustermax3-neocloud-security-rce",
+    "georgia-power-camellia-psc-exit-cost-clause",
+    "dataone-vineland-nj-unpermitted-generators",
+    "duke-energy-florida-sb484-large-load-tariff-fight",
+    "philippines-borrowing-surge-291b-july",
+    "philippines-jcr-credit-rating-affirmed-a-minus",
+    "philippines-jbc-chief-justice-search",
+    "china-august-pmi-two-speed-divergence",
+    "rembrandt-catrina-hooghsaet-uk-export-bar",
+    "boijmans-van-beuningen-rotterdam-bribery-scandal-firings",
+    "wapo-visa-pause-undermines-legal-immigration",
+    "bloomberg-thorbecke-dont-ask-dont-tell-ai-economy",
+    "one-good-thing-rob-burnside-adopts-homeless-student"
+  ],
+  "explainers": [
+    "exit-cost-socialization clause: stranded costs from an early hyperscaler exit reallocate to other large-load customers, not residential ratepayers",
+    "grandfathering an existing multi-year rate case as a shield against a new large-load ratepayer-protection statute",
+    "neocloud tenant isolation as the load-bearing security boundary as hyperscaler spend shifts to non-hyperscaler-grade GPU providers"
+  ],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}

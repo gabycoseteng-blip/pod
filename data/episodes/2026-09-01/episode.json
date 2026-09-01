@@ -369,45 +369,45 @@
         },
         {
           "speaker": "SAM",
-          "text": "Six categories is a lot to fail at once — which of those is actually the killer?",
+          "text": "6 categories is a lot to fail at once — which of those is actually the killer?",
           "startSec": 613.23,
-          "endSec": 617.39
+          "endSec": 617.28
         },
         {
           "speaker": "ALEX",
           "text": "Voltage ride-through — Oklo never demonstrated it, and that's the one PJM won't wave through on a promise. Oklo filed an emergency FERC complaint on the 28th, docket EL26-101, demanding reinstatement at its original queue position and claiming it can cure the gaps inside PJM's 10-day window.",
-          "startSec": 617.39,
-          "endSec": 632.56
+          "startSec": 617.28,
+          "endSec": 632.45
         },
         {
           "speaker": "SAM",
           "text": "What does this tell you about where the real bottleneck sits right now?",
-          "startSec": 632.56,
-          "endSec": 636.25
+          "startSec": 632.45,
+          "endSec": 636.14
         },
         {
           "speaker": "ALEX",
           "text": "That for gigawatt-scale queue positions, the binding constraint has shifted from capital or siting to grid-code compliance paperwork. PJM's using technical screening to prune queue congestion, and any project without ride-through data already in hand is exposed to exactly the same drop Oklo just took.",
-          "startSec": 636.25,
-          "endSec": 651.94
+          "startSec": 636.14,
+          "endSec": 651.83
         },
         {
           "speaker": "SAM",
           "text": "Is this specific to novel mixed-tech projects, or could an established gas or solar developer get caught the same way?",
-          "startSec": 651.94,
-          "endSec": 658.07
+          "startSec": 651.83,
+          "endSec": 657.96
         },
         {
           "speaker": "ALEX",
           "text": "Any technology can fail a ride-through test, but mixed-tech, single-POI projects like Oklo's are structurally more exposed, because you're proving grid behavior for three different generation types behaving as one interconnection customer. That's a harder modeling problem than a single-technology plant, and it's exactly the kind of project advanced-nuclear and hybrid developers are betting the next capex cycle on.",
-          "startSec": 658.07,
-          "endSec": 679.73
+          "startSec": 657.96,
+          "endSec": 679.63
         },
         {
           "speaker": "SAM",
           "text": "What's the actual timeline if the FERC complaint doesn't go Oklo's way?",
-          "startSec": 679.73,
-          "endSec": 683.42
+          "startSec": 679.63,
+          "endSec": 683.32
         },
         {
           "speaker": "ALEX",
@@ -581,39 +581,39 @@
         },
         {
           "speaker": "SAM",
-          "text": "Twenty-five minutes for ten billion pesos, while other agencies are getting torn apart line by line in the flood-control-scandal era.",
+          "text": "25 minutes for 10 billion pesos, while other agencies are getting torn apart line by line in the flood-control-scandal era.",
           "startSec": 1013.53,
-          "endSec": 1022.03
+          "endSec": 1021.39
         },
         {
           "speaker": "ALEX",
           "text": "That contrast is the whole story — the same body currently demanding forensic-level scrutiny of DPWH's books waved through its own boss's budget almost without discussion. It's a small line item in the grand scheme of the national budget, but small line items rushed through without debate are exactly what the flood-control probes were originally about.",
-          "startSec": 1022.03,
-          "endSec": 1044.67
+          "startSec": 1021.39,
+          "endSec": 1044.03
         },
         {
           "speaker": "SAM",
           "text": "Third — new testimony in week nine of the Duterte impeachment trial.",
-          "startSec": 1044.67,
-          "endSec": 1049.02
+          "startSec": 1044.03,
+          "endSec": 1048.38
         },
         {
           "speaker": "ALEX",
           "text": "AFP Colonel Manaros Boransing II testified on whether DepEd funneled confidential-fund \"financial assistance\" to the AFP for a Youth Leadership Summit while Sara Duterte was Education Secretary — tied to COA's earlier flag of 112.5 million pesos in 2023 DepEd confidential funds.",
-          "startSec": 1049.02,
-          "endSec": 1066.86
+          "startSec": 1048.38,
+          "endSec": 1066.22
         },
         {
           "speaker": "SAM",
           "text": "No storm signal and the PSEi had a decent day but nothing record-breaking, so we'll leave both there.",
-          "startSec": 1066.86,
-          "endSec": 1073.32
+          "startSec": 1066.22,
+          "endSec": 1072.68
         },
         {
           "speaker": "ALEX",
           "text": "Right — the peso and the budget vote are where the real story sits today.",
-          "startSec": 1073.32,
-          "endSec": 1077.99
+          "startSec": 1072.68,
+          "endSec": 1077.35
         }
       ],
       "startSec": 920.0
@@ -837,75 +837,75 @@
       "turns": [
         {
           "speaker": "SAM",
-          "text": "Two op-eds worth arguing with. First, Gautam Mukunda in Bloomberg Opinion, responding to Bill Gates.",
+          "text": "2 op-eds worth arguing with. First, Gautam Mukunda in Bloomberg Opinion, responding to Bill Gates.",
           "startSec": 1467.51,
-          "endSec": 1473.27
+          "endSec": 1473.15
         },
         {
           "speaker": "ALEX",
           "text": "Gates' essay from last week argued AI is \"either the greatest equalizer ever invented or the worst source of injustice,\" and proposed taxing AI and robot labor since slowing development globally isn't realistic. Mukunda's response is that leaving safety choices to the AI labs themselves is naive — commercial and geopolitical competition will always override voluntary caution, full stop.",
-          "startSec": 1473.27,
-          "endSec": 1495.64
+          "startSec": 1473.15,
+          "endSec": 1495.53
         },
         {
           "speaker": "SAM",
           "text": "Where do you push back on Mukunda?",
-          "startSec": 1495.64,
-          "endSec": 1497.6
+          "startSec": 1495.53,
+          "endSec": 1497.49
         },
         {
           "speaker": "ALEX",
           "text": "Government regulation moves far slower than the model-capability curve does, and any regulatory regime risks capture by whichever lab lobbies hardest — OpenAI and Anthropic are already shaping open-weight policy in their own favor. So Mukunda's fix risks entrenching the incumbents he's worried about rather than protecting anyone from them.",
-          "startSec": 1497.6,
-          "endSec": 1517.22
+          "startSec": 1497.49,
+          "endSec": 1517.1
         },
         {
           "speaker": "SAM",
           "text": "Is there a version of this that avoids both problems?",
-          "startSec": 1517.22,
-          "endSec": 1520.27
+          "startSec": 1517.1,
+          "endSec": 1520.15
         },
         {
           "speaker": "ALEX",
           "text": "Probably not a clean one — but \"regulate the labs\" and \"tax the labor displacement\" that Gates actually proposed are solving two different problems, and Mukunda's piece conflates them. A capability-focused regulator and a labor-market tax are different instruments on different timelines, and treating them as one debate is part of why neither side's proposal quite lands.",
-          "startSec": 1520.27,
-          "endSec": 1541.67
+          "startSec": 1520.15,
+          "endSec": 1541.55
         },
         {
           "speaker": "SAM",
           "text": "Second piece — Megan McArdle in the Washington Post, on who actually counts as \"elite.\"",
-          "startSec": 1541.67,
-          "endSec": 1546.67
+          "startSec": 1541.55,
+          "endSec": 1546.56
         },
         {
           "speaker": "ALEX",
           "text": "Her point is that populist rhetoric, left and right, invokes \"the elite\" so incoherently that no one agrees whether it means a university president, a streamer with millions of followers, or a billionaire — and that incoherence itself is corroding institutional trust, because any authority can be branded illegitimate under a label nobody's actually defined.",
-          "startSec": 1546.67,
-          "endSec": 1567.32
+          "startSec": 1546.56,
+          "endSec": 1567.21
         },
         {
           "speaker": "SAM",
           "text": "I don't think that's incoherence, though — isn't that just three genuinely different groups?",
-          "startSec": 1567.32,
-          "endSec": 1572.62
+          "startSec": 1567.21,
+          "endSec": 1572.5
         },
         {
           "speaker": "ALEX",
           "text": "That's exactly the counter — economic, cultural, and political elites are distinct groups with frequently conflicting interests, and treating \"elite\" as one monolithic class is what actually erases the real differences in power. McArdle diagnoses the symptom, incoherent rhetoric, but the disease is closer to people conflating three separate hierarchies on purpose, because it's rhetorically convenient to do so.",
-          "startSec": 1572.62,
-          "endSec": 1596.37
+          "startSec": 1572.5,
+          "endSec": 1596.26
         },
         {
           "speaker": "SAM",
           "text": "Give me a concrete case where that conflation actually does real damage.",
-          "startSec": 1596.37,
-          "endSec": 1600.52
+          "startSec": 1596.26,
+          "endSec": 1600.4
         },
         {
           "speaker": "ALEX",
           "text": "Take a tech executive attacked as \"elite\" for supporting an immigration policy — the attack borrows moral weight from economic-elite resentment while the actual object is a cultural or political disagreement. The word does the work of an argument nobody actually has to make, and that's the more precise version of McArdle's complaint than \"nobody agrees what it means.\"",
-          "startSec": 1600.52,
-          "endSec": 1621.8
+          "startSec": 1600.4,
+          "endSec": 1621.69
         }
       ],
       "startSec": 1467.5
@@ -917,53 +917,53 @@
         {
           "speaker": "SAM",
           "text": "One good thing to close — a comeback story out of the NFL, of all places.",
-          "startSec": 1621.8,
-          "endSec": 1626.0
+          "startSec": 1621.69,
+          "endSec": 1625.89
         },
         {
           "speaker": "ALEX",
           "text": "Desmond Bryant, former Cleveland Browns defensive end, told CBS News's David Begnaud how a viral 2013 mugshot cost him his contract and sent him into years of addiction.",
-          "startSec": 1626.0,
-          "endSec": 1635.72
+          "startSec": 1625.89,
+          "endSec": 1635.61
         },
         {
           "speaker": "SAM",
           "text": "What actually turned it around for him?",
-          "startSec": 1635.72,
-          "endSec": 1637.97
+          "startSec": 1635.61,
+          "endSec": 1637.85
         },
         {
           "speaker": "ALEX",
           "text": "He's sober now, and he credits yoga, fatherhood, and years of quiet service work — no single dramatic moment, just a slow, deliberate rebuild after the worst, most public version of himself was the only one anyone remembered.",
-          "startSec": 1637.97,
-          "endSec": 1650.91
+          "startSec": 1637.85,
+          "endSec": 1650.8
         },
         {
           "speaker": "SAM",
           "text": "That's the part that gets me — the internet freezes people at their lowest moment forever, and he just kept living past the freeze-frame anyway. He said one line to Begnaud that I want to leave people with — that healing was never one big moment, it was choosing the same small, boring discipline again on the days it felt pointless.",
-          "startSec": 1650.91,
-          "endSec": 1670.07
+          "startSec": 1650.8,
+          "endSec": 1669.95
         },
         {
           "speaker": "ALEX",
           "text": "And he said he doesn't think of the mugshot as erased or overcome, just as one true fact sitting next to a lot of other true facts about who he's actually become since — which is a healthier relationship with your own worst day than most people ever get to.",
-          "startSec": 1670.07,
-          "endSec": 1684.85
+          "startSec": 1669.95,
+          "endSec": 1684.74
         },
         {
           "speaker": "ALEX",
           "text": "That's The Morning Commute for Tuesday, September 1. Have a good one — we'll see you tomorrow.",
-          "startSec": 1684.85,
-          "endSec": 1690.26
+          "startSec": 1684.74,
+          "endSec": 1690.14
         },
         {
           "speaker": "SAM",
           "text": "Take care, everyone.",
-          "startSec": 1690.26,
-          "endSec": 1691.41
+          "startSec": 1690.14,
+          "endSec": 1691.29
         }
       ],
-      "startSec": 1621.8
+      "startSec": 1621.7
     }
   ]
 }

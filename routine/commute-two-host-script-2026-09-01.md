@@ -68,7 +68,7 @@ ALEX: Which is exactly why it earned the full segment. Worth the full read — H
 ## SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES
 SAM: Staying with things that sound abstract until you look at the paperwork — PJM just dropped an Oklo nuclear project from its interconnection queue.
 ALEX: This is Cycle 01, 750 megawatts total — 150 megawatts of advanced nuclear, 300 of fuel cells, 300 of gas, all behind one point of interconnection, queued back in April. PJM cited six deficiency categories: transformer data, generator data, project capability, point-of-interconnection detail, site control, short-circuit data.
-SAM: Six categories is a lot to fail at once — which of those is actually the killer?
+SAM: 6 categories is a lot to fail at once — which of those is actually the killer?
 ALEX: Voltage ride-through — Oklo never demonstrated it, and that's the one PJM won't wave through on a promise. Oklo filed an emergency FERC complaint on the 28th, docket EL26-101, demanding reinstatement at its original queue position and claiming it can cure the gaps inside PJM's 10-day window.
 SAM: What does this tell you about where the real bottleneck sits right now?
 ALEX: That for gigawatt-scale queue positions, the binding constraint has shifted from capital or siting to grid-code compliance paperwork. PJM's using technical screening to prune queue congestion, and any project without ride-through data already in hand is exposed to exactly the same drop Oklo just took.
@@ -105,7 +105,7 @@ SAM: In English for the exact numbers — the peso hit 62.41 to the dollar Septe
 ALEX: Add in BSP's own upward inflation revision — the 2027 forecast just moved from 4.5% to 5.4% — plus hawkish Fed signals and that Hormuz-driven oil spike we flagged in markets, and you've got three separate forces all pushing the same direction on the same currency at once. Remolona saying the quiet part out loud — that intervention has a floor — is itself a notable break from the usual central-bank script of projecting unlimited confidence.
 SAM: Second story is about as textbook a legislative "pagmamadali" as I've ever seen.
 ALEX: The House Appropriations Committee approved Malacañang's own 2027 budget — 10.155 billion pesos — 37 to 5, in 25 minutes flat, citing what lawmakers called "institutional and interbranch courtesy."
-SAM: Twenty-five minutes for ten billion pesos, while other agencies are getting torn apart line by line in the flood-control-scandal era.
+SAM: 25 minutes for 10 billion pesos, while other agencies are getting torn apart line by line in the flood-control-scandal era.
 ALEX: That contrast is the whole story — the same body currently demanding forensic-level scrutiny of DPWH's books waved through its own boss's budget almost without discussion. It's a small line item in the grand scheme of the national budget, but small line items rushed through without debate are exactly what the flood-control probes were originally about.
 SAM: Third — new testimony in week nine of the Duterte impeachment trial.
 ALEX: AFP Colonel Manaros Boransing II testified on whether DepEd funneled confidential-fund "financial assistance" to the AFP for a Youth Leadership Summit while Sara Duterte was Education Secretary — tied to COA's earlier flag of 112.5 million pesos in 2023 DepEd confidential funds.
@@ -151,7 +151,7 @@ SAM: Third edition already — how's it positioning itself against the bigger re
 ALEX: It's deliberately smaller and more curated rather than trying to out-scale them — the pitch is a tighter gallery list and easier access for VIP-level collectors who find the bigger fairs exhausting to actually work. Two editions in, that's clearly the lane it's carving out for itself in the regional calendar.
 
 ## SEGMENT TEN — OP-EDS & COMMENTARY
-SAM: Two op-eds worth arguing with. First, Gautam Mukunda in Bloomberg Opinion, responding to Bill Gates.
+SAM: 2 op-eds worth arguing with. First, Gautam Mukunda in Bloomberg Opinion, responding to Bill Gates.
 ALEX: Gates' essay from last week argued AI is "either the greatest equalizer ever invented or the worst source of injustice," and proposed taxing AI and robot labor since slowing development globally isn't realistic. Mukunda's response is that leaving safety choices to the AI labs themselves is naive — commercial and geopolitical competition will always override voluntary caution, full stop.
 SAM: Where do you push back on Mukunda?
 ALEX: Government regulation moves far slower than the model-capability curve does, and any regulatory regime risks capture by whichever lab lobbies hardest — OpenAI and Anthropic are already shaping open-weight policy in their own favor. So Mukunda's fix risks entrenching the incumbents he's worried about rather than protecting anyone from them.

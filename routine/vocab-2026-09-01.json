@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-01",
+  "cards": [
+    {
+      "id": "2026-09-01-tl-1",
+      "lang": "Tagalog",
+      "word": "pagbagsak",
+      "pinyin": "",
+      "pronunciation": "pag-bag-SAK",
+      "tones": "",
+      "meaning": "a sudden or heavy fall or collapse -- of a price, a rank, or a condition -- carrying weight, not a routine change",
+      "example": "Isa na namang pagbagsak ng piso sa bagong pinakamababang antas -- 62.41 kada dolyar.",
+      "examplePinyin": "",
+      "exampleMeaning": "Another fall for the peso to a new record low -- P62.41 to the dollar.",
+      "note": "Broader, neutral 'pagbaba' can describe any decrease, even a gentle one -- pagbaba ng temperatura. 'Pagbagsak' carries weight and usually suddenness -- it implies crisis or failure, not just an ordinary change, which is why it's the right word for a currency hitting a record low, not a routine dip.",
+      "tiesTo": "Peso hits record low P62.41; BSP Gov. Remolona warns continued intervention will run down reserves"
+    },
+    {
+      "id": "2026-09-01-tl-2",
+      "lang": "Tagalog",
+      "word": "pagmamadali",
+      "pinyin": "",
+      "pronunciation": "pag-ma-ma-da-LI",
+      "tones": "",
+      "meaning": "rushing or undue haste -- doing something quickly at the expense of care or scrutiny",
+      "example": "Inaprubahan ng komite ang badyet ng Malacañang sa loob lamang ng 25 minuto -- tunay na pagmamadali.",
+      "examplePinyin": "",
+      "exampleMeaning": "The committee approved Malacañang's budget in just 25 minutes -- genuine haste.",
+      "note": "Not the same as neutral 'bilis' (speed), which carries no judgment. 'Pagmamadali' implies something is being sacrificed for speed -- care, process, scrutiny -- so using the word already signals suspicion about the outcome.",
+      "tiesTo": "House committee approves Malacañang's 2027 budget 37-5 in 25 minutes, citing 'interbranch courtesy'"
+    },
+    {
+      "id": "2026-09-01-zh-1",
+      "lang": "Mandarin",
+      "word": "筹码",
+      "pinyin": "chóumǎ",
+      "pronunciation": "cho-mah",
+      "tones": "2 · 3",
+      "meaning": "bargaining chip, leverage -- something deliberately accumulated to spend at the negotiating table later",
+      "example": "双方都想在峰会前多攒一些筹码。",
+      "examplePinyin": "shuāngfāng dōu xiǎng zài fēnghuì qián duō zǎn yīxiē chóumǎ",
+      "exampleMeaning": "Both sides want to stack up more leverage before the summit.",
+      "note": "书面语/formal in this usage, common in diplomacy and negotiation coverage. 优势 (advantage) is a general edge from being better at something. 筹码 is accumulated on purpose and is crucially spendable -- built up specifically to trade away for something else, the vocabulary of a negotiation rather than a scoreboard.",
+      "tiesTo": "US and China trade sanctions ahead of Xi's September 24 Washington visit"
+    },
+    {
+      "id": "2026-09-01-zh-2",
+      "lang": "Mandarin",
+      "word": "既是…也是…",
+      "pinyin": "jìshì ... yěshì ...",
+      "pronunciation": "jee-shr ... yeh-shr",
+      "tones": "4 · 4 · 3 · 4",
+      "meaning": "is both X and Y -- one single thing genuinely serving two functions or identities at once",
+      "example": "这波制裁既是施压手段，也是峰会前的筹码。",
+      "examplePinyin": "zhè bō zhìcái jìshì shīyā shǒuduàn, yěshì fēnghuì qián de chóumǎ",
+      "exampleMeaning": "This round of sanctions is both a pressure tactic and a bargaining chip ahead of the summit.",
+      "note": "书面语/formal, analytical register. Casual 又…又… lists two simultaneous qualities equally, usually about a personal state (tired and hungry). 既是…也是… is the construction for saying a single policy or action carries two distinct identities or purposes at once -- reframing rather than just listing.",
+      "tiesTo": "US and China trade sanctions ahead of Xi's September 24 Washington visit, serving as both pressure and leverage"
+    }
+  ]
+}

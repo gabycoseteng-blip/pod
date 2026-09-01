@@ -21,7 +21,9 @@ ALEX: Right, and territorial talks on the Donbas stay stalled along with it — 
 SAM: Onto US business — the FTC just opened a second front against Amazon.
 ALEX: The FTC and 22 states sued Amazon Sunday, alleging it "secretly and systematically" overcharged advertisers more than $20 billion since a 2019 change to its ad-auction rules, hitting 1.2 million brands and sellers with hidden surcharges.
 SAM: Wait, isn't Amazon already fighting a separate antitrust case over all this?
-ALEX: Yes — a separate one headed to trial early 2027 — so this is a second, simultaneous federal antitrust front, not an add-on to the existing case, and it targets the ad business specifically, which is one of Amazon's highest-margin lines.
+ALEX: Yes — a separate one headed to trial early 2027 — so this is a second, simultaneous federal antitrust front, not an add-on to the existing case, and it targets the ad business specifically, which is one of Amazon's highest-margin lines. The complaint alleges Amazon quietly changed how it ranks paid placements in 2019 so sellers had to keep raising bids just to hold the same shelf position they already had, effectively manufacturing the overcharge through the auction mechanics themselves rather than any explicit price hike anyone could easily spot.
+SAM: That's a much harder thing to prove than a simple price-fixing case.
+ALEX: Which is exactly why 22 states signed on alongside the FTC — a joint federal-state complaint is built to survive exactly the kind of "it's just how the algorithm works" defense Amazon's legal team is almost certainly going to run.
 SAM: Second story — Aon's buying USI Insurance Services from KKR for $17 billion cash.
 ALEX: Closes Q4. It builds out Aon's US middle-market platform, which Aon itself now values north of $40 billion. KKR and Caisse de dépôt bought USI back in 2017 for $4.3 billion — so this is roughly a four-times return, about $2 billion of net gain for KKR alone.
 SAM: Biggest deal in the space since Aon bought NFP for $13.4 billion in 2024.
@@ -72,6 +74,8 @@ SAM: What does this tell you about where the real bottleneck sits right now?
 ALEX: That for gigawatt-scale queue positions, the binding constraint has shifted from capital or siting to grid-code compliance paperwork. PJM's using technical screening to prune queue congestion, and any project without ride-through data already in hand is exposed to exactly the same drop Oklo just took.
 SAM: Is this specific to novel mixed-tech projects, or could an established gas or solar developer get caught the same way?
 ALEX: Any technology can fail a ride-through test, but mixed-tech, single-POI projects like Oklo's are structurally more exposed, because you're proving grid behavior for three different generation types behaving as one interconnection customer. That's a harder modeling problem than a single-technology plant, and it's exactly the kind of project advanced-nuclear and hybrid developers are betting the next capex cycle on.
+SAM: What's the actual timeline if the FERC complaint doesn't go Oklo's way?
+ALEX: Losing the original queue position means re-entering behind everyone who's applied since April — in PJM's current backlog, that's realistically a multi-year setback, not a paperwork delay. That's the real stake behind an emergency complaint that sounds, on its face, like a small procedural dispute.
 SAM: Second story's almost the opposite move — someone just bought their way past the queue entirely.
 ALEX: Hull Street Energy closed on 1,263 megawatts of gas peakers — the GridFlex portfolio, Lee County Illinois and Tait Ohio — from Rockland Capital on the 26th. That's thirteen days after FERC rejected PJM's own Independent Market Monitor, which had tried to condition approval on a promise the plants wouldn't be pointed at data centers.
 SAM: So FERC took that lever off the table.
@@ -136,6 +140,8 @@ SAM: Did leadership know?
 ALEX: Museum chair George Osborne knew but didn't attend himself — which is its own quiet statement. The story broke Sunday via The Guardian and ARTnews's Morning Links, right as the tapestry heads into what's supposed to be one of the museum's marquee shows of the year.
 SAM: A single VIP viewing shouldn't outweigh the actual exhibition, but donor access always tells you something about who a museum thinks it answers to.
 ALEX: Especially at a public institution that's spent years fundraising to cover the gap left by shrinking UK government arts funding — every major donor becomes a small compromise, and this one's a genuinely uncomfortable name to have quietly walked through the door first.
+SAM: Has the museum said anything publicly since the story broke?
+ALEX: Only a boilerplate line about donor privacy, which if anything confirms how badly they'd rather this stayed quiet. Worth watching whether Appleyard's position becomes untenable once the exhibition's actually open and journalists start asking who else got a private hour with the tapestry before the public did.
 ALEX: Second item is criticism, not scandal — Claire Bishop, the CUNY Graduate Center art historian, has an essay in Artforum's September print issue called "Information Overload."
 SAM: What's her actual argument?
 ALEX: That contemporary artists have largely failed to critically confront internet-era technological conditions — they've adapted to it, reflected it, even aestheticized it, but very few have actually interrogated it the way earlier generations interrogated industrialization or mass media. It's a real indictment of a whole generation of net-adjacent art for settling for reflection over confrontation.
@@ -155,6 +161,8 @@ SAM: Second piece — Megan McArdle in the Washington Post, on who actually coun
 ALEX: Her point is that populist rhetoric, left and right, invokes "the elite" so incoherently that no one agrees whether it means a university president, a streamer with millions of followers, or a billionaire — and that incoherence itself is corroding institutional trust, because any authority can be branded illegitimate under a label nobody's actually defined.
 SAM: I don't think that's incoherence, though — isn't that just three genuinely different groups?
 ALEX: That's exactly the counter — economic, cultural, and political elites are distinct groups with frequently conflicting interests, and treating "elite" as one monolithic class is what actually erases the real differences in power. McArdle diagnoses the symptom, incoherent rhetoric, but the disease is closer to people conflating three separate hierarchies on purpose, because it's rhetorically convenient to do so.
+SAM: Give me a concrete case where that conflation actually does real damage.
+ALEX: Take a tech executive attacked as "elite" for supporting an immigration policy — the attack borrows moral weight from economic-elite resentment while the actual object is a cultural or political disagreement. The word does the work of an argument nobody actually has to make, and that's the more precise version of McArdle's complaint than "nobody agrees what it means."
 
 ## SEGMENT ELEVEN — ONE GOOD THING
 SAM: One good thing to close — a comeback story out of the NFL, of all places.
@@ -162,5 +170,6 @@ ALEX: Desmond Bryant, former Cleveland Browns defensive end, told CBS News's Dav
 SAM: What actually turned it around for him?
 ALEX: He's sober now, and he credits yoga, fatherhood, and years of quiet service work — no single dramatic moment, just a slow, deliberate rebuild after the worst, most public version of himself was the only one anyone remembered.
 SAM: That's the part that gets me — the internet freezes people at their lowest moment forever, and he just kept living past the freeze-frame anyway. He said one line to Begnaud that I want to leave people with — that healing was never one big moment, it was choosing the same small, boring discipline again on the days it felt pointless.
+ALEX: And he said he doesn't think of the mugshot as erased or overcome, just as one true fact sitting next to a lot of other true facts about who he's actually become since — which is a healthier relationship with your own worst day than most people ever get to.
 ALEX: That's The Morning Commute for Tuesday, September 1. Have a good one — we'll see you tomorrow.
 SAM: Take care, everyone.

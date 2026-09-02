@@ -1,0 +1,34 @@
+{
+  "throughline": "Nothing new starts today -- every story is an old fault line reopening or an old trend hitting a fresh extreme: a fresh Hormuz tanker incident, the peso's 4th straight record low, China's 32nd month of property decline, and Manila's impeachment trial reaching day 21",
+  "stories": [
+    "india-pakistan-indus-waters-hague-ruling-rejected",
+    "germany-blames-russia-leipzig-drone-consulate-expulsion",
+    "army-secretary-driscoll-resigns-hegseth-clash",
+    "ism-manufacturing-pmi-54.6-orders-cooling",
+    "broadcom-q3-fy26-earnings-preview",
+    "kazakhstan-tokayev-names-karin-first-vp",
+    "eurozone-inflation-3.3pct-ecb-second-hike-sept10",
+    "hormuz-tanker-incident-oman-oil-spike",
+    "fed-warsh-hawkish-10y-highest-since-jan25",
+    "deep-dive-syracuse-higher-ed-selectivity-barbell",
+    "korea-919b-sovereign-ai-datacenter-nvidia",
+    "miso-computational-load-classification",
+    "ph-peso-62.565-4th-record-close",
+    "ph-op-2027-budget-45pct-confidential",
+    "ph-duterte-impeachment-day21-poa-hostile-witness",
+    "ph-leviste-spnec-share-sale-ombudsman-probe",
+    "china-new-home-prices-32mo-decline",
+    "arts-kandinsky-restitution-christies",
+    "arts-frieze-seoul-spotlight-section-post-hype-sales-test",
+    "opeds-wsj-data-center-panic",
+    "opeds-campbell-doshi-alliances-survive",
+    "one-good-thing-dromanos-pizza-bronx"
+  ],
+  "explainers": [
+    "MISO large-load vs computational-load classification (25MW IT-equipment threshold)",
+    "Nvidia commoditizing-the-complement via sovereign AI buyer diversification",
+    "China property debt-deflation loop distinct from a rate problem",
+    "selectivity as a defensible moat in higher-ed financial-aid economics"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

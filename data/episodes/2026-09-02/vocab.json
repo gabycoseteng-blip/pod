@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-02",
+  "cards": [
+    {
+      "id": "2026-09-02-tl-1",
+      "lang": "Tagalog",
+      "word": "kumupas",
+      "pinyin": "",
+      "pronunciation": "ku-MU-pas",
+      "tones": "",
+      "meaning": "to fade or wane -- of color, vigor, or value -- gradually, not suddenly",
+      "example": "Kumukupas ang piso sa ikaapat na sunod na araw ng bagong record-low.",
+      "examplePinyin": "",
+      "exampleMeaning": "The peso is fading, on its fourth straight day of a new record low.",
+      "note": "'Pagbagsak' (already taught) is sudden and heavy, like a collapse. 'Kumupas' is the opposite texture -- gradual, like a shirt's color fading in the sun -- barely noticeable day to day but unmistakable over time, which is the right word for a currency sliding to a fourth straight record rather than crashing in one move.",
+      "tiesTo": "Peso closes at a 4th straight record-low P62.565/$1, driven by oil-price and Mideast-tension dollar strength"
+    },
+    {
+      "id": "2026-09-02-tl-2",
+      "lang": "Tagalog",
+      "word": "ikinukubli",
+      "pinyin": "",
+      "pronunciation": "i-ki-nu-KUB-li",
+      "tones": "",
+      "meaning": "is being deliberately concealed -- from 'kubli' (hidden) -- usually to avoid scrutiny or questions",
+      "example": "Halos kalahati ng badyet ng Malacañang ay ikinukubli bilang kumpidensyal na gastos.",
+      "examplePinyin": "",
+      "exampleMeaning": "Almost half of Malacañang's budget is being concealed as confidential expenses.",
+      "note": "Plain 'itinatago' can be innocent -- you hide a birthday gift. 'Ikinukubli' carries deliberate, often institutional secrecy, usually tied to accountability that should exist but doesn't -- which is why it's the sharper word for a government line item exempted from normal scrutiny.",
+      "tiesTo": "Malacañang's P10.158B 2027 budget request is ~45% confidential funds, fast-tracked with minimal committee questions"
+    },
+    {
+      "id": "2026-09-02-zh-1",
+      "lang": "Mandarin",
+      "word": "不然",
+      "pinyin": "bùrán",
+      "pronunciation": "boo-rahn",
+      "tones": "4 · 2",
+      "meaning": "otherwise, if not -- states the consequence of NOT doing something",
+      "example": "政府必须采取有效措施，不然房价还会继续下跌。",
+      "examplePinyin": "zhèngfǔ bìxū cǎiqǔ yǒuxiào cuòshī, bùrán fángjià hái huì jìxù xiàdiē",
+      "exampleMeaning": "The government must take effective measures, otherwise home prices will keep falling.",
+      "note": "口语/spoken register -- the everyday equivalent of the more formal 否则 (already taught), which belongs in a policy document or editorial. Same logical function, different register; reaching for 不然 versus 否则 signals how formal the speaker is being.",
+      "tiesTo": "China's property slide and the fiscal-versus-monetary policy debate over what officials can still do"
+    },
+    {
+      "id": "2026-09-02-zh-2",
+      "lang": "Mandarin",
+      "word": "止跌企稳",
+      "pinyin": "zhǐ diē qǐ wěn",
+      "pronunciation": "jr-dyeh chee-wen",
+      "tones": "3 · 1 · 2 · 3",
+      "meaning": "stop the decline and stabilize -- a set four-character policy phrase for a deliberately modest goal",
+      "example": "官方希望房价能尽快止跌企稳。",
+      "examplePinyin": "guānfāng xīwàng fángjià néng jǐnkuài zhǐ diē qǐ wěn",
+      "exampleMeaning": "Officials hope home prices can stop falling and stabilize as soon as possible.",
+      "note": "书面语/formal, the specific vocabulary Chinese policy language uses for a struggling market -- notably it doesn't say 'grow' or 'recover,' just 'stop falling.' The phrase's modesty is itself information about how low the actual ambition is.",
+      "tiesTo": "China's new-home prices fall for a 32nd straight month despite 15 months of frozen record-low rates"
+    }
+  ]
+}

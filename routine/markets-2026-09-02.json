@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-02",
+  "asOf": "Tuesday, September 1 close",
+  "groups": [
+    {
+      "name": "US Indices",
+      "rows": [
+        {"label": "S&P 500", "value": "7,631.95", "change": "-0.71%", "dir": "down"},
+        {"label": "Nasdaq", "value": "26,099.77", "change": "-1.01%", "dir": "down"},
+        {"label": "Dow", "value": "52,772.49", "change": "-0.78%", "dir": "down"},
+        {"label": "Russell 2000", "value": "2,920.00", "change": "-1.23%", "dir": "down"}
+      ]
+    },
+    {
+      "name": "Rates",
+      "rows": [
+        {"label": "UST 10Y", "value": "4.79%", "change": "+7 bps", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Commodities",
+      "rows": [
+        {"label": "Gold", "value": "4,358.74", "change": "-1.86%", "dir": "down"},
+        {"label": "WTI", "value": "90.82", "change": "+5.90%", "dir": "up"},
+        {"label": "Brent", "value": "94.65", "change": "+4.60%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "FX",
+      "rows": [
+        {"label": "DXY", "value": "99.66", "change": "+0.23%", "dir": "up"},
+        {"label": "USD/PHP", "value": "62.565", "change": "+0.27%", "dir": "up"},
+        {"label": "USD/CNY", "value": "6.7197", "change": "+0.03%", "dir": "flat"}
+      ]
+    }
+  ],
+  "note": "Prior-session close (Tue Sept 1) — full levels so the show can stay brief. Oil is the day's real story: WTI +5.9%/Brent +4.6% on a fresh Strait of Hormuz tanker incident off Oman, plus Fed Chair Warsh's hawkish remarks pushing the 10Y to its highest since Jan 2025."
+}

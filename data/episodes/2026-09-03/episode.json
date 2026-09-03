@@ -874,45 +874,45 @@
       "turns": [
         {
           "speaker": "SAM",
-          "text": "We're closing today in Glendale, Arizona, with a father and son who turned a four-thousand-dollar repair bill into a nonprofit.",
+          "text": "We're closing today in Glendale, Arizona, with a father and son who turned a $4,000 repair bill into a nonprofit.",
           "startSec": 1498.53,
-          "endSec": 1505.08
+          "endSec": 1504.36
         },
         {
           "speaker": "ALEX",
           "text": "Michael Kuba started fixing his own family's van nearly a decade ago rather than pay that bill, and it grew into The Junkie Garage — a nonprofit that repairs cars for veterans, seniors, single parents, and working families who simply can't afford a shop.",
-          "startSec": 1505.08,
-          "endSec": 1518.2
+          "startSec": 1504.36,
+          "endSec": 1517.47
         },
         {
           "speaker": "SAM",
           "text": "How does it actually work — is there an income requirement, paperwork, anything like that?",
-          "startSec": 1518.2,
-          "endSec": 1522.84
+          "startSec": 1517.47,
+          "endSec": 1522.12
         },
         {
           "speaker": "ALEX",
           "text": "None of it. No income check, no paperwork. Customers bring their own parts and pay whatever they can toward labor — an AC repair that could run thousands of dollars anywhere else comes in under 300 there. His seventeen-year-old son Matthew now works alongside him every day.",
-          "startSec": 1522.84,
-          "endSec": 1536.99
+          "startSec": 1522.12,
+          "endSec": 1536.26
         },
         {
           "speaker": "SAM",
           "text": "Thousands of families kept on the road because one guy decided not to pay a repair bill a decade ago.",
-          "startSec": 1536.99,
-          "endSec": 1542.2
+          "startSec": 1536.26,
+          "endSec": 1541.48
         },
         {
           "speaker": "ALEX",
           "text": "That's the whole story, and it needs nothing added to it — that's The Morning Commute for Thursday, September 3rd. We'll see you back here tomorrow.",
-          "startSec": 1542.2,
-          "endSec": 1549.84
+          "startSec": 1541.48,
+          "endSec": 1549.12
         },
         {
           "speaker": "SAM",
           "text": "Have a great day, everyone.",
-          "startSec": 1549.84,
-          "endSec": 1551.24
+          "startSec": 1549.12,
+          "endSec": 1550.51
         }
       ],
       "startSec": 1498.5

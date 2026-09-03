@@ -158,7 +158,7 @@ SAM: So where does that leave the actual policy debate?
 ALEX: Stuck exactly where it's been for years — every option on Venezuela involves legitimizing somebody unsavory, the only real question is whether you'd rather do that in exchange for oil flowing and prices easing, or hold out for a clean partner that keeps not showing up. Neither op-ed writer has a satisfying answer to that trade-off, and honestly, neither does anyone else right now.
 
 ## SEGMENT ELEVEN — ONE GOOD THING
-SAM: We're closing today in Glendale, Arizona, with a father and son who turned a four-thousand-dollar repair bill into a nonprofit.
+SAM: We're closing today in Glendale, Arizona, with a father and son who turned a $4,000 repair bill into a nonprofit.
 ALEX: Michael Kuba started fixing his own family's van nearly a decade ago rather than pay that bill, and it grew into The Junkie Garage — a nonprofit that repairs cars for veterans, seniors, single parents, and working families who simply can't afford a shop.
 SAM: How does it actually work — is there an income requirement, paperwork, anything like that?
 ALEX: None of it. No income check, no paperwork. Customers bring their own parts and pay whatever they can toward labor — an AC repair that could run thousands of dollars anywhere else comes in under 300 there. His seventeen-year-old son Matthew now works alongside him every day.

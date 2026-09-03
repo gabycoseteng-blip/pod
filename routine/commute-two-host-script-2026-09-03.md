@@ -17,7 +17,7 @@ ALEX: That's exactly the shift — every prior round stayed roughly bilateral, o
 SAM: Second story — Xi Jinping just made a trip he hasn't made in a decade.
 ALEX: His first state visit to Egypt in ten years, meeting President Sisi in Cairo through today, and using it to call for what he's terming a "new Middle East security framework" — landing squarely as Washington's regional standing takes a hit from that same Iran escalation.
 SAM: Beijing picking its moment.
-ALEX: Precisely — China's already put over ten billion dollars into Egypt, the New Administrative Capital, a Nile Delta electric rail line, so this isn't a cold outreach, it's Xi cashing in existing investment for a security-framework pitch at the exact moment the US looks least like a stabilizing force in the region.
+ALEX: Precisely — China's already put over $10 billion into Egypt, the New Administrative Capital, a Nile Delta electric rail line, so this isn't a cold outreach, it's Xi cashing in existing investment for a security-framework pitch at the exact moment the US looks least like a stabilizing force in the region.
 SAM: Last world story — Maduro's lawyers just tried something genuinely novel.
 ALEX: Nicolás Maduro and his wife Cilia Flores filed papers in Manhattan federal court claiming head-of-state immunity from their drug-trafficking indictment — arguing heads of state are exempt from any national court's criminal process but their own. Judge Hellerstein set oral arguments for November 17th, with trial scheduled for June 1st, 2027.
 SAM: Onto business — Uber's finally getting the deal it wanted the second time around.
@@ -143,9 +143,9 @@ ALEX: The season opens September 22nd with a new Louisa Proske-directed "Macbeth
 SAM: A season built more around new American opera than repertory war-horses.
 ALEX: Which is a genuine bet for an institution that usually leans on the reliable classics to fund the riskier commissions — putting two contemporary American works this prominently in one season signals real confidence that audiences will follow.
 SAM: Last one — Kirkus just revealed its own prize finalists, and the fiction list has a genuinely stacked lineup.
-ALEX: Eighteen finalists across fiction, nonfiction, and young readers' literature, each category winner taking home fifty thousand dollars, chosen out of more than eight thousand eligible titles this year. Fiction includes Tayari Jones' "Kin," Colson Whitehead's "Cool Machine," Julie Orringer's "Luna, Phoenix, Queen," and Douglas Stuart's "John of John."
+ALEX: 18 finalists across fiction, nonfiction, and young readers' literature, each category winner taking home $50,000, chosen out of more than 8,000 eligible titles this year. Fiction includes Tayari Jones' "Kin," Colson Whitehead's "Cool Machine," Julie Orringer's "Luna, Phoenix, Queen," and Douglas Stuart's "John of John."
 SAM: Stuart again — he's having a genuinely big prize season across multiple lists this year.
-ALEX: He is, and it says something about how deep this particular fiction shortlist runs that a writer with his track record is one name among six rather than the obvious favorite. Winners get announced October 7th, livestreamed, and unlike some prizes that lean toward buzz, Kirkus has built its reputation specifically on breadth of consideration — eight thousand titles read down to eighteen is a real filter, not a popularity contest.
+ALEX: He is, and it says something about how deep this particular fiction shortlist runs that a writer with his track record is one name among six rather than the obvious favorite. Winners get announced October 7th, livestreamed, and unlike some prizes that lean toward buzz, Kirkus has built its reputation specifically on breadth of consideration — 8,000 titles read down to 18 is a real filter, not a popularity contest.
 
 ## SEGMENT TEN — OP-EDS & COMMENTARY
 SAM: Op-eds — and this one's a genuine argument happening inside a single newspaper, not between two different outlets.

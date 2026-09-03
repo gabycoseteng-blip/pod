@@ -1,0 +1,921 @@
+{
+  "date": "2026-09-03",
+  "title": "Thursday, September 3, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-09-03.mp3",
+  "durationSec": 1552,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Thursday, September 3. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex — and we're starting with the heaviest US-Iran exchange in over a month, because a wedding celebration is now part of this story.",
+          "startSec": 3.89,
+          "endSec": 11.36
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "CENTCOM launched fresh strikes on southern Iran overnight Monday into Tuesday, hitting air defense sites, radar, and mine-laying assets — the heaviest exchange since the lull that followed last month's Larak Island strike.",
+          "startSec": 11.36,
+          "endSec": 23.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the wedding you mentioned — that's not a euphemism.",
+          "startSec": 23.04,
+          "endSec": 25.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "No — a strike hit a wedding celebration in the town of Kuhestak, killing at least four and wounding more than 68, many of them women and children. Iran retaliated with ballistic missiles at US-linked targets in Jordan, Bahrain, Kuwait, and Iraq's Kurdish region.",
+          "startSec": 25.93,
+          "endSec": 39.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this stopped being a contained, Hormuz-adjacent skirmish and became a four-country retaliation.",
+          "startSec": 39.72,
+          "endSec": 44.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly the shift — every prior round stayed roughly bilateral, oil markets pricing the risk premium and moving on. Missiles landing in four separate countries is Iran demonstrating it won't absorb a civilian-casualty strike quietly, and it puts every US base in the region back on alert footing heading into a week that already had a hawkish Fed and a bond selloff running.",
+          "startSec": 44.87,
+          "endSec": 64.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story — Xi Jinping just made a trip he hasn't made in a decade.",
+          "startSec": 64.91,
+          "endSec": 68.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His first state visit to Egypt in ten years, meeting President Sisi in Cairo through today, and using it to call for what he's terming a \"new Middle East security framework\" — landing squarely as Washington's regional standing takes a hit from that same Iran escalation.",
+          "startSec": 68.59,
+          "endSec": 82.8
+        },
+        {
+          "speaker": "SAM",
+          "text": "Beijing picking its moment.",
+          "startSec": 82.8,
+          "endSec": 84.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Precisely — China's already put over ten billion dollars into Egypt, the New Administrative Capital, a Nile Delta electric rail line, so this isn't a cold outreach, it's Xi cashing in existing investment for a security-framework pitch at the exact moment the US looks least like a stabilizing force in the region.",
+          "startSec": 84.22,
+          "endSec": 100.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last world story — Maduro's lawyers just tried something genuinely novel.",
+          "startSec": 100.68,
+          "endSec": 104.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nicolás Maduro and his wife Cilia Flores filed papers in Manhattan federal court claiming head-of-state immunity from their drug-trafficking indictment — arguing heads of state are exempt from any national court's criminal process but their own. Judge Hellerstein set oral arguments for November 17th, with trial scheduled for June 1st, 2027.",
+          "startSec": 104.52,
+          "endSec": 122.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onto business — Uber's finally getting the deal it wanted the second time around.",
+          "startSec": 122.51,
+          "endSec": 126.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Delivery Hero's boards endorsed Uber's takeover Tuesday — 41.50 euros a share, roughly 14.8 billion dollars, a 34% premium to the three-month average and well above the 33-euro offer Delivery Hero rejected back in May. Prosus, which holds 17%, has already agreed to tender.",
+          "startSec": 126.77,
+          "endSec": 141.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "What changed between May and now?",
+          "startSec": 141.13,
+          "endSec": 142.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Simply the price — Uber came back roughly 26% higher, and Delivery Hero's own board apparently decided that was the number where continuing to run a standalone European delivery business against Uber's global scale stopped making sense. Shareholder acceptance runs to November 5th.",
+          "startSec": 142.87,
+          "endSec": 157.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second business story — the UK's having a genuinely busy deal summer.",
+          "startSec": 157.65,
+          "endSec": 161.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "UK takeovers passed 100 billion dollars for the year after a Monday surge: Veritas Capital's 1.65 billion pound buyout of industrial heat-treatment firm Bodycote, Epiris's roughly 1 billion pound offer for Gamma Communications, and Norway's DNO buying oil and gas firm Capricorn Energy for about 292 million pounds.",
+          "startSec": 161.28,
+          "endSec": 177.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "Three very different sectors in one day.",
+          "startSec": 177.85,
+          "endSec": 179.96
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the actual signal — this isn't one industry consolidating, it's private equity and strategic buyers broadly deciding UK-listed mid-caps are cheap relative to global peers, and that's been the quiet story under the London market all year: depressed valuations finally pulling in real capital rather than just headlines about the exchange's decline.",
+          "startSec": 179.96,
+          "endSec": 198.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onto international — the ADP number this morning was softer than the Street wanted.",
+          "startSec": 198.68,
+          "endSec": 203.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Private payrolls added just 38,000 in August against a 47,000 forecast, the smallest gain since January. Education and health added 45,000, but manufacturing shed 17,000 and professional and business services lost 16,000 — large firms alone accounted for 34,000 of the total gain.",
+          "startSec": 203.05,
+          "endSec": 217.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "So small and mid-sized employers are basically flat or shrinking.",
+          "startSec": 217.78,
+          "endSec": 221.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the read, and it sets up Friday's BLS report after July's negative 23,000 print — two straight soft-to-negative months from the official data feeding directly into whatever the Fed decides this month. And that jobs softness is landing in the same week the ten-year hit 4.814% intraday Tuesday, its highest since November 2023, on a global bond selloff — heavy corporate supply, deficit concerns, and this Iran escalation reviving inflation fears all at once.",
+          "startSec": 221.2,
+          "endSec": 245.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "A hotter yield curve and a softer labor market in the same 48 hours — that's an awkward combination for one Fed meeting.",
+          "startSec": 245.66,
+          "endSec": 251.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's the whole tension in one sentence — markets are now pricing roughly 66% odds of a hike this month, up from 40% a week ago, even as the jobs data argues for caution. Something in that gap resolves loudly either way, and we'll know a lot more by Friday afternoon.",
+          "startSec": 251.97,
+          "endSec": 265.96
+        }
+      ],
+      "startSec": 11.4
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Markets — full board's on the app, and yesterday itself was quiet. Nothing cleared our threshold.",
+          "startSec": 265.96,
+          "endSec": 271.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Correct — Wednesday was a stabilization day after Tuesday's real move. S&P, Nasdaq, and Dow all closed modestly higher, Russell up a bit more than the rest, none of it near 1.5%. It's all on the tab; the actual story is what Tuesday did and why Wednesday didn't undo it.",
+          "startSec": 271.07,
+          "endSec": 285.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "Walk me through Tuesday, then, since that's apparently where the real tape was.",
+          "startSec": 285.27,
+          "endSec": 289.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tuesday was the Iran-strikes-meet-hawkish-Fed session — oil jumped over 5%, the ten-year hit that 4.814% multi-year high, and gold had its worst day in weeks, down nearly 3%, because rising real yields were beating out any safe-haven bid the Iran news would normally generate.",
+          "startSec": 289.42,
+          "endSec": 303.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "Gold not catching a bid off an actual war escalation is the tell, isn't it.",
+          "startSec": 303.94,
+          "endSec": 307.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's exactly the tell — when a geopolitical shock can't move gold because rates are moving harder in the opposite direction, that tells you which risk the market currently thinks is more expensive: a contained regional conflict, or a Fed genuinely willing to hike again into decelerating growth. Right now it's rates, not war, setting the marginal price of risk.",
+          "startSec": 307.89,
+          "endSec": 326.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Wednesday's calm — is that actually calm, or just everyone waiting on Friday's jobs report?",
+          "startSec": 326.93,
+          "endSec": 331.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Almost certainly the latter. You don't get real conviction moves the day before a payrolls print that could either confirm or completely undercut the ADP miss we just discussed — dealers are flat, positioning's light, and everyone's parked capital waiting for one number. That's not resolution, that's a coiled spring.",
+          "startSec": 331.95,
+          "endSec": 348.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "So what's actually worth watching into Friday?",
+          "startSec": 348.77,
+          "endSec": 351.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Two things in tandem — whether oil holds this new higher range if the missile exchanges continue, because a sustained Hormuz risk premium feeds straight into the same headline inflation the Fed's trying to read cleanly, and whether Friday's BLS number confirms ADP's softness or reverses it entirely. Get a soft jobs print with oil still elevated and you've got the ugliest possible combination for a September hike decision — slowing growth and rising input costs at the same time.",
+          "startSec": 351.2,
+          "endSec": 376.68
+        }
+      ],
+      "startSec": 266.0
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Alex, this one came out of your own inbox this morning, and it's not a markets story at all.",
+          "startSec": 376.68,
+          "endSec": 381.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's from the New York Times' evening newsletter — a full investigation into a DHS operation that's been running quietly across all fifty states for weeks now, searching state voter rolls for so-called noncitizen voters.",
+          "startSec": 381.55,
+          "endSec": 393.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Quietly how — this is a federal law enforcement operation nobody's been talking about?",
+          "startSec": 393.18,
+          "endSec": 397.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Hundreds of DHS agents are involved, and a meaningful number of them were pulled off human-trafficking and terrorism casework to do it. They're cross-checking dates of birth and partial Social Security numbers against DHS citizenship databases, and in some documented cases, agents are effectively logging into individual state election-official websites — sites explicitly marked for individual voter use only — to run those checks one voter at a time.",
+          "startSec": 397.73,
+          "endSec": 421.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the part that jumps out — agents impersonating individual voters on systems built for the voters themselves.",
+          "startSec": 421.68,
+          "endSec": 427.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is precisely the privacy-law question the Times piece raises, and it's happening weeks ahead of the midterms, running alongside a separately contested USPS mail-ballot screening system that several blue states are already calling unconstitutional in court.",
+          "startSec": 427.76,
+          "endSec": 441.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual scale of the problem this is supposedly solving?",
+          "startSec": 441.61,
+          "endSec": 445.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the part that makes the resource allocation genuinely strange — decades of research, across multiple administrations and multiple independent audits, has consistently found noncitizen voting to be vanishingly rare, fractions of a percent in the states that have actually measured it. So you have specialized counter-trafficking and counter-terrorism agents redirected, at real opportunity cost, toward a problem the data says barely exists.",
+          "startSec": 445.1,
+          "endSec": 468.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is there a defensible version of this operation, or is it purely political theater ahead of November?",
+          "startSec": 468.74,
+          "endSec": 474.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The administration's public framing is election-integrity assurance — and there's a legitimate government interest in clean voter rolls in the abstract. But the specific mechanism here, agents essentially posing as individual voters on state systems, plus the redeployment of agents from casework with actual, measurable victims, is what turns this from a policy disagreement into the kind of story that invites real legal exposure regardless of the underlying politics.",
+          "startSec": 474.08,
+          "endSec": 498.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "What happens next — is anyone actually challenging this operationally, not just rhetorically?",
+          "startSec": 498.93,
+          "endSec": 503.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Watch the state election officials whose sites are being accessed this way — several are reportedly reviewing whether DHS's access method violates their own terms of use, which could produce an actual legal fight over methodology well before anyone litigates the operation's broader legality. That's the concrete thing to track, not the political noise around it.",
+          "startSec": 503.85,
+          "endSec": 523.04
+        }
+      ],
+      "startSec": 376.7
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Energy — and the biggest deal in the inbox this morning is a geothermal PPA that's bigger than it sounds.",
+          "startSec": 523.04,
+          "endSec": 528.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Fervo Energy signed a 396-megawatt, fifteen-year PPA with Google at its Cape Station site in Utah — and Google's holding an option on another 600 megawatts by 2030. Add those together and you're close to a full gigawatt from a single geothermal site, roughly the output of one nuclear reactor.",
+          "startSec": 528.59,
+          "endSec": 544.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a serious commitment to a technology that's still relatively new at scale.",
+          "startSec": 544.08,
+          "endSec": 548.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "William Blair's analysis puts this single PPA as lifting Fervo's contracted revenue by roughly 65% — that's not a pilot-project number, that's a company's entire financial profile shifting on one contract. And the read matters more than the number: hyperscalers are now underwriting enhanced geothermal specifically for firm, dispatchable load-matching, not as an intermittent-offset hedge the way wind and solar PPAs have traditionally worked.",
+          "startSec": 548.37,
+          "endSec": 571.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this confirms the baseload argument you've been making for months.",
+          "startSec": 571.84,
+          "endSec": 575.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's about as clean a confirmation as you'll get — Google didn't need geothermal to hit a renewable-percentage target, it needed something that runs whether the sun's out or not, and it was willing to pay up and take an option on triple the initial capacity to lock that in. Watch whether Fervo uses this contracted revenue base to raise its next funding round at a materially better valuation.",
+          "startSec": 575.49,
+          "endSec": 596.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second item — MISO just filed something with FERC that's going to shape every large-load interconnection going forward.",
+          "startSec": 596.32,
+          "endSec": 602.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "MISO filed its large-load reliability framework on August 28th, docket RM26-4 — any load over 50 megawatts now faces four requirements: visibility and reporting, PMU monitoring, ramp-rate limits, and ride-through obligations. Requested effective date is December 4th.",
+          "startSec": 602.62,
+          "endSec": 616.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "How does this differ from what PJM's already been doing?",
+          "startSec": 616.73,
+          "endSec": 619.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "PJM's approach has been queue-specific — fixes targeted at the interconnection process itself. MISO's filing is a blanket operating obligation on both existing and new large loads, data centers and industrial customers alike, which is a meaningfully broader ask. And this is only the first tranche — MISO's full response to FERC's June show-cause order, covering co-located generation and flexible interconnection service, isn't due until November 16th.",
+          "startSec": 619.69,
+          "endSec": 643.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is this the template other grid operators end up copying?",
+          "startSec": 643.65,
+          "endSec": 646.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly the question FERC's own November deadline is going to answer — MISO's framework is now the reference point every other RTO's show-cause response gets measured against, and if SPP, ERCOT, and CAISO converge on the same 50-megawatt threshold, you've effectively got a national standard forming through parallel RTO filings rather than a single federal rule.",
+          "startSec": 646.66,
+          "endSec": 667.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last one — a transmission study that's really a political argument dressed up as an engineering one.",
+          "startSec": 667.89,
+          "endSec": 673.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "CERA and S&P Global released a study September 1st valuing thirteen high-priority interregional transmission projects across the Eastern Interconnection at up to 15.3 billion dollars in net system value through 2050 — with PJM alone capturing 6.7 billion of that, versus just 1.9 billion for SPP and MISO South combined.",
+          "startSec": 673.63,
+          "endSec": 691.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "Who actually commissioned this?",
+          "startSec": 691.99,
+          "endSec": 693.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "National Grid, the Electricity Customer Alliance, and Converge Strategies — load-serving and large-customer interests, not the RTOs themselves. It lands right as PJM's own board-approved 11.8 billion dollar RTEP baseline transmission plan is already moving, so this reads as building political cover for the next tranche of spending, specifically justified by data-center load growth. Whoever pays for that transmission — ratepayers broadly, or the large loads driving the need — is the fight that's actually coming next.",
+          "startSec": 693.77,
+          "endSec": 723.67
+        }
+      ],
+      "startSec": 523.0
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Dalawang salita ngayon, at pareho itong direktang konektado sa mga balitang Pilipinas na sasabihin natin mamaya.",
+          "startSec": 723.67,
+          "endSec": 730.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Una, \"kasapatan.\" Ito ay pangngalan mula sa salitang-ugat na \"sapat,\" at ang ibig sabihin nito ay ang kalagayan ng pagiging sapat o kumpleto na ang isang bagay — hindi na kailangan ng dagdag.",
+          "startSec": 730.1,
+          "endSec": 741.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "Paano ito ginagamit sa isang pangungusap, halimbawa?",
+          "startSec": 741.06,
+          "endSec": 744.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Puwede mong sabihing, \"Idineklara ng prosekusyon na may kasapatan na ang ebidensya,\" ibig sabihin, sa kanilang palagay, kumpleto na ang kanilang katibayan at hindi na kailangan ng karagdagang testigo. Ito ay mas pormal at mas eksakto kaysa sa payak na \"sapat na\" — ang \"kasapatan\" ay ang abstract na konsepto mismo, hindi lang ang katangian.",
+          "startSec": 744.04,
+          "endSec": 763.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya kung sasabihin kong \"sapat na ang pera,\" pero sasabihin kong \"may kasapatan ang pondo,\" may pagkakaiba ba talaga sa dating?",
+          "startSec": 763.61,
+          "endSec": 770.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Meron — mas mabigat at mas propesyonal ang tunog ng \"kasapatan,\" kaya mas madalas itong gamitin sa legal o pormal na konteksto, tulad ng isang paglilitis o isang ulat pinansyal, kaysa sa pang-araw-araw na usapan.",
+          "startSec": 770.95,
+          "endSec": 783.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang pangalawa naman, \"pagbabantay\" — mula sa \"bantay,\" na alam nating ibig sabihin ay magbantay o mag-alaga.",
+          "startSec": 783.12,
+          "endSec": 789.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama, at ang \"pagbabantay\" ay ang patuloy, aktibong pagsubaybay sa isang sitwasyon — hindi minsanang tingin lang, kundi paulit-ulit at maingat na pagmamasid, kadalasang may layuning kumilos kaagad kapag kinakailangan.",
+          "startSec": 789.32,
+          "endSec": 801.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "Paano ito naiiba sa \"pagmamanman,\" na natutunan na natin dati?",
+          "startSec": 801.77,
+          "endSec": 805.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang \"pagmamanman\" ay may bahid ng lihim o sikreto, tulad ng pagsubaybay nang walang kaalaman ng pinagbabantayan. Ang \"pagbabantay\" naman ay bukas at kilala — sinasabi mismo ng institusyon na sila ay nagbabantay, walang lihim doon.",
+          "startSec": 805.33,
+          "endSec": 818.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya kapag sinabi ng isang ahensya na sila ay \"nagbabantay\" sa merkado, sinasabi nilang bukas at aktibo silang tumitingin, hindi tago?",
+          "startSec": 818.53,
+          "endSec": 826.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Eksakto — at iyon mismo ang salitang tama para sa sitwasyon ng BSP ngayong araw, dahil hayagan silang nagdeklara na sila ay nagbabantay, hindi sikreto.",
+          "startSec": 826.22,
+          "endSec": 834.88
+        }
+      ],
+      "startSec": 723.7
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "May kasapatan na raw ang ebidensya — sabi mismo ng prosekusyon sa paglilitis kay Duterte, kaya binabawasan na nila ang listahan ng mga testigo.",
+          "startSec": 834.88,
+          "endSec": 843.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sinabi ni adviser Robert Ace Barbers noong Martes na kumpleto na ang tinatawag nilang \"evidentiary puzzle\" para sa Article 1, ang bintang na 612.5 milyong piso na kumpidensyal na pondo — kaya aalisin na ang natitirang testigo mula sa AFP, sina Lt. Col. Carlos Sandaan Jr. at retiradong Maj. Gen. Adonis Bajao, dahil sapat na raw ang testimonya nina Col. Boransing at Col. Panopio hinggil sa mga sertipikasyong militar.",
+          "startSec": 843.09,
+          "endSec": 867.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "In English, quickly, for the exact numbers — the prosecution says it's dropping its remaining AFP witnesses because it judges the evidence complete on the 612.5-million-peso confidential-funds charge. The Senate court's also weighing calendar changes to free up time for the 7.2-trillion-peso 2027 budget.",
+          "startSec": 867.07,
+          "endSec": 884.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second story — and this one's genuinely large. GCash's parent company, Mynt, filed to raise up to 92.3 billion pesos, roughly 1.5 billion dollars, targeting an October listing. That would make it the largest IPO in Philippine history.",
+          "startSec": 884.57,
+          "endSec": 898.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "Larger than anything that's listed before — what does that actually change structurally?",
+          "startSec": 898.0,
+          "endSec": 903.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's up to 9.23 billion shares at a 10-peso ceiling price, and analysts think it could force the PSE to revisit its 20% public-float rule just to accommodate a listing this size — plus it meaningfully broadens an index that's been thin on tech exposure for years. A fintech this large finally listing is the clearest signal yet that Manila's capital markets can actually host a company of GCash's scale.",
+          "startSec": 903.05,
+          "endSec": 926.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third — the peso, and BSP's finally saying something out loud about it.",
+          "startSec": 926.18,
+          "endSec": 930.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "BSP broke its relative silence, stating it's actively monitoring the FX market and will intervene to address disorderly conditions — but explicitly won't defend a specific rate, because it wants to conserve reserves rather than fight the market head-on. MUFG's now forecasting the peso holding near 62 to the dollar through year-end.",
+          "startSec": 930.25,
+          "endSec": 949.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "So BSP's drawing a line between watching closely and actually spending reserves to prop up a level.",
+          "startSec": 949.36,
+          "endSec": 955.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the distinction, and it's a meaningful one — a central bank that says \"we're watching\" without committing to a defended rate is telling markets it'll smooth volatility, not fight the trend, which is a much cheaper and more sustainable posture if this dollar strength keeps running on oil and Fed-hike pricing rather than anything Philippine-specific.",
+          "startSec": 955.04,
+          "endSec": 975.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last item — growth expectations just got cut.",
+          "startSec": 975.59,
+          "endSec": 978.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "OCBC slashed its 2026 Philippine GDP forecast to 3.8%, down from a prior 5.5% call, citing stagflation risk — that would be the weakest pace since the pandemic, down from 4.4% in 2025. No active PAGASA signal today, and the PSEi made no major move, so both stay off the show.",
+          "startSec": 978.17,
+          "endSec": 993.95
+        }
+      ],
+      "startSec": 834.9
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words today, and both come directly out of the currency story we're about to get into.",
+          "startSec": 993.95,
+          "endSec": 999.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First: 不得不 — bùdébù. It means \"cannot help but,\" or \"have no choice but to\" — you use it when an action is forced by circumstance, not chosen freely.",
+          "startSec": 999.63,
+          "endSec": 1008.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is there a more casual way to say the same thing?",
+          "startSec": 1008.16,
+          "endSec": 1010.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Yes — 只好, zhǐhǎo, is the more 口语, everyday equivalent. 不得不 works in both spoken and written contexts and carries a slightly more formal, almost reluctant weight — it implies the actor genuinely didn't want to do this but circumstances left no alternative. Example: 央行不得不干预市场，以避免汇率过度波动。\"The central bank had no choice but to intervene in the market, to avoid excessive exchange-rate volatility.\"",
+          "startSec": 1010.87,
+          "endSec": 1035.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word — 逆势. I can guess the \"逆\" part means \"against,\" but walk me through the whole thing.",
+          "startSec": 1035.02,
+          "endSec": 1040.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nìshì — literally \"against the trend\" or \"against the momentum.\" It's a business and finance collocation describing an action that goes directly opposite to where the market or the data is naturally heading.",
+          "startSec": 1040.61,
+          "endSec": 1052.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the opposite version — is there a \"with the trend\" word too?",
+          "startSec": 1052.09,
+          "endSec": 1055.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There is — 顺势, shùnshì, \"along with the trend,\" which is the far more common, easier move. 逆势 is specifically notable because it's harder and riskier — you're fighting the market's own direction, not riding it. Example: 尽管出口数据强劲，央行仍然逆势压低汇率。\"Even though the export data was strong, the central bank still pushed the exchange rate down against the trend.\"",
+          "startSec": 1055.8,
+          "endSec": 1077.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "So today's China story is basically a live example of a central bank choosing 不得不 and going 逆势 at the same time.",
+          "startSec": 1077.41,
+          "endSec": 1084.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's precisely it, and it's exactly why we picked this pairing — you're about to hear both ideas in the same three minutes.",
+          "startSec": 1084.06,
+          "endSec": 1090.99
+        }
+      ],
+      "startSec": 994.0
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "尽管出口数据强劲，央行不得不逆势压低汇率。\"Even though export data is strong, the central bank has no choice but to push the exchange rate down against the trend\" — and that sentence is basically today's whole China story.",
+          "startSec": 1090.99,
+          "endSec": 1103.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The yuan has rallied roughly 4% year-to-date, its strongest levels in about three and a half years, riding genuinely strong trade data — August exports beat forecasts, up 9.5% year over year. But the PBOC is actively capping it. Thursday's daily reference rate was set at 6.7807 per dollar against a Reuters model estimate of 6.7167 — a gap of roughly 640 pips, one of the largest downside deviations from market-implied fair value recorded all year.",
+          "startSec": 1103.91,
+          "endSec": 1128.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "And this isn't a one-off — you're describing a pattern.",
+          "startSec": 1128.86,
+          "endSec": 1131.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Weeks-long pattern — the central bank has repeatedly fixed the midpoint weaker than where algorithmic models say the market actually wants it, which is a quiet, sustained lean against further currency strength rather than any single dramatic intervention.",
+          "startSec": 1131.91,
+          "endSec": 1146.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why would Beijing want to suppress a currency rally that its own trade data just earned?",
+          "startSec": 1146.04,
+          "endSec": 1150.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because a strong yuan and a strong export sector are working against each other right now. Exports are one of the only genuinely strong parts of the Chinese economy — property's still down, retail demand is soft — so Beijing needs the yuan to stay cheap enough to keep that export engine competitive, even though the underlying data would otherwise justify letting it run higher.",
+          "startSec": 1150.92,
+          "endSec": 1171.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "So currency strength is actually a policy liability here, not something to celebrate.",
+          "startSec": 1171.93,
+          "endSec": 1176.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the real read — it's a quiet admission that this recovery is deeply unbalanced. When growth depends this heavily on exports doing all the work, a reward like currency appreciation becomes something to suppress rather than embrace, because it would undercut the one engine that's actually running. Watch the fixing gap over the next few weeks — if it keeps widening past 600 pips, that tells you Beijing's getting more, not less, worried about losing that export edge.",
+          "startSec": 1176.65,
+          "endSec": 1202.93
+        }
+      ],
+      "startSec": 1091.0
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts — and Berlin's about to host an artist who's never had a major show there before.",
+          "startSec": 1202.93,
+          "endSec": 1207.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Maurizio Cattelan's first major German exhibition, \"NIGHT,\" opens next week at the Neue Nationalgalerie, doubling as this year's Preis der Nationalgalerie. Director Klaus Biesenbach says the new site-specific commission turns Mies van der Rohe's glass box into what he's calling \"a church.\"",
+          "startSec": 1207.69,
+          "endSec": 1223.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a striking way to describe a building famous for being all glass and steel.",
+          "startSec": 1223.77,
+          "endSec": 1228.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's staged alongside career touchstones — \"Him\" and \"La Rivoluzione Siamo Noi\" among them — and Cattelan's usual friction runs right through it: innocence staged against violence, memory that refuses to stay buried. Putting that inside Mies's most transparent, most rationalist building is its own kind of provocation.",
+          "startSec": 1228.32,
+          "endSec": 1246.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second item — a gallery preview that landed straight in your inbox.",
+          "startSec": 1246.0,
+          "endSec": 1249.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Anat Ebgi's Tribeca space opens two solo shows next Wednesday — Soumya Netrabile's \"Field Conditions,\" quiet, abstracted landscape painting, paired against Alannah Farrell's \"Solastalgia,\" denser, more figurative work in oil, acrylic, and spray, built around grief over a changing environment.",
+          "startSec": 1249.72,
+          "endSec": 1265.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "Two very different approaches to essentially the same unease.",
+          "startSec": 1265.96,
+          "endSec": 1269.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the pairing's logic — Netrabile dissolves that anxiety into abstraction, Farrell keeps it close and legible. Shown together, they read less like two unrelated solo shows and more like two answers to the same question about place and loss.",
+          "startSec": 1269.34,
+          "endSec": 1282.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Met's new season is opening soon too, and you said the real story's buried a bit deeper in the schedule.",
+          "startSec": 1282.98,
+          "endSec": 1288.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The season opens September 22nd with a new Louisa Proske-directed \"Macbeth\" — her Met debut, Lise Davidsen and Quinn Kelsey starring, Yannick Nézet-Séguin conducting. But further into the calendar is the actual headline: the world premiere of Missy Mazzoli's \"Lincoln in the Bardo,\" adapted from George Saunders' novel, alongside the Met premiere of Kevin Puts' Pulitzer-winning \"Silent Night.\"",
+          "startSec": 1288.97,
+          "endSec": 1310.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "A season built more around new American opera than repertory war-horses.",
+          "startSec": 1310.81,
+          "endSec": 1314.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is a genuine bet for an institution that usually leans on the reliable classics to fund the riskier commissions — putting two contemporary American works this prominently in one season signals real confidence that audiences will follow.",
+          "startSec": 1314.8,
+          "endSec": 1328.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last one — Kirkus just revealed its own prize finalists, and the fiction list has a genuinely stacked lineup.",
+          "startSec": 1328.22,
+          "endSec": 1334.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Eighteen finalists across fiction, nonfiction, and young readers' literature, each category winner taking home fifty thousand dollars, chosen out of more than eight thousand eligible titles this year. Fiction includes Tayari Jones' \"Kin,\" Colson Whitehead's \"Cool Machine,\" Julie Orringer's \"Luna, Phoenix, Queen,\" and Douglas Stuart's \"John of John.\"",
+          "startSec": 1334.26,
+          "endSec": 1353.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "Stuart again — he's having a genuinely big prize season across multiple lists this year.",
+          "startSec": 1353.72,
+          "endSec": 1358.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "He is, and it says something about how deep this particular fiction shortlist runs that a writer with his track record is one name among six rather than the obvious favorite. Winners get announced October 7th, livestreamed, and unlike some prizes that lean toward buzz, Kirkus has built its reputation specifically on breadth of consideration — eight thousand titles read down to eighteen is a real filter, not a popularity contest.",
+          "startSec": 1358.26,
+          "endSec": 1380.56
+        }
+      ],
+      "startSec": 1202.9
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds — and this one's a genuine argument happening inside a single newspaper, not between two different outlets.",
+          "startSec": 1380.56,
+          "endSec": 1386.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Elliott Abrams, the CFR senior fellow who served as Trump's own special envoy to Venezuela, wrote in the Washington Post that the Venezuela oil deal Trump just orchestrated is, in his words, \"a shameful sellout.\" His argument: because major US oil majors wouldn't put up capital, Trump partnered with what Abrams calls \"the most shadowy and repellent Venezuelan businessman he could find,\" effectively legitimizing an unelected, Chavista-linked government — \"the great sellout,\" Abrams writes, \"of Venezuela's natural resources and its people's right to self-government.\"",
+          "startSec": 1386.45,
+          "endSec": 1415.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a serious charge from someone who was actually inside the Venezuela policy himself.",
+          "startSec": 1415.93,
+          "endSec": 1420.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which makes the counter-take, published the same day in the same paper, worth hearing in full — a companion piece arguing the opposite failure: that the deal, struck with Maduro's own former vice president just eight months after Maduro's ouster, actually entrenches the same officials and the same policies that wrecked Venezuela's economy in the first place, squandering a reform window a pro-market opposition was genuinely ready to fill.",
+          "startSec": 1420.57,
+          "endSec": 1443.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "Two op-eds in one paper arguing the deal fails in opposite directions — which one's actually right?",
+          "startSec": 1443.34,
+          "endSec": 1448.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's where I'd push on Abrams specifically — he spent years architecting the maximum-pressure sanctions strategy against Maduro, and that approach never produced a democratic transition either, so his \"self-government\" framing deserves the same scrutiny he's applying to Trump's deal. The arrangement is genuinely ugly, no argument there, but it's also the first one that's actually moving Venezuelan barrels and pulling prices down — and the purist alternative, waiting for a clean democratic partner, has had years to materialize and simply hasn't.",
+          "startSec": 1448.45,
+          "endSec": 1476.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "So where does that leave the actual policy debate?",
+          "startSec": 1476.95,
+          "endSec": 1479.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Stuck exactly where it's been for years — every option on Venezuela involves legitimizing somebody unsavory, the only real question is whether you'd rather do that in exchange for oil flowing and prices easing, or hold out for a clean partner that keeps not showing up. Neither op-ed writer has a satisfying answer to that trade-off, and honestly, neither does anyone else right now.",
+          "startSec": 1479.53,
+          "endSec": 1499.3
+        }
+      ],
+      "startSec": 1380.6
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "We're closing today in Glendale, Arizona, with a father and son who turned a four-thousand-dollar repair bill into a nonprofit.",
+          "startSec": 1499.3,
+          "endSec": 1505.86
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Michael Kuba started fixing his own family's van nearly a decade ago rather than pay that bill, and it grew into The Junkie Garage — a nonprofit that repairs cars for veterans, seniors, single parents, and working families who simply can't afford a shop.",
+          "startSec": 1505.86,
+          "endSec": 1518.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "How does it actually work — is there an income requirement, paperwork, anything like that?",
+          "startSec": 1518.97,
+          "endSec": 1523.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "None of it. No income check, no paperwork. Customers bring their own parts and pay whatever they can toward labor — an AC repair that could run thousands of dollars anywhere else comes in under 300 there. His seventeen-year-old son Matthew now works alongside him every day.",
+          "startSec": 1523.62,
+          "endSec": 1537.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "Thousands of families kept on the road because one guy decided not to pay a repair bill a decade ago.",
+          "startSec": 1537.76,
+          "endSec": 1542.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the whole story, and it needs nothing added to it — that's The Morning Commute for Thursday, September 3rd. We'll see you back here tomorrow.",
+          "startSec": 1542.98,
+          "endSec": 1550.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Have a great day, everyone.",
+          "startSec": 1550.62,
+          "endSec": 1552.01
+        }
+      ],
+      "startSec": 1499.3
+    }
+  ]
+}

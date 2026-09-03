@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-03",
+  "cards": [
+    {
+      "id": "2026-09-03-tl-1",
+      "lang": "Tagalog",
+      "word": "kasapatan",
+      "pinyin": "",
+      "pronunciation": "ka-sa-pa-TAN",
+      "tones": "",
+      "meaning": "sufficiency -- the abstract state of a thing being complete or adequate, with nothing more needed",
+      "example": "Idineklara ng prosekusyon na may kasapatan na ang ebidensya.",
+      "examplePinyin": "",
+      "exampleMeaning": "The prosecution declared that the evidence already has sufficiency -- that it's complete.",
+      "note": "Plain 'sapat na' just describes a quality in passing. 'Kasapatan' is the noun form of the concept itself -- heavier, more formal, the kind of word you'd reach for in a legal or financial report rather than casual conversation, which is why it fits a prosecution formally closing its evidentiary case.",
+      "tiesTo": "Duterte impeachment prosecution trims its AFP witness list, judging the Article 1 evidentiary case already complete"
+    },
+    {
+      "id": "2026-09-03-tl-2",
+      "lang": "Tagalog",
+      "word": "pagbabantay",
+      "pinyin": "",
+      "pronunciation": "pag-ba-BAN-tay",
+      "tones": "",
+      "meaning": "vigilant, ongoing monitoring -- from 'bantay' (to guard/watch) -- active and repeated, not a single glance",
+      "example": "Nagbabantay ang BSP sa merkado ng dolyar-piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP is actively monitoring the dollar-peso market.",
+      "note": "'Pagmamanman' (already taught) carries a whiff of secrecy -- watching without the subject's knowledge. 'Pagbabantay' is open and declared -- the institution itself says it is watching, nothing hidden about it -- which is the right word for a central bank publicly stating it's monitoring, not covertly surveilling.",
+      "tiesTo": "BSP breaks its silence, says it is actively monitoring the FX market but won't defend a specific peso rate"
+    },
+    {
+      "id": "2026-09-03-zh-1",
+      "lang": "Mandarin",
+      "word": "不得不",
+      "pinyin": "bùdébù",
+      "pronunciation": "boo-duh-boo",
+      "tones": "4 · 2 · 4",
+      "meaning": "cannot help but / have no choice but to -- an action forced by circumstance, not freely chosen",
+      "example": "央行不得不干预市场，以避免汇率过度波动。",
+      "examplePinyin": "Yāngháng bùdébù gānyù shìchǎng, yǐ bìmiǎn huìlǜ guòdù bōdòng.",
+      "exampleMeaning": "The central bank had no choice but to intervene in the market, to avoid excessive exchange-rate volatility.",
+      "note": "近义词 只好 (zhǐhǎo) is the more 口语, everyday version of the same idea. 不得不 works in both spoken and written registers and carries a slightly more formal, almost reluctant weight -- implying the actor genuinely didn't want to, but had no alternative.",
+      "tiesTo": "PBOC actively caps the yuan's rally despite strong August export data, a forced-hand intervention against the market's own trend"
+    },
+    {
+      "id": "2026-09-03-zh-2",
+      "lang": "Mandarin",
+      "word": "逆势",
+      "pinyin": "nìshì",
+      "pronunciation": "nee-shr",
+      "tones": "4 · 4",
+      "meaning": "against the trend / against the market's own momentum -- a business and finance collocation",
+      "example": "尽管出口数据强劲，央行仍然逆势压低汇率。",
+      "examplePinyin": "Jǐnguǎn chūkǒu shùjù qiángjìng, yānghang réngrán nìshì yādī huìlǜ.",
+      "exampleMeaning": "Even though the export data was strong, the central bank still pushed the exchange rate down against the trend.",
+      "note": "近义词 顺势 (shùnshì, 'along with the trend') is the far more common, easier move. 逆势 is notable specifically because it's harder and riskier -- you're fighting the market's own direction rather than riding it, which is exactly what the PBOC is doing here.",
+      "tiesTo": "PBOC's daily yuan fix sits ~640 pips weaker than market-implied fair value, one of the year's largest downside deviations"
+    }
+  ]
+}

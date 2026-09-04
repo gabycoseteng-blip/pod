@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-04",
+  "asOf": "Thursday, September 3 close",
+  "groups": [
+    {
+      "name": "US Indices",
+      "rows": [
+        {"label": "S&P 500", "value": "7,747.71", "change": "+1.06%", "dir": "up"},
+        {"label": "Nasdaq Composite", "value": "26,584.06", "change": "+1.4%", "dir": "up"},
+        {"label": "Dow Jones", "value": "53,686.11", "change": "+624.16 (+1.18%)", "dir": "up"},
+        {"label": "Russell 2000", "value": "2,968.27", "change": "+15.10 (+0.51%)", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Rates",
+      "rows": [
+        {"label": "UST 10Y", "value": "4.76%", "change": "-3 bps", "dir": "down"}
+      ]
+    },
+    {
+      "name": "Commodities",
+      "rows": [
+        {"label": "Gold", "value": "4,385.00", "change": "+1.39%", "dir": "up"},
+        {"label": "WTI Crude", "value": "91.30", "change": "+0.32%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "FX",
+      "rows": [
+        {"label": "USD/PHP", "value": "62.49", "change": "little changed", "dir": "flat"},
+        {"label": "DXY", "value": "99.545", "change": "-0.13%", "dir": "down"}
+      ]
+    }
+  ],
+  "note": "Prior-session (Thu Sept 3) close — full levels so the show can stay brief. Friday's Aug jobs report (payrolls +22K vs +75K expected, unemployment up to 4.3%) is today's pending catalyst, not yet reflected in a confirmed close."
+}

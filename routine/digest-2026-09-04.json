@@ -1,0 +1,34 @@
+{
+  "throughline": "The gap between the story you're told and the one underneath it -- Nvidia buys the open-source AI commons instead of competing with it, NYC bans the classroom AI tool it approved two years ago, China quietly starves the US of rare earths instead of announcing it, and Stiglitz calls US decline healthier the same week three countries take Iranian and Chinese shockwaves at once",
+  "stories": [
+    "nepal-china-floods-1130dead-4500missing",
+    "uk-burnham-first-pmqs-farage-sworn-in",
+    "niger-journalist-kaka-forced-disappearance",
+    "nvidia-hugging-face-12.9bn-acquisition",
+    "broadcom-q3-record-revenue-stock-drops-guide",
+    "unicredit-commerzbank-germany-opens-talks",
+    "japan-10yr-bond-yield-3pct-30yr-high",
+    "us-aug-jobs-miss-22k-unemployment-4.3pct",
+    "deep-dive-nyc-schools-ban-generative-ai",
+    "large-load-tariffs-65states-ratepayer-protections",
+    "spacex-gas-turbine-foundry-bastrop",
+    "trump-grid-equipment-eo-hits-battery-storage",
+    "wind-pipeline-shrinks-dod-radar-review",
+    "ctvc-climate-founder-survey-capital-structure",
+    "ph-inflation-eases-6.1pct-rice-19.4pct",
+    "moodys-cuts-ph-2026-growth-3pct",
+    "duterte-impeachment-fragmented-schedule",
+    "primelectric-peza-ecozone-power-mou",
+    "china-rare-earth-quiet-halt-us-shipments",
+    "art-newspaper-billionaire-auction-concentration",
+    "frieze-256-frere-jones-jjjjjerome-ellis-vienna-secession",
+    "opeds-stiglitz-us-decline-opeds-mueller-afd-aesthetics",
+    "one-good-thing-boomtown-strangers-adopt-autistic-dj"
+  ],
+  "explainers": [
+    "large-load tariff ratepayer-protection mechanics (minimum contract terms, take-or-pay, exit fees, capacity reassignment)",
+    "foreign-entity-of-concern compliance deadline exposure gap between transformers (insulated) and battery storage (60% China-sourced cells)",
+    "why rice inflation can accelerate even as headline inflation eases (weighting effect)"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

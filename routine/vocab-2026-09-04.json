@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-04",
+  "cards": [
+    {
+      "id": "2026-09-04-tl-1",
+      "lang": "Tagalog",
+      "word": "lumuwag",
+      "pinyin": "",
+      "pronunciation": "lu-mu-WAG",
+      "tones": "",
+      "meaning": "to ease, loosen, become less tight or strained -- a gradual relaxing, not a sudden drop",
+      "example": "Lumuwag nang bahagya ang implasyon noong Agosto, mula 6.6% patungong 6.1%.",
+      "examplePinyin": "",
+      "exampleMeaning": "Inflation eased slightly in August, from 6.6% to 6.1%.",
+      "note": "'Bumagsak' (already taught) is a sharp, dramatic plunge. 'Lumuwag' is gentler -- a strain gradually relaxing -- which is the right word for a fourth straight month of moderate decline, not a sudden crash.",
+      "tiesTo": "August inflation eases to 6.1%, the fourth straight monthly decline"
+    },
+    {
+      "id": "2026-09-04-tl-2",
+      "lang": "Tagalog",
+      "word": "pabigat",
+      "pinyin": "",
+      "pronunciation": "pa-bi-GAT",
+      "tones": "",
+      "meaning": "an added burden or weight -- something that makes a situation heavier, harder to bear",
+      "example": "Malaking pabigat sa mga pamilya ang pagtaas ng presyo ng bigas nang 19.4%.",
+      "examplePinyin": "",
+      "exampleMeaning": "The 19.4% rise in rice prices is a big burden on families.",
+      "note": "'Pasanin' (already taught) is a burden you carry -- duty, responsibility, something on your back. 'Pabigat' is about something that weighs the whole situation down -- added heaviness to daily life, not a load assigned to one person.",
+      "tiesTo": "rice inflation accelerates to 19.4% even as headline inflation eases"
+    },
+    {
+      "id": "2026-09-04-zh-1",
+      "lang": "Mandarin",
+      "word": "之所以…是因为…",
+      "pinyin": "zhī suǒyǐ… shì yīnwèi…",
+      "pronunciation": "jr swaw-yee ... shr yin-way",
+      "tones": "1·3·3 · 4·1·4",
+      "meaning": "the reason X is because Y -- a formal connective that states the result first, then explains the cause",
+      "example": "中国厂商之所以暗中停止对美国的稀土出货，是因为担心材料被转卖给受制裁的实体。",
+      "examplePinyin": "Zhōngguó chǎngshāng zhī suǒyǐ ànzhōng tíngzhǐ duì Měiguó de xītǔ chūhuò, shì yīnwèi dānxīn cáiliào bèi zhuǎnmài gěi shòu zhìcái de shítǐ.",
+      "exampleMeaning": "The reason Chinese suppliers quietly halted rare-earth shipments to the US is because they're worried the material will be resold to sanctioned entities.",
+      "note": "近义词 因为 is the plain, everyday word for 'because.' 之所以…是因为… is 书面语 -- more formal, front-loads the result before the cause, and is the pattern you'd actually read in a news analysis piece, not casual speech.",
+      "tiesTo": "Chinese rare-earth suppliers quietly halt US shipments ahead of Xi's Washington visit"
+    },
+    {
+      "id": "2026-09-04-zh-2",
+      "lang": "Mandarin",
+      "word": "暗中",
+      "pinyin": "ànzhōng",
+      "pronunciation": "ahn-joong",
+      "tones": "4·1",
+      "meaning": "covertly, secretly -- doing something without announcing it publicly",
+      "example": "供应商暗中拒绝了至少四批发货，却没有公开宣布。",
+      "examplePinyin": "Gōngyìngshāng ànzhōng jùjuéle zhìshǎo sì pī fāhuò, què méiyǒu gōngkāi xuānbù.",
+      "exampleMeaning": "Suppliers covertly refused at least four shipments, without publicly announcing it.",
+      "note": "近义词 偷偷 (tōutōu) is the everyday, spoken version -- sneaking around, often a petty or childish connotation. 暗中 is the formal, strategic register, used for states and corporations acting quietly, not people hiding candy.",
+      "tiesTo": "Chinese rare-earth suppliers quietly halt US shipments ahead of Xi's Washington visit"
+    }
+  ]
+}

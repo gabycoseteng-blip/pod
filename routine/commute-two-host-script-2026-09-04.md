@@ -20,6 +20,7 @@ SAM: And in Niger, a journalist has vanished. Moussa Kaka — director of Radio 
 ALEX: Human Rights Watch called it a likely forced disappearance on September 3rd; Reporters Without Borders is demanding an urgent probe. Kaka was already arrested and detained back in October on vague "public order" charges, so this fits a pattern, not an isolated incident.
 SAM: What does it say about the junta's confidence right now?
 ALEX: A government that just survived a coup attempt with foreign military backing doesn't usually go after a single radio director unless it's nervous about the narrative he controls. Disappearing a well-known journalist days after a failed coup is a signal to every other independent outlet in Niamey, not an isolated grudge.
+SAM: Worth noting Kaka isn't a fringe figure either — he spent years as an RFI correspondent, which means international wire services already have a relationship with him and are more likely to keep this story alive than they would for a purely local reporter.
 
 ## SEGMENT ONE — U.S. BUSINESS
 
@@ -73,6 +74,8 @@ SAM: SpaceX is getting into gas turbines now?
 ALEX: Vertically integrating into turbine components, specifically. They're building a foundry in Bastrop, Texas to cast single-crystal nickel-superalloy blades and vanes — the same casting process used for Raptor engine turbopumps, now applied to natural-gas power turbines. Musk's claiming up to 18 months off turbine lead times.
 SAM: That's the actual bottleneck everyone in your world keeps talking about.
 ALEX: It is — GE Vernova, Siemens, Mitsubishi have had gas turbine order books stretching years out. TechCrunch's counter-read is worth noting: faster turbine deployment for AI load means faster local emissions and permitting fights, not fewer of them — you've just moved the constraint downstream. But strategically this is the same logic as Nvidia taking equity stakes in powered land — control your own bottleneck instead of waiting in someone else's queue, just applied one layer further upstream, straight at the turbine oligopoly itself.
+SAM: Before we move on — is there a read on whether these tariff terms are actually holding up load growth projections, or is it mostly paperwork?
+ALEX: It's more than paperwork at this point. Several utilities have started tying their own generation build-out timelines directly to signed large-load contracts rather than forecasted demand — which means a slow tariff negotiation now delays real steel-in-the-ground decisions, not just billing terms. That's the shift practitioners should actually be watching.
 SAM: There's also a battery storage angle on Trump's foreign-grid-equipment order.
 ALEX: Right, and this is a real update on a story we've already covered — BloombergNEF's analysis says the EO lands very unevenly. Transformers and switchgear are mostly insulated, because the US already sources those domestically or from non-Chinese suppliers. Battery storage is the exposed one — the US sources about 60% of lithium-ion cells from China.
 SAM: Who actually gets hurt by that?

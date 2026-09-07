@@ -1,0 +1,34 @@
+{
+  "throughline": "Systems getting routed around — a court waives review, a utility waives its queue, investors refuse a good number, a trial catches paperwork that was never real",
+  "stories": [
+    "germany-afd-saxony-anhalt-landslide-43pct-merz-rebuke",
+    "miami-amazon-cargo-plane-crash-5dead-mia",
+    "ohio-amy-acton-armed-attack-canfield-fair-havas",
+    "uber-layoffs-3300-10pct-workforce-restructuring",
+    "campbells-13pct-workforce-cut-plant-closures",
+    "bolivia-ypfb-state-oil-intervention-corruption",
+    "nedbank-ncba-kenya-66pct-acquisition-cleared",
+    "us-jobs-report-rate-hike-repricing-peso-record-low",
+    "scotus-ballroom-5-4-roberts-dissent-east-wing",
+    "pge-flex-connect-flexible-interconnection-bypass",
+    "california-golden-state-wind-lawsuit-trump-buyout",
+    "santee-cooper-google-weathernext2-grid-capex",
+    "philippines-impeachment-day22-psa-aliases-admission",
+    "philippines-peso-record-low-gir-18mo-low",
+    "philippines-barmm-first-parliament-election-ubjp-bfp-split",
+    "china-listed-earnings-25.7pct-h1-csi300-star50-disconnect",
+    "china-vanke-shenzhen-sasac-interest-deferral-september",
+    "vmfa-acquisitions-pendleton-quick-to-see-smith",
+    "opera-montana-river-runs-through-it-redler-premiere",
+    "paris-review-dorothea-lasky-profile",
+    "eleerian-ai-bumpier-hyperscaler-bond-financing",
+    "krueger-shipbuilding-protectionism-jones-act",
+    "one-good-thing-gail-youngdale-alzheimer-reversal-reunion-marriage"
+  ],
+  "explainers": [
+    "PG&E Flex Connect flexible/curtailable interconnection as a queue-bypass mechanism",
+    "NCPC review + congressional appropriation power over DC federal property",
+    "China listed-company earnings vs. equity pricing disconnect as a debt-deflation-adjacent signal"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

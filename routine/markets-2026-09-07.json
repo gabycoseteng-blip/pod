@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-07",
+  "asOf": "Friday, September 4 close",
+  "groups": [
+    {
+      "name": "US Indices",
+      "rows": [
+        {"label": "S&P 500", "value": "7,718.60", "change": "-0.38%", "dir": "down"},
+        {"label": "Nasdaq", "value": "26,506.99", "change": "-0.29%", "dir": "down"},
+        {"label": "Dow", "value": "53,414.25", "change": "-0.51%", "dir": "down"},
+        {"label": "Russell 2000", "value": "2,975.65", "change": "+0.25%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Rates",
+      "rows": [
+        {"label": "UST 10Y", "value": "4.79%", "change": "+3 bps", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Commodities",
+      "rows": [
+        {"label": "Gold", "value": "$4,429.00", "change": "-1.14%", "dir": "down"},
+        {"label": "WTI Crude", "value": "$91.48", "change": "+0.20%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "FX",
+      "rows": [
+        {"label": "USD/PHP", "value": "62.59", "change": "+0.11% (record low)", "dir": "up"}
+      ]
+    }
+  ],
+  "note": "Prior-session close (Friday, Sept 4) — US markets closed Monday, Sept 7 for Labor Day."
+}

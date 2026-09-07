@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-07",
+  "cards": [
+    {
+      "id": "2026-09-07-tl-1",
+      "lang": "Tagalog",
+      "word": "huwad",
+      "pinyin": "",
+      "pronunciation": "hoo-WAD",
+      "tones": "",
+      "meaning": "fake, counterfeit, not genuine — especially of an identity or claim, not just an object",
+      "example": "Inamin ng abogado na huwad ang mga pangalan sa listahan.",
+      "examplePinyin": "",
+      "exampleMeaning": "The lawyer admitted the names on the list were fake.",
+      "note": "Mas mabigat ang dating kaysa sa karaniwang 'peke' — mas madalas gamit sa balita o sa korte kapag pagkakakilanlan ng tao ang tinatanong, hindi lang basta produkto. Kapatid na salita: 'impostor' kapag tao mismo ang tinutukoy.",
+      "tiesTo": "Duterte impeachment trial — confidential-fund payee aliases admitted"
+    },
+    {
+      "id": "2026-09-07-tl-2",
+      "lang": "Tagalog",
+      "word": "paghihiwalay",
+      "pinyin": "",
+      "pronunciation": "pag-hee-hee-wa-LAI",
+      "tones": "",
+      "meaning": "a splitting apart, a breaking away — the process/result of a group or alliance dividing",
+      "example": "Ang paghihiwalay ng BFP mula sa UBJP ay nagulat sa marami.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BFP's breakaway from the UBJP surprised many.",
+      "note": "Iba sa 'hidwaan,' na tumutukoy sa alitan o tunggalian mismo. Ang paghihiwalay ay ang resulta — kapag talagang naghiwalay na ang mga panig at magkahiwalay na ang landas, hindi na basta nag-aaway lamang.",
+      "tiesTo": "First BARMM Parliament election — BFP breakaway from MILF's UBJP"
+    },
+    {
+      "id": "2026-09-07-zh-1",
+      "lang": "Mandarin",
+      "word": "只要…就…",
+      "pinyin": "zhǐyào... jiù...",
+      "pronunciation": "jr-yow... jyoh...",
+      "tones": "3 4 · 4",
+      "meaning": "as long as... then... (a sufficient-condition connective, more formal/analytical than 如果)",
+      "example": "只要经济不回暖，股市就难以起色。",
+      "examplePinyin": "zhǐyào jīngjì bù huínuǎn, gǔshì jiù nányǐ qǐsè",
+      "exampleMeaning": "As long as the economy doesn't warm up, the stock market will struggle to recover.",
+      "note": "书面语/formal-analytical register — common in finance and policy speech. Unlike neutral 如果 ('if X, then Y' for any hypothetical), 只要 frames X as THE sufficient condition — a stronger claim that X alone guarantees Y.",
+      "tiesTo": "China's H1 listed-company earnings up 25.7% vs. CSI 300/STAR 50 sell-off"
+    },
+    {
+      "id": "2026-09-07-zh-2",
+      "lang": "Mandarin",
+      "word": "脱节",
+      "pinyin": "tuōjié",
+      "pronunciation": "twaw-jyeh",
+      "tones": "1 · 2",
+      "meaning": "disconnected, out of sync — a relationship/correlation between two things that should track together but no longer does",
+      "example": "利润增长与股市表现脱节。",
+      "examplePinyin": "lìrùn zēngzhǎng yǔ gǔshì biǎoxiàn tuōjié",
+      "exampleMeaning": "Profit growth has become disconnected from stock-market performance.",
+      "note": "书面语/formal register — literally 'to come apart at the joint,' used abstractly. Near-synonym 分离 (fēnlí) is more physical/literal (two objects pulled apart); 脱节 is specifically for a broken correlation between two things.",
+      "tiesTo": "China's H1 listed-company earnings up 25.7% vs. CSI 300/STAR 50 sell-off"
+    }
+  ]
+}

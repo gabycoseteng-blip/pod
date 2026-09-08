@@ -1,0 +1,33 @@
+{
+  "throughline": "The paperwork finally catches up with the people it was written to protect -- a plunder warrant for the Philippines' 'biggest fish,' a prosecution that gives up on witnesses and goes straight for the queen, a security guarantee Washington won't confirm in writing, and a trade surplus that keeps growing because nothing at home will buy",
+  "stories": [
+    "iran-hormuz-restricted-zone-declaration",
+    "greenland-eu-232m-nato-arctic-shield",
+    "argentina-falklands-milei-hydrocarbon-sanctions",
+    "lululemon-guidance-cut-tariff-refund-margin",
+    "diesel-record-high-american-airlines-profit-cut",
+    "volkswagen-future-plan-2030-50k-cuts",
+    "trump-bombardier-us-sales-ban-threat",
+    "market-quiet-carried-over-labor-day-jobs-repricing",
+    "deep-dive-lz-dark-matter-248kev-recoil-hint",
+    "pjm-reliability-backstop-procurement-launch",
+    "hyperscaler-behind-meter-gas-turbine-price-surge-75pct",
+    "semianalysis-tpu-ironwood-inference-benchmark",
+    "philippines-romualdez-plunder-arrest-7.44b",
+    "philippines-duterte-impeachment-day23-vp-witness",
+    "philippines-fuel-hike-peso-record-62.625",
+    "philippines-habagat-zambales-flood-warning",
+    "china-august-trade-data-two-speed-surplus",
+    "arts-cassatt-art-institute-chicago-retrospective",
+    "arts-fratino-david-zwirner-london-prose",
+    "arthur-jafa-i-am-tony-new-museum-survey",
+    "opeds-wooldridge-tech-mogul-strongman",
+    "one-good-thing-organ-donor-wedding-dotson-waters"
+  ],
+  "explainers": [
+    "PJM backstop auction bilateral-vs-competitive structure",
+    "GE Vernova firm backlog vs paid slot reservations",
+    "LZ dark matter sigma/discovery-threshold statistics"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

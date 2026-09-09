@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-09",
+  "asOf": "Tuesday, September 8 close",
+  "groups": [
+    {
+      "name": "US Indices",
+      "rows": [
+        {"label": "S&P 500", "value": "7,673.52", "change": "-0.58%", "dir": "down"},
+        {"label": "Nasdaq Composite", "value": "26,421.41", "change": "-0.32%", "dir": "down"},
+        {"label": "Dow Jones", "value": "52,786.07", "change": "-1.18%", "dir": "down"},
+        {"label": "Russell 2000", "value": "2,960.11", "change": "-0.52%", "dir": "down"}
+      ]
+    },
+    {
+      "name": "Global Indices",
+      "rows": [
+        {"label": "FTSE 100", "value": "10,811.66", "change": "-0.10%", "dir": "down"},
+        {"label": "DAX", "value": "25,962.71", "change": "-0.17%", "dir": "down"},
+        {"label": "Nikkei 225", "value": "65,269.33", "change": "-1.70%", "dir": "down"},
+        {"label": "Hang Seng", "value": "25,317.18", "change": "-0.38%", "dir": "down"},
+        {"label": "Shanghai Composite", "value": "3,940.55", "change": "+0.20%", "dir": "up"},
+        {"label": "PSEi", "value": "6,105.99", "change": "+0.37%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Rates",
+      "rows": [
+        {"label": "UST 10Y", "value": "4.79%", "change": "+3 bps", "dir": "up"}
+      ]
+    },
+    {
+      "name": "Commodities",
+      "rows": [
+        {"label": "Gold", "value": "4,443.90", "change": "-0.6%", "dir": "down"},
+        {"label": "WTI Crude", "value": "94.24", "change": "+3.0%", "dir": "up"}
+      ]
+    },
+    {
+      "name": "FX",
+      "rows": [
+        {"label": "USD/PHP", "value": "62.625", "change": "+0.14", "dir": "up"},
+        {"label": "DXY", "value": "98.85", "change": "-0.33%", "dir": "down"}
+      ]
+    }
+  ],
+  "note": "Prior-session close (Tue Sept 8) — full levels so the show can stay brief. FMP unavailable today; figures hand-compiled from sourced web reporting (see commute-brief-2026-09-09.md)."
+}

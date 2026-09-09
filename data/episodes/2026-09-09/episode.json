@@ -1,0 +1,885 @@
+{
+  "date": "2026-09-09",
+  "title": "Wednesday, September 9, 2026",
+  "day": "Wednesday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-09-09.mp3",
+  "durationSec": 1555,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Wednesday, September 9th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Iran just fired roughly 20 ballistic missiles at a US-linked air base in Jordan, and that's not even where we're starting.",
+          "startSec": 3.87,
+          "endSec": 10.71
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Actually, let's start with the tanker war, because it's what triggered the Jordan strike in the first place.",
+          "startSec": 10.71,
+          "endSec": 16.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "CENTCOM destroyed five IRGC-linked oil tankers Monday — the Kaviz, the Charminar, Horizon 1, the Riesco, and the Derya — after Iran fired ballistic missiles at a US Navy warship on two separate days. The ship evaded both times, no American casualties. Iran's response Monday night was to fire about 20 ballistic missiles at Jordan's Al Azraq air base, which US fighter jets operate out of.",
+          "startSec": 16.14,
+          "endSec": 35.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Jordan actually held the line on that one.",
+          "startSec": 35.7,
+          "endSec": 38.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They say they intercepted 18 of the 20, with two falling in unpopulated areas. But this is real geographic spillover — Jordan hadn't been a direct target before. Every escalation in this chain now touches a different country's territory, which is exactly the kind of thing that stops being containable once enough dominoes are standing.",
+          "startSec": 38.01,
+          "endSec": 54.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story — eleven countries just moved from statements to actual trade policy on Israel.",
+          "startSec": 54.91,
+          "endSec": 59.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The UK, France, Canada, and eight others — Denmark, Finland, Iceland, Ireland, Norway, Poland, Portugal, Spain, Sweden — announced Monday they'll ban imports of goods originating specifically from Israeli West Bank settlements, citing what they called unprecedented settler violence. Goods from Israel itself aren't affected, that distinction is deliberate.",
+          "startSec": 59.53,
+          "endSec": 77.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "How did Israel respond?",
+          "startSec": 77.48,
+          "endSec": 78.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "By closing the British consulate in East Jerusalem. Foreign Minister Gideon Sa'ar accused the eleven of stoking antisemitism. This is a real step up from the UK-only contracts freeze we'd covered before — eleven governments, coordinated, on the same day.",
+          "startSec": 78.64,
+          "endSec": 91.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third — and this one's Europe eating itself over a budget, which has real knock-on effects for everyone holding French debt.",
+          "startSec": 91.41,
+          "endSec": 97.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "French PM François Bayrou lost a confidence vote Monday and resigned after his €43.8 billion austerity budget — which would've cut the deficit from 5.4% to 4.6% of GDP — failed to win support. Macron named Sébastien Lecornu as the new PM this morning. Lecornu now has to form a government and pass a 2026 budget in a parliament with no majority for anyone.",
+          "startSec": 97.65,
+          "endSec": 115.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Fitch already moved on this, right?",
+          "startSec": 115.55,
+          "endSec": 117.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Already cut France to A+ from AA-, a record low for the country, and they're projecting debt hits 121% of GDP by 2027. That's the fourth French PM in under two years failing to pass a budget — the market's basically pricing in permanent fiscal paralysis in the eurozone's second-largest economy now.",
+          "startSec": 117.51,
+          "endSec": 132.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onto US business — and it's a genuine bank merger, not the usual capex story.",
+          "startSec": 132.54,
+          "endSec": 136.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "WaFd and EverBank announced a $3.9 billion reverse merger. EverBank technically merges into WaFd, but the combined company rebrands as EverBank Financial Corp and lists on Nasdaq as EVBK. It creates a roughly $75 billion-asset bank with 250-plus financial centers. EverBank's CEO Greg Seibly leads the combined company; WaFd's Brent Beardall becomes president.",
+          "startSec": 136.41,
+          "endSec": 154.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "Who actually owns the thing once it closes?",
+          "startSec": 154.52,
+          "endSec": 156.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "EverBank's investor base — Stone Point, Warburg Pincus, Reverence Capital, Sixth Street, Bayview, TIAA — ends up with about 59.2% of the combined company. Expected to close early 2027. It's a reverse merger specifically because EverBank's brand and growth story are worth more than WaFd's, even though WaFd's the technical survivor.",
+          "startSec": 156.68,
+          "endSec": 173.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second US story — the Paramount-Warner fight just got a nine-figure side battle of its own.",
+          "startSec": 173.37,
+          "endSec": 177.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In the twelve-state antitrust suit blocking Paramount Skydance's $111 billion Warner Bros. Discovery merger, a federal judge set a September 24th hearing on Paramount's demand that the states and the WGA post a $1.88 billion bond to cover Paramount's losses from the delay.",
+          "startSec": 177.95,
+          "endSec": 191.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "A bond just to keep suing them?",
+          "startSec": 191.67,
+          "endSec": 193.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the ask. State AGs are pushing back hard this week, calling it an attempt to offload responsibility for a contractual ticking fee — 25 cents a share per quarter to WBD shareholders, roughly $7 million a day — that starts accruing September 30th if the deal hasn't closed. Paramount's essentially trying to make the states personally liable for a fee structure Paramount itself negotiated.",
+          "startSec": 193.23,
+          "endSec": 213.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "International — Canada actually followed through on the tariff threat this time.",
+          "startSec": 213.09,
+          "endSec": 217.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Canada's retaliatory tariffs took effect Monday — 15 to 50% on roughly $20 billion of US goods, more than 800 product lines: steel, dairy, appliances, ag equipment, pulp and paper, electronics. This came after trade talks with Washington collapsed Friday. PM Carney said Canada quote \"suspended negotiations\" over what he called unreasonable last-minute US demands.",
+          "startSec": 217.12,
+          "endSec": 235.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "Did Carney own the cost of that to Canadians?",
+          "startSec": 235.47,
+          "endSec": 237.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Directly — he acknowledged the tariffs quote \"will raise costs and reduce choice for Canadians.\" That's a rare bit of political honesty in a trade fight; usually you get the retaliation announced without anyone admitting the domestic price tag out loud.",
+          "startSec": 237.73,
+          "endSec": 250.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last headline — Serbia's about to have a snap election a year early.",
+          "startSec": 250.45,
+          "endSec": 253.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "PM Đuro Macut's government formally asked President Vučić on Monday to dissolve parliament, with an election reportedly landing October 18th or 25th — a year ahead of the scheduled December 2027 vote. This follows nearly two years of anti-government unrest, and Vučić is reportedly positioning to move from president to prime minister himself.",
+          "startSec": 253.87,
+          "endSec": 271.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a strongman switching seats rather than stepping back.",
+          "startSec": 271.12,
+          "endSec": 274.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — dissolving parliament early, under protest pressure, then repositioning into the PM's chair rather than facing a presidential referendum on his own record, is its own kind of answer to the unrest question.",
+          "startSec": 274.19,
+          "endSec": 284.9
+        }
+      ],
+      "startSec": 10.7
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Quick note before the tape — we're on FMP for the levels most days, but the feed was down this morning, so today's numbers are hand-compiled and cross-checked across multiple outlets rather than pulled live. Worth flagging.",
+          "startSec": 284.9,
+          "endSec": 296.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the one thing that actually clears our bar is oil. WTI closed Tuesday up 3% to $94.24 a barrel, Brent topped $99 — tied directly to the Iran escalation we just covered. That drove a real risk-off day across US and Asian equities.",
+          "startSec": 296.11,
+          "endSec": 307.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "How much of that showed up in the actual indices?",
+          "startSec": 307.83,
+          "endSec": 310.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Dow fell 1.18%, S&P down 0.58%, Nasdaq off 0.32% — moderate, not shock-day numbers on their own. But the Nikkei dropped 1.7%, which does clear our threshold — yen strength on Bank of Japan tightening expectations, compounded by the same oil-driven risk-off. Full levels for everything are on the Markets tab; we're not reading the whole tape.",
+          "startSec": 310.29,
+          "endSec": 328.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's underneath the oil move, beyond just \"Iran fired missiles\"?",
+          "startSec": 328.53,
+          "endSec": 332.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's the fact that this is now a multi-country escalation chain — Jordan yesterday, the tanker strikes before that — and oil traders are pricing in a real probability the Strait of Hormuz corridor gets meaningfully disrupted, not just threatened. The 10-year ticked up 3 basis points to 4.79%, flirting with that psychologically important 4.8% level, partly on fiscal-risk headlines out of Washington and partly because a sustained oil shock is itself inflationary.",
+          "startSec": 332.01,
+          "endSec": 356.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "So today's not really a \"watch the tape\" day either.",
+          "startSec": 356.52,
+          "endSec": 359.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "No — it's a \"watch whether Hormuz actually gets disrupted\" day. If tanker transit through the Strait keeps falling the way it has the last couple weeks, the oil move stops being a one-day headline and starts being a persistent input into every inflation and rate call for the rest of the quarter.",
+          "startSec": 359.27,
+          "endSec": 374.87
+        }
+      ],
+      "startSec": 284.9
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Deep dive today's a genuine left turn — out of geopolitics and energy, into the software underneath the entire hardware renaissance.",
+          "startSec": 374.87,
+          "endSec": 381.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's built around an interview in The Generalist with Scott Morton, founder and CEO of a company called Revel. Morton spent nearly a decade at SpaceX building the control software for Falcon 9 and Starship, then left to found Revel — which just raised $180 million at close to a $1 billion valuation, with customers including Impulse Space and Radiant Nuclear.",
+          "startSec": 381.83,
+          "endSec": 400.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's his actual argument — because \"rockets need better software\" isn't exactly a hot take.",
+          "startSec": 400.81,
+          "endSec": 405.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His argument is sharper than that. He says the entire hardware renaissance — rockets, nuclear reactors, supersonic jets — isn't actually bottlenecked by physics or even capital anymore. It's bottlenecked by test and control software that's still running on tooling built in the 1980s and 90s. And critically, he says that's a gap AI can't close on its own — his line is quote, \"no one will vibe-code a nuclear reactor.\"",
+          "startSec": 405.71,
+          "endSec": 427.8
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the AI wave doesn't actually solve this problem for him.",
+          "startSec": 427.8,
+          "endSec": 430.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Not directly, no — because the bar for safety-critical control systems is fundamentally different from the bar for a chatbot getting something 95% right. Revel actually built a proprietary language for this, called RevelCode, specifically because Morton says the existing industrial tooling can't meet the runtime-safety requirements these systems need at scale.",
+          "startSec": 430.91,
+          "endSec": 450.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does this matter to someone who thinks about energy and data-center infrastructure all day?",
+          "startSec": 450.0,
+          "endSec": 455.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because Radiant Nuclear is a customer — that's a microreactor company, the same category as the Army's Janus program we've covered before. And it reframes something we've been treating as a capital and permitting story. If the actual constraint on standing up new nuclear, new rocket capacity, new advanced manufacturing is the control-software layer underneath the hardware, that changes who the critical vendors are. It's not just the turbine makers and the utilities — it's whoever's building the test harness and the runtime safety layer nobody sees.",
+          "startSec": 455.0,
+          "endSec": 484.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is there a skeptical read on this too, or is it just a founder pitching his own company's importance?",
+          "startSec": 484.21,
+          "endSec": 489.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's an obvious self-interest angle — Morton would say this regardless, he's raised $180 million on exactly this thesis. But the underlying observation, that safety-critical control software has genuinely lagged every other layer of the stack while hardware and AI moved fast, tracks with what you'd expect structurally. Aerospace and nuclear software has always been conservative by design, for good reason — it's just that \"conservative by design\" starts looking like a real bottleneck once everything built on top of it wants to move at Silicon Valley speed.",
+          "startSec": 489.54,
+          "endSec": 519.27
+        }
+      ],
+      "startSec": 374.9
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Energy — starting with a nuclear restart where the financing structure is the actual story.",
+          "startSec": 519.27,
+          "endSec": 524.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "DOE's Office of Energy Dominance Financing closed a loan of up to $1.9 billion to NextEra to restart the Duane Arnold Energy Center — 615 megawatts, Iowa's only nuclear plant, shut since 2020. Target restart is no later than Q1 2029, pending NRC relicensing.",
+          "startSec": 524.07,
+          "endSec": 537.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's actually backstopping that loan — the usual ratepayer clause?",
+          "startSec": 537.67,
+          "endSec": 541.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "No, and that's the point — it's a 25-year power purchase agreement with Google. Not a state regulator, not a ratepayer surcharge. A hyperscaler's PPA is what got a $1.9 billion federal loan across the line for a nuclear restart. Iowa's own economic-impact study pegs the benefit at over $9 billion over 25 years and 400-plus permanent jobs, but the financing mechanics are the real shift — Google's balance sheet is now doing work that used to require a utility commission.",
+          "startSec": 541.25,
+          "endSec": 566.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "We've tracked the Texas moratorium and the Batch Zero audit before — what's actually new there this week?",
+          "startSec": 566.19,
+          "endSec": 571.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The number, not the mechanism — ERCOT's hourly load averaged a record 74.5 gigawatts the week of August 22nd, and that's six straight weeks now above the prior 2023 record, building on the 91.09 gigawatt all-time peak from July. The Abbott pause and the December 10th audit deadline are the same story we've covered, but this is the first hard evidence that real demand is climbing just as fast as the queue is being scrutinized — the 474-gigawatt proposed-load backlog isn't shrinking while regulators sort real projects from speculative ones.",
+          "startSec": 571.72,
+          "endSec": 600.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Different angle now — Google's also doing something interesting with storage in West Virginia.",
+          "startSec": 600.4,
+          "endSec": 605.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A $350 million project on a former coal-mine site in the PJM footprint — 86 megawatts of solar, plus 10 megawatts and 100 megawatt-hours of zinc-based long-duration storage from Eos, plus 70 megawatts and 280 megawatt-hours of lithium storage. It's explicitly designed to shape-match Google's regional data-center load profile, not just offset intermittency.",
+          "startSec": 605.36,
+          "endSec": 624.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is Eos a new name in this space for Google?",
+          "startSec": 624.23,
+          "endSec": 626.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's actually Google's third long-duration storage vendor, after Form Energy and Energy Dome. The bigger shift CTVC is flagging is that storage is now being valued as a capacity asset for load-matching specifically — not the old framing of \"storage smooths out renewables' intermittency.\" Solar's targeting commercial operation in 2028, storage in 2029 to 2030.",
+          "startSec": 626.5,
+          "endSec": 647.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last one — a smaller story, but it's the first real proof point for an idea we've discussed before it had numbers behind it.",
+          "startSec": 647.58,
+          "endSec": 654.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "PG&E's Flex Connect program — flexible interconnection that lets a customer get grid access without waiting for the full queue process, in exchange for accepting curtailment during peak stress. In year two of the pilot, customers are getting grid access 90% of hours. PG&E received 10 Flex Connect applications in 2026 alone, and the first flexible data-center site — 5 megawatts, Bay Area — goes live this fall.",
+          "startSec": 654.82,
+          "endSec": 678.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the flexible-interconnection concept is moving from theory to an actual live data-center site.",
+          "startSec": 678.89,
+          "endSec": 684.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly, and that's the piece that matters — if 90% uptime with occasional curtailment is genuinely good enough for a real data-center operator, that's a queue-bypass mechanism that could scale well beyond one utility's pilot program.",
+          "startSec": 684.55,
+          "endSec": 698.22
+        }
+      ],
+      "startSec": 519.3
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Bago tayo pumunta sa Pilipinas, dalawang salita muna, Tagalog lang, walang Ingles.",
+          "startSec": 698.22,
+          "endSec": 703.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sige. Unang salita: kasakiman. Ibig sabihin, ang sobra-sobrang paghahangad ng yaman o kapangyarihan — lalo na kung ito'y nakakasama sa iba. Hindi lang ito basic na \"gusto ng pera\" — may kasamang diin na kahit sapat na ang meron ka, gusto mo pa rin ng higit, kahit pa masaktan ang ibang tao dahil dito.",
+          "startSec": 703.01,
+          "endSec": 720.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "May kaugnayan ba ito sa salitang \"sakim\" na mas madalas nating naririnig?",
+          "startSec": 720.58,
+          "endSec": 724.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ugat nga niya iyon — \"sakim\" ang pang-uri, tapos \"kasakiman\" ang pangngalan, ang mismong konsepto o katangian. Kapag sinabi mong \"sakim siya,\" inilalarawan mo ang tao. Kapag sinabi mong \"ang kasakiman niya,\" tinutukoy mo na ang mismong bisyo o katangiang iyon bilang paksa ng usapan — mas madalas itong ginagamit sa balita kapag pinag-uusapan ang ugat ng isang malaking kaso ng korapsyon.",
+          "startSec": 724.85,
+          "endSec": 747.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pangalawang salita naman, at mas positibo ito.",
+          "startSec": 747.51,
+          "endSec": 750.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Kasunduan. Ibig sabihin, ang pormal na pagsang-ayon ng dalawang panig sa isang bagay — puwedeng negosyo, puwedeng diplomasya, puwede ring personal. Ang ugat ay \"sundo\" o \"sundan,\" na may diin sa pagsunod sa mga tuntuning pinagkasunduan.",
+          "startSec": 750.19,
+          "endSec": 763.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mayroon bang pagkakaiba ito sa \"kasulatan\" o \"kontrata,\" na parehong Ingles-influenced din ang dating?",
+          "startSec": 763.98,
+          "endSec": 769.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo, may pagkakaiba. Ang \"kontrata\" o \"kasulatan\" ay tumutukoy sa dokumento mismo — ang papel. Ang \"kasunduan\" naman ay tumutukoy sa mismong pagsang-ayon, ang aktwal na usapan o desisyon — puwede itong verbal, hindi kailangang nakasulat. Sa diplomasya lalo, mas madalas \"kasunduan\" ang ginagamit dahil hindi lahat ng usapang pang-estado ay kasing-pormal ng isang legal na kontrata.",
+          "startSec": 769.93,
+          "endSec": 792.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Puwede bang gamitin ang dalawang salita sa magkahiwalay na pangungusap, ang paraan ng talagang gagamitin sa balita ngayon?",
+          "startSec": 792.12,
+          "endSec": 799.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo — halimbawa: \"Ang kasakiman umano ng ilang opisyal ang naging ugat ng multi-bilyong pisong korapsyon sa flood control.\" At para sa pangalawa: \"Bahagi ng kasunduan sa pagitan ng Pilipinas at India ang malawakang kooperasyon sa enerhiya at imprastraktura hanggang taong 2029.\" Ganyan talaga gagamitin ang dalawang salitang ito sa balita ngayon.",
+          "startSec": 799.25,
+          "endSec": 819.4
+        }
+      ],
+      "startSec": 698.2
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "At doon na tayo pupunta — malaking balita pa rin ang kaso ni dating Speaker Romualdez.",
+          "startSec": 819.4,
+          "endSec": 824.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang kasakiman umano ng ilang opisyal ang naging ugat ng multi-bilyong pisong korapsyon sa flood control — at ngayon, si dating House Speaker Martin Romualdez, na inaresto noong Lunes sa 7.44 bilyong pisong kasong plunder, ay nakikipaglaban pa rin para manatili sa ospital sa halip na sa Payatas detention facility.",
+          "startSec": 824.42,
+          "endSec": 842.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ano ang pinakabagong development doon?",
+          "startSec": 842.76,
+          "endSec": 844.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sinugod siya sa Cardinal Santos Medical Center, at sinabi ni Interior Secretary Jonvic Remulla na nagkaroon siya ng cardiovascular event, unstable blood pressure, at anxiety attack. Ngayon, pormal nang pinepetisyon ng kanyang mga abogado na manatili siya sa ospital hanggang sa medically cleared siya — sinisipi nila ang kanyang quote \"documented cardiac history,\" diabetes, at hypothyroidism. Dahil non-bailable ang plunder, ang laban dito ay tungkol sa kung saan siya ikukulong, hindi na kung ikukulong siya.",
+          "startSec": 844.98,
+          "endSec": 874.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "This is a genuine escalation beyond the arrest itself, then.",
+          "startSec": 874.76,
+          "endSec": 878.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — the arrest was already covered. What's new is the fight specifically over custody location, with a documented medical case being built in real time to keep him out of Payatas indefinitely.",
+          "startSec": 878.27,
+          "endSec": 889.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mayroon namang mas positibong balita — papuntang India si Pangulong Marcos.",
+          "startSec": 889.71,
+          "endSec": 894.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bahagi ng kasunduan sa pagitan ng Pilipinas at India ang malawakang kooperasyon sa enerhiya at imprastraktura hanggang taong 2029 — at doon na aatend si Marcos sa 18th BRICS Summit sa India sa Setyembre 12 at 13, sa imbitasyon mismo ni Prime Minister Modi. Ito ang unang beses na direktang nakikipag-ugnayan ang isang Presidente ng Pilipinas sa BRICS.",
+          "startSec": 894.09,
+          "endSec": 914.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's he actually pushing for on that trip?",
+          "startSec": 914.59,
+          "endSec": 917.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "He's using it to press the Philippines' 2026 ASEAN-chair priorities — peace and security, people empowerment, prosperity — and to follow up on $5.8 billion in Indian investment pledges made during his state visit last August. There's also a bilateral with Modi specifically on that 2025-to-2029 strategic partnership plan.",
+          "startSec": 917.16,
+          "endSec": 935.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a real diversification move — engaging BRICS directly while still an ASEAN chair and a US treaty ally.",
+          "startSec": 935.97,
+          "endSec": 942.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's threading a genuinely difficult needle — showing up at BRICS without abandoning the US alliance architecture, purely on the economic-diversification logic. One more note before we move on — the peso's still sitting near that record low we've tracked for weeks, so we'll keep that brief since it's the same story compounding, not new. And no PSEi line today either — it moved well under half a percent, doesn't clear the bar. No active PAGASA storm signal either, just a routine yellow rainfall advisory in Zambales, nothing escalating.",
+          "startSec": 942.33,
+          "endSec": 973.87
+        }
+      ],
+      "startSec": 819.4
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words before China — one's a formal connective, one's an economic term specifically for today's inflation data.",
+          "startSec": 973.87,
+          "endSec": 981.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First: 甚至 — shènzhì. It means \"even\" or \"to the extent that\" — an escalating adverb you drop in front of the most extreme example in a list, to say things went further than you'd expect. It's a mixed register, common in both spoken analysis and formal writing, and it's exactly the word for building an argument that's getting worse as it goes.",
+          "startSec": 981.11,
+          "endSec": 1000.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Example sentence?",
+          "startSec": 1000.69,
+          "endSec": 1001.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "消费需求持续低迷，制造业利润甚至出现下滑。 (\"Consumer demand continues to be sluggish; manufacturing profits have even declined.\") Notice the structure — 甚至 sits right before the extreme case, flagging that what follows tops everything said before it.",
+          "startSec": 1001.65,
+          "endSec": 1016.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word, and this one's specific to today's China numbers.",
+          "startSec": 1016.6,
+          "endSec": 1020.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "输入性通胀 — shūrùxìng tōngzhàng. It literally breaks down as \"imported\" plus \"inflation\" — a fixed economic term for inflation driven by rising costs from outside your own economy, like global oil or commodity prices, rather than genuine domestic demand.",
+          "startSec": 1020.09,
+          "endSec": 1034.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "How's that different from just saying 通货膨胀, regular inflation?",
+          "startSec": 1034.64,
+          "endSec": 1038.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "通货膨胀 is the general word for inflation, no matter the cause. 输入性通胀 specifically diagnoses the source as external — it's the term an economist reaches for when they want to say \"prices are rising, but it's not because people are spending more, it's because the cost of what we're importing went up.\" That distinction is exactly the argument in today's China data.",
+          "startSec": 1038.5,
+          "endSec": 1059.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "Combine both words the way you'd actually hear it on a finance desk?",
+          "startSec": 1059.72,
+          "endSec": 1063.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "输入性通胀掩盖了内需疲软的问题，情况甚至比数据表面显示的更严重。 (\"Imported inflation has masked the problem of weak domestic demand — the situation is even more serious than what the data shows on the surface.\") That's essentially the sentence we're about to say about China, just with the numbers attached.",
+          "startSec": 1063.56,
+          "endSec": 1081.91
+        }
+      ],
+      "startSec": 973.9
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "China, and it's exactly that sentence, with today's actual inflation data behind it.",
+          "startSec": 1081.91,
+          "endSec": 1086.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "输入性通胀掩盖了内需疲软的问题，情况甚至比数据表面显示的更严重。 Imported inflation has masked the problem of weak domestic demand — the situation is even more serious than what the data shows on the surface. China's August CPI came in at plus 0.8% year on year, up from plus 0.5% in July and well above the 0.3% consensus. PPI climbed 3.8% year on year, up from 3.5%, also beating forecasts.",
+          "startSec": 1086.65,
+          "endSec": 1109.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's actually driving that rebound — is it real demand finally coming back?",
+          "startSec": 1109.75,
+          "endSec": 1114.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the key question, and the answer looks like no. The rebound tracks with higher global commodity and energy costs plus surging high-tech and electronics demand, not a genuine consumption revival. It's the same oil spike we covered in markets today, showing up as an input cost inside China's own inflation print.",
+          "startSec": 1114.09,
+          "endSec": 1132.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does that change what the PBOC does next?",
+          "startSec": 1132.02,
+          "endSec": 1134.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It likely reduces near-term pressure on them to cut further, since headline inflation numbers look less deflationary on paper — but that's arguably the wrong signal if the underlying cause is imported costs rather than actual demand. It fits directly into the two-speed story we keep tracking: is China's consumer deflation genuinely easing, or is it just being temporarily masked by input-cost inflation while domestic demand stays exactly as soft as it's been?",
+          "startSec": 1134.33,
+          "endSec": 1160.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "So a policymaker reading only the headline number could genuinely misread this.",
+          "startSec": 1160.38,
+          "endSec": 1164.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the risk — a CPI print that looks like \"inflation's back, ease off the stimulus\" actually needs the PPI and CPI read together with the demand data to know what's really happening underneath. Headline strength here is doing a lot of work to obscure a structural weakness that hasn't moved at all.",
+          "startSec": 1164.83,
+          "endSec": 1181.86
+        }
+      ],
+      "startSec": 1081.9
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts — starting with a show whose timing is doing something the artist never could have controlled.",
+          "startSec": 1181.86,
+          "endSec": 1187.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Brooklyn Museum opens \"Michael Richards: Free F'All\" this Friday, September 11th, running through next June — deliberately timed to the 25th anniversary of 9/11, because Richards died in his own studio on the 92nd floor of the World Trade Center.",
+          "startSec": 1187.44,
+          "endSec": 1201.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "How does the museum handle that overlap without it becoming morbid framing?",
+          "startSec": 1201.54,
+          "endSec": 1205.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The show centers new sculptural work honoring the Tuskegee Airmen, extending Richards' signature imagery — Black airmen's bodies pierced and suspended in flight, most famously in \"Tar Baby vs. St. Sebastian,\" now at the North Carolina Museum of Art. That imagery was always about flight as both Black transcendence and vulnerability. A quarter-century after his death, it reads with a literalism the artist never intended but couldn't have escaped either.",
+          "startSec": 1205.77,
+          "endSec": 1231.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second item — a painter who's spent 140 years standing in someone else's shadow, finally getting pulled out of it.",
+          "startSec": 1231.42,
+          "endSec": 1237.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Petit Palais in Paris opens the first-ever global retrospective of Eva Gonzalès on September 15th — \"Eva Gonzalès, Parcours d'une artiste libre\" — nearly 100 works, paintings, pastels, and prints, running through January before it travels to the Van Gogh Museum in Amsterdam next February.",
+          "startSec": 1237.85,
+          "endSec": 1254.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why has it taken 140 years for a first retrospective?",
+          "startSec": 1254.37,
+          "endSec": 1257.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She was the only formal pupil Édouard Manet ever took, and that fact has defined how she's been written about ever since — always \"Manet's student,\" rarely just herself. She died at 34, and the show's explicit argument is that her actual technique, especially in pastel, diverged sharply from Manet's by the end. It places her alongside Berthe Morisot, Mary Cassatt, and Marie Bracquemond — not as Manet's shadow, but as part of a cohort of women who built real, distinct practices in a century that mostly didn't want them to.",
+          "startSec": 1257.36,
+          "endSec": 1287.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a real corrective, not just a nostalgia show.",
+          "startSec": 1287.07,
+          "endSec": 1290.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the pitch — and pairing her against Cassatt specifically, right after Chicago's own Cassatt retrospective, makes it a genuinely useful moment to see two women who've each spent a century flattened into a single adjective get read on their own terms, side by side.",
+          "startSec": 1290.01,
+          "endSec": 1305.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last one — a literature pick, and it's from a translator people already trust.",
+          "startSec": 1305.23,
+          "endSec": 1309.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Emily Wilson, whose 2017 Odyssey changed how a lot of English readers hear Homer, has a new essay collection out — \"Crossing the Wine-Dark Sea: Journeys Through Ancient Literature,\" built from two decades of teaching and translating.",
+          "startSec": 1309.63,
+          "endSec": 1322.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual argument running through it?",
+          "startSec": 1322.77,
+          "endSec": 1325.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The centerpiece essay, \"Translating the Odyssey,\" walks through three centuries of English versions of Homer to make the case that translation is interpretive argument, not neutral transcription — every choice a translator makes is a claim about what the text means. Other essays test how modern readings of gender, violence, and power sit against the ancient texts themselves. Starred reviews from both Publishers Weekly and Kirkus are framing it as rare crossover work — rigorous classics scholarship that's genuinely legible to readers with no Greek.",
+          "startSec": 1325.36,
+          "endSec": 1355.8
+        }
+      ],
+      "startSec": 1181.9
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-ed today ties right back into the market segment — the Washington Post Editorial Board on deficits as a security threat.",
+          "startSec": 1355.8,
+          "endSec": 1362.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Their piece, published Sunday, argues the deficit is quote \"the biggest threat to U.S. national security\" — not through the usual inflation or crowding-out lens, but through military readiness. Their case: real national defense depends on having fiscal headroom to borrow massively when an actual war hits. By running today's deficits at this scale during relative peacetime, Washington's already spent the borrowing capacity that should be held in reserve for a real contingency — a Taiwan invasion, a NATO Article 5 call, a prolonged Mideast conflict like the one we opened with today.",
+          "startSec": 1362.57,
+          "endSec": 1394.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "They're echoing an old warning there, right?",
+          "startSec": 1394.88,
+          "endSec": 1397.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Directly — Admiral Mullen's 2010 line that quote \"the most significant threat to our national security is our debt.\" The Post's sharper version: judging by deficit size alone, quote, \"one might assume the U.S. is already fighting a war\" — leaving nothing in reserve if a real one starts.",
+          "startSec": 1397.3,
+          "endSec": 1413.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the strongest pushback on that?",
+          "startSec": 1413.1,
+          "endSec": 1415.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That this exact alarm has been sounded every few years since at least 2010, and the US absorbed COVID-scale and GFC-scale emergency borrowing without the Treasury market seizing up — because reserve-currency status and market depth give far more slack than a household-budget analogy implies. The sharper counter is that the actual binding constraint is inflation, not deficit size on its own, and that a lot of today's \"peacetime\" spending — Ukraine aid, Indo-Pacific deterrence buildup — is already quasi-wartime, which undercuts the clean peace-versus-war binary the whole argument leans on.",
+          "startSec": 1415.19,
+          "endSec": 1447.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second piece, and it's a domestic-politics paradox — union approval numbers.",
+          "startSec": 1447.89,
+          "endSec": 1452.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Also Washington Post Opinion — arguing that record union approval, 71%, Gallup's highest since 1965, is being misread as a mandate for aggressive unionization. When people are actually asked whether they want to personally join one, most say no — 82% back the core right-to-work principle that no one should be compelled to join, and it's 64 to 32 against mandatory dues.",
+          "startSec": 1452.07,
+          "endSec": 1472.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's their analogy for that gap?",
+          "startSec": 1472.5,
+          "endSec": 1474.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They compare it to approving of the fire department without wanting to be a firefighter yourself — liking that a countervailing institution exists isn't the same as wanting personal membership in it. The pushback, though, is real: collapsing \"wouldn't personally join\" into \"doesn't want unions to grow\" ignores that most non-union workers have simply never had a genuinely fair shot at organizing — weak NLRB enforcement and employer intimidation are a supply problem, not a preference problem. And separately, Axios and Gallup found a record 47% actually want unions to have more influence, which is rising demand for collective power even while the personal \"would you join\" number lags behind it.",
+          "startSec": 1474.37,
+          "endSec": 1512.9
+        }
+      ],
+      "startSec": 1355.8
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing to close, and this one's about someone quietly being noticed for years before anyone said anything.",
+          "startSec": 1512.9,
+          "endSec": 1519.18
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Aubry Alldredge is 22, from Kaysville, Utah, and has Down syndrome. She'd spent years taking barre classes at her local gym, and one of the instructors quietly kept an eye on her the whole time — noticing how well she absorbed the choreography, week after week.",
+          "startSec": 1519.18,
+          "endSec": 1533.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that noticing turned into something real.",
+          "startSec": 1533.54,
+          "endSec": 1536.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The instructor eventually invited her to train and get certified herself. Aubry just taught her first class as a fully certified UpBeat Barre instructor, to a crowd of more than 60 people at her local VASA Fitness — the first person with Down syndrome certified to teach it.",
+          "startSec": 1536.02,
+          "endSec": 1551.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's it for today. This is The Morning Commute — see you tomorrow.",
+          "startSec": 1551.1,
+          "endSec": 1554.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Drive safe.",
+          "startSec": 1554.84,
+          "endSec": 1555.45
+        }
+      ],
+      "startSec": 1512.9
+    }
+  ]
+}

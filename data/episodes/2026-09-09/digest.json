@@ -1,0 +1,34 @@
+{
+  "throughline": "who backstops the bill when institutions can't or won't pay",
+  "stories": [
+    "iran-jordan-missile-strike-spillover",
+    "israel-settlements-11country-import-ban",
+    "france-bayrou-collapse-lecornu-fitch",
+    "wafd-everbank-reverse-merger",
+    "paramount-wbd-1.88bn-bond-fight",
+    "canada-us-tariff-retaliation-effective",
+    "serbia-vucic-snap-election-dissolve",
+    "oil-mideast-spike-nikkei-selloff",
+    "revel-control-software-deepdive",
+    "duane-arnold-doe-loan-google-ppa",
+    "ercot-record-weekly-load-74.5gw",
+    "google-mn8-eos-wv-storage-project",
+    "pge-flex-connect-adoption-numbers",
+    "ph-romualdez-hospital-custody-standoff",
+    "ph-marcos-brics-summit-india",
+    "china-august-cpi-ppi-imported-inflation",
+    "michael-richards-brooklyn-museum-freefall",
+    "eva-gonzales-petit-palais-first-retrospective",
+    "emily-wilson-wine-dark-sea-essays",
+    "wapo-deficit-national-security-oped",
+    "wapo-union-approval-paradox-oped",
+    "aubry-alldredge-down-syndrome-instructor"
+  ],
+  "explainers": [
+    "PPA-backed (not ratepayer-backed) nuclear restart financing",
+    "flexible interconnection (curtailment-for-speed) queue bypass",
+    "long-duration storage as a load-matching capacity asset, not just intermittency offset",
+    "imported vs. domestic-demand-driven inflation distinction (CPI/PPI read together)"
+  ],
+  "comment": "stories = every distinct item covered; explainers = concepts actually explained, so future episodes don't re-explain them"
+}

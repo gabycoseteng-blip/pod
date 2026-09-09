@@ -107,14 +107,22 @@ or hand-write it from the brief numbers. Schema (all values pre-formatted string
   "groups": [
     {"name": "US Indices", "rows": [
       {"label": "S&P 500", "value": "7,641.16", "change": "-0.87%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "9,234.50", "change": "+0.3%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "43,120.10", "change": "-0.6%", "dir": "down"},
+      {"label": "Hang Seng", "value": "26,880.40", "change": "+1.1%", "dir": "up"} ]},
     {"name": "Rates",       "rows": [{"label": "UST 10Y", "value": "4.69%", "change": "+3 bps", "dir": "up"}]},
     {"name": "Commodities", "rows": [{"label": "Gold",    "value": "4,571.40", "change": "+0.5%", "dir": "up"}]},
     {"name": "FX",          "rows": [{"label": "USD/PHP", "value": "61.67", "change": "-0.24", "dir": "down"}]} ],
   "note": "Prior-session close — full levels so the show can stay brief." }
 ```
-`build_episode.py` copies this to `data/episodes/$date/markets.json` and refreshes
-`data/markets.json` (the latest snapshot the tab reads). It's optional — a missing
-file just leaves the tab on the previous day's snapshot.
+`market_snapshot.py --json` fills **Global Indices** (FTSE 100, DAX, Nikkei 225,
+Hang Seng, Shanghai Composite, PSEi) from the same batch-index-quotes response as
+US Indices, at no extra API cost — pick whichever of those actually moved when
+hand-writing this instead. `build_episode.py` copies this to
+`data/episodes/$date/markets.json` and refreshes `data/markets.json` (the latest
+snapshot the tab reads). It's optional — a missing file just leaves the tab on the
+previous day's snapshot.
 **World & international headlines lean current events** — politics, geopolitics,
 conflict, elections, policy, society — not market moves (markets live in the
 market-overview beat + the Energy segment). **Philippines leads with politics and

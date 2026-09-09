@@ -29,6 +29,11 @@ import json, os, sys, urllib.request, urllib.error
 KEY = os.environ.get("FMP_API_KEY")
 BASE = "https://financialmodelingprep.com/stable"
 INDICES = ["^GSPC", "^IXIC", "^DJI", "^RUT"]
+# Non-US majors the show's beats actually touch (Europe, Japan, Hong Kong/China,
+# Philippines) — pulled from the SAME batch-index-quotes response as INDICES, so
+# this adds zero extra API calls. An unrecognized/renamed symbol just silently
+# yields no row (see idx_rows) rather than failing the snapshot.
+GLOBAL_INDICES = ["^FTSE", "^GDAXI", "^N225", "^HSI", "000001.SS", "PSEI.PS"]
 MOVERS = ["NVDA", "MSFT", "AAPL", "GOOGL", "AMZN", "META", "AVGO", "MU", "TSLA"]
 COMMODITIES = ["CLUSD", "BZUSD", "GCUSD"]
 FX = ["USDPHP", "USDJPY", "EURUSD"]
@@ -36,6 +41,8 @@ FX = ["USDPHP", "USDJPY", "EURUSD"]
 # friendly labels for the Markets-tab JSON (data/markets.json)
 LABELS = {
     "^GSPC": "S&P 500", "^IXIC": "Nasdaq", "^DJI": "Dow", "^RUT": "Russell 2000",
+    "^FTSE": "FTSE 100", "^GDAXI": "DAX", "^N225": "Nikkei 225", "^HSI": "Hang Seng",
+    "000001.SS": "Shanghai Composite", "PSEI.PS": "PSEi",
     "CLUSD": "WTI Crude", "BZUSD": "Brent", "GCUSD": "Gold",
     "USDPHP": "USD/PHP", "USDJPY": "USD/JPY", "EURUSD": "EUR/USD",
 }
@@ -84,16 +91,24 @@ def build_json(date):
     """Fetch the tape and return the Markets-tab schema (data/markets.json).
     Defensive: a dead route just yields an empty group rather than sinking it."""
     groups = []
+    idx_by = {}  # filled by the first successful idx_rows() call, reused for globals
 
-    def idx_rows():
+    def _idx_rows_for(symbols):
         rows = []
-        by = {q.get("symbol"): q for q in get("batch-index-quotes?short=false")}
-        for s in INDICES:
-            q = by.get(s, {})
+        for s in symbols:
+            q = idx_by.get(s, {})
             if q:
                 rows.append({"label": LABELS.get(s, s), "value": f"{q.get('price')}",
                              "change": _pct(q.get("changePercentage")), "dir": _dir(q.get("changePercentage"))})
         return rows
+
+    def idx_rows():
+        idx_by.update({q.get("symbol"): q for q in get("batch-index-quotes?short=false")})
+        return _idx_rows_for(INDICES)
+
+    def global_idx_rows():
+        # Same response idx_rows() already fetched — no extra API call.
+        return _idx_rows_for(GLOBAL_INDICES)
 
     def rate_rows():
         r = get("treasury-rates")[0]
@@ -121,8 +136,8 @@ def build_json(date):
                              "change": _pct(q.get("changePercentage")), "dir": _dir(q.get("changePercentage"))})
         return rows
 
-    for name, fn in [("US Indices", idx_rows), ("Rates", rate_rows),
-                     ("Commodities", com_rows), ("FX", fx_rows)]:
+    for name, fn in [("US Indices", idx_rows), ("Global Indices", global_idx_rows),
+                     ("Rates", rate_rows), ("Commodities", com_rows), ("FX", fx_rows)]:
         try:
             rows = fn()
         except Exception as e:
@@ -164,9 +179,10 @@ def main():
     print(f"# Market snapshot {date}".rstrip())
 
     def indices():
+        wanted = set(INDICES) | set(GLOBAL_INDICES)
         for q in get("batch-index-quotes?short=false"):
-            if q.get("symbol") in INDICES:
-                print(f"  {q['symbol']:<7} {q.get('price')}  ({q.get('changePercentage')}%)")
+            if q.get("symbol") in wanted:
+                print(f"  {q['symbol']:<10} {q.get('price')}  ({q.get('changePercentage')}%)")
 
     def movers():
         syms = ",".join(MOVERS)

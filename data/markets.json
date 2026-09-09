@@ -8,6 +8,14 @@
       {"label": "Dow", "value": "53,414.25", "change": "-0.51%", "dir": "down"},
       {"label": "Russell 2000", "value": "2,974.25", "change": "+0.20%", "dir": "up"}
     ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,828.14", "change": "flat", "dir": "flat"},
+      {"label": "DAX", "value": "26,003.00", "change": "+0.63%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "65,020.94", "change": "+1.26%", "dir": "up"},
+      {"label": "Hang Seng", "value": "25,650.87", "change": "+1.74%", "dir": "up"},
+      {"label": "Shanghai Composite", "value": "3,930.12", "change": "-0.30%", "dir": "down"},
+      {"label": "PSEi", "value": "6,069.42", "change": "+0.27%", "dir": "up"}
+    ]},
     {"name": "Rates", "rows": [
       {"label": "UST 10Y", "value": "4.79%", "change": "little changed", "dir": "flat"}
     ]},

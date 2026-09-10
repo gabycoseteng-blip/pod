@@ -1,0 +1,37 @@
+{
+  "throughline": "The mechanisms built to protect the record keep getting bent by whoever controls them — a graft conviction unravels on unauthenticated paperwork, Beijing pulls the one tool that let developers swap debt for equity, and a machine-verified proof's priority is contested by the humans who did the underlying work first",
+  "stories": [
+    "iran-tanker-strikes-jordan-brent-100",
+    "nato-drone-incursions-active-frontline",
+    "trump-canada-import-bans-escalation",
+    "qualcomm-aws-4bn-chip-warrant-deal",
+    "treasury-6bn-buyback-yield-4857",
+    "tata-iveco-3.82bn-tender-offer",
+    "barrick-rekodiq-balochistan-slowdown",
+    "us-markets-oil-yields-europe-selloff",
+    "openai-navier-stokes-buckmaster-credit-dispute",
+    "semianalysis-robot-inference-tco-b300-jetson",
+    "miso-zero-injection-large-load-colocated",
+    "oklo-pjm-emergency-ferc-complaint",
+    "holtec-ipo-hnuc-10.2bn-valuation",
+    "ctvc-q3-dc-capex-component-price-decouple",
+    "imelda-marcos-graft-acquittal-swiss",
+    "romualdez-hospital-custody-fight",
+    "duterte-trial-16vote-threshold-fight",
+    "ph-unemployment-6pct-4yr-high",
+    "china-csrc-mcb-restructuring-freeze",
+    "carnegie-international-59th-solidarity",
+    "joy-williams-reviews-matthiessen-biography",
+    "hungary-scraps-sanaa-national-gallery",
+    "wsj-trump-senate-liability",
+    "haass-911-25-years-not-transformative",
+    "montana-trooper-johnson-rebuilds-life"
+  ],
+  "explainers": [
+    "MCB (mandatory convertible bond) debt-for-equity mechanism",
+    "robot-inference TCO crossover (shared GPU vs onboard silicon)",
+    "FERC inverter-ride-through interconnection testing standard",
+    "Lean 4 formal verification vs mathematical priority/originality"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

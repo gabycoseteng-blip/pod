@@ -1,0 +1,21 @@
+{ "date": "2026-09-11", "asOf": "Thursday, September 10 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,591.70", "change": "-0.58%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "26,081.72", "change": "-0.65%", "dir": "down"},
+      {"label": "Dow Jones", "value": "52,064.10", "change": "-0.60%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,890.95", "change": "-1.04%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "Nikkei 225", "value": "65,270.95", "change": "+0.20%", "dir": "up"},
+      {"label": "Hang Seng", "value": "24,954.47", "change": "-1.27%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,934.40", "change": "-0.43%", "dir": "down"},
+      {"label": "FTSE 100", "value": "14,357", "change": "-0.7%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "4.96%", "change": ">+10 bps", "dir": "up"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI Crude", "value": "$102.48", "change": "+6.7%", "dir": "up"},
+      {"label": "Brent Crude", "value": "$107.63", "change": "+5.9%", "dir": "up"},
+      {"label": "Gold", "value": "$4,448.00", "change": "-0.3%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.72", "change": "near record low", "dir": "up"} ]} ],
+  "note": "Prior-session close (Thursday, Sept 10) — full levels so the show can stay brief. Dominant catalyst: hot August PPI + oil topping $100-107 on Yemen/Mideast escalation, pushing the 10Y to its highest since ~Nov 2023." }

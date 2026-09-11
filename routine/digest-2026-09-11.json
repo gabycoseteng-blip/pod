@@ -1,0 +1,34 @@
+{
+  "throughline": "Every fragile settlement — a peace deal, a diplomatic bond, a currency defense, an IPO disclosure bar — is being tested by the exact pressure it was built to contain, and cracking",
+  "stories": [
+    "yemen-houthis-seize-mocha-bab-el-mandeb",
+    "iran-industrial-strikes-gdp-contraction-5.4pct",
+    "algeria-uae-severs-ties-airspace-closure",
+    "oracle-q1-fy27-cloud-121pct-beat",
+    "august-ppi-hot-fed-hike-bets-70pct",
+    "brazil-supreme-court-moraes-mendonca-clash",
+    "rubio-shield-of-americas-peru-colombia",
+    "us-markets-oil-yields-europe-selloff-sept11",
+    "deep-dive-ethiopia-tigray-drone-war-reignites",
+    "semianalysis-behind-the-meter-power-75gw-orders",
+    "oracle-project-jupiter-nm-permit-stay-nov23",
+    "eia-record-power-demand-2026-2027",
+    "mv-june-aster-ferry-fire-coron-palawan",
+    "sara-duterte-grave-threats-arraignment-resign-rally",
+    "romualdez-56b-ill-gotten-wealth-shell-firms",
+    "ph-fuel-breaches-100-per-liter",
+    "china-deepseek-star-market-ipo-prep",
+    "arts-met-krasner-pollock-past-continuous",
+    "arts-booker-prize-shortlist-sept22",
+    "arts-moma-brancusi-studio-show",
+    "opeds-noahsmith-ai-jobs-pushback",
+    "opeds-denning-ford-catl-battery-dependency",
+    "one-good-thing-nypd-officer-saves-driver-brooklyn"
+  ],
+  "explainers": [
+    "Bab al-Mandab strait chokepoint and Houthi blockade leverage",
+    "behind-the-meter firm orders vs energized capacity gap",
+    "STAR Market IPO disclosure standards for Chinese AI champions"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -1,0 +1,37 @@
+{
+  "throughline": "Delay finally runs out — a four-times-postponed election happens, a hospital-stay bid fails on the medical facts, a hot CPI print forces the Fed's hand, a nine-year-old court case rules on what science could and couldn't foresee, and the moment one shipping chokepoint calms down another one opens.",
+  "stories": [
+    "sweden-left-bloc-narrow-win",
+    "houthis-red-sea-islands-seizure",
+    "myanmar-un-seat-dispute",
+    "oracle-cloud-backlog-664bn",
+    "adobe-1bn-users-q3",
+    "indonesia-ferry-capsize-missing",
+    "france-train-derailment-sabotage-probe",
+    "cpi-hot-fed-hike-90pct-odds",
+    "ust10y-cusp-5pct-selloff",
+    "nikkei-fed-oil-selloff",
+    "bondo-landslide-trial-acquittal",
+    "semianalysis-4hi-hbm-reversal",
+    "eia-power-demand-record-2026-27",
+    "google-pge-virtual-power-plant",
+    "doe-coal-order-vacated",
+    "diablo-canyon-nuclear-extension",
+    "barmm-first-parliament-election",
+    "duterte-impeachment-evidence-phase",
+    "romualdez-payatas-jail-transfer",
+    "peso-record-low-62.86",
+    "bsp-2027-easing-signal",
+    "china-august-data-divergence",
+    "renoir-nazi-looted-theft",
+    "getty-center-bel-air-fire",
+    "national-book-awards-longlist",
+    "amodei-slow-the-frontier-essay",
+    "bale-foster-village-palmdale"
+  ],
+  "explainers": [
+    "HBM stack height vs. bandwidth/capacity tradeoff (why 4-hi can match 12-hi bandwidth)",
+    "foreseeability standard in hazard-negligence prosecutions (Bondo/L'Aquila precedent)"
+  ],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-14",
+  "asOf": "Friday, September 11 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,656.98", "change": "+0.86%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "26,333.04", "change": "+0.96%", "dir": "up"},
+      {"label": "Dow Jones", "value": "52,573.29", "change": "+0.98%", "dir": "up"}
+    ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "Nikkei 225", "value": "64,011.34", "change": "-1.93%", "dir": "down"},
+      {"label": "Hang Seng", "value": "24,805.63", "change": "-0.60%", "dir": "down"},
+      {"label": "FTSE 100", "value": "10,650.44", "change": "+0.39%", "dir": "up"}
+    ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "4.96%", "change": "+18 bps (week)", "dir": "up"}
+    ]},
+    {"name": "Commodities", "rows": [
+      {"label": "Gold", "value": "4,359.40", "change": "+0.4%", "dir": "up"},
+      {"label": "Brent Crude", "value": "104.10", "change": "-0.6%", "dir": "down"}
+    ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.68", "change": "+0.05", "dir": "up"}
+    ]}
+  ],
+  "note": "FMP_API_KEY unavailable this run — hand-compiled from CNBC/WaPo/Bloomberg/tradingeconomics reporting on the last trading session (Fri Sep 11); weekend had no trading."
+}

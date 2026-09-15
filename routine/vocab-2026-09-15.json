@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-15",
+  "cards": [
+    {
+      "id": "2026-09-15-tl-1",
+      "lang": "Tagalog",
+      "word": "pagbibitiw",
+      "pinyin": "",
+      "pronunciation": "pag-bi-bi-TIW",
+      "tones": "",
+      "meaning": "resignation — the act of voluntarily giving up or leaving a position or office",
+      "example": "Nanawagan si Duterte na mag-desisyon na si Marcos hinggil sa kanyang pagbibitiw, ngunit tuluyang binalewala ito ng Malacañang.",
+      "examplePinyin": "",
+      "exampleMeaning": "Duterte called on Marcos to decide on his resignation, but Malacañang flatly dismissed it.",
+      "note": "Formal/legal term for voluntary resignation from office — distinct from 'pagpapatalsik' (ouster/removal), which implies force. Standard word in political news for a call to step down.",
+      "tiesTo": "VP Sara Duterte's public call for Marcos to resign"
+    },
+    {
+      "id": "2026-09-15-tl-2",
+      "lang": "Tagalog",
+      "word": "walang-batayan",
+      "pinyin": "",
+      "pronunciation": "wa-LANG ba-TA-yan",
+      "tones": "",
+      "meaning": "baseless — without foundation or legal/factual grounds",
+      "example": "Sinabi ng Malacañang na walang-batayan ang panawagan ni Duterte, dahil wala itong legal na saligan.",
+      "examplePinyin": "",
+      "exampleMeaning": "Malacañang said Duterte's call was baseless, since it had no legal grounding.",
+      "note": "Root is 'batayan' (basis/foundation) — the standard phrase for dismissing an accusation or demand as unfounded in political rebuttals, distinct from 'walang-kwenta' (worthless), which is dismissive rather than evidentiary.",
+      "tiesTo": "Malacañang's rejection of Duterte's resignation call"
+    },
+    {
+      "id": "2026-09-15-zh-1",
+      "lang": "Mandarin",
+      "word": "相比之下",
+      "pinyin": "xiāngbǐ zhī xià",
+      "pronunciation": "",
+      "tones": "1 · 3 · 1 · 4",
+      "meaning": "by contrast; in comparison — formal connective for setting two facts or figures side by side",
+      "example": "中国工业生产同比增长5.2%,相比之下,零售销售只增长了0.4%。",
+      "examplePinyin": "Zhōngguó gōngyè shēngchǎn tóngbǐ zēngzhǎng bǎi fēn zhī wǔ diǎn èr, xiāngbǐ zhī xià, língshòu xiāoshòu zhǐ zēngzhǎng le bǎi fēn zhī líng diǎn sì.",
+      "exampleMeaning": "China's industrial production rose 5.2% year-on-year; by contrast, retail sales grew only 0.4%.",
+      "note": "书面语/formal register, common in economic reporting to juxtapose two data points. Contrast with the more casual, general-purpose '但是' — '相比之下' specifically frames a side-by-side comparison of figures or results.",
+      "tiesTo": "China's August activity data — industrial output vs. retail sales divergence"
+    },
+    {
+      "id": "2026-09-15-zh-2",
+      "lang": "Mandarin",
+      "word": "拉动",
+      "pinyin": "lādòng",
+      "pronunciation": "",
+      "tones": "1 · 4",
+      "meaning": "to drive along; to pull (an economic indicator) — formal collocation, pairs with growth/consumption/domestic demand/the economy",
+      "example": "如果内需持续疲软,出口和工业生产恐怕难以单独拉动经济增长。",
+      "examplePinyin": "Rúguǒ nèixū chíxù píruǎn, chūkǒu hé gōngyè shēngchǎn kǒngpà nányǐ dāndú lādòng jīngjì zēngzhǎng.",
+      "exampleMeaning": "If domestic demand keeps stalling, exports and industrial output alone will struggle to drive economic growth.",
+      "note": "Formal economic-register verb for one factor pulling an aggregate figure up — the standard term in GDP-component analysis (投资拉动, 消费拉动, 出口拉动). Near-synonym '推动' (tuīdòng, 'to push forward/promote') is more general-purpose.",
+      "tiesTo": "China's August activity data — industrial output vs. retail sales divergence"
+    }
+  ]
+}

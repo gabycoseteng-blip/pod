@@ -1,0 +1,30 @@
+{
+  "throughline": "The safety margins everyone assumed were there keep turning out to be someone's bet, not a given -- Riyadh loses its spare-capacity cushion on crude, Washington's development bank stops derisking anything unproven, GE decides a supply contract can't guarantee capacity, and a 10-year yield breaks a level markets treated as a ceiling, one day before the Fed weighs in",
+  "stories": [
+    "amodei-ai-pause-trump-rejects",
+    "scotus-mail-voting-rule-blocked",
+    "saudi-pipeline-attack-brent-110",
+    "senate-russia-sanctions-tariff-bill",
+    "treasury-10y-breaches-5pct",
+    "lennar-q3-earnings-preview",
+    "us-markets-10y-5pct-brent-110",
+    "ge-buys-cpp-11.75bn-castings",
+    "doe-lpo-edf-rebrand-southern-31.4bn",
+    "ph-duterte-calls-marcos-resign",
+    "ph-duterte-trial-day25-saln",
+    "ph-pump-prices-jump-sept15-manibela-strike",
+    "china-august-ip-retail-fai-divergence",
+    "cao-fei-artforum-drone-farming",
+    "gramophone-2026-saariaho-adriana-mater",
+    "opeds-ramos-ai-pause-counter",
+    "opeds-wapo-trump-putin-wars",
+    "one-good-thing-restifo-saginaw-boys"
+  ],
+  "explainers": [
+    "DOE LPO Section 1703 vs 1706 lending-door mechanics",
+    "OEM requalification bottleneck economics in aerospace castings",
+    "China's two-speed economy: industrial output vs retail/FAI divergence",
+    "behind-the-meter net-metering as an interconnection-queue bypass"
+  ],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-16",
+  "cards": [
+    {
+      "id": "2026-09-16-tl-1",
+      "lang": "Tagalog",
+      "word": "pagdinig",
+      "pinyin": "",
+      "pronunciation": "pag-di-NIG",
+      "tones": "",
+      "meaning": "hearing — a formal session where a court or body listens to testimony or argument before deciding",
+      "example": "May pagdinig na magaganap tungkol sa kayamanan ni Vice President Duterte.",
+      "examplePinyin": "",
+      "exampleMeaning": "There will be a hearing about VP Duterte's wealth.",
+      "note": "Legal/formal term for an official session with a record and consequences — distinct from 'usapan' (a casual conversation), which carries no institutional weight. Standard word for a court or Senate proceeding.",
+      "tiesTo": "Senate impeachment court hearing four retired chief justices as amici curiae on the conviction-vote threshold"
+    },
+    {
+      "id": "2026-09-16-tl-2",
+      "lang": "Tagalog",
+      "word": "kayamanan",
+      "pinyin": "",
+      "pronunciation": "ka-ya-MA-nan",
+      "tones": "",
+      "meaning": "wealth/fortune — the full value of a person's accumulated assets, especially in a formal or legal context",
+      "example": "Susuriin ng Senado ang kayamanan ni VP Duterte pabalik hanggang sa panahong lokal siyang opisyal sa Davao.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Senate will examine VP Duterte's wealth going back to when she was a local official in Davao.",
+      "note": "More formal than its root 'yaman' — used in legal/financial contexts when assessing an official's total accumulated assets, e.g. establishing a wealth baseline in a graft or impeachment inquiry.",
+      "tiesTo": "Senate impeachment court's new probe into VP Duterte's wealth baseline"
+    },
+    {
+      "id": "2026-09-16-zh-1",
+      "lang": "Mandarin",
+      "word": "灰色地带",
+      "pinyin": "huī sè dì dài",
+      "pronunciation": "",
+      "tones": "1 · 4 · 4 · 4",
+      "meaning": "gray area — a space that is neither clearly legal/illegal nor clearly regulated/unregulated",
+      "example": "这些跨境投资平台一直处于监管的灰色地带。",
+      "examplePinyin": "Zhèxiē kuàjìng tóuzī píngtái yīzhí chǔyú jiānguǎn de huīsè dìdài.",
+      "exampleMeaning": "These cross-border investment platforms have long existed in a regulatory gray area.",
+      "note": "Abstract collocation used in both formal financial reporting and everyday speech for something technically unaddressed by clear rules — distinct from openly illegal activity.",
+      "tiesTo": "Hong Kong gray-market investment platforms (ZD Group, Star Bridge Capital) collapsing after channeling mainland money offshore"
+    },
+    {
+      "id": "2026-09-16-zh-2",
+      "lang": "Mandarin",
+      "word": "由于……因此……",
+      "pinyin": "yóu yú … yīn cǐ …",
+      "pronunciation": "",
+      "tones": "2 · 2 · 1 · 3",
+      "meaning": "because of X, therefore Y — a formal causal connective pair, more written/formal than 因为…所以…",
+      "example": "由于境内理财回报持续偏低,因此大量资金转向了境外的灰色地带产品。",
+      "examplePinyin": "Yóuyú jìngnèi lǐcái huíbào chíxù piāndī, yīncǐ dàliàng zījīn zhuǎnxiàng le jìngwài de huīsè dìdài chǎnpǐn.",
+      "exampleMeaning": "Because domestic investment returns have stayed low, large sums of money have shifted toward offshore gray-area products.",
+      "note": "书面语/formal register connective, typical of an economic-analysis opening line rather than casual speech — pairs naturally with 灰色地带 when explaining why capital moves toward under-regulated products.",
+      "tiesTo": "Weak domestic returns pushing mainland money toward Hong Kong's gray-market investment platforms"
+    }
+  ]
+}

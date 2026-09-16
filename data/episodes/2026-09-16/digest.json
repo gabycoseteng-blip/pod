@@ -1,0 +1,34 @@
+{
+  "throughline": "Today's fights are all about who gets to do the counting -- the Fed decides whether inflation counts as urgent enough to hike, a Senate court asks retired justices how to count an impeachment conviction vote, a parcel-level audit finds the data-center moratorium panic overcounted its own damage by more than ten to one, and a shadow-banking bust in Hong Kong shows what happens when nobody's counting the money at all",
+  "stories": [
+    "ukraine-vivaldi-counteroffensive-lyman",
+    "gaza-strikes-nukhba-commanders",
+    "sudan-el-obeid-siege-drone-strikes",
+    "fed-decision-hike-today-375-400",
+    "wbd-paramount-delay-ticking-fee",
+    "dangote-refinery-ipo-1.6bn",
+    "japan-takaichi-cabinet-continuity",
+    "us-markets-10y-5pct-oil-fed-hike-pricing",
+    "sa-overworld-organized-crime-state-capture",
+    "datacenter-moratorium-myth-semianalysis-audit",
+    "massachusetts-bring-your-own-power-mandate",
+    "google-fortum-loviisa-nuclear-ppa-finland",
+    "ph-duterte-trial-amici-vote-threshold",
+    "ph-romualdez-arraignment-not-guilty",
+    "ph-peso-record-low-63-approach",
+    "abs-cbn-capital-raise-6bn",
+    "china-zd-group-star-bridge-shadow-banking-bust",
+    "armory-show-2026-preview",
+    "art-newspaper-sept-auctions-chagall-chamberlain",
+    "opeds-elerian-fed-hike-skepticism",
+    "opeds-holmes-immigration-automation-replacement-fear",
+    "one-good-thing-noemi-vatavuk-seizure-hero"
+  ],
+  "explainers": [
+    "impeachment conviction-vote threshold mechanics (amici curiae referee)",
+    "state capture vs 'overworld' organized-crime-legitimate-business fusion",
+    "shadow-banking / offshore gray-market intermediary capital-flight mechanics",
+    "parcel-level moratorium audit methodology vs headline MW figures"
+  ],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}

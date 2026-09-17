@@ -191,7 +191,7 @@ ALEX: 房地产投资持续萎缩 — 同比下跌了百分之十九点九，新
 
 SAM: Why does the fiscal side matter more than the headline price number?
 
-ALEX: Because land sales still fund a real share of local-government budgets — down from an 84% peak in 2020 to about 14% now, but still meaningful — and every auction that doesn't happen is a hole some local government has to fill another way. It's exactly why Beijing rolled out its six-trillion-yuan hidden-debt program through 2026 in the first place. The debt-deflation loop isn't breaking, it's migrating from the price line to the investment and local-fiscal line.
+ALEX: Because land sales still fund a real share of local-government budgets — down from an 84% peak in 2020 to about 14% now, but still meaningful — and every auction that doesn't happen is a hole some local government has to fill another way. It's exactly why Beijing rolled out its 6-trillion-yuan hidden-debt program through 2026 in the first place. The debt-deflation loop isn't breaking, it's migrating from the price line to the investment and local-fiscal line.
 
 ## SEGMENT NINE — ARTS & CULTURE
 

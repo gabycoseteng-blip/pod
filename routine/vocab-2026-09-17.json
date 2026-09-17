@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-17",
+  "cards": [
+    {
+      "id": "2026-09-17-tl-1",
+      "lang": "Tagalog",
+      "word": "pasya",
+      "pinyin": "",
+      "pronunciation": "pas-YA",
+      "tones": "",
+      "meaning": "a formal decision or ruling — especially one issued by a court, panel, or institution",
+      "example": "Maghahain ng pasya ang Senado sa Setyembre 23 hinggil sa tamang bilang ng boto.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Senate will issue a ruling on September 23rd on the correct vote count.",
+      "note": "More formal than the everyday 'desisyon' — using 'pasya' signals real institutional weight and consequence, typical of a court, Senate, or official body's ruling rather than a personal choice.",
+      "tiesTo": "Senate impeachment court's September 23 vote on the two-thirds conviction-threshold interpretation"
+    },
+    {
+      "id": "2026-09-17-tl-2",
+      "lang": "Tagalog",
+      "word": "hakbang",
+      "pinyin": "",
+      "pronunciation": "hak-BANG",
+      "tones": "",
+      "meaning": "a deliberate step or measure taken in response to a situation — literally 'footstep,' figuratively an official action",
+      "example": "Posibleng maglabas ang Bangko Sentral ng bagong hakbang na off-cycle rate hike para protektahan ang piso.",
+      "examplePinyin": "",
+      "exampleMeaning": "The BSP may issue a new off-cycle rate hike measure to protect the peso.",
+      "note": "Carries more deliberateness than the borrowed word 'aksyon' — 'hakbang' implies a considered, purposeful move by an institution, commonly used for a government or central-bank measure.",
+      "tiesTo": "BSP considering an off-cycle rate hike to defend the peso and cap imported inflation"
+    },
+    {
+      "id": "2026-09-17-zh-1",
+      "lang": "Mandarin",
+      "word": "萎缩",
+      "pinyin": "wěisuō",
+      "pronunciation": "",
+      "tones": "3 · 1",
+      "meaning": "to shrink / contract — a formal, written-register verb for something losing size or strength over time (an economy, a market, investment)",
+      "example": "房地产投资持续萎缩。",
+      "examplePinyin": "Fángdìchǎn tóuzī chíxù wěisuō.",
+      "exampleMeaning": "Real-estate investment keeps shrinking.",
+      "note": "书面语/formal register — belongs almost entirely to written or formal spoken contexts like an economic bulletin; casual speech would use 变小了 or 不行了 instead.",
+      "tiesTo": "China's real-estate investment falling 19.9% y/y Jan-Aug even as new-home price declines narrow"
+    },
+    {
+      "id": "2026-09-17-zh-2",
+      "lang": "Mandarin",
+      "word": "虽然……但是……",
+      "pinyin": "suīrán … dànshì …",
+      "pronunciation": "",
+      "tones": "1 · 2 · 4 · 4",
+      "meaning": "although … but — an advanced connective pair for holding two contrasting facts in one sentence without letting either cancel the other out",
+      "example": "虽然房价降幅收窄，但是投资和新开工降幅进一步扩大。",
+      "examplePinyin": "Suīrán fángjià jiàngfú shōuzhǎi, dànshì tóuzī hé xīn kāigōng jiàngfú jìnyíbù kuòdà.",
+      "exampleMeaning": "Although the price decline narrowed, investment and new-construction declines widened further.",
+      "note": "More formal and clearly structured than the everyday 不过 — the kind of connective that opens a contrast in a formal analysis rather than a loosely-tacked-on casual aside.",
+      "tiesTo": "China's August property data: narrowing home-price declines vs. deepening investment/construction collapse"
+    }
+  ]
+}

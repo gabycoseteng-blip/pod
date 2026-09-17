@@ -1,0 +1,33 @@
+{
+  "throughline": "the-number-under-the-number",
+  "stories": [
+    "pentagon-ig-iran-war-cost-33bn",
+    "hegseth-impeachment-punted-november",
+    "india-rejects-pakistan-china-boundary-pact",
+    "lennar-q3-earnings-miss-mortgage-squeeze",
+    "boeing-korean-air-103jet-36bn-order",
+    "fed-hike-dollar-em-spillover",
+    "argentina-bond-market-election-doubt",
+    "psei-fed-hike-whiplash-roundtrip",
+    "astro-xrism-black-hole-feedback-100x",
+    "nvidia-off-balance-sheet-guarantees-530bn",
+    "btm-datacenter-permitting-turbine-secondary-market",
+    "bsp-off-cycle-hike-speculation",
+    "impeachment-conviction-threshold-ruling",
+    "roque-netherlands-asylum-denied",
+    "china-property-price-narrows-investment-collapses",
+    "tate-modern-monet-painting-time-2027",
+    "wiener-staatsoper-figaro-kosky-review",
+    "kuang-taipei-story-review",
+    "suleyman-model-welfare-warning",
+    "bloomberg-crypto-farage-donors",
+    "iu-backpack-stranger-rescues-from-homelessness"
+  ],
+  "explainers": [
+    "off-balance-sheet guarantees vs on-balance-sheet debt",
+    "behind-the-meter power and the turbine secondary market",
+    "black hole feedback in galaxy-cluster gas",
+    "land-sale revenue as a share of local Chinese government fiscal income"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

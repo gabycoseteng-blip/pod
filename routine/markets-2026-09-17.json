@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-17",
+  "asOf": "Wednesday, September 16 close (US/Europe); Thursday, September 17 close (Asia)",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,551.81", "change": "-0.45%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "25,978.42", "change": "-0.01%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,461.90", "change": "-1.21%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,858.81", "change": "+0.40%", "dir": "up"}
+    ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,658.13", "change": "-0.4%", "dir": "down"},
+      {"label": "DAX", "value": "25,402.28", "change": "-0.2%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "63,484.10", "change": "flat", "dir": "flat"},
+      {"label": "Hang Seng", "value": "24,667.24", "change": "-1.0%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,877.77", "change": "+0.36%", "dir": "up"},
+      {"label": "PSEi", "value": "5,958.64", "change": "+0.70%", "dir": "up"}
+    ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "~5.00%", "change": "holding above 5%", "dir": "up"}
+    ]},
+    {"name": "Commodities", "rows": [
+      {"label": "Gold", "value": "4,338.00", "change": "+1.07%", "dir": "up"},
+      {"label": "WTI Crude", "value": "102.00", "change": "modest pullback", "dir": "down"}
+    ]},
+    {"name": "FX", "rows": [
+      {"label": "DXY", "value": "99.72", "change": "+0.07% (best day in 3 months)", "dir": "up"},
+      {"label": "EUR/USD", "value": "1.1540", "change": "-0.03%", "dir": "down"},
+      {"label": "USD/PHP", "value": "62.73", "change": "peso firmer vs record-low zone", "dir": "down"}
+    ]}
+  ],
+  "note": "Mixed-session snapshot: US/Europe/most Asia at Wed Sept 16 close (day after the Fed's hike to 3.75-4.00%); PSEi at its fresher Thu Sept 17 close after round-tripping a -1.51% Wednesday session. Hand-written from web research (FMP_API_KEY not configured this run) — full levels here so the show can stay brief."
+}

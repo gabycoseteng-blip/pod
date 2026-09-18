@@ -1,0 +1,41 @@
+{
+  "throughline": "institutions-under-pressure-relief-rally-on-the-other-side",
+  "stories": [
+    "thaci-kosovo-war-crimes-25yr",
+    "yemen-saudi-houthi-us-declines",
+    "latvia-election-nato-jets",
+    "census-income-poverty-2025",
+    "ftc-beretta-ruger-consent-order",
+    "boj-hikes-1.25pct-31yr-high-split-vote",
+    "uk-obr-growth-downgrade",
+    "fed-hike-relief-rally-nasdaq",
+    "imf-chief-economist-reis-dropped",
+    "pjm-2030-loss-of-load-pa-study",
+    "constellation-shell-gas-fleet-reshuffle",
+    "itc-glut-corporate-buyer-leverage",
+    "hut8-btm-netmeter-pecos-county",
+    "suniva-solar-cell-plant-raise",
+    "excelsior-enel-utah-solar-tariff",
+    "txnm-blackstone-nm-ratepayer-probe",
+    "dominion-nextera-virginia-supplier-program",
+    "grab-atome-bnpl-acquisition",
+    "bsp-holds-fire-fed-hike",
+    "romualdez-trial-evidence-premarking",
+    "china-beijing-land-auction-fizzle",
+    "baldessari-ucca-beijing-first-china-show",
+    "gwangju-biennale-ho-tzu-nyen",
+    "gramophone-2026-awards-shortlist",
+    "nba-2026-fiction-longlist",
+    "yglesias-openai-leading-the-future",
+    "noah-smith-anti-american-right",
+    "va-chef-griffin-elderly-customer-ride"
+  ],
+  "explainers": [
+    "PJM independent-regulator loss-of-load-expectation vs capacity-auction math",
+    "behind-the-meter net-metering as interconnection-queue bypass",
+    "ITC vs PTC price divergence amid transferability-rule uncertainty",
+    "China completed-home-only presale rules cutting land sales",
+    "IMF chief-economist independence vs informal shareholder leverage"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -1,0 +1,1 @@
+{"render_calls": 2, "research_passes": 1, "energy_source": "inbox", "note": "first render measured 19.0 chars/s (vs check_script.py's 18 default), landing 1483.97s just under the 1500s floor; expanded script +2137 chars and re-rendered"}

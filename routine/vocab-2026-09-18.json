@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-18",
+  "cards": [
+    {
+      "id": "2026-09-18-tl-1",
+      "lang": "Tagalog",
+      "word": "pagsasanib",
+      "pinyin": "",
+      "pronunciation": "pag-sa-sa-NIB",
+      "tones": "",
+      "meaning": "a merger or fusion of two entities into one — a business/finance-register term for a corporate combination",
+      "example": "Nagsasanib ang dalawang kumpanya para lumawak ang kanilang serbisyo.",
+      "examplePinyin": "",
+      "exampleMeaning": "The two companies are merging to expand their services.",
+      "note": "Stronger than 'pagsasama' (any general joining) and distinct from 'pakikipagsosyo' (a partnership where both sides keep separate identities) — 'pagsasanib' implies one entity dissolving fully into the other.",
+      "tiesTo": "Grab's $1.49 billion acquisition of a 60% stake in fintech Atome Financial"
+    },
+    {
+      "id": "2026-09-18-tl-2",
+      "lang": "Tagalog",
+      "word": "paglilitis",
+      "pinyin": "",
+      "pronunciation": "pag-li-LI-tis",
+      "tones": "",
+      "meaning": "the formal trial process — the hearing and examination of a case in court",
+      "example": "Nagsimula na ang paglilitis matapos ang kanyang pagdeklara ng 'hindi guilty.'",
+      "examplePinyin": "",
+      "exampleMeaning": "The trial has already begun following his 'not guilty' plea.",
+      "note": "Legal/formal register, distinct from 'imbestigasyon' (a preliminary investigation before a case reaches court) — 'paglilitis' marks the official in-court hearing stage where evidence is presented and contested.",
+      "tiesTo": "Sandiganbayan pre-marking evidence in the plunder trial of former Speaker Martin Romualdez"
+    },
+    {
+      "id": "2026-09-18-zh-1",
+      "lang": "Mandarin",
+      "word": "万一",
+      "pinyin": "wànyī",
+      "pronunciation": "",
+      "tones": "4 · 1",
+      "meaning": "\"in case; what if\" — a connective introducing an unwelcome or worrying hypothetical",
+      "example": "万一土地拍卖再次流拍，地方政府的财政压力会更大。",
+      "examplePinyin": "Wànyī tǔdì pāimài zàicì liúpāi, dìfāng zhèngfǔ de cáizhèng yālì huì gèng dà.",
+      "exampleMeaning": "In case the land auction fails again, local governments' fiscal pressure will get even worse.",
+      "note": "Register: flexible (口语/书面语). Contrast with the neutral 如果 (\"if\") — 万一 carries a worried undertone, used for a real risk being hedged against rather than a plain hypothetical.",
+      "tiesTo": "Beijing land auction collapsing after only one of three interested developers showed up"
+    },
+    {
+      "id": "2026-09-18-zh-2",
+      "lang": "Mandarin",
+      "word": "财政缺口",
+      "pinyin": "cáizhèng quēkǒu",
+      "pronunciation": "",
+      "tones": "2,4 · 1,3",
+      "meaning": "\"fiscal gap/shortfall\" — a formal, written-register term for a structural shortfall in funding capacity",
+      "example": "卖地收入下降，扩大了地方政府的财政缺口。",
+      "examplePinyin": "Mài dì shōurù xiàjiàng, kuòdàle dìfāng zhèngfǔ de cáizhèng quēkǒu.",
+      "exampleMeaning": "Falling land-sale revenue has widened local governments' fiscal gap.",
+      "note": "Register: 书面语 (formal, financial/policy reporting). Contrast with 赤字 (\"deficit\" — a narrower, everyday word for one year's budget shortfall) — 财政缺口 points to a broader, structural funding shortfall. Collocates with 弥补 (\"to make up the gap\") and 扩大 (\"to widen\").",
+      "tiesTo": "China's H1 2026 land-sale revenue falling 31.5% y/y, straining local government finances"
+    }
+  ]
+}

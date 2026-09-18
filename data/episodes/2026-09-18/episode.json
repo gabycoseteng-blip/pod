@@ -1,0 +1,1227 @@
+{
+  "date": "2026-09-18",
+  "title": "Friday, September 18, 2026",
+  "day": "Friday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-09-18.mp3",
+  "durationSec": 1748,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Friday, September 18th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex — and we're starting in The Hague, because a 25-year sentence just landed on a former head of state.",
+          "startSec": 4.17,
+          "endSec": 10.46
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Hashim Thaçi, Kosovo's former president and KLA commander, was convicted Wednesday by the Kosovo Specialist Chambers — 25 years for murder, torture, and illegal detention.",
+          "startSec": 10.46,
+          "endSec": 19.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the scale of the case — is this one incident or a pattern?",
+          "startSec": 19.97,
+          "endSec": 23.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A pattern — the tribunal found 96 people killed, 303 tortured, 385 arbitrarily detained during and after the 1998-99 war. Three co-defendants got 25, 18, and 13 years.",
+          "startSec": 23.59,
+          "endSec": 32.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "How's it landing at home — is this seen as justice, or as an attack on the war of independence itself?",
+          "startSec": 32.88,
+          "endSec": 38.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Split, hard — for many Kosovars, Thaçi is remembered as a liberation leader, so a war-crimes conviction against him reads to some as delegitimizing the whole independence struggle, which is exactly why the protests in Pristina turned angry rather than just sad.",
+          "startSec": 38.55,
+          "endSec": 53.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "And this is the man who was president as recently as 2020.",
+          "startSec": 53.07,
+          "endSec": 56.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — first head-of-state-level conviction to come out of the KLA's conduct, and it closes a case that's been central to how Kosovo tells its own founding story. There were angry protests in Pristina after the verdict.",
+          "startSec": 56.3,
+          "endSec": 68.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next — Yemen, where Washington is doing something unusual: saying no to Riyadh.",
+          "startSec": 68.54,
+          "endSec": 72.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Saudi jets are hitting Yemen hard right now, and the Houthis claim they shot down a Saudi F-15 as they advance. Riyadh asked the Trump administration to join the strikes directly.",
+          "startSec": 72.93,
+          "endSec": 82.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the US said no.",
+          "startSec": 82.89,
+          "endSec": 83.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Declined — and it gets stranger. US officials secretly met Houthi representatives in Muscat over the weekend, and the Houthis pledged not to hit US or Israeli vessels in exchange.",
+          "startSec": 83.95,
+          "endSec": 93.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "So Washington's hedging between a core Gulf ally and quiet backchannel diplomacy with the group that ally is fighting.",
+          "startSec": 93.9,
+          "endSec": 100.47
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly — and Saudi Arabia's air-defense stocks are thin enough that they're now asking France, the UK, Pakistan and Egypt for interceptor help. The UN says at least 9 children have been killed and over 57,000 people displaced in the last two weeks alone.",
+          "startSec": 100.47,
+          "endSec": 114.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third story — Germany's sending fighter jets to Latvia, but not for the reason you'd guess.",
+          "startSec": 114.65,
+          "endSec": 119.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Four Eurofighter Typhoons plus troops, deploying for about a week in late September into early October — specifically to guard Latvian airspace ahead of the October 3rd parliamentary election.",
+          "startSec": 119.71,
+          "endSec": 130.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Because of the drone incursions we've been hearing about from Russia and Belarus.",
+          "startSec": 130.4,
+          "endSec": 134.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, repeated incursions over recent weeks — this is the first time we've seen a NATO member specifically request air defense to protect an election process itself, not just general airspace. Riga's asking allies for more.",
+          "startSec": 134.9,
+          "endSec": 147.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "Back on Yemen for a second — how solid is that F-15 claim?",
+          "startSec": 147.36,
+          "endSec": 150.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Genuinely unconfirmed — Riyadh hasn't acknowledged a loss, and the Houthis have a track record of overstating air-defense claims. What's not in dispute is the interceptor shortage driving Saudi Arabia to shop allies for help, and that's the more telling data point regardless of whether the jet claim holds up.",
+          "startSec": 150.59,
+          "endSec": 167.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onto US business — and a number that cuts against the \"economy is struggling\" story everyone's been telling.",
+          "startSec": 167.83,
+          "endSec": 173.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Census Bureau's new release: real median household income hit $87,460 in 2025, up 2.6% year over year. Official poverty rate fell to 10.2% — a record low. Child poverty, 13.4% — also a record low.",
+          "startSec": 173.84,
+          "endSec": 184.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "That lands right after the Fed's first hike in three years.",
+          "startSec": 184.97,
+          "endSec": 188.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the tension — the data behind the rate decision looks genuinely strong, not fragile, and that complicates any narrative that the Fed is tightening into weakness. The supplemental poverty measure was flat at 13.1%, for context.",
+          "startSec": 188.25,
+          "endSec": 201.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does \"record low poverty, still hiking rates\" read as a policy win, or as the Fed being late?",
+          "startSec": 201.32,
+          "endSec": 206.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Both, honestly — it vindicates the soft-landing case the Fed's been selling, but it also means this hike wasn't a rescue move, it was preemptive tightening into genuinely good numbers, which is exactly the kind of decision that gets second-guessed if growth rolls over next year.",
+          "startSec": 206.5,
+          "endSec": 222.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second business story is smaller but sharper — the FTC just stepped into the gun industry.",
+          "startSec": 222.02,
+          "endSec": 227.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Thursday, the FTC accepted a consent order over a stock-purchase deal between Beretta Holding and Sturm, Ruger and Company. It bars Beretta from placing board nominees on Ruger unless they're independent of Beretta.",
+          "startSec": 227.02,
+          "endSec": 238.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "So not blocking the investment, just the influence.",
+          "startSec": 238.98,
+          "endSec": 241.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — a fairly rare move, stopping interlocking-board control between two of the largest US gunmakers without going as far as challenging a full merger. The order doesn't touch the actual stock purchase, just governance — Beretta keeps its stake, it just can't put people on the Ruger board unless they're demonstrably independent of Beretta itself.",
+          "startSec": 241.82,
+          "endSec": 261.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the FTC's drawing a line specifically around control, not ownership.",
+          "startSec": 261.35,
+          "endSec": 265.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the distinction — and it's a template worth watching, because it's a cheaper enforcement tool than a full merger challenge when the concern is influence rather than concentration.",
+          "startSec": 265.3,
+          "endSec": 275.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "International — the Bank of Japan just made news of its own, this afternoon Tokyo time.",
+          "startSec": 275.7,
+          "endSec": 280.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "BOJ hiked a quarter point to 1.25% — the highest level in 31 years. But it was a split vote, 7 to 2, with two board members dissenting.",
+          "startSec": 280.54,
+          "endSec": 288.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the dissent about?",
+          "startSec": 288.05,
+          "endSec": 289.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The dissenters doubt the case for continued tightening, and the market read that as a signal further hikes aren't a lock — the yen actually dropped on the decision, which is the opposite of what you'd expect from a hike on its face. A hawkish move that trades dovish because of how divided the committee looked.",
+          "startSec": 289.44,
+          "endSec": 306.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the UK, the OBR just cut its 2026 growth forecast to 1.1% from 1.4%. Q3 GDP grew just 0.1%, partly because a JLR cyberattack shut down production and rippled through suppliers.",
+          "startSec": 306.74,
+          "endSec": 316.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Reeves already has a tough budget math problem.",
+          "startSec": 316.76,
+          "endSec": 319.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It gets worse — day-to-day borrowing is running 10% higher year over year at £84 billion, and payrolls just saw the biggest two-month drop since late 2020, tied to her higher employer National Insurance contributions and the minimum wage increase. Growth, hiring, and borrowing all moving the wrong way at once makes her 2030 balanced-budget pledge look a lot harder to hit.",
+          "startSec": 319.59,
+          "endSec": 340.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is the JLR shutdown a one-off shock or a sign of something more structural?",
+          "startSec": 340.4,
+          "endSec": 344.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Mostly a one-off in isolation — a cyberattack halting a single automaker shouldn't move a national growth print this much on its own. But it's exposing how thin the UK's supplier-base resilience actually is; one company's outage rippling into a quarter-point of GDP is not a healthy amount of concentration risk.",
+          "startSec": 344.57,
+          "endSec": 362.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the autumn budget just got a lot less forgiving.",
+          "startSec": 362.36,
+          "endSec": 365.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Considerably — Reeves now needs a growth surprise or a borrowing surprise in her favor, and right now the data's handing her neither.",
+          "startSec": 365.27,
+          "endSec": 372.85
+        }
+      ],
+      "startSec": 10.5
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Markets actually had a real day yesterday — this isn't a \"check the app\" segment today.",
+          "startSec": 372.85,
+          "endSec": 377.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's not. Wednesday's close was a genuine relief rally — the Nasdaq closed up 1.69%, which clears our bar for a real move. S&P up 1.14%, Dow up 0.61%.",
+          "startSec": 377.81,
+          "endSec": 386.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "This is the day after the Fed's first hike in three years.",
+          "startSec": 386.37,
+          "endSec": 389.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, Wednesday itself was the sell-off — the 10-year briefly spiked above 5% intraday and stocks dropped. Thursday's session is the digestion: the 10-year eased back to 4.93%, down 7 basis points, and that gave tech room to run. Nvidia, Amazon, Qualcomm all up over 2%, Intel up 7%.",
+          "startSec": 389.67,
+          "endSec": 405.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is that a real \"the Fed isn't as scary as we thought\" move, or just an oversold bounce?",
+          "startSec": 405.87,
+          "endSec": 410.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Genuinely the more interesting question — a 25 basis point hike after three years of holding shouldn't have produced a spike through 5% on the 10-year in the first place. That tells you positioning was more fragile than the macro data justified. Thursday's bounce is the market re-pricing back toward what the actual economic backdrop — that strong Census income data we just covered — supports.",
+          "startSec": 410.83,
+          "endSec": 433.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "Anything else worth a number?",
+          "startSec": 433.35,
+          "endSec": 435.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Gold's up 1.83% to $4,341 an ounce — real safe-haven demand still sitting alongside the equity rally, which is a bit of a tell that nobody's fully convinced this is over. Everything else — full index levels, PSEi, FX — it's all on the Markets tab. Peso's steady around 62.73.",
+          "startSec": 435.01,
+          "endSec": 450.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "If you had to bet, does the relief rally hold into next week?",
+          "startSec": 450.69,
+          "endSec": 454.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Cautiously — the Fed didn't signal a pause, just one hike, so the real test is whether the 10-year stays under 5% without more hawkish commentary. Gold not selling off alongside the equity bounce is the thing I'd watch most; that's the market keeping a hedge on.",
+          "startSec": 454.16,
+          "endSec": 469.1
+        }
+      ],
+      "startSec": 372.9
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Our deep dive today isn't markets or energy — it's the IMF, and something that happened very quietly two weeks ago.",
+          "startSec": 469.1,
+          "endSec": 475.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Where's this from?",
+          "startSec": 475.66,
+          "endSec": 476.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Adam Tooze's Chartbook newsletter, curating FT reporting — landed in the inbox last weekend. The IMF dropped Ricardo Reis, the LSE economist who was set to become its incoming chief economist and head of research, at the eleventh hour.",
+          "startSec": 476.69,
+          "endSec": 490.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Dropped him why?",
+          "startSec": 490.09,
+          "endSec": 491.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "He'd publicly criticized Trump's tariffs — warned they'd push up US consumer prices. Shortly after, the Fund installed Silvana Tenreyro instead. And separately, Managing Director Kristalina Georgieva dropped the Fund's gender and climate research focus after Treasury Secretary Scott Bessent pushed the IMF to stick to, quote, \"core\" macro-financial stability work.",
+          "startSec": 491.0,
+          "endSec": 511.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is any of this actually confirmed, or is this FT sourcing doing a lot of work?",
+          "startSec": 511.81,
+          "endSec": 516.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Fair to flag — there's no on-record confirmation from the IMF or from Reis himself. The FT's account rests on people familiar with the matter. So treat the specific mechanics as plausible, not proven.",
+          "startSec": 516.26,
+          "endSec": 527.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "But the shape of it — an institution's research independence bending to its largest shareholder's informal pressure — that's the real story regardless of the details.",
+          "startSec": 527.67,
+          "endSec": 537.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly it. The chief economist post is supposed to be the Fund's independent technocratic voice — the body that writes the World Economic Outlook and the Article IV surveillance that anyone in markets treats as a baseline read on rates, capital flows, dollar liquidity. This isn't a formal vote-share exercise of US influence, it's informal leverage working on personnel.",
+          "startSec": 537.13,
+          "endSec": 558.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "What do we actually watch for, going forward?",
+          "startSec": 558.74,
+          "endSec": 561.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Whether Tenreyro's research agenda — or the next WEO or Article IV language — visibly softens on tariff-inflation pass-through. That's the tell for whether this is cosmetic or a durable shift in how independent the Fund's forecasting actually is. If you're pricing Fed, dollar, or EM scenarios off IMF numbers, that's not a small thing to be quietly compromised.",
+          "startSec": 561.31,
+          "endSec": 581.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "Worth watching the next WEO release closely, then.",
+          "startSec": 581.95,
+          "endSec": 584.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Very much so — mark your calendar. And there's a second reading of this worth sitting with: Bessent's push wasn't really about gender or climate research specifically, it was about narrowing what counts as the Fund's legitimate mandate at all.",
+          "startSec": 584.8,
+          "endSec": 598.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Meaning the fight isn't over one economist's job, it's over what the IMF is even allowed to study.",
+          "startSec": 598.66,
+          "endSec": 604.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — and that's a much bigger stake than a single personnel decision. An institution that can be told which questions are \"core\" and which aren't has had its independence redefined, not just its staffing.",
+          "startSec": 604.24,
+          "endSec": 616.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "Has anything like this happened before at the Fund, or is this genuinely new territory?",
+          "startSec": 616.05,
+          "endSec": 621.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's precedent for political pressure on IMF lending decisions — that's practically the Fund's whole history with its largest shareholders. What's less common is pressure aimed specifically at the research and forecasting side, the part that's supposed to be insulated because it's not disbursing anyone's money. That's the part of this that reads as a new kind of encroachment, not a repeat of an old one.",
+          "startSec": 621.01,
+          "endSec": 644.33
+        }
+      ],
+      "startSec": 469.1
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Energy — and there's a genuinely uncomfortable new number out of Pennsylvania.",
+          "startSec": 644.33,
+          "endSec": 648.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This one's from Utility Dive, Tuesday — the Pennsylvania PUC commissioned its own study of PJM's 2030 reliability under continued data-center load growth, independent of PJM's own capacity-auction modeling.",
+          "startSec": 648.78,
+          "endSec": 660.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the answer wasn't good.",
+          "startSec": 660.52,
+          "endSec": 662.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Worst case in the study: loss-of-load-expectation more than 100 times worse than PJM's own planning criterion — over 13 days a year with loss-of-load events, against a criterion of roughly one day in ten years. That's a state regulator's own number, not PJM's marketing.",
+          "startSec": 662.06,
+          "endSec": 677.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the kind of gap that changes how state commissions negotiate large-load tariffs.",
+          "startSec": 677.46,
+          "endSec": 682.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly why it matters more than another capex headline. And it's not just Pennsylvania's problem — PJM covers 13 states plus DC, so an independent regulator producing a number this much worse than PJM's own criterion gives every other state commission in that footprint a credible basis to push back on PJM's self-reported margins too.",
+          "startSec": 682.42,
+          "endSec": 701.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this could reshape how the whole PJM footprint negotiates large-load interconnection, not just one state.",
+          "startSec": 701.58,
+          "endSec": 709.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the read — and it lines up with IEA and BloombergNEF's own warnings this year that grid-planning timelines are structurally out of sync with hyperscaler procurement timelines. The planning criterion was built for a world of slow, predictable load growth; it was never stress-tested against a multi-gigawatt data-center campus showing up mid-cycle. Speaking of tariffs — Dominion and NextEra just proposed a roughly $1 billion a year Virginia large-load supplier program, a new state-specific mechanism, distinct from anything we've covered before.",
+          "startSec": 709.55,
+          "endSec": 750.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's happening on the generation side while all this reliability anxiety builds?",
+          "startSec": 750.46,
+          "endSec": 756.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Incumbent gas fleets are reshuffling, not expanding. Constellation bought Shell's 609-megawatt Rhode Island gas plant to grow its ISO-New England book. Same week, Shell turned around and bought a 169-megawatt Pennsylvania gas portfolio to grow its PJM position.",
+          "startSec": 756.51,
+          "endSec": 775.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "So existing dispatchable capacity is the scarce asset, not new builds.",
+          "startSec": 775.78,
+          "endSec": 780.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — everyone's trading the capacity that already exists toward the two grids under the most AI-load stress, PJM and ISO-NE, rather than betting on new construction timelines.",
+          "startSec": 780.95,
+          "endSec": 794.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "What about the behind-the-meter workaround — bypassing interconnection queues entirely?",
+          "startSec": 794.09,
+          "endSec": 800.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Live example out of Texas — PUCT docket 59115. Hut 8, through its Silver Basin subsidiary, is trying to net-meter a 180-megawatt data center behind a 204-megawatt AC solar farm in Pecos County, sidestepping ERCOT's interconnection queue entirely.",
+          "startSec": 800.52,
+          "endSec": 818.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "And regulators are letting that happen?",
+          "startSec": 818.68,
+          "endSec": 821.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "PUCT staff recommended approval on September 8th, subject to ERCOT conditions — but Texas-New Mexico Power filed adverse testimony, and the applicants filed a joint objection back on the 10th. Genuinely contested right now, real dollars, real precedent if it clears.",
+          "startSec": 821.56,
+          "endSec": 841.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "On the financing side — anything moving on tax credits?",
+          "startSec": 841.2,
+          "endSec": 845.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Yes, and it's a structural shift worth knowing. The clean-energy tax-credit market is oversupplied — production-linked credits are holding value, but investment tax credits are under real price pressure as corporate buyers gain leverage amid uncertainty over new federal transferability rules.",
+          "startSec": 845.26,
+          "endSec": 866.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does that show up in an actual deal?",
+          "startSec": 866.89,
+          "endSec": 869.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Suniva just closed an $835 million debt and equity raise — Goldman Sachs Alternatives and I Squared Capital — for its Laurens County, South Carolina solar cell plant, 4.5 gigawatts of capacity. But the schedule slip cost the plant one of its two full-output years at the full credit rate — timing against the step-down is now a live underwriting variable.",
+          "startSec": 869.55,
+          "endSec": 895.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more before we move on?",
+          "startSec": 895.76,
+          "endSec": 897.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Excelsior Energy Capital sold a 625-megawatt AC Utah solar portfolio to Enel for $760 million — and the notable part is that Meta and Google are buying that output through utility tariffs, not corporate PPAs. Open question in the market right now on why hyperscalers are choosing tariff-based offtake over direct PPAs in some deals.",
+          "startSec": 897.76,
+          "endSec": 922.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "And there's a ratepayer-protection thread still unwinding in New Mexico?",
+          "startSec": 922.27,
+          "endSec": 927.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Yes — TXNM had to unwind a Blackstone stock sale after a court ruled it illegal, and New Mexico's DOJ is now pressing for more information on whether costs from that ownership structure got passed indirectly to PNM ratepayers. It's a slower-burning story, but it's the clearest live test right now of how much scrutiny private-equity ownership of regulated utilities is actually going to face.",
+          "startSec": 927.59,
+          "endSec": 956.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Zoom out for me before we move on.",
+          "startSec": 956.6,
+          "endSec": 959.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bloomberg's estimate: US data-center gas demand alone will overtake most countries' total gas demand by 2035. Every deal we just walked through is downstream of that one number.",
+          "startSec": 959.11,
+          "endSec": 972.18
+        }
+      ],
+      "startSec": 644.3
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Tara, bago tayo pumunta sa Pilipinas, dalawang salita muna tayo — parehong may kinalaman sa mga balitang pang-negosyo ngayong araw.",
+          "startSec": 972.18,
+          "endSec": 981.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "Simulan natin sa \"pagsasanib.\"",
+          "startSec": 981.85,
+          "endSec": 984.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Pagsasanib\" — ang ibig sabihin, ang pagsasama-sama ng dalawang kumpanya o entidad para maging isa. Pang-negosyo ang tono nito — madalas itong gamitin sa balitang pinansyal, hindi sa pang-araw-araw na usapan.",
+          "startSec": 984.07,
+          "endSec": 999.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "May kaibhan ba ito sa \"pagsasama\" o \"pakikipagsosyo\"?",
+          "startSec": 999.43,
+          "endSec": 1003.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo — mas magaan ang \"pagsasama,\" puwedeng tumukoy sa kahit anong pagbubuklod. Ang \"pakikipagsosyo\" naman, may nananatiling magkahiwalay na pagkakakilanlan ang dalawang panig. Ang \"pagsasanib\" ang pinakamatindi — halos mawawala na ang magkahiwalay na pagkatao ng isang kumpanya, sasanib ito nang tuluyan sa kabila.",
+          "startSec": 1003.34,
+          "endSec": 1026.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Halimbawa?",
+          "startSec": 1026.45,
+          "endSec": 1027.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Nagsasanib ang dalawang kumpanya para lumawak ang kanilang serbisyo.\" Gagamitin natin ito mamaya kapag pinag-usapan natin ang deal ng Grab.",
+          "startSec": 1027.19,
+          "endSec": 1037.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sige, susunod — \"paglilitis.\"",
+          "startSec": 1037.52,
+          "endSec": 1039.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Paglilitis\" — ang proseso ng pagdinig at pagsusuri ng isang kaso sa hukuman. Legal at pormal ang rehistro nito — hindi ito ginagamit sa karaniwang usapan, kundi sa balitang pambatasan o pampulitika.",
+          "startSec": 1039.66,
+          "endSec": 1054.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ano'ng pagkakaiba nito sa \"imbestigasyon\"?",
+          "startSec": 1054.36,
+          "endSec": 1057.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang imbestigasyon, panimulang pagsisiyasat pa lamang bago pa man dumating sa hukuman. Ang \"paglilitis\" naman, nasa yugto na kung saan opisyal nang nagsisimula ang pagdinig sa loob mismo ng korte, may mga ebidensiyang ipinapakita at pinagtatalunan.",
+          "startSec": 1057.46,
+          "endSec": 1075.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Halimbawa naman ng gamit?",
+          "startSec": 1075.7,
+          "endSec": 1077.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Nagsimula na ang paglilitis matapos ang kanyang pagdeklara ng 'hindi guilty.'\" Gagamitin din natin ito sa susunod na segment.",
+          "startSec": 1077.54,
+          "endSec": 1086.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Bago tayo lumipat — mayroon bang pagkakaiba sa dating ng dalawang salita, isa'y pang-negosyo, isa'y pambatas?",
+          "startSec": 1086.84,
+          "endSec": 1094.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo — ang \"pagsasanib\" ay may positibong o neutral na dating, tungkol ito sa paglago at pagpapalawak. Ang \"paglilitis\" naman ay may seryosong timbang — laging nakaugnay sa pananagutan at hustisya. Kapag pinagsabay mo sa isang balita, madaling makita kung gaano kalawak ang saklaw ng usapang pang-ekonomiya at pampulitika ngayong araw.",
+          "startSec": 1094.89,
+          "endSec": 1119.48
+        }
+      ],
+      "startSec": 972.2
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Nagsasanib ang Grab at ang fintech na Atome Financial mula Singapore — bibilhin ng Grab ang 60 porsiyento ng Atome sa halagang 1.49 bilyong dolyar, cash, kasama na ang 260 milyong dolyar na bagong growth capital.",
+          "startSec": 1119.48,
+          "endSec": 1135.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang natitirang 40 porsiyento, kailan bibilhin?",
+          "startSec": 1135.13,
+          "endSec": 1138.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sa loob ng humigit-kumulang dalawang taon. Umaabot sa 25 milyong gumagamit ang Atome sa Pilipinas at apat pang bansa sa Timog-Silangang Asya — pinakamalaking pagsasanib sa fintech sa rehiyon ngayong taon.",
+          "startSec": 1138.53,
+          "endSec": 1153.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "In English for a second — this makes Grab's play clear: it's betting its super-app moat on consumer lending, not just rides and delivery. Closing's expected Q3 2027, pending regulatory approval.",
+          "startSec": 1153.59,
+          "endSec": 1164.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Meanwhile — the BSP question that's been hanging over the market all week just got answered. The Fed hiked 25 basis points to 3.75 to 4%, and the BSP is signaling it will NOT match with an off-cycle move.",
+          "startSec": 1164.25,
+          "endSec": 1175.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "Bakit hindi kailangang tumugon agad ang BSP?",
+          "startSec": 1175.46,
+          "endSec": 1177.88
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Dahil hawak pa rin ng BSP ang positibong rate differential — mananatili itong nangunguna kaysa sa Fed rate, kaya may puwang pang maghintay hanggang sa naka-iskedyul na Oktubre meeting.",
+          "startSec": 1177.88,
+          "endSec": 1187.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the peso reflects that confidence — closed around 62.73 to the dollar Wednesday, steadying off its intraday low, PSEi back above 5,900.",
+          "startSec": 1187.99,
+          "endSec": 1195.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's a genuinely disciplined call — plenty of emerging-market central banks would have felt pressure to match a Fed hike defensively, and the BSP's basically saying the differential cushion is wide enough that it doesn't need to.",
+          "startSec": 1195.62,
+          "endSec": 1208.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does that hold if the peso weakens again before October?",
+          "startSec": 1208.21,
+          "endSec": 1211.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the real test — the BSP's credibility here rests on the cushion actually being wide enough to absorb a few weeks of volatility without flinching. If the peso slides meaningfully before the scheduled meeting, the \"no off-cycle move\" position gets a lot harder to defend.",
+          "startSec": 1211.28,
+          "endSec": 1226.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sa larangan naman ng batas — nagsimula na ang paglilitis kay dating Speaker Martin Romualdez matapos ang kanyang \"hindi guilty\" na plea noong Martes.",
+          "startSec": 1226.45,
+          "endSec": 1234.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual next step in the courtroom?",
+          "startSec": 1234.64,
+          "endSec": 1237.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Sandiganbayan's Third Division began pre-marking evidence today, running through September 24th. Romualdez's camp is now filing for bail — and separately, the court gave him 10 days to explain why he shouldn't be preventively suspended while the trial proceeds.",
+          "startSec": 1237.11,
+          "endSec": 1251.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this is the first real test of whether the 7.44 billion peso plunder case actually gets to trial, or stalls out on bail and suspension motions.",
+          "startSec": 1251.67,
+          "endSec": 1259.69
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly the tension to watch over the next two weeks. Weather's quiet — just a weak low-pressure area off Palawan, no signal — and the PSEi move was routine, so we'll leave both there.",
+          "startSec": 1259.69,
+          "endSec": 1269.8
+        }
+      ],
+      "startSec": 1119.5
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words today, both built for the China story coming up — a land auction that just fell apart.",
+          "startSec": 1269.8,
+          "endSec": 1275.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First word: 万一, wànyī. It means \"in case\" or \"what if\" — a connective for a hypothetical, often unwelcome, scenario. Register-wise it's flexible — used in both spoken and written Mandarin, but it signals real concern, not idle speculation like 也许.",
+          "startSec": 1275.57,
+          "endSec": 1289.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "How's it different from 如果?",
+          "startSec": 1289.5,
+          "endSec": 1291.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "如果 is neutral — \"if X happens.\" 万一 carries a worried undertone — \"in the unlikely but concerning case that X happens.\" You'd use it for a risk you're actually hedging against, not a plain hypothetical.",
+          "startSec": 1291.16,
+          "endSec": 1302.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Example: 万一土地拍卖再次流拍，地方政府的财政压力会更大。(\"In case the land auction fails again, local governments' fiscal pressure will get even worse.\")",
+          "startSec": 1302.55,
+          "endSec": 1311.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word — 财政缺口, cáizhèng quēkǒu.",
+          "startSec": 1311.72,
+          "endSec": 1314.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Fiscal gap\" or \"fiscal shortfall\" — a formal, written-register term, 书面语, straight out of financial and policy reporting. You wouldn't use this casually — it's desk language.",
+          "startSec": 1314.05,
+          "endSec": 1323.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "Any near-synonym worth contrasting?",
+          "startSec": 1323.93,
+          "endSec": 1325.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "赤字, chìzì, is the closer everyday word — \"deficit,\" often for a budget line. 财政缺口 is broader and more structural — it points to an underlying shortfall in capacity to fund obligations, not just one year's red ink. It collocates with words like 弥补, \"to make up the gap,\" or 扩大, \"to widen.\"",
+          "startSec": 1325.85,
+          "endSec": 1342.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Example: 卖地收入下降，扩大了地方政府的财政缺口。(\"Falling land-sale revenue has widened local governments' fiscal gap.\") We'll hear both of these again in a moment.",
+          "startSec": 1342.55,
+          "endSec": 1352.19
+        }
+      ],
+      "startSec": 1269.8
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "万一买家不再出现，土地市场就会彻底停摆。(\"In case buyers stop showing up altogether, the land market grinds to a complete halt.\") And that's not hypothetical anymore — it basically just happened in Beijing.",
+          "startSec": 1352.19,
+          "endSec": 1364.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "What happened?",
+          "startSec": 1364.08,
+          "endSec": 1364.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A Beijing land parcel worth over a billion dollars drew interest from three developers ahead of the auction — but on auction day, only one showed up. Regulators scrapped the sale outright. No new date set.",
+          "startSec": 1364.85,
+          "endSec": 1376.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is this a one-off, or part of something bigger?",
+          "startSec": 1376.12,
+          "endSec": 1378.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bigger — this follows late-August rules forcing \"completed-home-only\" presales, which cut land area sold 36% week-over-week across 70 major cities. First-half 2026 national land-sale revenue fell 31.5% year over year, the steepest same-period drop in nearly a decade.",
+          "startSec": 1378.7,
+          "endSec": 1393.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "And land sales are how local governments actually fund themselves.",
+          "startSec": 1393.37,
+          "endSec": 1397.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the trap — 卖地收入下降，扩大了地方政府的财政缺口。Falling land-sale revenue is widening local governments' fiscal gap, right as they're relying on land sales to fund the debt swaps meant to fix that same fiscal hole.",
+          "startSec": 1397.0,
+          "endSec": 1409.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the fix and the funding source for the fix are the same shrinking thing.",
+          "startSec": 1409.99,
+          "endSec": 1414.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly — a debt-deflation squeeze that's feeding itself, and it's the same instrument, land, breaking on both ends at once.",
+          "startSec": 1414.11,
+          "endSec": 1420.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "万一这种情况持续下去，地方政府只能靠更多借贷来填补财政缺口了。(\"In case this situation continues, local governments will have no choice but to rely on more borrowing to fill the fiscal gap.\")",
+          "startSec": 1420.92,
+          "endSec": 1432.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "说得对。(\"Well said.\") And that's the real risk here: borrowing to cover a shortfall caused by a financing model that's stopped working isn't a fix, it just moves the debt-deflation problem from the land market into the bond market.",
+          "startSec": 1432.35,
+          "endSec": 1445.14
+        }
+      ],
+      "startSec": 1352.2
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts today leads with a show that opens tomorrow in Beijing — and it's a first for the artist.",
+          "startSec": 1445.14,
+          "endSec": 1450.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "UCCA Center for Contemporary Art opens John Baldessari's first-ever exhibition in China on September 19th, running through January 3rd. Baldessari's a foundational figure in American conceptualism — died in 2020 — and this is a full five-decade survey.",
+          "startSec": 1450.31,
+          "endSec": 1464.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "What does the survey actually cover?",
+          "startSec": 1464.15,
+          "endSec": 1466.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Early text-and-image experiments and the playful video work from the 1970s, through his cinematic photo-montages in the '80s, his later psychological work on perception, and the austere late pieces revisiting color, absence, and space. It's been years in development.",
+          "startSec": 1466.13,
+          "endSec": 1480.8
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why has it taken this long for Baldessari to get a China show at all?",
+          "startSec": 1480.8,
+          "endSec": 1484.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's really the story here — a genuinely canonical figure in Western conceptual art, and this is the first time a Chinese institution has done a proper survey of his work. Says as much about UCCA's expanding ambitions as it does about the belated recognition itself.",
+          "startSec": 1484.59,
+          "endSec": 1499.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "A second visual-art item worth a line: the 16th Gwangju Biennale opened September 5th, directed by Ho Tzu Nyen, titled \"You Must Change Your Life,\" with 43 participating teams — timed against the close of Frieze Seoul and Kiaf's 25th-anniversary edition.",
+          "startSec": 1499.32,
+          "endSec": 1512.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "On to classical — anything from the Gramophone Awards?",
+          "startSec": 1512.88,
+          "endSec": 1515.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The 2026 shortlist just came out — 66 recordings across 11 categories, ceremony October 7th in London. Notable names: violinist Isabelle Faust and harpsichordist Kristian Bezuidenhout both shortlisted.",
+          "startSec": 1515.77,
+          "endSec": 1526.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "And literature?",
+          "startSec": 1526.5,
+          "endSec": 1527.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The National Book Award Fiction longlist dropped this week — 10 titles out of 451 submissions, including a new queer epic from Marlon James and a story collection from Louise Erdrich. Finalists announced October 6th, winners November 18th.",
+          "startSec": 1527.3,
+          "endSec": 1540.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "Strong week for fiction, then.",
+          "startSec": 1540.06,
+          "endSec": 1541.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Genuinely — worth putting a few of those on the list before the finalists narrow it down.",
+          "startSec": 1541.66,
+          "endSec": 1546.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual case for leading with Kusama over everything else this week?",
+          "startSec": 1546.41,
+          "endSec": 1550.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Scale and timing together — \"biggest-ever\" for a museum with the Stedelijk's history is a real claim, not marketing copy, and doing it as a posthumous tribute barely a month after her death gives the show a different emotional register than a standard career survey. The never-before-shown-in-Europe works are the reason to actually go, not just read about it.",
+          "startSec": 1550.58,
+          "endSec": 1569.8
+        }
+      ],
+      "startSec": 1445.1
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds — and Matthew Yglesias picked a fight with OpenAI this week.",
+          "startSec": 1569.8,
+          "endSec": 1573.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In Slow Boring, Yglesias argues OpenAI staff should actively oppose the company's own backing of \"Leading the Future,\" a PAC built to chill federal AI regulation — and that Congress should hold real hearings on AI risk now, before that window closes.",
+          "startSec": 1573.38,
+          "endSec": 1586.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "Steelman it for me.",
+          "startSec": 1586.73,
+          "endSec": 1587.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman's solid — a company funding an anti-regulation PAC while its own safety researchers are sounding alarms internally is a genuine conflict of interest, and it's fair to say that shouldn't go unremarked.",
+          "startSec": 1587.74,
+          "endSec": 1599.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the counter?",
+          "startSec": 1599.12,
+          "endSec": 1599.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Congress should hold hearings\" is about the lowest-stakes ask available in Washington — hearings generate soundbites, not statute. Yglesias doesn't offer a real theory of how a gridlocked Congress turns that concern into binding rules before the midterms eat the calendar.",
+          "startSec": 1599.97,
+          "endSec": 1614.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "We've got a second one in reserve if you want a different angle.",
+          "startSec": 1614.55,
+          "endSec": 1617.96
+        },
+        {
+          "speaker": "ALEX",
+          "text": "We do — Noah Smith's \"The anti-American Right,\" using Texas Railroad Commissioner nominee Bo French's anti-immigrant tweet firestorm to argue the New Right increasingly treats nonwhite immigrants and their US-born children as permanent outsiders. Steelman: it documents a real rhetorical shift among elected Republicans, not just online trolls. Counter: one primary winner's tweet is a thin reed for a sweeping \"the Right has changed\" thesis.",
+          "startSec": 1617.96,
+          "endSec": 1641.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "Both worth sitting with — but the AI-regulation one is the sharper hook this week.",
+          "startSec": 1641.57,
+          "endSec": 1645.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On the Smith piece specifically — the useful part isn't the Bo French tweet itself, it's the framing question underneath it: is \"assimilationism\" actually the historical norm the piece assumes, or is Smith reading a fairly recent post-1965 consensus back onto the whole conservative tradition?",
+          "startSec": 1645.94,
+          "endSec": 1661.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the counter-take on that one cuts even deeper than \"one tweet is a thin reed.\"",
+          "startSec": 1661.59,
+          "endSec": 1665.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It does — if the baseline he's measuring deviation from is itself contested, the whole \"this is new\" argument gets shakier, not just the sample size.",
+          "startSec": 1665.91,
+          "endSec": 1673.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does the Yglesias piece have the same weakness — is he assuming a baseline that might not hold either?",
+          "startSec": 1673.87,
+          "endSec": 1679.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Less so — his ask is concrete enough to test: did Congress hold hearings or didn't it, is OpenAI still funding the PAC or did it pull back. That's falsifiable in a way \"the Right has changed\" isn't, which is actually the strongest argument for treating it as the sharper piece this week, independent of whether you agree with the policy conclusion.",
+          "startSec": 1679.32,
+          "endSec": 1697.9
+        }
+      ],
+      "startSec": 1569.8
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "We'll close in Henrico, Virginia, with a chef named Andrew Griffin.",
+          "startSec": 1697.9,
+          "endSec": 1701.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "What happened?",
+          "startSec": 1701.48,
+          "endSec": 1702.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Griffin, who runs Deep Run Roadhouse, was outside his not-yet-open new location when he found an elderly regular — everyone calls her Miss Duke — stranded after a senior-transport drop-off went wrong.",
+          "startSec": 1702.22,
+          "endSec": 1712.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "And he didn't just call someone else to handle it.",
+          "startSec": 1712.9,
+          "endSec": 1715.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "He drove her home himself. Then, thinking about his own grandmother, he made sure her fridge was actually stocked before he left — no fanfare, nobody asking him to.",
+          "startSec": 1715.57,
+          "endSec": 1724.33
+        },
+        {
+          "speaker": "SAM",
+          "text": "Did anyone catch it?",
+          "startSec": 1724.33,
+          "endSec": 1725.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Local TV did, and surprised him afterward with a kindness award and $300 — but that was never the point for him. He said he just thought about his own grandmother needing the same thing someday, and that was the whole decision.",
+          "startSec": 1725.4,
+          "endSec": 1737.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "Clean story, no caveat needed.",
+          "startSec": 1737.52,
+          "endSec": 1739.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "None at all — exactly the kind of thing worth carrying into your weekend.",
+          "startSec": 1739.12,
+          "endSec": 1743.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's The Morning Commute for Friday, September 18th.",
+          "startSec": 1743.02,
+          "endSec": 1745.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a good one — we'll see you tomorrow.",
+          "startSec": 1745.9,
+          "endSec": 1748.09
+        }
+      ],
+      "startSec": 1697.9
+    }
+  ]
+}

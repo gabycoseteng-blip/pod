@@ -145,12 +145,24 @@ made a major move** (a large swing or a record); a routine daily close isn't wor
 a line.
 
 **Deep Dive — pick ONE thing and go deep.** This is the marquee segment (the time
-freed by trimming the market recap). Choose **EITHER**:
+freed by trimming the market recap). Choose **ONE OF**:
 - **a standout feature from the listener's subscribed newsletters** — use the Gmail
   connector (`search_threads` → `get_thread`) on the ones she reads (e.g.
   `from:semianalysis@substack.com OR from:hello@ctvc.co OR from:thegeneralist@substack.com
   OR from:newsletter@divenewsletter.com newer_than:7d`, plus Chartbook/Adam Tooze,
   The Generalist, Stratechery-style essays) and lead with the piece's actual argument;
+- **OR a standout piece from The Economist** (she subscribes) — her inbox gets
+  **The Economist Today** (daily, `newsletters@e.economist.com`) and **This Week**
+  (`noreply@e.economist.com`): query `from:e.economist.com newer_than:7d`. The
+  emails carry the headline + a 1–3 sentence blurb per story, NOT the full text
+  (the site is paywalled and no login is available), so treat the email as
+  *selection + thesis*: pick the piece (a cover leader / Free Exchange /
+  Charlemagne-style column travels best), then **rebuild the substance via web
+  research** on the underlying story — the reports, data, and events the piece
+  draws on, plus secondary coverage of its argument. Attribute as "this week's
+  Economist cover" / "a piece in The Economist", present the thesis from the blurb
+  faithfully, and **never invent specifics of the article itself** beyond what the
+  email and open reporting support;
 - **OR a genuinely viral article/thread on X or Reddit** — something with real,
   verifiable engagement that's being widely discussed *right now* (web-search X /
   `reddit.com/r/<sub>` for the day's high-traction threads; confirm it's actually
@@ -517,7 +529,8 @@ git push
 Then report in a few lines: the throughline, segment count, the four vocab words,
 the audio duration, **which source the energy segment used** (inbox newsletters vs
 web fallback — see the Energy fallback note), **what the Deep Dive was + its source
-path** (inbox newsletter vs X/Reddit), and that the deploy push landed.
+path** (inbox newsletter vs The Economist vs X/Reddit), and that the deploy push
+landed.
 
 ## 8. Scorecard + retro (runs every publish — grade the run, track the trend)
 The point of this step is that **every run self-evaluates against fixed GOALS and

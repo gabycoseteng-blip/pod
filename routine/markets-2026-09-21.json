@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-21",
+  "asOf": "Friday, September 18 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,650.50", "change": "+0.17%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "26,522.55", "change": "+0.39%", "dir": "up"},
+      {"label": "Dow", "value": "51,682.64", "change": "-0.18%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,860.40", "change": "-0.50%", "dir": "down"}
+    ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,652.00", "change": "-1.51%", "dir": "down"},
+      {"label": "DAX", "value": "25,304.00", "change": "-1.60%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "65,018.95", "change": "+1.38%", "dir": "up"},
+      {"label": "Hang Seng", "value": "24,750.78", "change": "+0.60%", "dir": "up"},
+      {"label": "Shanghai Composite", "value": "3,911.87", "change": "+0.94%", "dir": "up"},
+      {"label": "PSEi", "value": "5,855.91", "change": "-1.72%", "dir": "down"}
+    ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "5.01%", "change": "~flat", "dir": "flat"}
+    ]},
+    {"name": "Commodities", "rows": [
+      {"label": "Gold", "value": "4,381.60", "change": "-0.4%", "dir": "down"},
+      {"label": "WTI Crude", "value": "100.30", "change": "-1.58%", "dir": "down"},
+      {"label": "Brent Crude", "value": "103.87", "change": "-0.91%", "dir": "down"}
+    ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.75", "change": "-0.11", "dir": "down"},
+      {"label": "DXY", "value": "100.215", "change": "-0.03%", "dir": "flat"}
+    ]}
+  ],
+  "note": "Prior-session close (Fri Sept 18) — full levels so the show can stay brief. Calm US large-caps mask sharper stress abroad: FTSE, DAX and PSEi all posted genuinely major moves."
+}

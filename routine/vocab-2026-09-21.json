@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-21",
+  "cards": [
+    {
+      "id": "2026-09-21-tl-1",
+      "lang": "Tagalog",
+      "word": "pagpigil",
+      "pinyin": "",
+      "pronunciation": "pag-PI-gil",
+      "tones": "",
+      "meaning": "restraint or containment — taking action to stop something before it escalates or gets worse",
+      "example": "Naglagay ang pulisya ng dagdag na tauhan bilang pagpigil sa posibleng karahasan.",
+      "examplePinyin": "",
+      "exampleMeaning": "Police deployed additional personnel as a containment measure against possible violence.",
+      "note": "Distinct from 'pagbabawal' (a formal ban or prohibition) — 'pagpigil' is about the physical/procedural act of preventing escalation, not a legal rule declaring something forbidden.",
+      "tiesTo": "17,000+ police on alert and Malacañang locked down for the martial law anniversary rally"
+    },
+    {
+      "id": "2026-09-21-tl-2",
+      "lang": "Tagalog",
+      "word": "pagkakakulong",
+      "pinyin": "",
+      "pronunciation": "pag-ka-ka-ku-LONG",
+      "tones": "",
+      "meaning": "detention or imprisonment — the state of being held in custody, typically while awaiting trial or a hearing",
+      "example": "Nanatili sa pagkakakulong ang dating pangulo habang naghihintay ng pagsisimula ng kanyang paglilitis.",
+      "examplePinyin": "",
+      "exampleMeaning": "The former president remained in detention while awaiting the start of his trial.",
+      "note": "More specific than 'pagkabihag' (captivity in general — war, accident, or any non-legal circumstance) — 'pagkakakulong' refers specifically to official, legal custody under a court order or case.",
+      "tiesTo": "Duterte's ICC judges denying release and confirming a November 30 trial date"
+    },
+    {
+      "id": "2026-09-21-zh-1",
+      "lang": "Mandarin",
+      "word": "不惜",
+      "pinyin": "bùxī",
+      "pronunciation": "",
+      "tones": "4 · 1",
+      "meaning": "\"not hesitate to (even at real cost)\" — a formal adverb signaling strong, even reckless, commitment",
+      "example": "一些地方政府不惜代价维持土地财政，即使收入已经大幅下降。",
+      "examplePinyin": "Yìxiē dìfāng zhèngfǔ bùxī dàijià wéichí tǔdì cáizhèng, jíshǐ shōurù yǐjīng dàfú xiàjiàng.",
+      "exampleMeaning": "Some local governments won't hesitate to pay any cost to keep relying on land revenue, even as that revenue has fallen sharply.",
+      "note": "Register: 书面语 (formal, written). Almost always paired with a cost word — 不惜代价 (\"at any cost\") or 不惜一切 (\"at all costs\") — signaling commitment strong enough to disregard the price, not casual willingness.",
+      "tiesTo": "Local governments still leaning on land-dependent financing as land-sale revenue keeps falling"
+    },
+    {
+      "id": "2026-09-21-zh-2",
+      "lang": "Mandarin",
+      "word": "权衡",
+      "pinyin": "quánhéng",
+      "pronunciation": "",
+      "tones": "2 · 2",
+      "meaning": "\"to weigh up\" (pros and cons) before a decision — a formal verb for deliberate trade-off analysis",
+      "example": "北京必须权衡利弊，决定是继续收紧预售政策，还是放松以稳住地方财政。",
+      "examplePinyin": "Běijīng bìxū quánhéng lìbì, juédìng shì jìxù shōujǐn yùshòu zhèngcè, háishi fàngsōng yǐ wěnzhù dìfāng cáizhèng.",
+      "exampleMeaning": "Beijing has to weigh the pros and cons of whether to keep tightening presale policy or ease up to stabilize local government finances.",
+      "note": "Register: 书面语 (formal, policy/finance writing). Abstract collocation verb, not a connective — pairs with 利弊 (\"pros and cons\") as 权衡利弊, or 得失 (\"gains and losses\") as 权衡得失, both set phrases common in financial commentary.",
+      "tiesTo": "Beijing weighing whether to keep tightening presale rules or ease them to protect local government revenue"
+    }
+  ]
+}

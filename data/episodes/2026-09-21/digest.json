@@ -1,0 +1,34 @@
+{
+  "throughline": "who actually gets stuck holding the bill -- Virginia bills data centers directly instead of ratepayers, Beijing's presale rules quietly bill local governments out of their own land revenue, and central banks look for anyone but voters to bill for a decade of debt",
+  "stories": [
+    "ukraine-moscow-mass-drone-strike",
+    "russia-wartime-election-united-russia",
+    "germany-berlin-mv-elections-linke-afd",
+    "buffett-steps-down-berkshire-chairman",
+    "ai-antitrust-suit-anthropic-openai-xai",
+    "nigeria-dangote-ipo-ftse-frontier-reentry",
+    "argentina-imf-mission-household-debt",
+    "us-markets-calm-masking-ftse-dax-selloff",
+    "economist-ultra-rich-nanny-economy",
+    "virginia-dominion-microsoft-transmission-costs",
+    "hitachi-transformer-capacity-expansion",
+    "meta-apex-texas-solar-ppa-recs",
+    "ph-martial-law-54th-anniversary-mendiola",
+    "ph-duterte-icc-november30-trial-detained",
+    "ph-romualdez-bail-bid-suspension-order",
+    "ph-bsp-october-hike-forecast-inflation",
+    "china-presale-overhaul-goldman-30pct-land-hit",
+    "opera-paris-barbiere-bignamini-review",
+    "booker-prize-2026-shortlist-eve",
+    "opeds-levin-central-bank-yield-muddle",
+    "opeds-harper-token-black-professor",
+    "one-good-thing-justin-buzzard-football-comeback"
+  ],
+  "explainers": [
+    "direct cost-assignment vs ratepayer-socialized transmission costs for data centers",
+    "REC exclusivity vs power-only PPAs as a sustainability-accounting mechanism",
+    "completed-home-only presale rules squeezing developer land-bidding capital",
+    "ICC fitness-to-stand-trial hearings and evidentiary-record trimming before trial"
+  ],
+  "comment": "stories = every distinct item you covered (short slugs); explainers = any concept you actually explained, so you won't re-explain it"
+}

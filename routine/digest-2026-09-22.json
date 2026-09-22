@@ -1,0 +1,28 @@
+{
+  "throughline": "every fix on offer is a monitor, not a breakup — from Google's antitrust compliance minder to a state where no minder was left at all",
+  "stories": [
+    "iran-ceasefire-oil-selloff-nasdaq-record",
+    "unga-81st-session-trump-venezuela-pullaside",
+    "bangladesh-measles-outbreak-1000-deaths",
+    "paramount-wbd-merger-clears-state-ag-settlement",
+    "google-adtech-ruling-no-breakup-monitor",
+    "ubs-swiss-toobigtofail-capital-fight",
+    "eurozone-pmi-16month-high-france-drag",
+    "deepdive-leijdekkers-sierra-leone-state-capture",
+    "energy-last-10-percent-firming-tariff",
+    "aes-crusoe-jupiter-power-deals",
+    "pjm-2030-reliability-study-pa-puc",
+    "ph-baste-duterte-gencorp-smoking-gun",
+    "ph-canada-fta-breakthrough",
+    "china-bessent-ai-notification-mechanism-trump-xi-summit",
+    "booker-prize-2026-shortlist-reveal",
+    "opeds-erdogan-un-veto-abolition",
+    "opeds-sharma-france-degaulle-nostalgia",
+    "one-good-thing-ackley-marine-veteran-scuba"
+  ],
+  "explainers": [
+    "residual-firming tariff concept for the last 10% of data-center load",
+    "loss-of-load expectation as a reliability metric"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

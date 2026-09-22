@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-22",
+  "cards": [
+    {
+      "id": "2026-09-22-tl-1",
+      "lang": "Tagalog",
+      "word": "pahayag",
+      "pinyin": "",
+      "pronunciation": "pa-ha-YAG",
+      "tones": "",
+      "meaning": "a formal statement or declaration — usually revealing something previously unconfirmed or only rumored",
+      "example": "Ang pahayag ng alkalde ang nagbunyag ng koneksyon na dati'y itinatanggi ng lahat.",
+      "examplePinyin": "",
+      "exampleMeaning": "The mayor's statement was what revealed the connection everyone had previously denied.",
+      "note": "Distinct from 'komento' (a reaction or opinion about existing news) — 'pahayag' IS the new information itself, carrying real weight, especially when described as 'opisyal na pahayag' (an official statement).",
+      "tiesTo": "Baste Duterte's public admission on GenCorp's Davao City Hall contracts, called a 'confession of sins' by impeachment prosecutors"
+    },
+    {
+      "id": "2026-09-22-tl-2",
+      "lang": "Tagalog",
+      "word": "pagsang-ayon",
+      "pinyin": "",
+      "pronunciation": "pag-sang-a-YON",
+      "tones": "",
+      "meaning": "reaching agreement or consent between two sides — the signal that two formerly differing positions are converging, short of the final signed document",
+      "example": "Malapit nang magkaroon ng pagsang-ayon ang Pilipinas at Canada matapos ang buwan-buwang negosasyon.",
+      "examplePinyin": "",
+      "exampleMeaning": "The Philippines and Canada are close to reaching agreement after months of negotiation.",
+      "note": "Distinct from 'usapan' (an informal, still-unfinished conversation) — 'pagsang-ayon' is the signal that both sides are converging, not yet the final signed instrument itself.",
+      "tiesTo": "The Philippines-Canada free trade agreement reaching its final stretch after the 4th negotiating round in Toronto"
+    },
+    {
+      "id": "2026-09-22-zh-1",
+      "lang": "Mandarin",
+      "word": "机制",
+      "pinyin": "jīzhì",
+      "pronunciation": "",
+      "tones": "1 · 4",
+      "meaning": "\"mechanism\" — an abstract noun for a structured process or system, common in policy and diplomacy writing",
+      "example": "双方同意建立一个新的通知机制，以便在人工智能事件升级为国安问题之前及时沟通。",
+      "examplePinyin": "Shuāngfāng tóngyì jiànlì yí gè xīn de tōngzhī jīzhì, yǐbiàn zài réngōng zhìnéng shìjiàn shēngjí wéi guó'ān wèntí zhīqián jíshí gōutōng.",
+      "exampleMeaning": "Both sides agreed to establish a new notification mechanism, so that they can communicate in time before an AI incident escalates into a national-security issue.",
+      "note": "Register: 书面语 (formal, policy/diplomacy). Common collocations: 建立机制 (\"establish a mechanism\"), 通知机制 (\"notification mechanism\"). Distinct from 制度 (a formal institution or rule-system) — 机制 emphasizes the working process itself, not the institution around it.",
+      "tiesTo": "The Bessent-He Lifeng proposal for a bilateral US-China AI incident notification mechanism ahead of the Trump-Xi summit"
+    },
+    {
+      "id": "2026-09-22-zh-2",
+      "lang": "Mandarin",
+      "word": "以便",
+      "pinyin": "yǐbiàn",
+      "pronunciation": "",
+      "tones": "3 · 4",
+      "meaning": "\"so that / in order that\" — an HSK-4 connective introducing the purpose or intended result of an action already stated",
+      "example": "两国官员提前交换信息，以便在危机发生前采取行动。",
+      "examplePinyin": "Liǎng guó guānyuán tíqián jiāohuàn xìnxī, yǐbiàn zài wéijī fāshēng qián cǎiqǔ xíngdòng.",
+      "exampleMeaning": "Officials from both countries are exchanging information in advance, so that they can act before a crisis happens.",
+      "note": "Register: 书面语 (formal). Word order is action-then-purpose (action, 以便, purpose) — the reverse of 为了, which typically opens the sentence with the purpose before the action. Signals \"in order to enable\" rather than casual intent.",
+      "tiesTo": "The purpose clause behind the new US-China AI safety notification mechanism"
+    }
+  ]
+}

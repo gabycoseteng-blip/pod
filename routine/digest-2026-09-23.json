@@ -1,0 +1,33 @@
+{
+  "throughline": "moving the line -- the impeachment court redefines its own conviction math, Beijing tells banks to unsee a default, and Texas erases its own new rules the same week North Carolina draws a rare hard line",
+  "stories": [
+    "trump-iran-annihilate-or-deal-un",
+    "zelensky-trump-energy-truce-patriots",
+    "morocco-parliamentary-election",
+    "micron-q4-earnings-ai-memory",
+    "priority-technology-1.6bn-take-private",
+    "uk-consumer-confidence-job-security-slump",
+    "india-inflation-vs-semicon-2.0",
+    "us-markets-nasdaq-record-narrow-rally",
+    "brent-fifth-day-decline-hormuz-signal",
+    "deepdive-daddys-girl-managerial-bias-study",
+    "nc-puc-denies-duke-hamlet-turbine",
+    "texas-datacenter-permit-freeze-vs-puc-softening",
+    "ph-impeachment-threshold-lowered-14votes",
+    "ph-baste-duterte-gencorp-subpoena",
+    "ph-eu-fta-agreement-in-principle",
+    "china-vanke-forbearance-by-instruction",
+    "frieze-london-masters-2026-preview",
+    "riley-palm-house-nyrb-review",
+    "opeds-olson-huang-ai-rules",
+    "opeds-denning-westinghouse-nuclear-ipo",
+    "one-good-thing-norton-inmates-lunch-debt"
+  ],
+  "explainers": [
+    "natural-experiment identification via random sex of a manager's firstborn child",
+    "regulatory forbearance-by-instruction vs formal debt restructuring",
+    "two-thirds-of-eligible-judges vs fixed-vote-count conviction thresholds in impeachment trials",
+    "ROE adders for voluntary RTO membership as a rate-base subsidy"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

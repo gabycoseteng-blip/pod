@@ -1,0 +1,33 @@
+{
+  "throughline": "the truce economy -- everyone settles for buying time instead of closing the deal: Beijing's tariff truce extended not resolved, Iran hands over a ceasefire roadmap not an agreement, Denmark gets a Greenland security pact instead of the annexation Trump demanded, and an Illinois federal court has to decide if a $1 letter of credit is real collateral",
+  "stories": [
+    "morocco-election-pam-coalition",
+    "us-iran-ny-ceasefire-roadmap",
+    "copart-acv-auctions-tender",
+    "costco-darden-earnings-day",
+    "sarb-hike-725-inflation",
+    "uruguay-port-dispute-settlement-offer",
+    "us-markets-10y-19yr-high-oil-spike",
+    "deepdive-greenland-security-pact-trump",
+    "energy-ferc-hillwood-collateral-dispute",
+    "energy-ca-datacenter-payyourway-law",
+    "energy-newengland-rto-adder-complaint",
+    "ph-impeachment-dynamic-threshold",
+    "ph-baste-duterte-gencorp-testimony",
+    "ph-bsp-hike-peso-weakness-growth-downgrade",
+    "china-truce-extension-debt-deflation",
+    "arts-nassar-tatreez-gaza-mosaic",
+    "arts-met-opera-macbeth-season-opener",
+    "arts-ohagan-lrb-brookner-essay",
+    "opeds-ignatius-autocrats-twilight",
+    "opeds-silver-diesel-gop-heartland",
+    "one-good-thing-todd-beck-kidney-ballpark"
+  ],
+  "explainers": [
+    "dynamic impeachment-conviction denominator vs a fixed 16-vote threshold",
+    "collateral adequacy in gigawatt-scale interconnection queues -- a $1 letter of credit dispute",
+    "CEQA exemption revocation as a data-center schedule risk distinct from direct-cost-assignment rules",
+    "a security pact granting military access is not the same as annexation or ownership"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

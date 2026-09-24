@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-24",
+  "cards": [
+    {
+      "id": "2026-09-24-tl-1",
+      "lang": "Tagalog",
+      "word": "panandalian",
+      "pinyin": "",
+      "pronunciation": "pah-nan-dah-LEE-yan",
+      "tones": "",
+      "meaning": "temporary; short-term; a stopgap",
+      "example": "Solusyong panandalian lang ito, hindi ito ang tunay na kasagutan.",
+      "examplePinyin": "",
+      "exampleMeaning": "This is only a stopgap solution, not the real answer.",
+      "note": "Mas pormal at mas may bigat kaysa sa pangkaraniwang 'pansamantala' — ginagamit sa political at economic commentary kapag binibigyang-diin na hindi pa ito solusyon sa ugat ng problema. Karaniwang pares: solusyong panandalian, ayuda panandalian, kaluwagan panandalian.",
+      "tiesTo": "BSP's rate response to peso weakness as a short-term fix, not a structural one"
+    },
+    {
+      "id": "2026-09-24-tl-2",
+      "lang": "Tagalog",
+      "word": "kahina-hinala",
+      "pinyin": "",
+      "pronunciation": "kah-hee-nah-hee-NAH-lah",
+      "tones": "",
+      "meaning": "suspicious-looking; giving rise to doubt, though not yet proven",
+      "example": "Kahina-hinala ang mga kontratang iyon, pero wala pa tayong sapat na ebidensya.",
+      "examplePinyin": "",
+      "exampleMeaning": "Those contracts look suspicious, but we don't have enough evidence yet.",
+      "note": "Mas malumanay at mas legal/balita ang dating kumpara sa mas diretsahang 'kaduda-duda' — ginagamit kapag may itsura ng mali pero hindi pa napapatunayan. Karaniwang gamit sa court at investigative reporting.",
+      "tiesTo": "Baste Duterte's denial of knowledge of GenCorp's ties to VP Sara Duterte despite 19 Davao contracts worth over ₱33.2M"
+    },
+    {
+      "id": "2026-09-24-zh-1",
+      "lang": "Mandarin",
+      "word": "缓解",
+      "pinyin": "huǎn jiě",
+      "pronunciation": "hwahn jyeh",
+      "tones": "3 · 3",
+      "meaning": "to ease, alleviate (pressure, tension, a crisis) without fully resolving it",
+      "example": "尽管美中把关税休战延长到明年一月十日，中国国内的房地产和地方债务危机还是没有缓解。",
+      "examplePinyin": "jǐnguǎn Měi-Zhōng bǎ guānshuì xiūzhàn yáncháng dào míngnián yī yuè shí rì, Zhōngguó guónèi de fángdìchǎn hé dìfāng zhàiwù wēijī háishi méiyǒu huǎnjiě",
+      "exampleMeaning": "Although the US and China extended their tariff truce to January 10th next year, China's domestic property and local-government debt crisis still hasn't eased.",
+      "note": "书面语/formal register, common in economic and diplomatic news. Near-synonym contrast: 解决 (jiějué, 'to resolve completely') fixes the underlying problem; 缓解 only lessens the severity without touching the root cause. Collocations: 缓解压力、缓解紧张局势、缓解危机、缓解负担.",
+      "tiesTo": "US-China tariff truce extension vs China's underlying debt-deflation crisis"
+    },
+    {
+      "id": "2026-09-24-zh-2",
+      "lang": "Mandarin",
+      "word": "让步",
+      "pinyin": "ràng bù",
+      "pronunciation": "rahng boo",
+      "tones": "4 · 4",
+      "meaning": "to make a concession; to yield or back down (usually one side, often under pressure)",
+      "example": "中国在农产品采购上做出了让步，可是稀土交付进度依然落后。",
+      "examplePinyin": "Zhōngguó zài nóngchǎnpǐn cǎigòu shàng zuò chū le ràngbù, kěshì xītǔ jiāofù jìndù yīrán luòhòu",
+      "exampleMeaning": "China made concessions on agricultural purchases, but its rare-earth delivery schedule is still behind.",
+      "note": "书面语/formal, common in diplomatic and negotiation reporting. Near-synonym contrast: 妥协 (tuǒxié, 'compromise') implies BOTH sides give ground toward a middle point; 让步 specifically marks ONE side yielding. Collocations: 做出让步、作出让步、被迫让步、拒绝让步.",
+      "tiesTo": "China's partial compliance on Busan-truce deliverables — soybean pledge met, ag-goods and rare-earth commitments lagging"
+    }
+  ]
+}

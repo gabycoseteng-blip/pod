@@ -196,7 +196,7 @@ ALEX: Close enough that a Chinese warship radioed a threat of, quote, compulsory
 
 SAM: Ang mabuting balita naman — pagbangon ang PSEi ngayong araw.
 
-ALEX: Bumangon nang malakas ang PSEi ngayong Biyernes — plus one point six seven percent, pagkatapos ng limang magkakasunod na araw ng pagbagsak papunta sa sampung-buwang mababa.
+ALEX: Bumangon nang malakas ang PSEi ngayong Biyernes — +1.67%, pagkatapos ng limang magkakasunod na araw ng pagbagsak papunta sa sampung-buwang mababa.
 
 SAM: On the record — Wednesday's close was 5,730.02, a fifth straight losing session and a ten-month low. Today's bounce added 95.95 points to close at 5,825.97, on foreign buying and bargain-hunting.
 

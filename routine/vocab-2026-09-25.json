@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-25",
+  "cards": [
+    {
+      "id": "2026-09-25-tl-1",
+      "lang": "Tagalog",
+      "word": "panghihimasok",
+      "pinyin": "",
+      "pronunciation": "pang-hi-hi-mah-SOK",
+      "tones": "",
+      "meaning": "interference; meddling in another's affairs without permission or right",
+      "example": "Malinaw na panghihimasok ang ginawa ng mga barkong Tsino sa loob ng ating teritoryal na karagatan.",
+      "examplePinyin": "",
+      "exampleMeaning": "What the Chinese ships did inside our territorial waters was clearly interference.",
+      "note": "Mas may bigat at diplomatic/political na dating ito kaysa sa payak na 'pakikialam' — ginagamit kapag may paglabag sa karapatan o soberanya ng ibang bansa o tao. Karaniwang gamit: panghihimasok sa usaping panloob, panghihimasok ng dayuhang bansa, walang karapatang manghimasok.",
+      "tiesTo": "China Coast Guard and PLA Navy vessels blocking the Philippine resupply mission to BRP Sierra Madre at Ayungin Shoal"
+    },
+    {
+      "id": "2026-09-25-tl-2",
+      "lang": "Tagalog",
+      "word": "pagbangon",
+      "pinyin": "",
+      "pronunciation": "pag-bah-NGON",
+      "tones": "",
+      "meaning": "rising up again; recovery after a fall or setback",
+      "example": "Biglaang pagbangon ang naranasan ng PSEi matapos ang limang araw na pagbagsak.",
+      "examplePinyin": "",
+      "exampleMeaning": "The PSEi experienced a sudden recovery after five straight days of decline.",
+      "note": "Karaniwang gamit sa economic at personal na konteksto — may implikasyon ng pagbabalik ng lakas matapos ang isang mahirap na yugto. Iba ito sa payak na 'pagtaas,' na basta pagdami lamang; ang 'pagbangon' ay may kasamang kuwento ng pagkabagsak bago ito. Karaniwang pares: pagbangon ng ekonomiya, pagbangon mula sa kalamidad, pagbangon ng merkado.",
+      "tiesTo": "PSEi snapping its 5-day losing streak, rebounding 1.67% off a 10-month low"
+    },
+    {
+      "id": "2026-09-25-zh-1",
+      "lang": "Mandarin",
+      "word": "搁置",
+      "pinyin": "gē zhì",
+      "pronunciation": "guh jr",
+      "tones": "1 · 4",
+      "meaning": "to shelve, set aside, table an issue — often indefinitely, deliberately, institutionally",
+      "example": "台湾问题和芯片管制这次被双方搁置，没有列入公报。",
+      "examplePinyin": "Táiwān wèntí hé xīnpiàn guǎnzhì zhècì bèi shuāngfāng gēzhì, méiyǒu lièrù gōngbào.",
+      "exampleMeaning": "The Taiwan issue and chip controls were shelved by both sides this time, and weren't included in the communiqué.",
+      "note": "书面语/formal register, common in diplomatic and institutional reporting. Near-synonym contrast: 拖延 (tuōyán, 'to delay/procrastinate') implies avoidance or inefficiency, often personal and mildly negative; 搁置 is deliberate and institutional — a conscious decision to set something aside, often for an indefinite period. Collocations: 搁置争议、搁置计划、被搁置的议题.",
+      "tiesTo": "Taiwan and AI security explicitly carved out of the Trump-Xi summit outcome, left unresolved"
+    },
+    {
+      "id": "2026-09-25-zh-2",
+      "lang": "Mandarin",
+      "word": "一旦…就",
+      "pinyin": "yīdàn…jiù",
+      "pronunciation": "yee-dahn ... jyoh",
+      "tones": "1 4 · 4",
+      "meaning": "once… (then) — a connective marking a single triggering event after which a consequence follows, often irreversibly",
+      "example": "一旦台湾问题被重新提起，中美关系就可能急转直下。",
+      "examplePinyin": "Yīdàn Táiwān wèntí bèi chóngxīn tíqǐ, Zhōng-Měi guānxì jiù kěnéng jízhuǎn zhíxià.",
+      "exampleMeaning": "Once the Taiwan issue is raised again, US-China relations could take a sharp turn for the worse.",
+      "note": "HSK-4 advanced connective, 书面语/formal register — common in policy and risk analysis. Near-synonym contrast: 如果…就 (rúguǒ…jiù, 'if… then') is a neutral hypothetical that may or may not happen; 一旦…就 implies the triggering event is a real, often sudden or irreversible turning point, with weightier consequences once it occurs. Collocations: 一旦发生、一旦爆发、一旦失控.",
+      "tiesTo": "The risk that shelved Taiwan tensions could escalate sharply if the issue resurfaces"
+    }
+  ]
+}

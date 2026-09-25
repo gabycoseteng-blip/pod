@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-25",
+  "asOf": "Thursday, September 24 close (PSEi: Friday, September 25 close)",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,704.13", "change": "-0.02%", "dir": "flat"},
+      {"label": "Nasdaq", "value": "26,939.37", "change": "+0.01%", "dir": "flat"},
+      {"label": "Dow", "value": "51,349.98", "change": "-0.31%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,835.00", "change": "-0.11%", "dir": "down"}
+    ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,679.99", "change": "-0.24%", "dir": "down"},
+      {"label": "DAX", "value": "25,266.53", "change": "-0.57%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "65,513.99", "change": "+0.76%", "dir": "up"},
+      {"label": "Hang Seng", "value": "24,761.00", "change": "-0.29%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,888.40", "change": "-1.22%", "dir": "down"},
+      {"label": "PSEi", "value": "5,825.97", "change": "+1.67%", "dir": "up"}
+    ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "5.12%", "change": "~flat", "dir": "flat"}
+    ]},
+    {"name": "Commodities", "rows": [
+      {"label": "Gold", "value": "4,292.90", "change": "-0.85%", "dir": "down"},
+      {"label": "WTI Crude", "value": "95.25", "change": "+2.0%", "dir": "up"},
+      {"label": "Brent Crude", "value": "104.67", "change": "n/a (intraday ref)", "dir": "up"}
+    ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.57", "change": "-0.30%", "dir": "down"},
+      {"label": "USD/JPY", "value": "158.96", "change": "+0.40%", "dir": "up"}
+    ]}
+  ],
+  "note": "US/global levels are Thursday Sept 24 close (Friday US session still open at publish time); PSEi is Friday Sept 25 close (Manila session already settled given timezone)."
+}

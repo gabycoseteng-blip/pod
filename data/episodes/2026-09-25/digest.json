@@ -1,0 +1,29 @@
+{
+  "throughline": "the no-commitment economy -- everyone buys optionality instead of resolution: Oracle invokes force majeure instead of eating Project Jupiter's overrun risk, Trump and Xi defer Taiwan and AI rather than cutting a deal, Caracas promises elections with no date attached, and France's bond market prices a government that still might collapse",
+  "stories": [
+    "netanyahu-unga-walkout-mamdani",
+    "ethiopia-tigray-war-reignites",
+    "rocketlab-iridium-vote-clears",
+    "us-newhome-sales-price-cuts",
+    "venezuela-rodriguez-first-un-address",
+    "france-10y-yield-4-5pct-budget-crisis",
+    "trump-xi-summit-no-ai-taiwan-deal",
+    "us-markets-psei-rebound-oil-iran",
+    "deepdive-meta-smartglasses-privacy-backlash",
+    "energy-oracle-force-majeure-project-jupiter",
+    "energy-doe-spark-transmission-funding",
+    "ph-ayungin-shoal-resupply-blocked",
+    "ph-psei-snaps-5day-skid",
+    "arts-met-krasner-pollock-show",
+    "arts-sothebys-armand-hammer-sale",
+    "arts-cundill-history-prize-shortlist",
+    "opeds-laurent-europe-trump-xi-menu",
+    "opeds-wapo-trump-media-ban",
+    "one-good-thing-sadie-hutson-stuffed-animals"
+  ],
+  "explainers": [
+    "force majeure as a contract-risk-shifting tool on AI-campus offtake deals, distinct from a collateral/credit dispute",
+    "reconductoring existing transmission right-of-way vs new-build siting as the cheap way to add grid capacity"
+  ],
+  "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained, so future episodes won't re-explain them"
+}

@@ -1,0 +1,1109 @@
+{
+  "date": "2026-09-28",
+  "title": "Monday, September 28, 2026",
+  "day": "Monday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-09-28.mp3",
+  "durationSec": 1694,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Monday, September 28th. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Five men arrested overnight near a US bomber base in England — let's start there.",
+          "startSec": 3.87,
+          "endSec": 8.77
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Headlines. World desk first — the UK arrests.",
+          "startSec": 8.77,
+          "endSec": 11.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Just after midnight Sunday, 5 men were arrested near RAF Fairford in Gloucestershire — that's the base the US has flown B-1s and B-52s out of since February, including strikes on Iran. Bomb squad found 3 trucks with their rear doors open and black items scattered around; about 85 households were evacuated inside a 400-meter cordon.",
+          "startSec": 11.09,
+          "endSec": 28.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "Trump's already characterizing it — said the suspects were \"looking to do big damage.\" Has the UK confirmed an Iran link?",
+          "startSec": 28.27,
+          "endSec": 34.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Not officially — that's Trump's framing, not a confirmed UK assessment. But given what the base is used for, the read-through is obvious, and it lands right on top of the other Iran story breaking this weekend.",
+          "startSec": 34.51,
+          "endSec": 45.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is Trump rejecting Iran's Hormuz plan.",
+          "startSec": 45.35,
+          "endSec": 47.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Saturday, Trump publicly turned down Iran's 7-day roadmap to reopen the Strait — Tehran wanted frozen funds released, oil sanctions lifted, the naval blockade ended, all in exchange for reopening the strait. Trump's line was that Iran only wants a deal now \"because they're losing so badly.\"",
+          "startSec": 47.62,
+          "endSec": 62.63
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Iran's response?",
+          "startSec": 62.63,
+          "endSec": 63.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Says it's still waiting on a \"definitive\" answer from Washington, despite the public rejection — so there's daylight between the public posture and whatever's happening in back channels. That's the frame for the Fairford arrests too: nobody's calling this settled.",
+          "startSec": 63.66,
+          "endSec": 77.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third story — Venezuela.",
+          "startSec": 77.28,
+          "endSec": 78.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sunday, hundreds of supporters of María Corina Machado — the Nobel laureate, 9 months into exile now — rallied across Caracas, Valencia, Maracaibo, and Mérida, demanding her safe return and new presidential elections. Acting president Delcy Rodríguez is still running the government in the meantime.",
+          "startSec": 78.52,
+          "endSec": 93.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "Nine months is a long exile for a Nobel winner to still be locked out. Any sign Rodríguez is under real pressure, or is this rally more symbolic?",
+          "startSec": 93.95,
+          "endSec": 101.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "More symbolic for now — multiple cities but hundreds, not the scale that forces a response. Worth watching whether the international pressure builds around the Nobel attention, because that's the lever that's actually moved things before.",
+          "startSec": 101.43,
+          "endSec": 113.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more before we move on — Trump's hosting AI-industry CEOs at the White House Tuesday.",
+          "startSec": 113.7,
+          "endSec": 118.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "With Speaker Johnson in the room, which is the tension worth watching — Trump's instinct is to resist new regulation on the industry, Johnson's been pushing for some form of federal safety rules. It's industrial strategy dressed up as a photo op, but the framework that comes out of it — or doesn't — sets the regulatory backdrop for every capex story we cover this year.",
+          "startSec": 118.3,
+          "endSec": 137.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "US business next.",
+          "startSec": 137.44,
+          "endSec": 138.31
+        }
+      ],
+      "startSec": 8.8
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Two stories. First, Akamai and Anthropic — $11.6 billion over 7 years, Akamai's largest contract ever.",
+          "startSec": 138.31,
+          "endSec": 143.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's 6 times the $1.8 billion deal they signed back in May.",
+          "startSec": 143.57,
+          "endSec": 146.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, and the structure's the interesting part — Akamai gets a warrant for up to about 5% of Anthropic's shares, 7.7 million shares at $111.33 each. The deal could scale to roughly $20 billion as spend ramps.",
+          "startSec": 146.72,
+          "endSec": 157.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "So this is the Nvidia-style financing structure again — vendor financing dressed up as a compute deal.",
+          "startSec": 157.5,
+          "endSec": 162.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Same playbook, different layer of the stack. We've covered Nvidia's balance-sheet guarantees and Oracle's Jupiter contracts — this is the infrastructure-vendor side of the same arms race. Akamai itself is spending about $5.5 billion building capacity, plus another $1.7 billion in extra capex this year just to keep up.",
+          "startSec": 162.77,
+          "endSec": 179.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story — bank earnings preview, 3 weeks out.",
+          "startSec": 179.22,
+          "endSec": 181.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Big banks report October 13th through 15th. Consensus has JPMorgan around $5.82 to $5.84 a share on about $50.6 billion in revenue, Wells Fargo near $1.85, Goldman $16 to $16.40, BofA $1.17 to $1.18.",
+          "startSec": 181.8,
+          "endSec": 192.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual swing factor this quarter?",
+          "startSec": 192.07,
+          "endSec": 194.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Net interest income against the Fed's September hike, and credit quality against the highest long yields we've seen since 2007 — which, spoiler, is exactly where the market overview is headed. This is the first full quarter that tests both at once.",
+          "startSec": 194.34,
+          "endSec": 207.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which of the 4 is most exposed to that combination?",
+          "startSec": 207.13,
+          "endSec": 209.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Wells Fargo, probably — it's the most deposit-funded of the group, so NII is the most sensitive lever on the way up, but it's also got the least trading and investment-banking revenue to offset a credit-quality miss if long yields start pressuring consumer and commercial borrowers. JPMorgan and Goldman have more fee-income ballast if the loan book gets bumpy.",
+          "startSec": 209.76,
+          "endSec": 228.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "International, 2 stories.",
+          "startSec": 228.39,
+          "endSec": 229.68
+        }
+      ],
+      "startSec": 138.3
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "South Korea confirmed its first project under that $350 billion US investment MOU — a gas-fired power plant in Texas, with 2 nuclear reactor projects still under consideration.",
+          "startSec": 229.68,
+          "endSec": 238.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "Remind me how that package splits.",
+          "startSec": 238.76,
+          "endSec": 240.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "$150 billion for shipbuilding, $200 billion for strategic industries — semiconductors, pharma, critical minerals, AI. But Seoul and Washington are still renegotiating the \"commercial reasonableness\" terms — essentially, how losses and returns get split if the investments underperform.",
+          "startSec": 240.51,
+          "endSec": 255.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that's tangled up with the chip-tariff pressure on Samsung and SK Hynix from Commerce Secretary Lutnick.",
+          "startSec": 255.22,
+          "endSec": 260.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly — the investment MOU and the tariff threat are two ends of the same negotiation, not separate tracks. Second story: Uber's out of Nigeria and Uganda.",
+          "startSec": 260.79,
+          "endSec": 268.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "After how long?",
+          "startSec": 268.89,
+          "endSec": 269.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "12 years — started in Lagos back in 2014. The stated reason is \"evolving business priorities,\" which is corporate-speak for the unit economics never working in those markets the way they hoped.",
+          "startSec": 269.66,
+          "endSec": 279.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does that leave an opening for local competitors, or is this Uber deciding the whole model doesn't travel well to those markets?",
+          "startSec": 279.62,
+          "endSec": 286.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bit of both — local players like Nigeria's own ride-hailing apps pick up the volume, but the bigger signal is Uber drawing a harder line on where global scale actually pays off. Low fare density, high fraud and safety-verification costs, thin margins — the math that works in Lagos traffic doesn't look like the math that works in London or Manila.",
+          "startSec": 286.22,
+          "endSec": 304.17
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onto markets.",
+          "startSec": 304.17,
+          "endSec": 304.84
+        }
+      ],
+      "startSec": 229.7
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Markets were closed over the weekend, so we're working off Friday's close — no tape check, the levels are all on your Markets tab. Two things actually mattered.",
+          "startSec": 304.84,
+          "endSec": 313.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "Start with the one you keep flagging — the 10-year.",
+          "startSec": 313.1,
+          "endSec": 315.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Thursday, the US 10-year hit its highest yield since June 2007. It was basically flat Friday, sitting around 5.16%, but that Thursday print is the real story — this is a multi-decade level, and it's exactly the backdrop the bank-earnings preview we just covered is walking into.",
+          "startSec": 315.73,
+          "endSec": 331.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's actually driving it — a Fed problem, a supply problem, or a term-premium story?",
+          "startSec": 331.6,
+          "endSec": 336.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Probably some of all 3, but the term-premium read is underrated. You had years of suppressed long yields from QE and pandemic-era duration demand — some of this move is just that anomaly unwinding, not a fresh inflation shock. Which, by the way, is exactly the argument in the bond-market op-ed we're getting to later.",
+          "startSec": 336.51,
+          "endSec": 354.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second thing — oil.",
+          "startSec": 354.67,
+          "endSec": 355.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Brent and WTI both fell about 2% Friday — $104.32 and $92.41 — on hopes for a US-Iran truce and talk of a possible US ban on diesel exports. That's despite Houthi attacks on Saudi Arabia still putting a floor under the price.",
+          "startSec": 355.75,
+          "endSec": 368.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that oil pullback is part of why equities had their first winning week in 3.",
+          "startSec": 368.6,
+          "endSec": 373.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right — Dow up nearly 1% Friday, snapping a 3-week losing streak. S&P and Nasdaq both up around half a percent. Nothing on the board cleared the bar for a genuinely major move except oil — everything else, check the tab.",
+          "startSec": 373.16,
+          "endSec": 385.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more line — Asia.",
+          "startSec": 385.72,
+          "endSec": 386.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Nikkei up 1.3%, a strong session; Hang Seng down about 1% on thin, holiday trade. The Philippine index actually had its own story — up 1.67%, snapping a 5-session losing streak — we'll get to why that's more complicated than it looks when we hit the Philippines segment.",
+          "startSec": 386.92,
+          "endSec": 402.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the dollar — DXY's been grinding higher for 4 straight sessions now, near 2-month highs.",
+          "startSec": 402.34,
+          "endSec": 407.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the quiet cross-asset tell underneath everything else. A firming dollar into a rate-cut-adjacent Fed setup is unusual — normally you'd expect dollar softness if the market thought easing was coming. Instead you've got the 10-year at 2007 highs and the dollar strengthening, which reads more like \"US assets still the cleanest shirt,\" not an imminent-cut trade. Worth watching whether that holds once bank earnings actually land.",
+          "startSec": 407.59,
+          "endSec": 432.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "Deep dive time.",
+          "startSec": 432.54,
+          "endSec": 433.4
+        }
+      ],
+      "startSec": 304.8
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "This week's Economist ran a piece worth sitting with — \"In MAGA-land, people are dying faster than they are being born.\"",
+          "startSec": 433.4,
+          "endSec": 440.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a blunt headline. What's the actual finding?",
+          "startSec": 440.25,
+          "endSec": 443.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The conventional wisdom is that Republican-leaning counties have a built-in demographic edge — higher birth rates, plus a steady inflow from blue-state-to-red-state migration. The Economist's data analysis complicates that in 2 ways. First: in the most reliably Republican, MAGA-aligned counties, deaths now outnumber births outright — that's natural population decline, not growth.",
+          "startSec": 443.16,
+          "endSec": 464.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the birth-rate advantage is gone.",
+          "startSec": 464.97,
+          "endSec": 467.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Reversed, in the counties that matter most politically. Second finding is the sharper one — the only reason those counties are growing at all is migration inflow. People moving in from elsewhere.",
+          "startSec": 467.02,
+          "endSec": 478.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is awkward, because that's the most anti-immigration voting bloc in the country.",
+          "startSec": 478.16,
+          "endSec": 483.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the whole thesis in one sentence. \"Trump country's\" population growth is structurally dependent on the exact migration flows its own politics oppose. Strip out migration and you're looking at outright decline in the counties driving the current coalition.",
+          "startSec": 483.07,
+          "endSec": 498.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual mechanism — is this just an aging-population story, or something specific to these counties?",
+          "startSec": 498.02,
+          "endSec": 504.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Both. These are older, rural counties that have been losing young people to cities for decades — so the base population skews toward more deaths, fewer births, structurally. What's new isn't that rural America is aging out; it's quantifying that the growth numbers politicians cite as a mandate are propped up by the exact immigration flows those same voters want restricted.",
+          "startSec": 504.3,
+          "endSec": 525.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does this matter beyond the data-nerd interest?",
+          "startSec": 525.71,
+          "endSec": 528.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Redistricting, for one — population is the input to how House seats get reallocated, and if migration is doing the work, the composition of who's actually moving into these districts matters for how durable the current map is. It's also a rural-labor-force story — who replaces retiring workers in these local economies if the political mood keeps making that inflow harder to sustain. It's demography as a policy contradiction, not just a data point.",
+          "startSec": 528.63,
+          "endSec": 554.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Does The Economist offer a political prediction, or just lay out the data?",
+          "startSec": 554.37,
+          "endSec": 558.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Mostly the latter, and that's the right call — the piece is careful not to say this breaks the coalition next cycle. But it does flag the obvious tension: immigration restriction is popular with the exact voters whose local economies depend on immigration to avoid shrinking. That contradiction doesn't have to resolve soon, but it's the kind of structural fact that eventually forces a choice, the way plenty of slow-moving demographic stories have before.",
+          "startSec": 558.6,
+          "endSec": 584.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sharp piece. Energy next.",
+          "startSec": 584.69,
+          "endSec": 586.12
+        }
+      ],
+      "startSec": 433.4
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Energy desk — 2 stories that are really the same story at different altitudes. First: FERC rejected Oklo's complaint against PJM last Thursday.",
+          "startSec": 586.12,
+          "endSec": 594.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "Walk me through what happened.",
+          "startSec": 594.28,
+          "endSec": 595.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oklo's got a 750-megawatt project in Virginia — 150 megawatts of advanced nuclear, their Aurora design, plus 300 megawatts of fuel cells and 300 of gas. PJM dropped it from the current interconnection study cycle back in early August over an unresolved inverter ride-through test flaw in the application. Oklo filed a FERC complaint to force reinstatement — Docket EL26-101.",
+          "startSec": 595.99,
+          "endSec": 617.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "And FERC sided with PJM.",
+          "startSec": 617.35,
+          "endSec": 618.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ruled PJM broke no rules, and that Oklo never actually cured the deficiency PJM staff flagged. Now Oklo's choices are: fix the application and wait for the next full study cycle, or file into PJM's Expedited Interconnection Track, which stays open through December.",
+          "startSec": 618.72,
+          "endSec": 633.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "The headline read is \"advanced nuclear hits a bureaucratic wall\" — is that the real lesson?",
+          "startSec": 633.85,
+          "endSec": 639.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The real lesson is narrower and more useful — being \"firm\" or AI-adjacent doesn't get you a queue pass. This was a technical-compliance rejection, not a capacity-shortage story like the ones we've covered before. Same gate, different failure mode.",
+          "startSec": 639.04,
+          "endSec": 653.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which connects to the second piece — the nuclear capital-raise number.",
+          "startSec": 653.14,
+          "endSec": 657.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bloomberg flagged this Friday — US nuclear startups have raised $4.6 billion year-to-date in 2026, up from $3.8 billion in all of 2025. But only 2 new commercial reactors are actually under construction in the US and Canada. No other new commercial projects have cleared regulatory approval. Bloomberg Intelligence doesn't expect widespread SMR commercialization until around 2035.",
+          "startSec": 657.14,
+          "endSec": 679.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the money's there, the projects aren't.",
+          "startSec": 679.79,
+          "endSec": 682.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"The nuclear renaissance is currently still showing up more on balance sheets than construction sites\" — that's the line from the piece, and it's exactly right. Put the 2 stories together: capital is chasing advanced nuclear as the firm, clean, always-on answer to hyperscaler load, but the actual gating factor was never fundraising — it's project-by-project execution through FERC, RTO technical compliance, NRC licensing, supply chain.",
+          "startSec": 682.29,
+          "endSec": 708.33
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the practical takeaway for someone actually scheduling power for a data center right now?",
+          "startSec": 708.33,
+          "endSec": 714.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Don't treat a signed SMR power-purchase agreement as de-risking your interconnection timeline. The queue and the technical review are a separate gate that can move your commercial operation date by a full study cycle, no matter how much capital or offtake commitment is sitting behind the project on paper. Oklo had all of that — a real design, a real offtake logic — and got bounced anyway.",
+          "startSec": 714.04,
+          "endSec": 737.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's Oklo's realistic next move — fix and refile, or the expedited track?",
+          "startSec": 737.29,
+          "endSec": 741.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The expedited track looks more likely, just on timing — it stays open through December, and a fresh full study cycle could push commercial operation out by a year or more. But \"expedited\" at PJM still means passing the same ride-through test that got them bounced in the first place, so it's not actually a shortcut around the technical bar, just a faster queue position once they clear it.",
+          "startSec": 741.75,
+          "endSec": 764.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the $4.6 billion raised this year — where's that capital actually sitting while construction lags?",
+          "startSec": 764.94,
+          "endSec": 771.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Mostly cash on balance sheets and pre-construction spend — site work, licensing costs, long-lead equipment orders that don't require a grid interconnection yet. It's real money, it's just not yet capital-at-risk in poured concrete, which is exactly why Bloomberg Intelligence's 2035 commercialization number and the fundraising number can both be true at once without contradicting each other.",
+          "startSec": 771.01,
+          "endSec": 794.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Good pairing. Onto the Philippines — but first, vocab.",
+          "startSec": 794.37,
+          "endSec": 797.58
+        }
+      ],
+      "startSec": 586.1
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Bago tayo pumunta sa Pilipinas, dalawang salita muna. Ang una, \"paglampas.\"",
+          "startSec": 797.58,
+          "endSec": 802.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "\"Paglampas\" — ibig sabihin ay lumagpas o lumampas sa itinakdang proseso, hindi sumusunod sa tamang daan.",
+          "startSec": 802.04,
+          "endSec": 808.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ginagamit ito kapag may kontrata o transaksyon na dumaan sa \"negotiated\" na paraan sa halip na bidding — halimbawa, \"nilampasan nila ang bidding process.\"",
+          "startSec": 808.23,
+          "endSec": 817.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "Medyo pormal ang dating nito kumpara sa mas kolokyal na \"linusutan,\" na mas may pakiramdam ng katusuhan o pandaraya.",
+          "startSec": 817.38,
+          "endSec": 824.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama — mas neutral ang \"paglampas,\" pwedeng gamitin sa balita o sa ulat ng gobyerno nang walang masyadong akusasyon. Ang \"linusutan\" naman ay may bahid na ng intensyon na talagang linlangin.",
+          "startSec": 824.28,
+          "endSec": 835.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "Susunod, \"lihim.\"",
+          "startSec": 835.58,
+          "endSec": 836.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "\"Lihim\" — sikreto, tago, hindi alam ng nakararami.",
+          "startSec": 836.59,
+          "endSec": 839.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sa kaso ng mga kontrata, ang tawag dito ay \"lihim na kasunduan\" — kontratang ginawa nang hindi bukas sa publiko.",
+          "startSec": 839.56,
+          "endSec": 846.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Madalas din itong gamitin sa pang-araw-araw na usapan — halimbawa, \"may lihim siyang plano.\" Pero sa konteksto ng gobyerno, mas mabigat ang kahulugan nito, dahil nangangahulugan ito ng kakulangan sa transparency.",
+          "startSec": 846.22,
+          "endSec": 858.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang dalawang salitang ito, \"paglampas\" at \"lihim,\" ay parehong lalabas sa balita natin ngayon tungkol sa Pilipinas.",
+          "startSec": 858.83,
+          "endSec": 865.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oo, dahil pareho itong naglalarawan sa parehong kuwento — mga kontratang \"lumampas\" sa bidding at ginawa nang \"lihim.\"",
+          "startSec": 865.67,
+          "endSec": 872.68
+        }
+      ],
+      "startSec": 797.6
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment six, Philippines.",
+          "startSec": 872.68,
+          "endSec": 874.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sa ika-28 araw ng paglilitis sa impeachment ngayong Lunes, nagpatotoo si Rendell Sopeña ng PhilGEPS na 11 sa 15 kontrata ng GenCorp Industries sa Davao City Hall — nagkakahalaga ng 34.2 milyong piso — ay lumampas sa bidding process, at inilagay bilang \"negotiated, small-value procurement.\"",
+          "startSec": 874.17,
+          "endSec": 891.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pinayagan din ng Senate impeachment court na magpatotoo si Davao City Mayor Sebastian \"Baste\" Duterte sa Setyembre 29 at 30, sa ilalim ng bagong subpoena — at sinabi ng Malacañang na \"kalokohan\" ang pinakabagong akusasyon ni Vice President Sara Duterte laban sa administrasyong Marcos.",
+          "startSec": 891.41,
+          "endSec": 908.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In English — that P34.2 million figure is more than double the P14.3 million Rappler originally flagged, so this isn't a static story, the number itself is growing as more contracts get examined. The pattern is what matters: 11 separate contracts routed around competitive bidding by classifying them as small-value negotiated deals — which is precisely our vocab word, \"paglampas,\" in action.",
+          "startSec": 908.36,
+          "endSec": 931.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Baste Duterte testifying Tuesday and Wednesday is the next real checkpoint — does his testimony implicate the procurement office, or does it stay contained to City Hall staff?",
+          "startSec": 931.73,
+          "endSec": 942.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the question the court's been building toward. Meanwhile, on the economic side — BMI Research just slashed its 2026 Philippine GDP forecast to 3.3%, down from an April projection of 4.7%, citing renewed investor scrutiny of the flood-control corruption scandal. That's below even Marcos's own revised target of 3.5% to 4.5%.",
+          "startSec": 942.37,
+          "endSec": 962.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is the peso reflecting that downgrade?",
+          "startSec": 962.05,
+          "endSec": 964.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A little — it ticked up to 62.46 to the dollar on Friday from 62.73 Thursday, but it's still down more than 5% year-to-date, among the weakest currencies in Asia, and FX reserves have slid about 7% to $103 billion. Oddly, the PSEi didn't get the memo — it snapped a 5-session losing streak Friday, up 1.67%, investors apparently shrugging off the growth downgrade for now.",
+          "startSec": 964.31,
+          "endSec": 986.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "How do you square a GDP downgrade and a rallying equity index in the same week?",
+          "startSec": 986.43,
+          "endSec": 991.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They're pricing different things. BMI's downgrade is about the real economy — investment pulling back as due diligence on flood-control contractors gets tighter, which is a slow drag. The PSEi rally looks more technical — a index that had sold off 5 straight sessions was simply oversold, and a firmer peso gave foreign holders a reason to step back in. It's a bounce, not a vote of confidence in the corruption story resolving cleanly.",
+          "startSec": 991.13,
+          "endSec": 1017.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "China next — but first, the other vocab set.",
+          "startSec": 1017.05,
+          "endSec": 1019.67
+        }
+      ],
+      "startSec": 872.7
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment seven, Mandarin vocab — 2 words tied to today's China story.",
+          "startSec": 1019.67,
+          "endSec": 1023.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First word: 回升, huíshēng. It means \"to rebound\" or \"to pick back up\" — a recovery from a low point. It's fairly formal, 书面语, and you'll see it constantly in economic reporting — PPI, industrial profits, GDP.",
+          "startSec": 1023.71,
+          "endSec": 1039.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "How's that different from 反弹, fǎntán, which also means \"bounce\" or \"rebound\"?",
+          "startSec": 1039.74,
+          "endSec": 1045.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "反弹 is more colloquial, 口语, and it often carries a connotation of sharpness or suddenness — like a ball bouncing off the floor. You'd use it for a stock that spikes in a day. 回升 is slower, steadier — a gradual climb back, which is exactly the shape of the data we're about to cover.",
+          "startSec": 1045.72,
+          "endSec": 1067.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "Example: 尽管消费依然疲软，工业利润已经开始回升。(Despite consumption remaining weak, industrial profits have already started to rebound.)",
+          "startSec": 1067.38,
+          "endSec": 1078.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Good — that's using 尽管…已经 as the frame, which is worth noting for register: pairing a concessive clause with 已经 is very standard in financial writing.",
+          "startSec": 1078.44,
+          "endSec": 1090.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second word: 触底, chùdǐ — literally \"touch bottom,\" meaning to bottom out.",
+          "startSec": 1090.34,
+          "endSec": 1096.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's precise — you use it for the exact moment a decline stops, right before the turn. Compare it to 见底, jiàndǐ, another \"bottom out\" — 见底 is more general, used for anything reaching its lowest point, even a river running dry. 触底 is specifically for economic or market cycles.",
+          "startSec": 1096.02,
+          "endSec": 1117.31
+        },
+        {
+          "speaker": "SAM",
+          "text": "Example: 工厂出厂价格三年来首次触底回升。(Factory-gate prices bottomed out and rebounded for the first time in 3 years.)",
+          "startSec": 1117.31,
+          "endSec": 1126.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's your 2 words working together in one sentence — 触底 for the turn, 回升 for what happens after. That's literally today's China story.",
+          "startSec": 1126.85,
+          "endSec": 1137.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "Onward — China.",
+          "startSec": 1137.54,
+          "endSec": 1138.66
+        }
+      ],
+      "startSec": 1019.7
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "尽管消费品行业利润下滑，工业利润八月份的回升主要由芯片和计算设备带动。(Despite declining profits in consumer-goods sectors, August's rebound in industrial profits was driven mainly by chips and computing equipment.) That's the headline out of Beijing's NBS data this morning.",
+          "startSec": 1138.66,
+          "endSec": 1160.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Walk me through the actual numbers — industrial profit growth hit 4.2% year-over-year in August, the weakest read of 2026, the 4th straight month of deceleration.",
+          "startSec": 1160.6,
+          "endSec": 1172.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, but the interesting print sits next to it — PPI actually turned positive, 3.8% year-over-year, a 4.7-point swing from February. That's the end of nearly 3 years of factory-gate deflation, which is 触底回升 in practice — bottomed out, now rebounding.",
+          "startSec": 1172.68,
+          "endSec": 1191.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "But you said consumer sectors are still shrinking — clothing, autos, furniture all posted declining profits even as the headline number ticked up.",
+          "startSec": 1191.94,
+          "endSec": 1202.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the two-speed economy in one release. The AI-driven capex boom in semiconductors and computing hardware is carrying the entire industrial profit number on its back, while anything tied to household spending is still contracting. It's the same bifurcation we've flagged before — now showing up in the deflation data too.",
+          "startSec": 1202.82,
+          "endSec": 1227.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in the background, Beijing's already moving on the debt side — the Politburo approved in principle another round of local-government debt-limit increases on the 25th, swapping out \"hidden debt.\"",
+          "startSec": 1227.13,
+          "endSec": 1241.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which tells you the leadership isn't waiting for the consumer to show up organically — they're managing the fiscal plumbing while hoping the AI-capex trickle-down eventually reaches households. Two-speed growth, financed by a very patient balance sheet.",
+          "startSec": 1241.89,
+          "endSec": 1260.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "Arts next.",
+          "startSec": 1260.75,
+          "endSec": 1261.49
+        }
+      ],
+      "startSec": 1138.7
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment nine, arts and culture.",
+          "startSec": 1261.49,
+          "endSec": 1263.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Armory Show's VIP day in New York last Thursday delivered the fair's best sale of the edition so far — Michael Rosenfeld Gallery moved a Joan Mitchell painting to a private collector for over $2 million.",
+          "startSec": 1263.8,
+          "endSec": 1279.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "Out of how many exhibitors?",
+          "startSec": 1279.23,
+          "endSec": 1281.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "242 international galleries, a lot of them reporting swift early sales. The read here is that blue-chip postwar American painting is still commanding real confidence, even with the broader art market wobbling elsewhere this fall — Mitchell's estate has been a reliable floor for collectors looking for something that isn't going to reprice on them.",
+          "startSec": 1281.25,
+          "endSec": 1307.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second item?",
+          "startSec": 1307.19,
+          "endSec": 1308.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Istanbul's Borusan Contemporary opened Olivo Barbieri's \"Time Space Geometry\" on the 19th — his first solo show in Türkiye, spanning 4 decades of work. The centerpiece is a newly commissioned series he started in 2023, applying his signature tilt-shift aerial photography to 9 ancient Anatolian sites — Ephesus, Aphrodisias, Hierapolis.",
+          "startSec": 1308.08,
+          "endSec": 1333.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "That technique makes real places look like architectural models.",
+          "startSec": 1333.13,
+          "endSec": 1337.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's exactly the effect — it flattens scale and turns 2,000-year-old ruins into something you'd swear was a diorama. Given how much aerial and satellite imagery already saturates how we see the world, applying it to antiquity is a sharp curatorial choice. Runs through August 2027, so no rush.",
+          "startSec": 1337.9,
+          "endSec": 1359.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Is Borusan trying to position itself as a bigger player on the international circuit with a show like this?",
+          "startSec": 1359.89,
+          "endSec": 1367.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's clearly part of it — a 4-decade retrospective with a major newly commissioned series is the kind of programming that gets a private institution taken seriously by international curators and collectors, not just the local Istanbul scene. It's a credibility play as much as a curatorial one.",
+          "startSec": 1367.87,
+          "endSec": 1389.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "Music?",
+          "startSec": 1389.93,
+          "endSec": 1390.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "San Francisco Opera finally opened its season — a week late, because the labor contract that had the company on strike only got ratified over the weekend. They opened with Verdi's \"Simon Boccanegra,\" conducted by music director Eun Sun Kim.",
+          "startSec": 1390.38,
+          "endSec": 1408.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "How'd it land?",
+          "startSec": 1408.27,
+          "endSec": 1409.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Split reviews — critics are calling the singing and the pit genuinely sensational, Kim's conducting in particular, but the staging and direction are getting called \"leaden.\" A triumphant return musically, undercut by a production that didn't match the occasion.",
+          "startSec": 1409.31,
+          "endSec": 1428.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "And one for the readers?",
+          "startSec": 1428.77,
+          "endSec": 1430.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The New York Review of Books this week covers Nathaniel Rich's new novel, \"Cloudthief\" — an eco-thriller structured as a heist, where a femme fatale drags an ecojournalist into an actual unfolding climate collapse. Genre fiction doing serious work, which is the through-line NYRB's coverage keeps returning to this year.",
+          "startSec": 1430.56,
+          "endSec": 1454.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "Genre dressed as literary fiction seems to be having a real moment.",
+          "startSec": 1454.41,
+          "endSec": 1459.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is, and Rich's specifically is interesting because he's a journalist by trade — he's written nonfiction about Gulf oil spills and climate migration before turning to fiction, so the heist plot is really a delivery mechanism for reporting-grade detail about how climate collapse actually plays out logistically, not just emotionally. That's the NYRB's pitch for it, anyway.",
+          "startSec": 1459.41,
+          "endSec": 1487.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "Op-eds next.",
+          "startSec": 1487.36,
+          "endSec": 1488.25
+        }
+      ],
+      "startSec": 1261.5
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Segment ten, op-eds. Two pieces.",
+          "startSec": 1488.25,
+          "endSec": 1490.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "First, Abby McCloskey in Bloomberg Opinion — \"Vance's Plan for Stay-at-Home Moms Thinks Too Small.\" The White House proposal would let married, stay-at-home parents draw payments from the Child Care and Development Block Grant.",
+          "startSec": 1490.64,
+          "endSec": 1502.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is funded for what, currently?",
+          "startSec": 1502.94,
+          "endSec": 1504.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's built specifically for low-income working parents' daycare costs — the whole design premise is subsidizing care so a parent can work. McCloskey's steelman is that the underlying goal, supporting caregiving at home, is legitimate, but the mechanism is too small and fiscally timid — she'd rather see something bigger, like an expanded child tax credit.",
+          "startSec": 1504.89,
+          "endSec": 1524.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's the actual problem with her framing?",
+          "startSec": 1524.19,
+          "endSec": 1526.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's not just \"too small\" — it's zero-sum. CCDBG is a fixed, already-underfunded pot. Every dollar redirected to pay married, one-earner households necessarily shrinks the subsidized daycare slots available to lower-income single parents who need that specific funding to be able to work at all.",
+          "startSec": 1526.52,
+          "endSec": 1542.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "So it's rewarding a family-structure choice by degrading the subsidy that lets the people who most need to work, actually work.",
+          "startSec": 1542.51,
+          "endSec": 1549.39
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly — and McCloskey's \"go bigger via the child tax credit\" critique kind of steps around that distributional problem instead of confronting it. It's not underscaled, it's actively regressive as designed.",
+          "startSec": 1549.39,
+          "endSec": 1560.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second piece.",
+          "startSec": 1560.61,
+          "endSec": 1561.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "John Authers, also Bloomberg Opinion — \"The Big One Is Rumbling in the Bond Market.\" His argument: global long-government-bond yields climbing to multi-decade highs — which ties directly to the US 10-year hitting its highest level since 2007 that we covered earlier — represents a structural, \"tectonic\" repricing of the long end. He calls it the keystone of the entire financial system, not yet a crisis, but a real tremor.",
+          "startSec": 1561.31,
+          "endSec": 1584.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "You flagged a counter to that earlier.",
+          "startSec": 1584.29,
+          "endSec": 1586.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "I did — the more measured read is that this could just be term-premium normalization. Post-2020 yields were artificially suppressed by QE and pandemic-driven duration demand; central banks unwinding their balance sheets could just be reverting to a historically normal term premium, not signaling some sudden regime change. Authers's \"tectonic\" framing risks treating a slow, well-telegraphed structural shift as if it were sudden fragility — and those are very different trades to put on.",
+          "startSec": 1586.35,
+          "endSec": 1612.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "Practically, which read should actually change what someone does with their portfolio?",
+          "startSec": 1612.85,
+          "endSec": 1617.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "If it's term-premium normalization, you don't panic-sell duration — you just accept that borrowing costs and discount rates are settling at a new, more historically normal level, and you price equities and credit accordingly. If Authers is right and it's genuinely tectonic, then everything levered to cheap long-term financing — real estate, private equity buyout math, the whole data-center capex story we spent 2 segments on — needs a much harder look at its assumptions. That's why the framing question isn't academic.",
+          "startSec": 1617.52,
+          "endSec": 1645.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "One good thing, and we're out.",
+          "startSec": 1645.81,
+          "endSec": 1647.43
+        }
+      ],
+      "startSec": 1488.2
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "This one's a good one. Don Johnson, 81, out in North Texas — for months now he's been working 12 to 14-hour days, driving 300 to 400 miles a day delivering lost airline luggage out of DFW Airport.",
+          "startSec": 1647.43,
+          "endSec": 1658.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why that job, at 81?",
+          "startSec": 1658.06,
+          "endSec": 1659.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because it was the only one that would hire him. He needed the income to help cover treatment for his wife Josephine's pancreatic cancer — they've been married 57 years. His neighbor Erin Howell's doorbell camera happened to catch him struggling up her stairs with someone's lost bags, and she started asking around about him.",
+          "startSec": 1659.14,
+          "endSec": 1676.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that turned into something.",
+          "startSec": 1676.81,
+          "endSec": 1678.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She launched a GoFundMe. As of this weekend, it's raised nearly $600,000 from more than 10,500 strangers — enough that retirement is actually realistic for them now, instead of him working himself into the ground at 81.",
+          "startSec": 1678.49,
+          "endSec": 1690.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a good one to end on. The Morning Commute, back tomorrow.",
+          "startSec": 1690.36,
+          "endSec": 1693.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "See you then.",
+          "startSec": 1693.83,
+          "endSec": 1694.53
+        }
+      ],
+      "startSec": 1647.4
+    }
+  ]
+}

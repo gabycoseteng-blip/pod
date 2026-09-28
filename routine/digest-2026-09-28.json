@@ -1,0 +1,35 @@
+{
+  "throughline": "capital outrunning execution across nuclear, AI infra, investment pledges",
+  "stories": [
+    "uk-raf-fairford-terror-arrests",
+    "trump-rejects-iran-hormuz-plan",
+    "venezuela-machado-return-rally",
+    "trump-johnson-ai-ceo-summit",
+    "akamai-anthropic-11.6bn-deal",
+    "q3-bank-earnings-preview",
+    "skorea-350bn-investment-first-project",
+    "uber-exits-nigeria-uganda",
+    "oil-selloff-iran-truce-hopes",
+    "ust-10y-highest-since-2007",
+    "economist-maga-demographic-decline",
+    "oklo-ferc-pjm-interconnection-loss",
+    "nuclear-startup-capex-vs-construction-gap",
+    "genrcorp-davao-bidding-bypass-testimony",
+    "bmi-slashes-ph-gdp-forecast",
+    "psei-snaps-5-session-losing-streak",
+    "china-industrial-profit-ppi-rebound",
+    "armory-show-joan-mitchell-2m-sale",
+    "borusan-olivo-barbieri-anatolia",
+    "sf-opera-simon-boccanegra-strike-return",
+    "nyrb-nathaniel-rich-cloudthief",
+    "mccloskey-vance-stay-at-home-moms-oped",
+    "authers-bond-market-tectonic-oped",
+    "don-johnson-dfw-luggage-gofundme"
+  ],
+  "explainers": [
+    "PJM expedited interconnection track vs full study cycle",
+    "CCDBG fund design and zero-sum tradeoff",
+    "term-premium normalization vs regime change in long yields"
+  ],
+  "comment": "stories = every distinct item covered; explainers = concepts actually explained"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-28",
+  "cards": [
+    {
+      "id": "2026-09-28-tl-1",
+      "lang": "Tagalog",
+      "word": "paglampas",
+      "pinyin": "",
+      "pronunciation": "pag-lam-PAS",
+      "tones": "",
+      "meaning": "to bypass or go around a set process; to skip over the proper procedure",
+      "example": "Labing-isa sa labinlimang kontrata ng GenCorp ay lumampas sa bidding process.",
+      "examplePinyin": "",
+      "exampleMeaning": "11 of GenCorp's 15 contracts bypassed the bidding process.",
+      "note": "Mas neutral at pormal ang dating ng 'paglampas' kumpara sa mas kolokyal na 'linusutan,' na may bahid na ng intensyon na talagang linlangin. Karaniwang gamit sa balita/gobyerno: lumampas sa proseso, nilampasan ang bidding, lampas sa itinakdang batas.",
+      "tiesTo": "11 of 15 GenCorp Industries contracts with Davao City Hall (P34.2M) routed around public bidding as negotiated, small-value procurement"
+    },
+    {
+      "id": "2026-09-28-tl-2",
+      "lang": "Tagalog",
+      "word": "lihim",
+      "pinyin": "",
+      "pronunciation": "LI-him",
+      "tones": "",
+      "meaning": "secret; hidden, done without public knowledge",
+      "example": "Lihim na kasunduan ang tawag sa kontratang ginawa nang hindi bukas sa publiko.",
+      "examplePinyin": "",
+      "exampleMeaning": "A contract made without being open to the public is called a secret agreement.",
+      "note": "Madalas gamitin sa pang-araw-araw na usapan ('may lihim siyang plano'), pero sa konteksto ng gobyerno mas mabigat ang kahulugan — nangangahulugan ito ng kakulangan sa transparency. Karaniwang pares: lihim na kasunduan, lihim na deal, itinago nang lihim.",
+      "tiesTo": "GenCorp/Davao City Hall contracts processed outside open public bidding"
+    },
+    {
+      "id": "2026-09-28-zh-1",
+      "lang": "Mandarin",
+      "word": "回升",
+      "pinyin": "huí shēng",
+      "pronunciation": "hway-shuhng",
+      "tones": "2 · 1",
+      "meaning": "to rebound, pick back up — a gradual, steady recovery from a low point",
+      "example": "尽管消费依然疲软，工业利润已经开始回升。",
+      "examplePinyin": "Jǐnguǎn xiāofèi yīrán píruǎn, gōngyè lìrùn yǐjīng kāishǐ huíshēng.",
+      "exampleMeaning": "Despite consumption remaining weak, industrial profits have already started to rebound.",
+      "note": "书面语/formal register, standard in economic reporting (PPI, industrial profit, GDP). Near-synonym contrast: 反弹 (fǎntán, 'bounce/rebound') is more 口语/colloquial and implies something sharp or sudden, like a ball bouncing; 回升 is slower and steadier, a gradual climb back. Collocations: 利润回升、价格回升、经济回升.",
+      "tiesTo": "China's PPI turning positive (+3.8% y/y) after nearly 3 years of factory-gate deflation"
+    },
+    {
+      "id": "2026-09-28-zh-2",
+      "lang": "Mandarin",
+      "word": "触底",
+      "pinyin": "chù dǐ",
+      "pronunciation": "choo-dee",
+      "tones": "4 · 3",
+      "meaning": "to bottom out — reach the exact low point of a decline before it turns",
+      "example": "工厂出厂价格三年来首次触底回升。",
+      "examplePinyin": "Gōngchǎng chūchǎng jiàgé sānnián lái shǒucì chùdǐ huíshēng.",
+      "exampleMeaning": "Factory-gate prices bottomed out and rebounded for the first time in 3 years.",
+      "note": "书面语/formal, precise economic/market-cycle term — marks the specific turning moment. Near-synonym contrast: 见底 (jiàndǐ, also 'bottom out') is more general-purpose, used for anything reaching its lowest point (even a river running dry); 触底 is specifically about economic or market cycles. Collocations: 触底反弹、触底回升、市场触底.",
+      "tiesTo": "China industrial-profit/PPI data marking the end of the factory-gate deflation stretch"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-29",
+  "cards": [
+    {
+      "id": "2026-09-29-tl-1",
+      "lang": "Tagalog",
+      "word": "pagtaya",
+      "pinyin": "",
+      "pronunciation": "pag-ta-YA",
+      "tones": "",
+      "meaning": "estimate, forecast; a guess backed by data about a figure expected to happen",
+      "example": "Ayon sa pagtaya ng mga ekonomista, aabot sa 6.5 porsiyento ang inflation ngayong Setyembre.",
+      "examplePinyin": "",
+      "exampleMeaning": "According to economists' estimates, inflation will reach 6.5 percent this September.",
+      "note": "Pormal at neutral ang gamit sa balita at negosyo: pagtaya ng mga ekonomista, pagtaya ng BSP. Sa araw-araw na usapan, mas natural ang 'hula' o 'tantiya.' Huwag ipagkamali sa 'taya' sa pagsusugal; konteksto ang nagtatakda ng kahulugan.",
+      "tiesTo": "Economists' 6.5% September inflation estimate and S&P's call for another BSP hike"
+    },
+    {
+      "id": "2026-09-29-tl-2",
+      "lang": "Tagalog",
+      "word": "nagbabadya",
+      "pinyin": "",
+      "pronunciation": "nag-ba-ba-DYA",
+      "tones": "",
+      "meaning": "looming; portending something bad that has not yet happened",
+      "example": "Nagbabadya ang panibagong pagtaas ng presyo ng gasolina sa susunod na linggo.",
+      "examplePinyin": "",
+      "exampleMeaning": "Another rise in gasoline prices is looming next week.",
+      "note": "Mas mabigat at mas pampanitikan kaysa 'paparating'; may dalang pangamba at halos laging masama ang kasunod (bagyo, krisis, mataas na presyo). Angkop sa pagbabalita.",
+      "tiesTo": "Pump-price hikes (diesel +P8.82/L) and higher September inflation"
+    },
+    {
+      "id": "2026-09-29-zh-1",
+      "lang": "Mandarin",
+      "word": "出台",
+      "pinyin": "chū tái",
+      "pronunciation": "choo-tie",
+      "tones": "1 · 2",
+      "meaning": "to roll out / introduce a policy, measure or regulation officially",
+      "example": "国务院表示，将出台一揽子政策稳定经济。",
+      "examplePinyin": "Guówùyuàn biǎoshì, jiāng chūtái yī lǎn zi zhèngcè wěndìng jīngjì.",
+      "exampleMeaning": "The State Council said it will roll out a package of policies to stabilize the economy.",
+      "note": "书面语/formal, standard in official announcements. Typical objects: 政策、措施、规定. Not for products (use 推出/发布). Near-synonym contrast: 制定 (zhìdìng) is drafting/formulating; 出台 is the moment it goes public and takes effect.",
+      "tiesTo": "State Council's promised package of additional policies and ~500bn yuan of extra local bond quotas"
+    },
+    {
+      "id": "2026-09-29-zh-2",
+      "lang": "Mandarin",
+      "word": "一边……一边……",
+      "pinyin": "yì biān … yì biān …",
+      "pronunciation": "ee-byen … ee-byen",
+      "tones": "4 · 1",
+      "meaning": "at the same time … (one subject doing two actions in parallel)",
+      "example": "地方政府一边缩减开支，一边努力稳住经济。",
+      "examplePinyin": "Dìfāng zhèngfǔ yìbiān suōjiǎn kāizhī, yìbiān nǔlì wěnzhù jīngjì.",
+      "exampleMeaning": "Local governments are cutting spending while also trying to keep the economy steady.",
+      "note": "口语/neutral connective pair (HSK 4). Links two simultaneous actions of the same subject. Contrast with 同时 (tóngshí), more formal/abstract and able to link two whole situations. In news, gives a vivid, slightly critical edge to a government doing two things at once.",
+      "tiesTo": "Beijing stabilizing property while safeguarding jobs, with local governments squeezed between the two"
+    }
+  ]
+}

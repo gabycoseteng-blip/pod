@@ -1,0 +1,6 @@
+{
+  "throughline": "waiting has a price: yields, Ebola, gold, and a Beijing package promised but not yet written",
+  "stories": ["ebola-drc-8000-cases-border-spread", "scotus-save-voter-database", "burnham-labour-conference-miliband", "nvidia-150bn-buyback", "amd-world-labs-acquisition", "kospi-chuseok-selloff-solidigm", "madrid-housing-march", "gold-7week-low-yields", "shanghai-post-holiday-selloff", "deepdive-ctx310-crispr-ldl-durability", "energy-bofa-230gw-gap", "energy-gev-116gw-backlog", "energy-large-load-tariffs-25", "energy-bnef-118-vs-207gw", "ph-amlc-evidence-impeachment-day30", "ph-diesel-hike-sept-cpi-6.5", "ph-peso-record-low-sp-hike-call", "china-state-council-extra-policy-package", "china-aug-industrial-profits-slowdown", "arts-turner-prize-2026-mima", "arts-berlin-staatsoper-la-vestale", "arts-goncourt-orelien-ai-removal", "opeds-wapo-fiscal-space", "opeds-examiner-fed-hike-timing", "one-good-thing-autumn-paulson-heartbeat"],
+  "explainers": ["ANGPTL3 loss-of-function genetics and one-time in vivo gene editing vs chronic lipid drugs", "gas turbine slot reservations as a tradeable asset", "large-load tariff terms as queue filter"],
+  "comment": "stories = every distinct item covered; explainers = concepts explained"
+}

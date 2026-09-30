@@ -1,0 +1,34 @@
+{
+ "throughline": "the price of money vs everything else: 2002-high yields, 2014-low confidence, Beijing writes its package, legal loopholes that leak",
+ "stories": [
+  "israel-bennett-draft-evasion-election",
+  "pakistan-khan-march-islamabad",
+  "morocco-first-woman-pm-mansouri",
+  "mesabi-iowa-15bn-steel",
+  "astrazeneca-summit-2bn-stake",
+  "japan-yen-159-intervention-watch",
+  "euro-lowest-since-may-2025",
+  "markets-yields-2002-high-consumer-2014-low",
+  "deepdive-aughinish-alumina-sanctions-gap",
+  "energy-doe-202c-coal-orders-dc-circuit",
+  "energy-eo-14420-foreign-grid-equipment",
+  "energy-nyserda-950mw-storage-awards",
+  "energy-spp-west-resource-adequacy",
+  "energy-semianalysis-china-dc-24gw",
+  "ph-sc-junks-two-thirds-petitions",
+  "ph-impeach-pause-marathon-oct1",
+  "ph-bsp-sept-inflation-6.4-7.4",
+  "china-mortgage-subsidy-psl-cut-pmi",
+  "arts-wiley-embassy-painting-buyback",
+  "arts-shanghai-grand-opera-house",
+  "opeds-hawley-ai-liability",
+  "opeds-roiphe-journaling",
+  "one-good-thing-clark-carnegie-rescue"
+ ],
+ "explainers": [
+  "alumina vs aluminium sanctions loophole",
+  "DOE 202(c) rolling 90-day orders vs litigation",
+  "strict product liability for AI"
+ ],
+ "comment": "stories = every distinct item covered; explainers = concepts explained"
+}

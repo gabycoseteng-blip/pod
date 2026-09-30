@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-30",
+  "cards": [
+    {
+      "id": "2026-09-30-tl-1",
+      "lang": "Tagalog",
+      "word": "sumirit",
+      "pinyin": "",
+      "pronunciation": "su-mi-RÍT",
+      "tones": "",
+      "meaning": "to soar, shoot up sharply (of prices or inflation)",
+      "example": "Sumirit ang inaasahang implasyon ngayong Setyembre, ayon sa BSP.",
+      "examplePinyin": "",
+      "exampleMeaning": "Inflation is expected to soar this September, according to the BSP.",
+      "note": "Pang-balita at madrama ang dating; mas matindi kaysa 'tumaas.' Mababasa sa mga headline, hindi sa pormal na ulat ng BSP.",
+      "tiesTo": "BSP's 6.4-7.4% September inflation range"
+    },
+    {
+      "id": "2026-09-30-tl-2",
+      "lang": "Tagalog",
+      "word": "pansamantala",
+      "pinyin": "",
+      "pronunciation": "pan-sa-man-TÁ-la",
+      "tones": "",
+      "meaning": "temporary, for the time being (with an expected resumption or replacement)",
+      "example": "Pansamantalang itinigil ang pagdinig bago ang mga sesyon simula Oktubre 1.",
+      "examplePinyin": "",
+      "exampleMeaning": "The hearing was temporarily halted ahead of the sessions starting October 1.",
+      "note": "Neutral at pormal. Iba sa 'panandalian' (sandali lamang); ang pansamantala ay may inaasahang kapalit o pagbabalik.",
+      "tiesTo": "Impeachment court's procedural pause before the Oct 1-15 marathon sessions"
+    },
+    {
+      "id": "2026-09-30-zh-1",
+      "lang": "Mandarin",
+      "word": "补贴",
+      "pinyin": "bǔ tiē",
+      "pronunciation": "boo-tyeh",
+      "tones": "3 · 1",
+      "meaning": "subsidy; to subsidize",
+      "example": "政府给首次购房者提供房贷利息补贴。",
+      "examplePinyin": "Zhèngfǔ gěi shǒucì gòufáng zhě tígōng fángdài lìxī bǔtiē.",
+      "exampleMeaning": "The government provides a mortgage interest subsidy to first-time home buyers.",
+      "note": "书面语/policy register. Near-synonym 补助 (bǔzhù) is welfare-style aid to individuals; 补贴 covers a cost gap as a policy tool. Collocation: 房贷利息补贴, 财政补贴.",
+      "tiesTo": "Beijing's 1-point mortgage interest subsidy for first-home buyers"
+    },
+    {
+      "id": "2026-09-30-zh-2",
+      "lang": "Mandarin",
+      "word": "何况",
+      "pinyin": "hé kuàng",
+      "pronunciation": "her-kwahng",
+      "tones": "2 · 4",
+      "meaning": "let alone; what's more (escalating connective)",
+      "example": "连专业人士都看不懂，何况普通老百姓呢？",
+      "examplePinyin": "Lián zhuānyè rénshì dōu kàn bù dǒng, hékuàng pǔtōng lǎobǎixìng ne?",
+      "exampleMeaning": "Even professionals can't make sense of it, let alone ordinary people.",
+      "note": "Advanced connective, both spoken and written. Pattern 连…都…，何况…. Near-synonym 甚至 just adds emphasis; 何况 carries the logic that the bigger case follows automatically.",
+      "tiesTo": "China's property package: even experts see limited scale, let alone the market"
+    }
+  ]
+}

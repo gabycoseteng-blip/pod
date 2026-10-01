@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-01",
+  "cards": [
+    {"id": "2026-10-01-tl-1", "lang": "Tagalog", "word": "paninindigan", "pinyin": "", "pronunciation": "pa-ni-nin-DI-gan", "tones": "",
+     "meaning": "stand, conviction; firm position held under pressure",
+     "example": "Ipinakita ng prosekusyon ang kanilang paninindigan na ituloy ang kaso.", "examplePinyin": "",
+     "exampleMeaning": "The prosecution showed their resolve to pursue the case.",
+     "note": "Pormal ngunit gamit sa pulitika at balita; galing sa 'tindig.' Iba sa 'opinyon' na puwedeng magbago agad.",
+     "tiesTo": "Prosecution's stand after Trillanes was dropped as a witness"},
+    {"id": "2026-10-01-tl-2", "lang": "Tagalog", "word": "pag-atras", "pinyin": "", "pronunciation": "pag-a-TRÁS", "tones": "",
+     "meaning": "withdrawal, backing out",
+     "example": "Ang pag-atras ng testigo ay nagbigay ng bagong tanong sa paglilitis.", "examplePinyin": "",
+     "exampleMeaning": "The witness's withdrawal raised new questions at the trial.",
+     "note": "May kaunting hiya o kaba; iba sa 'pagbitiw' na mas pormal at tungkol sa puwesto.",
+     "tiesTo": "Trillanes' withdrawal as a witness in the Sara Duterte trial"},
+    {"id": "2026-10-01-zh-1", "lang": "Mandarin", "word": "不但…而且", "pinyin": "bú dàn … ér qiě", "pronunciation": "boo-dan … er-chyeh", "tones": "2 · 4 · 2 · 3",
+     "meaning": "not only … but also (HSK 4 connective)",
+     "example": "这项政策不但降低了贷款成本，而且提振了购房者的信心。", "examplePinyin": "Zhè xiàng zhèngcè bú dàn jiàngdī le dàikuǎn chéngběn, érqiě tízhèn le gòufángzhě de xìnxīn.",
+     "exampleMeaning": "This policy not only lowered borrowing costs but also lifted homebuyers' confidence.",
+     "note": "Slightly more spoken than 不仅…而且 (more written/formal). If the two clauses have different subjects, 不但 goes before the first subject. The second clause carries the heavier weight.",
+     "tiesTo": "Beijing's Golden Week property promotions and mortgage subsidy"},
+    {"id": "2026-10-01-zh-2", "lang": "Mandarin", "word": "促销", "pinyin": "cù xiāo", "pronunciation": "tsoo-shyow", "tones": "4 · 1",
+     "meaning": "promotion, promotional sale; to promote sales",
+     "example": "开发商大力促销，希望吸引更多买家。", "examplePinyin": "Kāifāshāng dàlì cùxiāo, xīwàng xīyǐn gèng duō mǎijiā.",
+     "exampleMeaning": "Developers are promoting heavily, hoping to attract more buyers.",
+     "note": "Neutral-commercial register. Broader than 打折 (a price cut): 促销 covers coupons, gifts and bundles. Collocations: 搞促销, 促销活动, 促销价, 大力促销.",
+     "tiesTo": "Property promotions in 130+ cities during Golden Week"}
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "date": "2026-10-01",
+  "title": "Thursday, October 1, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-10-01.mp3",
+  "durationSec": 1594,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Thursday, October 1st. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. The last American troops left Erbil Air Base on Wednesday, and with them went the final piece of a military presence in Iraq that began 23 years ago.",
+          "startSec": 3.83,
+          "endSec": 12.26
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The Pentagon's chief spokesman, Sean Parnell, confirmed that the last US forces and their equipment have departed Erbil, which formally ends Operation Inherent Resolve after 12 years. The withdrawal follows the framework Washington and Baghdad agreed in September 2024, so the date itself is not a surprise. What is new is that it is actually done.",
+          "startSec": 12.26,
+          "endSec": 30.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Washington says it keeps a training and intelligence relationship, and officials are careful to call this a transition rather than an exit. But look at who is celebrating. Iran and its allied militias in Iraq are treating it as a victory, and Kurdish officials in Erbil are openly worried about what a base-less Kurdistan looks like when the next drone comes over from across the border.",
+          "startSec": 30.26,
+          "endSec": 50.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is the tension in one sentence. The troops were there to fight ISIS, and the mission those troops are leaving is, on paper, accomplished. In practice the Kurdistan Region leaned on that base as a security guarantee against Iranian-backed groups, and a guarantee you cannot see on the tarmac is a much softer thing.",
+          "startSec": 50.29,
+          "endSec": 66.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One more beat on that. The timing matters. Iran talks are stalled, oil is up roughly 14% in Brent terms across September, and Washington is pulling its last footprint out of the country next door to Iran. Tehran will read that as leverage, whatever the intention in Washington.",
+          "startSec": 66.79,
+          "endSec": 81.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "Staying with sanctions, the European Union has sanctioned 10 Russian officials over the exclusion of the Yabloko party from the Duma vote that ran September 18th through 20th. The list includes officials from the Prosecutor General's office and Supreme Court judges, the people who signed off on the ban.",
+          "startSec": 81.12,
+          "endSec": 96.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The interesting design choice is that Brussels went after the legal machinery rather than the election officials alone. Judges and prosecutors are harder to replace than a commission chairman, and it signals the EU is treating the court system as part of the election mechanism. It will not change the Duma result. It does mark who in the Russian system can now expect trouble travelling.",
+          "startSec": 96.85,
+          "endSec": 116.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in India, the opposition INDIA bloc is planning what it is calling a Save Democracy March. The trigger is a Reuters report that the Election Commission pushed through large changes to the voter lists even after two of its own commissioners raised questions about the process.",
+          "startSec": 116.92,
+          "endSec": 131.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The opposition's allegation is that the changes were engineered to favour the BJP. The Commission's line is that list revision is routine housekeeping. What makes this one stick is that the doubt reportedly came from inside the commission itself, which is much harder to wave away than a party press conference. We will watch whether the march draws numbers.",
+          "startSec": 131.35,
+          "endSec": 149.87
+        }
+      ],
+      "startSec": 12.3
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "In US business, Boeing has won a contract worth roughly $20 billion from the Pentagon to develop the Navy's sixth-generation strike fighter, the F/A-XX. For a company that has spent years apologising to customers, a development contract of this size is a genuine change in mood.",
+          "startSec": 149.87,
+          "endSec": 164.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is also a reminder of how lopsided defence economics are. Development contracts are where a prime locks in the next 40 years of sustainment revenue, and Boeing's defence unit has been the weaker sibling. Winning F/A-XX gives it a fresh fighter franchise. The risk, as always, is cost-plus drift on a clean-sheet airframe.",
+          "startSec": 164.25,
+          "endSec": 181.02
+        },
+        {
+          "speaker": "SAM",
+          "text": "Carnival jumped 13.4% after its fiscal third quarter. Adjusted earnings came in at $1.43 a share against $1.36 expected. And that is the market's way of telling you the consumer is still buying discretionary experiences, even with the 10-year yield sitting at 5.29%.",
+          "startSec": 181.02,
+          "endSec": 194.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There were two other prints worth a line. CarMax rose 4.7% on earnings of $1.16 a share against 68 cents expected, a very large beat on a low bar. And on the other side, Workday is cutting 2.5% of its staff with a charge of $65 million to $85 million, while Disney is trimming hundreds of roles in HR and technology. White-collar trimming continues even while the headline numbers look healthy.",
+          "startSec": 194.78,
+          "endSec": 215.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mattel, meanwhile, is changing chief executives. Ynon Kreiz is out, Roger Lynch of Condé Nast comes in, and the shares fell on the news. The market does not love a surprise at the top of a toy company heading into the holiday build.",
+          "startSec": 215.16,
+          "endSec": 227.16
+        }
+      ],
+      "startSec": 149.9
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Internationally, we get detail on the South Korean investment package that we flagged earlier in the week. President Trump announced what the money actually buys: a $54 billion Alaska LNG project, eight large nuclear reactors, and a gas combined-cycle plant in Texas.",
+          "startSec": 227.16,
+          "endSec": 240.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the headline $350 billion is now acquiring an address. Alaska LNG has long been a project in search of anchor customers, so a sovereign buyer with a balance sheet would be the missing piece, if it holds.",
+          "startSec": 240.98,
+          "endSec": 251.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Eight large nuclear plants is the part to be sceptical about. Korean builders have a strong record, but a US licensing and workforce environment that has not delivered a large reactor on time in a generation. Money pledged is not concrete poured, and that gap is a theme we keep returning to this week.",
+          "startSec": 251.63,
+          "endSec": 267.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "And from the Middle East, Reuters reports that Hamas and Islamic Jihad are assembling an electoral coalition together with a former Fatah official who is reported to have ties to the United Arab Emirates. It is an unusual pairing, and it tells you the Palestinian political map is being redrawn ahead of any vote.",
+          "startSec": 267.26,
+          "endSec": 283.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Emirati link is the detail to watch. If Abu Dhabi is quietly underwriting a figure who can sit alongside the militant factions, that is a hedge against both Ramallah and the Israeli government, and it complicates the clean story that the Gulf is simply backing the existing Palestinian Authority.",
+          "startSec": 283.45,
+          "endSec": 298.97
+        }
+      ],
+      "startSec": 227.2
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Markets were not a tape-reading day, but there is one thing worth saying out loud. The 10-year Treasury yield is at about 5.29%, and the 30-year closed at 5.64%.",
+          "startSec": 298.97,
+          "endSec": 307.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And what stands out is that long yields rose on a day that was supposed to be good news. The core PCE inflation reading came in at 3.0% against 3.3% a month ago, below forecasts, and still the long end sold off. That is a market telling you it no longer prices the path of the Fed. It prices supply, deficits and the term premium.",
+          "startSec": 307.3,
+          "endSec": 324.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "And you can see that in who got hurt. The Dow, with its rate-sensitive industrials and banks, lagged badly, while the Nasdaq edged up on technology. For the month, the Dow lost 4.3% and the Nasdaq gained 1.9%, which is an enormous gap for one September. The full levels are on the Markets tab.",
+          "startSec": 324.37,
+          "endSec": 339.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Nikkei was the other big mover, up nearly 2% overnight. Elsewhere it was quiet, and I would not read much into it. The thing to watch today is ISM manufacturing at 10 a.m. Eastern. The consensus is 54.8, which is already strong, but it is the prices-paid component, expected near 72.9, that will tell you whether the yield story has another leg.",
+          "startSec": 339.67,
+          "endSec": 357.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then tomorrow is the jobs report. If a hot ISM prices index lands the day before payrolls, the long end has a very easy excuse to keep climbing.",
+          "startSec": 357.89,
+          "endSec": 365.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Oil, briefly. WTI is around $90 and Brent's new front month is around $98. The move through September has been driven by talks with Iran that are stalled, not by any change in physical supply. Which is why oil and yields are now trading as the same inflation hedge.",
+          "startSec": 365.41,
+          "endSec": 379.25
+        }
+      ],
+      "startSec": 299.0
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the Deep Dive, we are leaving the macro and going 64 light-years away. A preprint posted in mid-September on the arXiv, titled \"Discovery of radio emission from the exoplanet beta Pictoris b,\" claims the first radio signal traced to one specific, named planet. It went properly viral in the last week, and it deserves a careful look rather than an alien headline.",
+          "startSec": 379.25,
+          "endSec": 398.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The team is from the Center for Astrophysics at Harvard and Smithsonian, with the University of Oregon. They used MeerKAT, the array in South Africa, and observed the system on four occasions across 2025 and 2026. They report repeating, strongly circularly polarised bursts, along with a persistent emission, spanning roughly 0.85 to 3.5 gigahertz.",
+          "startSec": 398.41,
+          "endSec": 416.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "Beta Pictoris b is a young gas giant of about 12 Jupiter masses, orbiting a young star with a debris disk, and it has been directly imaged for years. So astronomers already knew where to point. The earlier search for auroral radio from this planet, posted in 2023, found nothing definitive, and this is the follow-up that apparently succeeded.",
+          "startSec": 416.58,
+          "endSec": 434.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Now the physics, because this is the part that makes it interesting. The proposed mechanism is the electron cyclotron maser instability, the same process behind the auroral radio emission from Earth, Jupiter, Saturn, Uranus and Neptune. That mechanism emits near the electron gyrofrequency. So if you see bursts up to 3.5 gigahertz, you can back out the magnetic field at the emission site, and the answer is at least about 1,250 gauss.",
+          "startSec": 434.49,
+          "endSec": 457.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "Put that in context. Earth's surface field is about half a gauss. Jupiter, which has by far the strongest field in our solar system, peaks around 14 gauss in its strongest regions. So the claim is a field roughly 90 times Jupiter's peak. That is extraordinary, and it is why the community is going to pick at this.",
+          "startSec": 457.25,
+          "endSec": 473.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And pick they should. This is the first direct measurement of an exoplanet's magnetic field, if it holds. Until now, planetary magnetism outside the solar system has been inferred indirectly, from things like atmospheric escape or star-planet interaction. A radio detection is a clean, physical handle on the field itself.",
+          "startSec": 473.65,
+          "endSec": 490.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "What is contested? Three things. First, this is a preprint. It has not been peer reviewed, and the authors themselves call it a strong candidate rather than a confirmed detection. Second, the localisation question. Could the emission come from the host star, or a background source, rather than the planet? Third, and this is the semantic one, at 12 Jupiter masses this object sits right at the boundary where people argue about planet versus brown dwarf.",
+          "startSec": 490.46,
+          "endSec": 514.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That third point matters for the word first. Brown dwarfs already show this same maser emission. If you decide a 12 Jupiter-mass body is more brown dwarf than planet, then the headline loses some of its novelty, though it would still be a magnificent detection. I would say the field estimate depends entirely on the maser interpretation holding. If the emission is something else, the 1,250 gauss goes away.",
+          "startSec": 514.22,
+          "endSec": 535.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "So why does it matter beyond the astronomy? Magnetic fields shield atmospheres from stellar wind. If radio is a way to detect a planetary field, then in principle it is a way to screen for worlds that can hold onto an atmosphere. Newsweek's framing was that this boosts the search for habitable worlds.",
+          "startSec": 535.52,
+          "endSec": 551.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "I would put a big caveat on that. A 12 Jupiter-mass gas giant tells you very little about a rocky planet, whose field would be orders of magnitude weaker and far harder to hear. The honest second-order read is about method. Radio telescopes like MeerKAT, and the Square Kilometre Array precursors, can screen planets that optical instruments cannot, and they can do it cheaply, with archive time.",
+          "startSec": 551.29,
+          "endSec": 571.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the viral part. The story took off on September 26th, partly because a prediction market post about it drew tens of thousands of views within hours, and the alien angle did the rest. The physics is far less exciting for the alien crowd. It is auroras, not a broadcast. The most interesting thing it says about us is how quickly a careful preprint becomes a betting market.",
+          "startSec": 571.96,
+          "endSec": 591.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What I would watch is replication. A second telescope, or a second epoch from MeerKAT, that sees the same bursts at the same position is what turns a candidate into a detection. If it holds, we have the start of a whole new way to characterise worlds, and a very strange fact: that the first exoplanet we heard was a monster with a magnetic field 90 times Jupiter's.",
+          "startSec": 591.6,
+          "endSec": 610.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "Source for all of that, to be clear, is the preprint itself and the coverage of it, and we have flagged what is not yet confirmed. It is a good reminder that a viral science story is a hypothesis with a good publicist.",
+          "startSec": 610.71,
+          "endSec": 622.09
+        }
+      ],
+      "startSec": 379.2
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Energy starts with the order out of FERC on Tuesday that quietly reset the PJM calendar. The commission accepted PJM's reliability backstop procurement filing, but suspended it for five months, to February 28th, 2027, subject to refund, with a paper hearing. And PJM pulled the auction it had scheduled for September 30th.",
+          "startSec": 622.09,
+          "endSec": 638.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "Remind us of the size. The target was 6,831 megawatts, to cover the shortfall in the 2028/29 capacity auction, with an offer cap of $555 per megawatt-day. This was supposed to be the bridge, the thing that gave data-center load somewhere to go while new generation got built.",
+          "startSec": 638.9,
+          "endSec": 653.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "FERC said three pieces may be unjust and unreasonable: cost allocation, the transmission owner exit rules, and the collateral that load-serving entities must post. Chair Swett wrote a concurrence saying the filing arrived so late there was no time to rehabilitate the mess the commission received. A commissioner-level sentence like that tells you what the paper hearing is going to feel like.",
+          "startSec": 653.26,
+          "endSec": 676.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "The collateral point is where the money is. Northern Virginia Electric Cooperative puts its own share at about $2 billion posted. For a co-op, that is an existential balance sheet number, and it explains why co-ops and munis are the loudest objectors. They carry the credit risk for a procurement that the hyperscalers are driving.",
+          "startSec": 676.22,
+          "endSec": 695.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second-order read is straightforward. Nothing new clears for 2028/29 before 2027 at the earliest, so a developer with a campus on the schedule has to bring its own generation or sign a bilateral deal. Cost causation, meaning who pays for load that arrives faster than supply, is now the live fight, and it will be argued in a FERC docket rather than a market.",
+          "startSec": 695.56,
+          "endSec": 716.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "Related, and the same fight in a different venue. The Senate on Wednesday failed to advance the Ratepayer Protection Act, with cloture falling at 57 to 43, three votes short of 60. That is striking because the House passed it 417 to 3.",
+          "startSec": 716.77,
+          "endSec": 730.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the bill was notably modest. It only directed state utility commissions to consider standards making data centers provide financial assurances for generation and grid costs. Schumer led the opposition, calling the protections optional. So the federal backstop is gone before the midterms, and cost assignment stays state by state, in large-load tariffs like Virginia's, and at FERC.",
+          "startSec": 730.5,
+          "endSec": 753.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then the supply side. Dynamis Power Solutions and Siemens Energy announced a deal for 119 SGT-400 turbine cores, roughly 15 megawatts each, a bit under 1.8 gigawatts of mobile gas power, built in Lincoln in the UK, with first deliveries in 2027.",
+          "startSec": 753.05,
+          "endSec": 767.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is a slot grab, but with small-frame machines rather than heavy-duty turbines. No off-taker and no dollar figure were disclosed. What matters is timing: first deliveries in 2027 land in exactly the window PJM just pushed its backstop into. Slots are the asset, as with the heavy-duty reservations we discussed on Monday, and the open questions are air permits for mobile units and who the first customers are.",
+          "startSec": 767.36,
+          "endSec": 791.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "And finally a reminder that announcements are cheap. Valar Atomics unveiled Project Beehive in Utah: about 9,000 acres of state and federal land, data centers, and 456 small gas-cooled reactors, a claimed 9.6 gigawatts. They have a $1 billion Series B and a $200 million credit facility behind the company.",
+          "startSec": 791.43,
+          "endSec": 809.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The BLM confirmed only an initial application. There is no NRC construction permit, no named off-taker, and no project capex. Utah's entire average generation is around 4 gigawatts, so the claim is more than double the state's grid, and first reactors by 2028 is not plausible against NRC timelines. It is a land claim dressed as a project, and a very clean data point for the gap between pledged capital and built capacity.",
+          "startSec": 809.31,
+          "endSec": 834.08
+        }
+      ],
+      "startSec": 622.1
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Ngayong umaga, dalawang salita na maririnig natin ulit sa balita mula sa Pilipinas. Ang una ay \"paninindigan.\"",
+          "startSec": 834.08,
+          "endSec": 840.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang \"paninindigan\" ay matibay na pagtayo sa isang opinyon, prinsipyo, o desisyon, kahit may pumipilit na bumitaw. Galing ito sa salitang-ugat na \"tindig,\" ang tayo o postura ng katawan. Kaya ang taong may paninindigan ay parang taong nakatayo nang tuwid sa gitna ng bagyo.",
+          "startSec": 840.51,
+          "endSec": 856.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pormal ito pero gamit na gamit sa pulitika at pamamahayag. Madalas mong maririnig, \"Ipinakita niya ang kanyang paninindigan sa isyu ng pondo.\" Kapag may paninindigan ang isang opisyal, may kasamang bigat ng pananagutan ang mga salita niya.",
+          "startSec": 856.4,
+          "endSec": 870.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Magkaiba ito sa \"opinyon,\" na puwedeng magbago sa isang iglap. Ang opinyon ay kuro-kuro lamang, pero ang paninindigan ay may kasamang tapang at tatayuan. Puwede ring sabihing \"manindigan ka naman,\" na may halong pagkainip, parang hinihingan mo ng tapang ang kausap mo.",
+          "startSec": 870.37,
+          "endSec": 886.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang pangalawang salita ay \"pag-atras.\" Ito ang pagbawi ng sarili sa isang lakad, usapan, o pangako. Galing sa \"atras,\" na ang literal na kahulugan ay pagsulong pabalik, kaya ang pag-atras ay hakbang pabalik mula sa isang pasya.",
+          "startSec": 886.02,
+          "endSec": 899.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mahalaga ang tunog nito. May kaunting hiya o kaba sa \"pag-atras,\" lalo na kapag publiko ang pag-atras ng isang testigo, kandidato, o opisyal. Ihambing mo sa \"pagbitiw,\" na mas pormal at kadalasang tungkol sa posisyon, katulad ng pagbibitiw sa puwesto.",
+          "startSec": 899.29,
+          "endSec": 913.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Halimbawa, \"Ang pag-atras ng testigo ay nagbigay ng bagong tanong sa paglilitis.\" Puwede ring gamitin sa araw-araw: \"Umatras siya sa huling minuto,\" ibig sabihin, biglang bumitaw bago ituloy ang plano.",
+          "startSec": 913.95,
+          "endSec": 925.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kapag pinagsama, makikita mo ang tensyon: ang paninindigan ay pagtayo, ang pag-atras ay paglayo. Pareho silang may kinalaman sa katapangan, pero magkabilang dulo ng iisang sukatan. Pakinggan natin kung paano lumilitaw ang dalawa sa balita ngayon.",
+          "startSec": 925.69,
+          "endSec": 940.07
+        }
+      ],
+      "startSec": 834.1
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Sa paglilitis kay Bise Presidente Sara Duterte sa Senado, inalis ng prosekusyon si Antonio Trillanes bilang testigo ngayong Oktubre 1.",
+          "startSec": 940.07,
+          "endSec": 947.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ayon kay Trillanes, siya mismo ang humiling ng pag-atras para mabawasan ang presyon sa prosekusyon, at ipapaliwanag niya raw ang sana'y sasabihin niya sa Biyernes. Ipinakita ng pangunahing taga-usig na si Jinky Luistro ang paninindigan nilang ituloy ang kaso gamit ang ibang testigo mula sa AMLC.",
+          "startSec": 947.89,
+          "endSec": 965.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "Samantala, sa Senado, inaprubahan ng komite sa pananalapi ang 2027 budget ng Tanggapan ng Pangulo na nagkakahalaga ng P10.15 bilyon, matapos ang pagdinig na tumagal lamang ng 18 minuto.",
+          "startSec": 965.19,
+          "endSec": 976.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In English for the rest of this beat. That P10.15 billion is 64% lower than the Office of the President's 2026 budget, according to Executive Secretary Ralph Recto, and it sits inside a proposed P7.2 trillion national budget for 2027, President Marcos's last full year before the 2028 polls.",
+          "startSec": 976.0,
+          "endSec": 993.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the flood control line is where the fight is. The Department of Public Works is asking for P107.4 billion in 2027 after getting nothing in 2026. Senate finance chair JV Ejercito says the Senate will fund only ongoing works to completion, no new projects, and he has flagged about P8.2 billion in DPWH items that lack documentary compliance. Hearings resume October 16th and run through the 23rd.",
+          "startSec": 993.0,
+          "endSec": 1016.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The pattern is the same as Trillanes. Both are stories about who will stand behind a number, and the budget fights suggest the post-scandal rule at the Senate is documentation first, money second.",
+          "startSec": 1016.31,
+          "endSec": 1027.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "One market note, since it moved. The peso closed at P62.64 to the dollar, its third straight loss, after the record low of 62.86 on September 14th. September inflation is due around October 5th or 6th, and the central bank's own forecast range of 6.4% to 7.4% means the peso has a catalyst waiting.",
+          "startSec": 1027.56,
+          "endSec": 1044.67
+        }
+      ],
+      "startSec": 940.1
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Today's Mandarin words come straight out of the China story. The first is a connective, 不但…而且, \"not only…but also.\"",
+          "startSec": 1044.67,
+          "endSec": 1051.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is the HSK 4 connective that sits between the 不仅…而且 you probably already know and a more formal register. 不但…而且 is slightly more spoken, and it links two parallel qualities, with the second one usually carrying the heavier weight. A key rule: if the two clauses have different subjects, 不但 goes before the first subject, as in 不但房价下跌，而且销量也下降了。(Not only did housing prices fall, but sales also dropped.)",
+          "startSec": 1051.64,
+          "endSec": 1077.31
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonym contrast is 不仅. They are interchangeable most of the time, but 不仅 leans more written, the register you will find in finance columns, while 不但 feels more at home in speech and news broadcasts. Both pair with 而且 or 也 in the second half, and the second clause often carries the surprise.",
+          "startSec": 1077.31,
+          "endSec": 1095.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here is a formal-leaning example. 这项政策不但降低了贷款成本，而且提振了购房者的信心。(This policy not only lowered borrowing costs but also lifted homebuyers' confidence.) Notice 提振, which is a nice finance-desk collocation to remember.",
+          "startSec": 1095.42,
+          "endSec": 1110.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "Our second word is concrete but useful: 促销, cùxiāo, meaning promotional sale or to run a promotion. It is a verb and a noun, and it sits comfortably in business speech. Think 促销活动, promotional event, or 促销价, promotional price.",
+          "startSec": 1110.01,
+          "endSec": 1123.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Register: it is neutral to slightly commercial, so it works in news and in a shop. The near-synonym is 打折, to discount, which is narrower. 打折 is a price cut specifically, while 促销 covers the whole campaign, including gifts, coupons and bundles. 商场正在搞促销。(The mall is running a promotion.)",
+          "startSec": 1123.81,
+          "endSec": 1141.49
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the collocation pattern: 搞促销, 做促销, 大力促销, to go all out on promotion. 开发商大力促销，希望吸引更多买家。(Developers are promoting heavily, hoping to attract more buyers.) That is exactly the verb you are about to hear in the next segment.",
+          "startSec": 1141.49,
+          "endSec": 1156.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Together they are a good pair for today. One is a logic connective, one is a market behaviour, and both show up in a Golden Week property story.",
+          "startSec": 1156.74,
+          "endSec": 1165.0
+        }
+      ],
+      "startSec": 1044.7
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "不但国庆黄金周开始了，而且各地也推出了大量的房地产促销活动。(Not only has the Golden Week holiday begun, but many places have also launched a large number of property promotions.)",
+          "startSec": 1165.0,
+          "endSec": 1176.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is the story. The week-long National Day holiday runs October 1st through the 7th, and more than 20 provinces and 130 cities are running sales and housing-policy events: hometown-buyer subsidies, discounts, mortgage perks. It is also the first real test of the policy package that Beijing wrote at the end of September.",
+          "startSec": 1176.22,
+          "endSec": 1194.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Recall the pieces, briefly, because they now meet a real market. The one-year pledged supplementary lending rate was cut by 25 basis points. A mortgage interest subsidy of 1 percentage point a year on principal, for up to five years, applies to first-time buyers, for homes up to 120 square metres and priced at or below 1.5 million yuan, starting this month.",
+          "startSec": 1194.82,
+          "endSec": 1215.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the data are a two-speed picture. The official September manufacturing PMI was 50.1, ending two months of contraction, with new orders at 50.5 and production at 51.7. Non-manufacturing was 50.2, up from 49.0 and above the 49.3 consensus. Factories, equipment and high-tech are the fast lane. Property is the slow lane.",
+          "startSec": 1215.44,
+          "endSec": 1233.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That is where the debt-deflation lens bites. Property is in its fifth year of slump, against a 2026 growth target of 4.5% to 5% and second-quarter GDP growth of 4.3%. Subsidies on a mortgage address the buyer's cost, but not the developer's balance sheet or the unsold inventory behind it.",
+          "startSec": 1233.92,
+          "endSec": 1250.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "So Golden Week is the first read on whether 促销 turns into closed sales. If the hometown-buyer discounts show up in transaction data, then 不但 the supply side is stabilising, 而且 demand is following. If not, the package is a polite gesture.",
+          "startSec": 1250.52,
+          "endSec": 1264.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Markets were calm about it. The Shanghai Composite closed near 3,842, up 0.31%, and the Hang Seng added 0.37%. The market is giving Beijing the benefit of the doubt for exactly one week.",
+          "startSec": 1264.68,
+          "endSec": 1275.36
+        }
+      ],
+      "startSec": 1165.0
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "In art, London's October season is taking shape. Frieze London and Frieze Masters return to The Regent's Park from October 14th to 18th, with 176 galleries at Frieze London and 142 at Frieze Masters, and the programme includes new work by Albert Oehlen, Dalton Paula and Marina Perez Simão.",
+          "startSec": 1275.36,
+          "endSec": 1292.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The institutions are timing their openings around it. The Royal Academy opens \"Painting the French Riviera\" tomorrow, October 2nd, and runs it to January 31st. Tate Modern hands the Turbine Hall to the artist Tarek Atoui, and the National Gallery opens \"Renoir and Love.\"",
+          "startSec": 1292.01,
+          "endSec": 1307.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "The one I would cross a city for is the Bayeux Tapestry, which is coming to the British Museum for the first time since it was made, nearly a thousand years ago. A textile that fragile travelling at all is the story, and the loan has been long negotiated.",
+          "startSec": 1307.57,
+          "endSec": 1322.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The critic's point is that London is betting on spectacle at two ends: a contemporary fair of 318 galleries combined, and an 11th-century embroidered narrative. The interesting question is whether the fair crowd walks across town to see cloth, and I suspect many will.",
+          "startSec": 1322.21,
+          "endSec": 1337.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "On the prizes side, the MacArthur Foundation named its 2026 fellows, 20 people receiving $800,000 each over five years. Among the artists, Vincent Valdez, who paints the Latino experience in the United States, Christine Sun Kim, the deaf artist based in Berlin who draws with sound, and Rodney McMillian, who works across sculpture, painting and video about the American South.",
+          "startSec": 1337.59,
+          "endSec": 1359.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The writers are just as strong. Layli Long Soldier, the poet whose work uses erasure on historical texts to address how Native Americans are written out of the record. Maaza Mengiste, the novelist. And Bryan Washington, at 33 in Tokyo, author of \"Memorial\" and \"Palaver.\" There is also the jazz pianist Immanuel Wilkins.",
+          "startSec": 1359.24,
+          "endSec": 1377.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a look ahead. The Nobel Prize in Literature is announced next Thursday, October 8th, and the bookmakers' favourite is the Chinese writer Can Xue at around 10 to 1, according to LitHub's odds piece. Her fiction is dream-logic and famously difficult.",
+          "startSec": 1377.61,
+          "endSec": 1392.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Nobel has rewarded the difficult before, so she is a credible pick, but the Academy has a habit of confounding the bookmakers, so treat the odds as a conversation starter.",
+          "startSec": 1392.08,
+          "endSec": 1402.35
+        }
+      ],
+      "startSec": 1275.4
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Two op-eds today. The first is Allison Schrager in Bloomberg Opinion, titled \"The Intangible Economy Is Making Everyone Miserable.\" Her puzzle is that Americans have never been richer, with living standards and life expectancy at highs, yet the economy feels broken.",
+          "startSec": 1402.35,
+          "endSec": 1417.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "The steelman: she argues the economy is increasingly built on intangibles, and in her words, it may be hard to feel satisfied when so much of what we have is no longer in the physical realm. Few things we own are physical, and our labour produces no output you can point at. She concedes that intangibles are why we are richer and live longer. The point is that some of the gloom is psychological and structural, not only about prices.",
+          "startSec": 1417.96,
+          "endSec": 1443.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The counter-take. This is close to unfalsifiable. The gloom is better explained by very tangible things: housing, health care, childcare, and the yield and inflation squeeze we discussed all week. And people felt this angst about factory closures too, so the intangible story is not unique to this era. There is also a convenient politics to it, because if the problem is psychological, the fix is therapy, not affordability.",
+          "startSec": 1443.48,
+          "endSec": 1468.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second is George Will in the Washington Post, on James Marriott's book \"The New Dark Ages,\" under the headline about a grim prognosis for the post-literate future. Will's twist is that Marriott may not be pessimistic enough about the death of reading.",
+          "startSec": 1468.42,
+          "endSec": 1483.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman: the book, the artefact behind scepticism, rationality, science and democracy, is rapidly losing importance. Marriott warns a post-literate future may resemble the pre-literate past, mystical, tribal and autocratic. Coverage of the book cites a drop of about 40% in US reading for pleasure over 20 years, and it has been a Sunday Times bestseller.",
+          "startSec": 1483.38,
+          "endSec": 1504.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take is that death-of-reading panics recur. The Bulwark argues the death of reading has been greatly exaggerated, and Washington Monthly says we are not post-literate yet. Podcasts and audio are still language-heavy, and a decline in long-form book reading is not the same as the loss of literacy. Mystical, tribal and autocratic is a leap, since autocracies were literate too.",
+          "startSec": 1504.51,
+          "endSec": 1527.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Notice something about the two together. Schrager says we have too little that is physical. Will says we have too little that is bound. In both, the argument is about what the economy, or the culture, has dissolved, and in both, the evidence is weaker than the mood.",
+          "startSec": 1527.33,
+          "endSec": 1542.94
+        }
+      ],
+      "startSec": 1402.3
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To close, a story about a teenager from Summerville, Georgia. Jude Baker was diagnosed with Ewing sarcoma at 12. He went through chemotherapy, rang the bell at the end, and is now in remission at 14.",
+          "startSec": 1542.94,
+          "endSec": 1554.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Then came the offer every child in that position dreams about: a Make-A-Wish. Jude had no backup wish. He didn't ask for a trip or a meeting with a celebrity. What he asked for was the chance to give.",
+          "startSec": 1554.62,
+          "endSec": 1566.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "He had noticed hundreds of homeless people near the hospital during his treatment. So his wish became backpacks, supplies, sleeping bags and hot meals, for people he had never met. Donations came in from across the country once his story spread.",
+          "startSec": 1566.36,
+          "endSec": 1580.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A child who had spent so long being given things, and who decided the best use of his wish was to give some of it away.",
+          "startSec": 1580.73,
+          "endSec": 1587.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that's the show for Thursday. Thanks for riding along with us.",
+          "startSec": 1587.72,
+          "endSec": 1591.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a good one, and we'll see you tomorrow.",
+          "startSec": 1591.59,
+          "endSec": 1594.17
+        }
+      ],
+      "startSec": 1542.9
+    }
+  ]
+}

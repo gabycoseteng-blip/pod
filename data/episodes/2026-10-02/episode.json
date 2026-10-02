@@ -1,0 +1,683 @@
+{
+  "date": "2026-10-02",
+  "title": "Friday, October 2, 2026",
+  "day": "Friday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-10-02.mp3",
+  "durationSec": 1567,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Friday, October 2nd. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Starting in the Gulf, where Iran and the United States now agree on most of a ceasefire roadmap and disagree on almost nothing except which step comes first.",
+          "startSec": 3.68,
+          "endSec": 12.41
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "And that sequencing fight is the whole story. Foreign Minister Araghchi was briefed on Washington's reply to Tehran's latest proposal, and according to the Just Security early edition, both sides broadly accept the steps themselves. What they can't settle is the order, meaning whether sanctions relief, a halt to strikes, and inspections come in parallel or in a sequence that one side has to trust the other to complete.",
+          "startSec": 12.41,
+          "endSec": 33.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's a domestic layer on both sides now. The Revolutionary Guards are publicly urging Americans to vote against Trump in November, which is a remarkable thing for a military force to say about a foreign election, and The Hill reports Iran is also planning for a resumption of large-scale US strikes. So Tehran is negotiating with one hand and preparing for failure with the other.",
+          "startSec": 33.95,
+          "endSec": 53.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which means the midterm calendar is now a variable in the talks. Every week without a sequencing deal is a week in which the political value of a deal changes for both capitals.",
+          "startSec": 53.51,
+          "endSec": 62.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Next, Ukraine. Kyiv says it will hand the Trump administration and Congress a wish list of Russian entities to hit under the new Lindsey O. Graham Sanctioning Russia and Iran Act of 2026. The law gives Washington the authority, and the list is Ukraine's attempt to choose the targets, which is a sign Kyiv thinks the sanctions tool is back on the table.",
+          "startSec": 62.55,
+          "endSec": 80.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "On the battlefield, President Zelensky visited a command post near Lyman and praised gains in a counteroffensive there. Lyman has changed hands repeatedly in this war, so the practical question is whether Ukrainian units can hold what they take, and nothing in the reporting yet says that part has been settled.",
+          "startSec": 80.57,
+          "endSec": 96.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "India, where opposition parties are planning protest marches through October. The demand has moved on from the voter-roll overhaul itself to the removal of the chief election commissioner, who oversees it. The opposition argues the roll revision is quietly deleting voters ahead of the next round of state elections, and the officials deny it.",
+          "startSec": 96.45,
+          "endSec": 113.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "That escalation matters because it turns a technical dispute about paperwork into a fight over who referees the election. Once the referee is the story, every result in those state contests comes with an asterisk for somebody.",
+          "startSec": 113.96,
+          "endSec": 125.5
+        }
+      ],
+      "startSec": 12.4
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Nike last night. First-quarter revenue of $11.21 billion, a touch under the $11.35 billion Wall Street wanted, down 4% reported and 5% in constant currency. Adjusted earnings of 48 cents a share did beat the 44 cents expected, but nobody was looking at that line.",
+          "startSec": 125.5,
+          "endSec": 138.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "They were looking at Greater China, where sales fell 26%, and at the guide. Nike now expects a high-single-digit revenue decline for the fiscal year and adjusted EPS of $1.15 to $1.35, against a consensus of $1.61. Shares dropped as much as 6.6% after hours.",
+          "startSec": 138.93,
+          "endSec": 152.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The restructuring, which they're calling Pace, includes layoffs and roughly $2.5 billion in savings, though most of that lands in fiscal 2029 and 2030. So the cost cuts are back-loaded while the revenue hole is front-loaded, and the China consumer is the clearest read on how thin that spending really is. Hold that thought, because we'll see the same pattern in today's China story.",
+          "startSec": 152.1,
+          "endSec": 171.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "The other event is at 8:30 this morning Eastern, September payrolls. Consensus is about +89,000 jobs with unemployment holding at 4.1%. Softer inflation prints this week eased the pressure on the Fed, so a hot number would be the thing that complicates that story, with the 10-year already at its highest level in more than 24 years.",
+          "startSec": 171.66,
+          "endSec": 188.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The setup is asymmetric. A soft number is mostly priced in, a hot number pushes yields into territory where the rest of the market, the mortgage market, and the dollar all have to reprice, and that's why futures were calm overnight but nobody is relaxed.",
+          "startSec": 188.66,
+          "endSec": 201.63
+        }
+      ],
+      "startSec": 125.5
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Japan first. Tokyo core CPI for September came in at 2.7% against a 2.4% forecast, and the headline matched at 2.7% versus 1.9% the month before. The measure that strips out fresh food and energy ran at 3.0%, against 2.5% expected, the fastest since August 2025.",
+          "startSec": 201.63,
+          "endSec": 215.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the number the Bank of Japan watches for underlying pressure, and the next meeting is October 29th and 30th. With the yen around 158 to the dollar, hotter inflation gives the BOJ a domestic reason to move that doesn't depend on the currency, which is a cleaner argument than intervention.",
+          "startSec": 215.01,
+          "endSec": 230.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "To Pakistan, where the dynamic changed on Friday. Government and opposition negotiators actually sat down at a table instead of facing each other across road barricades, after the Khan march on Islamabad. Talks beginning is not talks succeeding, but it is a de-escalation from a week ago.",
+          "startSec": 230.07,
+          "endSec": 244.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And from North Korea, Pyongyang says it is fortifying its border to close the door on the South for good. The language is the notable part, since \"for good\" describes a permanent break rather than just a military posture, and details on what the fortification involves have been thin so far.",
+          "startSec": 244.77,
+          "endSec": 259.63
+        }
+      ],
+      "startSec": 201.6
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The tape was quiet in the US, and the full levels are in the Markets tab, so let me spend the time on the two things that weren't quiet. The first is Hong Kong, where the Hang Seng fell about 2.6% on its first session back from the National Day break.",
+          "startSec": 259.63,
+          "endSec": 272.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Hang Seng is catching up on a holiday week it missed. Mainland markets are shut for Golden Week, so Hong Kong is the only place in Chinese equities where the world's reaction to higher global yields and a soft Nike print can show up, and it showed up all at once. I'd read that as a catch-up gap rather than a new Chinese story.",
+          "startSec": 272.45,
+          "endSec": 289.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second is the long end. The 10-year Treasury yield settled around 5.33%, its highest since April 2002, after retreating from higher levels earlier in the session. It's a new high rather than a surprise, but each new high is a fresh test of how much equity multiples can absorb.",
+          "startSec": 289.4,
+          "endSec": 303.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "My view is that the equity market has quietly decided that yields are a story about supply and term premium and not about growth, which is why the S&P can sit near 7,666 with a 5.33% 10-year. That works until something makes yields a growth story, and a very strong payrolls print is exactly that something.",
+          "startSec": 303.74,
+          "endSec": 319.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "So for a quiet day, the stakes are higher than they look.",
+          "startSec": 319.42,
+          "endSec": 322.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right. Watch the 10-year's reaction at 8:30 and nothing else.",
+          "startSec": 322.33,
+          "endSec": 325.46
+        }
+      ],
+      "startSec": 259.6
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the deep dive, we're leaving markets and energy policy behind and going to the Supreme Court, because the new term opens Monday with a case that could decide who pays for climate damage in America. This is drawn from open reporting, Bloomberg Law, Reuters, SCOTUSblog, and Colorado Public Radio, rather than a single feature, and I'll flag where the reporting is thin.",
+          "startSec": 325.46,
+          "endSec": 344.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The case is Suncor Energy versus the Board of County Commissioners of Boulder County, with Exxon as a co-petitioner. Boulder sued in state court, using public and private nuisance, trespass, unjust enrichment, and civil conspiracy, arguing that the companies knew their products would warm the planet and misled the public about it. The Colorado Supreme Court let the case proceed 5 to 2 in May of 2025, the companies petitioned in August, and the justices granted review on February 23rd.",
+          "startSec": 344.57,
+          "endSec": 369.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "The question presented is whether federal law precludes state-law claims for injuries allegedly caused by interstate and international greenhouse gas emissions. The companies say it does. Their line is that this is emissions regulation dressed up as tort law, that the Clean Air Act and federal foreign policy own the field, and that allowing it means 50 states setting climate policy through juries.",
+          "startSec": 369.69,
+          "endSec": 390.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the stakes are what make it a big case. Exxon and Suncor told the justices that nearly 60 state and local governments have filed similar suits seeking billions of dollars. BP, Chevron, ConocoPhillips, Shell, and Phillips 66 have been sued in comparable cases. The Trump administration is siding with the companies, arguing that federal law forecloses Boulder's claims.",
+          "startSec": 390.24,
+          "endSec": 409.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "Now the twist. Justice Alito recused himself, by a one-line letter from the clerk, less than a week before argument and with no explanation. He later told Bloomberg that, taking into account the particular arguments, recusal was the prudent step and a difficult judgement call, and he said the Court's legal office had told him he was not required to recuse.",
+          "startSec": 409.35,
+          "endSec": 427.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "His financial disclosure shows no Exxon or Suncor holdings, but about two dozen stocks including Phillips 66 and ConocoPhillips, which are named in sibling suits. There's also reporting about family energy-related inheritance. I'd treat that last part carefully, it comes from advocacy-adjacent coverage, but the basic point is that the recusal itself is unexplained and the arithmetic is what matters.",
+          "startSec": 427.74,
+          "endSec": 448.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "Because with 8 justices, a 4 to 4 tie affirms the Colorado ruling without setting national precedent. That's the second-order read. A tie is a win for Boulder, since its case continues, but it is no nationwide shield for the companies and no nationwide loss either. The other 59-odd cases would keep going in their own states with the same unresolved question hanging over them.",
+          "startSec": 448.39,
+          "endSec": 467.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What's contested is the legal doctrine. SCOTUSblog describes preemption law in this area as very confused, and Legal Planet has written a guide for the lost. The companies say these are really claims about global emissions, which are federal by nature. Boulder, and groups like Just Security, say these are consumer-deception and nuisance claims about what the companies knew and said, not about regulating emissions, and that nothing in the Clean Air Act removes that traditional state power.",
+          "startSec": 467.8,
+          "endSec": 493.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "There's a procedural subtlety underneath that. In a tort case the remedy is damages from specific defendants, and the companies' argument is that the damages are a function of worldwide emissions from everyone. A court has to decide whether the harm can be traced to a defendant's conduct at all, or whether it's too diffuse for any court, which is essentially a justiciability argument in a preemption costume.",
+          "startSec": 493.13,
+          "endSec": 514.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "For this audience, the energy read matters. A clean company win could end about 60 suits and remove a long-tail liability from oil and gas balance sheets, which is relevant to how lenders and utilities think about the gas-fired buildout for data centers. A tie leaves the liability overhang alive. And because Alito's recusal makes a tie more likely than the cert grant implied, the market should probably put more weight on the overhang staying.",
+          "startSec": 514.24,
+          "endSec": 537.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the timeline is slow. Argument is Monday, October 5th, and a decision doesn't come before 2027, with the term ending next June. So for lenders and insurers, the practical effect for the next 9 months is uncertainty rather than resolution.",
+          "startSec": 537.15,
+          "endSec": 549.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What I'd watch on Monday is how the questions split. If the conservative justices press Boulder on federalism and the liberal justices press the companies on why state tort law gets pre-empted by a statute that never mentions it, the tie becomes the base case, and that's when oral argument stops being theatre and starts being a forecast.",
+          "startSec": 549.58,
+          "endSec": 567.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's one of 7 cases in the first two weeks of the term, alongside immigration detention without bond hearings, veterans' benefits, federal sentencing, and digital privacy. But this is the one that sets the tone, and the Court chose to put it first.",
+          "startSec": 567.0,
+          "endSec": 579.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One caveat on sourcing, which is that the family-wealth details are secondary reporting, and I'd rather leave them as a question than a fact.",
+          "startSec": 579.73,
+          "endSec": 586.98
+        }
+      ],
+      "startSec": 325.5
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Starting with MISO, which is trying to fix the thing every large-load developer complains about, serial studies. Its proposed Large Load Addition Resource Study would evaluate loads of 250 MW or more together with their contracted generation, in parallel, rather than in series, and target transmission approval plus a generator interconnection agreement in 120 days, against 180 or more today.",
+          "startSec": 586.98,
+          "endSec": 607.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The design is modelled on its expedited resource addition study. There would be 3 cycles a year, capped at 10 load-and-generation pairs per cycle. To get in you need a firm offtake agreement, 100% site control, and the load and generator in the same local resource zone. Request size runs from 250 MW up to 150% of the load's peak. First agreements are possible in 2027.",
+          "startSec": 607.22,
+          "endSec": 626.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "The timing is worth marking. It was proposed on August 27th at the large load working group, MidAmerican asked to cut the threshold from 250 to 200 MW, comments run through early October, a final proposal is planned for October 29th, and the FERC filing is slated for November. Separately, MISO filed large load interconnection reliability tariff revisions on August 28th, requesting an October 18th effective date.",
+          "startSec": 626.22,
+          "endSec": 647.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Context: FERC says MISO is the fastest-growing data center region, with a 43% compound growth rate in data center capacity since 2020. So this is a process built for a queue that has already arrived, and the requirement to bring your own generation is the real policy bet, because it makes the large load a co-developer of supply instead of a claimant on existing supply.",
+          "startSec": 647.54,
+          "endSec": 670.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next, Pennsylvania. The Public Utility Commission voted Thursday on a tentative order that would let new large loads without newly secured capacity be curtailed ahead of other customers in emergencies. Utilities couldn't classify large loads as critical users exempt from pre-emergency or emergency cuts, and they'd keep a registry of major users to notify during what the order calls an Interim Resource event. It's out for comment.",
+          "startSec": 670.66,
+          "endSec": 697.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The vote count was reported as unanimous, though accounts differ on whether it was 4 to 0 or 5 to 0. The backing study says PJM's reliability standards fail from 2027 through 2030 in the reference scenario. That is the central fact: when the regulator's own study says the standard is missed, the question becomes who gets cut first, and Pennsylvania is answering it with a priority list.",
+          "startSec": 697.65,
+          "endSec": 721.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "New York has a version of that arithmetic. NYISO's 2026 reliability needs assessment finds the base case 200 MW short by 2033 and 1,800 MW short by 2036. The drivers are 2,700 MW of new large load by 2036, 517 MW of NYPA small gas plants retiring, and about 2,600 MW of aging-generation risk.",
+          "startSec": 721.84,
+          "endSec": 740.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The queue growth is the striking part, 6 projects and 1,045 MW in 2022, up to 51 projects and 12,670 MW by May of this year. NYISO's proposed process would add higher readiness obligations, a bulk electric large load study, and a non-firm withdrawal service for loads that don't bring generation. Non-firm service is the phrase to remember, because it's the commercial form of a curtailment priority.",
+          "startSec": 740.04,
+          "endSec": 764.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the hardware. Siemens Energy's gas turbine backlog is around 69 to 70 GW inside a total backlog of 162 billion euros, and its grid technologies backlog is a record 51 billion euros, driven by large power transformers. Mitsubishi Heavy reports a 35 GW large-frame backlog, up from 23 GW a year earlier, with the latest orders for delivery in 2028 through 2030.",
+          "startSec": 764.97,
+          "endSec": 787.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Those backlog figures come from recent quarterly reports rather than this week, but a Washington Times piece on September 30th made the same point with the headline about the machine the AI boom can't get enough of. The transformer side is just as tight, with lead times for the largest units running 3 to 5 years, against 24 to 30 months before the boom, and an average US lead time around 128 weeks. Hitachi Energy is investing more than $1 billion in the US, including a plant in South Boston, Virginia, due online in 2028.",
+          "startSec": 787.6,
+          "endSec": 820.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "And ERCOT's large-load queue was 410 GW as of April 1st, about 87% data centers, against 63 GW in December of 2024. A more recent figure of 466 GW has circulated, but I couldn't confirm the date, so I'll stick with 410.",
+          "startSec": 820.38,
+          "endSec": 834.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "For a developer, the practical question is what each of these does to a pro forma. MISO's parallel study shortens the schedule but demands a firm offtake and 100% site control up front, so it filters out speculative requests. Pennsylvania's order makes interruptible status a financing term, because a lender will want to know whether a campus sits at the front or the back of the curtailment line.",
+          "startSec": 834.03,
+          "endSec": 858.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. If non-firm service becomes the norm in New York and curtailment priority becomes the norm in PJM, then on-site generation and storage stop being a nice extra and become the thing that converts a conditional interconnection into a bankable one. That's the second-order read on all three of these filings.",
+          "startSec": 858.84,
+          "endSec": 878.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The pattern across all four items is the same: the queue is outgrowing the grid, regulators are building priority lists, and the equipment that would close the gap is spoken for until 2028. The scarce asset is neither the chip nor the site, it's the firm interconnection.",
+          "startSec": 878.35,
+          "endSec": 895.24
+        }
+      ],
+      "startSec": 587.0
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Ngayong umaga, dalawang salita na maririnig natin sa balita mula sa Pilipinas. Ang una ay \"pagkabahala.\"",
+          "startSec": 895.24,
+          "endSec": 901.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang \"pagkabahala\" ay ang pakiramdam ng pag-aalala o pagkabalisa dahil sa isang bagay na maaaring mangyari. Galing ito sa salitang-ugat na \"bahala,\" pero iba na ang dating nito. Ang \"bahala ka\" ay pagpapaubaya, samantalang ang \"pagkabahala\" ay may kaba at pangamba na kasama.",
+          "startSec": 901.72,
+          "endSec": 918.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pormal ito at madalas mong mababasa sa pahayagan. Halimbawa, \"Lumalalim ang pagkabahala ng mga mamumuhunan sa humihinang piso.\" Hindi ito ginagamit sa karaniwang kuwentuhan. Sa barkada, mas natural ang \"kinakabahan ako\" o \"nag-aalala ako.\"",
+          "startSec": 918.8,
+          "endSec": 933.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Magkaiba rin ito sa \"takot.\" Ang takot ay matindi at agad, parang may humahabol sa iyo. Ang pagkabahala ay mabagal na pag-ipon ng alalahanin, parang ulap na lumalapot bago ang ulan. Kaya bagay ito sa mga balita tungkol sa ekonomiya.",
+          "startSec": 933.7,
+          "endSec": 948.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang pangalawang salita ay \"pag-urong.\" Ito ay ang pag-atras o pagliit ng isang bagay, lalo na ng produksyon o ng ekonomiya. Halimbawa, \"Ang pag-urong ng sektor ng pagmamanupaktura ay unang naitala mula Abril.\"",
+          "startSec": 948.16,
+          "endSec": 961.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "Galing ito sa \"urong,\" na literal na paggalaw pabalik. Kapag may nahihiya o natatakot, sinasabi nating \"umurong ang dila.\" Pero sa balita, ang \"pag-urong\" ay pormal at teknikal, katumbas ng pagbaba ng antas ng gawain sa ekonomiya.",
+          "startSec": 961.19,
+          "endSec": 975.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Huwag itong ihalo sa \"pagbaba.\" Ang pagbaba ay simpleng paglugi o pagbagsak ng numero. Ang pag-urong ay may diwa ng pagbabalik sa mas maliit na sukat, kaya mas mabigat itong pakinggan kapag tungkol sa buong sektor.",
+          "startSec": 975.52,
+          "endSec": 988.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kapag pinagsama mo ang dalawa, \"May pagkabahala sa posibleng pag-urong ng ekonomiya.\" Iyan ang pangungusap na makikita mo sa mga pahayagan ngayong linggo.",
+          "startSec": 988.86,
+          "endSec": 998.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pakinggan natin ang dalawang salitang iyan sa balita ngayon.",
+          "startSec": 998.46,
+          "endSec": 1002.2
+        }
+      ],
+      "startSec": 895.2
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Simulan natin sa merkado. Bumagsak ang PSEi ng 1.03% sa 5,679.48 noong Huwebes, ang pinakamababang sara ng taon, at lumalalim ang pagkabahala ng mga dayuhang mamumuhunan, na nagbenta ng halos 951 milyong piso na net.",
+          "startSec": 1002.2,
+          "endSec": 1015.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Kasabay nito, bumagsak sa 49.6 ang manufacturing PMI ng Setyembre mula 54.9 noong Agosto, ang unang pag-urong ng sektor mula Abril, at bumaba ang output, mga bagong order, at trabaho.",
+          "startSec": 1015.66,
+          "endSec": 1027.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "At ang piso ay nagsara sa humigit-kumulang 62.78 kada dolyar, ang ikaapat na sunod na talo, habang naghihintay ang lahat sa inflation report sa Oktubre 6.",
+          "startSec": 1027.07,
+          "endSec": 1036.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In English for the rest of the beat. The PMI detail is that it was a 9-year high in August and now the first sub-50 reading since April. S&P Global blames high oil, foreign competition, and weak demand, and it ranks the Philippines second-lowest in its ASEAN sample, above only Myanmar at 49.1. The BSP has warned that September CPI could print as high as 7.4%, against 6.1% in August, which is why the peso and the stock index are moving together on the way down.",
+          "startSec": 1036.67,
+          "endSec": 1064.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then the weather risk that could hit the grid you work in. PAGASA now calls the El Niño strong and expects it to become very strong between September and December, lasting into the first half of 2027. The Palace said Thursday that funds are allocated and that there's no shortage reported, with a plea not to hoard water, and the Luzon hydro supply risk is my inference rather than something anyone has said on the record.",
+          "startSec": 1064.25,
+          "endSec": 1089.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In the Senate, the flood-control probe has turned into a personal fight. Cayetano went on a livestream on September 29th and called Lacson \"Chief Justice Lacson, Prosecutor Lacson, DOJ Lacson,\" accusing him of dictating the agencies involved. The trigger is DPWH Secretary Dizon's claim of ghost flood-control projects in Taguig, which is Cayetano's home turf, and Lacson says he is following the evidence. Other senators are pushing for a truce, and the Blue Ribbon committee may drop the Taguig probe.",
+          "startSec": 1089.33,
+          "endSec": 1119.23
+        },
+        {
+          "speaker": "SAM",
+          "text": "For the regulator side, the Energy Regulatory Commission told a Senate subcommittee hearing on September 17th that it has approved 71.3 billion pesos in refunds through August, 69.95 billion of it from Meralco. Its 2027 budget proposal is 944 million pesos against 1.7 billion requested, and the chair warns that the cut could jeopardise rate resets for private distribution utilities and cooperatives in 2027.",
+          "startSec": 1119.23,
+          "endSec": 1143.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One more political item from late last week. President Marcos signed a law moving the barangay and Sangguniang Kabataan elections from November 2nd of this year to the first Monday of November 2028, and extending barangay terms from 4 years to 5. That means no local vote this autumn, and it shifts a layer of electoral politics away from the middle of the flood-control scandal.",
+          "startSec": 1143.6,
+          "endSec": 1166.13
+        }
+      ],
+      "startSec": 1002.2
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Two Mandarin words today, both from the China story coming up. The first is a connective, 固然, used in the pattern 固然……但是. It concedes that something is true, then pivots to the point you actually want to make.",
+          "startSec": 1166.13,
+          "endSec": 1179.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "The register is written and editorial, 书面语, the kind of thing you read in a financial commentary. Here's an example. 假期出行人次固然创下纪录，但消费依然谨慎。(Holiday trips have indeed hit a record, but spending is still cautious.)",
+          "startSec": 1179.12,
+          "endSec": 1193.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The contrast to know is 虽然……但是, which you've already learned. 虽然 is a neutral concession. 固然 sounds more like an argument, as though the writer is saying, yes, I grant you that, and now here's why it doesn't matter.",
+          "startSec": 1193.85,
+          "endSec": 1207.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second word is 转化为, meaning convert into or translate into. It's an abstract collocation, and the standard pairings are 客流转化为消费 and 流量转化为销量, meaning foot traffic turning into spending, and web traffic turning into sales.",
+          "startSec": 1207.39,
+          "endSec": 1222.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Example. 庞大的客流并未转化为相应的消费。(The huge flow of visitors did not translate into a corresponding level of spending.) Notice 并未, a formal negation, which fits with 转化为 in the written register.",
+          "startSec": 1222.33,
+          "endSec": 1235.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "Compare it with 变成, which is the plain spoken word for turn into. 变成 is just a change of state. 转化为 implies a process or mechanism, something working through a funnel, which is why it fits business writing.",
+          "startSec": 1235.22,
+          "endSec": 1248.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Another one, 这家公司努力把游客转化为长期顾客。(This company is working hard to convert tourists into long-term customers.) The verb 转化 usually takes 为, and a person or a process is the thing doing the converting.",
+          "startSec": 1248.13,
+          "endSec": 1261.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last one for 固然. 市场固然有机会，但风险也不能忽视。(There are indeed opportunities in the market, but the risks can't be ignored either.) We'll hear both of these in the China story.",
+          "startSec": 1261.59,
+          "endSec": 1273.11
+        }
+      ],
+      "startSec": 1166.1
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "今年国庆假期出行人次固然创下纪录，但庞大的客流难以转化为消费。(This year's National Day holiday has indeed set a record for trips, but the huge flow of visitors can hardly be turned into spending.)",
+          "startSec": 1273.11,
+          "endSec": 1285.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "The numbers behind that sentence. China's Transport Ministry projects about 2.13 billion trips over the 7-day Golden Week that began Oct 1, or roughly 300 million a day, and the holiday runs into Mid-Autumn Festival for a stretch of about 13 days.",
+          "startSec": 1285.83,
+          "endSec": 1300.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "But last year's per-trip spend was 911 yuan, about $136, a 3-year low. In this year's survey only 5% plan to stay in luxury hotels and 33% in mid-range, and the share planning an outbound trip rose from 35% to 54%. Beijing has put more than 310 million yuan into vouchers and subsidies, which sounds like a lot until you divide by 2.13 billion trips.",
+          "startSec": 1300.51,
+          "endSec": 1321.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "That outbound tilt is why this belongs next to the Philippines. Cebu flight bookings for Golden Week are up 111% year on year, helped by the 14-day visa-free entry for Chinese travellers that began January 16th, with about 320,000 Chinese arrivals as of September 9th.",
+          "startSec": 1321.32,
+          "endSec": 1337.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Politically, Xi's eve-of-anniversary speech on September 30th said China will resolutely crack down on Taiwan independence, a harder phrase than last year's firmly opposes, and it came after his visit to Washington. It's the other kind of two-speed: warm on trade, harsher on the island.",
+          "startSec": 1337.25,
+          "endSec": 1354.31
+        }
+      ],
+      "startSec": 1273.1
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Starting in Spain, where the Royal Paintings Museum at El Escorial reopens after more than 10 years closed. Nearly 100 newly shown paintings by Titian, Tintoretto, Veronese, and others, with more than 20 works added to the permanent display, many restored, in Philip II's monastery-palace. The renovation runs 2024 to 2027 and is funded with 6.5 million euros of EU money.",
+          "startSec": 1354.31,
+          "endSec": 1376.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What I like is the place. Philip II's collection is the origin of the Spanish court's love of Venetian painting, so seeing Titian back in the building he was shipped to, rather than the Prado, is a bit of a homecoming.",
+          "startSec": 1376.42,
+          "endSec": 1389.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "In Los Angeles, the Jewish Federation filed suit on September 14th for Lucas Cranach the Elder's Adam and Eve diptych at the Norton Simon, which the Nazis seized from Jacques Goudstikker's Amsterdam gallery in 1940. His heir Marei von Saher lost at the Ninth Circuit after a decade-long fight. The new filing relies on a 2024 California statute that expired just after the suit was filed.",
+          "startSec": 1389.38,
+          "endSec": 1412.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And on stage, the Vienna State Opera premieres a Zemlinsky and Bartók double bill tomorrow, with Zemlinsky's A Florentine Tragedy followed by Bluebeard's Castle, directed by Vasily Barkhatov and conducted by Alain Altinoglu, with Asmik Grigorian in the cast. The pairing is about a partner who seems familiar and turns out to be unknowable, and the Nobel Prize in Literature is announced next Thursday, October 8th.",
+          "startSec": 1412.44,
+          "endSec": 1435.55
+        }
+      ],
+      "startSec": 1354.3
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Paul Nakasone, the former head of the NSA and Cyber Command who sits on OpenAI's board, argues in the Washington Post that AI labs must partner with the government to secure critical infrastructure before it's too late. The steelman is strong: frontier models are cyber-offense multipliers, the labs hold the models, the government holds the threat intelligence and the authorities, and only a standing partnership can patch the grid and the water systems before attackers weaponise them.",
+          "startSec": 1435.55,
+          "endSec": 1462.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take starts with the byline. The author sits on OpenAI's board, so the partnership he proposes hands incumbents a seat in writing the rules. Second, a national-security agency can't verify what a lab says about its own models. And it skips the utility angle entirely: grid operators are under-resourced and need mandates and funding, not a lab-and-government club.",
+          "startSec": 1462.73,
+          "endSec": 1483.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A second piece, a Washington Post opinion on the roadless rule, argues it has flaws but that repealing it entirely creates new ones. The steelman is that 45 million acres of national forest are roadless, which makes fuel reduction and firefighting access hard, and that Mill City, Oregon, after the 2020 Beachie Creek fire, shows how expensive aging roads are to maintain.",
+          "startSec": 1483.67,
+          "endSec": 1504.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter is that wholesale repeal opens millions of acres to new roads the Forest Service already can't afford to maintain, and it hurts drinking-water watersheds and vulnerable species. A scalpel, meaning exemptions for wildfire work, beats a repeal that could take effect as soon as next year.",
+          "startSec": 1504.39,
+          "endSec": 1520.98
+        }
+      ],
+      "startSec": 1435.5
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Three years ago, Seminole County, Florida firefighters answered a call about 3-year-old Lila Pagan, critically hurt after being accidentally run over by a truck, intubated and in a coma.",
+          "startSec": 1520.98,
+          "endSec": 1531.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She made a full recovery. And the crew never stopped showing up. Three years on they still come to her birthdays and Christmases, and firefighter Cross Ferrentino calls her \"baby girl.\" They say they've become family.",
+          "startSec": 1531.34,
+          "endSec": 1543.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What I like is that nobody planned it as a story. The firefighters didn't set out to be anyone's family, they just kept showing up on the days that mattered to a little girl who might not have had them.",
+          "startSec": 1543.42,
+          "endSec": 1554.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is a pretty good rule for a Friday. Show up for the people whose worst day you were part of.",
+          "startSec": 1554.67,
+          "endSec": 1560.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's The Morning Commute for Friday, October 2nd. Good luck with the jobs number.",
+          "startSec": 1560.13,
+          "endSec": 1564.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Have a good weekend, everyone. We'll see you Monday.",
+          "startSec": 1564.75,
+          "endSec": 1567.65
+        }
+      ],
+      "startSec": 1521.0
+    }
+  ]
+}

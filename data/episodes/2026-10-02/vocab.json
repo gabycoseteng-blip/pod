@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-02",
+  "cards": [
+    {"id": "2026-10-02-tl-1", "lang": "Tagalog", "word": "pagkabahala", "pinyin": "", "pronunciation": "pag-ka-ba-ha-LÁ", "tones": "",
+     "meaning": "worry, unease; slowly building concern",
+     "example": "Lumalalim ang pagkabahala ng mga mamumuhunan sa humihinang piso.", "examplePinyin": "",
+     "exampleMeaning": "Investors' unease over the weakening peso is deepening.",
+     "note": "Pormal at pangbalita; hindi ginagamit sa karaniwang kuwentuhan. Iba sa 'takot' na matindi at agad.",
+     "tiesTo": "Foreign investor selling as the PSEi hit its 2026 low"},
+    {"id": "2026-10-02-tl-2", "lang": "Tagalog", "word": "pag-urong", "pinyin": "", "pronunciation": "pag-u-RÓNG", "tones": "",
+     "meaning": "contraction, shrinking (of output or the economy)",
+     "example": "Ang pag-urong ng sektor ng pagmamanupaktura ay unang naitala mula Abril.", "examplePinyin": "",
+     "exampleMeaning": "The factory sector's contraction is the first recorded since April.",
+     "note": "Pormal at teknikal; iba sa 'pagbaba' na simpleng pagbagsak ng numero.",
+     "tiesTo": "Philippine manufacturing PMI falling to 49.6"},
+    {"id": "2026-10-02-zh-1", "lang": "Mandarin", "word": "固然…但是", "pinyin": "gù rán … dàn shì", "pronunciation": "goo-ran … dan-shr", "tones": "4 · 2 · 4 · 4",
+     "meaning": "admittedly … but (concessive connective, HSK 4)",
+     "example": "假期出行人次固然创下纪录，但消费依然谨慎。", "examplePinyin": "Jiàqī chūxíng réncì gùrán chuàngxià jìlù, dàn xiāofèi yīrán jǐnshèn.",
+     "exampleMeaning": "Holiday trips have indeed set a record, but spending is still cautious.",
+     "note": "书面语/editorial register. Compare 虽然…但是 (neutral concession): 固然 grants a point as true and then pivots to the writer's real argument.",
+     "tiesTo": "Golden Week trip records vs cautious spending"},
+    {"id": "2026-10-02-zh-2", "lang": "Mandarin", "word": "转化为", "pinyin": "zhuǎn huà wéi", "pronunciation": "jwan-hwa-way", "tones": "3 · 4 · 2",
+     "meaning": "to convert into, translate into",
+     "example": "庞大的客流并未转化为相应的消费。", "examplePinyin": "Pángdà de kèliú bìng wèi zhuǎnhuà wéi xiāngyìng de xiāofèi.",
+     "exampleMeaning": "The huge flow of visitors did not translate into a corresponding level of spending.",
+     "note": "书面语 abstract collocation: 客流转化为消费, 流量转化为销量. Contrast 变成 (口语, plain change of state): 转化为 implies a process or funnel.",
+     "tiesTo": "Golden Week 2.13B trips vs weak per-trip spend"}
+  ]
+}

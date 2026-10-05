@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-05",
+  "cards": [
+    {"id": "2026-10-05-tl-1", "lang": "Tagalog", "word": "hinarang", "pinyin": "", "pronunciation": "hi-na-RANG", "tones": "",
+     "meaning": "was blocked or intercepted (physically, in one's path)",
+     "example": "Hinarang ng mga barko ng China Coast Guard ang pangkat ng Philippine Coast Guard malapit sa Pag-asa.", "examplePinyin": "",
+     "exampleMeaning": "China Coast Guard ships blocked the Philippine Coast Guard team near Pag-asa.",
+     "note": "Pangkaraniwan sa balita; tumutukoy sa aktuwal na paghadlang sa daan. Mas payak kaysa 'hinadlangan', na mas malawak ang kahulugan.",
+     "tiesTo": "CCG blocking a PCG team near Pag-asa Island"},
+    {"id": "2026-10-05-tl-2", "lang": "Tagalog", "word": "pagkaantala", "pinyin": "", "pronunciation": "pag-ka-an-TÁ-la", "tones": "",
+     "meaning": "delay (the state of being held up)",
+     "example": "Ang pagkaantala ng testimonya ng AMLC ay nagbigay ng dagdag na oras sa depensa.", "examplePinyin": "",
+     "exampleMeaning": "The delay in the AMLC testimony gave the defense extra time.",
+     "note": "Ang 'ipagpaliban' ay sadyang pagpapaliban; ang 'pagkaantala' ay ang mismong pagkahuli, madalas hindi sinasadya.",
+     "tiesTo": "Deferred AMLC testimony at the impeachment trial"},
+    {"id": "2026-10-05-zh-1", "lang": "Mandarin", "word": "宁可…也不…", "pinyin": "nìng kě … yě bù …", "pronunciation": "ning-ke … yeh-boo", "tones": "4 · 3 · 3 · 4",
+     "meaning": "would rather … than … (accepting a cost to avoid something worse)",
+     "example": "消费者宁可存钱，也不愿多花钱。", "examplePinyin": "Xiāofèizhě nìngkě cún qián, yě bù yuàn duō huā qián.",
+     "exampleMeaning": "Consumers would rather save than spend more.",
+     "note": "Neutral-to-书面语 connective. Contrast 与其…不如: 与其 disparages option A and favors B; 宁可 accepts a real cost to avoid worse.",
+     "tiesTo": "Golden Week: more trips, thin per-trip spending"},
+    {"id": "2026-10-05-zh-2", "lang": "Mandarin", "word": "反映出", "pinyin": "fǎn yìng chū", "pronunciation": "fan-ying-choo", "tones": "3 · 4 · 1",
+     "meaning": "to reflect, to reveal (abstract collocation)",
+     "example": "人均花费下降反映出消费者的谨慎。", "examplePinyin": "Rénjūn huāfèi xiàjiàng fǎnyìng chū xiāofèizhě de jǐnshèn.",
+     "exampleMeaning": "The drop in per-person spending reflects consumer caution.",
+     "note": "书面语/news register: 反映出信心/问题/趋势. Contrast 表明 (firmer, evidence-driven 'demonstrates'): 反映 is a softer 'mirrors'.",
+     "tiesTo": "Per-trip spend of 911 yuan during Golden Week"}
+  ]
+}

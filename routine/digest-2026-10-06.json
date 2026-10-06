@@ -1,0 +1,6 @@
+{
+  "throughline": "pricing power vs volume: who can pass the cost on",
+  "stories": ["flydubai-copilot-attack", "spain-snap-election-nov29", "serbia-vucic-oct25-vote", "chrobinson-rxo-deal", "onsemi-synaptics-recut", "france-lecornu-2027-budget", "markets-oct5-nasdaq-record-yields", "deepdive-optogenetics-nobel", "energy-terawulf-muskie-1gw", "energy-dte-google-van-buren", "energy-texas-tceq-permit-freeze", "ph-article-iii-bribery-dropped", "ph-gracioso-nbi-p2b", "ph-2027-budget-debt-peso", "china-private-pmi-price-cuts", "arts-cassatt-orsay", "arts-booker-shortlist", "opeds-liu-medicine-tech-war", "opeds-blas-ev-oil-demand", "one-good-thing-mwaniki-austin"],
+  "explainers": ["how channelrhodopsin works as a light-gated switch", "market pass-through ESA vs fixed-rate large-load tariff", "why a hyperscaler-funded clean capacity accelerator"],
+  "comment": "stories = items covered; explainers = concepts explained"
+}

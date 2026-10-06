@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-06",
+  "cards": [
+    {"id": "2026-10-06-tl-1", "lang": "Tagalog", "word": "ibinasura", "pinyin": "", "pronunciation": "i-bi-na-SU-ra", "tones": "",
+     "meaning": "dismissed, thrown out, scrapped (a charge, a case, a proposal)",
+     "example": "Ibinasura ng prosekusyon ang Article III laban sa Bise Presidente.", "examplePinyin": "",
+     "exampleMeaning": "The prosecution dropped Article III against the Vice President.",
+     "note": "Mula sa 'basura'; mas matigas at mas tiyak kaysa 'inalis'. Karaniwan sa balita tungkol sa korte at kongreso. Pangngalan: pagbasura.",
+     "tiesTo": "House prosecutors drop the bribery article"},
+    {"id": "2026-10-06-tl-2", "lang": "Tagalog", "word": "baon sa utang", "pinyin": "", "pronunciation": "BA-on sa u-TANG", "tones": "",
+     "meaning": "buried in debt",
+     "example": "Baon sa utang ang pambansang pamahalaan, ayon sa pagtataya para sa 2027.", "examplePinyin": "",
+     "exampleMeaning": "The national government is buried in debt, according to the 2027 projection.",
+     "note": "Kolokyal na idyoma; ang pormal na katumbas ay 'lubog sa utang'. Huwag ipagkamali sa 'baon' na pagkain.",
+     "tiesTo": "P21.48T national debt projection for 2027"},
+    {"id": "2026-10-06-zh-1", "lang": "Mandarin", "word": "趋于", "pinyin": "qū yú", "pronunciation": "choo-yoo", "tones": "1 · 2",
+     "meaning": "to tend toward, to converge on (a state)",
+     "example": "房价跌幅趋于收窄。", "examplePinyin": "Fángjià diēfú qūyú shōuzhǎi.",
+     "exampleMeaning": "The decline in home prices is narrowing.",
+     "note": "书面语: 趋于稳定/平缓/一致. Contrast 逐渐 (spoken, goes before a verb): 趋于 takes an adjective/state as its object.",
+     "tiesTo": "China home-price slide slowing to -3.0% y/y"},
+    {"id": "2026-10-06-zh-2", "lang": "Mandarin", "word": "反过来", "pinyin": "fǎn guò lái", "pronunciation": "fan-gwo-lye", "tones": "3 · 4 · 2",
+     "meaning": "conversely, in turn (the effect feeds back on the cause)",
+     "example": "价格下降刺激了需求，反过来又压缩了利润。", "examplePinyin": "Jiàgé xiàjiàng cìjī le xūqiú, fǎnguòlái yòu yāsuō le lìrùn.",
+     "exampleMeaning": "Falling prices stimulated demand, which in turn squeezed profits.",
+     "note": "Advanced connective, neutral-to-written. Contrast 反而 (contrary to expectation) and 相反 (pure opposition): 反过来 describes a feedback loop.",
+     "tiesTo": "China PMI up while output prices fall"}
+  ]
+}

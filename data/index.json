@@ -2,6 +2,16 @@
   "title": "The Morning Commute",
   "episodes": [
     {
+      "date": "2026-10-06",
+      "title": "Tuesday, October 6, 2026",
+      "day": "Tuesday",
+      "durationSec": 1662,
+      "hasAudio": true,
+      "vocabCount": 4,
+      "segmentCount": 14,
+      "hasMarkets": true
+    },
+    {
       "date": "2026-10-05",
       "title": "Monday, October 5, 2026",
       "day": "Monday",
@@ -106,7 +116,7 @@
       "title": "Monday, September 21, 2026",
       "day": "Monday",
       "durationSec": 1565,
-      "hasAudio": true,
+      "hasAudio": false,
       "vocabCount": 4,
       "segmentCount": 12,
       "hasMarkets": true

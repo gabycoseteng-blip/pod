@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-07",
+  "cards": [
+    {"id": "2026-10-07-tl-1", "lang": "Tagalog", "word": "piyansa", "pinyin": "", "pronunciation": "pi-YAN-sa", "tones": "",
+     "meaning": "bail (money posted so an accused can be free during trial)",
+     "example": "Magsisimula ang pagdinig sa petisyon para sa piyansa ni dating Speaker Romualdez.", "examplePinyin": "",
+     "exampleMeaning": "The hearing on former Speaker Romualdez's bail petition begins.",
+     "note": "Pormal ngunit pang-araw-araw na rin sa balita. Kaugnay: maglagak ng piyansa, piyansahan, pampiyansa. Sa plunder, hindi basta nakakapagpiyansa.",
+     "tiesTo": "Romualdez plunder bail hearings at the Sandiganbayan"},
+    {"id": "2026-10-07-tl-2", "lang": "Tagalog", "word": "hinuha", "pinyin": "", "pronunciation": "hi-NU-ha", "tones": "",
+     "meaning": "inference, conclusion drawn from signs without direct proof",
+     "example": "Ang hinuha ng prosekusyon, may itinatagong yaman sa mga account.", "examplePinyin": "",
+     "exampleMeaning": "The prosecution's inference is that wealth is hidden in the accounts.",
+     "note": "Mas may batayan kaysa 'hula', mas mahina kaysa katiyakan. Pormal: 'makatwirang hinuha'. Sa kolokyal na usapan: 'sa tingin ko'.",
+     "tiesTo": "Bank witnesses at the Sara Duterte impeachment trial"},
+    {"id": "2026-10-07-zh-1", "lang": "Mandarin", "word": "以至于", "pinyin": "yǐ zhì yú", "pronunciation": "ee-jr-yoo", "tones": "3 · 4 · 2",
+     "meaning": "so much so that (connective introducing an extreme result)",
+     "example": "价格战打得太久，以至于企业的利润几乎消失了。", "examplePinyin": "Jiàgé zhàn dǎ de tài jiǔ, yǐzhìyú qǐyè de lìrùn jīhū xiāoshī le.",
+     "exampleMeaning": "The price war has gone on so long that corporate profits have nearly vanished.",
+     "note": "书面语/neutral. Contrast 以致 (result usually negative); 以至于 is neutral and follows a degree/duration expression (太…, 那么…).",
+     "tiesTo": "EU-China trade-remedy tit-for-tat after a long price war"},
+    {"id": "2026-10-07-zh-2", "lang": "Mandarin", "word": "取决于", "pinyin": "qǔ jué yú", "pronunciation": "choo-jweh-yoo", "tones": "3 · 2 · 2",
+     "meaning": "to depend on, to be determined by",
+     "example": "谈判能否取得进展，取决于双方是否愿意让步。", "examplePinyin": "Tánpàn néngfǒu qǔdé jìnzhǎn, qǔjuéyú shuāngfāng shìfǒu yuànyì ràngbù.",
+     "exampleMeaning": "Whether the talks make progress depends on whether both sides are willing to give ground.",
+     "note": "Formal/neutral collocation, pairs with 能否/是否. Colloquial near-synonym 看…而定. Contrast 决定 (verb; the deciding factor is the subject).",
+     "tiesTo": "EU-China talks in Beijing, Oct 8-9"}
+  ]
+}

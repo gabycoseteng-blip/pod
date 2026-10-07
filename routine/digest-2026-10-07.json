@@ -1,0 +1,6 @@
+{
+  "throughline": "who eats the shock: disclosure gaps and cost pass-through",
+  "stories": ["hormuz-attacks-double-oct", "houthis-riyadh-rabigh-strikes", "g7-100m-barrel-release", "merz-kyiv-energy-pledge", "nuclear-stocks-basket-rally", "nvda-amd-records-concentration", "eu-china-sefcovic-beijing-talks", "eurozone-services-pmi-afd", "markets-oct6-records-kospi-drop", "deepdive-irkutsk-plague-secrecy", "energy-fervo-cape-station-cod", "energy-nrc-clinch-river-bwrx300", "energy-utility-convertible-debt", "energy-black-hills-cheyenne-1.8gw", "energy-aws-homer-city-campus", "ph-sara-trial-bank-witnesses", "ph-romualdez-bail-oct12", "ph-unemployment-6pct-bsp-oct22", "china-eu-pnt-antidumping-probe", "arts-nobel-lit-preview-oct8", "arts-frieze-code-universe", "arts-vienna-zemlinsky-bartok", "opeds-elerian-bond-regime-shift", "one-good-thing-vautour-janitor-bc"],
+  "explainers": ["why a quiet state response is itself a signal (Sverdlovsk precedent)", "geothermal learning curve vs thermal decline", "convertible debt dilution flowing into rate cases"],
+  "comment": "stories = slugs; explainers = concepts explained"
+}

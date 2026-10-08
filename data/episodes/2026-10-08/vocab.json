@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "cards": [
+    {"id": "2026-10-08-tl-1", "lang": "Tagalog", "word": "pumalo", "pinyin": "", "pronunciation": "pu-MA-lo", "tones": "",
+     "meaning": "to shoot up, to spike (of prices, rates, numbers)",
+     "example": "Pumalo sa 7.2% ang implasyon noong Setyembre.", "examplePinyin": "",
+     "exampleMeaning": "Inflation shot up to 7.2% in September.",
+     "note": "Mula sa 'palo' (hampas); sa balita, tumutukoy sa biglaang pagtaas hanggang sa isang antas. Mas matindi kaysa 'tumaas'. Kaugnay: pumalo sa, pagpalo.",
+     "tiesTo": "September inflation at 7.2%"},
+    {"id": "2026-10-08-tl-2", "lang": "Tagalog", "word": "salat", "pinyin": "", "pronunciation": "sa-LAT", "tones": "",
+     "meaning": "lacking, deprived of, scarce",
+     "example": "Salat sa pera ang maraming pamilya dahil sa mataas na presyo ng pagkain.", "examplePinyin": "",
+     "exampleMeaning": "Many families are short of money because of high food prices.",
+     "note": "Mas mabigat ang dating kaysa 'kulang'; may kahulugang pagkakait o matagal na kakulangan. Madalas sa 'salat sa'. Kaugnay: kasalatan.",
+     "tiesTo": "Food inflation and household budgets"},
+    {"id": "2026-10-08-zh-1", "lang": "Mandarin", "word": "至于", "pinyin": "zhì yú", "pronunciation": "jr-yoo", "tones": "4 · 2",
+     "meaning": "as for, as to (topic-shifting connective); also 'to go so far as'",
+     "example": "关税清单已经公布，至于具体税率，目前还没有消息。", "examplePinyin": "Guānshuì qīngdān yǐjīng gōngbù, zhìyú jùtǐ shuìlǜ, mùqián hái méiyǒu xiāoxi.",
+     "exampleMeaning": "The tariff lists have been published; as for the specific rates, there's no word yet.",
+     "note": "Neutral to 书面语. Introduces a related but separate point. Contrast 关于 (about, a topic marker for the whole sentence). 至于 shifts to a sub-topic.",
+     "tiesTo": "US-China 30-for-30 tariff lists with no rates published"},
+    {"id": "2026-10-08-zh-2", "lang": "Mandarin", "word": "落实", "pinyin": "luò shí", "pronunciation": "lwaw-shr", "tones": "4 · 2",
+     "meaning": "to carry out, to put into effect, to follow through",
+     "example": "协议能不能真正落实，还要看双方的国内程序。", "examplePinyin": "Xiéyì néng bù néng zhēnzhèng luòshí, hái yào kàn shuāngfāng de guónèi chéngxù.",
+     "exampleMeaning": "Whether the agreement is truly implemented depends on each side's domestic procedures.",
+     "note": "书面语/official register, very common in policy news. Collocates with 政策, 协议, 措施. Contrast 执行 (execute, mechanical) vs 落实 (make it real on the ground).",
+     "tiesTo": "Tariff lists still needing domestic legal steps"}
+  ]
+}

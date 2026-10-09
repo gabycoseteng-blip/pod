@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-09",
+  "cards": [
+    {"id": "2026-10-09-tl-1", "lang": "Tagalog", "word": "pagsuko", "pinyin": "", "pronunciation": "pag-SU-ko", "tones": "",
+     "meaning": "surrender; submitting oneself to authority; also giving up",
+     "example": "Hindi magkakaroon ng hurisdiksiyon ang korte hangga't walang pagsuko ang kongresista.", "examplePinyin": "",
+     "exampleMeaning": "The court will have no jurisdiction until the congressman surrenders.",
+     "note": "Mula sa ugat na 'suko'. May dalawang gamit: pag-abot sa awtoridad at pagtanggap ng pagkatalo. Mas mabigat kaysa 'pagharap'. Madalas: pagsuko sa pulisya, pagsuko sa NBI.",
+     "tiesTo": "Leviste abroad; court jurisdiction awaits surrender"},
+    {"id": "2026-10-09-tl-2", "lang": "Tagalog", "word": "pagtutol", "pinyin": "", "pronunciation": "pag-TU-tol", "tones": "",
+     "meaning": "objection, formal opposition",
+     "example": "Nagtaas ng pagtutol ang depensa sa tanong tungkol sa mga account sa ibang bansa.", "examplePinyin": "",
+     "exampleMeaning": "The defense raised an objection to the question about the foreign accounts.",
+     "note": "Pormal na rehistro; maririnig sa korte at Kongreso. Tindig na may batayan, mas matatag kaysa 'hindi pagkakasundo'. Kasingkahulugan: pagsalungat (mas malawak, pampulitika).",
+     "tiesTo": "Impeachment court blocks BPI foreign-accounts query"},
+    {"id": "2026-10-09-zh-1", "lang": "Mandarin", "word": "于是", "pinyin": "yú shì", "pronunciation": "yoo-shr", "tones": "2 · 4",
+     "meaning": "so, thereupon (connective narrating what followed)",
+     "example": "房地产销售持续低迷，于是地方政府不得不重新考虑土地出让的节奏。", "examplePinyin": "Fángdìchǎn xiāoshòu chíxù dīmí, yúshì dìfāng zhèngfǔ bùdébù chóngxīn kǎolǜ tǔdì chūràng de jiézòu.",
+     "exampleMeaning": "Property sales stayed depressed, so local governments had to rethink the pace of land sales.",
+     "note": "书面语 but fine in speech. 于是 narrates a reaction in sequence ('and then what'); contrast 因此/所以 which state a logical result ('why').",
+     "tiesTo": "China property slump and local land-sale revenue"},
+    {"id": "2026-10-09-zh-2", "lang": "Mandarin", "word": "至今", "pinyin": "zhì jīn", "pronunciation": "jr-jin", "tones": "4 · 1",
+     "meaning": "up to now, to this day",
+     "example": "北京的刺激措施偏重供给，至今仍未见到能明显拉动居民消费的举措。", "examplePinyin": "Běijīng de cìjī cuòshī piānzhòng gōngjǐ, zhìjīn réng wèi jiàndào néng míngxiǎn lādòng jūmín xiāofèi de jǔcuò.",
+     "exampleMeaning": "Beijing's stimulus leans toward supply; to this day there is no measure that clearly lifts household consumption.",
+     "note": "书面语. Spoken equivalent 到现在. Collocates with 仍, 没, 未 to stress an expected change hasn't arrived.",
+     "tiesTo": "China supply-heavy stimulus, weak consumption"}
+  ]
+}

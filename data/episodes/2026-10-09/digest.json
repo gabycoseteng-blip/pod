@@ -1,0 +1,37 @@
+{
+ "throughline": "who carries the risk: capacity, revenue claims, and the lag in what indices measure",
+ "stories": [
+  "eritrea-troops-adigrat",
+  "burnham-merz-kensington",
+  "iran-talks-brent-dip",
+  "openai-revenue-50b-nasdaq",
+  "pepsico-q3-beat",
+  "india-rbi-first-hike",
+  "bailey-gilts-ecb-account",
+  "markets-oct8-brent-nasdaq",
+  "deepdive-wipo-gii-science-funding",
+  "energy-doe-ferc-pjm-statement",
+  "energy-hallador-duke-merom",
+  "energy-applied-digital-finland",
+  "energy-miso-fast-lane",
+  "ph-bpi-accounts-blocked",
+  "ph-trial-recess-calendar",
+  "ph-leviste-abroad",
+  "china-supply-heavy-stimulus",
+  "arts-whitney-lichtenstein",
+  "arts-sothebys-curated-record",
+  "opeds-bremmer-peak-trump",
+  "opeds-mukherjee-ai-software",
+  "one-good-thing-sloan-diapers",
+  "arts-new-museum-triennial-2027",
+  "arts-moma-leon-black-popup",
+  "deals-chipotle-viatris-crescent",
+  "china-fuel-export-suspension"
+ ],
+ "explainers": [
+  "net vs gross revenue flatters circular AI deals",
+  "lagging index vs grant pipeline",
+  "unit-contingent capacity contracts"
+ ],
+ "comment": "stories = distinct items; explainers = concepts explained"
+}

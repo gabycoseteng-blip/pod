@@ -1,0 +1,33 @@
+{
+ "throughline": "who pays for the stopgap: truces announced before they are agreed, forecasts half phantom, a peso and a CPI print that test the central banks",
+ "stories": [
+  "russia-ukraine-energy-ceasefire-claim",
+  "riyadh-airport-houthi-attack",
+  "panama-7.7-quake",
+  "japan-residency-tightening",
+  "trump-putin-diesel-deal",
+  "netflix-5pct-layoffs-report",
+  "china-sanctions-paraguay-belize",
+  "markets-oct9-records-gold-rally",
+  "deepdive-pillay-nobel-peace",
+  "energy-pjm-imm-phantom-load",
+  "energy-pjm-eit-first-2gw",
+  "energy-voltus-byoc-series-d",
+  "energy-utility-gas-vs-btm-trackers",
+  "energy-google-constellation-2.7gw",
+  "ph-prosecution-rests-sara-trial",
+  "ph-peso-record-62.90",
+  "ph-nomura-bsp-hike-oct22",
+  "china-cpi-ppi-trade-preview",
+  "arts-toor-courtauld",
+  "arts-rijks-de-kooning-at-work",
+  "opeds-will-iran-memorandum",
+  "opeds-magno-sticky-inflation",
+  "one-good-thing-opal-lee-100"
+ ],
+ "explainers": [
+  "why a cancelled-load forecast resizes a capacity backstop",
+  "how a hike path anchors expectations"
+ ],
+ "comment": "stories = distinct items; explainers = concepts explained"
+}

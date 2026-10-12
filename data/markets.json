@@ -1,13 +1,24 @@
-{ "date": "2026-10-09", "asOf": "Thursday, October 8 close",
+{ "date": "2026-10-12", "asOf": "Friday, October 9 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,765.36", "change": "-0.47%", "dir": "down"},
-      {"label": "Nasdaq Composite", "value": "27,193.34", "change": "-1.25%", "dir": "down"},
-      {"label": "Dow Jones", "value": "51,231.64", "change": "+0.10%", "dir": "up"}]},
+      {"label": "S&P 500", "value": "7,811.54", "change": "+0.59%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "27,366.17", "change": "+0.6%", "dir": "up"},
+      {"label": "Dow Jones", "value": "51,654.95", "change": "+0.8%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,806.98", "change": "+0.46%", "dir": "up"}]},
     {"name": "Global Indices", "rows": [
-      {"label": "Nikkei 225", "value": "69,042.11", "change": "-1.42%", "dir": "down"},
-      {"label": "Hang Seng", "value": "23,785.79", "change": "-1.43%", "dir": "down"},
-      {"label": "Shanghai Composite", "value": "3,811.90", "change": "-0.79%", "dir": "down"}]},
-    {"name": "Rates", "rows": [{"label": "UST 10Y (Wed, Fed H.15)", "value": "5.28%", "change": "n/a", "dir": "flat"}]},
-    {"name": "Commodities", "rows": [{"label": "Brent", "value": "104.28", "change": "+4.1%", "dir": "up"}]}],
-  "note": "Compiled from press reports (no FMP key this run); omitted quotes that could not be verified." }
+      {"label": "FTSE 100", "value": "10,552.05", "change": "+1.06%", "dir": "up"},
+      {"label": "DAX", "value": "25,087.27", "change": "+1.13%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "69,030.92", "change": "-0.02%", "dir": "flat"},
+      {"label": "Hang Seng", "value": "24,211.35", "change": "+1.79%", "dir": "up"},
+      {"label": "Shanghai Composite", "value": "3,813.79", "change": "+0.05%", "dir": "flat"},
+      {"label": "PSEi", "value": "5,700.99", "change": "+1.62%", "dir": "up"}]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y (approx.)", "value": "5.25%", "change": "n/a", "dir": "flat"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "91.85", "change": "+0.4%", "dir": "up"},
+      {"label": "Brent", "value": "104.72", "change": "+0.4%", "dir": "up"},
+      {"label": "Gold", "value": "4,216", "change": "+1.4%", "dir": "up"}]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.801", "change": "-0.099", "dir": "down"},
+      {"label": "USD/JPY", "value": "158.3", "change": "+0.29%", "dir": "up"},
+      {"label": "EUR/USD", "value": "1.1196", "change": "-0.13%", "dir": "down"}]}],
+  "note": "Compiled from press reports (no FMP key this run); approximate where marked." }

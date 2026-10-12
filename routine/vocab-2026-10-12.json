@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-12",
+ "cards": [
+  {
+   "id": "2026-10-12-tl-1",
+   "lang": "Tagalog",
+   "word": "pagsadsad",
+   "pinyin": "",
+   "pronunciation": "pag-sad-SAD",
+   "tones": "",
+   "meaning": "nosedive; sudden crash or sliding hard to a low",
+   "example": "Ang pagsadsad ng piso ay nagpapataas ng presyo ng langis at pagkain.",
+   "examplePinyin": "",
+   "exampleMeaning": "The peso's nosedive is pushing up the price of oil and food.",
+   "note": "Mula sa ugat na 'sadsad' — dumudulas o bumabagsak nang malakas. Mas dramatiko kaysa 'pagbaba'. Karaniwan sa headline ng ekonomiya.",
+   "tiesTo": "Peso record low 62.90"
+  },
+  {
+   "id": "2026-10-12-tl-2",
+   "lang": "Tagalog",
+   "word": "pagsasampa",
+   "pinyin": "",
+   "pronunciation": "pag-sa-SAM-pa",
+   "tones": "",
+   "meaning": "filing (of a case or charge)",
+   "example": "Maaaring isaalang-alang ng Kamara ang pagsasampa ng reklamo sa Ombudsman.",
+   "examplePinyin": "",
+   "exampleMeaning": "The House may consider filing a complaint with the Ombudsman.",
+   "note": "Pormal na rehistro ng batas. 'Pagsasampa ng kaso' ang karaniwang parirala. Kaiba sa 'pagrereklamo', na mas pangkaraniwan.",
+   "tiesTo": "Prosecution rests; bribery allegation referral"
+  },
+  {
+   "id": "2026-10-12-zh-1",
+   "lang": "Mandarin",
+   "word": "未免",
+   "pinyin": "wèi miǎn",
+   "pronunciation": "way-mee-en",
+   "tones": "4 · 3",
+   "meaning": "rather too, a bit too (mild criticism)",
+   "example": "现在就断定通胀已经见顶，未免太乐观了。",
+   "examplePinyin": "Xiànzài jiù duàndìng tōngzhàng yǐjīng jiàndǐng, wèimiǎn tài lèguān le.",
+   "exampleMeaning": "To conclude now that inflation has peaked is a bit too optimistic.",
+   "note": "书面语/semi-formal. 未免 softens a criticism and is almost always followed by 太/过于 + adjective. Contrast 太: plain 'too'; 未免 adds a judgment that the speaker finds it excessive.",
+   "tiesTo": "Doubts that disinflation has arrived"
+  },
+  {
+   "id": "2026-10-12-zh-2",
+   "lang": "Mandarin",
+   "word": "回暖",
+   "pinyin": "huí nuǎn",
+   "pronunciation": "hway-nwan",
+   "tones": "2 · 3",
+   "meaning": "to warm up again, to rebound (of prices, demand, markets)",
+   "example": "随着出厂价格回暖，企业的利润开始改善。",
+   "examplePinyin": "Suízhe chūchǎng jiàgé huínuǎn, qǐyè de lìrùn kāishǐ gǎishàn.",
+   "exampleMeaning": "As factory-gate prices warm up, corporate profits are starting to improve.",
+   "note": "Neutral to 书面语. Collocates with 市场, 需求, 价格, 气温. Contrast 回升: a measurable rise; 回暖 is softer, a mood and trend turning favorable.",
+   "tiesTo": "China PPI turning positive"
+  }
+ ]
+}

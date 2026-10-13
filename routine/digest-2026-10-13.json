@@ -1,0 +1,6 @@
+{
+ "throughline": "who certifies the claim: proofs, plots, wealth declarations and load forecasts",
+ "stories": ["riyadh-airport-toll-us-role", "uk-fairford-iran-plot-claim", "us-judge-cancels-taxpayer-ads", "bank-earnings-cpi-setup", "dominion-nextera-scc-hearing", "blacksea-alfa-watan-sinking", "us-markets-oil-two-week-high", "deepdive-openai-math-papers", "energy-ferc-rejects-pjm-large-load", "energy-texas-puc-sb6-rule", "energy-doe-vistra-4.2b-uprates", "energy-yotta-ctvc-moratoria", "ph-sara-trial-articles-dropped", "ph-rodrigo-icc-fit-for-trial", "ph-bsp-hike-consensus", "china-sept-trade-surplus-preview", "arts-hirshhorn-garden-reopening", "arts-louvre-zurbaran", "arts-albers-auction-careful", "arts-glyndebourne-figaro", "opeds-schneier-ai-math", "opeds-bloomberg-williams-yields", "one-good-thing-arizona-teen-shoes"],
+ "explainers": ["why Lean-verified is not faithfulness", "what a large-load registry does vs a tariff", "why a trade surplus signals weak domestic demand"],
+ "comment": "stories = distinct items; explainers = concepts explained"
+}

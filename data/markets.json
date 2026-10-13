@@ -1,24 +1,10 @@
-{ "date": "2026-10-12", "asOf": "Friday, October 9 close",
+{ "date": "2026-10-13", "asOf": "Monday, October 12 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,811.54", "change": "+0.59%", "dir": "up"},
-      {"label": "Nasdaq Composite", "value": "27,366.17", "change": "+0.6%", "dir": "up"},
-      {"label": "Dow Jones", "value": "51,654.95", "change": "+0.8%", "dir": "up"},
-      {"label": "Russell 2000", "value": "2,806.98", "change": "+0.46%", "dir": "up"}]},
-    {"name": "Global Indices", "rows": [
-      {"label": "FTSE 100", "value": "10,552.05", "change": "+1.06%", "dir": "up"},
-      {"label": "DAX", "value": "25,087.27", "change": "+1.13%", "dir": "up"},
-      {"label": "Nikkei 225", "value": "69,030.92", "change": "-0.02%", "dir": "flat"},
-      {"label": "Hang Seng", "value": "24,211.35", "change": "+1.79%", "dir": "up"},
-      {"label": "Shanghai Composite", "value": "3,813.79", "change": "+0.05%", "dir": "flat"},
-      {"label": "PSEi", "value": "5,700.99", "change": "+1.62%", "dir": "up"}]},
-    {"name": "Rates", "rows": [{"label": "UST 10Y (approx.)", "value": "5.25%", "change": "n/a", "dir": "flat"}]},
+      {"label": "S&P 500", "value": "7,807.24", "change": "-0.06%", "dir": "flat"},
+      {"label": "Nasdaq Composite", "value": "27,245.90", "change": "-0.44%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,850.55", "change": "+0.38%", "dir": "up"}]},
     {"name": "Commodities", "rows": [
-      {"label": "WTI", "value": "91.85", "change": "+0.4%", "dir": "up"},
-      {"label": "Brent", "value": "104.72", "change": "+0.4%", "dir": "up"},
-      {"label": "Gold", "value": "4,216", "change": "+1.4%", "dir": "up"}]},
-    {"name": "FX", "rows": [
-      {"label": "USD/PHP", "value": "62.801", "change": "-0.099", "dir": "down"},
-      {"label": "USD/JPY", "value": "158.3", "change": "+0.29%", "dir": "up"},
-      {"label": "EUR/USD", "value": "1.1196", "change": "-0.13%", "dir": "down"}]}],
-  "note": "Compiled from press reports (no FMP key this run); approximate where marked." }
+      {"label": "WTI", "value": "93.74", "change": "+2.06%", "dir": "up"},
+      {"label": "Brent", "value": "106.65", "change": "+1.84%", "dir": "up"}]}],
+  "note": "From press reports (no FMP key this run). Bond market closed for Columbus Day; global indices, gold and FX not available." }

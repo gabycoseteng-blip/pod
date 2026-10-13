@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-13",
+ "cards": [
+  {"id": "2026-10-13-tl-1", "lang": "Tagalog", "word": "pagtatakip", "pinyin": "", "pronunciation": "pag-ta-ta-KIP", "tones": "",
+   "meaning": "cover-up; deliberate concealing", "example": "Ayon sa mga taga-usig, may pagtatakip sa mga ari-arian na hindi nakalagay sa mga deklarasyon.", "examplePinyin": "",
+   "exampleMeaning": "According to the prosecutors, there is a concealing of assets that are not in the declarations.",
+   "note": "Mula sa ugat na 'takip'. May kasamang intensyon, kaya mabigat ang paratang. Pormal na rehistro; sa karaniwang usapan, 'tinatakpan' o 'ikinukubli'.", "tiesTo": "Sara Duterte trial: undeclared wealth"},
+  {"id": "2026-10-13-tl-2", "lang": "Tagalog", "word": "pangamba", "pinyin": "", "pronunciation": "pa-ngam-BA", "tones": "",
+   "meaning": "apprehension; worry about what may come", "example": "Lumalaki ang pangamba ng mga mamimili na hindi na aabot ang kanilang sahod sa susunod na buwan.", "examplePinyin": "",
+   "exampleMeaning": "Consumers' worry is growing that their pay will not stretch to next month.",
+   "note": "Mas mabagal at mas pinag-iisipan kaysa 'takot'; karaniwan sa headline ng ekonomiya. Kamag-anak ng 'agam-agam', na mas panloob.", "tiesTo": "BSP rate-hike expectations"},
+  {"id": "2026-10-13-zh-1", "lang": "Mandarin", "word": "顺差", "pinyin": "shùn chā", "pronunciation": "shwun-chah", "tones": "4 · 1",
+   "meaning": "(trade) surplus", "example": "今年前八个月，中国的贸易顺差已经超过8000亿美元。", "examplePinyin": "Jīnnián qián bā gè yuè, Zhōngguó de màoyì shùnchā yǐjīng chāoguò bāqiān yì měiyuán.",
+   "exampleMeaning": "In the first 8 months of this year, China's trade surplus has already exceeded $800 billion.",
+   "note": "书面语/finance register. Collocates with 贸易, 保持, 出现; opposite 逆差. Contrast 盈余: a broader surplus (budget, account); 顺差 is specifically the in/out balance.", "tiesTo": "China September trade data"},
+  {"id": "2026-10-13-zh-2", "lang": "Mandarin", "word": "取而代之", "pinyin": "qǔ ér dài zhī", "pronunciation": "chwee-er-dye-jr", "tones": "3 · 2 · 4 · 1",
+   "meaning": "to take the place of; to replace and become the replacement", "example": "房地产不再是增长的引擎，取而代之的是出口。", "examplePinyin": "Fángdìchǎn bú zài shì zēngzhǎng de yǐnqíng, qǔ ér dài zhī de shì chūkǒu.",
+   "exampleMeaning": "Real estate is no longer the engine of growth; what has taken its place is exports.",
+   "note": "书面语. Abstract connective-like idiom, usually 取而代之的是…. Contrast 代替: neutral, also for ordinary substitution; 取而代之 describes a change in who holds the position.", "tiesTo": "AI-linked exports replacing property as growth driver"}
+ ]
+}

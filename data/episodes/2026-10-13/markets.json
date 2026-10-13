@@ -1,0 +1,10 @@
+{ "date": "2026-10-13", "asOf": "Monday, October 12 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,807.24", "change": "-0.06%", "dir": "flat"},
+      {"label": "Nasdaq Composite", "value": "27,245.90", "change": "-0.44%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,850.55", "change": "+0.38%", "dir": "up"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "93.74", "change": "+2.06%", "dir": "up"},
+      {"label": "Brent", "value": "106.65", "change": "+1.84%", "dir": "up"}]}],
+  "note": "From press reports (no FMP key this run). Bond market closed for Columbus Day; global indices, gold and FX not available." }

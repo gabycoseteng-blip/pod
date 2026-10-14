@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-14",
+ "cards": [
+  {"id": "2026-10-14-tl-1", "lang": "Tagalog", "word": "pagpapaliban", "pinyin": "", "pronunciation": "pag-pa-pa-li-BAN", "tones": "",
+   "meaning": "postponement; moving something to a later date", "example": "Ipinagpaliban ang pagpapatuloy ng paglilitis hanggang Nobyembre 9.", "examplePinyin": "",
+   "exampleMeaning": "The resumption of the trial was postponed until November 9.",
+   "note": "Mula sa ugat na 'liban'. Inilipat lamang, hindi kinansela. Pormal sa korte at gobyerno; sa karaniwang usapan, 'ipagpaliban'.", "tiesTo": "Sara Duterte impeachment trial resuming Nov 9"},
+  {"id": "2026-10-14-tl-2", "lang": "Tagalog", "word": "pagkalugi", "pinyin": "", "pronunciation": "pag-ka-lu-GI", "tones": "",
+   "meaning": "loss; running at a loss (money, income, assets)", "example": "Lumalawak ang pagkalugi ng balance of payments dahil sa mahal na langis.", "examplePinyin": "",
+   "exampleMeaning": "The balance-of-payments shortfall is widening because of costly oil.",
+   "note": "Mula sa ugat na 'lugi'. Laging may kinalaman sa pera o halaga; iba sa 'pagkatalo' na pagkawala sa laban. Pormal sa ulat, karaniwan din sa usapan: 'lugi ako'.", "tiesTo": "BSP balance-of-payments deficit"},
+  {"id": "2026-10-14-zh-1", "lang": "Mandarin", "word": "压力", "pinyin": "yā lì", "pronunciation": "yah-lee", "tones": "1 · 4",
+   "meaning": "pressure; strain", "example": "欧盟要求中国平衡贸易，中国面临的压力越来越大。", "examplePinyin": "Ōuméng yāoqiú Zhōngguó pínghéng màoyì, Zhōngguó miànlín de yālì yuèláiyuè dà.",
+   "exampleMeaning": "The EU is asking China to rebalance trade, and the pressure on China keeps growing.",
+   "note": "Neutral register; abstract policy use. Collocates with 面临, 施加, 缓解, 承受. Contrast 压迫: heavier, negative (oppression/compression).", "tiesTo": "EU pressure on China to rebalance trade"},
+  {"id": "2026-10-14-zh-2", "lang": "Mandarin", "word": "依然", "pinyin": "yī rán", "pronunciation": "ee-rahn", "tones": "1 · 2",
+   "meaning": "still; as before (continuity)", "example": "出口增长很快，但国内需求依然偏弱。", "examplePinyin": "Chūkǒu zēngzhǎng hěn kuài, dàn guónèi xūqiú yīrán piān ruò.",
+   "exampleMeaning": "Exports are growing fast, but domestic demand is still on the weak side.",
+   "note": "书面语/formal; spoken equivalent 还是. Sits before the verb/adjective, often after a 尽管/虽然 concession clause. Contrast 仍然: nearly identical, slightly firmer 'persisting despite'. Not for repeated actions (use 又/再).", "tiesTo": "China two-speed economy: exports strong, demand weak"}
+ ]
+}

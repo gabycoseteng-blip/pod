@@ -1,0 +1,20 @@
+{ "date": "2026-10-15", "asOf": "Wednesday, October 14 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,718.94", "change": "-1.11%", "dir": "down"},
+      {"label": "Dow", "value": "51,621.48", "change": "-0.09%", "dir": "down"},
+      {"label": "Nasdaq", "value": "26,692.87", "change": "-1.88%", "dir": "down"},
+      {"label": "Russell 2000", "value": "~2,730", "change": "~-2%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,724.86", "change": "+0.7%", "dir": "up"},
+      {"label": "DAX", "value": "25,298.61", "change": "+0.2%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "67,744.29", "change": "-0.05%", "dir": "down"},
+      {"label": "Hang Seng", "value": "24,314.17", "change": "-0.13%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,767.23", "change": "-0.9%", "dir": "down"},
+      {"label": "Kospi (Oct 13)", "value": "6,035.35", "change": "-5.46%", "dir": "down"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "~95.09", "change": "+1.0%", "dir": "up"},
+      {"label": "Brent", "value": "~106.06", "change": "+0.35%", "dir": "up"},
+      {"label": "Gold", "value": "~4,083", "change": "-1.9%", "dir": "down"} ]},
+    {"name": "FX", "rows": [{"label": "USD/PHP (Oct 14)", "value": "62.87", "change": "+0.07", "dir": "up"}]} ],
+  "note": "Compiled from public news sources (no FMP key); approximate where marked ~. 10Y yield omitted (unverified)." }

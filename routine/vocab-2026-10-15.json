@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-15",
+ "cards": [
+  {"id": "2026-10-15-tl-1", "lang": "Tagalog", "word": "pangontra", "pinyin": "", "pronunciation": "pang-ON-tra", "tones": "",
+   "meaning": "countermeasure; remedy applied against a specific threat", "example": "Kailangan ng pangontra ang Bangko Sentral sa pagbaba ng piso.", "examplePinyin": "",
+   "exampleMeaning": "The central bank needs a countermeasure against the peso's slide.",
+   "note": "Aktibong hakbang laban sa tiyak na banta; iba sa 'pananggalang' (kalasag, pasibo) at 'hakbang' (anumang hakbang). Pormal sa ulat; may kahulugan ding anting-anting sa popular na gamit.", "tiesTo": "Peso breaks P63 / BSP pressure to intervene"},
+  {"id": "2026-10-15-tl-2", "lang": "Tagalog", "word": "pagsasakdal", "pinyin": "", "pronunciation": "pag-sa-SAK-dal", "tones": "",
+   "meaning": "formal filing of a charge; bringing an accusation to court", "example": "Tuloy ang pagsasakdal sa mga opisyal na sangkot sa flood control.", "examplePinyin": "",
+   "exampleMeaning": "The filing of charges against officials involved in flood control continues.",
+   "note": "Mula sa ugat na 'sakdal'. Mas pormal kaysa 'pagsasampa' (pangkalahatang paghahain ng kaso) at 'paghahabla' (demanda ng pribadong tao).", "tiesTo": "Ombudsman: 39 flood-control cases filed"},
+  {"id": "2026-10-15-zh-1", "lang": "Mandarin", "word": "反之", "pinyin": "fǎn zhī", "pronunciation": "fahn-jr", "tones": "3 · 1",
+   "meaning": "conversely; otherwise (flips the whole proposition)", "example": "需求回升，企业才能转嫁成本；反之，利润还会继续被挤压。", "examplePinyin": "Xūqiú huíshēng, qǐyè cáinéng zhuǎnjià chéngběn; fǎnzhī, lìrùn hái huì jìxù bèi jǐyā.",
+   "exampleMeaning": "If demand recovers, firms can pass costs on; conversely, profits will keep getting squeezed.",
+   "note": "书面语/formal; spoken equivalent 要不然/不然. Logical flip of an if-then. Contrast 相反 (contrasts with an existing fact) and 否则 (otherwise + bad consequence).", "tiesTo": "China Sept PPI 5.0% vs CPI 0.9%"},
+  {"id": "2026-10-15-zh-2", "lang": "Mandarin", "word": "以致", "pinyin": "yǐ zhì", "pronunciation": "ee-jr", "tones": "3 · 4",
+   "meaning": "with the result that; so that (usually an undesirable outcome)", "example": "成本不断上涨，以致下游企业的利润越来越薄。", "examplePinyin": "Chéngběn bùduàn shàngzhǎng, yǐzhì xiàyóu qǐyè de lìrùn yuèláiyuè báo.",
+   "exampleMeaning": "Costs keep rising, with the result that downstream firms' profits get thinner and thinner.",
+   "note": "书面语/formal connective between 2 clauses; leans negative. Contrast 导致 (verb, takes a noun object) and 因而 (neutral result).", "tiesTo": "Cost-push squeeze on downstream margins"}
+ ]
+}

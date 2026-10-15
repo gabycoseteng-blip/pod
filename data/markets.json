@@ -1,17 +1,20 @@
-{ "date": "2026-10-14", "asOf": "Tuesday, October 13 close",
+{ "date": "2026-10-15", "asOf": "Wednesday, October 14 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,805.45", "change": "-0.02%", "dir": "flat"},
-      {"label": "Dow", "value": "51,670.10", "change": "-0.35%", "dir": "down"},
-      {"label": "Nasdaq", "value": "27,204.38", "change": "-0.15%", "dir": "down"},
-      {"label": "Russell 2000", "value": "2,786.13", "change": "-0.30%", "dir": "down"} ]},
+      {"label": "S&P 500", "value": "7,718.94", "change": "-1.11%", "dir": "down"},
+      {"label": "Dow", "value": "51,621.48", "change": "-0.09%", "dir": "down"},
+      {"label": "Nasdaq", "value": "26,692.87", "change": "-1.88%", "dir": "down"},
+      {"label": "Russell 2000", "value": "~2,730", "change": "~-2%", "dir": "down"} ]},
     {"name": "Global Indices", "rows": [
-      {"label": "Nikkei 225", "value": "67,777.52", "change": "-1.82%", "dir": "down"},
-      {"label": "Hang Seng", "value": "24,345.22", "change": "+0.30%", "dir": "up"},
-      {"label": "Shanghai Composite", "value": "3,800.86", "change": "+0.10%", "dir": "up"} ]},
-    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~5.22%", "change": "-3 bps", "dir": "down"}]},
+      {"label": "FTSE 100", "value": "10,724.86", "change": "+0.7%", "dir": "up"},
+      {"label": "DAX", "value": "25,298.61", "change": "+0.2%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "67,744.29", "change": "-0.05%", "dir": "down"},
+      {"label": "Hang Seng", "value": "24,314.17", "change": "-0.13%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,767.23", "change": "-0.9%", "dir": "down"},
+      {"label": "Kospi (Oct 13)", "value": "6,035.35", "change": "-5.46%", "dir": "down"} ]},
     {"name": "Commodities", "rows": [
-      {"label": "Brent", "value": "~105.69", "change": "-0.9%", "dir": "down"},
-      {"label": "Gold", "value": "~4,160", "change": "-0.36%", "dir": "down"} ]},
-    {"name": "FX", "rows": [{"label": "DXY", "value": "~102.0", "change": "+0.04%", "dir": "up"}]} ],
-  "note": "Compiled from public news sources (no FMP key); approximate where marked ~." }
+      {"label": "WTI", "value": "~95.09", "change": "+1.0%", "dir": "up"},
+      {"label": "Brent", "value": "~106.06", "change": "+0.35%", "dir": "up"},
+      {"label": "Gold", "value": "~4,083", "change": "-1.9%", "dir": "down"} ]},
+    {"name": "FX", "rows": [{"label": "USD/PHP (Oct 14)", "value": "62.87", "change": "+0.07", "dir": "up"}]} ],
+  "note": "Compiled from public news sources (no FMP key); approximate where marked ~. 10Y yield omitted (unverified)." }

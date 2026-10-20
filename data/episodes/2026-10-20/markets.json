@@ -1,0 +1,21 @@
+{ "date": "2026-10-20", "asOf": "Monday, October 19 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,690.73", "change": "+0.41%", "dir": "up"},
+      {"label": "Nasdaq", "value": "26,430.89", "change": "+1.11%", "dir": "up"},
+      {"label": "Dow", "value": "51,966.03", "change": "-0.07%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,728.30", "change": "+0.25%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,764.69", "change": "-1.08%", "dir": "down"},
+      {"label": "DAX", "value": "25,319.77", "change": "-1.18%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "64,916.70", "change": "-0.62%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,730.92", "change": "+0.39%", "dir": "up"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~5.14%", "change": "+4 bps", "dir": "up"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "Brent", "value": "109.55", "change": "-0.3%", "dir": "down"},
+      {"label": "WTI (Nov)", "value": "103.66", "change": "+2.25", "dir": "up"},
+      {"label": "Gold", "value": "~4,138", "change": "-0.6%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "EUR/USD", "value": "~1.121", "change": "lower", "dir": "down"},
+      {"label": "USD/JPY", "value": "~158.49", "change": "higher", "dir": "up"} ]} ],
+  "note": "Prior-session close; Hong Kong closed for the Chung Yeung holiday. Rates, oil, gold and FX levels are approximate." }

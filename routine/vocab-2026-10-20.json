@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-20",
+ "cards": [
+  {"id": "2026-10-20-tl-1", "lang": "Tagalog", "word": "kasabwat", "pinyin": "", "pronunciation": "ka-sab-WAT", "tones": "",
+   "meaning": "accomplice; co-conspirator in a wrongdoing", "example": "Iniimbestigahan kung sinong mga kasabwat ng kongresista sa mga kontrata.", "examplePinyin": "",
+   "exampleMeaning": "Investigators are looking into who the congressman's accomplices in the contracts were.",
+   "note": "Kasama sa paggawa ng masama o krimen; mas mabigat kaysa 'kasama' o 'katuwang'. Karaniwan sa balita ng katiwalian.", "tiesTo": "Ombudsman plunder complaint vs Rep. Lara"},
+  {"id": "2026-10-20-tl-2", "lang": "Tagalog", "word": "pagtatalaga", "pinyin": "", "pronunciation": "pag-ta-ta-LA-ga", "tones": "",
+   "meaning": "appointment; designation to a post", "example": "Nasa Pangulo ang pagtatalaga ng susunod na Punong Mahistrado.", "examplePinyin": "",
+   "exampleMeaning": "The appointment of the next Chief Justice rests with the President.",
+   "note": "Pagpili at paglalagay sa isang posisyon; mas karaniwan kaysa 'paghirang' na solemne at pormal.", "tiesTo": "Gesmundo retires Nov 6; Marcos picks next Chief Justice"},
+  {"id": "2026-10-20-zh-1", "lang": "Mandarin", "word": "乃至", "pinyin": "nǎi zhì", "pronunciation": "nigh-jr", "tones": "3 · 4",
+   "meaning": "and even; extending up a scale (nouns, numbers)", "example": "房地产投资大幅下滑，乃至拖累了整体投资。", "examplePinyin": "Fángdìchǎn tóuzī dàfú xiàhuá, nǎizhì tuōlěi le zhěngtǐ tóuzī.",
+   "exampleMeaning": "Property investment fell sharply, even dragging down total investment.",
+   "note": "书面语/formal connective that stretches a list to its extreme end. Contrast 甚至 (intensifier, often with 都/也, more spoken) — 乃至 sits in written reports and links nouns/numbers.", "tiesTo": "China Q3: property investment -20.6%"},
+  {"id": "2026-10-20-zh-2", "lang": "Mandarin", "word": "好在", "pinyin": "hǎo zài", "pronunciation": "how-dzai", "tones": "3 · 4",
+   "meaning": "fortunately; luckily (introduces the saving factor)", "example": "内需疲软，好在出口依然强劲。", "examplePinyin": "Nèixū píruǎn, hǎozài chūkǒu yīrán qiángjìn.",
+   "exampleMeaning": "Domestic demand is soft, but fortunately exports remain strong.",
+   "note": "口语/informal connective, opens the clause that rescues the situation. Contrast 幸亏 (stresses a narrow escape, pairs with 才/不然) — 好在 is milder.", "tiesTo": "China Q3 GDP: exports carry growth"}
+ ]
+}

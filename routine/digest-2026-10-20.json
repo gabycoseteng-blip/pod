@@ -1,0 +1,6 @@
+{
+  "throughline": "who gets to say it's over: waivers, a refused resignation, a jurisdiction fight, an appointment and a GDP print",
+  "stories": ["france-nunez-resignation-refused", "trump-waives-new-russia-sanctions", "iran-hormuz-offer-seven-days", "tradeweb-trumid-deal", "softbank-allied-universal-talks", "us-monday-mna-roundup", "uk-barclays-boe-private-credit", "challenger-daiichi-offer", "markets-oct19-nasdaq-rebound", "deepdive-suncor-oral-argument-recusal", "energy-microsoft-nisource-genco", "energy-venture-global-power-islands", "energy-large-load-rto-filings", "energy-ercot-474gw-queue", "energy-gas-turbine-reservations-vs-firm", "ph-ovp-budget-skipped-hearing", "ph-chief-justice-succession", "ph-lara-plunder-complaint", "ph-gatchalian-dpwh-7107", "ph-world-bank-cut", "china-q3-gdp-4.5", "arts-met-lincoln-bardo", "arts-sothebys-dekooning-london", "arts-blaquier-vangogh-nov18", "arts-art-basel-paris", "oped-zito-ohio-warning", "oped-ai-novelists", "good-cleburne-lunch-debt"],
+  "explainers": ["4-4 tie affirms lower court at SCOTUS", "gas turbine reservations vs firm orders", "GenCo model for hyperscaler load"],
+  "comment": "stories = distinct items; explainers = concepts explained"
+}

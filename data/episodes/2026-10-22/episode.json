@@ -1,0 +1,599 @@
+{
+  "date": "2026-10-22",
+  "title": "Thursday, October 22, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-10-22.mp3",
+  "durationSec": 1601,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Thursday, October 22nd. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. The State Department has told non-emergency staff and their families to leave Saudi Arabia.",
+          "startSec": 4.44,
+          "endSec": 10.66
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "That order came Wednesday, spokesman Tommy Pigott said it applies to Saudi Arabia only, and it cites escalating Houthi attacks on civilian targets. The trigger events are a drone strike on King Fahd International Airport in Dammam, at least 1 dead and 8 hurt, and a drone attack on Aramco's Shaybah field that killed 2 workers, a Nepali and a Filipino. The Saudi Press Agency says Shaybah operations were unaffected.",
+          "startSec": 10.66,
+          "endSec": 35.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Reuters and AFP report that family withdrawals from other Gulf missions are planned, so Saudi is the first domino rather than the whole set. And the diplomatic backdrop got darker: the New York Times, as relayed by CNBC, reports that US and Israeli militaries have drawn up plans for renewed strikes on Iran after the midterms, even as indirect talks continue. A drawdown ordered on one track while a strike plan is drafted on another is not a de-escalation signal, whatever the talks are called.",
+          "startSec": 35.31,
+          "endSec": 64.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next, Israel, which votes Tuesday, October 27th. Benny Gantz quit the race on October 19th after his polling collapsed, and on Wednesday every candidate on his Blue and White list signed resignation papers. The Central Elections Committee confirmed the party will not compete, its ballot slips are being pulled, and any Blue and White ballot found in the count is invalid, including votes already cast abroad and at IDF stations.",
+          "startSec": 64.69,
+          "endSec": 90.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That is the part that makes this messy. Votes are already in the system for a list that no longer exists. Gadi Eisenkot and Avigdor Liberman are urging voters to back only opposition parties likely to clear the threshold, and Gantz says he will push for a unity government. In a 120-seat Knesset with a threshold, a wasted-vote problem on the centre is exactly how the margin gets decided.",
+          "startSec": 90.11,
+          "endSec": 113.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, Ukraine. Volodymyr Zelenskyy told Fox he would accept a freeze along current front lines as a first step, followed by US and European security guarantees. Kremlin aide Yuri Ushakov, after meeting Steve Witkoff, said trilateral talks among Washington, Moscow and Kyiv resume in principle after November 10th, and Russia released detained American teacher Stephen Hubbard during the visit.",
+          "startSec": 113.16,
+          "endSec": 136.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Kremlin also says it is preparing a Putin, Trump and Xi meeting in Shenzhen, which the Wall Street Journal places on the sidelines of APEC, November 18th and 19th. Dmitry Peskov, though, says there is no clear understanding of the meeting or its agenda, and Zelenskyy insists Kyiv must be in any discussion. Notice the sequencing: a freeze concession, a talks date, then a summit with the one country that buys the oil. That is a structure for a deal, not yet a deal.",
+          "startSec": 136.5,
+          "endSec": 164.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a fourth, in Italy, where the cabinet approved about 500 troops for Milan after days of violent cost-of-living protests over fuel, energy, rents and wages. Giorgia Meloni says about 200 police were injured and 330 people detained, and the government added a new offence for violent participation in demonstrations.",
+          "startSec": 164.4,
+          "endSec": 183.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The proposal to give the soldiers judicial-police powers was dropped after objections from President Sergio Mattarella. Elections are due in 2027, and this is what energy-price inflation looks like when it reaches the street rather than the CPI table.",
+          "startSec": 183.24,
+          "endSec": 198.11
+        }
+      ],
+      "startSec": 10.7
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "SpaceX reported its third quarter Tuesday after the close, and the revenue line is startling: $14.6 billion, up 161% from a year ago, against consensus around $12.7 billion. Net income was $4.4 billion, and the AI segment brought in $7.56 billion, nearly tripling and now larger than Starlink.",
+          "startSec": 198.11,
+          "endSec": 215.47
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The soft spot was Starlink, which added 1.6 million consumer subscribers against 2.29 million expected. Then the headline for the capital markets: Elon Musk confirmed that both the SpaceX and Tesla boards have formed special committees to look at a combination. He said he is conflicted and recused, called a deal not certain, and said shareholders must approve. No terms exist. SpaceX shares rose 7.8% to $159.31, against a $135 IPO price, and Tesla gained 3.4% to $386.47 before falling roughly 3% after hours on its own results.",
+          "startSec": 215.47,
+          "endSec": 246.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "Netflix is the mirror image. Third-quarter revenue of $12.87 billion grew 11.8%, the slowest pace in 3 years. Earnings per share of $0.87 beat the $0.82 estimate, but the 2026 advertising revenue guide was cut to about $2.7 billion from $3 billion, and the stock closed down 5.3% at $65.04, after already being down 26% this year.",
+          "startSec": 246.93,
+          "endSec": 266.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bernstein cut its target to $80 and MoffettNathanson to $90. The ad-tier guide cut is the real story, because advertising was the growth leg that was supposed to justify the multiple while subscriber growth matured. And one more tape item from the AI hardware chain: Super Micro pre-announced fiscal first-quarter revenue of $18.5 billion to $19.5 billion, up from a prior range of $14.5 billion to $15.5 billion, with gross margin guided to 12% to 12.5%. The shares rose 9.55%.",
+          "startSec": 266.48,
+          "endSec": 294.8
+        }
+      ],
+      "startSec": 198.1
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Today's Bank of Korea decision: it held at 3.00%, unanimously, matching all 34 analysts in Reuters' poll, but it kept a tightening bias. Governor Shin Hyun-song said growth and inflation are both running stronger than expected, and the median of the board's six-month rate projections sits at 3.25%, which implies one more 25 basis point hike.",
+          "startSec": 294.8,
+          "endSec": 315.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which makes the equity reaction striking. KOSPI closed down 3.52% at 5,533.78, led by SK Hynix down 5.48% and Samsung down 4.02%, while the won strengthened to 1,324.2 per dollar. A central bank leaning hawkish and a memory-chip sell-off on the same day is a reminder that the Korean index is now a leveraged bet on AI hardware sentiment, and policy rates are the smaller driver.",
+          "startSec": 315.12,
+          "endSec": 337.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "In Britain, September CPI came in at 3.5%, up from 3.1% in August and above the 3.4% forecast, the highest in almost a year. Motor fuels were up 29.8% from a year earlier, against 23.0% in August, and core inflation rose to 2.8% from 2.6%.",
+          "startSec": 337.57,
+          "endSec": 351.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Markets price a 25 basis point Bank of England hike on November 5th, taking Bank Rate from 3.75% to 4%. The fiscal side is just as awkward: September borrowing was £24.5 billion and public sector net debt passed £3 trillion for the first time, with the Chancellor's budget about a week out and a promise of breathing space for households. Hiking into a budget that has to give households relief is the policy collision to watch.",
+          "startSec": 351.73,
+          "endSec": 377.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Brazil, the presidential runoff is Sunday. Luis Inácio Lula da Silva is seeking a fourth term against Flávio Bolsonaro, and I'd note we don't have a verified runoff poll, so treat it as close. The economic backdrop is household debt at 49.9% of income, and the central bank is weighing income-linked limits on unsecured loans.",
+          "startSec": 377.09,
+          "endSec": 396.11
+        }
+      ],
+      "startSec": 294.8
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "The Markets tab has every level, so here is the analysis. Wall Street's move on Wednesday was constructive but unspectacular, with the Dow at a one-month high and the S&P 500 within about 1% of its record. The mechanism was earnings, specifically the SpaceX print and the Super Micro pre-announcement reviving the AI hardware trade.",
+          "startSec": 396.11,
+          "endSec": 415.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "The part that did cross the threshold was Asia on Thursday. The Nikkei fell 2.65% and KOSPI 3.52%, and Hong Kong slid below 23,000 at one point. Those are the same memory and AI-equipment names that carried the rally, so the question is whether US futures, which pointed lower, are catching a falling knife or a genuine rotation.",
+          "startSec": 415.06,
+          "endSec": 433.85
+        },
+        {
+          "speaker": "ALEX",
+          "text": "I lean towards the second reading, with oil as the amplifier. Brent hit a five-month intraday high near $112 on Tuesday, settled at $108.82 on Wednesday, and was back above $110 in Asia. At that level the equity story is competing with an energy tax on every importing economy, which is exactly the UK and Korea backdrop we just read.",
+          "startSec": 433.85,
+          "endSec": 452.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "The rates tape is oddly calm for all that. The 10-year Treasury sits around 5.1%, essentially unchanged, and the Fed meets next Wednesday with roughly a 12% to 15% chance of a hike priced, down from about a third a week ago. The base case is a hold, with December the live debate.",
+          "startSec": 452.93,
+          "endSec": 468.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So today's catalysts are jobless claims at 8:30, expected near 200,000, and a heavy earnings slate with Procter & Gamble, Lockheed Martin, Comcast and Blackstone. If claims stay that low, the hawkish tail stays alive and the equity bid depends entirely on earnings beats.",
+          "startSec": 468.92,
+          "endSec": 484.39
+        }
+      ],
+      "startSec": 396.1
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the deep dive, I want to stay at the Supreme Court, but a different kind of procedural accident from the one we covered Tuesday. The case is BMG Rights Management versus Vetter, docket 25-1391, and on Monday the Court disposed of it without deciding anything, because it could not form a quorum. Our sources are Music Business Worldwide, Complete Music Update, Bloomberg Law and IPWatchdog.",
+          "startSec": 484.39,
+          "endSec": 506.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Start with the song, because it matters. \"Double Shot, Of My Baby's Love\", the 1960s hit, was written by a Louisiana songwriter and publisher named Cyril Vetter. Under section 304 of the Copyright Act, authors can terminate old grants of their copyright and take the rights back. Vetter did that, and the dispute is about how far the reclaimed rights reach.",
+          "startSec": 506.89,
+          "endSec": 527.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Fifth Circuit, in Vetter versus Resnik, held that termination recaptures worldwide rights, not only US rights. The logic is about the phrase \"arise under this title\". The court read it as pointing to the source of the rights, which is US law, rather than the place where the song is exploited. And the original grant had purported to transfer the song throughout the world, so the termination reverts it throughout the world.",
+          "startSec": 527.28,
+          "endSec": 551.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The music publishers hit the panic button. The petitioners are BMG, Capitol Christian Music Group from Universal, Essential Music Publishing from Sony and Warner-Tamerlane, with Paul Clement arguing for them. Their argument is that a worldwide reversion upends global licensing and catalog valuations, since the majors have bought and financed these catalogs on the assumption that foreign rights would not snap back.",
+          "startSec": 551.77,
+          "endSec": 575.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then the Court's order on Monday: Justices Sotomayor, Gorsuch, Barrett and Jackson took no part. That leaves 5 justices, and a quorum of the Court is 6. When there is no quorum and a majority of the qualified justices cannot hear a case, 28 U.S.C. 2109 directs that the lower court judgment be affirmed, with the same effect as upon affirmance by an equally divided court.",
+          "startSec": 575.59,
+          "endSec": 596.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here is the distinction from Tuesday's explainer. A 4-4 tie happens when 8 justices heard it and split. This is a no-quorum affirmance, where too few justices are eligible to sit at all. The effect is the same, no national precedent, and the Fifth Circuit's rule binds only federal courts in Louisiana, Mississippi and Texas. The Court used the same mechanism in Baker versus Coates in 2024.",
+          "startSec": 596.83,
+          "endSec": 619.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why were 4 justices out? Reporting by Music Business Worldwide, CMU and Bloomberg Law frames it as a publishing-ownership hook: Bertelsmann owns BMG and also Penguin Random House, which has published books by all 4 justices. I'd stress that is the outlets' framing of the reason, since the justices did not explain themselves in the order.",
+          "startSec": 619.16,
+          "endSec": 638.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And that is the contested ground. First, is the Fifth Circuit right on the text? A textualist can argue foreign rights arise under foreign law, in which case a US termination should not reach them. Second, forum shopping: songwriters now have a rational reason to file in the Fifth Circuit. Third, the Vetter side argued this was an unsuitable vehicle, since the publishers did not challenge a separate ownership holding.",
+          "startSec": 638.52,
+          "endSec": 662.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "The ethics question is the one I keep returning to. Fix the Court has long argued for more recusals, and the Court has no enforceable ethics code. If book income from a conglomerate is enough to sit out, then every case involving Penguin Random House's parent could hit the same wall. If it is not enough, then recusal looks arbitrary. Either way, the Court has now let a procedural accident settle a question worth hundreds of millions of dollars.",
+          "startSec": 662.56,
+          "endSec": 688.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "For this audience, the second-order read is bargaining power. Termination windows are opening for 1960s through 1980s catalogs. A worldwide reversion right strengthens songwriters in every renegotiation, because the label's alternative to a deal gets worse. A related cert petition exists, according to Patently-O, so a cleaner vehicle may come back. Until then, the Fifth Circuit is the most songwriter-friendly venue in American copyright law.",
+          "startSec": 688.14,
+          "endSec": 713.55
+        }
+      ],
+      "startSec": 484.4
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Lead with Arkansas. Google and Entergy amended the West Memphis arrangement instead of restarting it, per Entergy's release, the Arkansas Democrat-Gazette and Latitude Media. Phase 2 adds about $600 million of Google-funded grid and transmission, a 440 megawatt solar PPA at Big Island, and 1,400 megawatt-hours of batteries, with service targeted for 2028.",
+          "startSec": 713.55,
+          "endSec": 733.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "The original deal was a $1.6 billion solar plus storage build, with Google paying $443 million up front plus a minimum of $83 million a year over 20 years. Entergy claims $2.1 billion of net benefit for its 738,000 customers. But the Arkansas Public Service Commission denied Entergy's PPA request in September for not proving the costs were reasonable, and the amended filing is heavily redacted, with Entergy asking that Google's ratemaking treatment be filed under seal.",
+          "startSec": 733.94,
+          "endSec": 762.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The regulatory knife-edge is accounting. Do Google's contributions reduce the rate base the utility earns a return on, or are they revenue credits spread to customers over time? If the cash comes off the rate base, the utility earns less on the plant and the customers benefit now. If it books as a credit, the utility keeps a larger asset base. That is a ratebase question dressed up as a customer-protection deal, and it will get relitigated across every pay-your-own-way contract.",
+          "startSec": 762.52,
+          "endSec": 791.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "NextEra's third quarter, reported Wednesday, raised its Florida Power and Light large-load target to 8 gigawatts by 2032, from 6. Some capacity could come online in 2028, and at least one large-load deal under FPL's new tariff is promised by year-end. The pipeline is over 20 gigawatts, mostly gas, with nothing signed yet.",
+          "startSec": 791.7,
+          "endSec": 811.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The more interesting number is the federal hubs. Definitive agreements cover 3 sites, 2 in Texas and 1 in Pennsylvania, about 16.5 gigawatts, with about $5.7 billion of initial funding year to date. NextEra develops, builds and operates for fees on a fixed schedule and invests no capital. Management says the fee model earns about 50% of the EPS that ownership would, and the fees are back-loaded: modest in 2026 and 2027, larger from 2032. Backlog is 36.7 gigawatts, adjusted EPS was $1.13, up 9.7%.",
+          "startSec": 811.22,
+          "endSec": 841.49
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the capital-light model means the sovereign-linked counterparty carries the build risk while the earnings land late. Sources conflict on whether the Japan and Korea-linked money is fully signed, so I'd call that reported rather than confirmed.",
+          "startSec": 841.49,
+          "endSec": 856.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And Texas, as an advance on the permit freeze we covered. Governor Abbott's September 21st directive pauses state air and water permit approvals for data-center infrastructure until the ERCOT large-load audit finishes, expected mid-December. The October 19th compliance date passed with the report's contents unconfirmed. Public Citizen and FracTracker counted 35 permitting actions between September 21st and October 16th, including 14 gas and generator applications that moved through review. The governor's office says the pause covers approval, not processing.",
+          "startSec": 856.36,
+          "endSec": 890.44
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that distinction is the whole game for behind-the-meter builds. NRG's 1.2 gigawatt Maypearl plant for an unnamed hyperscaler is described as aligned on principal terms, with a 15-year minimum term, a late-2029 target and a possible 2.4 gigawatts, though not final.",
+          "startSec": 890.44,
+          "endSec": 906.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, the pause bites hardest on island and behind-the-meter gas, because those projects need air permits rather than interconnection. Mid-December is the effective date for the off-grid gas pipeline. One teaser for next week: GE Vernova reports Wednesday the 28th, having guided to at least 125 gigawatts of gas under contract by year-end, up from 116 at the second quarter.",
+          "startSec": 906.63,
+          "endSec": 929.35
+        }
+      ],
+      "startSec": 713.5
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Ngayong umaga, dalawang salita ang pag-aaralan natin, parehong galing sa mga balita ng Pilipinas. Ang una ay \"pasakit\".",
+          "startSec": 929.35,
+          "endSec": 936.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang \"pasakit\" ay mabigat at pangmatagalang hirap na dinaranas ng maraming tao. Mas malalim ito kaysa sa simpleng \"hirap\", at madalas itong marinig sa pormal o madamdaming balita. Halimbawa: \"Pasakit ng implasyon ang pasan ng bawat pamilyang Pilipino ngayon.\"",
+          "startSec": 936.54,
+          "endSec": 952.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kapag sinabing \"pasakit\", hindi lang isang araw na problema ang tinutukoy, kundi pasanin na ramdam sa bulsa araw-araw. Kaya bagay ito sa balita tungkol sa pagtaas ng presyo at ng interes. Ang ikalawang salita ay \"panunuya\".",
+          "startSec": 952.13,
+          "endSec": 965.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang \"panunuya\" ay pangungutya na may halong pang-iinsulto. Mas matalas ito kaysa sa \"biro\" at mas mapanlait kaysa sa \"tukso\". Halimbawa: \"Panunuya ang dating ng sinabi ng embahador sa mga mambabatas.\"",
+          "startSec": 965.6,
+          "endSec": 977.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mapapansin na ang \"panunuya\" ay hindi lang tungkol sa mga salita, kundi sa tono at layunin ng nagsasalita. Kapag may nagsabing \"pinagtatawanan niya ako\", madalas panunuya ang ibig sabihin noon. Pero magkaiba ang \"pasakit\" at \"panunuya\": ang una ay pasanin, ang ikalawa ay pang-iinsulto.",
+          "startSec": 977.69,
+          "endSec": 994.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama. Maaaring mag-isa ang pasakit, pero ang panunuya ay laging may kaharap na tinutuya. Pakinggan natin ang dalawang salitang ito sa susunod na bahagi ng balita.",
+          "startSec": 994.97,
+          "endSec": 1004.76
+        }
+      ],
+      "startSec": 929.4
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Pasakit ang dala ng presyo sa bawat pamilya, at ngayong umaga, itinaas ng Bangko Sentral ng Pilipinas ang benchmark na interes ng 50 basis points sa 5.50 porsiyento.",
+          "startSec": 1004.76,
+          "endSec": 1014.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ito na ang ikaapat na pagtaas ngayong taon, at ang una na 50 basis points mula noong 2023. Sinabi ni Gobernador Eli Remolona na mas masama ang mga forecast kaysa inaasahan, at itinaas ng BSP ang projection ng implasyon para sa 2027 sa humigit-kumulang 6.0 porsiyento mula sa 5.4.",
+          "startSec": 1014.73,
+          "endSec": 1031.59
+        },
+        {
+          "speaker": "SAM",
+          "text": "Panunuya naman ang tawag ng ilang mambabatas sa sinabi ni Chinese Ambassador Jing Quan na madali raw manalo ang Tsina kung gagamit ito ng puwersa, at ipinatawag siya ni Kalihim Lazaro ng DFA.",
+          "startSec": 1031.59,
+          "endSec": 1043.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In English now. The hike was a surprise: 20 of 22 analysts in BusinessWorld's poll, and all 27 in Reuters', expected 25 basis points. Deputy Governor Abenoja put the 2026 inflation forecast unchanged at 6.1% and 2028 at 3.3%, still above the 3% target. Core inflation is 4.7%, and second-quarter GDP growth was 2.3%, a post-pandemic low, so this is a hike into weakness.",
+          "startSec": 1043.13,
+          "endSec": 1065.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "Part of it is a currency defense. The peso closed Wednesday at a record low of 63.361 per dollar, the 29th record close this year according to the Bankers Association of the Philippines, and BusinessMirror quotes forecasts of 65 by 2027.",
+          "startSec": 1065.48,
+          "endSec": 1079.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Supreme Court then complicated the fiscal side. In a ruling written by Senior Associate Justice Marvic Leonen, it struck down Congress's P449.5 billion increase in 2024 unprogrammed appropriations and treated the 2024 and 2025 provisions, plus some 2026 ones, as unconstitutional. It did not ban the mechanism, but set conditions, including that revenues must first exceed the overall target. Funds already spent need not be refunded.",
+          "startSec": 1079.8,
+          "endSec": 1106.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Palace disagrees. Solicitor General Darlene Berberabe will seek clarification and partial reconsideration, though no motion is filed yet. Mid-hike and mid-slide, it narrows the fiscal flexibility to cushion the shock.",
+          "startSec": 1106.27,
+          "endSec": 1119.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On the graft docket, the Sandiganbayan's Third Division suspended Senator Rodante Marcoleta for 90 days on October 19th over a P75 million plunder case, alleging P30 million from former Representative Mike Defensor, P25 million from businessman Joseph Espiritu and P20 million from Aristotle Viray. Senator Jinggoy Estrada got the same 90 days on October 12th, and Bong Revilla filed a demurrer to evidence in his P92 million Bulacan ghost-project case this week.",
+          "startSec": 1119.19,
+          "endSec": 1146.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "Weather is a story today: Super Typhoon Rosal, international name Champi, has weakened to a typhoon with 165 kilometers per hour sustained winds, about 350 kilometers east of Itbayat, with Signal No. 2 over Batanes and the Babuyan Islands. Landfall is unlikely, with closest approach to extreme northern Luzon through Friday morning.",
+          "startSec": 1146.26,
+          "endSec": 1165.73
+        }
+      ],
+      "startSec": 1004.8
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words today, both from the CATL story you'll hear in a moment. The first is a connective, 反倒, fǎndào, meaning \"on the contrary\" or \"instead\", for a result that runs against expectation.",
+          "startSec": 1165.73,
+          "endSec": 1177.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's the conversational cousin of 反而. Both mark a surprise, but 反而 is neutral and shows up in writing as easily as speech, while 反倒 is a little more spoken and a little more emphatic. It typically follows a clause that sets up an expectation. 收入大涨，利润反倒增长有限。(Revenue surged, but profit instead grew only a little.)",
+          "startSec": 1177.49,
+          "endSec": 1197.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "Notice the structure: the first clause promises a good outcome, and 反倒 delivers the letdown. You can also use it for a bad situation producing a good result. 价格下跌了，销量反倒上升了。(Prices fell, but sales instead rose.)",
+          "startSec": 1197.56,
+          "endSec": 1211.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second word is 利润, lìrùn, \"profit\", a finance-desk term from HSK 4. It is neutral to formal and collocates with 空间, as in 利润空间, \"profit margin room\", with 率, as in 利润率, and with verbs like 压缩, to squeeze, or 侵蚀, to erode. 原材料成本上升，压缩了企业的利润空间。(Rising raw-material costs squeezed companies' profit margins.)",
+          "startSec": 1211.24,
+          "endSec": 1232.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "And how does it differ from 收益 and 盈利? 收益 is returns, usually from an investment, 盈利 is earnings and often works like a verb, as in \"the company is profitable\", while 利润 is the accounting profit line on the income statement. Next up, the story that uses both.",
+          "startSec": 1232.43,
+          "endSec": 1248.51
+        }
+      ],
+      "startSec": 1165.7
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "尽管宁德时代的收入大涨，利润反倒增长有限。(Even though CATL's revenue surged, its profit instead grew only a little.)",
+          "startSec": 1248.51,
+          "endSec": 1255.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "The numbers behind it: third-quarter revenue of 165.2 billion yuan, up 58.6%, but net profit of 21.2 billion yuan, up only 14.5%. The Chinese phrase for it is 增收不增利, revenue up, profit not.",
+          "startSec": 1255.99,
+          "endSec": 1267.51
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The mechanics matter. Nine-month cost of sales grew 61.6%, faster than the 56.2% revenue growth, and gross margin has fallen 3 quarters in a row. The drags are low-margin energy-storage deliveries, a new 2% consumption tax on lithium batteries, and reduced export VAT rebates. Meanwhile customers like Xiaomi and Li Auto are moving to cheaper suppliers or making their own cells, the so-called de-CATLization.",
+          "startSec": 1267.51,
+          "endSec": 1291.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "The market took it badly: Shenzhen shares fell 12.03% to 227.9 yuan, Hong Kong shares fell 11.41%, the stock is about half its May peak, and it dragged the Shanghai Composite down 0.60% to 3,713.03. JPMorgan recently cut the Hong Kong shares to neutral.",
+          "startSec": 1291.42,
+          "endSec": 1306.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "This is the company-level evidence for the two-speed economy we keep describing. Producer prices are up 5.0% while consumer prices are up 0.9%, and CATL is what that gap looks like inside one income statement: input costs and policy taxes rising, pricing power capped, and the strongest player in the sector still can't pass it through. Management says 2027 demand is worth anticipating and utilization will stay high, but a sector that grows revenue at 4 times its profit growth is competing, not prospering.",
+          "startSec": 1306.21,
+          "endSec": 1335.97
+        }
+      ],
+      "startSec": 1248.5
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The art market has a big night in Paris. Sotheby's sells the Schlumberger collection this evening, 28 lots with a combined estimate above $45 million, and the headline is Claude Monet's \"Iris\", estimated at €22 million to €30 million. Sotheby's bills that as the highest estimate ever for a painting offered at auction in France, though the Art in Context site disputes that, citing a 1989 Picasso estimate at Drouot.",
+          "startSec": 1335.97,
+          "endSec": 1360.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The provenance is the romance. The picture came from Monet's son Michel through the dealer Katia Granoff to Jeanne Schlumberger, whose husband Marcel co-founded the oilfield-services company now called SLB, and it has stayed in that family's Paris home ever since. A second Monet, \"Saule pleureur\", the weeping willow, is estimated at €9 million to €12 million. There are no guarantees on any lot, so the result will be a pure read of demand, and since the sale is tonight we can't tell you the hammer price.",
+          "startSec": 1360.34,
+          "endSec": 1390.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "In New York, MoMA opens \"Brancusi: The Artist and His Studio\" to the public on Sunday, October 25th, after member previews this week, running to February 27th, 2027. It fills the entire sixth floor, curated by Anne Umland with Mia Matthias and Samantha Small.",
+          "startSec": 1390.04,
+          "endSec": 1405.18
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The reason to go is the loans. With the Centre Pompidou closed for renovation, rarely lent sculptures from the Atelier Brancusi travel, along with his hand-carved furniture and bases, films, photographs and tools. The argument of the show is that the studio itself was the work, with the bases and the arrangement as sculptural as the marble and bronze, and that \"Bird in Space\" from MoMA's own collection looks different beside them.",
+          "startSec": 1405.18,
+          "endSec": 1430.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a market note from Art Basel Paris, running through Saturday at the Grand Palais, with 211 exhibitors from 41 countries and new director Karim Crippa. ARTnews reports opening-day sales including a Fontana at €1.8 million and top reported sales around $10 million for a Richter and a Baselitz. It's a market with money, but it's spending on names it already trusts.",
+          "startSec": 1430.56,
+          "endSec": 1452.07
+        }
+      ],
+      "startSec": 1336.0
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Today's argument comes from the bench, not a columnist. On Tuesday, Justice Elena Kagan spoke at Catholic University's law school, in conversation with the law professor J. Joel Alicea, a former clerk to Justice Alito, and TIME and the Washington Post ran the remarks this week under headlines like \"Ahead of Midterms, Elena Kagan Says the Supreme Court Is Undermining Voting Rights\".",
+          "startSec": 1452.07,
+          "endSec": 1474.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman is strong. She called the April ruling in Louisiana versus Callais an \"evisceration\" of the 1965 Voting Rights Act, noted that Republican-led states have begun proposing new maps that could weaken the influence of Black voters, and faulted the 2019 Rucho decision for removing federal courts from partisan gerrymandering oversight. Her broader claim is that the Court has ignored how its rulings affect the functioning of the political system, so we now have a democracy that works less well than it should.",
+          "startSec": 1474.52,
+          "endSec": 1504.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "Now the counter-take. The first is institutional: a sitting justice delivering that verdict on colleagues two weeks before an election risks the very norm she says she's defending, that the Court stands above the election fight. Her interlocutor having clerked for Alito also shows she knows it will be read as politics, however judicial the language.",
+          "startSec": 1504.36,
+          "endSec": 1524.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second counter comes from her own side. UCLA's Rick Hasen said she didn't go far enough, calling Callais the worst election-law decision in 100 years at the Supreme Court. That is a revealing disagreement: the critics who share her view think her tone is too gentle, and the critics who don't think it's partisan. A justice who is stuck in dissent has run out of formal tools, and speeches are what's left.",
+          "startSec": 1524.5,
+          "endSec": 1548.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "My own read is that both critiques can be true. The remarks matter less as a legal argument, because she has already made that in the dissents, than as a signal that the Court's own members see the legitimacy question as live.",
+          "startSec": 1548.03,
+          "endSec": 1561.0
+        }
+      ],
+      "startSec": 1452.1
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing, from Richmond, Virginia. Mail carrier Sirita Johnson was near the end of her route at Midlothian Jewelry Exchange and Repair when she noticed an employee, Donna, struggling to stand, with a drooping face and slurred speech.",
+          "startSec": 1561.0,
+          "endSec": 1574.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She recognized the signs, called 911, and stayed until the medics arrived. Co-worker Sharonda Crenshaw told WWBT she believes that saved Donna's life, because a stroke caught in time is a very different story. Johnson has been nominated for the station's Acts of Kindness Award, and the outcome for Donna hasn't been reported, but the act is the point: she looked up from her route.",
+          "startSec": 1574.72,
+          "endSec": 1596.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the show. Thanks for riding along with us this morning.",
+          "startSec": 1596.64,
+          "endSec": 1600.19
+        },
+        {
+          "speaker": "ALEX",
+          "text": "See you tomorrow.",
+          "startSec": 1600.19,
+          "endSec": 1601.17
+        }
+      ],
+      "startSec": 1561.0
+    }
+  ]
+}

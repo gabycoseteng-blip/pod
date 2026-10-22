@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-22",
+ "cards": [
+  {"id": "2026-10-22-tl-1", "lang": "Tagalog", "word": "pasakit", "pinyin": "", "pronunciation": "pa-SÁ-kit", "tones": "",
+   "meaning": "hardship; burden; affliction", "example": "Pasakit ng implasyon ang pasan ng bawat pamilyang Pilipino ngayon.", "examplePinyin": "",
+   "exampleMeaning": "The hardship of inflation is what every Filipino family is carrying now.",
+   "note": "Mabigat at pangmatagalang hirap na dinaranas ng marami; mas malalim kaysa 'hirap' at madalas nasa pormal o madamdaming balita.", "tiesTo": "BSP hikes 50 bp as inflation stays above 7%"},
+  {"id": "2026-10-22-tl-2", "lang": "Tagalog", "word": "panunuya", "pinyin": "", "pronunciation": "pa-nu-NÚ-ya", "tones": "",
+   "meaning": "mockery; taunting", "example": "Panunuya ang dating ng sinabi ng embahador sa mga mambabatas.", "examplePinyin": "",
+   "exampleMeaning": "The ambassador's remark came across as mockery toward the lawmakers.",
+   "note": "Pangungutya na may halong pang-iinsulto; mas matalas kaysa 'biro' at mas mapanlait kaysa 'tukso'.", "tiesTo": "Chinese envoy row with Philippine lawmakers"},
+  {"id": "2026-10-22-zh-1", "lang": "Mandarin", "word": "反倒", "pinyin": "fǎn dào", "pronunciation": "fahn-dow", "tones": "3 · 4",
+   "meaning": "on the contrary; instead (unexpected result)", "example": "收入大涨，利润反倒增长有限。", "examplePinyin": "Shōurù dàzhǎng, lìrùn fǎndào zēngzhǎng yǒuxiàn.",
+   "exampleMeaning": "Revenue surged, but profit instead grew only a little.",
+   "note": "口语-leaning connective for a result that runs against expectation. Contrast 反而 (neutral, common in writing too) — 反倒 is slightly more conversational and emphatic.", "tiesTo": "CATL: revenue +58.6%, profit only +14.5%"},
+  {"id": "2026-10-22-zh-2", "lang": "Mandarin", "word": "利润", "pinyin": "lì rùn", "pronunciation": "lee-run", "tones": "4 · 4",
+   "meaning": "profit", "example": "原材料成本上升，压缩了企业的利润空间。", "examplePinyin": "Yuáncáiliào chéngběn shàngshēng, yāsuō le qǐyè de lìrùn kōngjiān.",
+   "exampleMeaning": "Rising raw-material costs squeezed companies' profit margins.",
+   "note": "书面语/neutral finance term. Collocates with 利润率, 利润空间, 压缩/侵蚀利润. Contrast 收益 (returns, from investment) and 盈利 (earnings, verb-like) — 利润 is the accounting profit line.", "tiesTo": "CATL net profit lagging revenue"}
+ ]
+}

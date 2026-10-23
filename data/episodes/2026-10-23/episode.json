@@ -1,0 +1,677 @@
+{
+  "date": "2026-10-23",
+  "title": "Friday, October 23, 2026",
+  "day": "Friday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-10-23.mp3",
+  "durationSec": 1590,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Friday, October 23rd. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Meta spent more than it earned in cash last quarter, and the Nasdaq just had its worst day since June.",
+          "startSec": 4.02,
+          "endSec": 10.42
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "We start in the Gulf, where the Houthi campaign against Saudi targets keeps widening. The Houthis claim strikes on Aramco's Yanbu and Shaybah sites and on the Riyadh and Abha airports. Saudi Arabia has not confirmed most of that and Reuters says it could not verify the claims, but Aramco has reportedly ordered staff at its Dhahran headquarters to evacuate, and Shaybah operations are reported to be unaffected.",
+          "startSec": 10.42,
+          "endSec": 33.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The regional response is what is new. Egypt's parliament is reportedly set to vote around October 26th on military support for Saudi Arabia. And Turkey on Tuesday submitted the Mecca Joint Defence Agreement, the Saudi and Pakistan pact with a NATO Article 5-style clause, to its parliament for ratification. An AKP lawmaker told Reuters that any troop mandate would come only after ratification, that technical staff in air defence and electronic warfare would go first, and that there is no offensive role. No vote date is set.",
+          "startSec": 33.13,
+          "endSec": 62.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "So a defence pact that was a headline in September is turning into a ratification calendar. On Iran, CBS reports that the parliament held two rare closed sessions and postponed deliberations to next week, while the Revolutionary Guard says it hit 4 vessels carrying out ship-to-ship oil transfers in the Gulf. Donald Trump accused Tehran of faking ship strikes to push up oil prices, and Marco Rubio thanked Qatar for mediating. That is a single-outlet account, so treat the details with care.",
+          "startSec": 62.25,
+          "endSec": 89.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does a Gulf escalation matter for a commuter in New York or Manila? Because roughly a fifth of the world's oil moves through the region, and a pact that draws Turkey, Egypt and Pakistan toward Saudi defence turns a bilateral Houthi problem into a coalition problem, with a longer tail.",
+          "startSec": 89.43,
+          "endSec": 105.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The oil price is the part nobody is faking, and we will come to it. One more from Europe: in Albania, student-led protests against Prime Minister Edi Rama ran into a 6th day by October 19th. As of October 17th, 167 people had been arrested, 132 officers injured and rubber bullets used for the first time. Rama refuses to resign and blames what he calls foreign hands.",
+          "startSec": 105.36,
+          "endSec": 125.65
+        }
+      ],
+      "startSec": 10.4
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The business story is Meta. The stock fell about 7% on Thursday after a quarter where revenue beat but profit missed, and, the headline number, free cash flow came in at negative 2.12 billion dollars.",
+          "startSec": 125.65,
+          "endSec": 136.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The reason is capex. Meta lifted the floor of its full-year spending guidance to 135 billion dollars, with a range of 135 to 145 billion, up from a 130 billion floor. At the same time its 5-year credit default swap spread hit an all-time high, and it is planning a non-voting Class C share. Put those together and you have a company that is spending more than it generates and telling the market it will borrow or issue equity to keep going.",
+          "startSec": 136.67,
+          "endSec": 160.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is why the reaction spread. Nvidia fell 4.4%, the biggest single drag on the S&P 500, and the Nasdaq Composite dropped 2.6%, its worst day since June. The S&P fell 1.2%, its worst since July.",
+          "startSec": 160.99,
+          "endSec": 171.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more datapoint from the same morning: Southwest Airlines cut its 2026 adjusted earnings guidance to a range of 2.60 to 2.85 dollars a share from 3.25 to 4.25 dollars, blaming fuel costs, which ties the oil shock directly to the corporate earnings line. Reports of the share reaction conflicted, so we will not quote one.",
+          "startSec": 171.79,
+          "endSec": 189.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The framing in most of the coverage is that this was an AI financing scare more than an earnings problem. Nobody said demand for compute is gone. The worry is who funds it when free cash flow turns negative at a company with Meta's balance sheet.",
+          "startSec": 189.66,
+          "endSec": 203.22
+        }
+      ],
+      "startSec": 125.7
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two from outside the US. First, Japan: nationwide core inflation, excluding fresh food, came in at 2.1% in September, in line with forecasts and up from 1.7% in August. Headline CPI was also 2.1%, from 1.9%.",
+          "startSec": 203.22,
+          "endSec": 214.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The significance is that core inflation sits at the Bank of Japan's 2% target for the first time since December. The BOJ raised rates to 1.25% in September on a 7-2 vote and meets October 29th and 30th, where a hold is expected and a December hike is possible. The yen firmed on the print and is near its strongest in about a month, around 156 to the dollar.",
+          "startSec": 214.63,
+          "endSec": 234.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, France, where the 10-year yield briefly touched 5.002% on Wednesday, the first time above 5% since 2002. The spread over German Bunds was around 157 basis points, with the 10-year trading near 5.07% late Thursday against 3.34% for Germany.",
+          "startSec": 234.37,
+          "endSec": 247.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The cause is the 2027 budget, about 43 billion euros of measures, 25 billion in cuts and 18 billion in new revenue, aiming for a 5.0% deficit. The 2026 deficit is now seen at 5.4% of GDP, and Prime Minister Sébastien Lecornu leads a minority government opposed by the Socialists and the Greens. Goldman warns of a 6.4% deficit without a deal, and the Banque de France's Moulin has warned the state could be strangled by interest rates. Most of the figures come from aggregator reports, so round them in your head, but the direction is not in doubt.",
+          "startSec": 247.99,
+          "endSec": 278.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "One more from Europe: Kering fell more than 10% in early trading on Friday on another drop in Gucci sales, with the Stoxx 600 down about 0.4%. The CEO, Luca de Meo, had guided the third quarter as substantially flat, so the market is reading the miss as a sign that the turnaround is taking longer than promised.",
+          "startSec": 278.2,
+          "endSec": 295.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Luxury is the sector where you see the global consumer most clearly, and the weakness fits the two-speed theme we return to in the China segment: wealthy buyers are not the problem, the middle is.",
+          "startSec": 295.4,
+          "endSec": 306.21
+        }
+      ],
+      "startSec": 203.2
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The tape has its own tab in the app, so just the moves that matter. The Nasdaq's 2.6% drop and Brent's 4% jump are the two.",
+          "startSec": 306.21,
+          "endSec": 312.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Brent settled at 113.17 dollars, the highest close since early May, on the Houthi attacks on Saudi sites, with US crude at 99.47. That is an oil shock arriving at the same moment a growth-stock shock arrives, which is an awkward combination for anyone hoping the Fed can ease.",
+          "startSec": 312.99,
+          "endSec": 328.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "And yet the 10-year Treasury yield fell about 16 basis points to roughly 4.97%, the lowest in nearly a month. Money fled to Treasuries even though oil is a classic inflation scare.",
+          "startSec": 328.21,
+          "endSec": 338.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That is the interesting tension. The bond market is pricing growth fear above inflation fear for a day. Fed hike odds for December reportedly slid from the high 80s to the high 60s in percent, though sources disagree on the exact figures, and the Fed meets next Wednesday. Gold, reportedly down around 2.8% to near 4,025 on a single-source report, did not get the safe-haven bid, which suggests it was the rates-and-dollar leg of the trade that moved, not fear.",
+          "startSec": 338.13,
+          "endSec": 363.83
+        },
+        {
+          "speaker": "SAM",
+          "text": "Asia caught the contagion early. The Hang Seng fell 3.0% and the Nikkei 2.7% on Thursday, and KOSPI 3.5%. What to watch today is whether Europe's small declines hold and whether the Nasdaq finds a floor before the weekend.",
+          "startSec": 363.83,
+          "endSec": 376.2
+        }
+      ],
+      "startSec": 306.2
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "This morning's deep dive is not about chips or tariffs. It is about the Pacific Ocean, and a forecast that sounds like a typo. The World Meteorological Organization's seasonal update, published on October 8th, projects record sea-surface temperatures across the central and eastern tropical Pacific for October through December.",
+          "startSec": 376.2,
+          "endSec": 394.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The headline number is the Niño 3.4 anomaly, the standard yardstick, the temperature departure of a box of ocean along the equator. WMO's seasonal forecast is about 3.7 degrees Celsius above normal, against a previous record of about 2.6 degrees set in the November to January stretch of 2015 and 2016. Climate commentators Zeke Hausfather and Ben Noll have put the September monthly reading near 2.9, a record for the month, and Noll sees a peak near 4 degrees in December. WMO's chief, Celeste Saulo, gave nearly 100% odds that the event continues through February 2027. A caveat from me: these come from agency releases and commentary, and baselines differ between agencies, so the exact tenths will move.",
+          "startSec": 394.48,
+          "endSec": 433.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mechanism first, because it is worth having. In normal conditions the trade winds pile warm water in the western Pacific, off Indonesia and the Philippines, and cold water wells up off South America. In an El Niño the winds weaken, the warm pool slides east, and that changes where air rises, so the rain follows the heat. The feedback is what makes it grow: warmer water in the east weakens the winds further, which pushes more warm water east.",
+          "startSec": 433.95,
+          "endSec": 458.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the thermocline, the boundary between warm surface water and cold deep water, flattens. That is the part forecasters watch because it stores the energy. A strong event is not just warm skin on the ocean, it is a deep reservoir of heat sloshing eastward. That is why previous records, 1997 and 1998 and 2015 and 2016, are the comparison set, and why this year's forecast is stunning.",
+          "startSec": 458.75,
+          "endSec": 480.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "Now the part that matters for a listener rather than an oceanographer: who gets hit. The standard pattern is drought in the western Pacific, so Indonesia, the Philippines, northern Australia, with dry weather in India and southern Africa, and floods in Peru and Ecuador. Southern Africa's planting season starts around now. The Philippines usually feels the dry side with a lag, in the first half of next year, which matters because it is rice, power and water.",
+          "startSec": 480.27,
+          "endSec": 505.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The economics come through food and power. Goldman estimates global food commodity prices could rise 15.8%, and Oxford Economics projects food prices up 12% in 2026 and 5% in 2027. Those are forecasts, to be clear, not outcomes, and FAO's food price index was still calm in the spring, up only 2.9% year on year in May. Palm oil, rice, wheat, sugar and cocoa are the transmission lines. Hydropower-dependent grids and fisheries, especially Peruvian anchovy and the fishmeal chain behind aquaculture feed, are second-order victims.",
+          "startSec": 505.97,
+          "endSec": 535.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why would the show care? Because the lag is the whole story. A shock to food prices in the first half of 2027 lands on central banks that are already fighting it. The Bangko Sentral just hiked 50 basis points with inflation above 7%, and the Bank of Japan, the Fed and the ECB are all hovering near decisions. A supply shock is the one thing rate policy cannot fix, but it still has to be answered, in expectations if not in actual prices.",
+          "startSec": 535.51,
+          "endSec": 559.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Let me push back on the hype, because that is the other half of the story. Forecasting an El Niño this strong in October is not forecasting the weather. Seasonal models have a famous spring barrier, they have overshot before, and one 2014 event that looked like a monster fizzled for months before the real one arrived. If the central estimate is right, the question is the tail: a number near 4 degrees would be a different animal from anything in the instrumental record, and nobody has a playbook for it.",
+          "startSec": 559.98,
+          "endSec": 588.24
+        },
+        {
+          "speaker": "SAM",
+          "text": "And there is a sceptical reading of the economic numbers. Food price forecasts attach big numbers to ENSO events because they assume importers panic. In 2015 and 2016, strong El Niño produced dry spells, but global stocks were high and export restrictions did less damage than feared. This time rice stocks are thinner and a few exporters have a history of banning shipments the moment prices spike.",
+          "startSec": 588.24,
+          "endSec": 610.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The practical read is to watch three signals: the weekly Niño 3.4 reading, rainfall deficits in Indonesia and the Philippines through the dry season, and any rice or palm oil export restrictions. The first tells you if the forecast is right, the second tells you where, and the third tells you whether it becomes a price story. Agencies agree on direction, not magnitude.",
+          "startSec": 610.48,
+          "endSec": 631.16
+        },
+        {
+          "speaker": "SAM",
+          "text": "Source note: this comes from the WMO's seasonal update and secondary coverage and commentary, not from a viral thread or a newsletter we could open this morning. We will take the physics seriously and the price forecasts lightly.",
+          "startSec": 631.16,
+          "endSec": 643.93
+        }
+      ],
+      "startSec": 376.2
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Energy today is about power train and grid hardware, not megawatt announcements. Start with Vantage Data Centers, which on Wednesday said it secured more than 1 gigawatt of manufacturing capacity for Heron Power's Heron Link solid-state transformer, tied to a move toward 800-volt DC racks.",
+          "startSec": 643.93,
+          "endSec": 660.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Explain the transformer for us.",
+          "startSec": 660.09,
+          "endSec": 661.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A conventional transformer is a big iron-and-copper block that steps medium voltage down, followed by rectifiers and UPS systems to get to the DC the racks actually use. A solid-state transformer does the conversion with power electronics, in one step. The company specs, which are not independently verified, are a 5 megawatt modular unit with more than 98.5% efficiency from medium voltage to 800 volts DC, a failed module swapped in about 10 minutes, and built-in lithium-ion storage giving roughly 30 seconds of bridge power, which could displace the UPS.",
+          "startSec": 661.82,
+          "endSec": 692.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does a hyperscale developer care right now?",
+          "startSec": 692.98,
+          "endSec": 695.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because the bottleneck is lead time. Generator step-up transformers are reportedly running past 160 weeks, and distribution transformers 30 to 50 weeks, against 8 to 12 before 2020. Redesigning the power train around a different component is a way to route around the queue. Heron raised 140 million dollars in February and has a pilot with RWE Americas at a Texas battery site, targeted for April 2027, with a possible reservation of more than 500 megawatts a year.",
+          "startSec": 695.58,
+          "endSec": 721.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the caution?",
+          "startSec": 721.4,
+          "endSec": 722.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A capacity reservation is not a delivery. 1 gigawatt of factory capacity, from a company with one pilot, is a statement about intent. Watch for field data on the first energised units and for whether utilities will interconnect a power-electronics device at the primary side without the long qualification that iron-core gear has.",
+          "startSec": 722.29,
+          "endSec": 740.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second item. The Department of Energy on October 16th announced up to 50 million dollars in Defense Production Act money for grid-enhancing technologies in Virginia and West Virginia, led by Virginia Energy with Appalachian Power and Potomac Edison over 48 months.",
+          "startSec": 740.58,
+          "endSec": 755.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The target is about 290 megawatts of added capacity on existing lines, through reconductoring, replacing the wire with higher-capacity conductor, plus dynamic line rating sensors. That includes a roughly 14-mile rebuild between New London and Otter near Lynchburg and sensors on 4 lines in western Virginia. It is funded from a 1 billion dollar appropriation, and DOE says it is 1 to 4 years faster than building new transmission. Reports disagree on the split of the money, so I would not quote a utility's share.",
+          "startSec": 755.2,
+          "endSec": 783.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "Where does the 290 megawatts matter?",
+          "startSec": 783.68,
+          "endSec": 785.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It is the same load pocket the PJM story has been about, Dominion and Appalachian Power territory. 290 megawatts is an estimated benefit, not firm capacity, but it is quick, and it signals that the federal answer to large-load growth now includes making the existing wires work harder.",
+          "startSec": 785.68,
+          "endSec": 801.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, a headline we could not fully verify. Latitude Media reported on Wednesday that Google is purchasing a gigawatt of distributed capacity in PJM, described as an expansion of its Voltus contract through 2040.",
+          "startSec": 801.47,
+          "endSec": 813.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The earlier deal, announced June 2nd, was 100 megawatts over 3 years under Voltus's Bring Your Own Capacity product, where Google funds the aggregation and Voltus pays homes and businesses for batteries, thermostats and flexible load. We only saw the headline of the expansion, so the 1 gigawatt and the 2040 horizon are unconfirmed on our end. If true it is a 10-fold scale-up, and the logic is that a hyperscaler can claim its own capacity without a plant, which fits with FERC rejecting PJM's curtailment plan earlier this month.",
+          "startSec": 813.27,
+          "endSec": 842.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "Last, the grid operator's own view. PJM's David Souder said that transmission flows are rising while generation reserves are dwindling, leaving little room for error, and called data centers a 12-month, 24-hour load rather than a weather-driven one.",
+          "startSec": 842.75,
+          "endSec": 856.54
+        },
+        {
+          "speaker": "SAM",
+          "text": "Put the pieces together for me.",
+          "startSec": 856.54,
+          "endSec": 858.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Equipment, wires, flexibility and reserves are all being squeezed at once. Gas turbines are the other constraint: GE Vernova reported in July that its backlog plus slot reservations had climbed from 100 to 116 gigawatts, guided to at least 125 gigawatts by year-end, and is quoting delivery slots out to 2031. Its third-quarter print is the next test of how many reservations convert into firm orders. Amazon reports October 30th, and its capex guide will say how much of the load is still coming.",
+          "startSec": 858.26,
+          "endSec": 885.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The stress this month is the notable part. A PJM request filed October 11th was cited in the DOE emergency order, with forecast demand around 111,500 megawatts on October 13th, in what should be a shoulder season. Reserve stress used to be a July story. If it shows up in October, the projected reserve shortfall for June 2027 to May 2028 looks closer.",
+          "startSec": 885.8,
+          "endSec": 905.3
+        }
+      ],
+      "startSec": 643.9
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Dalawang salita ngayon, parehong mula sa balita ng Pilipinas na maririnig ninyo sa susunod. Una, \"sinibak\".",
+          "startSec": 905.3,
+          "endSec": 911.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang \"sinibak\" ay ang pandiwang ginagamit kapag may tinanggal sa puwesto, kadalasan nang biglaan at may kasamang parusa o iskandalo. Mas matigas ito kaysa \"inalis\", at madalas itong lumabas sa pamagat ng balita tungkol sa pamahalaan.",
+          "startSec": 911.23,
+          "endSec": 924.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "Halimbawa: \"Sinibak ng kalihim ang ilang kawani ng ahensya dahil sa anomalya.\" Kapag pribadong kumpanya ang pinag-uusapan, mas karaniwan ang \"tinanggal\" o \"pinatalsik\". Ang \"sinibak\" ay may bigat ng pananagutan.",
+          "startSec": 924.09,
+          "endSec": 935.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama. At may kaugnay itong pangngalan, \"pagsibak\", ang mismong pagtanggal. \"Ang pagsibak sa mga opisyal ay hindi pa katapusan ng imbestigasyon.\" Ang ikalawang salita ay \"pampulitika\".",
+          "startSec": 935.78,
+          "endSec": 945.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang \"pampulitika\" ay pang-uri na ang ibig sabihin ay may kinalaman sa politika o para sa layuning pampulitika. Pormal ito at madalas mong mababasa sa pahayagan: \"isyung pampulitika\", \"kaguluhang pampulitika\", \"pondong pampulitika\".",
+          "startSec": 945.92,
+          "endSec": 958.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Dito nagkakaiba ang tono. Ang \"pampulitika\" nang mag-isa ay neutral, pero kapag idinikit sa \"pondo\" o \"motibo\", may pahiwatig ito ng pansariling interes, na parang sinasabing hindi ito para sa taumbayan. Ihambing mo sa \"politikal\", na hiram na salita at mas madalas sa usapan kaysa sa balitang isinulat.",
+          "startSec": 958.72,
+          "endSec": 975.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya sa susunod na balita, pakinggan ninyo kung paano lumilitaw ang dalawang ito.",
+          "startSec": 975.5,
+          "endSec": 979.99
+        }
+      ],
+      "startSec": 905.3
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Sinibak na naman ng Kagawaran ng Pagawaing Bayan ang anim pang kawani sa Davao, batay sa rekomendasyon ng NBI, kaugnay ng mga anomalya sa flood control. Ito ay karagdagan sa apat na opisyal na inalis ni Kalihim Vince Dizon noong Oktubre 20.",
+          "startSec": 979.99,
+          "endSec": 993.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "Samantala, iniulat na pinanatili ng Kagawaran ng Pagbabadyet ang 37.49 bilyong piso para sa pondo ng mga lokal na pamahalaan sa badyet ng 2027. Para sa mga kritiko, pondong pampulitika ito bago ang halalan, at tinawag nilang \"pork ng Pangulo\".",
+          "startSec": 993.29,
+          "endSec": 1006.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Kinuwestiyon din ni Senador Imee Marcos ang biglang paglobo ng halaga, at naghihintay ang publiko ng malinaw na paliwanag mula sa Kagawaran.",
+          "startSec": 1006.75,
+          "endSec": 1014.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "In English for the details. Acting Budget Secretary Kim Robert de Leon kept the Local Government Support Fund in the proposed 2027 budget, cited requests from local governments, and the proposal is P37.49 billion against P5 billion in the version for 2026. The overall 2027 budget proposal is P7.2 trillion, filed August 11th. Separately a Senate subcommittee endorsed the budget department's own allocation, cut from P5.486 billion to P2.9 billion.",
+          "startSec": 1014.51,
+          "endSec": 1039.39
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On DPWH, the removals this week follow flood-control anomalies in Davao and extortion allegations in Cebu. The officials were removed over the Davao flood-control anomalies and the Cebu extortion allegations, and it continues the purge that has defined the department's year, and this time the personnel action came on an NBI recommendation, which gives it more legal footing than a political decision.",
+          "startSec": 1039.39,
+          "endSec": 1063.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Weather matters too, because there is a live storm. PAGASA's Rosal, internationally Champi, was downgraded from a super typhoon to a typhoon on Thursday afternoon, with maximum sustained winds of 165 kilometres an hour. It is not a direct hit: Signal No. 2 was raised over Batanes and Signal No. 1 over Cagayan and the Babuyan Islands, with 50 to 100 millimetres of rain expected there, and it is forecast to curve northeast by Sunday.",
+          "startSec": 1063.45,
+          "endSec": 1089.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the peso, at a record low of 63.36 per dollar on October 21st, according to Rappler, is the price tag for all of this, because oil at 113 dollars and a hiking Fed both hurt a currency that has already hit 29 records.",
+          "startSec": 1089.48,
+          "endSec": 1102.65
+        }
+      ],
+      "startSec": 980.0
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two Mandarin words today, both from the China data you'll hear next. The first is a connective, 尽管如此, jǐnguǎn rúcǐ, meaning \"even so\" or \"despite that\".",
+          "startSec": 1102.65,
+          "endSec": 1112.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "You already know 尽管, which sits inside a sentence. 尽管如此 is different: it finishes a thought and pivots. You state a fact, concede it, then turn. 工业增长了5.5%，尽管如此，零售只增长了1.1%。(Industry grew 5.5%; even so, retail grew only 1.1%.)",
+          "startSec": 1112.13,
+          "endSec": 1127.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "It is 书面语, written register, and it is common in reports and news analysis. In speech people often shorten it to 即使这样 or 就算这样, which are more conversational. 尽管如此，市场还是下跌了。(Even so, the market still fell.)",
+          "startSec": 1127.73,
+          "endSec": 1142.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second word is 下滑, xiàhuá, \"to slide\" or \"to decline\". It is an HSK 4 word for a downward trend that worries you, neutral to formal, and it collocates with 销量, sales, 利润, profit, and 投资, investment.",
+          "startSec": 1142.14,
+          "endSec": 1155.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "How does it differ from 下降? 下降 is the neutral, measured \"decrease\" and says nothing about concern, while 下滑 suggests a slope you are slipping down. And compared to 暴跌, a plunge, it is slower. 房地产开发投资持续下滑。(Real-estate development investment keeps sliding.)",
+          "startSec": 1155.0,
+          "endSec": 1172.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "One more with the collocation: 销量连续三个月下滑。(Sales have slid for three months in a row.) Keep an ear out for both in the China story.",
+          "startSec": 1172.08,
+          "endSec": 1180.72
+        }
+      ],
+      "startSec": 1102.7
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "尽管工业增长了5.5%，尽管如此，零售只增长了1.1%。(Industry grew 5.5%, and even so, retail grew only 1.1%.)",
+          "startSec": 1180.72,
+          "endSec": 1187.63
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is the September activity data from the National Bureau of Statistics, released October 19th, and it is the two-speed economy in a single sentence. Industrial output was up 5.5% from a year earlier, up from 5.2% in August. Retail sales rose 1.1%, which beat forecasts of around 0.5% to 0.6%, but is still a weak number.",
+          "startSec": 1187.63,
+          "endSec": 1207.02
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The drag is investment. 房地产开发投资持续下滑。(Real-estate development investment keeps sliding.) For January to September, property development investment is down 20.6%, fixed-asset investment overall is down 7.2%, and excluding property it is still down 4.2%. Third-quarter GDP grew 4.5%, helped by tech exports.",
+          "startSec": 1207.02,
+          "endSec": 1226.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the factories and exports run about 5 times faster than the shops, and the property sector is a drag on investment even outside property. That is the debt-deflation signature: households that cannot spend because their wealth is in housing, and local governments that cannot invest because land revenue has dried up.",
+          "startSec": 1226.26,
+          "endSec": 1245.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Reports note that provinces have cut their 2026 revenue forecasts and that local bond quota use was around 68% in the first 8 months against 76% a year earlier, so the fiscal pipe is not pushing money out either. The People's Bank held its loan prime rates on October 20th for the 17th straight month, 3.0% for the 1-year and 3.5% for the 5-year, and cheap credit is not turning into demand for credit. Reports put the average new corporate loan rate under 3% in September, about 0.2 points lower than a year ago, and the 10-year government bond yield near 1.65%, which is what a market looks like when it expects slow growth for a long time.",
+          "startSec": 1245.35,
+          "endSec": 1283.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "That is the lens for the whole segment: the central bank has already done the easy part. What is missing is balance sheets that want to borrow, which is why the property and local government numbers matter more than the headline GDP.",
+          "startSec": 1283.77,
+          "endSec": 1297.72
+        }
+      ],
+      "startSec": 1180.7
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Two exhibitions today, starting in London. The 90s: Art and Fashion opened at Tate Britain on October 8th and runs to February 14th, 2027. It is curated by Edward Enninful, the former Vogue editor, and billed as the first show to put the art, photography and fashion of the decade side by side.",
+          "startSec": 1297.72,
+          "endSec": 1315.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It has nearly 70 artists, photographers and designers and more than 100 works, from the Young British Artists to Alexander McQueen: Damien Hirst, Tracey Emin, Sarah Lucas, Steve McQueen's 1993 film Bear, Gillian Wearing, Yinka Shonibare, Gary Hume and Sam Taylor-Johnson, with garments by McQueen, Vivienne Westwood and Hussein Chalayan. The one review we found was mixed: the title is too broad, the treatment of the YBAs is thin, with Hirst's formaldehyde work in a static circle and Emin's neon almost a footnote.",
+          "startSec": 1315.31,
+          "endSec": 1346.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "That tension is the show's real subject. A curator from fashion hanging a decade of art is a decision about whose gaze defines the 90s, and it is a reasonable argument that the decade was lived through clothes and magazine covers as much as through the gallery.",
+          "startSec": 1346.19,
+          "endSec": 1361.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second, a quieter show in Cincinnati. Nancy Rexroth: Secrets of My Power runs at the Cincinnati Art Museum from October 2nd to January 3rd, with free admission. It is her first career retrospective, with more than 150 photographs from the 1960s to the early digital era.",
+          "startSec": 1361.81,
+          "endSec": 1377.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "The hook is her 1977 photobook IOWA, which marks its 50th anniversary, made in and around Athens, Ohio, not Iowa, with a toy Diana camera while she was doing her MFA. The museum has acquired more than 400 vintage prints, and the show is also a featured exhibition in the 2026 FotoFocus Biennial. The catalogue runs to 224 pages.",
+          "startSec": 1377.97,
+          "endSec": 1397.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Diana is a plastic camera with a plastic lens, so the soft, dreamlike vignette in those pictures is a limitation she turned into a style, and it gives the pictures a reputation as an early example of how the flaws of a camera can become a voice.",
+          "startSec": 1397.6,
+          "endSec": 1412.5
+        }
+      ],
+      "startSec": 1297.7
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "First, Matthew Lynn in the Washington Post, whose piece, reprinted October 19th, argues there is no such thing as a luxury electric vehicle market and never will be. We only have the outline and not the full text, so I will stick to what is attributed to him.",
+          "startSec": 1412.5,
+          "endSec": 1428.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman: Porsche has dropped two Taycan models in the US and Lamborghini shelved its electric Lanzador. Robotaxis and ride-hailing will absorb the premium mobility that remains. And the wealthy signal status with handbags and art, not with a powertrain, so luxury and electric are different value propositions.",
+          "startSec": 1428.0,
+          "endSec": 1447.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take: those failures reflect early battery technology, pricing and charging, not buyer psychology. Tesla and Lucid show that premium electric cars sell, and a slump in 2026 is not a verdict for ever. Premium buyers have historically adopted new technology first, and the argument ignores tariffs and policy, which are shaping what gets built and sold in America.",
+          "startSec": 1447.14,
+          "endSec": 1469.86
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And my addition: China's tech-led export surge is part of the picture. Chinese makers are pushing electric cars abroad at scale, so the premium end may simply be migrating to brands Lynn is not counting, and the real question is whether a Western luxury badge can carry a battery pack the way it carried a V12.",
+          "startSec": 1469.86,
+          "endSec": 1488.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "There is also a fair point in his favour. Status goods depend on scarcity and heritage, and an electric powertrain is quieter, quicker and easier to copy, so it arguably erodes the very thing a Lamborghini charges for. The counter is that Ferrari's own electric plans suggest the badge will not give up without a fight.",
+          "startSec": 1488.69,
+          "endSec": 1508.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, Theodore Johnson in the Washington Post on October 21st or 22nd, who argues that the president's rallies and rhetoric may not keep voters from focusing on corruption ahead of the midterms. We only saw a headline and a summary, so this is a lighter treatment.",
+          "startSec": 1508.07,
+          "endSec": 1524.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman is that corruption can sit alongside cost of living as a midterm issue, and Democrats see an opening. The counter: voters have repeatedly shrugged at allegations against Donald Trump, polls show prices and the economy dominate, and the White House rejects the charge. A corruption message works best when it is tied to a pocketbook, which is exactly why the Philippine flood-control story gets traction at home.",
+          "startSec": 1524.23,
+          "endSec": 1549.99
+        }
+      ],
+      "startSec": 1412.5
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One Good Thing, with a note that we could confirm this only from a single aggregator, so we are passing it on as reported. At Mahanoy Area High School in Pennsylvania, a student named Kenny Sedeno Ramirez was named homecoming king.",
+          "startSec": 1549.99,
+          "endSec": 1564.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And according to the account, when his friend Axton Kola, who has Down syndrome, seemed overwhelmed by the moment, Kenny took off his crown and sash and put them on Axton, to cheers and tears from the crowd. It happened on a Friday about a week ago.",
+          "startSec": 1564.03,
+          "endSec": 1579.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "No speech, no planning, just a teenager deciding the moment belonged to someone else.",
+          "startSec": 1579.15,
+          "endSec": 1584.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That is the show for this Friday. Thanks for listening, and have a good weekend.",
+          "startSec": 1584.32,
+          "endSec": 1589.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "See you Monday.",
+          "startSec": 1589.18,
+          "endSec": 1590.09
+        }
+      ],
+      "startSec": 1550.0
+    }
+  ]
+}

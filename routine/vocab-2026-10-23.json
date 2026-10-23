@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-23",
+ "cards": [
+  {"id": "2026-10-23-tl-1", "lang": "Tagalog", "word": "sinibak", "pinyin": "", "pronunciation": "si-ni-BÁK", "tones": "",
+   "meaning": "was sacked; was removed from post", "example": "Sinibak ng kalihim ang anim na kawani ng DPWH sa Davao.", "examplePinyin": "",
+   "exampleMeaning": "The secretary sacked six DPWH staff in Davao.",
+   "note": "Pangkaraniwan sa pamagat ng balita para sa biglaang pagtanggal sa puwesto; mas matigas kaysa 'inalis' at mas madalas sa pamahalaan kaysa sa pribadong kumpanya.", "tiesTo": "DPWH removes more Davao staff over flood-control anomalies"},
+  {"id": "2026-10-23-tl-2", "lang": "Tagalog", "word": "pampulitika", "pinyin": "", "pronunciation": "pam-pu-li-TÍ-ka", "tones": "",
+   "meaning": "political; for political purposes", "example": "Pondong pampulitika raw ang P37.49 bilyon na inilagay sa badyet.", "examplePinyin": "",
+   "exampleMeaning": "The P37.49 billion placed in the budget is said to be a political fund.",
+   "note": "Pang-uri na may unlaping 'pam-'; ginagamit sa pormal na balita at madalas may pahiwatig ng pansariling interes kapag kasama ng 'pondo' o 'motibo'.", "tiesTo": "P37.49B local government fund in the 2027 budget"},
+  {"id": "2026-10-23-zh-1", "lang": "Mandarin", "word": "尽管如此", "pinyin": "jǐn guǎn rú cǐ", "pronunciation": "jin-gwahn roo-tsuh", "tones": "3 · 3 · 2 · 3",
+   "meaning": "even so; despite that", "example": "工业增长了5.5%，尽管如此，零售只增长了1.1%。", "examplePinyin": "Gōngyè zēngzhǎng le wǔ diǎn wǔ, jǐnguǎn rúcǐ, língshòu zhǐ zēngzhǎng le yī diǎn yī.",
+   "exampleMeaning": "Industry grew 5.5%; even so, retail grew only 1.1%.",
+   "note": "书面语 connective that stands alone as a sentence opener after a concession. Contrast 尽管…还是, which sits inside one sentence; 尽管如此 closes the previous clause and pivots.", "tiesTo": "China September data: factories at 5.5%, shops at 1.1%"},
+  {"id": "2026-10-23-zh-2", "lang": "Mandarin", "word": "下滑", "pinyin": "xià huá", "pronunciation": "shyah-hwah", "tones": "4 · 2",
+   "meaning": "to slide; to decline", "example": "房地产开发投资持续下滑。", "examplePinyin": "Fángdìchǎn kāifā tóuzī chíxù xiàhuá.",
+   "exampleMeaning": "Real-estate development investment keeps sliding.",
+   "note": "Neutral-to-formal; typical collocations are 销量下滑, 利润下滑, 投资下滑. Gentler than 暴跌 (plunge) and slower than 下降 suggests nothing about speed; 下滑 implies a worrying trend.", "tiesTo": "China property investment -20.6% for Jan-Sep"}
+ ]
+}

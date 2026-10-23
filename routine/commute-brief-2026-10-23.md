@@ -1,0 +1,14 @@
+# Brief 2026-10-23 (Fri) — compiled from search snippets; WebFetch/FMP/Gmail unavailable. Single-source items flagged [1src].
+THROUGHLINE: who pays when the financing gets scarier than the earnings
+WORLD: turkey-mecca-pact-ratification (Oct20 submitted to parl; technical staff first, no offensive role; Reuters) | houthi-aramco-dhahran-evac (Houthis claim Yanbu/Shaybah/Riyadh/Abha; Saudi unconfirmed; Aramco HQ evac; Egypt vote ~Oct26) | iran-parliament-closed-sessions (2 closed sessions, IRGC says hit 4 vessels; Rubio thanks Qatar) [1src CBS] | backup albania-tirana-protests (167 arrested Oct17)
+US BIZ: meta-q3-fcf-negative (stock ~-7%, FCF -$2.12B, capex guide $135-145B floor from $130B, CDS record, non-voting Class C) | nvidia-nasdaq-financing-scare (NVDA -4.4%, Nasdaq -2.6% worst since June, S&P -1.2% worst since July)
+INTL: japan-sept-core-cpi-2.1 (core at BOJ target first time since Dec; BOJ Oct29-30 hold, Dec hike possible; Sept hike to 1.25% 7-2) | france-oat-10y-5pct (touched 5.002% Oct21 first since 2002; ~157bp over Bund; 2027 budget ~EUR43B; Lecornu minority) | backup kering-gucci-drop
+MARKETS (Thu Oct22 close): SPX 7,663.43 -1.21 | NDX comp 26,008.86 -2.6 | Dow 52,867.98 +0.02 | RUT ~2,783 +0.1 | UST10Y ~4.97 (-16bp from 5.13) | WTI 99.47 | Brent 113.17 +4% | gold ~4,025 (-2.8% [1src]) | USDJPY ~156.25 | DXY ~101.6 | Nikkei 62,907.84 Thu -2.7 | HSI 22,934.68 Thu -3.0 | KOSPI Thu -3.5
+MARKET BIG MOVES: Nasdaq -2.6 (Meta FCF), Brent +4%, 10Y -16bp (safe-haven), gold drop [1src]
+DEEP DIVE: record El Nino — WMO Oct8 seasonal update; Nino3.4 seasonal anomaly fcst ~+3.7C vs record +2.6C (NDJ 2015-16); Sept monthly +2.9C record (Hausfather); Noll ~4C Dec peak; Goldman food +15.8%; Oxford food +12% 2026 [snippet-level; baselines differ]. Backup: Maya astronomer Sak Tahn Waax.
+ENERGY (web): google-voltus-gw-pjm-vpp [1src headline, 1GW/2040 unverified; orig deal 100MW Jun2] | vantage-heron-1gw-800vdc-sst (5MW unit, >98.5% eff, reservation not delivery) | doe-dpa-50m-appalachian-reconductoring (~290MW GETs, VA/WV) | pjm-souder-reserves-dwindling (Oct)
+PH: typhoon Rosal/Champi (165km/h, Signal 2 Batanes, no landfall) | dpwh-dizon-purge (6 more Davao staff removed on NBI rec Oct23) | falgu-37.49b-lgu-fund 2027 budget "president's pork" (NEP 2026 was P5B) | peso 63.36 Oct21 record low (level only)
+CHINA: sept activity two-speed — IP +5.5, retail +1.1, Jan-Sep FAI -7.2, property investment -20.6, FAI ex-property -4.2 (NBS Oct19). Backup LPR 17th hold 3.0/3.5.
+ARTS: tate-britain-90s-enninful (Oct8-Feb14, ~70 artists, mixed review) | rexroth-iowa-cincinnati (150+ photos, 50th anniv of IOWA, Diana camera) | hk-autumn-auctions >HK$2bn [med-low]
+OPEDS [snippet-level]: Lynn WaPo no luxury EV market | backup TR Johnson WaPo corruption midterms
+GOOD: mahanoy-homecoming-crown [1src low confidence; attribute as reported]

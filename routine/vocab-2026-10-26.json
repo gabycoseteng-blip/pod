@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-26",
+ "cards": [
+  {"id": "2026-10-26-tl-1", "lang": "Tagalog", "word": "isiningit", "pinyin": "", "pronunciation": "i-si-ning-IT", "tones": "",
+   "meaning": "was slipped in; was inserted on the sly", "example": "Isiningit daw sa badyet ng Department of Agriculture ang libu-libong proyekto.", "examplePinyin": "",
+   "exampleMeaning": "Thousands of projects were reportedly slipped into the Department of Agriculture budget.",
+   "note": "Pandiwang pasibo mula sa 'isingit'; may pahiwatig ng palihim na paglalagay, di tulad ng neutral na 'inilagay' o 'ipinasok'.", "tiesTo": "House insertions of about P190B into the DA 2027 budget"},
+  {"id": "2026-10-26-tl-2", "lang": "Tagalog", "word": "bumulusok", "pinyin": "", "pronunciation": "bu-mu-LU-sok", "tones": "",
+   "meaning": "plunged; dived steeply", "example": "Bumulusok ang halaga ng piso sa P63.95 kontra dolyar.", "examplePinyin": "",
+   "exampleMeaning": "The peso plunged to P63.95 against the dollar.",
+   "note": "Mas matindi at tuloy-tuloy ang pagbagsak kaysa sa 'bumagsak'; madalas sa pamagat ng balita at sa panitikan.", "tiesTo": "Peso at a fifth straight record low"},
+  {"id": "2026-10-26-zh-1", "lang": "Mandarin", "word": "倘若", "pinyin": "tǎng ruò", "pronunciation": "tahng-rwoh", "tones": "3 · 4",
+   "meaning": "if; supposing that", "example": "倘若土地出让收入继续下滑，地方政府就很难偿还债务。", "examplePinyin": "Tǎngruò tǔdì chūràng shōurù jìxù xiàhuá, dìfāng zhèngfǔ jiù hěn nán chánghuán zhàiwù.",
+   "exampleMeaning": "If land-sale income keeps sliding, local governments will struggle to repay their debts.",
+   "note": "书面语 conditional, more hypothetical and bookish than neutral 如果; often paired with 就 or 则 in the result clause. Contrast 一旦, which says 'once it happens'; 倘若 stays in 'suppose'.", "tiesTo": "China land-sale revenue down 27.9% in Jan-Sep"},
+  {"id": "2026-10-26-zh-2", "lang": "Mandarin", "word": "依赖", "pinyin": "yī lài", "pronunciation": "ee-lye", "tones": "1 · 4",
+   "meaning": "to depend on; to rely on", "example": "许多地方政府长期依赖土地财政。", "examplePinyin": "Xǔduō dìfāng zhèngfǔ chángqī yīlài tǔdì cáizhèng.",
+   "exampleMeaning": "Many local governments have long relied on land finance.",
+   "note": "Formal-neutral, common in economic writing; 依赖于 is the more abstract pattern. Contrast 取决于, which describes what an outcome is determined by; 依赖 describes a dependence, often with a worried tone.", "tiesTo": "Local-government dependence on land-sale income"}
+ ]
+}

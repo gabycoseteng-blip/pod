@@ -1,20 +1,20 @@
-{ "date": "2026-10-23", "asOf": "Thursday, October 22 close (Asia: Thursday)",
+{ "date": "2026-10-26", "asOf": "Friday, October 23 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,663.43", "change": "-1.21%", "dir": "down"},
-      {"label": "Nasdaq", "value": "26,008.86", "change": "-2.60%", "dir": "down"},
-      {"label": "Dow", "value": "52,867.98", "change": "+0.02%", "dir": "up"},
-      {"label": "Russell 2000", "value": "2,783.12", "change": "+0.08%", "dir": "up"} ]},
+      {"label": "S&P 500", "value": "7,623.68", "change": "-0.52%", "dir": "down"},
+      {"label": "Nasdaq", "value": "25,955.34", "change": "-0.21%", "dir": "down"},
+      {"label": "Dow", "value": "52,215.16", "change": "-1.23%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,775.90", "change": "-0.29%", "dir": "down"} ]},
     {"name": "Global Indices", "rows": [
-      {"label": "Nikkei 225 (Thu)", "value": "62,907.84", "change": "-2.65%", "dir": "down"},
-      {"label": "Hang Seng (Thu)", "value": "22,934.68", "change": "-3.03%", "dir": "down"},
-      {"label": "KOSPI (Thu)", "value": "", "change": "-3.5%", "dir": "down"} ]},
-    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~4.97%", "change": "-16 bps", "dir": "down"}]},
+      {"label": "FTSE 100", "value": "10,690.36", "change": "-0.32%", "dir": "down"},
+      {"label": "DAX", "value": "25,181.65", "change": "-0.75%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "62,693.16", "change": "-0.34%", "dir": "down"},
+      {"label": "Hang Seng", "value": "23,093.37", "change": "+0.69%", "dir": "up"},
+      {"label": "Shanghai Comp", "value": "3,690.48", "change": "+0.89%", "dir": "up"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~5.00%", "change": "+4-5 bps", "dir": "up"}]},
     {"name": "Commodities", "rows": [
-      {"label": "WTI", "value": "99.47", "change": "+2.32", "dir": "up"},
-      {"label": "Brent", "value": "113.17", "change": "+4.0%", "dir": "up"},
-      {"label": "Gold (spot, approx.)", "value": "~4,025", "change": "-2.8%", "dir": "down"} ]},
-    {"name": "FX", "rows": [
-      {"label": "USD/JPY", "value": "~156.25", "change": "", "dir": "flat"},
-      {"label": "DXY", "value": "~101.6", "change": "", "dir": "flat"} ]} ],
-  "note": "Thursday US close; Asia are Thursday closes. Compiled from news reports (no FMP key); gold, 10Y and KOSPI level approximate or single-source." }
+      {"label": "Brent", "value": "116.72", "change": "+3.14%", "dir": "up"},
+      {"label": "WTI", "value": "103.27", "change": "+3.8%", "dir": "up"},
+      {"label": "Gold (spot, approx.)", "value": "~4,012", "change": "-0.3%", "dir": "down"} ]},
+    {"name": "FX", "rows": [{"label": "DXY", "value": "~101.75", "change": "+0.14%", "dir": "up"}]} ],
+  "note": "Friday close, compiled from news reports (no FMP key); 10Y, gold and WTI approximate or multi-source." }

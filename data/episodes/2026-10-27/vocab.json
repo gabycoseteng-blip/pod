@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-27",
+ "cards": [
+  {"id": "2026-10-27-tl-1", "lang": "Tagalog", "word": "pagsubaybay", "pinyin": "", "pronunciation": "pag-su-bay-BAY", "tones": "",
+   "meaning": "monitoring; close oversight", "example": "Magtatatag ang Ombudsman ng panel para sa pagsubaybay sa badyet ng gobyerno.", "examplePinyin": "",
+   "exampleMeaning": "The Ombudsman will set up a panel to monitor the government's budget.",
+   "note": "Pangngalan mula sa 'subaybay'; may kahulugang tuloy-tuloy na pagbabantay, hindi minsanang pagsilip. Madalas sa ugnayang 'pagsubaybay sa' + paksa, gaya ng badyet, presyo, o kaso.", "tiesTo": "Ombudsman budget watch panel after the Supreme Court struck down the budgets"},
+  {"id": "2026-10-27-tl-2", "lang": "Tagalog", "word": "nagpalitan", "pinyin": "", "pronunciation": "nag-pa-LI-tan", "tones": "",
+   "meaning": "swapped with each other; traded places", "example": "Nagpalitan ng puwesto sina Dizon at Lopez sa gabinete.", "examplePinyin": "",
+   "exampleMeaning": "Dizon and Lopez swapped posts in the cabinet.",
+   "note": "Pandiwang may unlaping 'nag-' at 'pag-' na nagpapahiwatig ng dalawang panig na kapwa gumawa; kaiba sa 'nagpalit' na iisang tao ang nagbago.", "tiesTo": "Dizon and Lopez swapping DOTr and DPWH"},
+  {"id": "2026-10-27-zh-1", "lang": "Mandarin", "word": "盈利", "pinyin": "yíng lì", "pronunciation": "ying-lee", "tones": "2 · 4",
+   "meaning": "profit; to turn a profit", "example": "尽管消费不振，电子行业的盈利还是大幅增长。", "examplePinyin": "Jǐnguǎn xiāofèi bùzhèn, diànzǐ hángyè de yínglì háishi dàfú zēngzhǎng.",
+   "exampleMeaning": "Even though consumption is weak, profits in the electronics industry still grew sharply.",
+   "note": "Both noun and verb, common in business writing. Contrast 利润 (the profit figure on a statement) with 盈利 (the state of making money, or the act); the opposite is 亏损.", "tiesTo": "China September industrial profits up 14.4%"},
+  {"id": "2026-10-27-zh-2", "lang": "Mandarin", "word": "与其说……不如说……", "pinyin": "yǔ qí shuō... bù rú shuō...", "pronunciation": "yoo-chee shwo... boo-roo shwo", "tones": "",
+   "meaning": "rather than say X, it's better to say Y", "example": "与其说这是复苏，不如说这是少数行业的繁荣。", "examplePinyin": "Yǔqí shuō zhè shì fùsū, bùrú shuō zhè shì shǎoshù hángyè de fánróng.",
+   "exampleMeaning": "Rather than call this a recovery, it's better to call it a boom in a few sectors.",
+   "note": "Abstract reframing connective, slightly formal; it corrects a label rather than choosing between actions. Contrast 与其……不如……, which weighs two courses of action.", "tiesTo": "Reframing China's profit surge as narrow, not broad recovery"}
+ ]
+}

@@ -1,0 +1,6 @@
+{
+  "throughline": "who captures the profit when the cost shows up first",
+  "stories": ["israel-election-vote-day", "iran-regional-talks-tehran", "ukraine-trilateral-talks-november", "anthropic-s1-filing", "eqt-range-merger", "asia-chip-rebound-kospi", "central-bank-week-rbnz-ecb", "markets-oct26-chip-rebound-oil", "deepdive-alcohol-risk-study", "energy-anthropic-807b-commitments", "energy-tnc-prosperity-one", "energy-google-voltus-vpp", "energy-exelon-tsa-pipeline", "energy-compute-futures", "energy-ctvc-midterms-ballot", "ph-ombudsman-budget-watch", "ph-dizon-lopez-swap", "ph-senate-lump-sums", "ph-peso-past-64", "china-sept-industrial-profits", "arts-bourse-remember-me-photo", "arts-hk-autumn-auctions", "arts-mavis-pusey-hammer", "oped-boot-midterm-iran-tariffs", "oped-sales-security-emergency", "good-dale-boat-texas"],
+  "explainers": ["compute futures margin mechanics", "lifetime vs annual risk framing"],
+  "comment": "stories = distinct items covered; explainers = concepts explained"
+}

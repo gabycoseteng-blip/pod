@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-28",
+ "cards": [
+  {"id": "2026-10-28-tl-1", "lang": "Tagalog", "word": "palugit", "pinyin": "", "pronunciation": "pa-LÚ-git", "tones": "",
+   "meaning": "grace period; leeway before something is enforced", "example": "Nagbigay ng palugit ang Senado sa dalawang senador bago ipatupad ang suspensyon.", "examplePinyin": "",
+   "exampleMeaning": "The Senate gave the two senators a grace period before enforcing the suspension.",
+   "note": "Panahong ibinibigay bago ang pagpapatupad o paniningil; kaiba sa 'taning' na tiyak at mahigpit na hangganan. Kadalasang kasunod ng 'magbigay' o 'humingi'.", "tiesTo": "Senate holding Estrada and Marcoleta suspensions pending Sandiganbayan ruling"},
+  {"id": "2026-10-28-tl-2", "lang": "Tagalog", "word": "paratang", "pinyin": "", "pronunciation": "pa-ra-TÁNG", "tones": "",
+   "meaning": "accusation; charge not yet proven", "example": "Ang paratang ng Ombudsman laban sa hukom ay tinanggihan ng korte.", "examplePinyin": "",
+   "exampleMeaning": "The Ombudsman's accusation against the judge was rejected by the court.",
+   "note": "Pormal at legal ang dating; kaiba sa 'sumbong' na mas personal. Madalas na 'paratang laban sa' + tao o opisyal; ang diin ay nasa pagiging akusasyon, hindi sa katotohanan.", "tiesTo": "Ombudsman's recusal bid against Sandiganbayan Justice Moreno"},
+  {"id": "2026-10-28-zh-1", "lang": "Mandarin", "word": "况且", "pinyin": "kuàng qiě", "pronunciation": "kwahng-chyeh", "tones": "4 · 3",
+   "meaning": "besides; moreover", "example": "央行已经注入了大量资金，况且债券收益率还在创新低。", "examplePinyin": "Yāngháng yǐjīng zhùrù le dàliàng zījīn, kuàngqiě zhàiquàn shōuyìlǜ hái zài chuàng xīn dī.",
+   "exampleMeaning": "The central bank has already injected a lot of money, and besides, bond yields keep hitting new lows.",
+   "note": "Mildly formal connective that stacks one more supporting reason onto an earlier one. Contrast 何况, which is rhetorical ('how much more so'); 况且 is calmer and suits analysis writing. Opens the second clause.", "tiesTo": "PBOC record 1 trillion yuan injection with yields at record lows"},
+  {"id": "2026-10-28-zh-2", "lang": "Mandarin", "word": "与否", "pinyin": "yǔ fǒu", "pronunciation": "yoo-foh", "tones": "3 · 3",
+   "meaning": "whether or not", "example": "刺激政策成功与否，取决于居民愿不愿意消费。", "examplePinyin": "Cìjī zhèngcè chénggōng yǔfǒu, qǔjué yú jūmín yuàn bu yuànyì xiāofèi.",
+   "exampleMeaning": "Whether or not the stimulus succeeds depends on whether households are willing to spend.",
+   "note": "Formal written (书面语); follows a noun or verb to make an 'X or not' noun phrase that can be a subject (成功与否). Contrast 是否, a question word placed before the verb.", "tiesTo": "Whether China's liquidity push revives demand"}
+ ]
+}

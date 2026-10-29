@@ -1,21 +1,21 @@
-{ "date": "2026-10-28", "asOf": "Tuesday, October 27 close",
+{ "date": "2026-10-29", "asOf": "Wednesday, October 28 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,722.60", "change": "+0.60%", "dir": "up"},
-      {"label": "Nasdaq", "value": "26,477.81", "change": "+1.18%", "dir": "up"},
-      {"label": "Dow", "value": "52,377.57", "change": "+0.03%", "dir": "up"},
-      {"label": "Russell 2000", "value": "2,818.87", "change": "+1.16%", "dir": "up"} ]},
+      {"label": "S&P 500", "value": "7,743.98", "change": "+0.28%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "26,549.85", "change": "+0.27%", "dir": "up"},
+      {"label": "Dow Jones", "value": "52,475.10", "change": "+0.19%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,830.51", "change": "+0.41%", "dir": "up"} ]},
     {"name": "Global Indices", "rows": [
-      {"label": "FTSE 100", "value": "~10,687", "change": "-0.75%", "dir": "down"},
-      {"label": "DAX", "value": "~25,591", "change": "+0.71%", "dir": "up"},
-      {"label": "Nikkei 225", "value": "~63,268", "change": "+1.7%", "dir": "up"},
-      {"label": "Hang Seng", "value": "23,041", "change": "-0.73%", "dir": "down"},
-      {"label": "Shanghai Composite", "value": "~3,648", "change": "-1.33%", "dir": "down"} ]},
-    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~4.99%", "change": "n/a", "dir": "flat"}]},
+      {"label": "FTSE 100", "value": "10,694.50", "change": "+0.07%", "dir": "up"},
+      {"label": "DAX", "value": "25,704.02", "change": "+0.44%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "~63,954", "change": "+1.08%", "dir": "up"},
+      {"label": "Kospi", "value": "6,023.73", "change": "+6.8%", "dir": "up"},
+      {"label": "PSEi", "value": "5,653.55", "change": "-1.87%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "5.04%", "change": "+5 bps", "dir": "up"}]},
     {"name": "Commodities", "rows": [
-      {"label": "WTI", "value": "99.90", "change": "-1.8%", "dir": "down"},
-      {"label": "Gold", "value": "~4,058", "change": "+~1%", "dir": "up"} ]},
+      {"label": "WTI crude", "value": "102.78", "change": "+2.88%", "dir": "up"},
+      {"label": "Gold (Dec)", "value": "4,051.60", "change": "-0.53%", "dir": "down"} ]},
     {"name": "FX", "rows": [
-      {"label": "USD/JPY", "value": "~157.9", "change": "n/a", "dir": "flat"},
-      {"label": "EUR/USD", "value": "~1.1126", "change": "-0.43%", "dir": "down"} ]} ],
-  "note": "Prior-session close from press reports (FMP unavailable); '~' marks approximate levels." }
+      {"label": "USD/PHP", "value": "64.025", "change": "-0.145", "dir": "down"},
+      {"label": "USD/JPY", "value": "158.28", "change": "—", "dir": "flat"} ]} ],
+  "note": "Prior-session close. Hand-compiled from press reports (no FMP key); Nikkei approximate." }

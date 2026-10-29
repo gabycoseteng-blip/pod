@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-29",
+ "cards": [
+  {"id": "2026-10-29-tl-1", "lang": "Tagalog", "word": "balakid", "pinyin": "", "pronunciation": "ba-la-KÍD", "tones": "",
+   "meaning": "obstacle; hurdle blocking progress", "example": "Ang kakulangan ng korum ay naging balakid sa paglilitis.", "examplePinyin": "",
+   "exampleMeaning": "The lack of a quorum became an obstacle to the trial.",
+   "note": "Mas matalinghaga at pormal kaysa sa 'sagabal'; madalas sa ulat at talumpati. Kadalasang sinasamahan ng 'maging' o 'harapin'.", "tiesTo": "Senate budget calendar colliding with the Sara Duterte trial quorum"},
+  {"id": "2026-10-29-tl-2", "lang": "Tagalog", "word": "kaban", "pinyin": "", "pronunciation": "ka-BÁN", "tones": "",
+   "meaning": "chest; in news, 'kaban ng bayan' = public coffers", "example": "Bantayan natin ang kaban ng bayan, lalo na ngayong may pagtatalo sa badyet.", "examplePinyin": "",
+   "exampleMeaning": "Let us guard the public coffers, especially now that there is a budget dispute.",
+   "note": "May damdamin, kaiba sa teknikal na 'pondo' o 'badyet'; ginagamit ng mga mambabatas upang ipaalala na pera ng taumbayan ito.", "tiesTo": "2027 P7.2T budget slipping to December"},
+  {"id": "2026-10-29-zh-1", "lang": "Mandarin", "word": "提前", "pinyin": "tí qián", "pronunciation": "tee-chyen", "tones": "2 · 2",
+   "meaning": "ahead of schedule; to move earlier", "example": "财政部决定提前发行明年的部分国债。", "examplePinyin": "Cáizhèngbù juédìng tíqián fāxíng míngnián de bùfen guózhài.",
+   "exampleMeaning": "The Ministry of Finance decided to issue part of next year's government bonds ahead of schedule.",
+   "note": "Neutral register, works in speech and writing. Contrast 事先, which means 'beforehand' as preparation; 提前 moves a planned date earlier. Collocates with 发行, 还款, 完成.", "tiesTo": "Beijing front-loading Nov-Dec bond sales"},
+  {"id": "2026-10-29-zh-2", "lang": "Mandarin", "word": "起到……作用", "pinyin": "qǐ dào … zuòyòng", "pronunciation": "chee-dow … zwoh-yohng", "tones": "3 · 4 · 4 · 4",
+   "meaning": "to play a role; to have an effect", "example": "这些债券将对基建投资起到支撑作用。", "examplePinyin": "Zhèxiē zhàiquàn jiāng duì jījiàn tóuzī qǐdào zhīchēng zuòyòng.",
+   "exampleMeaning": "These bonds will play a supporting role for infrastructure investment.",
+   "note": "Abstract collocation, 书面语 (written/formal); casual speech prefers 有帮助. Pattern: 起到 + adjective/noun + 作用 (积极, 关键, 托底). 作用 is neutral, so 副作用 is a side effect.", "tiesTo": "Bond issuance meant to put a floor under the economy"}
+ ]
+}

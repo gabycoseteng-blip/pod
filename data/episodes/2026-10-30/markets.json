@@ -1,0 +1,24 @@
+{ "date": "2026-10-30", "asOf": "Thursday, October 29 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,720.39", "change": "-0.30%", "dir": "down"},
+      {"label": "Nasdaq", "value": "26,184.72", "change": "-1.38%", "dir": "down"},
+      {"label": "Dow", "value": "52,342.56", "change": "-0.25%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,859.22", "change": "+1.01%", "dir": "up"}]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,722.07", "change": "+0.26%", "dir": "up"},
+      {"label": "DAX", "value": "26,039.68", "change": "+1.31%", "dir": "up"},
+      {"label": "PSEi", "value": "5,705.58", "change": "+0.92%", "dir": "up"},
+      {"label": "Nikkei 225 (Fri)", "value": "63,290.11", "change": "-2.12%", "dir": "down"},
+      {"label": "KOSPI (Fri)", "value": "n/a", "change": "-4.9%", "dir": "down"},
+      {"label": "Hang Seng (Fri)", "value": "n/a", "change": "+1.4%", "dir": "up"}]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "4.99%", "change": "-5.6 bps", "dir": "down"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "102.00", "change": "-0.76%", "dir": "down"},
+      {"label": "Brent (Jan)", "value": "110.80", "change": "-0.8%", "dir": "down"},
+      {"label": "Gold", "value": "4,031.40", "change": "-0.50%", "dir": "down"}]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "63.85", "change": "-0.175", "dir": "down"},
+      {"label": "USD/JPY", "value": "157.8", "change": "", "dir": "flat"},
+      {"label": "EUR/USD", "value": "1.117", "change": "", "dir": "flat"}]} ],
+  "note": "Prior-session close; Asia Friday moves are intraday/close per web reports, levels approximate." }

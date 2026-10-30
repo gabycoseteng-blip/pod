@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-30",
+ "cards": [
+  {"id": "2026-10-30-tl-1", "lang": "Tagalog", "word": "umaray", "pinyin": "", "pronunciation": "u-ma-RÁY", "tones": "",
+   "meaning": "to cry out in complaint; to wince or protest at a cost", "example": "Umaray ang mga mamimili sa presyo ng gasolina at bigas.", "examplePinyin": "",
+   "exampleMeaning": "Consumers cried out over the price of fuel and rice.",
+   "note": "Pang-araw-araw at medyo matalinghaga; mas malakas ang dating kaysa sa 'nagreklamo'. Kadalasang sinusundan ng 'sa' + sanhi ng sakit o gastos.", "tiesTo": "Peso at P64 and oil-driven inflation hitting households"},
+  {"id": "2026-10-30-tl-2", "lang": "Tagalog", "word": "pagtugon", "pinyin": "", "pronunciation": "pag-tu-GÓN", "tones": "",
+   "meaning": "response; the act of addressing a problem", "example": "Kailangan ng mabilis na pagtugon ng pamahalaan sa paghina ng piso.", "examplePinyin": "",
+   "exampleMeaning": "The government needs a swift response to the peso's weakness.",
+   "note": "Pormal; ginagamit sa balita at pahayag ng gobyerno. Kaiba sa 'sagot' na tumutukoy sa tanong; ang 'pagtugon' ay aksyon sa isang problema.", "tiesTo": "Gatchalian's reenacted-budget warning and Marcos's peso pledge"},
+  {"id": "2026-10-30-zh-1", "lang": "Mandarin", "word": "升值", "pinyin": "shēng zhí", "pronunciation": "shuhng jr", "tones": "1 · 2",
+   "meaning": "to appreciate (of a currency or asset)", "example": "人民币升值了，出口企业的压力就更大。", "examplePinyin": "Rénmínbì shēngzhí le, chūkǒu qǐyè de yālì jiù gèng dà.",
+   "exampleMeaning": "When the renminbi appreciates, the pressure on exporters grows.",
+   "note": "Neutral-to-formal, used for currencies and assets; opposite is 贬值. Contrast 上涨 (a price simply rising); 升值 implies value gained against something else. Collocates with 人民币, 房产.", "tiesTo": "Yuan at a 4-year high near 6.66"},
+  {"id": "2026-10-30-zh-2", "lang": "Mandarin", "word": "对……造成冲击", "pinyin": "duì … zàochéng chōngjī", "pronunciation": "dway … dzow-chung chohng-jee", "tones": "4 · 4 · 2 · 1",
+   "meaning": "to have a shock impact on", "example": "美元走强对新兴市场造成冲击。", "examplePinyin": "Měiyuán zǒuqiáng duì xīnxīng shìchǎng zàochéng chōngjī.",
+   "exampleMeaning": "A stronger dollar has a shock impact on emerging markets.",
+   "note": "Abstract collocation, 书面语 (written/formal). Contrast 影响 (neutral 'affect'); 冲击 stresses a sudden, disruptive blow. Often with 市场, 经济, 出口.", "tiesTo": "Dollar and oil shocks hitting Asian markets, the KOSPI crash"}
+ ]
+}

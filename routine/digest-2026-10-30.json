@@ -1,0 +1,38 @@
+{
+ "throughline": "who pays when the spend outruns the cash",
+ "stories": [
+  "vance-letter-rezaei-iran",
+  "dnipro-station-strike-14",
+  "midterms-senate-5days",
+  "googl-worst-day-fcf-burn",
+  "amzn-aws-39-capex-220b",
+  "intc-q4-guide-collapse",
+  "lly-guide-raise-91b",
+  "doordash-instacart-17b",
+  "un-cuba-embargo-130-17-25",
+  "boj-hold-8-1",
+  "kospi-oct30-crash",
+  "binance-hot-wallet",
+  "markets-oct29-rotation-rut",
+  "deepdive-rubin-dwarf-planet-ed138",
+  "energy-amzn-capacity-not-enough",
+  "energy-doe-constellation-uprate-loan",
+  "energy-ercot-50k-mw-security",
+  "ph-peso-64.17-sixth-record",
+  "ph-gatchalian-reenacted-budget",
+  "ph-icc-96-victims",
+  "china-yuan-4yr-high",
+  "arts-christies-abudhabi-kandinsky",
+  "arts-moca-vicuna-quipu",
+  "opeds-teixeira-blue-wave-trap",
+  "good-hampton-janitor-school",
+  "china-nbs-pmi-preview"
+ ],
+ "explainers": [
+  "what a dwarf planet requires (IAU criteria)",
+  "why the albedo assumption widens a size estimate",
+  "TTM free cash flow vs quarterly",
+  "per-MW financial security in queues"
+ ],
+ "comment": "stories = every distinct item covered; explainers = concepts actually explained"
+}

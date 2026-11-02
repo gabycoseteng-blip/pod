@@ -1,0 +1,20 @@
+{ "date": "2026-11-02", "asOf": "Friday, October 30 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,580.07", "change": "-1.82%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "25,437.00", "change": "-2.86%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,770.31", "change": "-1.09%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,811.84", "change": "-1.66%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,729.78", "change": "+0.07%", "dir": "up"},
+      {"label": "DAX", "value": "25,818.21", "change": "-0.85%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "63,290.11", "change": "-2.12%", "dir": "down"},
+      {"label": "Hang Seng", "value": "23,294.42", "change": "+1.46%", "dir": "up"},
+      {"label": "Shanghai Composite", "value": "3,599.02", "change": "-1.44%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "4.93%", "change": "-5 bps", "dir": "down"}]},
+    {"name": "Commodities", "rows": [{"label": "WTI crude", "value": "104.12", "change": "+2.1%", "dir": "up"}]},
+    {"name": "FX", "rows": [
+      {"label": "USD/JPY", "value": "157.52", "change": "-0.20%", "dir": "down"},
+      {"label": "EUR/USD", "value": "1.1166", "change": "+0.09%", "dir": "up"},
+      {"label": "DXY", "value": "101.92", "change": "-0.12%", "dir": "down"} ]} ],
+  "note": "Prior-session close from market wraps (no FMP key); Brent, gold and USD/PHP omitted as unverified." }

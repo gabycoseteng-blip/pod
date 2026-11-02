@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-02",
+ "cards": [
+  {"id": "2026-11-02-tl-1", "lang": "Tagalog", "word": "sumipa", "pinyin": "", "pronunciation": "su-mi-PÁ", "tones": "",
+   "meaning": "to spike; to jump suddenly (literally, to kick)", "example": "Sumipa ang implasyon sa 7.2% noong Setyembre.", "examplePinyin": "",
+   "exampleMeaning": "Inflation spiked to 7.2% in September.",
+   "note": "Pang-ulat at ginagamit sa titulo ng balita; may kasamang gulat. Mas biglaan kaysa 'tumaas', mas mahinahon kaysa 'sumirit'.", "tiesTo": "September inflation at 7.2% and BSP's October forecast band"},
+  {"id": "2026-11-02-tl-2", "lang": "Tagalog", "word": "busisiin", "pinyin": "", "pronunciation": "bu-si-SÍ-in", "tones": "",
+   "meaning": "to scrutinize closely; to go over line by line", "example": "Babusisiin ng mga senador ang badyet para sa 2027.", "examplePinyin": "",
+   "exampleMeaning": "The senators will scrutinize the 2027 budget.",
+   "note": "Pormal; ginagamit sa pera ng gobyerno. Mas matiyaga at may pagdududa kaysa 'suriin'.", "tiesTo": "Senate review of the P7.2T 2027 budget and lump-sum provisions"},
+  {"id": "2026-11-02-zh-1", "lang": "Mandarin", "word": "哪怕……也……", "pinyin": "nǎ pà … yě …", "pronunciation": "nah pah … yeh", "tones": "3 · 4",
+   "meaning": "even if; even though (concessive)", "example": "哪怕高科技制造业的指数高于50,整体也仍在收缩。", "examplePinyin": "Nǎpà gāokējì zhìzàoyè de zhǐshù gāoyú wǔshí, zhěngtǐ yě réng zài shōusuō.",
+   "exampleMeaning": "Even if the high-tech manufacturing index is above 50, the overall picture is still contracting.",
+   "note": "介于口语和书面语之间;比'即使……也……'更生动、更强调极端情况。第二分句常用'也'或'都'。 Register: between spoken and written; punchier than 即使.", "tiesTo": "China October PMI 49.3 with high-tech still above 50"},
+  {"id": "2026-11-02-zh-2", "lang": "Mandarin", "word": "不见得", "pinyin": "bú jiàn de", "pronunciation": "boo jyen duh", "tones": "2 · 4 · 2",
+   "meaning": "not necessarily", "example": "数据好转不见得意味着经济复苏。", "examplePinyin": "Shùjù hǎozhuǎn bú jiàn de yìwèizhe jīngjì fùsū.",
+   "exampleMeaning": "Better data doesn't necessarily mean the economy is recovering.",
+   "note": "口语;比书面语的'未必'更随意。Colloquial hedge; 未必 is the more formal near-synonym.", "tiesTo": "Two-speed China: new-economy strength is not necessarily a recovery"}
+ ]
+}

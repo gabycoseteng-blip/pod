@@ -1,0 +1,9 @@
+{ "date": "2026-11-03", "asOf": "Monday, November 2 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,541.40", "change": "-0.51%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,983.98", "change": "+0.41%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "—", "change": "-1.07%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "~4.90%", "change": "lower on the day", "dir": "down"}]},
+    {"name": "Commodities", "rows": [{"label": "Brent / WTI", "value": "2-week low", "change": "-6% to -7%", "dir": "down"}]} ],
+  "note": "Compiled from press reports of the Monday close (no FMP key in this run); Nasdaq level and oil levels not captured. Oil fell on US-Iran deal hopes." }

@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-03",
+ "cards": [
+  {"id": "2026-11-03-tl-1", "lang": "Tagalog", "word": "pagsala", "pinyin": "", "pronunciation": "pag-sa-LÁ", "tones": "",
+   "meaning": "sifting; screening out (as in culling items from a budget)", "example": "Sinimulan ng Senado ang pagsala sa mga bagong proyekto ng DPWH.", "examplePinyin": "",
+   "exampleMeaning": "The Senate began screening the DPWH's new projects.",
+   "note": "Pormal; may kasamang hatol: may natitira at may natatanggal. Mas matalas kaysa 'pagbusisi'. Pandiwa: salain.", "tiesTo": "Senate purge of unsupported items in the P7.2T 2027 budget"},
+  {"id": "2026-11-03-tl-2", "lang": "Tagalog", "word": "pagtutuos", "pinyin": "", "pronunciation": "pag-tu-TÚ-os", "tones": "",
+   "meaning": "reckoning; settling of accounts", "example": "Ayon kay Lacson, 'all means all' ang pagtutuos sa badyet.", "examplePinyin": "",
+   "exampleMeaning": "According to Lacson, the budget reckoning is 'all means all'.",
+   "note": "May dalawang mukha: pormal na pagkuwenta sa negosyo, at 'huling pagtutuos' sa pulitika na may paniningil at pananagutan.", "tiesTo": "Lacson and Ejercito on the 2027 budget review"},
+  {"id": "2026-11-03-zh-1", "lang": "Mandarin", "word": "只好", "pinyin": "zhǐ hǎo", "pronunciation": "jur how", "tones": "3 · 3",
+   "meaning": "have no choice but to; can only", "example": "出口商只好降价来保住订单。", "examplePinyin": "Chūkǒushāng zhǐhǎo jiàngjià lái bǎozhù dìngdān.",
+   "exampleMeaning": "Exporters have no choice but to cut prices to hold on to orders.",
+   "note": "中性偏口语;常与'于是''所以'连用。比'不得不'更无奈,比'只能'带有感情色彩。 Resigned second-best; softer than 不得不, more emotional than 只能.", "tiesTo": "China exporters cutting prices in the October private PMI"},
+  {"id": "2026-11-03-zh-2", "lang": "Mandarin", "word": "承受", "pinyin": "chéng shòu", "pronunciation": "chung show", "tones": "2 · 4",
+   "meaning": "to bear; to withstand (pressure, losses, risk)", "example": "利润越来越少,很多工厂已经难以承受。", "examplePinyin": "Lìrùn yuè lái yuè shǎo, hěn duō gōngchǎng yǐjīng nányǐ chéngshòu.",
+   "exampleMeaning": "Profits keep shrinking and many factories can no longer bear it.",
+   "note": "书面语;常搭配压力、损失、风险、后果。 Formal; about capacity to hold a load. 忍受 = endure something unpleasant; 接受 = accept.", "tiesTo": "Margin squeeze and a fast-appreciating yuan for exporters"}
+ ]
+}

@@ -1,0 +1,24 @@
+{"date":"2026-11-04","asOf":"Tuesday, November 3 close",
+ "groups":[
+ {"name":"US Indices","rows":[
+  {"label":"S&P 500","value":"7,568.92","change":"+0.36%","dir":"up"},
+  {"label":"Nasdaq Composite","value":"25,372.01","change":"+0.83%","dir":"up"},
+  {"label":"Dow Jones","value":"51,786.72","change":"-0.38%","dir":"down"},
+  {"label":"Russell 2000","value":"2,812.45","change":"+0.2%","dir":"up"},
+  {"label":"VIX","value":"21.15","change":"+8.9%","dir":"up"}]},
+ {"name":"Global Indices","rows":[
+  {"label":"FTSE 100","value":"10,638.43","change":"-1.14%","dir":"down"},
+  {"label":"DAX","value":"25,864.62","change":"-0.45%","dir":"down"},
+  {"label":"STOXX 600","value":"645.66","change":"-0.58%","dir":"down"},
+  {"label":"Nikkei 225 (Nov 2; Tokyo closed)","value":"63,081.86","change":"-0.33%","dir":"down"},
+  {"label":"Hang Seng","value":"23,525.97","change":"+0.57%","dir":"up"},
+  {"label":"Shanghai Composite","value":"~3,608","change":"-0.82%","dir":"down"}]},
+ {"name":"Rates","rows":[{"label":"UST 10Y","value":"~4.95%","change":"+4 bps","dir":"up"}]},
+ {"name":"Commodities","rows":[
+  {"label":"WTI","value":"96.09","change":"-0.38%","dir":"down"},
+  {"label":"Brent","value":"103.60","change":"-1.12%","dir":"down"},
+  {"label":"Gold","value":"~3,928","change":"-0.48%","dir":"down"}]},
+ {"name":"FX","rows":[
+  {"label":"USD/PHP","value":"~63.47","change":"—","dir":"flat"},
+  {"label":"USD/CNY","value":"6.6706","change":"—","dir":"flat"}]}],
+ "note":"Search-sourced closes (no FMP key); approximate values marked ~."}

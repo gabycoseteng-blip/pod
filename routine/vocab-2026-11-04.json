@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-04",
+ "cards": [
+  {"id": "2026-11-04-tl-1", "lang": "Tagalog", "word": "tanggalin", "pinyin": "", "pronunciation": "tang-GÁ-lin", "tones": "",
+   "meaning": "to remove; to take off or out (something attached)", "example": "Tatanggalin ng Senado ang mga proyektong hindi pumasa sa pagsusuri.", "examplePinyin": "",
+   "exampleMeaning": "The Senate will remove the projects that failed review.",
+   "note": "Karaniwan, hindi pormal o balbal. Mas may ideya ng pagkakahiwalay kaysa 'alisin'. Mas matigas kapag tao ang tinanggal ('tinanggal sa puwesto').", "tiesTo": "Senate removing ~295 DPWH projects from the 2027 budget"},
+  {"id": "2026-11-04-tl-2", "lang": "Tagalog", "word": "pagkakaisa", "pinyin": "", "pronunciation": "pag-ka-ka-Í-sa", "tones": "",
+   "meaning": "unity; being of one purpose", "example": "Nagpakita ng pagkakaisa ang mayorya ng Senado sa paglilinis ng badyet.", "examplePinyin": "",
+   "exampleMeaning": "The Senate majority showed unity in cleaning up the budget.",
+   "note": "Pormal; madalas sa talumpati at balita ng politika. Mas buo kaysa 'pagsang-ayon'; iba sa 'pagkakasundo' (pagkaayos matapos ang away).", "tiesTo": "Senate majority united behind the budget purge"},
+  {"id": "2026-11-04-zh-1", "lang": "Mandarin", "word": "不过", "pinyin": "bú guò", "pronunciation": "boo gwoh", "tones": "2 · 4",
+   "meaning": "however; but (softer than 但是)", "example": "华发的债券大幅下跌，不过公司仍然在偿还部分债务。", "examplePinyin": "Huáfā de zhàiquàn dàfú xiàdié, búguò gōngsī réngrán zài chánghuán bùfen zhàiwù.",
+   "exampleMeaning": "Huafa's bonds fell sharply, however the company is still repaying part of its debt.",
+   "note": "口语,语气比'但是'轻,先让步再转折;'然而'是书面语。Spoken and softer than 但是; 然而 is written.", "tiesTo": "Zhuhai Huafa credit scare"},
+  {"id": "2026-11-04-zh-2", "lang": "Mandarin", "word": "仍然", "pinyin": "réng rán", "pronunciation": "rung rahn", "tones": "2 · 2",
+   "meaning": "still; nonetheless", "example": "公司仍然没有公布具体数字。", "examplePinyin": "Gōngsī réngrán méiyǒu gōngbù jùtǐ shùzì.",
+   "exampleMeaning": "The company still hasn't released the specific figures.",
+   "note": "中性偏书面;放在动词前,常跟在'虽然''不过'分句后。近义词'依然'更文学化。Near-synonym 依然 is more literary; never sentence-initial-feeling.", "tiesTo": "Zhuhai Huafa — AAA rating and repayment despite the bond drop"}
+ ]
+}

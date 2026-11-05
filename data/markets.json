@@ -1,24 +1,20 @@
-{"date":"2026-11-04","asOf":"Tuesday, November 3 close",
- "groups":[
- {"name":"US Indices","rows":[
-  {"label":"S&P 500","value":"7,568.92","change":"+0.36%","dir":"up"},
-  {"label":"Nasdaq Composite","value":"25,372.01","change":"+0.83%","dir":"up"},
-  {"label":"Dow Jones","value":"51,786.72","change":"-0.38%","dir":"down"},
-  {"label":"Russell 2000","value":"2,812.45","change":"+0.2%","dir":"up"},
-  {"label":"VIX","value":"21.15","change":"+8.9%","dir":"up"}]},
- {"name":"Global Indices","rows":[
-  {"label":"FTSE 100","value":"10,638.43","change":"-1.14%","dir":"down"},
-  {"label":"DAX","value":"25,864.62","change":"-0.45%","dir":"down"},
-  {"label":"STOXX 600","value":"645.66","change":"-0.58%","dir":"down"},
-  {"label":"Nikkei 225 (Nov 2; Tokyo closed)","value":"63,081.86","change":"-0.33%","dir":"down"},
-  {"label":"Hang Seng","value":"23,525.97","change":"+0.57%","dir":"up"},
-  {"label":"Shanghai Composite","value":"~3,608","change":"-0.82%","dir":"down"}]},
- {"name":"Rates","rows":[{"label":"UST 10Y","value":"~4.95%","change":"+4 bps","dir":"up"}]},
- {"name":"Commodities","rows":[
-  {"label":"WTI","value":"96.09","change":"-0.38%","dir":"down"},
-  {"label":"Brent","value":"103.60","change":"-1.12%","dir":"down"},
-  {"label":"Gold","value":"~3,928","change":"-0.48%","dir":"down"}]},
- {"name":"FX","rows":[
-  {"label":"USD/PHP","value":"~63.47","change":"—","dir":"flat"},
-  {"label":"USD/CNY","value":"6.6706","change":"—","dir":"flat"}]}],
- "note":"Search-sourced closes (no FMP key); approximate values marked ~."}
+{ "date": "2026-11-05", "asOf": "Wednesday, November 4 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "Dow Jones", "value": "53,356.12", "change": "+3.03%", "dir": "up"},
+      {"label": "S&P 500", "value": "7,688.62", "change": "+1.58%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "25,736.51", "change": "+1.44%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,856.95", "change": "+1.58%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,829.21", "change": "+1.79%", "dir": "up"},
+      {"label": "DAX", "value": "26,437.67", "change": "+2.22%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "62,188.63", "change": "-1.42%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,686.17", "change": "+2.16%", "dir": "up"},
+      {"label": "PSEi", "value": "5,694.92", "change": "+1.26%", "dir": "up"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "4.89%", "change": "-6 bps", "dir": "down"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI Crude", "value": "88.12", "change": "-7.97", "dir": "down"},
+      {"label": "Brent Crude", "value": "94.62", "change": "-8.98", "dir": "down"},
+      {"label": "Gold", "value": "4,070", "change": "+3.3%", "dir": "up"} ]},
+    {"name": "FX", "rows": [{"label": "USD/PHP", "value": "63.54", "change": "+0.07", "dir": "up"}]} ],
+  "note": "Approximate closes compiled from multiple outlets; no FMP feed available this run." }

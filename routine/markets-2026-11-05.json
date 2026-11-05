@@ -1,0 +1,20 @@
+{ "date": "2026-11-05", "asOf": "Wednesday, November 4 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "Dow Jones", "value": "53,356.12", "change": "+3.03%", "dir": "up"},
+      {"label": "S&P 500", "value": "7,688.62", "change": "+1.58%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "25,736.51", "change": "+1.44%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,856.95", "change": "+1.58%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,829.21", "change": "+1.79%", "dir": "up"},
+      {"label": "DAX", "value": "26,437.67", "change": "+2.22%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "62,188.63", "change": "-1.42%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,686.17", "change": "+2.16%", "dir": "up"},
+      {"label": "PSEi", "value": "5,694.92", "change": "+1.26%", "dir": "up"} ]},
+    {"name": "Rates", "rows": [{"label": "UST 10Y", "value": "4.89%", "change": "-6 bps", "dir": "down"}]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI Crude", "value": "88.12", "change": "-7.97", "dir": "down"},
+      {"label": "Brent Crude", "value": "94.62", "change": "-8.98", "dir": "down"},
+      {"label": "Gold", "value": "4,070", "change": "+3.3%", "dir": "up"} ]},
+    {"name": "FX", "rows": [{"label": "USD/PHP", "value": "63.54", "change": "+0.07", "dir": "up"}]} ],
+  "note": "Approximate closes compiled from multiple outlets; no FMP feed available this run." }

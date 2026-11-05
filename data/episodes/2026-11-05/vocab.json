@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "cards": [
+    {"id": "2026-11-05-tl-1", "lang": "Tagalog", "word": "pagsipa", "pinyin": "", "pronunciation": "pag-SÍ-pa", "tones": "",
+     "meaning": "a sudden jump or surge (of prices, numbers)", "example": "Dahil sa pagsipa ng presyo ng pamasahe, tumaas ang implasyon noong Oktubre.", "examplePinyin": "",
+     "exampleMeaning": "Because of the surge in fares, inflation rose in October.",
+     "note": "Mula sa 'sipa' (sipain). Mas biglaan at matalim ang dating kaysa 'pagtaas'; madalas sa balitang pang-ekonomiya.", "tiesTo": "October CPI at 7.8% on 20.1% transport inflation"},
+    {"id": "2026-11-05-tl-2", "lang": "Tagalog", "word": "tumindi", "pinyin": "", "pronunciation": "tu-MÍN-di", "tones": "",
+     "meaning": "to intensify; to become more severe", "example": "Tumindi ang hirap ng mga tsuper nang sumirit ang presyo ng gasolina.", "examplePinyin": "",
+     "exampleMeaning": "Drivers' hardship intensified when gasoline prices spiked.",
+     "note": "Pandiwa mula sa 'tindi'. Para sa sitwasyon o damdamin na lumalala; mas matimbang kaysa 'lumala' kapag tungkol sa bigat ng pasanin.", "tiesTo": "Fare and fuel pressure on commuters"},
+    {"id": "2026-11-05-zh-1", "lang": "Mandarin", "word": "即便", "pinyin": "jí biàn", "pronunciation": "jee byen", "tones": "2 · 4",
+     "meaning": "even if; even though (pairs with 也/还)", "example": "即便融资成本下降,企业也不一定愿意扩大投资。", "examplePinyin": "Jíbiàn róngzī chéngběn xiàjiàng, qǐyè yě bù yídìng yuànyì kuòdà tóuzī.",
+     "exampleMeaning": "Even if financing costs fall, companies aren't necessarily willing to expand investment.",
+     "note": "连词,偏书面语,常搭配'也''还';比口语的'就算'更正式,引出让步假设。Formal concessive; informal equivalent is 就算.", "tiesTo": "PBOC cutting the buyback re-lending rate to 1.00%"},
+    {"id": "2026-11-05-zh-2", "lang": "Mandarin", "word": "抑制", "pinyin": "yì zhì", "pronunciation": "ee jur", "tones": "4 · 4",
+     "meaning": "to curb; to suppress", "example": "价格下降抑制了企业的利润。", "examplePinyin": "Jiàgé xiàjiàng yìzhì le qǐyè de lìrùn.",
+     "exampleMeaning": "Falling prices curbed corporate profits.",
+     "note": "书面语,常搭配'通胀、需求、增长、情绪'。近义词'控制'更中性;'抑制'带有压低的意味。Formal; collocates with demand, inflation, growth.", "tiesTo": "China services PMI: price cuts squeezing margins"}
+  ]
+}

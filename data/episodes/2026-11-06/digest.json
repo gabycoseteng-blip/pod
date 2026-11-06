@@ -1,0 +1,6 @@
+{
+  "throughline": "the AI trade meets politics: a divided Washington reprices the build-out",
+  "stories": ["hormuz-tankers-mines-strike-options", "erdogan-putin-call-crosetto-aid", "ai-chip-rout-nasdaq-correction", "cummins-arrow-q3-demand", "boe-hike-4pct", "nikkei-kospi-friday-rout", "markets-whipsaw-dow-sp-selloff", "oct-jobs-preview-fed-dec", "deepdive-little-red-dots", "energy-sa-agentic-inference-tpu-v7", "energy-alliant-doe-loan-guarantee", "energy-dte-vantage-sale", "energy-austin-battery-toll-marker", "ph-senate-dpwh-p884b-cut", "ph-peso-rebound-nov5", "china-ai-rout-export-risk", "arts-powerhouse-parramatta-opening", "arts-bell-grant-tate-britain", "arts-calle-hamburger-bahnhof", "arts-staatsoper-calisto-herheim", "oped-thiessen-vance-iran", "oped-krauze-latino-swing", "good-thompson-jenkins-gym-love"],
+  "explainers": ["black-hole-star model of little red dots", "TPU vs GPU tokens-per-dollar framing"],
+  "comment": "stories = every distinct item covered; explainers = concepts explained"
+}

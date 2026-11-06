@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "cards": [
+    {"id": "2026-11-06-tl-1", "lang": "Tagalog", "word": "pagkaltas", "pinyin": "", "pronunciation": "pag-kal-TÁS", "tones": "",
+     "meaning": "a cut or deduction made from a whole, with a reason or process behind it", "example": "Kinaltas ng Senado ang mga proyektong walang kumpletong dokumento.", "examplePinyin": "",
+     "exampleMeaning": "The Senate cut the projects that lacked complete documents.",
+     "note": "Mula sa 'kaltas'. Mas pormal kaysa 'pagbawas'; hindi buo ang pag-alis gaya ng 'pagtanggal'. Madalas sa ulat ng pananalapi at pamahalaan.", "tiesTo": "Senate striking P8.84B of DPWH projects from the 2027 budget"},
+    {"id": "2026-11-06-tl-2", "lang": "Tagalog", "word": "sumigla", "pinyin": "", "pronunciation": "su-mig-LÁ", "tones": "",
+     "meaning": "to perk up; to regain vigor", "example": "Sumigla ang piso at nagsara sa P62.97 kada dolyar.", "examplePinyin": "",
+     "exampleMeaning": "The peso perked up and closed at P62.97 per dollar.",
+     "note": "Mula sa 'sigla'. May damdamin at init; mas buhay kaysa 'tumaas'. Puwede rin sa tao: 'Sumigla ang lolo.'", "tiesTo": "Peso strengthening to 62.97 on Nov 5"},
+    {"id": "2026-11-06-zh-1", "lang": "Mandarin", "word": "尤其", "pinyin": "yóu qí", "pronunciation": "yo chee", "tones": "2 · 2",
+     "meaning": "especially; in particular (usually 尤其是 + noun)", "example": "市场整体下跌,尤其是科技股。", "examplePinyin": "Shìchǎng zhěngtǐ xiàdiē, yóuqí shì kējì gǔ.",
+     "exampleMeaning": "The market fell overall, especially tech stocks.",
+     "note": "连词/副词,中性偏书面;突出一个对象,比'特别'(=very,口语)更有'比其他更'的意思。Singles out one item from a group; 特别 is the colloquial 'very'.", "tiesTo": "China: property sliding, especially new homes"},
+    {"id": "2026-11-06-zh-2", "lang": "Mandarin", "word": "繁荣", "pinyin": "fán róng", "pronunciation": "fahn rong", "tones": "2 · 2",
+     "meaning": "prosperous; booming", "example": "高科技出口的繁荣掩盖了国内需求的疲软。", "examplePinyin": "Gāo kējì chūkǒu de fánróng yǎngài le guónèi xūqiú de píruǎn.",
+     "exampleMeaning": "The boom in high-tech exports masks the weakness in domestic demand.",
+     "note": "书面语,搭配经济、市场、文化;近义词'兴旺'偏口语,多指店铺、家业;反义词'萧条'。Written register; 兴旺 is colloquial for a business or family.", "tiesTo": "China's AI-hardware export boom vs. weak domestic demand"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "throughline": "consent is the new constraint: politics reprices the build-out, and who pays decides who builds",
+ "stories": [
+  "ukraine-abu-dhabi-talks-nov10",
+  "dems-sweep-congress-jan3-lame-duck",
+  "iran-qatar-talks-stall",
+  "us-oct-payrolls-165k-beat",
+  "coreweave-q3-leverage-preview",
+  "ecb-holds-2.5-france-fitch",
+  "france-budget-gridlock-protests",
+  "boj-1.25-highest-since-1995",
+  "uk-aug-gdp-0.1",
+  "us-ai-selloff-worst-since-apr-2025",
+  "deepdive-fp-ai-consent-local-vetoes",
+  "energy-pjm-registry-filing-nov9",
+  "energy-state-collateral-tariffs-sb6",
+  "ph-sara-duterte-defense-begins-article-2",
+  "ph-rodrigo-icc-expert-report",
+  "ph-bsp-5.5-oct-forecast-7-8",
+  "china-oct-pass-through-gap",
+  "china-surplus-1t-pace",
+  "arts-foujita-lexicon-ando-museum",
+  "arts-kusama-cool-hk-2bn",
+  "arts-sami-somerset-akomfrah-london",
+  "oped-morrissey-dems-ai-plan",
+  "oped-natreview-ai-crackdown-backfire",
+  "good-kirk-kansas-tarp-strangers"
+ ],
+ "explainers": [
+  "why consent, not chips or power, is the new data center constraint",
+  "PPI vs CPI pass-through gap",
+  "state large-load collateral as queue filter"
+ ],
+ "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained"
+}

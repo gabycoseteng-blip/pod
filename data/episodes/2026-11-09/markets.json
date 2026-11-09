@@ -1,0 +1,10 @@
+{ "date": "2026-11-09", "asOf": "Friday, November 6 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,376.86", "change": "+0.31%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "24,579.42", "change": "+1.09%", "dir": "up"},
+      {"label": "Dow Jones", "value": "51,285.73", "change": "-0.46%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "4.86%", "change": "Fri close", "dir": "flat"},
+      {"label": "UST 2Y", "value": "4.51%", "change": "Fri close", "dir": "flat"} ]} ],
+  "note": "Friday rebound after Thursday's AI-led selloff (S&P -4.4%, Nasdaq -5.5%, Dow -1,833). Hand-compiled from AP-style recaps; no FMP key in this run. S&P and Nasdaq posted their worst week since June." }

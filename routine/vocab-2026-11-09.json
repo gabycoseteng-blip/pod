@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-09",
+  "cards": [
+    {"id": "2026-11-09-tl-1", "lang": "Tagalog", "word": "pagtatanggol", "pinyin": "", "pronunciation": "pag-ta-tang-GÓL", "tones": "",
+     "meaning": "defense; the act of protecting someone or a side against an accusation", "example": "Sinimulan ng pagtatanggol ang paglalahad ng kanilang ebidensiya sa Senado.", "examplePinyin": "",
+     "exampleMeaning": "The defense began presenting its evidence in the Senate.",
+     "note": "Mula sa 'tanggol'. Mas pormal kaysa sa hiram na 'depensa'; may kaugnay na 'tagapagtanggol'. May bigat ding emosyonal: 'ipinagtanggol niya ang pamilya'.", "tiesTo": "Sara Duterte impeachment trial: defense begins its case"},
+    {"id": "2026-11-09-tl-2", "lang": "Tagalog", "word": "hatol", "pinyin": "", "pronunciation": "HÁ-tol", "tones": "",
+     "meaning": "verdict; judgment handed down after hearing the evidence", "example": "Hihintayin natin ang hatol ng Senado.", "examplePinyin": "",
+     "exampleMeaning": "We will wait for the Senate's verdict.",
+     "note": "May bigat ng paghuhusga o parusa; mas mabigat kaysa 'pasya'. Ginagamit din sa 'hatol ng taumbayan' para sa paghuhusga ng mga botante.", "tiesTo": "Senate sitting as impeachment court on Sara Duterte"},
+    {"id": "2026-11-09-zh-1", "lang": "Mandarin", "word": "难怪", "pinyin": "nán guài", "pronunciation": "nahn gwye", "tones": "2 · 4",
+     "meaning": "no wonder; it's little surprise that (result first, cause explains it)", "example": "上游成本涨了这么多,难怪工厂的利润被压缩了。", "examplePinyin": "Shàngyóu chéngběn zhǎng le zhème duō, nánguài gōngchǎng de lìrùn bèi yāsuō le.",
+     "exampleMeaning": "Upstream costs have risen so much, so no wonder factories' margins have been squeezed.",
+     "note": "连词/副词,中性偏书面;近义词'怪不得'更口语。难怪 says a puzzling result now makes sense; 当然 just says 'of course'.", "tiesTo": "China: PPI 5.7% surge vs CPI 0.7% squeezes manufacturers"},
+    {"id": "2026-11-09-zh-2", "lang": "Mandarin", "word": "传导", "pinyin": "chuán dǎo", "pronunciation": "chwan dow", "tones": "2 · 3",
+     "meaning": "to transmit / conduct; (economics) to pass through along a mechanism", "example": "上游成本很难传导到消费端。", "examplePinyin": "Shàngyóu chéngběn hěn nán chuándǎo dào xiāofèi duān.",
+     "exampleMeaning": "Upstream costs are hard to pass through to the consumer end.",
+     "note": "书面语,常见搭配:传导机制、价格传导。近义词'传递'更通用、偏口语,可指传话或传物;传导暗示有阻力的渠道。Written register; collocates with 机制 and 价格.", "tiesTo": "China producer-to-consumer price pass-through"}
+  ]
+}

@@ -1,10 +1,22 @@
-{ "date": "2026-11-09", "asOf": "Friday, November 6 close",
+{ "date": "2026-11-11", "asOf": "Tuesday, November 10 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,376.86", "change": "+0.31%", "dir": "up"},
-      {"label": "Nasdaq Composite", "value": "24,579.42", "change": "+1.09%", "dir": "up"},
-      {"label": "Dow Jones", "value": "51,285.73", "change": "-0.46%", "dir": "down"} ]},
+      {"label": "S&P 500", "value": "7,520.93", "change": "-0.38%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "25,065.87", "change": "-0.74%", "dir": "down"},
+      {"label": "Dow Jones", "value": "52,231.89", "change": "-0.30%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,751.59", "change": "-0.29%", "dir": "down"},
+      {"label": "DAX", "value": "26,347.45", "change": "+0.31%", "dir": "up"},
+      {"label": "Shanghai Composite", "value": "3,680.64", "change": "+0.5%", "dir": "up"},
+      {"label": "PSEi", "value": "5,716.15", "change": "+0.67%", "dir": "up"} ]},
     {"name": "Rates", "rows": [
-      {"label": "UST 10Y", "value": "4.86%", "change": "Fri close", "dir": "flat"},
-      {"label": "UST 2Y", "value": "4.51%", "change": "Fri close", "dir": "flat"} ]} ],
-  "note": "Friday rebound after Thursday's AI-led selloff (S&P -4.4%, Nasdaq -5.5%, Dow -1,833). Hand-compiled from AP-style recaps; no FMP key in this run. S&P and Nasdaq posted their worst week since June." }
+      {"label": "UST 10Y", "value": "~5.00%", "change": "+11 bps", "dir": "up"},
+      {"label": "UST 2Y", "value": "~4.75%", "change": "~+20 bps", "dir": "up"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "86.04", "change": "-0.93%", "dir": "down"},
+      {"label": "Brent", "value": "91.49", "change": "-1.17%", "dir": "down"},
+      {"label": "Gold (spot)", "value": "~4,040", "change": "~-2.5%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "62.91", "change": "-0.40", "dir": "down"},
+      {"label": "DXY", "value": "~102.2", "change": "+0.6%", "dir": "up"} ]} ],
+  "note": "Hot October CPI pushed the 10-year back to 5% and the 2-year up ~20 bp. Hand-compiled from web recaps (no FMP key this run); ~ marks levels taken from a range of sources. US bond market closed Nov 11 for Veterans Day." }

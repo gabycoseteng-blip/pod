@@ -1,0 +1,1 @@
+{"render_calls": 1, "research_passes": 1, "energy_source": "inbox", "notes": "Gmail inbox used for energy (SemiAnalysis/CTVC/DealFlow) + Economist deep-dive pick; no FMP key, markets hand-compiled from web; boto3 needed python3 -m pip install (pip targets py3.13, python3 is 3.11)"}

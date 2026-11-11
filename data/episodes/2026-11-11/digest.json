@@ -1,0 +1,39 @@
+{
+ "throughline": "the price of money is back: 5% yields test every leveraged bet",
+ "stories": [
+  "ukraine-abu-dhabi-talks-prisoner-swap",
+  "eu-budget-merz-ukraine-linkage-fico",
+  "pope-leo-argentina-milei-austerity",
+  "turkey-habas-aliaga-steel-blast",
+  "us-oct-cpi-hot-waller-50bp",
+  "coreweave-q3-actuals-interest-bill",
+  "siemens-energy-fy26-record-backlog",
+  "infineon-fy26-ai-power-chips",
+  "ust10y-5pct-2y-jump-gold-drop",
+  "nvidia-board-inquiry-selloff",
+  "deepdive-ebola-bundibugyo-vaccine-gap",
+  "energy-envision-ulanqab-semianalysis",
+  "energy-permitting-cloture-73-25",
+  "energy-ctvc-postelection-dc-results",
+  "energy-rwe-ercot-queue-cuts-enel-recurrent",
+  "ph-q3-gdp-2.1-fifth-slowdown",
+  "ph-romualdez-90day-suspension",
+  "ph-fuel-cut-peso-62.91",
+  "ph-asean-summit-manila-lula",
+  "china-oct-credit-policy-tools-loans",
+  "china-pboc-weaker-fix",
+  "arts-booker-harrison-wins",
+  "arts-salcedo-house-white-cube",
+  "arts-met-lincoln-bardo-closing",
+  "oped-eichengreen-bessent-tbills",
+  "oped-noahpinion-dems-hard-part",
+  "good-karl-bushby-walk-home"
+ ],
+ "explainers": [
+  "Bundibugyo vs Zaire ebolavirus and the vaccine gap",
+  "DC power distribution via solid-state transformers",
+  "TSF vs new yuan loans as two-speed credit signal",
+  "T-bill-heavy issuance as rollover risk"
+ ],
+ "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "cards": [
+    {"id": "2026-11-11-tl-1", "lang": "Tagalog", "word": "pagbagal", "pinyin": "", "pronunciation": "pag-ba-GÁL", "tones": "",
+     "meaning": "slowdown; a slowing of pace (growth still positive, just slower)", "example": "Ikalimang sunod na kwarter na ng pagbagal ng ekonomiya.", "examplePinyin": "",
+     "exampleMeaning": "It is the fifth straight quarter of economic slowdown.",
+     "note": "Mula sa 'bagal'. Iba sa 'pagbagsak' (talagang bumaba ang halaga). Karaniwan sa balita: pagbagal ng implasyon, pagbagal ng benta; sa usapan, 'mabagal'.", "tiesTo": "PH Q3 GDP 2.1%, fifth straight slowdown"},
+    {"id": "2026-11-11-tl-2", "lang": "Tagalog", "word": "nakabinbin", "pinyin": "", "pronunciation": "na-ka-bin-BÍN", "tones": "",
+     "meaning": "pending; awaiting decision or action, unresolved", "example": "Nakabinbin pa ang kaso sa Sandiganbayan.", "examplePinyin": "",
+     "exampleMeaning": "The case is still pending before the Sandiganbayan.",
+     "note": "Pormal at neutral (korte, Kongreso, gobyerno). Ihambing sa 'nakatengga' na may pagkainis, parang pinabayaan.", "tiesTo": "Romualdez 90-day suspension; flood-control probes"},
+    {"id": "2026-11-11-zh-1", "lang": "Mandarin", "word": "意愿", "pinyin": "yì yuàn", "pronunciation": "ee ywen", "tones": "4 · 4",
+     "meaning": "willingness; inclination to act (measurable, often economic)", "example": "企业的借贷意愿很弱，所以贷款增长放缓。", "examplePinyin": "Qǐyè de jièdài yìyuàn hěn ruò, suǒyǐ dàikuǎn zēngzhǎng fànghuǎn.",
+     "exampleMeaning": "Companies' willingness to borrow is weak, so loan growth has slowed.",
+     "note": "书面语。搭配:借贷意愿、投资意愿、消费意愿、尊重…的意愿。近义词'愿望'是个人的心愿、带感情色彩;意愿 is a measurable inclination to act.", "tiesTo": "China October credit: weak private loan demand"},
+    {"id": "2026-11-11-zh-2", "lang": "Mandarin", "word": "换言之", "pinyin": "huàn yán zhī", "pronunciation": "hwahn yen jir", "tones": "4 · 2 · 1",
+     "meaning": "in other words; that is to say (restates with a sharper conclusion)", "example": "新增贷款大幅下降，换言之，私人部门正在去杠杆。", "examplePinyin": "Xīnzēng dàikuǎn dàfú xiàjiàng, huànyánzhī, sīrén bùmén zhèngzài qù gànggǎn.",
+     "exampleMeaning": "New loans fell sharply; in other words, the private sector is deleveraging.",
+     "note": "连词,正式书面语(央行声明、研报、社论)。口语用'换句话说'或'也就是说'。Pattern: fact, 换言之, interpretation — adds a conclusion, not a repeat.", "tiesTo": "China credit growth propped up by policy tools"}
+  ]
+}

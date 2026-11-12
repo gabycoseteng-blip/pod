@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "cards": [
+    {"id": "2026-11-12-tl-1", "lang": "Tagalog", "word": "matumal", "pinyin": "", "pronunciation": "ma-tu-MÁL", "tones": "",
+     "meaning": "sluggish, slow (of sales, trade, business — goods on offer but few buyers)", "example": "Matumal ang benta sa Divisoria kahit malapit na ang Pasko, kasi mahal ang bilihin.", "examplePinyin": "",
+     "exampleMeaning": "Sales in Divisoria are sluggish even though Christmas is near, because prices are high.",
+     "note": "Galing sa wika ng palengke at tindahan ('ang tumal ngayon'); ginagamit na rin sa balitang pang-ekonomiya. Iba sa 'mahina' (pangkalahatan); laging tungkol sa galaw ng benta. Kabaligtaran: 'mabenta', 'mabili'.", "tiesTo": "PH 9-month growth 2.5%; Marcos orders GDP target review"},
+    {"id": "2026-11-12-tl-2", "lang": "Tagalog", "word": "disempleyo", "pinyin": "", "pronunciation": "di-sem-PLÉ-yo", "tones": "",
+     "meaning": "unemployment (formal; statistics and news register)", "example": "Tumaas ang disempleyo noong Setyembre, kahit dumami ang naghahanap ng trabaho.", "examplePinyin": "",
+     "exampleMeaning": "Unemployment rose in September, even as more people looked for work.",
+     "note": "Mula sa Kastila 'desempleo'. Pormal: 'antas ng disempleyo' sa PSA at mga ulat. Sa usapan: 'walang trabaho'. Iba ang 'kakulangan sa trabaho' (may trabaho pero kulang ang oras o kita).", "tiesTo": "PH September unemployment 5.4%, 2.86M jobless"},
+    {"id": "2026-11-12-zh-1", "lang": "Mandarin", "word": "有所", "pinyin": "yǒu suǒ", "pronunciation": "yo swaw", "tones": "3 · 3",
+     "meaning": "to some extent; somewhat (formal hedge before a 2-syllable verb)", "example": "今年的零售销售有所增长，但是力度不大。", "examplePinyin": "Jīnnián de língshòu xiāoshòu yǒusuǒ zēngzhǎng, dànshì lìdù bú dà.",
+     "exampleMeaning": "Retail sales grew somewhat this year, but not with much strength.",
+     "note": "书面语(央行声明、统计公报、研报)。搭配:有所+双音节动词——有所增长/下降/回升/改善/缓解。口语用'有点'/'稍微'(接形容词)。Official hedge: improved, but not by much.", "tiesTo": "China Singles' Day sales +4.8% vs +14.2%"},
+    {"id": "2026-11-12-zh-2", "lang": "Mandarin", "word": "迟迟", "pinyin": "chí chí", "pronunciation": "chir chir", "tones": "2 · 2",
+     "meaning": "slow to happen; long delayed (with frustrated expectation)", "example": "房价迟迟没有企稳，家庭还是不敢花钱。", "examplePinyin": "Fángjià chíchí méiyǒu qǐwěn, jiātíng háishi bù gǎn huā qián.",
+     "exampleMeaning": "Home prices have been slow to stabilise, so households still don't dare to spend.",
+     "note": "副词,书面与正式口语皆可。搭配:迟迟不/迟迟没有/迟迟未能+动词(迟迟没有回暖、迟迟不肯表态、迟迟未能落地)。近义:'一直'中性;'始终'更正式、无不耐烦意味;迟迟 adds 'should have happened by now'.", "tiesTo": "China consumption slow to recover; resale home prices -6.72% y/y"}
+  ]
+}

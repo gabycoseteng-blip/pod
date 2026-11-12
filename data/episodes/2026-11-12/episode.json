@@ -1,0 +1,725 @@
+{
+  "date": "2026-11-12",
+  "title": "Thursday, November 12, 2026",
+  "day": "Thursday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-12.mp3",
+  "durationSec": 1625,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Thursday, November 12. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. The Abu Dhabi talks wrapped last night, Sam, and day 2 was half the length of day 1. That tells you most of what you need to know.",
+          "startSec": 4.09,
+          "endSec": 12.04
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Right. The second session between the Ukrainian and Russian delegations ran about 2 hours, against roughly 4 and a half on Monday, and ended with no breakthrough. The one concrete deliverable remains the prisoner swap we told you about yesterday.",
+          "startSec": 12.04,
+          "endSec": 25.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The spin tells you where each side wants the story to go. Vladimir Medinsky claimed \"really big progress\" without a single detail. Zelensky called it \"constructive and quite substantive.\" And Sergei Lavrov, in Moscow, flatly rejected a truce, arguing that Europe only wants a pause so Kyiv can rearm.",
+          "startSec": 25.64,
+          "endSec": 42.21
+        },
+        {
+          "speaker": "SAM",
+          "text": "So territory, security guarantees and ceasefire terms are all still open, and both sides traded mass drone strikes overnight while the delegations flew home. The format survives; the substance hasn't moved.",
+          "startSec": 42.21,
+          "endSec": 53.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "To Latin America, where Chile's new government is getting its first real street test. Truckers began an indefinite national strike on Tuesday, taxi and intercity bus drivers have joined, and stretches of Ruta 5 Sur and Ruta 160 are blocked.",
+          "startSec": 53.59,
+          "endSec": 66.85
+        },
+        {
+          "speaker": "SAM",
+          "text": "The trigger is fuel. State refiner ENAP's 6th straight price increase takes effect today, about 38.7 pesos a litre on gasoline and about 40 on diesel. Yesterday, José Antonio Kast's government announced a bill to reverse that increase and freeze prices until February 3, 2027. The truckers want more: a 120-day freeze plus a cut to the specific fuel tax, and talks at the Transport Ministry broke up without a deal.",
+          "startSec": 66.85,
+          "endSec": 89.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the bind for a government elected on fiscal discipline. Finance Minister Jorge Quiroz is now hunting for savings elsewhere in the budget to pay for a subsidy his own coalition campaigned against. Oil at 90-dollar Brent is writing policy in Santiago the same way it is in Manila, which we'll get to.",
+          "startSec": 89.78,
+          "endSec": 106.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "In the Horn of Africa, Ethiopia has told a UN envoy that Eritrea and Sudan are backing armed groups and drone attacks inside its territory. That is Addis Ababa's claim, and it hasn't been independently verified.",
+          "startSec": 106.74,
+          "endSec": 118.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "But the diplomatic trail behind it is real. Ethiopia and Sudan expelled each other's consular staff last week, closing out the Assosa and Gedaref consulates, and Eritrea cut ties after Ethiopia expelled 10 of its diplomats on October 1. Three neighbours accusing each other of proxy war at once is a dangerous configuration for the Horn, and it's getting almost no attention outside the region.",
+          "startSec": 118.4,
+          "endSec": 140.17
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Antalya, the COP31 leaders' summit is underway. Recep Tayyip Erdoğan opened by calling it an \"implementation COP,\" said historic emitters must pay more, and used the podium to condemn what he called ecocide in Gaza.",
+          "startSec": 140.17,
+          "endSec": 152.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The substantive push is from COP31 president Murat Kurum: a \"35 by 35\" global electrification pledge. Australia's Chris Bowen is running the negotiating track under the unusual Turkey-Australia split, leaders who didn't get to speak return for a resumed session on November 17 and 18, and the conference closes on the 20th. An electrification target rather than a fossil phase-out is a tell: it's a goal the grid builders can sign, and the oil producers don't have to veto.",
+          "startSec": 152.44,
+          "endSec": 178.57
+        }
+      ],
+      "startSec": 12.0
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Now the story that moved Asia overnight. The Wall Street Journal reported late yesterday that Nvidia's board is preparing to remove Jensen Huang as chief executive, and Reuters confirmed the board met late Wednesday to decide his future.",
+          "startSec": 178.57,
+          "endSec": 191.66
+        },
+        {
+          "speaker": "ALEX",
+          "text": "To be precise about what we know: Huang remains CEO, Nvidia hasn't announced anything, and it declined to comment on the meeting. This follows Sunday's board investigation into reports he was the target of a foreign intelligence effort, and a new New York Times report about a second relationship with a company executive. The stock had actually closed up 2.9% at 173.73 dollars, then fell 8.6% after hours to about 158.78.",
+          "startSec": 191.66,
+          "endSec": 215.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "And that's with earnings on Monday the 17th. Analysts say there's no natural successor; CFO Colette Kress is the name most mentioned as an interim. For a 4-trillion-dollar-plus company whose customer relationships, from TSMC to the hyperscalers, run through one founder, this is key-man risk priced in real time.",
+          "startSec": 215.03,
+          "endSec": 232.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The market's tell is that it's not just Nvidia. Taiwan's Taiex fell 2.6% this morning, which is the supply chain asking who signs the next allocation deal if the man who personally negotiates them is gone.",
+          "startSec": 232.27,
+          "endSec": 243.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second story: Western Union has walked away from its roughly 500-million-dollar deal to buy Intermex, using the November 10 outside date. Its stated reason is the conditions California's financial regulator, the DFPI, wanted to attach on anti-money-laundering and fraud controls, and there's no breakup fee.",
+          "startSec": 243.6,
+          "endSec": 260.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Intermex rejects the termination and says it'll pursue legal remedies to force a close. The lesson for payments consolidation: one state regulator, not the FTC, sank a cross-border remittance deal. Remember that when we get to the Philippine peso, since this is literally the plumbing those remittances run through.",
+          "startSec": 260.56,
+          "endSec": 277.97
+        }
+      ],
+      "startSec": 178.6
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Britain's economy grew 0.7% in the third quarter, a 2-year high and in line with forecasts, 1.9% year on year. September alone was up 0.2% against expectations of flat.",
+          "startSec": 277.97,
+          "endSec": 287.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The composition matters: information and communications, which means AI and cloud, did the lifting, while construction fell 0.7%. Strong growth plus imported energy inflation keeps a Bank of England hike in December firmly on the table. The Bank sees 2026 growth at 1.6%, above the OBR's 1.2%, and that gap is the Treasury's whole budget headache.",
+          "startSec": 287.25,
+          "endSec": 306.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Hong Kong, Alibaba fell 6.8% this morning, the worst Hang Seng blue chip. It's pressing ahead with a Hong Kong spin-off listing of T-Head, its AI-chip unit, a raise IFR puts at 2 to 3 billion dollars, though Alibaba hasn't confirmed a size. The selling is about fears Washington tightens scrutiny of Chinese cloud firms renting Nvidia chips offshore, through intermediaries like Singapore's Megaspeed. A homegrown chip unit just became more valuable and more urgent in the same week.",
+          "startSec": 306.42,
+          "endSec": 333.49
+        }
+      ],
+      "startSec": 278.0
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Two markets in 12 hours. Wednesday's session was a chip rally: the Nasdaq rose 1.6%, the rest is on the Markets tab, with CoreWeave up almost 25% on its backlog, Micron up nearly 12% and every name in the chip index green. Then Nvidia's after-hours drop reversed the mood before Asia opened.",
+          "startSec": 333.49,
+          "endSec": 349.57
+        },
+        {
+          "speaker": "SAM",
+          "text": "The underlying tension hasn't changed since Tuesday's CPI. The bond market was shut for Veterans Day, so the 10-year is still sitting right at 5%, and the futures market prices roughly 90% odds of a 25-basis-point hike on December 9. The dollar index is at a 19-month high and gold has slipped back below 4,000.",
+          "startSec": 349.57,
+          "endSec": 366.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "My read: the equity tape is trying to price earnings and the bond tape is pricing the cost of money, and they're not talking to each other. A 1.6% Nasdaq day with the 10-year at 5% means investors are betting AI cash flows outrun the discount rate. That works until the leadership of the single most important AI company becomes uncertain, which is precisely what happened at 5 p.m.",
+          "startSec": 366.31,
+          "endSec": 386.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "Tuesday's 10-year auction drew the weakest demand since June, too, so the supply side of Treasuries is also pushing yields up, not just inflation.",
+          "startSec": 386.87,
+          "endSec": 394.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What to watch: Cisco and Applied Materials report after the close today, with options pricing about an 11% move on Cisco. October producer prices land tomorrow, consensus plus 0.4% month on month. Then Monday is Nvidia's print, with or without Huang. If PPI runs hot on top of CPI, the conversation shifts from whether the Fed hikes in December to whether it does 50.",
+          "startSec": 394.73,
+          "endSec": 414.48
+        }
+      ],
+      "startSec": 333.5
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the deep dive, we're going somewhere completely different. Last week's Economist Today newsletter flagged a long read from 1843 magazine by William Ralston: inside the criminal gangs making fake wine. The argument in a line: wine fraud is ancient, but counterfeiting has industrialised, and it's moving down-market, from trophy Burgundy to supermarket bottles.",
+          "startSec": 414.48,
+          "endSec": 434.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The full piece is paywalled, so we'll be careful: we're taking the thesis from the Economist's own summary and rebuilding the substance from the public record. And the public record is wild. The case that defines the genre is what the French called the Red Bicyclette affair. Between 2006 and 2008, a group of Languedoc producers and dealers sold E and J Gallo roughly 18 million bottles' worth of wine labelled as Pinot Noir for its Red Bicyclette brand. It was mostly cheaper Merlot and Syrah.",
+          "startSec": 434.07,
+          "endSec": 460.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "And nobody tasted the difference. That's the part that should bother you. It was caught by paperwork: inspectors noticed the suppliers were selling more Pinot Noir than they could plausibly have bought or grown. A court in Carcassonne convicted 12 people in 2010, mostly suspended sentences and fines.",
+          "startSec": 460.72,
+          "endSec": 476.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Compare that to the famous end of the market. Rudy Kurniawan, the collector who blended old Bordeaux and Burgundy in his California kitchen and relabelled them as legendary vintages, sold tens of millions of dollars of fakes to sophisticated buyers before the FBI arrested him in 2012. He got 10 years. One veteran authentication expert, Maureen Downey, argues the total value of his fakes still circulating is far higher than what was prosecuted.",
+          "startSec": 476.92,
+          "endSec": 500.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then in 2024, Europol coordinated a French, Italian and Swiss operation against a ring selling fake Burgundy at up to 15,000 euros a bottle. 6 arrests, more than 2 million euros in profit. That's the trophy end, still very much alive.",
+          "startSec": 500.98,
+          "endSec": 513.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "But here's where the 1843 thesis gets interesting. The economics of fraud flip as you go down-market. At 15,000 euros a bottle you have to fool a connoisseur, an auction specialist and a provenance file. At 6 pounds a bottle you don't have to fool anyone, because nobody's checking. The margin comes from volume and from evading excise duty, not from deception at the point of taste.",
+          "startSec": 513.57,
+          "endSec": 534.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "So who's doing it? The piece's claim, as summarised, is organised criminal networks, the same groups that move counterfeit spirits, cigarettes and pharmaceuticals, adding wine because it's lower risk and the penalties are trivial. Selling 41 fake bottles in a British corner shop costs you a licence review, not a prison sentence.",
+          "startSec": 534.19,
+          "endSec": 551.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And that's the second-order point. Enforcement in Britain sits largely with local trading standards and the Food Standards Agency's food crime unit, not with customs or serious-crime police. A supermarket brand doesn't have the incentive a Pétrus or a Romanée-Conti does to spend on anti-counterfeiting, because each fake bottle costs it a few pounds of lost sale and a lot of reputational risk it can't measure.",
+          "startSec": 551.95,
+          "endSec": 574.12
+        },
+        {
+          "speaker": "SAM",
+          "text": "What's contested? First, scale. You'll see a figure that 20% of internationally traded wine is fraudulent. It's quoted constantly and sourced weakly. Downey's estimate for the secondary fine-wine market is more like 5 to 10%. Nobody has a credible number for supermarket wine, which is part of the problem.",
+          "startSec": 574.12,
+          "endSec": 590.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second, harm. If 18 million bottles of Merlot went out as Pinot and nobody noticed, who was hurt? The honest answer is the legitimate producers who were underpriced, the brand that carried the liability, and the tax authorities. That's a fraud economy, not a health scandal, until it isn't. Italy has had cases of cheap wine adulterated with industrial chemicals, and that's where counterfeit spirits have historically killed people.",
+          "startSec": 590.59,
+          "endSec": 613.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, the fix. The top estates now use holograms, sealed capsules with per-bottle codes, and special inks. That's affordable on a 1,000-euro bottle and ruinous on a 6-pound one. So the real question is whether bottle-level traceability, the kind the EU already mandates for tobacco, eventually gets pushed onto mass-market wine.",
+          "startSec": 613.9,
+          "endSec": 631.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And this ties to something we talk about a lot on this show without meaning to. Supply chains that are trusted because nobody looks closely. The Red Bicyclette case was caught by an accountant reconciling volumes, not a sommelier. The same is true in energy, in chips, in carbon credits: when the product is indistinguishable at the point of use, the audit trail is the product.",
+          "startSec": 631.61,
+          "endSec": 651.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "My takeaway as a consumer: the risk isn't the expensive bottle you buy at auction, where provenance is documented. It's the unfamiliar case of a famous label at a price that's slightly too good, from a seller who isn't the brand's distributor.",
+          "startSec": 651.95,
+          "endSec": 665.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And as an investor, if you own a drinks brand, counterfeit exposure is now an operating risk, not a footnote. A good piece. It's a 1843 long read via The Economist, worth your weekend.",
+          "startSec": 665.03,
+          "endSec": 674.93
+        }
+      ],
+      "startSec": 414.5
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Energy, and the theme this week is turbine slots changing hands. SoftBank booked a 597.2-billion-yen quarterly loss, roughly 3.7 billion dollars, tied to US data-center power equipment, through a subsidiary called Silver Bands 7.",
+          "startSec": 674.93,
+          "endSec": 687.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "According to the Wall Street Journal's reporting, SoftBank reserved more than 13 gigawatts of gas turbines between late 2025 and early 2026, then cancelled much of it as project specifications changed. CFO Yoshimitsu Goto told analysts the cancellations were \"a commercial decision, not a default,\" a direct rebuttal of Elon Musk's post on X suggesting otherwise, and said the loss is unrelated to its Ohio project.",
+          "startSec": 687.26,
+          "endSec": 711.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "The 13-gigawatt figure is press reporting, not the filing, so treat the size as indicative. But the direction matters more.",
+          "startSec": 711.78,
+          "endSec": 719.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It does. This is the first visible crack in speculative turbine reservations. Through 2025, slot reservations for heavy-duty gas turbines traded almost like options: put down a deposit, hold a place in a 5-to-7-year queue, sell or assign later. If a buyer with SoftBank's balance sheet is walking away from slots and eating the loss, those positions go back to the OEMs or onto the secondary market. Watch for lead-time quotes from GE Vernova, Siemens Energy and Mitsubishi easing at the margin over the next 2 quarters. Not a collapse, but the first loosening since the queue formed.",
+          "startSec": 719.05,
+          "endSec": 753.56
+        },
+        {
+          "speaker": "SAM",
+          "text": "And on the other side of the same trade, the Financial Times reports Anthropic has taken over OnePWR Solutions' order book for Caterpillar gas generators, about 1.7 gigawatts for around 3.4 billion dollars, including the engineering and installation capability, but without buying the company or hiring its staff. Delivery over roughly 2 years.",
+          "startSec": 753.56,
+          "endSec": 773.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Do the maths: that's about 2,000 dollars a kilowatt all-in for reciprocating gensets. Expensive per kilowatt against a combined-cycle plant, but you're paying to skip a 6-year turbine queue and get firm on-site power in 24 months. There's a gap in the record, too: in February OnePWR was describing about 1.2 gigawatts, 400 megawatts in stock plus 800 over 24 months, and nobody has explained the step-up to 1.7. Sites aren't disclosed; one report says Texas.",
+          "startSec": 773.89,
+          "endSec": 801.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "Put those 2 together and it's the same week: a speculator gives up slots, an end user pays a premium for modular capacity. That's a market maturing from hoarding to deployment.",
+          "startSec": 801.01,
+          "endSec": 811.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Third item, from DealFlow's weekly in your inbox. Panamint Capital closed a 769-million-dollar first phase of a 1.8-billion-dollar green loan for Big Rooter West, 491 megawatts DC of solar on the Twin Oaks coal plant and Calvert Mine site in Robertson County, Texas. Lenders are Lloyds, MUFG and SMBC.",
+          "startSec": 811.41,
+          "endSec": 829.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "The structure: a 240-million-dollar construction-to-term loan, a 461-million-dollar tax-equity bridge and a 68-million-dollar letter of credit. Construction started in July, commercial operation is targeted for August 2028. The east phase is 658 megawatts DC, over 1 billion dollars, closing in the first quarter of 2027, with one investment-grade offtaker.",
+          "startSec": 829.2,
+          "endSec": 850.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "2 reads. DealFlow's own question is why the tax-equity bridge is nearly twice the term loan, which tells you how much of the capital stack is still leaning on transferable credits under the post-2025 rules. And the site: a retiring coal plant comes with an existing interconnection. Brownfield thermal sites are becoming the cleanest way around the ERCOT queue, for solar now, and for data centers next.",
+          "startSec": 850.29,
+          "endSec": 874.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "Briefly, the rest of the DealFlow week: 20 deals, 9.3 billion dollars, 8.4 gigawatts. ARRAY is the legal acquirer in its merger with Shoals, but Shoals holders end up with about 65% and Shoals CEO Brandon Moss runs the combined tracker and balance-of-system business. DealFlow asks whether it's really a tracker deal or a preferred-stock recap in disguise. And The Andersons agreed to buy Harvestone's 3 ethanol plants from Energy Capital Partners for 915 million dollars.",
+          "startSec": 874.11,
+          "endSec": 902.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Our callback to the Nvidia story: this whole sector is learning that capacity locked to 1 counterparty is fragile. Whether it's one CEO, one turbine queue or one interconnection, the people who win are the ones who own optionality.",
+          "startSec": 902.0,
+          "endSec": 915.65
+        }
+      ],
+      "startSec": 674.9
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Tagalog muna tayo. Dalawang salita ngayong araw, parehong tungkol sa ekonomiya ng Pilipinas.",
+          "startSec": 915.65,
+          "endSec": 921.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang una: matumal. Ginagamit natin ito kapag mahina ang benta o kaunti ang mamimili. Matumal ang negosyo, matumal ang palengke ngayong linggo, matumal ang benta ng kotse.",
+          "startSec": 921.08,
+          "endSec": 931.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "Galing ito sa wika ng tindahan at palengke, kaya pang-araw-araw ang dating. Pero ngayon, naririnig mo na rin ito sa balitang pang-ekonomiya: matumal ang paglago, matumal ang pamumuhunan.",
+          "startSec": 931.07,
+          "endSec": 942.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Iba ito sa \"mahina,\" na pangkalahatan. Ang matumal ay laging tungkol sa galaw ng benta o kalakalan: may tinda ka, pero walang bumibili. Ang kabaligtaran nito ay \"mabenta\" o \"mabili.\" Kapag sinabi ng tindera na \"ang tumal ngayon,\" alam mo agad na walang pumapasok na pera.",
+          "startSec": 942.06,
+          "endSec": 958.07
+        },
+        {
+          "speaker": "SAM",
+          "text": "Halimbawa: Matumal ang benta sa Divisoria kahit malapit na ang Pasko, kasi mahal ang bilihin.",
+          "startSec": 958.07,
+          "endSec": 963.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang pangalawa: disempleyo. Galing ito sa Kastila, at ito ang pormal na salita para sa kawalan ng trabaho.",
+          "startSec": 963.57,
+          "endSec": 969.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pang-balita at pang-estadistika ang disempleyo. Sa PSA at sa mga ulat, \"antas ng disempleyo\" ang karaniwang gamit. Sa kusina, hindi mo sasabihing \"disempleyado ang pinsan ko.\" Sasabihin mo, \"wala siyang trabaho.\"",
+          "startSec": 969.77,
+          "endSec": 982.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "May kasama itong salita: ang \"kakulangan sa trabaho,\" para sa mga may trabaho pero kulang ang oras o kita. Ibang problema iyon, at mahalaga ang pagkakaiba kapag binabasa mo ang datos.",
+          "startSec": 982.3,
+          "endSec": 993.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "Halimbawa: Tumaas ang disempleyo noong Setyembre, kahit dumami ang naghahanap ng trabaho.",
+          "startSec": 993.11,
+          "endSec": 998.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Matumal at disempleyo. Ang isa galing sa palengke, ang isa galing sa opisina ng estadistika, at pareho nating maririnig sa susunod na balita.",
+          "startSec": 998.37,
+          "endSec": 1006.71
+        }
+      ],
+      "startSec": 915.6
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Matumal pa rin ang ekonomiya: 2.5% lang ang paglago sa unang 9 na buwan ng taon, kaya ipinag-utos ni Pangulong Marcos na suriin muli ang mga target sa paglago para sa 2026 at 2027.",
+          "startSec": 1006.71,
+          "endSec": 1017.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Kasabay nito, umakyat sa 5.4% ang disempleyo noong Setyembre, katumbas ng 2.86 milyong Pilipinong walang trabaho. At sa harap ng 7.8% na implasyon, hindi pa rin isinasara ng BSP ang posibilidad ng mas malaking pagtaas ng interes sa Disyembre.",
+          "startSec": 1017.34,
+          "endSec": 1031.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "The growth review is formal now: the Development Budget Coordination Committee meets on December 1, per Palace press officer Claire Castro. The current 2026 target is 3.5 to 4.5%, and 9-month growth at 2.5% makes the bottom of that range very hard to hit.",
+          "startSec": 1031.64,
+          "endSec": 1046.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the BSP's dilemma in a sentence. The policy rate is 5.5% after October's 50-basis-point hike, and October inflation hit 7.8%, a 3-year high. Nomura expects another 50 in December to 6%, S&P Global Market Intelligence expects 25, and at least one forecaster now expects a hold. Governor Eli Remolona says the BSP is \"still in a tightening cycle,\" with no timetable for easing. Meanwhile, Bloomberg reports calls for a pause plus targeted fiscal aid, given growth.",
+          "startSec": 1046.71,
+          "endSec": 1074.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "The peso isn't helping. After Tuesday's hot US CPI, it weakened again, past 63 to the dollar on the BSP's weighted average today, against the 62.91 we cited yesterday. A strong dollar at a 19-month high is importing inflation through fuel at the exact moment the BSP is trying to squeeze it out.",
+          "startSec": 1074.03,
+          "endSec": 1091.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On jobs, the September detail is worse than the headline: the labour force grew by 1.63 million year on year to 53.19 million, but participation was flat at 64.5%, and unemployment rose from 3.8% a year ago. National Statistician Dennis Mapa's line was that job creation is \"unable to keep pace.\"",
+          "startSec": 1091.22,
+          "endSec": 1108.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "In politics, Vice President Sara Duterte's impeachment trial reached day 42 yesterday. The defense is still on Article II, the unexplained-wealth charge. Presiding officer Chiz Escudero questioned an in-house lawyer for a company called Gencorp about the Vice President's stockholdings, after earlier testimony about a 2-million-peso so-called loose investment and a Davao lot appearing in her statement of assets.",
+          "startSec": 1108.46,
+          "endSec": 1132.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And on the budget, the Senate's plenary sponsorship of the 2027 spending bill is set for November 23, with Senator Ping Lacson signalling that hundreds of billions of pesos in House cuts may be restored. Weather note: no active storm signal and no tropical cyclone in the area of responsibility. The concern instead is El Niño-driven drought, with about 12 areas at risk.",
+          "startSec": 1132.58,
+          "endSec": 1154.2
+        }
+      ],
+      "startSec": 1006.7
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Mandarin now, and 2 words that live on the financial pages. The first is 有所. It means \"to some extent\" or \"somewhat,\" and it's distinctly formal, 书面语. You'll find it in central-bank statements, statistics releases and analyst notes, almost never in conversation.",
+          "startSec": 1154.2,
+          "endSec": 1169.93
+        },
+        {
+          "speaker": "SAM",
+          "text": "The collocation pattern is the key. 有所 sits in front of a 2-syllable verb: 有所增长, 有所下降, 有所回升, 有所改善. You can't put it in front of a 1-syllable verb or a bare adjective, which is where learners trip up.",
+          "startSec": 1169.93,
+          "endSec": 1183.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Contrast it with 有点 or 稍微, which are spoken and take adjectives: 有点贵, 稍微好一点. 有所 is also a hedging device. When an official report says something 有所改善, it's telling you it improved, but not by much, and they'd rather you didn't ask how much.",
+          "startSec": 1183.2,
+          "endSec": 1198.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "今年的零售销售有所增长，但是力度不大。(Retail sales grew somewhat this year, but not with much strength.)",
+          "startSec": 1198.86,
+          "endSec": 1205.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second word is 迟迟. It means \"slow to happen\" or \"long delayed,\" and it carries a note of frustrated expectation. You've been waiting for something, and it keeps not arriving.",
+          "startSec": 1205.54,
+          "endSec": 1216.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "The pattern is almost always 迟迟 plus a negative: 迟迟不, or 迟迟没有, followed by the verb. 迟迟没有回暖, 迟迟不肯表态, 迟迟未能落地. It works in both formal writing and educated speech.",
+          "startSec": 1216.1,
+          "endSec": 1228.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The near-synonym is 一直, which is neutral and just means continuously. 一直没有回暖 is a fact. 迟迟没有回暖 is a fact plus the sense that it should have recovered by now. And 始终 is more formal, from start to finish, without the impatience.",
+          "startSec": 1228.0,
+          "endSec": 1242.65
+        },
+        {
+          "speaker": "SAM",
+          "text": "房价迟迟没有企稳，家庭还是不敢花钱。(Home prices have been slow to stabilise, so households still don't dare to spend.)",
+          "startSec": 1242.65,
+          "endSec": 1250.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "有所 and 迟迟: one hedges the good news, the other complains about the delay. Both are about to show up in China.",
+          "startSec": 1250.12,
+          "endSec": 1256.85
+        }
+      ],
+      "startSec": 1154.2
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "尽管双十一的销售额有所增长，消费却迟迟没有回暖。(Although Singles' Day sales grew somewhat, consumption has been slow to recover.)",
+          "startSec": 1256.85,
+          "endSec": 1265.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The number: data firm Syntun puts this year's Singles' Day sales at 1.78 trillion yuan, about 267 billion dollars, up 4.8%. Last year's growth was 14.2%. And that's despite a promotion season stretched across weeks and a big push to sell through AI shopping assistants.",
+          "startSec": 1265.16,
+          "endSec": 1280.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "The two-speed picture couldn't be cleaner. October factory-gate prices were up 5.7%, consumer prices up just 0.7%. The industrial side is reflating on energy costs and the export boom; the household side isn't. September retail sales grew only 1.1%, as trade-in subsidies for cars and appliances faded.",
+          "startSec": 1280.84,
+          "endSec": 1298.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the balance-sheet reason is housing. China Index Academy's October numbers show new homes in 100 cities edging up 0.18% on the month, but that's propped up by a mix shift to premium launches. Resale prices, the ones that reflect what households actually own, fell 0.61% on the month and 6.72% on the year. When your main asset keeps falling, you buy only on discount, and Singles' Day is now a discount festival that can't conjure demand.",
+          "startSec": 1298.43,
+          "endSec": 1324.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "The tell for policy: October retail sales land around Monday. If they confirm the slowdown, the pressure shifts back to Beijing for direct household support, rather than another round of trade-in subsidies that just pull purchases forward. Which brings in Alibaba's 6.8% slide this morning: the domestic consumption story and the chip-access story are hitting the same stock at once.",
+          "startSec": 1324.18,
+          "endSec": 1346.49
+        }
+      ],
+      "startSec": 1256.8
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Arts, and Paris Photo opens at the Grand Palais today through Sunday. 29th edition, 242 exhibitors from 38 countries, 195 galleries and 47 publishers, with the main sector of 152 galleries under the nave.",
+          "startSec": 1346.49,
+          "endSec": 1358.38
+        },
+        {
+          "speaker": "SAM",
+          "text": "The frame this year is photography's bicentenary, since Niépce's first fixed image dates to the mid-1820s. The organisers have pitched it as a questioning of the medium rather than a victory lap, which matters at a moment when every image is suspect. And for the first time, the fair is hosting a Prix Pictet display, works by past laureates of the sustainability prize, up on the Promenoir.",
+          "startSec": 1358.38,
+          "endSec": 1381.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In New York, MoMA PS1's \"Hard Art\" opened last week and runs to March 31, 2027. More than 40 artists, Black abstraction in America from 1969 to now. The title comes from Peter Bradley, who used the phrase for \"The De Luxe Show,\" the 1971 exhibition he organised in a converted movie theatre in Houston's Fifth Ward, one of the first racially integrated abstract shows in the country.",
+          "startSec": 1381.16,
+          "endSec": 1403.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "The centrepiece is a new environment by Torkwase Dyson filling the double-height gallery, with new work by SoiL Thornton and a film by Carolyn Lazard. And the curators deliberately include the counter-voice: Lorraine O'Grady's critique of abstraction as a reductive escape from the political.",
+          "startSec": 1403.47,
+          "endSec": 1420.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That tension is the show. The argument is that choosing abstraction was itself a political act for these artists, a refusal to be legible on demand. Putting O'Grady in the room keeps it from becoming a celebration without an argument.",
+          "startSec": 1420.48,
+          "endSec": 1433.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "And from your inbox, Anat Ebgi in Los Angeles opens Jenny Morgan's \"Hours at the Edge\" tomorrow, 2 years of work. Her portraits of women, painted between precise realism and diaphanous abstraction against flat colour fields, now joined for the first time by birds of prey. The anchor piece is \"The Stranger,\" from this year.",
+          "startSec": 1433.71,
+          "endSec": 1452.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The big New York auctions are next week, the 16th through the 18th, so we'll bring you the prices, not the previews.",
+          "startSec": 1452.03,
+          "endSec": 1458.59
+        }
+      ],
+      "startSec": 1346.5
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds. First, John Authers in Bloomberg Opinion: \"Skipping a Rate Hike Doesn't Look So Clever Now.\" His argument: October's CPI shows the Fed should have hiked in October. Chair Kevin Warsh's stated reasons for holding looked thin then and look worse now.",
+          "startSec": 1458.59,
+          "endSec": 1473.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the steelman goes further. Authers suggests the hold was partly about avoiding a fight with the White House before the midterms, and that standard policy rules put the appropriate rate meaningfully above where it is. The inflation voters felt is part of why the election went the way it did. In his view, credibility lost in October now has to be bought back with a bigger move in December.",
+          "startSec": 1473.06,
+          "endSec": 1495.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take: one hot month driven by an oil shock out of the Gulf is a supply story, not an overheating story. Hiking aggressively into a 5% 10-year, with mortgage rates already biting, risks exactly the over-tightening that bond managers are warning about, the argument that yields don't peak until something breaks.",
+          "startSec": 1495.34,
+          "endSec": 1513.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the better critique of Authers is about timing. If October was a mistake, a 50 in December isn't the correction, it's a second error in the other direction. Monetary policy works with a lag; you don't make up for lost months by front-loading.",
+          "startSec": 1513.55,
+          "endSec": 1527.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second piece, Nia-Malika Henderson, also in Bloomberg Opinion: \"Jim Jordan Will Lead House Republicans Deeper Into the Ditch.\" After a historic loss, the House GOP picked Jordan as leader, someone who questioned the 2020 result and defended January 6. Her argument: a conference heading to around 176 seats, versus 241 under Paul Ryan in 2016, has chosen combat on cable over a rebuild, with no reckoning on prices or the Iran war.",
+          "startSec": 1527.46,
+          "endSec": 1551.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The counter-take is that she's grading Jordan for the wrong job. A minority leader doesn't legislate; the job is message discipline and counter-oversight, and those are exactly Jordan's skills. A fighter may hold the base together for 2028 better than a caretaker. The real test is whether he can stop his own members from defecting on spending deals, and that's an organisational skill nobody's seen him need.",
+          "startSec": 1551.83,
+          "endSec": 1575.01
+        },
+        {
+          "speaker": "SAM",
+          "text": "Fair. Henderson's case is about the party's direction; the counter is about the job description. Both can be right.",
+          "startSec": 1575.01,
+          "endSec": 1581.51
+        }
+      ],
+      "startSec": 1458.6
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "One good thing. In Espírito Santo, Brazil, a man named Pedro Moro found an envelope of cash in a town plaza. It turned out to be the month's wages of a construction worker, Matheus Reginaldo Celestino, money meant to support his young daughter.",
+          "startSec": 1581.51,
+          "endSec": 1595.31
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pedro could have kept it, and nobody would have known. Instead he spent 12 days looking for the owner: posting on social media, going shop to shop to check security cameras. When someone finally came forward, he checked by asking exactly which notes were in the envelope, and only then handed it back, every real of it.",
+          "startSec": 1595.31,
+          "endSec": 1613.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "12 days, for a stranger, for a month's pay. Some people are just decent all the way through.",
+          "startSec": 1613.35,
+          "endSec": 1618.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the show. Thanks for riding with us. I'm Sam.",
+          "startSec": 1618.55,
+          "endSec": 1621.49
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Have a good Thursday, and we'll see you tomorrow.",
+          "startSec": 1621.49,
+          "endSec": 1625.05
+        }
+      ],
+      "startSec": 1581.5
+    }
+  ]
+}

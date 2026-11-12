@@ -1,0 +1,39 @@
+{
+ "throughline": "key-man risk: when one person, one queue slot, or one counterparty is the whole bet",
+ "stories": [
+  "ukraine-abu-dhabi-day2-no-breakthrough",
+  "chile-truckers-fuel-strike-kast-freeze",
+  "ethiopia-eritrea-sudan-proxy-claims",
+  "cop31-antalya-leaders-35-by-35",
+  "nvidia-board-weighs-huang-ouster",
+  "western-union-intermex-termination",
+  "uk-q3-gdp-0.7-two-year-high",
+  "alibaba-t-head-spinoff-selloff",
+  "markets-chip-rally-nvda-ah-taiex",
+  "deepdive-1843-fake-wine-gangs",
+  "energy-softbank-turbine-slot-writedown",
+  "energy-anthropic-onepwr-cat-gensets",
+  "energy-big-rooter-coal-to-solar-loan",
+  "energy-dealflow-array-shoals-andersons",
+  "ph-marcos-gdp-target-review-dbcc",
+  "ph-sept-unemployment-5.4",
+  "ph-bsp-december-hike-debate",
+  "ph-peso-past-63",
+  "ph-sara-duterte-trial-day42",
+  "china-singles-day-4.8-slowdown",
+  "china-resale-home-prices-oct",
+  "arts-paris-photo-bicentenary",
+  "arts-hard-art-moma-ps1",
+  "arts-jenny-morgan-anat-ebgi",
+  "oped-authers-fed-skipped-hike",
+  "oped-henderson-jordan-gop-leader",
+  "good-pedro-moro-returns-wages"
+ ],
+ "explainers": [
+  "turbine slot reservations as tradable options",
+  "reciprocating gensets $/kW vs turbine queue",
+  "coal-site interconnection reuse for solar",
+  "wine fraud economics: volume and excise vs connoisseur fakes"
+ ],
+ "comment": "stories = every distinct item covered (short slugs); explainers = concepts actually explained"
+}

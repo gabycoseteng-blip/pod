@@ -1,0 +1,27 @@
+{ "date": "2026-11-12", "asOf": "Wednesday, November 11 close (US bond market shut for Veterans Day)",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,619.38", "change": "+1.31%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "25,466.19", "change": "+1.6%", "dir": "up"},
+      {"label": "Dow Jones", "value": "52,486.49", "change": "+0.49%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,846.26", "change": "+0.9%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,835.47", "change": "+0.78%", "dir": "up"},
+      {"label": "DAX", "value": "26,662.77", "change": "+1.2%", "dir": "up"},
+      {"label": "Nikkei 225 (Thu 11/12)", "value": "60,819.36", "change": "-0.70%", "dir": "down"},
+      {"label": "Taiex (Thu 11/12)", "value": "43,091.87", "change": "-2.63%", "dir": "down"},
+      {"label": "Hang Seng (Wed 11/11)", "value": "24,315", "change": "-0.98%", "dir": "down"},
+      {"label": "Shanghai Composite (Wed 11/11)", "value": "3,680", "change": "+0.46%", "dir": "up"},
+      {"label": "PSEi (Thu 11/12)", "value": "5,660.55", "change": "-0.57%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y (Tue close)", "value": "4.99%", "change": "+11 bps", "dir": "up"},
+      {"label": "UST 2Y (Tue close)", "value": "~4.74%", "change": "~+20 bps", "dir": "up"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "86.53", "change": "+0.6%", "dir": "up"},
+      {"label": "Brent", "value": "92.76", "change": "+1.4%", "dir": "up"},
+      {"label": "Gold (spot, Thu)", "value": "~3,990", "change": "below 4,000", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "DXY", "value": "~102.9", "change": "19-month high", "dir": "up"},
+      {"label": "USD/PHP (BSP wtd avg, Thu)", "value": "63.19", "change": "+0.28", "dir": "up"},
+      {"label": "USD/CNY fix", "value": "6.7174", "change": "-0.0017", "dir": "down"} ]} ],
+  "note": "CoreWeave-led chip rally lifted the S&P 1.3% Wednesday; Nvidia then fell ~8.6% after hours on reports its board is weighing Jensen Huang's future, dragging Taiwan 2.6% lower Thursday." }

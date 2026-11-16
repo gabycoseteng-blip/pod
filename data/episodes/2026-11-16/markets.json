@@ -1,0 +1,26 @@
+{ "date": "2026-11-16", "asOf": "Friday, November 13 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,561.67", "change": "-0.40%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "25,136.27", "change": "-0.91%", "dir": "down"},
+      {"label": "Dow Jones", "value": "52,347.55", "change": "+0.10%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,790.49", "change": "-0.31%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,902.56", "change": "+0.36%", "dir": "up"},
+      {"label": "DAX", "value": "26,749.95", "change": "-0.08%", "dir": "down"},
+      {"label": "STOXX 600", "value": "664.14", "change": "+0.02%", "dir": "flat"},
+      {"label": "Nikkei 225", "value": "61,142.35", "change": "+0.53%", "dir": "up"},
+      {"label": "Hang Seng", "value": "23,637.60", "change": "-1.55%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,634.35", "change": "-0.59%", "dir": "down"},
+      {"label": "PSEi", "value": "5,593.49", "change": "-1.18%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "~5.15%", "change": "~+30 bps wk", "dir": "up"},
+      {"label": "UST 2Y", "value": "~4.86%", "change": "~+35 bps wk", "dir": "up"},
+      {"label": "UST 30Y", "value": "5.47%", "change": "+21 bps wk", "dir": "up"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "88.56", "change": "-0.18", "dir": "down"},
+      {"label": "Brent", "value": "95.84", "change": "", "dir": "flat"} ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "63.72", "change": "+0.03%", "dir": "up"},
+      {"label": "DXY", "value": "~103.4", "change": "+1.1% wk", "dir": "up"} ]} ],
+  "note": "Prior-session close (Fri Nov 13); hand-compiled from web wraps — no FMP key. Weekly changes marked 'wk'." }

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-16",
+  "cards": [
+    {"id": "2026-11-16-tl-1", "lang": "Tagalog", "word": "bangayan", "pinyin": "", "pronunciation": "ba-NGÁ-yan", "tones": "",
+     "meaning": "noisy, petty squabbling; bickering (often repeated, neither side backing down)", "example": "Sawang-sawa na ang mga tao sa bangayan ng mga pulitiko habang tumataas ang presyo ng bilihin.", "examplePinyin": "",
+     "exampleMeaning": "People are fed up with politicians' bickering while prices keep rising.",
+     "note": "Pang-araw-araw at medyo mapanghamak: ipinapahiwatig na walang saysay ang away. Bagay sa pulitika at sa magkapatid. Iba sa 'alitan' (seryoso, may ugat). 'Ang bangayan ay ingay, ang alitan ay ugat.'", "tiesTo": "Ejercito: political noise not helping investment; Senate pauses Sara Duterte trial for 2027 budget"},
+    {"id": "2026-11-16-tl-2", "lang": "Tagalog", "word": "alitan", "pinyin": "", "pronunciation": "a-LÍ-tan", "tones": "",
+     "meaning": "dispute, conflict (serious, often long-running; formal/news register)", "example": "Nananatiling bukas ang alitan sa West Philippine Sea dahil hindi pa natatapos ang Code of Conduct.", "examplePinyin": "",
+     "exampleMeaning": "The dispute in the West Philippine Sea remains open because the Code of Conduct is still unfinished.",
+     "note": "Pormal; ginagamit sa balita at diplomasya ('alitan sa teritoryo'). Hindi sasabihing 'bangayan sa West Philippine Sea' — magiging away-bata ang seryosong usapin. Puwedeng tahimik at tumagal nang dekada.", "tiesTo": "ASEAN-China summit: South China Sea Code of Conduct deadline missed"},
+    {"id": "2026-11-16-zh-1", "lang": "Mandarin", "word": "就……而言", "pinyin": "jiù … ér yán", "pronunciation": "jyoh … er yen", "tones": "4 · 2 · 2",
+     "meaning": "as far as X is concerned; in terms of X (frames an analytical topic)", "example": "就消费而言，十月的零售额只增长了0.4%。", "examplePinyin": "Jiù xiāofèi ér yán, shíyuè de língshòu'é zhǐ zēngzhǎngle bǎi fēn zhī líng diǎn sì.",
+     "exampleMeaning": "As far as consumption is concerned, October retail sales grew just 0.4%.",
+     "note": "书面语(统计公报、研报、评论)。搭配:就+名词(消费/价格/规模/长期)+而言。近义:对……来说 更口语,多指某人的立场('对我来说');就……而言 客观、分析性。", "tiesTo": "China October activity data: retail sales +0.4%"},
+    {"id": "2026-11-16-zh-2", "lang": "Mandarin", "word": "拖累", "pinyin": "tuōlěi", "pronunciation": "twaw-lay", "tones": "1 · 3",
+     "meaning": "to drag down; to weigh on (a burden holding something back)", "example": "房地产拖累了经济增长。", "examplePinyin": "Fángdìchǎn tuōlěile jīngjì zēngzhǎng.",
+     "exampleMeaning": "Real estate dragged down economic growth.",
+     "note": "新闻/书面语。搭配:A拖累B;被动'受……拖累'(受出口下滑拖累)。近义:导致 中性因果;拖累 强调负担、本该前进却被拉住。", "tiesTo": "China property investment -21.6% Jan-Oct drags economy"}
+  ]
+}

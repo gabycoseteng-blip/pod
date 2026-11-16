@@ -1,0 +1,651 @@
+{
+  "date": "2026-11-16",
+  "title": "Monday, November 16, 2026",
+  "day": "Monday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-16.mp3",
+  "durationSec": 1585,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Monday, November 16. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 3.88
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. Here's how this week starts, Sam: on Thursday, Xi Jinping, Donald Trump and Vladimir Putin will sit in the same room in Shenzhen, which has never happened before.",
+          "startSec": 3.88,
+          "endSec": 13.35
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Both Moscow and Beijing have now confirmed it. Dmitry Peskov announced on Saturday, and China's Foreign Ministry followed this morning, that the three leaders meet on November 19 on the sidelines of APEC. Trump also gets a separate bilateral with Xi.",
+          "startSec": 13.35,
+          "endSec": 26.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The White House is selling it as an arms-control summit, with nuclear non-proliferation and warhead cuts as the headline agenda. The Iran war is reportedly on the table as well. Ukraine, according to the briefings so far, is not, and that tells you whose priorities shaped the agenda.",
+          "startSec": 26.81,
+          "endSec": 42.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "For Kyiv, being left off the agenda of a meeting between its main backer and its invader is about as bad as diplomatic optics get. And for Beijing, hosting the trilateral rather than attending it is the prize in itself: China as the convenor between Washington and Moscow.",
+          "startSec": 42.09,
+          "endSec": 56.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which makes the timing of our second story awkward. Taiwanese security officials told Reuters that in early November, China massed more than 100 navy and coast guard vessels across the western Pacific and around Taiwan, with no announcement, no exercise name and no press release.",
+          "startSec": 56.73,
+          "endSec": 71.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ships came from the Eastern, Northern and Southern theatre commands, and the officials say the deployment was larger than last year's Justice Mission 2025 drills. As of Friday, roughly 70 vessels were still inside the first island chain. One official also claimed a submarine-launched ICBM test from the Yellow Sea, but nobody has confirmed that, and China's Defence Ministry won't comment.",
+          "startSec": 71.81,
+          "endSec": 92.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The silence is the point. An announced drill sends a political message. An unannounced one is a rehearsal of the thing itself, a blockade that starts with no warning shot. Hold that thought, because one of today's op-eds is about exactly how much American backing Taipei can count on.",
+          "startSec": 92.8,
+          "endSec": 108.08
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, a new front in the running Ukraine story, and it's about satellites, not territory. On Sunday, Volodymyr Zelensky said speed limits on SpaceX's Starshield network are cutting contact with Ukrainian interceptor drones flying faster than 161 kilometres an hour.",
+          "startSec": 108.08,
+          "endSec": 122.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And interceptor drones are what Ukraine uses to defend the power grid against Russian Shaheds as winter arrives. Kyiv says the cap dates to October. SpaceX told Axios the claims are false, Elon Musk says the US government controls Starshield, and Trump denies ordering any limit. So three parties are each saying it's someone else's switch.",
+          "startSec": 122.4,
+          "endSec": 140.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second-order read is uncomfortable for every military that relies on commercial space. If a 161-kilometre-an-hour cap can appear in software without anyone owning the decision, nobody actually controls that capability.",
+          "startSec": 140.7,
+          "endSec": 152.65
+        },
+        {
+          "speaker": "ALEX",
+          "text": "To US business, and the deal of the year prices this week. Anthropic is expected to price its IPO on Wednesday and begin trading on Nasdaq on Thursday under the ticker ANT. The range is 70 to 78 dollars a share across 825 million Class A shares, and 801.4 million of those are new primary stock.",
+          "startSec": 152.65,
+          "endSec": 168.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "At the top of the range that's 64.35 billion dollars raised, plus 9.7 billion if the underwriters exercise the greenshoe, for a valuation of up to about 1.4 trillion dollars. That would be the largest US IPO on record. The structural surprise is that about 20% of the book is earmarked for retail, against a typical 5 to 10%.",
+          "startSec": 168.53,
+          "endSec": 186.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That retail allocation is where the risk sits. It goes to the most price-insensitive buyers in the deal, in the same week Nvidia reports without Jensen Huang for the first time and with the 10-year near 5.15%. If the first day goes badly, the losses land on retail accounts and the political blowback follows.",
+          "startSec": 186.03,
+          "endSec": 202.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second US story: on Sunday, United Launch Alliance's Vulcan rocket failed about 10 minutes after lifting off from Cape Canaveral and destroyed 40 Amazon Leo broadband satellites. It's ULA's first total mission failure, ever.",
+          "startSec": 202.66,
+          "endSec": 214.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the deadline it puts at risk is regulatory. The FCC required Amazon to have 1,600 Leo satellites in orbit by July 31 of this year, and it has around 390 in service. This was the first of 38 Vulcan launches Amazon bought, so the whole deployment plan just lost its main ride. Investigators are looking at either the Centaur upper stage or Blue Origin's BE-4 engines, and the Space Force had already paused its national-security launches on Vulcan. If the investigation runs long, Amazon's only fast alternative is buying launches from SpaceX, which runs the competing Starlink network.",
+          "startSec": 214.72,
+          "endSec": 246.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Internationally, Mercedes-Benz has drawn a line in Stuttgart. A memo to workers, reported by Reuters, says the company is halting all new investment in its German plants, may close two of them, and will build new models abroad unless workers accept longer hours and smaller bonuses.",
+          "startSec": 246.37,
+          "endSec": 261.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Production chief Michael Schiebe says an hour of factory work in Germany costs up to 5 times what it does in Eastern Europe. Works council talks have produced nothing in 4 months, and the 2026 margin guidance is already down to 2 to 3%. Volkswagen opens its own union talks on November 24 with up to 4 plants and 100,000 jobs in play. The German auto bargain of high wages in exchange for high margins has run out of margin.",
+          "startSec": 261.55,
+          "endSec": 284.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in West Africa, a smooth one: Cape Verde's José Maria Neves won a second five-year term on Sunday with about 63.8% and roughly 97% of stations counted. Joana Rosa, the country's first female presidential candidate, conceded, so there's no runoff. Turnout was under a third of voters, but Cape Verde remains one of Africa's most reliable democracies.",
+          "startSec": 284.37,
+          "endSec": 303.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And in Tokyo this morning, a miss with policy consequences. Japan's third-quarter GDP shrank 0.1% annualised, the first contraction in 4 quarters, against forecasts of 0.2% growth. Private consumption fell 0.3%, housing fell 1.1%, and capex was the only engine, up 1.6%.",
+          "startSec": 303.37,
+          "endSec": 317.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "That puts the Bank of Japan in a bind. Having just hiked to 1.25%, it now faces shrinking output with the GDP deflator still running 2.4%. Traders cut rate-hike bets, 10-year JGBs rallied, and the revised figure on December 8 lands just before the BOJ's December meeting.",
+          "startSec": 317.9,
+          "endSec": 332.49
+        }
+      ],
+      "startSec": 13.3
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Equities drifted on Friday and the levels are on the Markets tab. The story was in bonds. The 10-year rose roughly 30 basis points on the week to around 5.15%, its steepest weekly climb since April 2025, and the 2-year did worse, up about 35 basis points, the biggest weekly jump since October 2024.",
+          "startSec": 332.49,
+          "endSec": 350.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Friday's producer prices didn't help. October PPI rose 0.3% on the month, a touch soft, but 6.5% year on year, the highest since November 2022. With that, futures fully price a 25-basis-point Fed hike in December. That's a hike, not a cut, with Kevin Warsh speaking this morning.",
+          "startSec": 350.37,
+          "endSec": 367.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "My read is that front-end repricing is what matters. When the 2-year moves more than the 10-year in a week, the market is repricing the Fed's next few meetings, not term premium or deficits. Chips are the most rate-sensitive, longest-duration part of the equity market, and they're where the selling showed up: CoreWeave down 6.3% on Friday, Super Micro down 5.2%.",
+          "startSec": 367.06,
+          "endSec": 388.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Asia carried it on. Hong Kong fell 1.55% on Friday, with the Hang Seng Tech index down about 3% and Shenzhen's ChiNext down 3.3%. This morning the Nikkei is down well over 1.5% and back below 60,000 after Japan reported a surprise third-quarter contraction, and Bitcoin is under 70,000 dollars after a 10% week.",
+          "startSec": 388.84,
+          "endSec": 407.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So this week has three real tests stacked up: retail sales and Nvidia on Tuesday, the FOMC minutes on Wednesday, and Anthropic pricing into all of it. The dollar just had its best week in 2 months. If Nvidia disappoints with rates where they are, the IPO window could get very narrow very quickly.",
+          "startSec": 407.44,
+          "endSec": 425.2
+        }
+      ],
+      "startSec": 332.5
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the deep dive we're leaving the AI economy behind. On Friday, The Economist's daily briefing ran a piece with a headline I loved: Quebec's strategic maple-syrup reserve is running dry, and the province's cartel is losing its grip.",
+          "startSec": 425.2,
+          "endSec": 439.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "For anyone who hasn't met it, Quebec makes about 70% of the world's maple syrup and more than 90% of Canada's. Almost all bulk syrup is sold through one producer body, the PPAQ, which represents about 13,500 producers. It sets production quotas, sets prices, and runs a physical stockpile across three warehouses with capacity of about 133 million pounds.",
+          "startSec": 439.2,
+          "endSec": 460.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's a genuine strategic reserve, run on the same logic as the Strategic Petroleum Reserve. In a good year the cartel buys surplus and stores it, and in a bad year it releases barrels so buyers never see a gap.",
+          "startSec": 460.43,
+          "endSec": 473.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And this autumn the PPAQ's president, Luc Goulet, said the reserve has been reduced to zero. What's left has moved to processors' warehouses and is expected to sell out by the end of February 2027, and rebuilding the buffer will take years.",
+          "startSec": 473.0,
+          "endSec": 487.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "The interesting part is that a bad harvest isn't what emptied it. Demand did. American commercial buyers front-ran the tariff threat. Exports to the US rose 16% in 2025 to a record 525 million Canadian dollars, and the US takes about 65% of Quebec's exports. The reserve got drawn down to feed a stockpiling spree on the other side of the border.",
+          "startSec": 487.35,
+          "endSec": 508.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's a pattern our listener knows from energy. Tariff anticipation produces a demand spike that looks like consumption but is really inventory moving from one warehouse to another, here from the PPAQ's to an American food processor's. The underlying demand didn't change. Where the buffer sits did.",
+          "startSec": 508.05,
+          "endSec": 525.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then add the volatility. Sap flow depends on freeze-thaw cycles in early spring, and those are getting more erratic. Canada's 2024 harvest was a record 19.9 million gallons, up 91% from a dismal 2023. The reserve exists for exactly that swing, and right now there isn't one.",
+          "startSec": 525.99,
+          "endSec": 542.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which brings in The Economist's real argument, the one about the cartel. Supply management buys stability by capping output. There were essentially no new production quotas for 2026 beyond a small allocation for start-ups. The Montreal Economic Institute estimates Quebec taps around 50% of its maple potential, against about 5% in the United States.",
+          "startSec": 542.38,
+          "endSec": 563.32
+        },
+        {
+          "speaker": "SAM",
+          "text": "So the Americans have all that room to grow, and they've been using it. Quebec lost roughly 10 points of world share in the decade to 2016 as Vermont, New York and Ontario expanded. The price floor that protects Quebec producers also creates an umbrella that Vermont producers sell under.",
+          "startSec": 563.32,
+          "endSec": 580.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman for the cartel is real, though. In the 2023 crop failure, the reserve and the price floor are why thousands of family sugar bushes didn't go under, and buyers got supply when nature didn't deliver. You could also argue the reserve emptied because the system worked: record exports, record prices, and producers paid.",
+          "startSec": 580.54,
+          "endSec": 600.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the PPAQ has been tested before in the most Canadian way possible. In 2011 and 2012, thieves siphoned about 3,000 tonnes of syrup, worth roughly 18 million Canadian dollars, out of the reserve warehouse in Saint-Louis-de-Blandford by draining barrels and refilling them with water. It's still called the Great Maple Syrup Heist.",
+          "startSec": 600.22,
+          "endSec": 620.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second-order read is that a buffer only works if you rebuild it, and the cartel's own quota discipline is what makes that slow. If the 2027 sap season is weak, Goulet himself warns buyers will defect to Vermont and Ontario, and buyers who switch suppliers in a shortage don't usually come back.",
+          "startSec": 620.08,
+          "endSec": 637.9
+        },
+        {
+          "speaker": "SAM",
+          "text": "It's a breakfast condiment, but the structure is OPEC with pancakes: a strategic stockpile, a price floor, quotas, outside producers sheltering under the umbrella, and a trade war that pulled future demand into the present. And it's the first of several buffers today that turn out to be thinner than everyone assumed.",
+          "startSec": 637.9,
+          "endSec": 656.93
+        }
+      ],
+      "startSec": 425.2
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Which takes us to power, and the cleanest new price signal of the month comes from the Tennessee Valley Authority. TVA has signed its first disclosed capacity commitment charge agreement with a data-centre customer, worth about 1.7 billion dollars according to a report on its filing.",
+          "startSec": 656.93,
+          "endSec": 673.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "The mechanics are what matter: roughly 1.5 million dollars per megawatt of requested capacity above the first 5 megawatts, paid over 3 to 5 years. TVA didn't disclose the size, but the arithmetic implies something like 1.1 gigawatts. There's a 31 million dollar initial payment booked as a receivable and offset by a regulatory liability, so it sits as a ratepayer credit rather than as revenue.",
+          "startSec": 673.91,
+          "endSec": 697.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The important distinction is that this is upfront cash for headroom, not collateral you get back. At 1.5 million a megawatt you're paying something like 15 to 20% of a new combined-cycle plant's capital cost just to hold your place. TVA's Large Data Service rate took effect on October 1, with a 2,000-megawatt first-come cohort cap for fiscal 2027 and an all-in bill impact of roughly 10%, phased in over 3 years. That makes it the first non-RTO public power utility to publish a real price for reserving capacity.",
+          "startSec": 697.54,
+          "endSec": 727.66
+        },
+        {
+          "speaker": "SAM",
+          "text": "Contrast that with PJM, where the debate is going the other way. Modo Energy's tracker now counts 231 gigawatts of operating and planned data centres across 681 developments in PJM. 92% of that is still in planning or construction.",
+          "startSec": 727.66,
+          "endSec": 741.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Modo's own forecast is that about 19.2 gigawatts actually shows up at system peak by 2030. That's roughly a 12-to-1 gap between what's been announced and what gets built. The market monitor's tally of what the speculative half costs is 29.4 billion dollars, or 46%, of the 63.6 billion in capacity charges across the last four base auctions, attributed to data-centre demand.",
+          "startSec": 741.17,
+          "endSec": 763.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the shortfall the backstop was designed to fill is shrinking fast. Utility Dive reports PJM's revised reliability backstop procurement could fall from about 6,800 megawatts to as little as 630, with ICF saying the redesign reduces utility risk. Jefferies says utilities have cut near-term large-load forecasts by about 6.5 gigawatts.",
+          "startSec": 763.11,
+          "endSec": 782.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the monitor says about 4 gigawatts, 42% of forecast data-centre growth for the next three delivery years, is delayed or cancelled. So the shortage that was supposed to justify 15-year backstop contracts at a 555-dollar-per-megawatt-day cap is evaporating as forecasts get scrutinised. That strengthens the camp arguing against ratepayer-backed new builds, and it weakens anyone whose project model assumed backstop revenue.",
+          "startSec": 782.82,
+          "endSec": 807.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "In the Sun Belt, the Florida Public Service Commission voted 5 to 0 to reject Duke Energy Florida's large-load tariff. It was the first test of SB 484, the 2025 law requiring a separate rate class so data centres carry their own costs.",
+          "startSec": 807.79,
+          "endSec": 821.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Staff recommended denial on two grounds: the tariff had no specific rate, and its definition of firm load narrowed what the statute requires. Chair Gabriella Passidomo Smith signalled Duke can refile. But a unanimous rejection on statutory grounds sets the bar for Florida Power and Light and TECO. Florida is a regulated, non-RTO state that hyperscalers have been scouting precisely because it looked simpler than PJM, and it just got more demanding.",
+          "startSec": 821.54,
+          "endSec": 847.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a supply-chain note from Seoul this morning: LS Electric won a contract worth about 94 million dollars to supply power systems for a hyperscale campus run by an unnamed global tech company, and SK Telecom signed with Hyosung Heavy Industries to partner on gigawatt-scale AI power equipment. Hyosung is one of the big transformer exporters into the US.",
+          "startSec": 847.91,
+          "endSec": 868.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The pattern across all four stories is the same. Hyperscalers are locking up Korean switchgear and transformers directly, TVA is charging cash for headroom, Florida is demanding a real tariff, and PJM is discovering most of its queue was speculative. The power buffer people assumed would be available is being priced item by item, and whoever pays upfront gets served first.",
+          "startSec": 868.68,
+          "endSec": 890.61
+        }
+      ],
+      "startSec": 656.9
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Oras na para sa ating bokabularyo sa Tagalog. Dalawang salita ngayon, at magkamag-anak sila: bangayan at alitan.",
+          "startSec": 890.61,
+          "endSec": 897.16
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Unahin natin ang bangayan. Ito ang maingay at paulit-ulit na pagtatalo, kadalasan tungkol sa maliliit na bagay, at walang gustong umatras. Medyo may pang-iinsulto ang tono nito, kasi ipinapahiwatig nitong walang saysay ang away.",
+          "startSec": 897.16,
+          "endSec": 910.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya bagay na bagay ito sa pulitika. Halimbawa: Sawang-sawa na ang mga tao sa bangayan ng mga pulitiko habang tumataas ang presyo ng bilihin. Puwede ring sa magkapatid: Tumigil na kayo sa bangayan, nakakahiya sa bisita.",
+          "startSec": 910.5,
+          "endSec": 923.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang alitan naman ay mas pormal at mas seryoso. Ito ang tunay na hindi pagkakasundo, minsan matagal na, at may malalim na pinagmulan. Ginagamit ito sa balita at sa diplomasya.",
+          "startSec": 923.31,
+          "endSec": 933.48
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kaya naririnig natin ang alitan sa West Philippine Sea, o ang alitan ng dalawang bansa tungkol sa teritoryo. Hindi mo sasabihing bangayan sa West Philippine Sea, kasi magiging parang away-bata ang isang seryosong usapin.",
+          "startSec": 933.48,
+          "endSec": 946.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama. Ang madaling tandaan: ang bangayan ay ingay, ang alitan ay ugat. Puwedeng mauwi sa alitan ang bangayan, pero hindi lahat ng alitan ay maingay. May mga alitang tahimik na tumatagal nang ilang dekada.",
+          "startSec": 946.35,
+          "endSec": 958.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "At pareho nating maririnig ang dalawang salitang iyan sa susunod na segment.",
+          "startSec": 958.28,
+          "endSec": 962.73
+        }
+      ],
+      "startSec": 890.6
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Itinakda ng Senado na ihinto muna ang paglilitis kay Bise Presidente Sara Duterte mula Nobyembre 23 hanggang Disyembre 3, para maipasa ang 7.2 trilyong pisong badyet para sa 2027.",
+          "startSec": 962.73,
+          "endSec": 973.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ayon kay Senador JV Ejercito, hindi nakakatulong sa pamumuhunan ang bangayan sa pulitika, at dapat nang tapusin ang impeachment. Iisang artikulo na lang ang natitira, ang tungkol sa hindi maipaliwanag na yaman.",
+          "startSec": 973.2,
+          "endSec": 985.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The arithmetic is the problem. Senate President Win Gatchalian wants the budget debate wrapped up by December 4 and both the budget and the trial finished before Christmas. But the bicameral conference contingent, 6 or 7 senators, could break the quorum the trial needs if they're away negotiating with the House. The budget is up 407 billion pesos, about 6%, on 2026, and Ejercito says senators should be ready to work through the holidays. The calendar is already full before the trial even resumes.",
+          "startSec": 985.48,
+          "endSec": 1014.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "And on the flood-control scandal, the Sandiganbayan has rejected former senator Bong Revilla's bid to dismiss the 92.8-million-peso ghost-project malversation case over a Pandi, Bulacan flood-control job. His defence starts presenting evidence on November 24, and the Ombudsman now counts 79 flood-control cases before the anti-graft court, so the courts will keep these cases in the news long after the Senate moves on.",
+          "startSec": 1014.78,
+          "endSec": 1039.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "On trade, Manila got a deliverable from its ASEAN chairmanship. On Friday, President Marcos and Canada's Mark Carney concluded negotiations on a bilateral free trade agreement, with signing targeted for 2027. Carney says two-way trade should triple within a decade, and the wider ASEAN-Canada deal is now described as substantially concluded.",
+          "startSec": 1039.35,
+          "endSec": 1059.35
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Bangko Sentral had better news this morning too. Cash remittances in September came to 3.202 billion dollars, up 2.6% on the year, the fastest pace in 8 months. Year to date they're 26.63 billion, up 2.3%, and the BSP still sees 36.6 billion for 2026. With the peso around 63.7 and a December 17 Monetary Board meeting ahead, those inflows give the peso a little support.",
+          "startSec": 1059.35,
+          "endSec": 1080.03
+        },
+        {
+          "speaker": "SAM",
+          "text": "And at today's ASEAN-China summit, marking 35 years of ties, Marcos called for self-restraint and mutual respect. Pero hindi pa rin natapos ang Code of Conduct, kaya nananatiling bukas ang alitan sa West Philippine Sea. The original target was July 2026, and Marcos now says talks advanced under the 2023 guidelines, which is diplomatic for missed. On the same sidelines, Manila and Canberra signed an updated defence cooperation pact, and Marcos heads to China for APEC later this week, the same week Xi hosts that trilateral.",
+          "startSec": 1080.03,
+          "endSec": 1109.1
+        }
+      ],
+      "startSec": 962.7
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Mandarin vocab, and our first item is a connective frame: 就……而言, \"as far as X is concerned.\"",
+          "startSec": 1109.1,
+          "endSec": 1114.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's formal, 书面语, the kind of phrase you meet in a statistics bulletin or a research note. You put the topic in the middle, and it frames everything after it as an analysis of that one dimension. 就消费而言，今年的表现令人失望。(As far as consumption is concerned, this year's performance has been disappointing.)",
+          "startSec": 1114.44,
+          "endSec": 1132.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonym is 对……来说, which is more conversational and usually about a person's perspective, as in \"for me\" or \"for small firms.\" 就……而言 is analytical and impersonal. 对我来说，这个价格太高了。(For me, this price is too high.) 就价格而言，这个方案并不便宜。(In terms of price, this option is not cheap.)",
+          "startSec": 1132.4,
+          "endSec": 1150.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second word is 拖累, \"to drag down\" or \"to weigh on.\" It's a news-desk verb, and it implies a burden: something that should be moving gets held back by dead weight.",
+          "startSec": 1150.61,
+          "endSec": 1159.95
+        },
+        {
+          "speaker": "SAM",
+          "text": "Contrast it with 导致, which is neutral cause and effect. 拖累 tells you what the drag is. The two collocations to learn are A 拖累 B, and the passive 受……拖累. 房地产拖累了经济增长。(Real estate dragged down economic growth.) 受出口下滑拖累，利润减少了。(Weighed down by falling exports, profits declined.)",
+          "startSec": 1159.95,
+          "endSec": 1177.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "You'll hear both in the China segment, which comes next.",
+          "startSec": 1177.83,
+          "endSec": 1180.92
+        }
+      ],
+      "startSec": 1109.1
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "就消费而言，十月的零售额只增长了0.4%，房地产继续拖累整体经济。(As far as consumption is concerned, October retail sales grew just 0.4%, and real estate continued to drag down the overall economy.)",
+          "startSec": 1180.92,
+          "endSec": 1192.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Those are this morning's numbers from the National Bureau of Statistics, and every one missed. Retail sales grew 0.4% against a 0.8% forecast and 1.1% in September. Industrial output grew 4.8% against 5.3% expected. Fixed-asset investment for January to October is down 8.1%, and property investment is down 21.6%, with new starts down around 24%.",
+          "startSec": 1192.6,
+          "endSec": 1211.73
+        },
+        {
+          "speaker": "SAM",
+          "text": "Now set that against the trade data. October exports were up 35.2% year on year, about 412 billion dollars, with integrated-circuit exports up 137%. Exports up 35% while retail grows 0.4% is the two-speed economy in one comparison.",
+          "startSec": 1211.73,
+          "endSec": 1224.47
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's one partial bright spot: the 70-city survey shows new-home prices down 2.4% on the year, the narrowest decline since November 2025. But 49 of the 70 cities still fell on the month, and developers aren't building into that floor, since starts are still collapsing. 虽然房价跌幅收窄，但是开发商仍然不敢投资。(Although the fall in home prices has narrowed, developers still don't dare to invest.)",
+          "startSec": 1224.47,
+          "endSec": 1247.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the debt-deflation problem. Households are in roughly their fifth year of losing property wealth, so they save, and the factories that would serve them sell abroad instead, into tariff walls that keep rising. The external market is doing the work a household balance sheet should be doing, and that buffer depends on partners who are getting less patient.",
+          "startSec": 1247.2,
+          "endSec": 1267.16
+        }
+      ],
+      "startSec": 1180.9
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Arts, and New York's marquee November auctions arrive this week with about 2.4 billion dollars in estimates and something new: you can bet on them. Last Wednesday, Artnet became the official art partner of the prediction market Kalshi, and contracts on the modern and contemporary evening sales are live now.",
+          "startSec": 1267.16,
+          "endSec": 1284.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "Kalshi started listing art-auction contracts in May, settling against publicly reported hammer prices, and Polymarket saw about 1.4 million dollars wagered around last year's Lauder sale. Hyperallergic responded with a headline saying art bros are about to get more insufferable, and it quoted curator Carlye Packer calling the raised paddle \"theatre.\"",
+          "startSec": 1284.15,
+          "endSec": 1303.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There's a serious critique under the snark. Evening-sale prices are already partly arranged in advance through guarantees and irrevocable bids, so the people who know the floor are the house, the guarantor and the consignor. Putting a betting market on top of a number insiders can largely arrange is close to a definition of insider trading. This week's sales are the first live test, and the question to watch is whether anybody on the inside places a bet.",
+          "startSec": 1303.56,
+          "endSec": 1328.82
+        },
+        {
+          "speaker": "SAM",
+          "text": "In music, Osvaldo Golijov is back with his biggest canvas in years. His \"Creation,\" a nearly 2-hour response to Haydn's oratorio, had its world premiere with the Boston Symphony on Thursday, with Cécile McLorin Salvant, the baritone Davóne Tines, the kamancheh master Kayhan Kalhor and the Tanglewood Festival Chorus, conducted by Eric Jacobsen. It's co-commissioned with the Edinburgh International Festival.",
+          "startSec": 1328.82,
+          "endSec": 1351.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the critics split cleanly. The Boston Classical Review called it overlong, structurally uneven and too eager to please everyone, though full of gems, with Tines the standout. The Boston Musical Intelligencer called it an authentic modern masterpiece and reached for Mahler's 8th. That split is the Golijov question in one sentence. After a decade of missed commissions and a borrowing controversy, does his eclecticism still add up to a synthesis, or does it now sound like a playlist? Edinburgh audiences will get their own answer.",
+          "startSec": 1351.38,
+          "endSec": 1380.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "For the opera people, a rediscovery: Opera Lafayette has given the modern world premiere of Rameau's \"Les Surprises de l'Amour,\" first in Washington and then at the Folger Theatre through Sunday. OperaWire called it an artistic triumph, which is why this small company keeps winning the argument for doing French baroque properly, with the dance left in.",
+          "startSec": 1380.94,
+          "endSec": 1400.46
+        },
+        {
+          "speaker": "SAM",
+          "text": "And literature has a big week. The National Book Awards are on Wednesday, with a fiction shortlist that includes Edwidge Danticat's \"Dèy,\" her third time as a finalist, and Valeria Luiselli. In nonfiction, Abdelrahman ElGendy's Egyptian prison memoir \"Huna\" is the one critics keep naming. And the Giller Prize, worth 100,000 Canadian dollars, is announced tonight in Toronto.",
+          "startSec": 1400.46,
+          "endSec": 1421.2
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Danticat against Luiselli is a familiar choice for the fiction jury: moral witness or formal ambition. My guess is the jury rewards witness this year, but Luiselli's books have a way of ending up on syllabi long after the medals are forgotten.",
+          "startSec": 1421.2,
+          "endSec": 1433.76
+        }
+      ],
+      "startSec": 1267.2
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds. First, Max Hastings in Bloomberg Opinion on Sunday, under the headline \"American Support for Taiwan Looks Alarmingly Fragile.\" Strongest version of his case: Taiwan is the gravest open question in American foreign policy, and Trump has now called arms sales to the island \"a very good negotiating chip.\"",
+          "startSec": 1433.76,
+          "endSec": 1449.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Hastings' point is that once Taipei's security is openly a bargaining asset in US-China dealmaking, it can be traded, and a trilateral in Shenzhen on Thursday is exactly where trades get made. The midterm losses haven't reduced Trump's capacity for disruption abroad. So allies, and anyone dependent on the chip supply chain, should price a real probability of abandonment, which is what that silent 100-ship drill looks like it's testing for.",
+          "startSec": 1449.84,
+          "endSec": 1472.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take: transactional rhetoric is not the same as policy. The Taiwan Relations Act, the congressional arms-sale pipeline and a Congress reshaped by the midterms all constrain what a president can give away. And strategic ambiguity has always included some ambiguity about Washington's resolve. Beijing has never been able to bank on American abandonment, and a talking point at a summit won't change that calculus.",
+          "startSec": 1472.75,
+          "endSec": 1494.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "I'd push back on that a little. Ambiguity deters when both sides believe the downside is real. If Beijing starts believing the downside is negotiable, deterrence weakens without anything formally changing. So I'd score it Hastings on the risk, his critics on the mechanism.",
+          "startSec": 1494.67,
+          "endSec": 1508.78
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, Noah Smith at Noahpinion: \"India is quietly doing great.\" His steelman: since the pandemic India has outgrown China and cut poverty while inequality fell, and on GDP and human-development measures it's roughly where China was in the late 2000s. It doesn't need to become China, only upper-middle income, which is a much easier target.",
+          "startSec": 1508.78,
+          "endSec": 1526.46
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The counter-take came from Slow Boring and others: growth led by services without enough jobs, weak manufacturing depth, poor education outcomes and toxic air could cap India below the Chinese path, and quietly doing great passes over real democratic backsliding. I'd add a point from today's China numbers. China's export machine is so big that India's manufacturing ambitions have to fight it for every market, and that's exactly the fight the Mercedes memo says Europe is losing.",
+          "startSec": 1526.46,
+          "endSec": 1551.38
+        }
+      ],
+      "startSec": 1433.8
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing. Early this month, flash floods hit Palm Bay, Florida, and Brittany Grant was trapped in rising water with her son and their 3 dogs. She couldn't get through to 911, so she posted on Facebook.",
+          "startSec": 1551.38,
+          "endSec": 1562.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A local mother saw the post and sent her two sons: Jonah Marshall, 15, on a borrowed kayak, and his brother Lucas, 17, on his paddleboard, with a neighbour alongside. They paddled out through the floodwater and brought every one of them back, the boy and all 3 dogs included.",
+          "startSec": 1562.09,
+          "endSec": 1576.3
+        },
+        {
+          "speaker": "SAM",
+          "text": "When the official system couldn't answer, a mother read a post and two teenagers paddled out.",
+          "startSec": 1576.3,
+          "endSec": 1581.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the show for Monday. Have a great start to the week, and we'll see you tomorrow.",
+          "startSec": 1581.11,
+          "endSec": 1585.61
+        }
+      ],
+      "startSec": 1551.4
+    }
+  ]
+}

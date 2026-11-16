@@ -1,27 +1,26 @@
-{ "date": "2026-11-12", "asOf": "Wednesday, November 11 close (US bond market shut for Veterans Day)",
+{ "date": "2026-11-16", "asOf": "Friday, November 13 close",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,619.38", "change": "+1.31%", "dir": "up"},
-      {"label": "Nasdaq Composite", "value": "25,466.19", "change": "+1.6%", "dir": "up"},
-      {"label": "Dow Jones", "value": "52,486.49", "change": "+0.49%", "dir": "up"},
-      {"label": "Russell 2000", "value": "2,846.26", "change": "+0.9%", "dir": "up"} ]},
+      {"label": "S&P 500", "value": "7,561.67", "change": "-0.40%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "25,136.27", "change": "-0.91%", "dir": "down"},
+      {"label": "Dow Jones", "value": "52,347.55", "change": "+0.10%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,790.49", "change": "-0.31%", "dir": "down"} ]},
     {"name": "Global Indices", "rows": [
-      {"label": "FTSE 100", "value": "10,835.47", "change": "+0.78%", "dir": "up"},
-      {"label": "DAX", "value": "26,662.77", "change": "+1.2%", "dir": "up"},
-      {"label": "Nikkei 225 (Thu 11/12)", "value": "60,819.36", "change": "-0.70%", "dir": "down"},
-      {"label": "Taiex (Thu 11/12)", "value": "43,091.87", "change": "-2.63%", "dir": "down"},
-      {"label": "Hang Seng (Wed 11/11)", "value": "24,315", "change": "-0.98%", "dir": "down"},
-      {"label": "Shanghai Composite (Wed 11/11)", "value": "3,680", "change": "+0.46%", "dir": "up"},
-      {"label": "PSEi (Thu 11/12)", "value": "5,660.55", "change": "-0.57%", "dir": "down"} ]},
+      {"label": "FTSE 100", "value": "10,902.56", "change": "+0.36%", "dir": "up"},
+      {"label": "DAX", "value": "26,749.95", "change": "-0.08%", "dir": "down"},
+      {"label": "STOXX 600", "value": "664.14", "change": "+0.02%", "dir": "flat"},
+      {"label": "Nikkei 225", "value": "61,142.35", "change": "+0.53%", "dir": "up"},
+      {"label": "Hang Seng", "value": "23,637.60", "change": "-1.55%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,634.35", "change": "-0.59%", "dir": "down"},
+      {"label": "PSEi", "value": "5,593.49", "change": "-1.18%", "dir": "down"} ]},
     {"name": "Rates", "rows": [
-      {"label": "UST 10Y (Tue close)", "value": "4.99%", "change": "+11 bps", "dir": "up"},
-      {"label": "UST 2Y (Tue close)", "value": "~4.74%", "change": "~+20 bps", "dir": "up"} ]},
+      {"label": "UST 10Y", "value": "~5.15%", "change": "~+30 bps wk", "dir": "up"},
+      {"label": "UST 2Y", "value": "~4.86%", "change": "~+35 bps wk", "dir": "up"},
+      {"label": "UST 30Y", "value": "5.47%", "change": "+21 bps wk", "dir": "up"} ]},
     {"name": "Commodities", "rows": [
-      {"label": "WTI", "value": "86.53", "change": "+0.6%", "dir": "up"},
-      {"label": "Brent", "value": "92.76", "change": "+1.4%", "dir": "up"},
-      {"label": "Gold (spot, Thu)", "value": "~3,990", "change": "below 4,000", "dir": "down"} ]},
+      {"label": "WTI", "value": "88.56", "change": "-0.18", "dir": "down"},
+      {"label": "Brent", "value": "95.84", "change": "", "dir": "flat"} ]},
     {"name": "FX", "rows": [
-      {"label": "DXY", "value": "~102.9", "change": "19-month high", "dir": "up"},
-      {"label": "USD/PHP (BSP wtd avg, Thu)", "value": "63.19", "change": "+0.28", "dir": "up"},
-      {"label": "USD/CNY fix", "value": "6.7174", "change": "-0.0017", "dir": "down"} ]} ],
-  "note": "CoreWeave-led chip rally lifted the S&P 1.3% Wednesday; Nvidia then fell ~8.6% after hours on reports its board is weighing Jensen Huang's future, dragging Taiwan 2.6% lower Thursday." }
+      {"label": "USD/PHP", "value": "63.72", "change": "+0.03%", "dir": "up"},
+      {"label": "DXY", "value": "~103.4", "change": "+1.1% wk", "dir": "up"} ]} ],
+  "note": "Prior-session close (Fri Nov 13); hand-compiled from web wraps — no FMP key. Weekly changes marked 'wk'." }

@@ -37,7 +37,7 @@ git checkout "$DEPLOY_BRANCH" && git pull --rebase origin "$DEPLOY_BRANCH"
   echo "FATAL: not on $DEPLOY_BRANCH — the ledger + this command file may be stale. Stop." >&2
   exit 1; }
 
-pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a SessionStart hook also does this — render/upload fail cold without them
+python3 -m pip install -q -r tools/requirements.txt 2>/dev/null || true  # boto3 (R2) + imageio-ffmpeg (mp3); a SessionStart hook also does this — render/upload fail cold without them
 
 # Build the "already covered" exclusion block ONCE, from the deploy branch's ledger,
 # straight into a FILE — the ~22KB block never enters your own context (that tee

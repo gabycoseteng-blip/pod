@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-17",
+  "cards": [
+    {"id": "2026-11-17-tl-1", "lang": "Tagalog", "word": "pagdausdos", "pinyin": "", "pronunciation": "pag-da-us-DÓS", "tones": "",
+     "meaning": "a steady, continuing slide downward (gradual decline, not a sudden crash)", "example": "Sa kabila ng mga pangako ng gobyerno, hindi pa rin napipigilan ang pagdausdos ng piso.", "examplePinyin": "",
+     "exampleMeaning": "Despite the government's promises, the peso's slide still hasn't been stopped.",
+     "note": "Mula sa 'dausdos' (padulasan). Proseso, hindi isang sandali: iba sa 'pagbagsak' (biglang lagapak). Pormal sa balitang pang-ekonomiya (pagdausdos ng piso/PSEi) pero puwede rin sa araw-araw (pagdausdos ng grado).", "tiesTo": "PSEi falls 2% to lowest close since May 2020; peso at 63.94"},
+    {"id": "2026-11-17-tl-2", "lang": "Tagalog", "word": "kaalyado", "pinyin": "", "pronunciation": "ka-al-YÁ-do", "tones": "",
+     "meaning": "ally (formal, treaty or political alliance)", "example": "Umaasa ang Malacañang na mananatiling tapat ang mga kaalyado nito habang dinidinig ang badyet.", "examplePinyin": "",
+     "exampleMeaning": "Malacañang hopes its allies will stay loyal while the budget is being heard.",
+     "note": "May kasunduan at obligasyon; iba sa 'kakampi' (pang-araw-araw, laro o away). Gamit sa diplomasya (magkaalyado ang PH at US) at sa pulitika sa loob (mga kaalyado ng Pangulo sa Kongreso).", "tiesTo": "Trump in Manila for ASEAN-US summit; Marcos-Trump bilateral"},
+    {"id": "2026-11-17-zh-1", "lang": "Mandarin", "word": "释放信号", "pinyin": "shìfàng xìnhào", "pronunciation": "shr-fahng shin-how", "tones": "4 4 · 4 4",
+     "meaning": "to send / release a signal (telegraph intent)", "example": "央行回笼资金，释放了谨慎的信号。", "examplePinyin": "Yāngháng huílóng zījīn, shìfàngle jǐnshèn de xìnhào.",
+     "exampleMeaning": "By draining funds, the central bank sent a cautious signal.",
+     "note": "书面语(政策/财经评论)。搭配:释放+积极/谨慎/鹰派+信号。近义:表明 只陈述事实;释放信号 暗含意图与受众(有人要去解读)。", "tiesTo": "PBOC net drains 300bn yuan of medium-term funds in November"},
+    {"id": "2026-11-17-zh-2", "lang": "Mandarin", "word": "以……为代价", "pinyin": "yǐ … wéi dàijià", "pronunciation": "ee … way dye-jyah", "tones": "3 · 2 · 4 4",
+     "meaning": "at the cost of …; at the expense of …", "example": "稳定汇率不能以经济增长为代价。", "examplePinyin": "Wěndìng huìlǜ bù néng yǐ jīngjì zēngzhǎng wéi dàijià.",
+     "exampleMeaning": "Stabilising the exchange rate cannot come at the cost of economic growth.",
+     "note": "书面语,略带批评:取舍是选择、代价真实。搭配:以+增长/环境/健康+为代价。近义:牺牲(动词,更情绪化);付出代价(承受后果)。", "tiesTo": "PBOC protects yuan ahead of Shenzhen summit at the cost of easing"}
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "date": "2026-11-17",
+  "title": "Tuesday, November 17, 2026",
+  "day": "Tuesday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-17.mp3",
+  "durationSec": 1697,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Tuesday, November 17. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. We start in Kyiv, where overnight Russia went after the city's bridges.",
+          "startSec": 4.01,
+          "endSec": 8.68
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Late on Monday, Russian missiles and drones struck both the North and South bridges over the Dnipro in Kyiv. The South bridge carries a metro line, and that line was partly damaged. Mayor Vitali Klitschko says power, water and heating are out in parts of the city, Cherkasy reports 3 injured, and Kharkiv was hit as well.",
+          "startSec": 8.68,
+          "endSec": 26.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What's new is the target. Until now the winter campaign has gone after substations and generation. The Institute for the Study of War reads the bridge strikes as an attempt to split Kyiv's grid along the river, so the left bank and the right bank have to be defended and repaired as two separate systems. And Ukraine hit back the same night: Moscow says it faced the biggest overnight Ukrainian drone attack since 2022, with refineries and a bridge inside Russia among the targets.",
+          "startSec": 26.3,
+          "endSec": 52.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, a European migration deal that would have been unthinkable 3 years ago. Germany, Austria, Denmark, Greece and the Netherlands announced on Monday that they're working on a return hub in Rwanda for rejected asylum seekers, built on the EU's new Return Regulation. Nothing is signed, and the first deportations are pencilled in for 2027.",
+          "startSec": 52.71,
+          "endSec": 71.55
+        },
+        {
+          "speaker": "ALEX",
+          "text": "What stands out is who signed. This is Germany, the bloc's anchor, adopting the model Britain's Labour government scrapped. 45 NGOs and unions have demanded the five drop it, and Human Rights Watch calls it cynical. The tell is the UN refugee agency, which says it's in constructive discussions instead of condemning it outright, and that means the legal fight will be over how it's designed, not whether it's allowed.",
+          "startSec": 71.55,
+          "endSec": 94.5
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Israel, the coalition math has hardened. Gadi Eisenkot has rejected Benjamin Netanyahu's offer of a unity government without preconditions, saying Netanyahu cannot stay, quote, not even for a minute more. The blocs stand at 53 seats for Netanyahu and 48 for Eisenkot, with the Arab parties' 19 as the swing, and a vote on the Knesset speaker is the next test.",
+          "startSec": 94.5,
+          "endSec": 114.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The cloud over all of it is a widening vote-buying probe that reaches into the Prime Minister's Office. A former staffer there denies any conspiracy. If the speaker vote goes against Netanyahu's bloc, he loses control of the Knesset's agenda while he's still trying to form a government.",
+          "startSec": 114.6,
+          "endSec": 130.35
+        }
+      ],
+      "startSec": 8.7
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To US business. Tyson Foods beat on its fiscal fourth quarter, with adjusted earnings of 61 cents against 60 expected and revenue of 14.59 billion dollars against 14.1 billion. The problem is beef: an operating loss of 514 million dollars, against 277 million a year ago, on volume down 12.7%.",
+          "startSec": 130.35,
+          "endSec": 146.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The guidance is the real news. Tyson sees fiscal 2027 sales down 3.5 to 5.5%, and the beef range runs from a 300-million-dollar loss to a 100-million-dollar profit. That's a 400-million-dollar spread on one segment, which tells you management has no idea when the US cattle herd rebuilds. Chicken is carrying the company, and beef is a cyclical bet it can't hedge.",
+          "startSec": 146.44,
+          "endSec": 166.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, consolidation in the Permian. Diamondback is buying Double Eagle's Midland Basin assets for 2.15 billion dollars in cash plus 15.56 million shares, about 5 billion dollars all in. It picks up roughly 176,000 net acres and about 92,000 barrels of oil equivalent a day in 2027, and buys out the 40% of the partnership it didn't already own. The stock fell about 3% to 179 dollars and 5 cents, on the same day crude dropped more than 3%.",
+          "startSec": 166.43,
+          "endSec": 190.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And tonight Nvidia reports its first quarter without Jensen Huang. The stock fell 4.1% on Monday and is down about 13% in 5 days. Colette Kress, the CFO who is now interim CEO, takes the call. The Financial Times reports Huang has discussed coming back, Altimeter and Atreides have written an open letter to the board, and a petition has 175,000 signatures. CNBC says the board isn't in talks with him. So tonight's guidance gets read as a vote on the succession as well as on demand.",
+          "startSec": 190.7,
+          "endSec": 217.28
+        }
+      ],
+      "startSec": 130.3
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Internationally, Mongolia is losing its president. Ukhnaagiin Khurelsukh said this morning he'll step down over graft allegations tied to a railway project from his time as prime minister, around 7 years ago. He denies wrongdoing. The resignation takes effect only if parliament, the State Great Khural, accepts it, and the speaker would then serve as interim president.",
+          "startSec": 217.28,
+          "endSec": 237.59
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The context makes it worse. Mongolia went through its third prime minister in under 12 months back in March. For a country squeezed between Beijing and Moscow and trying to market its copper and coal to Western investors, a revolving door at the top is a direct discount on the asset.",
+          "startSec": 237.59,
+          "endSec": 253.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Brazil, the real hit a 12-month low on Monday, with the dollar up 2.17% to 5.778 reais, and the Ibovespa fell 1.83%. The trigger is fiscal. The Senate votes today on 4 amendments to Lula's fiscal bill, whose main text passed 45 to 31. It targets 45 to 56 billion reais of 2027 savings and a primary surplus of 0.5% of GDP, all with the Selic at 13.75%. Next door, Argentina's Merval fell 4.3%. Investors are pricing an election-year Brazil that won't meet its own fiscal target.",
+          "startSec": 253.19,
+          "endSec": 279.82
+        }
+      ],
+      "startSec": 217.3
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Now the tape, and on Monday it deserves real numbers. The S&P 500 fell 1.92%, the Dow lost 739 points, and the Nasdaq dropped 2.49%. That leaves the Nasdaq 10.9% below its October 6 high, which is official correction territory.",
+          "startSec": 279.82,
+          "endSec": 292.28
+        },
+        {
+          "speaker": "SAM",
+          "text": "The odd part is that bonds didn't cause it. The 10-year actually slipped about 2 basis points to 5.13%. Crude fell more than 3%, with WTI at 85.72 dollars on signs of a supply surplus. So this was a growth scare inside equities, not a rates shock.",
+          "startSec": 292.28,
+          "endSec": 305.84
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Kevin Warsh supplied the line people kept quoting. At a San Francisco Fed conference he said the Fed is modelling scenarios in which AI disappoints. He gave no policy signal and a December hike is still priced, but a Fed chair saying out loud that the central bank has a downside case for AI is new. Put that together with Nvidia leaderless into tonight, the VIX up 19% and Bitcoin around 65,000 dollars, and the market is pricing the possibility that the AI story stops paying.",
+          "startSec": 305.84,
+          "endSec": 332.09
+        },
+        {
+          "speaker": "SAM",
+          "text": "My counterpoint is that a correction with yields falling and oil falling is more comfortable than last week, when the 2-year jumped 35 basis points in five days. Earnings can carry an equity market through a valuation reset. What it can't absorb is a valuation reset and a hiking Fed at the same time, and Warsh still has the December hike priced.",
+          "startSec": 332.09,
+          "endSec": 351.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Asia followed this morning. The Nikkei is down about 1.2%, the KOSPI 1.8%, and Shanghai is at its lowest in more than a year. The dollar index has risen 5 sessions in a row, and emerging-market stocks fell 2.6% on Monday, which is why Manila matters later. Today brings October retail sales at 8:30, Home Depot before the open with options implying a 4% move, and Nvidia after the close.",
+          "startSec": 351.78,
+          "endSec": 373.74
+        }
+      ],
+      "startSec": 279.8
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Our deep dive this morning comes from The Economist Today, which landed in your inbox on Friday with the headline: Our analysis of the leaked Russian death toll in Ukraine. The blurb is one line, that hackers have released records they claim come from Russia's statistics agency. We've rebuilt the rest from the open reporting.",
+          "startSec": 373.74,
+          "endSec": 392.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Here's what happened. Between October 29 and November 1, Rosstat, Russia's federal statistics service, said it was hit by coordinated cyberattacks. It insists its protected databases were never compromised and nothing leaked. About a week later, two groups, the Belarusian Cyber Partisans and a pro-Ukrainian outfit called Silent Crow, began publishing what they say is around 23 terabytes of Rosstat data, including the civil registry of deaths.",
+          "startSec": 392.3,
+          "endSec": 417.61
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the number in those records is very large. Counting only death certificates where the cause is coded as military action or its consequences, the Cyber Partisans get a floor of 393,881 Russian deaths from February 2022 to August 27 of this year. Bloomberg ran its own pass over the data and got about 392,700, which is close.",
+          "startSec": 417.61,
+          "endSec": 436.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The ceiling is higher. Silent Crow adds non-combat military deaths and certificates with no cause listed, and reaches about 450,100. The Financial Times found roughly 12,000 more probable military deaths among men who died at or near the front, and once you allow for late paperwork, the FT projects something like 550,000 through August.",
+          "startSec": 436.22,
+          "endSec": 455.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Compare that with what we thought we knew. Mediazona and the BBC Russian service, doing it the hard way from obituaries and local reports, had named 285,881 dead. Their statistical estimate from probate registries was around 352,000 by the end of 2025. The Economist's own model, published October 30, put the range at 374,000 to 770,000.",
+          "startSec": 455.4,
+          "endSec": 474.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So the leak lands inside the honest estimates, at the high end of the name counts and the low end of the model. If it's genuine, the open-source community was undercounting by somewhere between a quarter and a half. And the Moscow Times, which checked a random sample of 50 names against open-source lists and found the metadata consistent with a genuine database export, says the war is now the fourth most common cause of death in Russia since 2022, and the rate is accelerating.",
+          "startSec": 474.58,
+          "endSec": 501.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "The most revealing figures are regional. In Buryatia, Tuva and Zabaykalsky, about 1 in 3 deaths of men aged 18 to 49 were war-related through mid-2024. In Moscow and St Petersburg it's about 1 in 10. Al Jazeera adds the foreign recruits: Kenyans offered about 2,715 dollars a month plus bonuses up to 9,309 dollars, more than 1,000 recruited, and by July casualties were reportedly outpacing recruitment.",
+          "startSec": 501.88,
+          "endSec": 524.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Now the caveats, and they're serious. Nobody has independently verified the leak. The hackers are combatant-aligned, and both groups have every reason to inflate. The Cyber Partisans themselves concede the military-action code may sweep in civilians and deaths from other conflicts, and one sceptical analyst claims a query for Bucha returned Ukrainian citizens. Registration lags also mean 2026 is undercounted. The Kremlin hasn't specifically denied this; its line since January has been that only Defence Ministry figures count.",
+          "startSec": 524.81,
+          "endSec": 554.94
+        },
+        {
+          "speaker": "SAM",
+          "text": "So why does it matter if it can't be verified? I'd argue the regional skew is the most important finding, because it explains the domestic quiet. The war's cost is being paid in the poor periphery and by foreign contract soldiers, while the two cities that make Russian politics lose 1 in 10. That isn't a political system under strain. It's one that has outsourced the dying.",
+          "startSec": 554.94,
+          "endSec": 576.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the second-order read for the peace talks is uncomfortable. The usual Western assumption is that enough losses eventually force Moscow to the table. These records say the Kremlin has known the true number all along, something like 400,000 or more, and has kept paying it. If the state's own ledger didn't change its calculus, an unverified leak of that ledger won't either.",
+          "startSec": 576.28,
+          "endSec": 597.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Russia's statistics service has just become a security liability. Expect Moscow to classify more, publish less and delay the demographic releases that analysts have used as a back door into war losses. The Economist's model exists partly because the official data was already thin, and that window is now closing.",
+          "startSec": 597.67,
+          "endSec": 615.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So the leak may be the most accurate count we ever get, because it probably ends the data series it came from.",
+          "startSec": 615.43,
+          "endSec": 621.67
+        }
+      ],
+      "startSec": 373.7
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To energy, and from your inbox, CTVC's Sunday edition and the week's DealFlow. The headline deal: NRG is selling 6 gas plants, 4.9 gigawatts, back to LS Power for 4 billion dollars in cash.",
+          "startSec": 621.67,
+          "endSec": 632.4
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Back to LS Power is the strange part, because NRG bought these plants from LS Power less than a year ago. The list is Ravenswood in New York City, Ocean State in Rhode Island, Wallingford in Connecticut, and Jack County, Johnson County and R.W. Miller in Texas. That works out to roughly 816 dollars a kilowatt. Closing is targeted for the second quarter of 2027, pending Hart-Scott-Rodino, a FERC Section 203 approval and the New York PSC.",
+          "startSec": 632.4,
+          "endSec": 657.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "NRG puts the money into 2 billion dollars of additional debt paydown and 1 billion of extra buybacks, keeps about 20 gigawatts, half of it in ERCOT, and says its 1.2-gigawatt bring-your-own-power data-center project is unaffected.",
+          "startSec": 657.37,
+          "endSec": 670.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The read is that NRG is selling merchant gas in New York and New England and keeping its position in Texas, which is where the data-center load is and where it can sign bilateral deals. For the rest of the market, the number to notice is the price. Infrastructure money is still paying about 800 dollars a kilowatt for existing combined-cycle and peaking fleets when new-build gas costs well north of 2,000. As long as that gap holds, buying existing plants beats building new ones, and LS Power goes from about 2.2 gigawatts of gas to 11.5 once its Constellation acquisition closes as well.",
+          "startSec": 670.42,
+          "endSec": 704.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, a write-down. Vistra's 10-Q books about 269 million dollars of partial impairment on Moss Landing's 350-megawatt battery, the phase that wasn't destroyed in the January 2025 fire. Net book value is now about 37 million dollars, and Vistra says whether it restarts at all is uncertain.",
+          "startSec": 704.45,
+          "endSec": 721.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That means all 3 batteries on the site have now been written down, after roughly 400 million on the 300-megawatt phase and 155 million on the 100-megawatt phase. Vistra has closed its fire investigation. The lesson the industry is drawing is about design: NMC cells packed indoors in one building turned into a stranded asset. Expect insurers and lenders to require LFP chemistry, containerised layouts and real spacing on any battery project near a data center, and to charge for it when they don't get it.",
+          "startSec": 721.26,
+          "endSec": 750.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "Third, a storage failure of a different kind. ESS Tech, the iron-flow long-duration storage company, filed for Chapter 7 liquidation in Delaware on November 13. It has stopped operating, every employee has been let go, and a trustee now controls the assets.",
+          "startSec": 750.45,
+          "endSec": 765.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So any buyer holding ESS warranties is now an unsecured creditor. For the rest of long-duration storage, counterparty risk is now priced in. Expect procurement teams to demand insurance wraps on warranties and escrowed performance guarantees from the surviving vendors, Form, Eos and the rest, and that raises the effective cost of exactly the technology data centers have been told will firm up renewables.",
+          "startSec": 765.25,
+          "endSec": 788.69
+        },
+        {
+          "speaker": "SAM",
+          "text": "Fourth, behind-the-meter in California. Bloom Energy and California Resources signed an MOU to evaluate at least 1 gigawatt of solid oxide fuel cells, capturing the concentrated CO2 in the exhaust and injecting it into California Resources' Class VI storage acreage, for both grid and on-site customers.",
+          "startSec": 788.69,
+          "endSec": 806.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The context is that Bloom already has an AEP order above 1 gigawatt, a Brookfield partnership that grew to 25 billion dollars in July, and a stock up about 217% over 12 months. The pitch is firm, low-carbon power for California data centers that can't wait for the interconnection queue. Whether it works depends on whether the CPUC and CARB will count fuel cells plus carbon capture as clean firm power, and neither has said so yet.",
+          "startSec": 806.13,
+          "endSec": 831.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "Finally, nuclear, with good news and bad news in the same week. The NRC issued X-energy a construction permit for 4 Xe-100 reactors at Dow's Seadrift site in Texas. At the same time, Ontario Power Generation said its Darlington BWRX-300, the lead Western small modular reactor, will miss both its October 2030 target and its 7.7-billion-Canadian-dollar budget, because first-of-a-kind engineering isn't finished.",
+          "startSec": 831.06,
+          "endSec": 854.78
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Darlington is the project every SMR plan is benchmarked against. If the lead unit can't hold its schedule, every hyperscaler SMR power purchase agreement with a 2030 start date carries more schedule risk than its press release suggests. Meanwhile China's CNNC poured first concrete on Xuwei Unit 3, its second unit of that design. Taken together, this week's deals price existing gas higher, new storage riskier and new nuclear later.",
+          "startSec": 854.78,
+          "endSec": 879.77
+        }
+      ],
+      "startSec": 621.7
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Bokabularyo sa Tagalog. Ang unang salita natin ngayong umaga: pagdausdos.",
+          "startSec": 879.77,
+          "endSec": 883.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang pagdausdos ay ang tuloy-tuloy na pagbaba, parang batang dumadausdos sa padulasan. Hindi ito biglang pagbagsak; dahan-dahan pero walang tigil. Kaya bagay ito sa merkado: ang pagdausdos ng piso, ang pagdausdos ng presyo ng stocks.",
+          "startSec": 883.98,
+          "endSec": 897.34
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ihambing natin sa pagbagsak. Ang pagbagsak ay isang malakas na sandali, isang lagapak. Ang pagdausdos ay proseso, ilang linggo o buwan ng paghina. Kapag sinabi mong nagpatuloy ang pagdausdos ng PSEi, ang ibig mong sabihin ay hindi lang isang masamang araw, kundi isang mahabang dalisdis pababa.",
+          "startSec": 897.34,
+          "endSec": 914.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Halimbawa: Sa kabila ng mga pangako ng gobyerno, hindi pa rin napipigilan ang pagdausdos ng piso. Pormal ang dating nito at madalas sa balitang pang-ekonomiya, pero puwede rin sa araw-araw: ang pagdausdos ng kanyang grado sa eskuwela.",
+          "startSec": 914.26,
+          "endSec": 927.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang ikalawang salita: kaalyado.",
+          "startSec": 927.74,
+          "endSec": 929.52
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang kaalyado ay ang kakampi sa isang pormal na samahan, lalo na sa pulitika o depensa. Mula ito sa salitang alyado, at ang unlaping ka ay nagpapakita ng pagiging magkasama, gaya ng kaibigan, kasama, kababayan. Ang Pilipinas at Amerika ay magkaalyado sa ilalim ng tratado ng depensa.",
+          "startSec": 929.52,
+          "endSec": 945.76
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mahalaga ang pagkakaiba nito sa kakampi. Ang kakampi ay mas pang-araw-araw, puwedeng sa laro ng basketbol o sa away ng magkapatid. Ang kaalyado ay may kasunduan, may obligasyon, at kadalasan ay may pirma. Hindi mo sasabihing kaalyado mo ang kalaro mo sa tumbang preso, maliban kung nagbibiro ka.",
+          "startSec": 945.76,
+          "endSec": 962.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "At may kahulugan din itong pampulitika sa loob ng bansa: ang mga kaalyado ng Pangulo sa Kongreso. Halimbawa: Umaasa ang Malacañang na mananatiling tapat ang mga kaalyado nito habang dinidinig ang badyet. Pakinggan natin ang dalawang salitang iyan sa susunod na balita.",
+          "startSec": 962.74,
+          "endSec": 978.17
+        }
+      ],
+      "startSec": 879.8
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Dumating na si Pangulong Trump sa Maynila ngayong Martes para sa ASEAN-US Special Summit, at bukas ay haharapin niya si Pangulong Marcos sa Malacañang bilang pinakamatandang kaalyado ng Amerika sa rehiyon.",
+          "startSec": 978.17,
+          "endSec": 989.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pero habang nasa entablado ang diplomasya, nagpapatuloy ang pagdausdos ng merkado: bumagsak ang PSEi nang 2% noong Lunes sa pinakamababang antas mula Mayo 2020, at humina ang piso sa 63.94 kada dolyar.",
+          "startSec": 989.98,
+          "endSec": 1001.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "The detail on the summit: Trump skips the East Asia Summit but joins the closing ASEAN-US session, and he'll hold the first Quad leaders' meeting in 2 years, with Australia, India and Japan, on Philippine soil. The Wednesday bilateral covers trade, the alliance and the South China Sea, and police say more than 200 protesters have been arrested so far. Manila hands the ASEAN chair to Singapore at the close, and Marcos then flies to APEC in Shenzhen, where Trump meets Xi and Putin on Thursday.",
+          "startSec": 1001.55,
+          "endSec": 1030.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the market detail. Monday's 2% fall took the PSEi to 5,481.88, its weakest close since May 18, 2020, with every sector down and mining and oil leading at minus 3.69%. Local desks are calling it a stagflation trade: an oil importer facing a strong dollar, US rates that may rise in December, and a central bank that has said it's still in a tightening phase. The peso closed at a two-week low, near the 64 line.",
+          "startSec": 1030.11,
+          "endSec": 1054.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "The household side of that arrives today. Oil companies raised pump prices by more than 1 peso a litre across the board this morning, a week after the large rollback of November 10, when gasoline fell 16.80 a litre on de-escalation with Iran. Most of that relief is still in place, but motorists no longer expect the rollbacks to keep coming.",
+          "startSec": 1054.52,
+          "endSec": 1074.68
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In the graft cases, the Sandiganbayan's 5th Division imposed a second 90-day preventive suspension on detained Senator Jinggoy Estrada, 180 days in all, and rejected his argument that it unconstitutionally stops him from legislating. Prosecutors allege about 573 million pesos in flood-control kickbacks. Ramon Revilla's trial resumes November 24, the day after the Senate breaks for budget plenary.",
+          "startSec": 1074.68,
+          "endSec": 1098.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a consumer-credit change from the BSP. It's keeping the 3% monthly cap on credit-card finance charges, but raising the cap on installment add-on rates from 1% to 1.5% a month, and the cash-advance fee cap from 200 to 300 pesos. With the policy rate at 5.5%, that's the regulator conceding that banks' funding costs have risen. No PAGASA storm signals this morning, so no weather story.",
+          "startSec": 1098.2,
+          "endSec": 1121.13
+        }
+      ],
+      "startSec": 978.2
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Mandarin vocab. Our first item is a collocation: 释放信号, shìfàng xìnhào, to send or release a signal.",
+          "startSec": 1121.13,
+          "endSec": 1127.35
+        },
+        {
+          "speaker": "SAM",
+          "text": "释放 on its own means to release, as in releasing a prisoner or releasing energy. Paired with 信号 it becomes the standard formal phrase in policy and finance writing for one actor telegraphing intent to another. It's 书面语, the language of central-bank commentary. The pattern is subject plus 释放了 plus an adjective plus 信号: a hawkish signal, a positive signal, a cautious signal.",
+          "startSec": 1127.35,
+          "endSec": 1150.53
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Example. 央行回笼资金，释放了谨慎的信号。(By draining funds, the central bank sent a cautious signal.) The near-synonym is 表明, to indicate or show. 表明 states a fact plainly, while 释放信号 implies intent and an audience: someone is meant to read it.",
+          "startSec": 1150.53,
+          "endSec": 1166.2
+        },
+        {
+          "speaker": "SAM",
+          "text": "Our second item is a structure you'll see across editorials: 以……为代价, yǐ … wéi dàijià, at the cost of something.",
+          "startSec": 1166.2,
+          "endSec": 1173.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The thing that's sacrificed goes in the middle. 以增长为代价, at the cost of growth. 以环境为代价, at the cost of the environment. It's formal and slightly critical; it implies the trade-off was a choice and the price was real. Example. 稳定汇率不能以经济增长为代价。(Stabilising the exchange rate cannot come at the cost of economic growth.)",
+          "startSec": 1173.12,
+          "endSec": 1194.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonym is 牺牲, to sacrifice, which is a verb you can use on its own and sounds more emotional. 以……为代价 is the analytical framing; it lays the trade-off out as an equation. You'll also hear 付出代价, to pay a price, which works for consequences people suffer. Example. 如果不改革，地方政府迟早要付出代价。(Without reform, local governments will sooner or later pay the price.)",
+          "startSec": 1194.14,
+          "endSec": 1217.97
+        }
+      ],
+      "startSec": 1121.1
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "尽管信贷需求依然疲弱，中国央行十一月还是净回笼了三千亿元中期资金，向市场释放了一个信号：宽松不会无条件到来。(Even though credit demand remains weak, China's central bank still drained a net 300 billion yuan of medium-term funds in November, sending the market a signal: easing won't arrive unconditionally.)",
+          "startSec": 1217.97,
+          "endSec": 1237.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "The mechanics. On Sunday the People's Bank of China rolled 200 billion yuan of 6-month outright reverse repos against 300 billion maturing. Add the 3-month operation on November 5, 300 billion against 500 billion maturing, and November is a net 300-billion-yuan drain, the first since June, after a 400-billion injection in October. Bloomberg's headline called it a warning to easing bets.",
+          "startSec": 1237.88,
+          "endSec": 1260.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Through the two-speed lens, the timing is odd. We covered October's credit numbers already: households paying down loans, loan growth at a record low. A central bank facing debt deflation would normally add liquidity. The PBOC is taking it out while foreign funds, per Bloomberg this morning, are buying Chinese government bonds at the fastest pace since May. Bonds are the safe asset in a weak economy, and liquidity is being rationed.",
+          "startSec": 1260.82,
+          "endSec": 1286.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "Our read is that the PBOC is defending the currency and its own room to act ahead of Thursday. With the dollar index up 5 straight sessions and Xi meeting Trump in Shenzhen, Beijing doesn't want the yuan sliding into the summit. 稳定汇率是以牺牲短期宽松为代价的。(Stabilising the currency comes at the cost of short-term easing.)",
+          "startSec": 1286.52,
+          "endSec": 1306.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the bill for that sits with the developers. Nikkei Asia reports Huafa, Zhuhai's state-owned developer, faces a liquidity crunch with about 61 billion dollars of debt. Zhuhai has injected more than 40 billion yuan and pledged roughly 70 billion more, but its interest-bearing debt is around 404.7 billion yuan, and a full year of the city's revenue covers less than an eighth of that. The next data point is Friday's Loan Prime Rate, unchanged at 3% and 3.5% since May 2025. If the PBOC holds it again, it will have chosen to protect the currency over the property sector.",
+          "startSec": 1306.42,
+          "endSec": 1340.32
+        }
+      ],
+      "startSec": 1218.0
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts, and New York's November auction week opened on Monday night. Sotheby's took 378.7 million dollars across 74 lots, and the opening Baum collection sold every one of its 24 works, a white-glove sale, for 110 million, just over its 109-million high estimate.",
+          "startSec": 1340.32,
+          "endSec": 1355.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The top lot was Joan Mitchell's Green Book of Barbara Guest at 19.3 million dollars, named for the New York School poet she was close to. That's a big Mitchell price for a work that isn't one of the monumental diptychs. A Rothko Untitled made 17.7 million. And Yayoi Kusama set an auction record at 15.1 million, a hair over its 15-million high estimate.",
+          "startSec": 1355.71,
+          "endSec": 1376.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "The contemporary evening sale was weaker: 268.8 million against an estimate of 226 to 323 million, with 2 lots withdrawn and 5 unsold, and the second half of the sale lost momentum. Christie's 20th-century sale is tonight, led by Kandinsky's Betonte Ecken at 60 to 80 million, and Christie's two sales this week carry a combined estimate of 683 to 990 million.",
+          "startSec": 1376.58,
+          "endSec": 1397.8
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The lot everyone is watching is Wednesday's, and it now has a legal problem. Sotheby's sells van Gogh's Blossoming Chestnut Trees from 1890, estimated around 180 million dollars, against a van Gogh auction record of 117.2 million. Heirs of the Jewish publisher Samuel Fischer, through the lawyer Gunnar Schnabel, now argue that the painting's 1936 sale was made under duress. The family had fled Berlin for Vienna three months earlier and faced the Reich flight tax.",
+          "startSec": 1397.8,
+          "endSec": 1424.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "Sotheby's lawyer Luke Nikas says the buyer was independent, paid fair market value and the family received the money. That is the standard defence, and it has been losing ground: courts and restitution panels increasingly accept that a fair price under Nazi flight-tax coercion was not a free sale. Whatever happens Wednesday, the claim sticks to the record price.",
+          "startSec": 1424.64,
+          "endSec": 1445.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "In literature, Nicholas Herring of Prince Edward Island won the Giller Prize last night for Your Breath in Charcoal, from the small New Brunswick press Goose Lane Editions. It's worth 100,000 Canadian dollars, and Herring says some of it is going into his 3-year-old daughter's tuition fund.",
+          "startSec": 1445.6,
+          "endSec": 1462.36
+        },
+        {
+          "speaker": "SAM",
+          "text": "It was the first Giller decided by a jury made up entirely of booksellers, 9 of them, who praised a novel that is deeply philosophical but packed with pop-culture references, literary allusions and, quote, mordant, quotable witticisms. Herring's debut, Some Hellish, won the Atwood Gibson Writers' Trust prize, so he's now won both of Canada's major fiction awards with 2 books. The National Book Awards are tomorrow night.",
+          "startSec": 1462.36,
+          "endSec": 1486.72
+        }
+      ],
+      "startSec": 1340.3
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "ALEX",
+          "text": "Op-eds. First, the Washington Post editorial board on Sunday: California voted to make housing more affordable, and more expensive. The argument is about this month's ballot.",
+          "startSec": 1486.72,
+          "endSec": 1496.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's the steelman. Californians passed Proposition 1, an 11.25-billion-dollar housing bond, with 61%, including 7.2 billion for apartments, 1.25 billion for veterans and 1.1 billion in buyer assistance. They passed Proposition 37, up to 25 billion dollars of revenue bonds for second-mortgage down-payment help, available to buyers earning up to 200% of area median income. And they rejected Proposition 45, which would have fast-tracked legal challenges under the environmental review law, CEQA, for housing and infrastructure.",
+          "startSec": 1496.74,
+          "endSec": 1527.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So, the Post says, voters added demand subsidies and refused to cut the main brake on supply. Giving more buyers more money to chase the same housing stock raises prices, and the Post calls it a clear example of how not to improve affordability. It's the textbook economics, and on Proposition 37 it's hard to dispute: a down-payment subsidy reaching households at twice the median income is largely capitalised into prices.",
+          "startSec": 1527.26,
+          "endSec": 1551.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take is that the Post is treating three measures as one. 7.2 billion dollars for apartments funds actual units, which is supply. And Proposition 45 didn't lose because voters love lawsuits. It bundled housing with other infrastructure, and that gave every opponent of every pipeline and highway a reason to vote no. The lesson for reformers is to sell deregulation separately, not to conclude that voters reject building.",
+          "startSec": 1551.68,
+          "endSec": 1576.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Second, Hugo Drochon of Nottingham in Project Syndicate: Can Brexit be reversed? The context is Prime Minister Andy Burnham calling Brexit a mistake and floating going all the way back.",
+          "startSec": 1576.61,
+          "endSec": 1587.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "Drochon's steelman is that Brexit was won by a movement, so only a movement can undo it. Careful diplomacy from Whitehall won't rejoin anything without a popular campaign behind it. And the polling supports him. An October survey found about three quarters of Labour voters want a rejoin pledge in the next manifesto, with majorities among every party's voters except Reform's.",
+          "startSec": 1587.27,
+          "endSec": 1608.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The counter is that a movement can't change Brussels's terms. A rejoining Britain would likely face the euro and Schengen commitments and no rebate, and the EU may not want a reluctant member it would have to negotiate with again. And a rejoin campaign gives Reform exactly the cause it needs to mobilise, reopening a culture war Labour had spent years burying. The quieter route of a veterinary deal, youth mobility and perhaps a customs union delivers more of the economic gain at much lower political cost.",
+          "startSec": 1608.98,
+          "endSec": 1638.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "Both pieces make the same mistake, I think: treating the popular vote as the end of the argument. California's voters and Britain's Labour voters can want something without that being enough to get it.",
+          "startSec": 1638.29,
+          "endSec": 1649.87
+        }
+      ],
+      "startSec": 1486.7
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing. In Japan in the 1990s, there was a wave of attacks in which Korean schoolgirls' traditional uniforms, the chima jeogori, were slashed on trains and in stations. One girl had her jacket cut open, and in the cold, a Japanese teenager named Norihisa Koyama took off his new winter coat and gave it to her. His full name was stitched inside it.",
+          "startSec": 1649.87,
+          "endSec": 1670.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "She kept that coat for 30 years. Then she read a newspaper story about Koyama's charity work, saw the name she'd been carrying all that time, and found him to return it. This June, the artist Park Chung-moon, whose painting Chogori is about those attacks, brought the two of them together in Tokyo.",
+          "startSec": 1670.37,
+          "endSec": 1687.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "A boy gave away his coat on a cold day, and she kept it for 30 years before she could thank him.",
+          "startSec": 1687.53,
+          "endSec": 1693.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the show for Tuesday. Wrap up warm, and we'll see you tomorrow.",
+          "startSec": 1693.06,
+          "endSec": 1697.09
+        }
+      ],
+      "startSec": 1649.9
+    }
+  ]
+}

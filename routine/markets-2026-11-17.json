@@ -1,0 +1,26 @@
+{ "date": "2026-11-17", "asOf": "Monday, November 16 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,416.59", "change": "-1.92%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "24,509.76", "change": "-2.49%", "dir": "down"},
+      {"label": "Dow Jones", "value": "51,608.17", "change": "-1.41%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,742.94", "change": "-1.70%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,881.55", "change": "-0.19%", "dir": "down"},
+      {"label": "Hang Seng (Tue)", "value": "23,508.17", "change": "-1.0%", "dir": "down"},
+      {"label": "Shanghai Composite (Tue)", "value": "3,584.58", "change": "-0.5%", "dir": "down"},
+      {"label": "Nikkei 225 (Tue)", "value": "~58,900", "change": "~-1.2%", "dir": "down"},
+      {"label": "PSEi", "value": "5,481.88", "change": "-2.0%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "5.13%", "change": "~-2 bps", "dir": "down"},
+      {"label": "UST 2Y", "value": "~4.83%", "change": "~-3 bps", "dir": "down"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "85.72", "change": "-3.21%", "dir": "down"},
+      {"label": "Brent", "value": "92.44", "change": "~-3.55%", "dir": "down"},
+      {"label": "Gold", "value": "~3,866", "change": "~-0.4%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "63.94", "change": "+0.22", "dir": "up"},
+      {"label": "DXY", "value": "~103.5", "change": "5th straight gain", "dir": "up"},
+      {"label": "USD/BRL", "value": "5.778", "change": "+2.17%", "dir": "up"},
+      {"label": "Bitcoin", "value": "~65,200", "change": "", "dir": "down"} ]} ],
+  "note": "Prior-session close (Mon Nov 16); Asia rows are Tue session. Hand-compiled from web wraps — no FMP key." }

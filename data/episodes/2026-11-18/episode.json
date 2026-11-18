@@ -1,0 +1,623 @@
+{
+  "date": "2026-11-18",
+  "title": "Wednesday, November 18, 2026",
+  "day": "Wednesday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-18.mp3",
+  "durationSec": 1760,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Wednesday, November 18. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.32
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. We start in the Gulf, where the quiet of the last 2 months broke overnight.",
+          "startSec": 4.32,
+          "endSec": 9.46
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Iran fired on a US air base in Kuwait early on Wednesday, and launched several separate attacks toward Bahrain. Kuwait says it intercepted a number of incoming threats, and Central Command says everything aimed at US forces was shot down, with no damage and no casualties.",
+          "startSec": 9.46,
+          "endSec": 25.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The sequence matters. On Tuesday Iranian drones were launched at Bahrain, and within hours US jets hit an IRGC missile-launch site on Qeshm Island, at the mouth of the Strait of Hormuz. Wednesday's barrage is Tehran answering that strike. It's the first time in roughly 2 months that Iran has gone at US bases directly, and Gulf outlets are also reporting an ADNOC-linked vessel hit near Hormuz, though that hasn't been independently confirmed. The pattern is calibrated retaliation, loud enough to be seen at home and aimed where the interceptors are densest.",
+          "startSec": 25.14,
+          "endSec": 57.42
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next, the Kerch Bridge. NBC has geolocated footage showing a section of the bridge linking Crimea to Russia lying in the water, and Ukraine's security service, the SBU, says a metal arch and a road span were destroyed. Russia's Investigative Committee has opened a terrorism case, and Russia's defence ministry claims a record 1,441 Ukrainian drones were downed overnight.",
+          "startSec": 57.42,
+          "endSec": 78.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That drone figure is Moscow's own claim and it can't be checked, but even discounted it tells you the scale of the long-range campaign Kyiv is now running. Losing a road span on Kerch matters because it pushes Crimea's supply back onto rail and the land corridor through occupied Zaporizhzhia, which is exactly where Ukraine's drones have been hunting fuel trains. And it lands days after Russia went after the bridges over the Dnipro in Kyiv. Both sides are now targeting the other's crossings on purpose.",
+          "startSec": 78.87,
+          "endSec": 108.04
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Warsaw, Donald Tusk's government survived. The Sejm rejected a no-confidence motion brought by the Law and Justice opposition, 242 votes to 200. The trigger was the long-running fight over the Constitutional Tribunal, where the government refuses to recognise judges appointed under the previous majority.",
+          "startSec": 108.04,
+          "endSec": 126.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A 42-vote margin is comfortable, but it doesn't fix the underlying problem. Tusk still can't get his rule-of-law repairs past a president aligned with the opposition, so Poland is stuck with 2 rival legal orders.",
+          "startSec": 126.03,
+          "endSec": 138.25
+        }
+      ],
+      "startSec": 9.5
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To US business, and the print the whole market was waiting for. Nvidia reported fiscal third-quarter revenue of 115.8 billion dollars, up 103% on the year, against roughly 109.1 billion expected. Data center alone was 107.6 billion, and GAAP earnings were 2 dollars 70 a share.",
+          "startSec": 138.25,
+          "endSec": 154.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The guide is what turned futures green. Nvidia is calling for about 130 billion dollars in the fourth quarter against a 125.1 billion consensus, but Melius points out that the quarter has an extra week in it, worth 9 to 10 billion dollars. Strip that out and the guide is in line, not a blowout. They also added 150 billion dollars to the buyback and returned 28.1 billion in the quarter. The stock rose as much as 3% after hours, but it's still about 35% below its October 6 peak, roughly 2 trillion dollars of market value gone. This is the first print under interim chief executive Colette Kress, and the question on every call is who runs the company next, not whether demand held. Demand held.",
+          "startSec": 154.22,
+          "endSec": 194.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "Home Depot beat and still sold off. Third-quarter sales were 43.4 billion dollars, up 4.9%, comparable sales rose 2.2%, and adjusted earnings of 3 dollars 86 cleared the 3 dollars 74 estimate. The full-year guide calls for adjusted earnings up about 2% from 14 dollars 69, and the stock fell around 2.5%. Target, Lowe's and TJX report this morning, with options pricing an 8% swing in Target.",
+          "startSec": 194.47,
+          "endSec": 217.07
+        }
+      ],
+      "startSec": 138.2
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Internationally, Deutsche Bank is dealing with the biggest leak in its history. A consortium including the Financial Times, the New York Times and Der Spiegel is publishing Inside Deutsche Bank, built on 15.6 million internal files. Among the first findings are suspicious-activity reports filed in 2019 on 582 million dollars of Epstein-linked payments, an internal push to grow Russian business before 2022, and a Trump tax document that was disclosed by mistake.",
+          "startSec": 217.07,
+          "endSec": 243.88
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The market reaction tells you investors don't buy the line that it's all historical. The shares fell about 6% on Tuesday, the worst day in more than a year, and were down another 1.9% at Wednesday's open, the weakest name in the Stoxx 600. Finance minister Lars Klingbeil is demanding full transparency, and the FT says more is coming on a Qatari royal and on anti-money-laundering controls. The real risk is supervisory: another anti-money-laundering finding could cap the buybacks management has been promising.",
+          "startSec": 243.88,
+          "endSec": 273.45
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Britain, October inflation rose to 3.6% from 3.5%, a 1-year high. Transport did most of the work: diesel jumped 7 pence a litre to a record. Core was steadier at 2.8%, while RPI, which still sets rail fares and student-loan rates, hit 4.2%. The Bank of England already hiked to 4% on the oil shock, and this print keeps a second move live for December.",
+          "startSec": 273.45,
+          "endSec": 294.15
+        }
+      ],
+      "startSec": 217.1
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Markets. Tuesday was a genuine risk-off session. The Dow fell 1.64%, at one point down more than 1,000 points, and the S&P posted a fourth straight loss to its lowest close since late July. The rest is on the Markets tab.",
+          "startSec": 294.15,
+          "endSec": 306.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Europe was worse. The FTSE 100 dropped 1.76%, its worst day in 8 months, and the DAX lost 2.08%, with Deutsche Bank dragging on both. The common thread wasn't any single headline. It's the combination of 10-year Treasury yields sitting above 5%, a dollar index at its highest since early 2025, and a fed funds futures market pricing roughly 95% odds of a December hike at the 8 to 9 December meeting. That's a hiking cycle in a market still valued as if cuts were coming.",
+          "startSec": 306.89,
+          "endSec": 334.05
+        },
+        {
+          "speaker": "SAM",
+          "text": "And software got hit on top of that. Salesforce, Workday, Intuit and Adobe all weighed, on the theory that AI agents eat seats.",
+          "startSec": 334.05,
+          "endSec": 341.37
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's where I'd push back on the selling. Software is being priced for disruption while chips get priced for the build-out, and both can't be fully true at once: if agents are good enough to replace seats, someone has to sell the workflows they run on. My read is that Tuesday was positioning before Nvidia, and futures bouncing on the print supports that. What it won't fix is the rates problem. With 10-year yields above 5% and a hike coming, the multiple on every long-duration growth story has a ceiling, and the market is relearning that.",
+          "startSec": 341.37,
+          "endSec": 371.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Watch tonight's Anthropic pricing as the real test of risk appetite. The range is 70 to 78 dollars, the books are reportedly 6 to 7 times covered, and bankers are talking about going above 80. It debuts on Nasdaq on Thursday.",
+          "startSec": 371.62,
+          "endSec": 384.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "If it prices above the range in a week like this, it says private-market demand for AI is still insatiable even as public investors trim. If it struggles, expect every late-stage AI company with an IPO plan to slow down.",
+          "startSec": 384.13,
+          "endSec": 396.37
+        }
+      ],
+      "startSec": 294.1
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "For the deep dive we're leaving markets for the Indian Ocean. This comes from The Economist, which the listener gets in her inbox: a piece headlined Inside America's first new submarine base abroad for 53 years. The thesis in the blurb is that AUKUS is starting to make waves on Australia's west coast. The Economist visited HMAS Stirling on Garden Island, off Perth, which is getting ready to host American nuclear-powered attack submarines from 2027, a port, as they put it, that will project American power deep into Asia.",
+          "startSec": 396.37,
+          "endSec": 425.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The details behind it are public. The arrangement is called Submarine Rotational Force-West. From 2027 up to 4 US Virginia-class boats and 1 British Astute-class boat will rotate through Stirling. In June the US Navy quietly set up 2 commands there, Naval Support Activity Stirling and Submarine Squadron 3. The first named boat is USS Colorado, a Block III Virginia, which arrived on October 27 for about a month of maintenance, with Australian technicians working alongside staff from Pearl Harbor Naval Shipyard. It goes home and comes back in late 2027 to start the rotations properly.",
+          "startSec": 425.56,
+          "endSec": 458.31
+        },
+        {
+          "speaker": "SAM",
+          "text": "The interesting fight is over one word. The Economist calls it a base, and Canberra very much does not.",
+          "startSec": 458.31,
+          "endSec": 464.04
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Australia has a long-standing policy against foreign bases, so officially the boats are rotating, not based. In practice there are 2 standing US commands, a dedicated maintenance workforce, and Australia is spending up to 8 billion Australian dollars over the next decade to expand the facility, with about 3,000 direct jobs and a 281 million dollar wharf due to finish in 2027. Australia's regulator also approved storage of low-level radioactive waste at Stirling back in July 2024. If the infrastructure is permanent, the commands are permanent and the maintenance is local, then rotational starts to look like a legal formula rather than an operational reality. The last time the US opened a submarine base abroad was La Maddalena in Sardinia in the early 1970s, which is where the 53-year count comes from, and that one closed in 2008.",
+          "startSec": 464.04,
+          "endSec": 510.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does Washington want it? The map. Perth is a long way from the South China Sea, but it's far closer than Guam is to the Indian Ocean approaches, the Lombok and Sunda straits, and it's well outside the dense Chinese missile envelope that covers the first island chain.",
+          "startSec": 510.75,
+          "endSec": 525.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the strategic logic: a rear area that's secure, deep water close to the boats' patrol areas, and an ally that pays. Which brings us to the money, because that's the most contested part. The whole AUKUS program is priced at around 368 billion Australian dollars. Australia has already paid 3 billion US dollars into the American submarine industrial base, all of it non-refundable, with the latest 1.5 billion Australian dollar instalment last December. The deal is that Australia buys 3 to 5 Virginia-class boats in the 2030s before its own AUKUS-class boats arrive.",
+          "startSec": 525.82,
+          "endSec": 557.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the US yards can't build them fast enough.",
+          "startSec": 557.68,
+          "endSec": 560.24
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Not close. Virginia-class output is running at about 1.1 to 1.15 boats a year. The target that covers both US needs and Australia's sales is 2.33 a year, with 2 as the interim goal. The US Navy's chief, Admiral Daryl Caudle, has said a steady 2 a year is unlikely before the 2030s. And US law requires the president to certify that selling boats to Australia won't erode the US fleet. So there's a real scenario where Australia funds a production line, hosts the American boats, and then can't buy any of its own on time. The Pentagon's AUKUS review, run by Elbridge Colby under an America First lens, reportedly finished around January, and its findings still haven't been published.",
+          "startSec": 560.24,
+          "endSec": 598.27
+        },
+        {
+          "speaker": "SAM",
+          "text": "So what are the critics actually saying?",
+          "startSec": 598.27,
+          "endSec": 600.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "There are 3 lines of attack. The sovereignty critique, from a strand of the defence commentariat and a crowdfunded public inquiry, says Stirling ties Australia into US war plans, because in a Taiwan contingency you can't plausibly claim a port hosting American attack boats is neutral. Deputy Prime Minister Richard Marles answers that AUKUS builds sovereign capability, not dependence. The target critique, from local activists, says Rockingham and Perth become nuclear-era targets. The Lowy Institute calls that overheated, since any serious war would put Australian infrastructure at risk anyway. And there's a consent critique: groups including Stop AUKUS WA argue the Traditional Owners of Garden Island never gave free, prior and informed consent, and raise worries about Cockburn Sound and the waste.",
+          "startSec": 600.5,
+          "endSec": 645.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's my take on why it matters this week in particular. It lands while Trump is courting Xi and Putin at the same table in Shenzhen.",
+          "startSec": 645.37,
+          "endSec": 652.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the second-order read. Allies are being asked to make 30-year commitments, concrete wharves and nuclear waste licences, on the strength of a relationship with a Washington that's openly transactional. Stirling is Australia's bet that hosting American hardware is the best insurance policy available. The Economist's framing, that this is America projecting power deep into Asia, is true. But the other side is just as true: Australia is paying for the privilege, in money and in risk, before it has a signed delivery date for a single boat. Hosting the boats is proof of trust. What tests the deal is whether the boats Australia paid for actually arrive.",
+          "startSec": 652.82,
+          "endSec": 689.58
+        }
+      ],
+      "startSec": 396.4
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To energy, and Monday's filing deadline turned into the most important day of the year for large-load interconnection. PJM filed 2 packages at FERC answering the commission's June show-cause orders, and NYISO, MISO, CAISO and ISO-New England all filed the same day.",
+          "startSec": 689.58,
+          "endSec": 704.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Start with PJM's Fast Energization package, all 1,067 pages of it. It studies generation, transmission upgrades and large loads together in a single process instead of in sequence. PJM projects that takes the study clock from 24 months to 12, though that's PJM's projection, not a measured result. It creates a new transmission service for large customers and shows states up front what the upgrades will cost. PJM wants a 60-day comment period and an order within 120 days, which points to a ruling around mid-March. Remember that in October FERC kept PJM's 50-megawatt large-load definition and the registry, but rejected the curtail-first service. This is PJM's second attempt, and it's built around the cost transparency FERC asked for.",
+          "startSec": 704.36,
+          "endSec": 745.63
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second filing is the one with real engineering consequences for campuses.",
+          "startSec": 745.63,
+          "endSec": 749.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's a ride-through requirement for what PJM calls Large Computational Loads: 50 megawatts or more in aggregate, with at least 25 megawatts behind power-electronic conversion. Those sites must ride through grid disturbances instead of tripping over to onsite generation. The trigger was July 22, when roughly 3.9 gigawatts of data-center load moved to backup generation at once during a disturbance, the largest load transfer in PJM's history. PJM wants an order by January 15 and the rule live January 16, and existing sites get 1 year to comply.",
+          "startSec": 749.92,
+          "endSec": 780.43
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which means retrofit capex for every operating campus above 50 megawatts in PJM.",
+          "startSec": 780.43,
+          "endSec": 784.89
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. Ride-through is now an interconnection condition, so UPS topology, protection settings and inverter firmware become something the grid operator regulates, not just a design choice. The flip-to-generators-at-the-first-sag strategy that a lot of sites rely on for uptime becomes non-compliant. And ISO-New England went furthest on transparency: it would publish every large load's network upgrades and cost estimates on its website. SPP files on Friday. Data-center groups are already arguing the 12-month clock will slip, and the timing could collide with PJM's December capacity auction, which the market monitor wants postponed after attributing about 29.4 billion dollars of capacity revenue to data-center load growth.",
+          "startSec": 784.89,
+          "endSec": 825.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's a number for the gap between announced and real. Latitude Media launched a tracker on Monday that counts about 120 gigawatts of signed data-center power contracts against 537 gigawatts of load reported by utilities.",
+          "startSec": 825.6,
+          "endSec": 837.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So about 22% coverage, which means roughly 78% of the load in utility forecasts has no signed contract behind it. That's the exposure if collateral rules and ride-through filters strip out speculative requests, and it's a real risk for any integrated resource plan sized on the 537. On the supply side, fewer than a third of contracted loads plan to be served carbon-free, and 59% of signed load sits in states with no carbon-free requirement. Dominion alone is seeking up to 7.3 gigawatts of dispatchable generation.",
+          "startSec": 837.98,
+          "endSec": 866.81
+        },
+        {
+          "speaker": "SAM",
+          "text": "Meanwhile CTVC, in the listener's inbox on Monday, broke down the cost clause in the federal permitting bill, BAAJA.",
+          "startSec": 866.81,
+          "endSec": 873.28
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The new detail is cost allocation. Large loads would pay their share of the existing grid plus the full cost of the new transmission upgrades they trigger. Data centers would report energy use to the EIA, FERC would get backstop siting authority for interstate lines of 230 kilovolts and up without needing a DOE corridor designation, and grid-enhancing technologies like reconductoring and dynamic line ratings become mandatory wherever benefits exceed costs. Rhodium puts household savings at 50 to 78 dollars a year. CTVC quotes Tim Fox at Crux: the cost of capital now includes the cost of consent. Put that next to Monday's filings and the direction is the same at the federal and the RTO level: you pay for the wires you cause. CTVC calls behind-the-meter gas setups shakier under that regime, because their argument was partly that they avoided those costs.",
+          "startSec": 873.28,
+          "endSec": 921.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "On deals, DealFlow led this week with a question: why is Arevon selling 92 small operating projects to Altus Power instead of running them itself?",
+          "startSec": 921.47,
+          "endSec": 929.61
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's about 200 megawatts of solar plus 10 megawatt-hours of storage across 13 states, mostly New York, New Jersey, Massachusetts and California, partly funded off Altus's credit facility with Blackstone. Altus gets to about 1.7 gigawatts operating. The answer to DealFlow's question is focus and fund life: distributed assets don't scale for a developer chasing utility-scale and data-center-adjacent projects, and a consolidator wins on maintenance density. A guest piece in the same issue notes that 10 of the 13 clean-energy platform deals since June had a private-equity or infrastructure fund on at least one side, driven by 2020 to 2022 vintage funds in harvest mode, not data-center pull. And 1 last data point: Fermi America disclosed an agreement with an unnamed investment-grade hyperscaler for an initial 600 megawatts at Project Matador outside Amarillo. That's the first investment-grade anchor for a large behind-the-meter campus, and the first real test of whether that model survives the pay-your-way rules coming in.",
+          "startSec": 929.61,
+          "endSec": 987.22
+        }
+      ],
+      "startSec": 689.6
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Oras na para sa ating bokabularyo sa Tagalog. Dalawang salita ngayong araw, parehong galing sa balita ng Pilipinas.",
+          "startSec": 987.22,
+          "endSec": 993.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang una ay ipinagmalaki. Galing ito sa salitang-ugat na malaki, at ang ibig sabihin ay ipinagyabang o ibinandila nang may pagmamataas ang isang bagay. Halimbawa: ipinagmalaki ng Pangulo ang bagong tulay sa kanyang talumpati.",
+          "startSec": 993.63,
+          "endSec": 1006.13
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mahalaga ang tono dito. Puwedeng positibo ang ipinagmalaki, gaya ng isang inang ipinagmalaki ang anak na nagtapos nang may karangalan. Pero sa balitang pampulitika, madalas may halong pag-aalinlangan, lalo na kung wala pang patunay ang ipinagmamalaki.",
+          "startSec": 1006.13,
+          "endSec": 1020.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tama. Ihambing natin sa ipinagyabang. Mas matalas ang ipinagyabang, may bahid ng pagmamayabang at pagiging hambog. Ang ipinagmalaki naman ay mas neutral, kaya ito ang karaniwang gamit ng mga mamamahayag kapag ayaw nilang humusga nang tahasan. Halimbawa: ipinagmalaki ng kumpanya ang rekord na kita, pero tahimik sila tungkol sa utang.",
+          "startSec": 1020.12,
+          "endSec": 1038.75
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang ikalawa ay tinapyas. Galing sa tapyas, ang paghiwa o pagbawas sa gilid ng isang bagay, gaya ng pagtapyas sa kahoy o sa tela para pumantay.",
+          "startSec": 1038.75,
+          "endSec": 1048.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Sa balitang pang-ekonomiya, ginagamit ito kapag binawasan ang isang pagtataya, badyet, o presyo. Halimbawa: tinapyas ng bangko ang kanyang pagtataya sa paglago ng ekonomiya. Mas makulay ito kaysa sa simpleng binawasan, dahil may larawan ng kutsilyong humihiwa.",
+          "startSec": 1048.7,
+          "endSec": 1066.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "At iba ito sa pinutol. Kapag pinutol, buo ang paghiwalay, nawala na ang bahagi. Kapag tinapyas, may natira pa, binawasan lang ang gilid. Kaya bagay ito sa pagtataya: hindi nawala ang paglago, pero lumiit.",
+          "startSec": 1066.92,
+          "endSec": 1081.21
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pakinggan ninyo ang dalawang salitang ito sa susunod na bahagi.",
+          "startSec": 1081.21,
+          "endSec": 1085.63
+        }
+      ],
+      "startSec": 987.2
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Sa Malacañang ngayong araw, ipinagmalaki ni Pangulong Trump na ito na raw ang pinakamalaking kasunduang pangkalakalan na nagawa ng Amerika, at patas daw para sa dalawang bansa. Pero ayon mismo kay Ambassador Babes Romualdez, wala pang napipirmahan, at ang pahayag ng Palasyo ay tungkol lamang sa isang pagkakaunawaan sa mga larangan ng kooperasyong pang-ekonomiya.",
+          "startSec": 1085.63,
+          "endSec": 1111.13
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Samantala, tinapyas ng Moody's Analytics ang pagtataya nito sa paglago ng ekonomiya ng Pilipinas ngayong 2026, mula 3 porsiyento pababa sa 2.4 porsiyento, dahil sa mahinang lokal na demand.",
+          "startSec": 1111.13,
+          "endSec": 1124.37
+        },
+        {
+          "speaker": "SAM",
+          "text": "So, the gap between the luncheon and the paperwork. Trump gave no tariff rates, no sector terms, no investment figures and no timeline. What Manila actually wants is relief from the extra 12.5% US tariff that has sat on Philippine exports since July 24, which Washington imposed over the Philippines not enforcing a ban on forced-labour imports. Nothing said at lunch touches that.",
+          "startSec": 1124.37,
+          "endSec": 1151.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So the test is whether there's a signed text with a tariff number before the year ends. Until then the deal exists only in a Truth Social post. And the economy needs it: the 2.4% forecast reflects consumers pulling back after a weak third quarter, and BMI thinks Filipino households stay cautious into 2027. The peso closed Monday at 63.94 to the dollar, close to its October record low of 64.17, and gross international reserves are down to 97.35 billion dollars, a 4-year low. BPI's chief economist puts the real policy rate at about minus 2.3%, which is why the BSP is still leaning hawkish even with growth this weak.",
+          "startSec": 1151.07,
+          "endSec": 1194.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "Politics: Vice President Sara Duterte's impeachment trial resumes in the Senate on Thursday after a 3-day pause for the ASEAN summit. The defense is calling an anti-money-laundering expert and 3 government officials, and the court has subpoenaed 4 witnesses on the business records of Cale88 Foods, a company linked to the Vice President's husband. Only Article II, unexplained wealth, is still being prosecuted, and Senate President Chiz Escudero, presiding, hopes to wrap it up by December.",
+          "startSec": 1194.58,
+          "endSec": 1229.05
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Narrowing the case to unexplained wealth makes it a documents trial, about bank flows and corporate filings, not testimony about plots or threats. That favours whichever side has the cleaner paper, and it's why the money-laundering witness is the defense's opening move.",
+          "startSec": 1229.05,
+          "endSec": 1247.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "Briefly, the Philippines and Japan signed a cooperation agreement on strategic petroleum reserves on Monday, a hedge that looks timely given the Hormuz news this morning. And a lawyers' group has filed a motion to free 276 protesters and journalists arrested at the summit's opening protest.",
+          "startSec": 1247.97,
+          "endSec": 1268.36
+        }
+      ],
+      "startSec": 1085.6
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Now Mandarin, with 2 items tied to this morning's China story about JD.com.",
+          "startSec": 1268.36,
+          "endSec": 1273.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The first is 以…为主, yǐ…wéi zhǔ, meaning to be mainly X, or to rely chiefly on X. It's a written, formal frame, standard in earnings commentary and policy reports. The object goes between 以 and 为主. The spoken equivalent is 主要靠, which means the same thing but sounds conversational. Example: 京东的利润增长以降本为主。(JD's profit growth comes mainly from cutting costs.)",
+          "startSec": 1273.62,
+          "endSec": 1300.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonym worth contrasting is 主要是. 主要是 just labels the main item, while 以…为主 frames a whole structure and implies the other parts are secondary. You'll see it constantly in descriptions of economies: 中国的增长曾经以投资为主，现在要以消费为主。(China's growth used to be driven mainly by investment; now it's supposed to be driven mainly by consumption.)",
+          "startSec": 1300.84,
+          "endSec": 1328.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second is 勉强, miǎnqiǎng, meaning barely, or reluctantly. Used as an adverb it means you just about managed something, with a sense of strain. Compare 刚好, which is neutral and means just right. If revenue 刚好 hit the target, that's fine; if it 勉强 hit the target, it struggled. Example: 这个季度，营收勉强增长了3.5%。(This quarter, revenue barely grew 3.5%.)",
+          "startSec": 1328.03,
+          "endSec": 1354.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "And it has a second, more personal meaning: to force someone, or to do something unwillingly. 你不想去就别勉强自己。(If you don't want to go, don't force yourself.) It works in both spoken and written Chinese, and the finance-desk usage is the adverb.",
+          "startSec": 1354.52,
+          "endSec": 1372.45
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Listen for both in the China story next.",
+          "startSec": 1372.45,
+          "endSec": 1375.26
+        }
+      ],
+      "startSec": 1268.4
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "京东第三季度营收勉强增长了3.5%，而利润的回升以降本和物流为主，并不是因为需求回暖。(JD's third-quarter revenue barely grew 3.5%, and the profit recovery came mainly from cost cuts and logistics, not from a pickup in demand.)",
+          "startSec": 1375.26,
+          "endSec": 1392.41
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The numbers: revenue of 309.6 billion yuan, about 46.2 billion dollars, up 3.5% after a 2.9% decline in the second quarter. Operating profit swung to 5.2 billion yuan from a 1.1 billion loss a year earlier, net income was 6.5 billion, and the logistics arm grew 16% to 64 billion. SCMP reported the profit still missed what the market expected.",
+          "startSec": 1392.41,
+          "endSec": 1416.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's the two-speed economy inside a single income statement.",
+          "startSec": 1416.51,
+          "endSec": 1420.86
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly. Margins are improving because JD stopped burning cash on the food-delivery subsidy war and is squeezing logistics, not because Chinese shoppers are spending more. The context is grim: the 2026 trade-in subsidy pool shrank to 250 billion yuan, so the boost to appliances and cars is fading. October retail sales grew just 0.4%, and domestic car retail fell 27.1% while car exports rose 68.5%. When domestic demand is that weak, a retailer's best move is cutting costs and selling abroad, and JD consolidating Germany's Ceconomy, the MediaMarkt owner, from November 12 is that bet. It's the corporate version of the national model: weak demand at home pushes supply out to the rest of the world.",
+          "startSec": 1420.86,
+          "endSec": 1470.04
+        }
+      ],
+      "startSec": 1375.3
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts. Christie's set an artist record on Tuesday night in New York. Wassily Kandinsky's Betonte Ecken, Emphasised Corners, from 1922 to 1923, sold for 85.8 million dollars with fees, nearly double his previous record of 44.8 million set at Sotheby's in 2023.",
+          "startSec": 1470.04,
+          "endSec": 1488.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's a Bauhaus-period painting, from the years when Kandinsky was turning the mystical abstraction of his Munich period into geometry, circles and wedges organised by tension rather than by subject. The provenance did a lot of work: it once belonged to Hilla Rebay, the Guggenheim's founding director, who more or less built that museum around Kandinsky. It was consigned by the Nahmad dealer family against a 60 to 80 million dollar estimate, and 3 bidders took it past the high end. A Klimt landscape added 82.3 million dollars. The sale made 626.6 million with fees, about 9% below last year: the market pays up for the very best and gets pickier about the rest.",
+          "startSec": 1488.12,
+          "endSec": 1525.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Opera: the Met's new Jenůfa opened on Monday, Claus Guth's production of Janáček, a co-production with London's Royal Ballet and Opera. Nina Stemme sings the Kostelnička, Allan Clayton is Laca, Sean Panikkar is Števa, and Tomáš Hanus makes his Met debut in the pit. OperaWire called the staging disappointing, but Stemme as the stepmother who drowns a baby to save her family's honour is a role singers measure a career by. There are only 2 performances left, November 21 and 23.",
+          "startSec": 1525.18,
+          "endSec": 1551.88
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Literature: the National Book Awards are handed out tonight in New York. The fiction shortlist includes Edwidge Danticat, on her third nomination, Valeria Luiselli, Hannah Lillith Assadi, Julián Delgado Lopera and Morgan Thomas. Watch the nonfiction category too: Abdelrahman ElGendy's Huna, about his years in an Egyptian prison, is the kind of book that wins when the judges want to make a statement.",
+          "startSec": 1551.88,
+          "endSec": 1574.29
+        }
+      ],
+      "startSec": 1470.0
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds. The first is Chrystia Freeland in a New York Times guest essay headlined Welcome Back, America! It's Your Turn to Be Sorry. Canada's former deputy prime minister opens with an older Boston couple who apologised to her at an airport after the midterms.",
+          "startSec": 1574.29,
+          "endSec": 1588.72
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman runs like this. The midterms show American democracy still works: voters checked the administration through the system, which is what allies need to see. So Canadians who want a permanent break are wrong. Freeland wants Democrats and the Republicans willing to break with Trump to rebuild trust in 3 areas: tariffs and trade, Ukraine and security, and AI. She acknowledges the informal Canadian boycott of nonessential trips south, and ends with Reagan's line, trust, but verify.",
+          "startSec": 1588.72,
+          "endSec": 1616.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take?",
+          "startSec": 1616.14,
+          "endSec": 1617.09
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A midterm win gives Congress power over the budget and investigations. It doesn't give it power over tariffs, which the executive still sets, or over foreign policy. And the swing can reverse in 2028. Allies who keep hedging, Canada diversifying its trade or Europe building its own defence, are being rational, not resentful. Freeland's own last line makes the point: verification is the hedge. The apology at the airport is nice, but it isn't a treaty.",
+          "startSec": 1617.09,
+          "endSec": 1642.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "The second is Kurt Campbell, Biden's deputy secretary of state, also in the Times on Tuesday, on the Shenzhen summit with Xi and Putin. His line is that Trump is drawn to strongmen like a deer drawn toward the intriguing smell of the hunters' blind.",
+          "startSec": 1642.39,
+          "endSec": 1656.27
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman: look at the record. The Alaska summit with Putin in 2025 produced nothing on Ukraine. The Xi meetings produced little on trade and nothing on AI safeguards. A US president meeting both leaders together is unprecedented, and it hands them the stage and the photographs. Campbell's sharpest charge is that the administration completely misreads the Russia-China relationship, treating it as something Washington can split when it's actually a partnership both sides value too much to trade away.",
+          "startSec": 1656.27,
+          "endSec": 1684.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the counter?",
+          "startSec": 1684.53,
+          "endSec": 1685.42
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Talking isn't conceding. Nixon's opening to China required sitting in a room with people the US distrusted, and an American official describes Shenzhen as an entry point on nuclear arms control, not a grand bargain. There's also an awkward point for Campbell: the Biden team's strategy of isolating Russia arguably pushed Moscow and Beijing closer together. A fair verdict is that he's right about the theatre and the record of past summits, and weaker on what the alternative is. Judge Shenzhen on what gets signed and verified, not on the photos.",
+          "startSec": 1685.42,
+          "endSec": 1715.96
+        }
+      ],
+      "startSec": 1574.3
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To finish, One Good Thing. Doug Halley is 103 years old and lives in Sheffield. He landed in Normandy in 1944, and when he handed in his uniform in 1945, his medals went with it. For 81 years he had nothing to show for it.",
+          "startSec": 1715.96,
+          "endSec": 1728.34
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Then his grandson Luke mentioned it in a Facebook post. A 27-year-old amateur Second World War researcher named Joseph Smith, a stranger to the family, saw it, contacted the Ministry of Defence and worked through the paperwork with them.",
+          "startSec": 1728.34,
+          "endSec": 1741.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "The 1939 to 1945 Star, the France and Germany Star and the War Medal arrived just in time for Remembrance Day. After 81 years, Doug wore them on November 11.",
+          "startSec": 1741.55,
+          "endSec": 1750.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A stranger, a Facebook post and some patient form-filling. That's The Morning Commute for Wednesday, November 18. I'm Alex.",
+          "startSec": 1750.3,
+          "endSec": 1757.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "And I'm Sam. Have a good day, and we'll see you tomorrow.",
+          "startSec": 1757.15,
+          "endSec": 1760.33
+        }
+      ],
+      "startSec": 1716.0
+    }
+  ]
+}

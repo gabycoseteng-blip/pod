@@ -1,0 +1,22 @@
+{ "date": "2026-11-18", "asOf": "Tuesday, November 17 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,340.53", "change": "-1.03%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "24,328.38", "change": "-0.74%", "dir": "down"},
+      {"label": "Dow Jones", "value": "50,759.42", "change": "-1.64%", "dir": "down"},
+      {"label": "Russell 2000", "value": "—", "change": "~-1.5%", "dir": "down"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,689.87", "change": "-1.76%", "dir": "down"},
+      {"label": "DAX", "value": "26,045.37", "change": "-2.08%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "~58,860", "change": "", "dir": "flat"},
+      {"label": "Hang Seng", "value": "23,508.17", "change": "-1.0%", "dir": "down"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "~5.10%", "change": "~-4 bps", "dir": "down"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "~85.2", "change": "", "dir": "down"},
+      {"label": "Brent", "value": "~91.8", "change": "~-0.7%", "dir": "down"},
+      {"label": "Gold", "value": "~3,856", "change": "~-0.2%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "DXY", "value": "~103.70", "change": "+0.15%", "dir": "up"},
+      {"label": "USD/PHP", "value": "63.94", "change": "+0.22", "dir": "up"} ]} ],
+  "note": "Prior-session close (Tue Nov 17); USD/PHP is Mon Nov 16 close. Hand-compiled from web wraps — no FMP key; ~ marks single-source figures." }

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-18",
+  "cards": [
+    {"id": "2026-11-18-tl-1", "lang": "Tagalog", "word": "ipinagmalaki", "pinyin": "", "pronunciation": "i-pi-nag-ma-la-KÍ", "tones": "",
+     "meaning": "touted, proudly showed off (something claimed as an achievement)", "example": "Ipinagmalaki ni Trump ang kasunduan, pero wala pang napipirmahan.", "examplePinyin": "",
+     "exampleMeaning": "Trump touted the deal, but nothing has been signed yet.",
+     "note": "Mula sa 'malaki'. Mas neutral kaysa 'ipinagyabang' (may bahid ng kayabangan); kaya ito ang gamit ng mamamahayag. Positibo sa pamilya (ipinagmalaki ang anak), may pag-aalinlangan sa pulitika kapag walang patunay.", "tiesTo": "Trump touts 'biggest trade deal' at Malacañang; nothing signed"},
+    {"id": "2026-11-18-tl-2", "lang": "Tagalog", "word": "tinapyas", "pinyin": "", "pronunciation": "ti-nap-YÁS", "tones": "",
+     "meaning": "trimmed, sliced off (a forecast, budget or price)", "example": "Tinapyas ng Moody's Analytics ang pagtataya sa paglago sa 2.4 porsiyento.", "examplePinyin": "",
+     "exampleMeaning": "Moody's Analytics trimmed its growth forecast to 2.4 percent.",
+     "note": "Mula sa 'tapyas' (hiwa sa gilid ng kahoy o tela). Iba sa 'pinutol' (buong naputol); sa 'tinapyas' may natira pa. Makulay na pamalit sa 'binawasan' sa balitang pang-ekonomiya.", "tiesTo": "Moody's Analytics cuts PH 2026 growth to 2.4% from 3%"},
+    {"id": "2026-11-18-zh-1", "lang": "Mandarin", "word": "以…为主", "pinyin": "yǐ … wéi zhǔ", "pronunciation": "ee … way joo", "tones": "3 · 2 3",
+     "meaning": "to be mainly X; to rely chiefly on X", "example": "京东的利润增长以降本为主。", "examplePinyin": "Jīngdōng de lìrùn zēngzhǎng yǐ jiàng běn wéi zhǔ.",
+     "exampleMeaning": "JD's profit growth comes mainly from cutting costs.",
+     "note": "书面语(财报/政策报告)。搭配:以+投资/消费/出口/降本+为主。近义:主要靠(口语,同义);主要是 只标出主项,以…为主 框定整体结构、其余为次。", "tiesTo": "JD Q3 profit recovery driven by cost cuts and logistics"},
+    {"id": "2026-11-18-zh-2", "lang": "Mandarin", "word": "勉强", "pinyin": "miǎnqiǎng", "pronunciation": "myen-chyahng", "tones": "3 3",
+     "meaning": "barely (managing, with strain); reluctantly / to force", "example": "这个季度，营收勉强增长了3.5%。", "examplePinyin": "Zhège jìdù, yíngshōu miǎnqiǎng zēngzhǎngle 3.5%.",
+     "exampleMeaning": "This quarter, revenue barely grew 3.5%.",
+     "note": "口语书面皆可。副词:勉强+增长/维持/及格。近义:刚好(中性,恰好达到) vs 勉强(吃力地达到)。动词义:别勉强自己(don't force yourself)。", "tiesTo": "JD Q3 revenue +3.5% after Q2 decline"}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-19",
+ "cards": [
+  {
+   "id": "2026-11-19-tl-1",
+   "lang": "Tagalog",
+   "word": "pugante",
+   "pinyin": "",
+   "pronunciation": "pu-GAN-te",
+   "tones": "",
+   "meaning": "fugitive (from justice) — someone with a case and a warrant who evades arrest",
+   "example": "Idineklarang pugante ng Sandiganbayan ang tatlong kapwa-akusado ni Zaldy Co.",
+   "examplePinyin": "",
+   "exampleMeaning": "The Sandiganbayan declared three of Zaldy Co's co-accused fugitives.",
+   "note": "Hiram sa Kastila (prófugo/pugante). Iba sa 'takas' (sinumang nakatakas, pati hayop) at 'nagtatago' (paglalarawan lang). May bigat ng batas: may kaso at pormal na deklarasyon ng korte — kaya maingat ang mamamahayag sa paggamit.",
+   "tiesTo": "Sandiganbayan declares Zaldy Co co-accused fugitives (flood-control case)"
+  },
+  {
+   "id": "2026-11-19-tl-2",
+   "lang": "Tagalog",
+   "word": "malabo",
+   "pinyin": "",
+   "pronunciation": "ma-la-BÓ",
+   "tones": "",
+   "meaning": "unlikely (lit. blurry, unclear)",
+   "example": "Malabong maabot ng BIR ang 3.39 trilyong pisong target ngayong taon.",
+   "examplePinyin": "",
+   "exampleMeaning": "The BIR is unlikely to hit its 3.39-trillion-peso target this year.",
+   "note": "Literal: hindi malinaw (malabong tubig, malabong mata). Sa balita: hindi malamang mangyari. Iba sa 'imposible' (sarado na); may kaunting puwang pa ang 'malabo'. Magalang na pagtanggi: 'Malabo akong makarating.'",
+   "tiesTo": "BIR full-year collection target in doubt"
+  },
+  {
+   "id": "2026-11-19-zh-1",
+   "lang": "Mandarin",
+   "word": "对于…来说",
+   "pinyin": "duìyú … lái shuō",
+   "pronunciation": "dway-yoo … lye shwaw",
+   "tones": "4 2 · 2 1",
+   "meaning": "for / as far as X is concerned (frames a point of view)",
+   "example": "对于百度来说，AI云已经成了最重要的增长点。",
+   "examplePinyin": "Duìyú Bǎidù lái shuō, AI yún yǐjīng chéngle zuì zhòngyào de zēngzhǎng diǎn.",
+   "exampleMeaning": "For Baidu, AI cloud has become its most important source of growth.",
+   "note": "口语书面皆可,框定视角。对比 就……而言(更书面,多用于限定话题:就利润而言)。单用'对于'= regarding(对于这个问题)。",
+   "tiesTo": "Baidu Q3: ads -22% vs AI cloud +94%"
+  },
+  {
+   "id": "2026-11-19-zh-2",
+   "lang": "Mandarin",
+   "word": "面临",
+   "pinyin": "miànlín",
+   "pronunciation": "myen-lin",
+   "tones": "4 · 2",
+   "meaning": "to face, be confronted with (a situation that has arrived)",
+   "example": "很多中国科技公司面临新的出口限制。",
+   "examplePinyin": "Hěn duō Zhōngguó kējì gōngsī miànlín xīn de chūkǒu xiànzhì.",
+   "exampleMeaning": "Many Chinese tech companies face new export restrictions.",
+   "note": "书面语。搭配:面临+压力/挑战/风险/危机/限制。近义:面对(主动应对:面对问题) vs 面临(处于某种处境,较被动);口语多用 遇到。",
+   "tiesTo": "US cloud-compute licence rule hits Baidu, Alibaba"
+  }
+ ]
+}

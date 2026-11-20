@@ -1,0 +1,611 @@
+{
+  "date": "2026-11-20",
+  "title": "Friday, November 20, 2026",
+  "day": "Friday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-20.mp3",
+  "durationSec": 1760,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Friday, November 20. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. We start in Berlin, where Ukraine's backers held their biggest meeting yet on the very day the leaders of America, China and Russia were posing together in Shenzhen.",
+          "startSec": 4.44,
+          "endSec": 15.46
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Friedrich Merz hosted the Coalition of the Willing on Thursday, and German Foreign Minister Johann Wadephul called it the largest gathering of Ukraine's supporters so far, with somewhere between 37 and 44 delegations depending on whose count you take. The Élysée laid out 3 pillars: Ukraine's own army as the first line of defence, a Multinational Force Ukraine behind it, and legally binding security guarantees that switch on after a ceasefire. Leaders also reviewed the force's first exercise, codenamed Koalicja, which began on November 9.",
+          "startSec": 15.46,
+          "endSec": 48.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The timing is the message. While Trump, Xi and Putin were in Shenzhen talking about nuclear stockpiles, the Europeans were in a room in Berlin pricing what a ceasefire would actually cost them. And the open items are money and missiles: Ukraine's 2027 budget hole, and air defence for the winter. Zelensky repeated that NATO membership is the best guarantee, backed by full EU integration. The Institute for the Study of War says Putin used APEC to restate his maximalist demands and to reject European guarantees outright, and no final communiqué came out of Berlin. So the coalition is getting bigger exactly as the thing it's guaranteeing gets harder to reach.",
+          "startSec": 48.92,
+          "endSec": 89.77
+        },
+        {
+          "speaker": "SAM",
+          "text": "To Iran. Speaking to Fox News from China, President Trump said Iran is, in his words, looking at gases and bio, and he offered no evidence. He also said he's not rushing into new strikes, and reporting suggests any decision is unlikely before the New Year. Iran's foreign ministry spokesman, Esmaeil Baghaei, called it a pretext and compared it to the run-up to Iraq. In Washington, the Senate voted 51 to 48 to defeat a House-passed war-powers resolution, while Qatar and Pakistan keep mediating and the Houthis have stepped up attacks on Saudi Arabia.",
+          "startSec": 89.77,
+          "endSec": 123.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "And a landmark at The Hague. The International Court of Justice ruled on Thursday, 9 votes to 6, that Myanmar committed genocide against the Rohingya, in the case brought by The Gambia. It's the first time a court has made that finding against a state over the Rohingya. The court also found Myanmar failed to prevent and punish genocide, and ordered remedies including safe return and restitution, though not citizenship. Compensation comes later, and Myanmar has 2 years to report back.",
+          "startSec": 123.84,
+          "endSec": 153.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The 9 to 6 split matters, because a narrow ruling is easier for Myanmar's generals to dismiss. And the court has no enforcement arm, so the realistic next step is The Gambia taking it to the UN Security Council, where China and Russia sit with vetoes. Still, a genocide finding changes the legal ground under every sanctions regime, every asylum claim in Bangladesh, and every company still doing business with the junta.",
+          "startSec": 153.9,
+          "endSec": 179.84
+        }
+      ],
+      "startSec": 15.5
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "To US business, and Walmart did what Walmart does. Third-quarter revenue rose 5.2% to 188.8 billion dollars, ahead of 187.3 billion expected, and adjusted earnings of 65 cents beat. US e-commerce grew 23% and advertising grew 25%. It raised its full-year sales guide to growth of 4.9% to 5.2%, from 4% to 5%, and lifted the earnings range to 2.84 to 2.89 dollars. Reported net income fell 19.5%, but that's a one-off gain in last year's quarter.",
+          "startSec": 179.84,
+          "endSec": 207.26
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The quality is in the growth lines, not the beat. A 25% advertising business and 23% online growth at Walmart's scale is a retail media and logistics company wearing a grocer's apron. And it's taking share from higher-income households trading down, which fits Target's numbers on Wednesday: necessities and value are winning, discretionary is not. This was John Furner's first full quarter as chief executive, and he gets to raise guidance into a market that fell 2% the same afternoon.",
+          "startSec": 207.26,
+          "endSec": 237.26
+        },
+        {
+          "speaker": "SAM",
+          "text": "Intuit is the other side of that coin. Fiscal first-quarter revenue rose 12% to 4.4 billion dollars and adjusted earnings of 2.91 beat 2.70 expected, but second-quarter revenue guidance of about 4.94 billion dollars came in well under the 5.11 billion analysts wanted, and the shares fell sharply after hours. It also sold Mailchimp to Bending Spoons for 3.68 billion dollars, mostly cash, less than a third of the 12 billion it paid in 2021, with the proceeds going to buybacks.",
+          "startSec": 237.26,
+          "endSec": 266.77
+        }
+      ],
+      "startSec": 179.8
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Internationally, Nayib Bukele has filed to run again. He and Vice President Félix Ulloa registered their ticket with El Salvador's electoral tribunal late Thursday, on the last day of filing, for a vote on February 28. Terms were stretched to 6 years in 2025, he faces 4 rivals including ARENA and the FMLN, and polls put his approval near 90%.",
+          "startSec": 266.77,
+          "endSec": 287.97
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Critics call the bid unconstitutional, and they'd have been right under the constitution as it stood 5 years ago. That's the model: change the court, then the rules, then run with 90% approval because the gangs are gone. For investors, El Salvador's bonds have priced Bukele as a stability story, which is fine until succession becomes the risk.",
+          "startSec": 287.97,
+          "endSec": 309.22
+        },
+        {
+          "speaker": "SAM",
+          "text": "In South Africa, the Reserve Bank held its repo rate at 7.25%, but only on a 4 to 3 vote, with 3 members wanting a 25 basis point hike after October inflation jumped to 5.2% from 4.5%. Governor Lesetja Kganyago called it a pause for now, and Rand Merchant Bank expects a hike on January 28. And Japan's October core inflation slowed to 2.2%, under the 2.3% expected, yet 86% of economists in a Reuters poll still see the Bank of Japan hiking to 1.5% on December 18. Between Pretoria, Jakarta and Tokyo, the world's central banks are lining up behind a Fed that's about to tighten again.",
+          "startSec": 309.22,
+          "endSec": 345.32
+        }
+      ],
+      "startSec": 266.8
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Markets, and this one gets numbers. The S&P 500 fell 2% to 7,175.83, its sixth straight loss. The Dow lost 1,101 points, or 2.2%, to 49,097. And the Nasdaq dropped 2.25%, after being up more than 2% earlier in the session.",
+          "startSec": 345.32,
+          "endSec": 359.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That intraday reversal is the whole story. A swing of more than 4 percentage points in the Nasdaq, top to bottom, on the day of the largest IPO in history. Anthropic opened at 111.50 dollars against an 83-dollar offer price, hit 115.10, and closed at 97.17, still up 17.1%. Then it slipped another 4.7% after hours, to around 92.60. A 17% first-day gain on 81 billion dollars raised is a success by any standard, but watch the shape: it peaked about 90 minutes after the open, and the whole market rolled over with it.",
+          "startSec": 359.0,
+          "endSec": 390.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Nvidia made a new 52-week low.",
+          "startSec": 390.92,
+          "endSec": 393.01
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Down 3.3% to 145.98 dollars, roughly 40% below its October 6 high. The read is that the IPO became a funding event. Investors who wanted ANT sold the AI names they already owned to buy it, which is exactly what we flagged in Hong Kong yesterday. Add the macro: jobless claims of 203,000, the Philadelphia Fed index collapsing to 6.3 from 20, but its prices-paid gauge jumping to 58.2 from 43.2. Weaker activity with hotter prices is the stagflation mix that makes a December hike, now priced at roughly 90 to 95%, look like a mistake markets can't stop. Austan Goolsbee called inflation well above target, and JPMorgan now expects 3 straight hikes.",
+          "startSec": 393.01,
+          "endSec": 430.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "Gold fell another 2.6% to about 3,625 dollars, a 14-month low.",
+          "startSec": 430.86,
+          "endSec": 434.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Gold falling in a risk-off week tells you this is a liquidity squeeze, not a fear trade. When real yields rise and the dollar's at its strongest since April 2025, people sell what they can, and gold is liquid. Then Asia this morning: the Nikkei fell 5.06% to 56,436 and Korea's Kospi 5.21%, with SoftBank down about 15%. The Nikkei is off 6.8% on the week and the Kospi 7.5%, Asia's worst week since 2020. Hong Kong is now about 20% below its January peak, which is bear-market territory. The full levels are on the Markets tab.",
+          "startSec": 434.48,
+          "endSec": 465.32
+        }
+      ],
+      "startSec": 345.3
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Our deep dive comes from The Economist, which ran a piece this week headlined Grand Theft Auto VI may mark the end of an era in gaming. The argument, as The Economist frames it: GTA VI, which came out yesterday, is the most eagerly awaited video game in history and may be the biggest entertainment release of any kind. It may also be the last such blockbuster, because studios face shrinking incentives to make top-tier titles.",
+          "startSec": 465.32,
+          "endSec": 490.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Let's start with how big, because the scale is the setup. The game launched on November 19, 13 years after GTA V, after slipping from fall 2025 to May 2026 and then to November. It's on PlayStation 5 and Xbox Series only, no PC yet, at 79.99 dollars, or 99.99 for the Ultimate edition. Metacritic has it at 99. Sensor Tower estimates 24.58 million copies and about 2.36 billion dollars in the first 24 hours, roughly 19 million of them preorders and about 75% on PlayStation. GTA V did 11.21 million copies and 815.7 million dollars in its first day. Take-Two hasn't confirmed any number, it just calls demand unprecedented, so treat those as third-party estimates.",
+          "startSec": 490.31,
+          "endSec": 529.15
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the cost of getting there?",
+          "startSec": 529.15,
+          "endSec": 530.9
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Never disclosed. Estimates run from 1 to 2 billion dollars, against roughly 265 million for GTA V. That's the core of The Economist's thesis. GTA V has sold about 230 million copies, plus a decade of GTA Online revenue, and that's what Take-Two is betting a billion-plus on: not a hit, but a 10-year platform. Its guidance for the fiscal year to March is 8 to 8.2 billion dollars of net bookings, up from about 6.7 billion. And the stock did the classic thing: up 6.2% to 216.61 on the reviews Wednesday, then down about 3.7% on launch day as hedge funds sold the news.",
+          "startSec": 530.9,
+          "endSec": 564.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "So why would the biggest launch ever be the end of anything?",
+          "startSec": 564.14,
+          "endSec": 567.64
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because almost nobody else can do this maths. Jason Schreier at Bloomberg puts a standard AAA budget at 300 million dollars or more now. The UK's competition regulator estimated 90 to 180 million dollars to develop a top title, plus 50 to 150 million to market it. Breaking even needs 6 million copies or more at 70 dollars before marketing. And the audience isn't growing to match. Newzoo's data has new releases capturing only about 12 to 13% of playtime on PC and console, flat for 3 years, while about 54% goes to games that are 6 or more years old. Fortnite, Minecraft, Roblox, Call of Duty. Players are already busy.",
+          "startSec": 567.64,
+          "endSec": 603.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which is a winner-take-all market, not a dying one.",
+          "startSec": 603.97,
+          "endSec": 606.95
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the right pushback, and I think it's the real reading. Look at what's happened to everyone in the middle. Amir Satvat's tracker counts 15,631 games-industry layoffs in 2024, 9,197 in 2025, and 10,977 this year through October 20, about 58,000 since 2022, with something like 35 to 40 studios closed this year. Ubisoft shut 2 studios and cancelled 6 games. And hardware is getting more expensive, not cheaper: Sony raised the PS5 by 100 dollars to 649.99 in April, its second increase in under a year, blamed on memory prices, which are being driven up by AI data centres.",
+          "startSec": 606.95,
+          "endSec": 640.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "That's a link I didn't expect. The AI build-out is making the console more expensive.",
+          "startSec": 640.71,
+          "endSec": 645.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's the same DRAM. Every high-bandwidth memory wafer that goes to an accelerator is a wafer that doesn't go to consumer electronics, so the installed base grows slower and the addressable market for a 300-million-dollar game shrinks. Meanwhile the user-generated platforms aren't a safe harbour either: Roblox's daily users fell 9% to 138 million in the third quarter, its first annual decline.",
+          "startSec": 645.67,
+          "endSec": 668.74
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then the case against The Economist. Small games are doing fine.",
+          "startSec": 668.74,
+          "endSec": 672.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Better than fine. Clair Obscur: Expedition 33, a French game made on a fraction of a AAA budget, sold more than 8 million copies and swept the game-of-the-year awards. Capcom's Resident Evil Requiem sold 5 million in 5 days on a mid-sized budget. So the alternative reading is that what's ending isn't the hit, it's the 300-million-dollar game that isn't GTA. Budgets bifurcate: a handful of 1-billion-dollar franchises that function as platforms, and a lot of disciplined 30-to-80-million-dollar games, with very little in between.",
+          "startSec": 672.48,
+          "endSec": 703.55
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the AI angle?",
+          "startSec": 703.55,
+          "endSec": 704.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ben Feder, a former Take-Two chief executive, called GTA VI the last pre-AI blockbuster in Fortune. Strauss Zelnick says generative AI played zero part in it. The optimistic view is that AI tools collapse art and testing costs and revive the middle. The sceptical view is that AI is already raising the cost of the hardware people play on. My read: The Economist is right that GTA VI is unrepeatable, but for a narrower reason. Not because blockbusters stop working, but because only a franchise that can earn for a decade justifies a 13-year build. That's a lesson for every capital-intensive bet being made right now, including the ones you work on: scale wins, but only when the asset keeps earning long after launch day.",
+          "startSec": 704.54,
+          "endSec": 746.83
+        }
+      ],
+      "startSec": 465.3
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Energy, and the first hyperscaler has formally blinked on net zero.",
+          "startSec": 746.83,
+          "endSec": 750.74
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Meta's 2026 sustainability report shows 2025 emissions up 45%, to about 11.8 million tonnes of CO2 equivalent, with electricity use up about 35%. And the key sentence: Meta is revisiting timelines, sequencing and interim milestones, including its 2030 net-zero goal. For comparison, Google's emissions rose 18%, Amazon's 16% and Microsoft's 25%. And Meta's figures don't yet include the big gas build, including Entergy's 7 units, more than 5.2 gigawatts, for the Louisiana campus.",
+          "startSec": 750.74,
+          "endSec": 778.4
+        },
+        {
+          "speaker": "SAM",
+          "text": "Why does a softer target matter to the market rather than just the press release?",
+          "startSec": 778.4,
+          "endSec": 783.06
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Because the net-zero date has been the internal justification for paying a premium on clean PPAs, the green-premium hourly-matched deals, the geothermal and nuclear options. If the 2030 date becomes a 2035 date, procurement teams get permission to buy the cheapest firm megawatt, which is gas, and the clean-premium bid softens. The first hyperscaler to move gives the others cover. Watch Microsoft, which is up 25% and has been the most exposed on its 2030 carbon-negative pledge.",
+          "startSec": 783.06,
+          "endSec": 810.72
+        },
+        {
+          "speaker": "SAM",
+          "text": "Google, meanwhile, is still buying the expensive option.",
+          "startSec": 810.72,
+          "endSec": 813.94
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It signed for 50 megawatts from Quaise Energy's Project Obsidian near Bend, Oregon, a superhot-rock geothermal project, to serve The Dalles, with commercial operation in 2030. A second phase targets 250 megawatts, later phases more than a gigawatt. No price disclosed. It's Google paying an option premium on first-of-kind drilling technology, the way it did with Fervo. The contrast with Meta is the story: one hyperscaler buying optionality on firm clean power, another loosening the target that justified it.",
+          "startSec": 813.94,
+          "endSec": 843.33
+        },
+        {
+          "speaker": "SAM",
+          "text": "To FERC. Today is SPP's deadline.",
+          "startSec": 843.33,
+          "endSec": 845.23
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Southwest Power Pool files its response to FERC's large-load show-cause order today, in docket EL26-68, after the other 5 RTOs filed on November 16. FERC's concerns with SPP were narrower than with the others: no study of alternative transmission technologies, no pro forma cost-recovery agreement for large-load transmission service, and no searchable data on network-upgrade costs. SPP already has its 90-day high-impact large-load study process and its conditional service product, CHILLS, effective July 1. The thing to look for is whether SPP adopts long-dated cost assignment for upgrades, the way the NC commission went with its stranded-generation charge on Tuesday. If SPP moves toward 15-year minimum terms, the Plains become a materially more expensive place to site.",
+          "startSec": 845.23,
+          "endSec": 889.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then Canada, where a permit beat a rule by 1 day.",
+          "startSec": 889.97,
+          "endSec": 892.79
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Alberta Utilities Commission approved Beacon's 1,494-megawatt gas plant at Indus, near Calgary, on November 17, with about 1,200 megawatts to serve on-site data halls. That's the province's third such approval after an 1,864-megawatt plant for Meta and a 902-megawatt plant in October. Then on November 18 the government tabled Bill 42, which would bar power plants and data centres from Class 1 and 2 farmland. Indus is on Class 2 land. So the plant has its permit, but Rocky View County still has a data-centre moratorium. It's the North American pattern: the provincial or state regulator says yes to generation, and local land use decides whether the load ever shows up.",
+          "startSec": 892.79,
+          "endSec": 931.79
+        },
+        {
+          "speaker": "SAM",
+          "text": "On supply chains, Johns Hopkins put numbers on the transformer squeeze.",
+          "startSec": 931.79,
+          "endSec": 935.87
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Daniel Dvorkin's group projects a US shortfall of about 15% in transformers and about 30% in other critical grid equipment over the next 4 years, starting in 2027 and acute by 2030. Their companion paper puts the high-load gap at roughly 270 gigavolt-amperes, about 28.5% of need, with grain-oriented steel and nickel as the binding inputs. Layer on the August 26 executive order letting the Energy Department bar foreign bulk-power equipment, and utilities are now bidding for the same factory slots as data-centre developers. That cost lands in rate cases, which is why the rate-design fights we keep covering are really about who absorbs a supply-chain shortage.",
+          "startSec": 935.87,
+          "endSec": 974.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "And from the inbox, the deal flow.",
+          "startSec": 974.11,
+          "endSec": 976.07
+        },
+        {
+          "speaker": "ALEX",
+          "text": "DealFlow's Sunday edition makes the case that the platform M&A wave is a private-equity fund clock. Brookfield's deal for Aypa at around 7 billion dollars of enterprise value, EQT for Copia at about 2.4 billion, KKR buying EDF's North American renewables for up to 4.6 billion, with Eolian, Jupiter, Key Capture and Flatiron in process. 10 of the 13 clean-energy platform deals signed or closed since June involve PE, because the 2020 to 2022 vintage funds are in harvest years. That week alone: 18 deals, 6.6 billion dollars, 6.4 gigawatts. And CTVC flags RWE and KKR reaching financial close on the 2.8-gigawatt Vanguard offshore wind farm at 12 billion pounds, while Tokyo Gas walked away from Japan's Ibaraki offshore project over costs. Same technology, opposite decisions, and the difference is whether the revenue support covers today's construction costs.",
+          "startSec": 976.07,
+          "endSec": 1025.7
+        }
+      ],
+      "startSec": 746.8
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Oras na para sa ating bokabularyo sa Tagalog. Dalawang salita ngayong umaga, parehong galing sa paglilitis sa Senado.",
+          "startSec": 1025.7,
+          "endSec": 1032.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang una ay lapastangan. Ito ang taong walang galang, bastos, lalo na sa isang bagay o taong dapat iginagalang, gaya ng magulang, ng simbahan, o ng hukuman. Puwede itong pang-uri, lapastangan na pananalita, o pangngalan, ang lapastangan. At ang gawa mismo ay kalapastanganan.",
+          "startSec": 1032.43,
+          "endSec": 1048.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "Mabigat ang salitang ito, mas mabigat kaysa bastos. Ang bastos ay pang-araw-araw, puwedeng sa kalye, sa jeep, sa tindahan. Ang lapastangan ay may halong paglapastangan sa isang institusyon o sa isang banal na bagay. Kaya madalas itong marinig sa sermon, sa korte, at sa mga talumpati sa Senado. Halimbawa: itinuring ng ilang senador na lapastangan sa hukuman ang mga pahayag ng tagapagsalita.",
+          "startSec": 1048.19,
+          "endSec": 1070.73
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Pansinin din ang pandiwa: lapastanganin. Nilapastangan nila ang watawat. Nilapastangan ang puntod. Kapag ginamit mo ito, hindi ka lang nagrereklamo sa ugali, inaakusahan mo ang tao ng paglabag sa isang bagay na sagrado.",
+          "startSec": 1070.73,
+          "endSec": 1083.33
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ang ikalawa ay kinikilingan, mula sa ugat na kiling, ibig sabihin ay pagkahilig o pagtagilid sa isang panig. Ang kinikilingan ay ang panig na pinapaboran. Kapag sinabi mong may kinikilingan ang hukom, sinasabi mong hindi siya patas.",
+          "startSec": 1083.33,
+          "endSec": 1096.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ihambing natin sa may pinapanigan at sa may kampi. Ang kampi ay kolokyal, pang-barkada: kampi ka sa kanya. Ang may pinapanigan ay neutral. Pero ang may kinikilingan ay pormal at madalas gamitin sa usapang legal at pamamahayag. Ang kabaligtaran nito ay walang kinikilingan, na siyang pangako ng bawat mamamahayag at ng bawat hukom. Halimbawa: sinabi ng tagapagsalita na may kinikilingan ang tatlong senador-hukom.",
+          "startSec": 1096.67,
+          "endSec": 1122.67
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pakinggan ninyo ang dalawang salitang ito sa susunod na bahagi.",
+          "startSec": 1122.67,
+          "endSec": 1126.64
+        }
+      ],
+      "startSec": 1025.7
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Sa ika-45 na araw ng paglilitis kay Bise Presidente Sara Duterte, inutusan ng impeachment court ang kanyang tagapagsalitang si Paolo Panelo na magpaliwanag kung bakit hindi siya dapat ma-contempt, matapos niyang sabihing may kinikilingan ang mga senador-hukom na sina Raffy Tulfo, Kiko Pangilinan at Risa Hontiveros.",
+          "startSec": 1126.64,
+          "endSec": 1146.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Para kay Senador Erwin Tulfo, na naghain ng mosyon, lapastangan sa hukuman ang ganitong mga pahayag, at walang tumutol sa loob ng session hall.",
+          "startSec": 1146.58,
+          "endSec": 1155.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "Senate President Chiz Escudero ruled that the sub judice rule in the trial's own Rule 18 doesn't cover Panelo, but that he is still subject to the court's orders under Rule 71 of the Rules of Court. Panelo invoked free speech, cited 2 Supreme Court rulings, and says he'll reply within the deadline. It's a show-cause order, not yet a contempt finding.",
+          "startSec": 1155.6,
+          "endSec": 1177.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the defense case had a rough Thursday. Its witness Rainer Dela Fuente, a former investigator at the Anti-Money Laundering Council, admitted on the stand that he hadn't read the prosecution's financial forensic report, and said he wasn't disputing the AMLC records themselves. Defense lawyer Michael Poa says 5 to 6 more witnesses come in December. When the defense's own money witness concedes the bank records, the case narrows to one question: whether the senators believe the explanation for the money, not whether the money exists.",
+          "startSec": 1177.81,
+          "endSec": 1211.82
+        },
+        {
+          "speaker": "SAM",
+          "text": "The markets had a brutal Friday. The PSEi fell 3.12% to 5,306.98, its lowest close since 2020, with 137 decliners against 41 advancers. The peso closed at 63.81 to the dollar, 14.5 centavos weaker.",
+          "startSec": 1211.82,
+          "endSec": 1224.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the Asia selloff landing in Manila, plus a local twist: traders are pricing more Bangko Sentral hikes at the December 17 meeting to defend the peso. Same trap as Bank Indonesia on Wednesday. A central bank that hikes into 2.1% growth to protect a currency is buying stability at the cost of the recovery.",
+          "startSec": 1224.25,
+          "endSec": 1243.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "And on policy, President Marcos signed Republic Act 12327, the Basic Education Voucher Assistance Act, extending private-school vouchers from kindergarten to Grade 6 starting in school year 2027 to 2028, subject to funding. Priority goes to children from congested and multi-shift public schools, with bigger vouchers for low-income families. The Education Department has proposed 4.34 billion pesos for about 292,000 learners in 2,632 private schools, and the implementing rules are due in 60 days. The catch is the phrase subject to funding, in a year when the BIR is already short of target.",
+          "startSec": 1243.88,
+          "endSec": 1281.36
+        }
+      ],
+      "startSec": 1126.6
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Now Mandarin, with 2 items for this morning's China story on PDD and Alibaba.",
+          "startSec": 1281.36,
+          "endSec": 1286.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The first is an abstract adverb of surprise: 竟然, jìngrán, meaning unexpectedly, or to one's surprise. It's HSK 4, and it goes right before the verb or adjective to signal that the outcome defied what you'd expect. Example: 收入没有增长，利润竟然涨了25%。(Revenue didn't grow, yet profit unexpectedly rose 25%.)",
+          "startSec": 1286.22,
+          "endSec": 1306.41
+        },
+        {
+          "speaker": "SAM",
+          "text": "Contrast it with 居然 and 没想到. 居然 means almost the same thing but leans spoken and often carries a note of disapproval or disbelief, as in 他居然没来, he actually didn't show up. 竟然 is slightly more neutral and more at home in writing and news reports. 没想到, didn't expect, is the plain colloquial version and sits at the front of the clause rather than before the verb: 没想到市场跌得这么快。(Nobody expected the market to fall this fast.) The register tip: in a finance headline, 竟然 adds editorial surprise, so analysts use it sparingly.",
+          "startSec": 1306.41,
+          "endSec": 1342.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second is 压缩, yāsuō. Literally to compress, as in compressing a file, but in business Chinese it means to squeeze or cut costs, and it's formal, written register. It collocates with 成本, costs, 开支, spending, 预算, budget, and 利润空间, profit margin. Example: 拼多多压缩了营销费用，利润反而增长了。(PDD squeezed its marketing spending, and profit actually rose.)",
+          "startSec": 1342.15,
+          "endSec": 1366.63
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonyms: 减少 is neutral, just to reduce, and works for almost anything. 削减 is stronger, to slash, often for government budgets or jobs. 压缩 has the image of pressure, squeezing something into a smaller space, so it suits operating costs that are being tightened, not eliminated. In casual speech you'd say 省钱, to save money.",
+          "startSec": 1366.63,
+          "endSec": 1388.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Listen for both in the China story next.",
+          "startSec": 1388.38,
+          "endSec": 1390.91
+        }
+      ],
+      "startSec": 1281.4
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "因为国内消费者不愿意多花钱，拼多多压缩了营销开支，结果收入没有增长，利润竟然大幅上升。(Because domestic consumers won't spend more, PDD squeezed its marketing spending, and the result was flat revenue but, surprisingly, a sharp jump in profit.)",
+          "startSec": 1390.91,
+          "endSec": 1407.83
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The numbers: third-quarter revenue was flat at 108.3 billion yuan, short of estimates. Transaction services, where Temu shows up, fell 12% to 48.5 billion yuan, while online marketing rose 12% to 59.8 billion. Sales and marketing spending fell about 17%, and adjusted operating profit rose about 25% to 32.6 billion yuan. The ADRs jumped about 12%. That's a deflation-era playbook: no top-line growth, so harvest the margin.",
+          "startSec": 1407.83,
+          "endSec": 1434.58
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Alibaba took the other path.",
+          "startSec": 1434.58,
+          "endSec": 1436.6
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Revenue up 10% to about 271.5 billion yuan, with AI cloud revenue up 53% to almost 61 billion. But adjusted earnings of 8.10 yuan a share missed badly, against estimates of roughly 10.75 to 11.39, and free cash flow went deeper into the red on AI spending. Shares fell about 2.6%. So the 2 speeds of China's economy, in 2 earnings reports: the consumer platform cuts costs to protect profit, and the AI platform burns cash to chase capacity. Meanwhile the People's Bank held the loan prime rate at 3% and 3.5% for an 18th straight month, so neither of them is getting help from policy.",
+          "startSec": 1436.6,
+          "endSec": 1473.52
+        }
+      ],
+      "startSec": 1390.9
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Arts, and the New York auction week ended on a softer note. Christie's 21st Century Evening Sale on Thursday made 117.7 million dollars at hammer, 145.9 million with fees, across 56 lots, below the low estimate of 126 million. The top lot, Basquiat's 1983 Untitled, Leonardo and His Five Grotesque Heads, hammered at 28 million dollars, about 32.9 million with fees, just under its low estimate.",
+          "startSec": 1473.52,
+          "endSec": 1498.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And a Koons and a Ruscha, worth up to 11 million dollars combined, were withdrawn before the sale, which is what houses do when the guarantees can't find takers. The Sonnabend collection made 41.9 million at hammer, inside its 35-to-55-million-dollar range but nowhere near the top. So the week split cleanly. Earlier, Sotheby's set a Van Gogh record and Christie's a Kandinsky record, both for deep-history masterpieces with real scarcity. The contemporary market, where supply is abundant and prices were set by the 2021 boom, is still repricing. The exception worth noting: Vija Celmins's Ocean, estimated at 6 to 8 million, drew one of the few real bidding wars. Quiet, laborious, graphite-and-ocean pictures that took months each. Buyers are paying for difficulty, not for brand.",
+          "startSec": 1498.44,
+          "endSec": 1543.06
+        },
+        {
+          "speaker": "SAM",
+          "text": "In the Gulf, Frieze has opened its first fair in the region. Frieze Abu Dhabi runs through Sunday, replacing the old Abu Dhabi Art fair, with about 85 exhibitors and a Frieze Masters section built around Indian Ocean exchange. Early sales were at the accessible end: Thaddaeus Ropac sold 3 of Imran Qureshi's Water Bodies works at 60,000 dollars each, and Lawrie Shabibi placed works by Hamra Abbas between 10,000 and 30,000. The headline sale was an ancient South Arabian monument from Qataban, in the seven figures.",
+          "startSec": 1543.06,
+          "endSec": 1572.48
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Indian Ocean framing is the clever part. It moves the art-historical centre away from the Atlantic and toward the trade routes that connected the Gulf, East Africa, South Asia and Southeast Asia for 2,000 years, which is a story the region can tell about itself. Opening with a war on Iran across the water makes it a test of whether the Gulf's cultural ambitions survive a security shock. And in opera, Lyric Opera of Chicago's new Don Pasquale runs through November 27, Donizetti's comedy about an old man outwitted by the young, a light palate cleanser in a heavy month.",
+          "startSec": 1572.48,
+          "endSec": 1605.32
+        }
+      ],
+      "startSec": 1473.5
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Op-eds. Hal Brands, in Bloomberg Opinion, argues that proxy wars are the future of US, China and Russia relations. His case: the Shenzhen summit and the talk of a new Yalta hide relations that are still deeply hostile. The 3 powers are already fighting each other through proxies, in Ukraine, in Iran and the Gulf, and around the Taiwan Strait, and America's allies are right to fear side deals that carve up the world over their heads.",
+          "startSec": 1605.32,
+          "endSec": 1630.14
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman is strong: Russian drones built on Iranian designs with Chinese components, North Korean soldiers in Russia, Chinese payment rails helping everyone dodge sanctions. The Economist's cover this week calls it a new axis of malice, so Brands isn't alone. The counter-take: framing everything as a proxy contest can lock in zero-sum thinking and make summits look pointless when they aren't. Trilateral nuclear risk-reduction talks, even talks without a document, are the kind of guardrail proxy competition never produces on its own. The Cold War had both proxy wars and arms control, and the arms control is why it stayed cold.",
+          "startSec": 1630.14,
+          "endSec": 1666.39
+        },
+        {
+          "speaker": "SAM",
+          "text": "Then Daniel Moss, also in Bloomberg Opinion, on what Deutsche Bank calls the chip dollar. His argument: AI capital spending is pulling global savings into American tech, which makes the dollar stronger but also more volatile, and leaves every other economy more exposed to sudden US policy and technology shocks.",
+          "startSec": 1666.39,
+          "endSec": 1684.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It's a good frame for this week. The dollar at its strongest since April 2025, the yen near 160, the peso and the rupiah under pressure, central banks from Jakarta to Pretoria hiking or nearly hiking to keep up. The counter is that dominance resting on 1 hot sector is fragile by definition. Thursday's Nasdaq reversal, Nvidia at a 52-week low, an IPO fading after hours: if the AI trade unwinds, the same flows go out the way they came in. The chip dollar may describe a cyclical peak rather than a new regime, and for Asia that's the more dangerous version, because you hike to defend against inflows that then reverse.",
+          "startSec": 1684.15,
+          "endSec": 1719.49
+        }
+      ],
+      "startSec": 1605.3
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One good thing to end the week. In Tulsa, Oklahoma, 5 young adults who had been homeless graduated last week from the Tulsa Day Center's Youth First Rapid Rehousing program. Among them, as KTUL reported, was Cierra Manning, who fled an unsafe relationship 2 years ago and ended up with nowhere to go.",
+          "startSec": 1719.49,
+          "endSec": 1736.57
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The program gave her a place to live first, then helped with the rest. She's now housed, and she's earned certifications to work in healthcare. She went from a shelter bed to caring for other people in about 2 years.",
+          "startSec": 1736.57,
+          "endSec": 1748.86
+        },
+        {
+          "speaker": "SAM",
+          "text": "Housing first, then everything else. That's the whole programme, and it worked.",
+          "startSec": 1748.86,
+          "endSec": 1753.36
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the show for this week. Thanks for riding with us. Have a restful weekend.",
+          "startSec": 1753.36,
+          "endSec": 1757.97
+        },
+        {
+          "speaker": "SAM",
+          "text": "See you Monday on The Morning Commute.",
+          "startSec": 1757.97,
+          "endSec": 1760.13
+        }
+      ],
+      "startSec": 1719.5
+    }
+  ]
+}

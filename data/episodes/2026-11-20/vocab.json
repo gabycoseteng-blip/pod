@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-20",
+ "cards": [
+  {
+   "id": "2026-11-20-tl-1",
+   "lang": "Tagalog",
+   "word": "lapastangan",
+   "pinyin": "",
+   "pronunciation": "la-pas-TÁ-ngan",
+   "tones": "",
+   "meaning": "disrespectful, irreverent — insolent toward something that deserves respect (a court, parents, the sacred)",
+   "example": "Itinuring ng ilang senador na lapastangan sa hukuman ang mga pahayag ng tagapagsalita.",
+   "examplePinyin": "",
+   "exampleMeaning": "Some senators considered the spokesman's statements disrespectful to the court.",
+   "note": "Mas mabigat kaysa 'bastos' (pang-araw-araw). May bahid ng paglabag sa institusyon o banal na bagay — kaya madalas sa sermon, korte, Senado. Pandiwa: lapastanganin / nilapastangan; gawa: kalapastanganan.",
+   "tiesTo": "Impeachment court orders Panelo to show cause over 'bias' remarks"
+  },
+  {
+   "id": "2026-11-20-tl-2",
+   "lang": "Tagalog",
+   "word": "kinikilingan",
+   "pinyin": "",
+   "pronunciation": "ki-ni-ki-LÍ-ngan",
+   "tones": "",
+   "meaning": "the side one favors; 'may kinikilingan' = biased, partial (root: kiling, a lean or tilt)",
+   "example": "Sinabi ng tagapagsalita na may kinikilingan ang tatlong senador-hukom.",
+   "examplePinyin": "",
+   "exampleMeaning": "The spokesman said the three senator-judges are biased.",
+   "note": "Pormal, pang-legal at pamamahayag. Iba sa 'kampi' (kolokyal, pang-barkada) at 'may pinapanigan' (neutral). Kabaligtaran: 'walang kinikilingan' — pangako ng hukom at mamamahayag.",
+   "tiesTo": "Panelo's claim that senator-judges Tulfo, Pangilinan, Hontiveros are biased"
+  },
+  {
+   "id": "2026-11-20-zh-1",
+   "lang": "Mandarin",
+   "word": "竟然",
+   "pinyin": "jìngrán",
+   "pronunciation": "jing-rahn",
+   "tones": "4 · 2",
+   "meaning": "unexpectedly; to one's surprise (the outcome defies expectation)",
+   "example": "收入没有增长，利润竟然涨了25%。",
+   "examplePinyin": "Shōurù méiyǒu zēngzhǎng, lìrùn jìngrán zhǎng le 25%.",
+   "exampleMeaning": "Revenue didn't grow, yet profit unexpectedly rose 25%.",
+   "note": "HSK 4 abstract adverb, placed before the verb/adjective. vs 居然 (more 口语, often disapproving/incredulous) and 没想到 (colloquial, clause-initial). 竟然 is more neutral and at home in written news; adds editorial surprise.",
+   "tiesTo": "PDD Q3: flat revenue, profit +25%"
+  },
+  {
+   "id": "2026-11-20-zh-2",
+   "lang": "Mandarin",
+   "word": "压缩",
+   "pinyin": "yāsuō",
+   "pronunciation": "yah-swaw",
+   "tones": "1 · 1",
+   "meaning": "to compress; (business) to squeeze / cut costs",
+   "example": "拼多多压缩了营销费用，利润反而增长了。",
+   "examplePinyin": "Pīnduōduō yāsuō le yíngxiāo fèiyong, lìrùn fǎn'ér zēngzhǎng le.",
+   "exampleMeaning": "PDD squeezed its marketing spending, and profit actually rose.",
+   "note": "书面语/formal. Collocates with 成本, 开支, 预算, 利润空间. vs 减少 (neutral 'reduce'), 削减 (stronger 'slash', budgets/jobs); 压缩 = tightening under pressure, not eliminating. 口语: 省钱.",
+   "tiesTo": "PDD Q3: sales & marketing spend −17%, operating profit +25%"
+  }
+ ]
+}

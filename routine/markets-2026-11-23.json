@@ -1,0 +1,30 @@
+{ "date": "2026-11-23", "asOf": "Friday, November 20 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "6,910.39", "change": "-3.70%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "22,617.73", "change": "-5.30%", "dir": "down"},
+      {"label": "Dow Jones", "value": "48,147.33", "change": "-1.90%", "dir": "down"},
+      {"label": "Russell 2000", "value": "2,581.79", "change": "-2.76%", "dir": "down"},
+      {"label": "VIX", "value": "35.89", "change": "+26%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "~10,346", "change": "~-1.0%", "dir": "down"},
+      {"label": "DAX", "value": "~24,803", "change": "~-2.6%", "dir": "down"},
+      {"label": "Stoxx 600", "value": "625.65", "change": "-2.0%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "56,436.65", "change": "-5.06%", "dir": "down"},
+      {"label": "PSEi", "value": "5,306.98", "change": "-3.12%", "dir": "down"} ]},
+    {"name": "Asia — Monday", "rows": [
+      {"label": "Kospi", "value": "~4,708.54", "change": "~-3.3%", "dir": "down"},
+      {"label": "Taiex", "value": "36,811.89", "change": "+2.16%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "closed", "change": "holiday", "dir": "flat"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "~4.93%", "change": "-11 bps", "dir": "down"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "83.98", "change": "+0.93%", "dir": "up"},
+      {"label": "Brent", "value": "92.57", "change": "+0.64%", "dir": "up"},
+      {"label": "Gold", "value": "~3,515", "change": "~-4.6%", "dir": "down"},
+      {"label": "Bitcoin", "value": "58,994", "change": "-4.7%", "dir": "down"} ]},
+    {"name": "FX", "rows": [
+      {"label": "DXY", "value": "103.75", "change": "-0.2%", "dir": "down"},
+      {"label": "USD/JPY", "value": "158.78", "change": "-0.6%", "dir": "down"},
+      {"label": "EUR/USD", "value": "1.0961", "change": "", "dir": "flat"} ]} ],
+  "note": "Prior-session close (Fri Nov 20) plus Monday Asia. Hand-compiled from web wraps — no FMP key; ~ marks single-source figures." }

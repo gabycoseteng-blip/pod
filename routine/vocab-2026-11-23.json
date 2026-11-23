@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-23",
+ "cards": [
+  {
+   "id": "2026-11-23-tl-1",
+   "lang": "Tagalog",
+   "word": "saksi",
+   "pinyin": "",
+   "pronunciation": "sak-SÍ",
+   "tones": "",
+   "meaning": "witness — one who saw or knows of an event and testifies to it; 'saksi ng estado' = state witness",
+   "example": "Binigyan ng Ombudsman ng kondisyonal na imyunidad si Guevarra para maging saksi ng estado.",
+   "examplePinyin": "",
+   "exampleMeaning": "The Ombudsman gave Guevarra conditional immunity to become a state witness.",
+   "note": "Katutubo at pang-araw-araw; 'testigo' (Espanyol) mas pormal/makaluma, pang-abogado. Pandiwa: sumaksi, naging saksi. 'Saksi ng estado' = dating kasabwat na nagpapatotoo kapalit ng imyunidad.",
+   "tiesTo": "Samchan's Felicito Guevarra turns state witness in Romualdez plunder case"
+  },
+  {
+   "id": "2026-11-23-tl-2",
+   "lang": "Tagalog",
+   "word": "gugulin",
+   "pinyin": "",
+   "pronunciation": "gu-gu-LÍN",
+   "tones": "",
+   "meaning": "expenditure, outlay — money (or time/effort) to be spent on a purpose; root: gugol",
+   "example": "Sisimulan ng Senado ang pagtalakay sa mga gugulin ng pamahalaan para sa 2027.",
+   "examplePinyin": "",
+   "exampleMeaning": "The Senate begins deliberating the government's expenditures for 2027.",
+   "note": "Pormal, pang-badyet (Kongreso, ulat ng pamahalaan). Iba sa 'gastos' (pang-araw-araw). Pandiwa: gumugol (gumugol ng panahon) — hindi lang pera, pati panahon at lakas.",
+   "tiesTo": "Senate opens plenary debate on the 2027 budget"
+  },
+  {
+   "id": "2026-11-23-zh-1",
+   "lang": "Mandarin",
+   "word": "要么…要么",
+   "pinyin": "yàome… yàome",
+   "pronunciation": "yow-muh… yow-muh",
+   "tones": "4 · 0 … 4 · 0",
+   "meaning": "either… or (a forced choice between two options)",
+   "example": "央行要么降息，要么继续等待，没有第三条路。",
+   "examplePinyin": "Yāngháng yàome jiàngxī, yàome jìxù děngdài, méiyǒu dì-sān tiáo lù.",
+   "exampleMeaning": "The central bank either cuts rates or keeps waiting; there is no third way.",
+   "note": "Connective with an edge: only these two options. vs 或者 (neutral alternatives in a statement) and 还是 (in questions: 茶还是咖啡?). Leans 口语/editorial; formal 或者…或者 loses the ultimatum tone.",
+   "tiesTo": "PBOC holds LPR for an 18th month despite deflation"
+  },
+  {
+   "id": "2026-11-23-zh-2",
+   "lang": "Mandarin",
+   "word": "维持",
+   "pinyin": "wéichí",
+   "pronunciation": "way-chir",
+   "tones": "2 · 2",
+   "meaning": "to maintain; keep at the current level (often against pressure)",
+   "example": "央行连续第18个月维持贷款市场报价利率不变。",
+   "examplePinyin": "Yāngháng liánxù dì 18 gè yuè wéichí dàikuǎn shìchǎng bàojià lìlǜ búbiàn.",
+   "exampleMeaning": "The central bank kept the loan prime rate unchanged for an 18th straight month.",
+   "note": "书面语/formal; the finance-news verb for holding rates. Collocates: 维持不变, 维持现状, 维持稳定, 维持生活. vs 保持 (broader, neutral: 保持联系, 保持冷静); 维持 = holding something up that might slip (order, a ceasefire, a peg).",
+   "tiesTo": "China LPR 1Y 3.00% / 5Y 3.50% unchanged"
+  }
+ ]
+}

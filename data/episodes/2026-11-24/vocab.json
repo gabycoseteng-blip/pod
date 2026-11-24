@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-24",
+ "cards": [
+  {
+   "id": "2026-11-24-tl-1",
+   "lang": "Tagalog",
+   "word": "pagtitimpi",
+   "pinyin": "",
+   "pronunciation": "pag-ti-tim-PÍ",
+   "tones": "",
+   "meaning": "restraint, self-control — holding oneself back from a strong reaction or action; root: timpi",
+   "example": "Magkakaroon na ng pagtitimpi ang Bangko Sentral sa pagtataas ng interes dahil mahina ang paglago.",
+   "examplePinyin": "",
+   "exampleMeaning": "The central bank will now show restraint in raising rates because growth is weak.",
+   "note": "Laging panloob: tinitimpi mo ang sarili (galit, pagnanasa), hindi ang ibang tao — iba sa 'pagpipigil' (mas malawak: pigilan ang tubig, sasakyan, tao). Pandiwa: magtimpi, nagtimpi. Sa balita: 'pagtitimpi ng pamahalaan' = disiplina, hindi kahinaan.",
+   "tiesTo": "BSP's Remolona signals less aggressive hikes amid 'slowflation'"
+  },
+  {
+   "id": "2026-11-24-tl-2",
+   "lang": "Tagalog",
+   "word": "nakatiwangwang",
+   "pinyin": "",
+   "pronunciation": "na-ka-ti-wang-WÁNG",
+   "tones": "",
+   "meaning": "left idle and neglected, abandoned and unused (land, buildings, projects)",
+   "example": "Pinondohan ang mga multipurpose building, pero nakatiwangwang pa rin ang mga lote.",
+   "examplePinyin": "",
+   "exampleMeaning": "The multipurpose buildings were funded, but the lots are still lying idle.",
+   "note": "May halong pagpapabaya — dapat may pakinabang pero walang nag-aasikaso. Iba sa 'bakante' (walang laman/nakatira lang, puwedeng pansamantala). Karaniwan sa reklamo sa proyekto ng gobyerno: 'pinondohan pero nakatiwangwang.'",
+   "tiesTo": "Lacson flags unbuilt multipurpose buildings and P241B patronage spending in 2027 budget"
+  },
+  {
+   "id": "2026-11-24-zh-1",
+   "lang": "Mandarin",
+   "word": "放宽",
+   "pinyin": "fàngkuān",
+   "pronunciation": "fahng-kwahn",
+   "tones": "4 · 1",
+   "meaning": "to loosen, relax (a limit, rule or standard)",
+   "example": "交易所放宽了融资保证金比例。",
+   "examplePinyin": "Jiāoyìsuǒ fàngkuān le róngzī bǎozhèngjīn bǐlì.",
+   "exampleMeaning": "The exchanges loosened the minimum margin ratio.",
+   "note": "书面语/policy register; opposite 收紧. Collocates: 放宽限制, 放宽条件, 放宽政策, 放宽标准. vs 放松 (broader, everyday: 放松心情, 好好放松一下) — 放宽 = widening a boundary/lowering a bar; if the rule has a number in it, it's usually 放宽.",
+   "tiesTo": "China cuts minimum margin ratio from 100% to 80%"
+  },
+  {
+   "id": "2026-11-24-zh-2",
+   "lang": "Mandarin",
+   "word": "意味着",
+   "pinyin": "yìwèizhe",
+   "pronunciation": "ee-way-juh",
+   "tones": "4 · 4 · 0",
+   "meaning": "to mean, signify, imply (a fact's consequence)",
+   "example": "融资余额从3万亿元降到2.2万亿元，意味着投资者的信心还没有恢复。",
+   "examplePinyin": "Róngzī yú'é cóng 3 wàn yì yuán jiàng dào 2.2 wàn yì yuán, yìwèizhe tóuzīzhě de xìnxīn hái méiyǒu huīfù.",
+   "exampleMeaning": "Margin debt falling from 3 trillion yuan to 2.2 trillion means investor confidence hasn't recovered.",
+   "note": "Abstract collocation, 书面语/news register: subject = a fact/number/decision, object = its consequence (这意味着…). vs 说明 (shows/demonstrates — evidence proving a point) and 表示 (to express/state — what a person or institution says: 央行表示…). 意味着 = implication for what comes next.",
+   "tiesTo": "China cuts minimum margin ratio from 100% to 80%"
+  }
+ ]
+}

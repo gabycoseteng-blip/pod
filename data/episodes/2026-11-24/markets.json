@@ -1,0 +1,27 @@
+{ "date": "2026-11-24", "asOf": "Monday, November 23 close",
+  "groups": [
+    {"name": "US Indices", "rows": [
+      {"label": "S&P 500", "value": "7,237.17", "change": "+4.7%", "dir": "up"},
+      {"label": "Nasdaq Composite", "value": "24,089.56", "change": "~+6.5%", "dir": "up"},
+      {"label": "Dow Jones", "value": "49,595.31", "change": "+3.0%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,669.66", "change": "+3.4%", "dir": "up"} ]},
+    {"name": "Global Indices", "rows": [
+      {"label": "FTSE 100", "value": "10,480.82", "change": "+1.30%", "dir": "up"},
+      {"label": "DAX", "value": "25,337.27", "change": "+2.15%", "dir": "up"},
+      {"label": "Hang Seng", "value": "22,383.74", "change": "-0.12%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,538.95", "change": "+0.15%", "dir": "up"},
+      {"label": "PSEi", "value": "5,353.07", "change": "+0.87%", "dir": "up"} ]},
+    {"name": "Asia — Tuesday", "rows": [
+      {"label": "Taiex", "value": "40,122.35", "change": "+8.99%", "dir": "up"},
+      {"label": "Kospi", "value": "5,006.03", "change": "+6.32%", "dir": "up"},
+      {"label": "Nikkei 225", "value": "~58,650", "change": "~+3.9%", "dir": "up"} ]},
+    {"name": "Rates", "rows": [
+      {"label": "UST 10Y", "value": "~4.93%", "change": "~flat", "dir": "flat"} ]},
+    {"name": "Commodities", "rows": [
+      {"label": "WTI", "value": "80.17", "change": "-4.5%", "dir": "down"},
+      {"label": "Brent", "value": "89.37", "change": "-3.5%", "dir": "down"},
+      {"label": "Gold", "value": "~3,620", "change": "~+2.5%", "dir": "up"} ]},
+    {"name": "FX", "rows": [
+      {"label": "USD/PHP", "value": "63.775", "change": "-0.07", "dir": "down"},
+      {"label": "USD/MXN", "value": "19.18", "change": "12-mo peso low", "dir": "up"} ]} ],
+  "note": "Prior-session close (FMP unavailable; levels from AP/CNN/exchange wraps; ~ marks single-source or unsettled figures)." }

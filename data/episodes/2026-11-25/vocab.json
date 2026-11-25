@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-25",
+ "cards": [
+  {
+   "id": "2026-11-25-tl-1",
+   "lang": "Tagalog",
+   "word": "nakapiit",
+   "pinyin": "",
+   "pronunciation": "na-ka-pi-ÍT",
+   "tones": "",
+   "meaning": "detained, imprisoned — held in custody by order of a court or authority; root: piit",
+   "example": "Nananatiling nakapiit ang senador sa kulungan ng Quezon City.",
+   "examplePinyin": "",
+   "exampleMeaning": "The senator remains detained in the Quezon City jail.",
+   "note": "Pormal, pambalita at pang-korte; halos laging tao at may kaso. Iba sa 'nakakulong' (pang-araw-araw, puwede sa hayop: nakakulong ang aso). 'Piitan' = bilangguan mismo.",
+   "tiesTo": "Sandiganbayan denies Sen. Marcoleta bail in ₱75M plunder case; he stays in Payatas jail"
+  },
+  {
+   "id": "2026-11-25-tl-2",
+   "lang": "Tagalog",
+   "word": "ipinagkait",
+   "pinyin": "",
+   "pronunciation": "i-pi-nag-ka-ÍT",
+   "tones": "",
+   "meaning": "denied, withheld — refused something a person asked for or was entitled to; root: kait",
+   "example": "Ipinagkait ng korte ang piyansa dahil malakas ang ebidensya.",
+   "examplePinyin": "",
+   "exampleMeaning": "The court denied bail because the evidence was strong.",
+   "note": "May bigat ng pagkakait/pagkawala, iba sa neutral na 'tinanggihan' (tinanggihan ang alok). Karaniwan sa karapatan, katarungan, pagkakataon: 'ipinagkait sa kanya ang pagkakataon.' Pandiwa: magkait, nagkait, ipagkakait.",
+   "tiesTo": "Sandiganbayan denies bail to Marcoleta and co-accused Defensor, Espiritu, Viray"
+  },
+  {
+   "id": "2026-11-25-zh-1",
+   "lang": "Mandarin",
+   "word": "收窄",
+   "pinyin": "shōuzhǎi",
+   "pronunciation": "show-jye",
+   "tones": "1 · 3",
+   "meaning": "to narrow (a gap, spread or rate of decline)",
+   "example": "土地出让收入的降幅继续收窄。",
+   "examplePinyin": "Tǔdì chūràng shōurù de jiàngfú jìxù shōuzhǎi.",
+   "exampleMeaning": "The decline in land-sale revenue continued to narrow.",
+   "note": "书面语, finance-report register; opposite 扩大. Collocations: 降幅收窄, 跌幅收窄, 利差收窄. vs 缩小: general 'shrink/reduce' and can be deliberate (缩小差距, 缩小范围); 收窄 describes a spread or decline tightening.",
+   "tiesTo": "China Jan–Oct land-sale revenue -25.8%, decline narrowing from -27.9%"
+  },
+  {
+   "id": "2026-11-25-zh-2",
+   "lang": "Mandarin",
+   "word": "相对而言",
+   "pinyin": "xiāngduì ér yán",
+   "pronunciation": "shyahng-dway er yen",
+   "tones": "1 · 4 · 2 · 2",
+   "meaning": "relatively speaking; comparatively",
+   "example": "相对而言，中央财政比地方财政更稳健。",
+   "examplePinyin": "Xiāngduì ér yán, zhōngyāng cáizhèng bǐ dìfāng cáizhèng gèng wěnjiàn.",
+   "exampleMeaning": "Relatively speaking, central finances are sturdier than local finances.",
+   "note": "书面语 connective that hedges a judgment (true in relative, not absolute, terms). vs 相比之下 ('by contrast'), which explicitly sets one named thing against another. Usually sentence-initial, followed by a comparison or evaluation.",
+   "tiesTo": "China central revenue +7.5% vs local +2.9% Jan–Oct"
+  }
+ ]
+}

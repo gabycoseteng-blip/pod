@@ -1,0 +1,641 @@
+{
+  "date": "2026-11-25",
+  "title": "Wednesday, November 25, 2026",
+  "day": "Wednesday",
+  "audio": "https://pub-d6fd5a517bd2450893d1f6eef792a2b4.r2.dev/2026-11-25.mp3",
+  "durationSec": 1690,
+  "segments": [
+    {
+      "raw": "COLD OPEN",
+      "label": "Cold Open",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Good morning, this is The Morning Commute. Wednesday, November 25. I'm Sam.",
+          "startSec": 0.0,
+          "endSec": 4.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. We start in the Strait of Hormuz, where Iran's Revolutionary Guard is now claiming that ships aren't just being struck, they're being sunk, and nobody outside Tehran can yet confirm a word of it.",
+          "startSec": 4.33,
+          "endSec": 16.4
+        }
+      ],
+      "startSec": 0.0
+    },
+    {
+      "raw": "SEGMENT ONE — HEADLINES",
+      "label": "Headlines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Here's what the IRGC says. On Tuesday, 3 tankers hit mines in the Strait, according to the state news agency IRNA. Later in the day it went further, claiming a supertanker carrying more than 2 million barrels of crude had sunk, along with a ship carrying more than 2,500 containers south of the Strait. None of that is independently confirmed. The UK's maritime security agency, UKMTO, is reporting projectile strikes on shipping, but no mines.",
+          "startSec": 16.4,
+          "endSec": 42.03
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The distinction matters more than it sounds. A projectile strike is an act you can attribute, deter and negotiate over. A minefield is a standing hazard that outlasts any ceasefire, because somebody has to sweep it before insurers will write cover again. So whether or not the sinkings are real, claiming mines is Tehran telling the market the Strait's risk doesn't switch off when the talking starts. Iran's army chief, Abdolrahim Hatami, says it stays shut until Iran's 7 conditions are met, while Qatar says its contacts with Washington and Tehran are continuing.",
+          "startSec": 42.03,
+          "endSec": 74.71
+        },
+        {
+          "speaker": "SAM",
+          "text": "To Colombia, where the war has gone airborne. On Sunday a drone attack on a police base in Cúcuta, on the Venezuelan border, injured 3 civilians, including an infant, and damaged 60 homes. A day earlier, an attack on an army base in Cesar killed a soldier and wounded 12. The Ideas for Peace Foundation counts 323 drone attacks in the first 9 months of this year, up 95% on last year, and Caracol Radio counts at least 93 in President Abelardo de la Espriella's first 100 days.",
+          "startSec": 74.71,
+          "endSec": 102.25
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the date is pointed. Tuesday was the 10th anniversary of the 2016 peace accord with the FARC. De la Espriella has cancelled the talks his predecessor ran with the remaining armed groups and launched an offensive he calls Esparta. The groups that never disarmed have answered with cheap commercial drones, which are the great equaliser of this decade's wars. A cheap commercial quadcopter turns a rural police post into a front line, and that's very hard to fight with a ground offensive.",
+          "startSec": 102.25,
+          "endSec": 130.6
+        },
+        {
+          "speaker": "SAM",
+          "text": "And in Indonesia, the vice presidency is open. Gibran Rakabuming Raka, the son of former president Joko Widodo, resigned on November 12 after court rulings disputed his educational credentials. On Monday, President Prabowo Subianto sent 2 names to the People's Consultative Assembly: Agriculture Minister Andi Amran Sulaiman and former foreign minister Sugiono. The assembly votes, and the winner is inaugurated, on December 11.",
+          "startSec": 130.6,
+          "endSec": 155.31
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Both names are Prabowo loyalists, and analysts read the shortlist as consolidation. With Gibran gone, the Widodo family loses its seat at the top table, and Prabowo gets a deputy whose only power base is Prabowo himself. For investors, that's continuity on paper and concentration in practice, in a country where markets already watch Jakarta's grip on economic policy closely.",
+          "startSec": 155.31,
+          "endSec": 177.08
+        }
+      ],
+      "startSec": 16.4
+    },
+    {
+      "raw": "SEGMENT ONE — U.S. BUSINESS",
+      "label": "U.S. Business",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Dell, after the close. Third-quarter revenue of $54.9 billion, up 103% from a year ago, against about $49.3 billion expected. Adjusted earnings of $9.45 a share against $6.59. AI server revenue was $22 billion, up 291%, orders were $60.2 billion, and the AI backlog hit a record $132.3 billion. Dell raised its full-year revenue guide to $202 billion from $192 billion, its AI server forecast to $78 billion from $74 billion, and announced a $25 billion buyback.",
+          "startSec": 177.08,
+          "endSec": 203.75
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Now look at the sequence. The stock fell 11.8% in the regular session to $295.28, dragged down by the chip rout, then rose about 4.8% after hours to $309.42 on those numbers. A $132 billion backlog is about 2 years of AI server revenue already booked. The worry is margins: memory prices are soaring, and Dell sits between the chipmakers who set those prices and customers who've signed fixed contracts. Dell's fundamentals are fine; the market's conviction is what's wobbling.",
+          "startSec": 203.75,
+          "endSec": 231.29
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Workday, also after the bell. Subscription revenue of $2.532 billion, up 12.8%, total revenue $2.705 billion, earnings of $2.82 a share, a hair above estimates, and current remaining performance obligations up 12.3% to $9.216 billion. But fourth-quarter subscription guidance of about $2.6 billion came in a little light, and the shares fell 7.1% after hours to $166.01. A clean beat that gets punished on a soft guide is the AI-disruption discount for seat-based software, priced in a single print.",
+          "startSec": 231.29,
+          "endSec": 260.33
+        }
+      ],
+      "startSec": 177.1
+    },
+    {
+      "raw": "SEGMENT ONE — INTERNATIONAL BUSINESS & POLITICS",
+      "label": "International Business & Politics",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "In Slovakia, parliament voted 79 to 71 on Tuesday to abolish postal voting from abroad, which Slovaks have had since 2006. President Peter Pellegrini still has to sign it. The arithmetic explains the fight: in the 2023 election about 59,000 Slovaks voted by mail from abroad, and 61.7% of them backed the liberal Progressive Slovakia, while 6.1% backed Prime Minister Robert Fico's Smer.",
+          "startSec": 260.33,
+          "endSec": 282.67
+        },
+        {
+          "speaker": "ALEX",
+          "text": "So a government is removing a channel through which a bloc of voters overwhelmingly votes against it. The opposition says it'll go to the constitutional court, and there have been protests in Bratislava. Those voters haven't gone anywhere; they've just been told to travel home to vote.",
+          "startSec": 282.67,
+          "endSec": 299.19
+        },
+        {
+          "speaker": "SAM",
+          "text": "And Washington has blacklisted part of Alibaba. On Monday the Commerce Department put Alibaba's Singapore unit, Apex, on the Entity List, along with 6 firms linked to the Nvidia partner Megaspeed, across Singapore, Malaysia and Thailand, citing the risk of chips being diverted to China. Reports say Apex paid Megaspeed up to about $474 million in 2024. Alibaba calls it a mistake and says it'll pursue legal options. The Hang Seng closed at its lowest in more than a year on Tuesday. The real message is to Southeast Asia's data-centre hosts: renting compute to a Chinese hyperscaler from Johor or Bangkok is now a compliance risk, not just a commercial one.",
+          "startSec": 299.19,
+          "endSec": 337.23
+        }
+      ],
+      "startSec": 260.3
+    },
+    {
+      "raw": "SEGMENT TWO — MARKET OVERVIEW",
+      "label": "Market Overview",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "One number matters from Tuesday's session, and it isn't an index. The Philadelphia semiconductor index fell 7.9%.",
+          "startSec": 337.23,
+          "endSec": 343.76
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's a crash-sized day for a sector, the day after Nvidia's 31% rebound. Nvidia gave back about 6%, Micron fell 10.6% and AMD about 8%. The Nasdaq lost 1.5%, the S&P slipped for the 8th time in 9 sessions, and the Dow rose almost 1% to close back above 50,000. That's rotation, not panic: money left chips for banks, industrials and healthcare in the same session.",
+          "startSec": 343.76,
+          "endSec": 364.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Asia got it overnight. The Kospi fell about 6.2%, the Taiex about 5% and the Nikkei 3.6%, with SoftBank down about 16%. In Germany, Infineon fell 9.9%.",
+          "startSec": 364.89,
+          "endSec": 373.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "My read is that Monday's Huang rally was a relief trade about governance, and Tuesday was the market remembering the governance problem wasn't the only one. Memory costs, export controls and the Alibaba blacklist all point the same way, toward a supply chain that's more political and more expensive. The other mover was gold, down 2.31% to $3,550.79, after hawkish central bank talk, including from the Bank of Canada. That's a market taking the December hike seriously. Oil rose about 2.3%, with Brent at $91.40, giving back half of Monday's drop as the Hormuz headlines came in, though it's easing again this morning on oversupply worries from the IEA.",
+          "startSec": 373.0,
+          "endSec": 408.17
+        },
+        {
+          "speaker": "SAM",
+          "text": "And there's a lot of data packed into a pre-holiday Wednesday.",
+          "startSec": 408.17,
+          "endSec": 411.5
+        },
+        {
+          "speaker": "ALEX",
+          "text": "At 8:30 Eastern, jobless claims, October durable goods and the second estimate of third-quarter GDP, seen around 3.5%. At 10, October PCE. Markets are shut Thursday for Thanksgiving and close early Friday, so whatever PCE says, it sits in thin liquidity for 2 days. A hot core print with a hike already priced in is the scenario that would really sting. Everything else is on the Markets tab.",
+          "startSec": 411.5,
+          "endSec": 432.55
+        }
+      ],
+      "startSec": 337.2
+    },
+    {
+      "raw": "SEGMENT THREE — DEEP DIVE",
+      "label": "Deep Dive",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Our Deep Dive comes from The Economist Today, which landed on Tuesday with a piece titled How the manosphere cashes in on male insecurity, alongside a leader on how to think about the manosphere. We're going to take the business-model question seriously, because that's where the piece is sharpest.",
+          "startSec": 432.55,
+          "endSec": 448.56
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The thesis, in The Economist's own framing: the manosphere is doing a roaring business. Videos about young men's looks and dating prospects have racked up billions of views on mainstream sites. Many of its most controversial stars have been shunted to less-regulated corners of the web, and that shift is changing how the whole thing makes money. Behind the influencers, the piece says, sits a web of troubling sponsorship deals, and a lot of the profit traces back to online casinos like Stake.",
+          "startSec": 448.56,
+          "endSec": 475.14
+        },
+        {
+          "speaker": "SAM",
+          "text": "So let's build out the plumbing from the open reporting. Where did the deplatformed creators go?",
+          "startSec": 475.14,
+          "endSec": 480.3
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Largely to Kick, a streaming platform that's tied to Easygo Entertainment, the company behind the crypto casino Stake. Stake's founders have reportedly put close to $1 billion into growing Kick. Kick says the companies are separate, but a looser platform funded by casino owners is the natural home for creators with young, male, risk-seeking audiences.",
+          "startSec": 480.3,
+          "endSec": 499.25
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the money flows how?",
+          "startSec": 499.25,
+          "endSec": 500.54
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Bloomberg reported that some Stake partners earn up to $10,000 for a single Instagram reel clipped from a Kick stream. The streamer xQc has said Stake paid him $200,000 per sponsored stream, though that's his own claim. Then there are the subscriptions and courses. Braden Peters, who streams as Clavicular and is the best-known face of so-called looksmaxxing, reportedly makes about $100,000 a month on Kick, per The New York Times, and sells a subscription community for about $50 a month. YouTube removed him again in April.",
+          "startSec": 500.54,
+          "endSec": 528.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Here's the part that surprised me. He isn't actually that big.",
+          "startSec": 528.84,
+          "endSec": 532.17
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Right, and that's the key to the model. A talent manager calls him mid-tier, with under a million followers per account. The reach comes from clip farms. A clip-farming executive says one moment from an 8-hour Kick stream can get 100 million views on Instagram. So the creator is banned from the mainstream platform, the long-form stream lives on the permissive platform, and thousands of 30-second clips flow straight back onto Instagram and TikTok. The ban removed the creator's account. It didn't remove the audience.",
+          "startSec": 532.17,
+          "endSec": 560.1
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the gambling side is what regulators will care about. Bloomberg Businessweek reviewed about 1,500 hours of Kick streams covering 25 gamblers, and found that Drake's rate of big wins on Stake's in-house games was about 4 times the norm, while on third-party games his results fell back to typical averages. Stake calls those findings categorically incorrect, and critics of the analysis point out that bonus-buy features make win rates hard to compare. But class actions are pending against Stake, Drake and the streamer Adin Ross. If a viewer is watching a celebrity win, and the platform hosting him is funded by the casino, the disclosure question writes itself. There's a political edge too. The Global Project Against Hate and Extremism, an advocacy group, says Stake and rivals like Duel and Rainbet grew partly through deals with far-right and far-right-adjacent creators. And the audience is not small. A survey reported in October found 33.2% of teenage boys say they follow Andrew Tate at least a little. So, what's contested? There's a lot.",
+          "startSec": 560.1,
+          "endSec": 616.7
+        },
+        {
+          "speaker": "ALEX",
+          "text": "3 things. First, influence versus reach. Some researchers, including a team at Teesside University, argue Tate's influence is overstated and most young men reject his views; his net approval runs at minus 30. Following someone at least a little isn't the same as believing him. Second, harm. Movember found in May that young men who engage heavily with masculinity influencers report more psychological distress, but Movember itself says that doesn't prove cause and effect: distressed young men may simply seek this content out. And Equimundo found that the fans who trust Tate or Sneako tend to earn more than their peers, which complicates the story that this is purely about economically left-behind men. Third, politics. Axios reported in October that the political pull of manosphere podcasters is already fading.",
+          "startSec": 616.7,
+          "endSec": 660.68
+        },
+        {
+          "speaker": "SAM",
+          "text": "So what's the second-order read for us?",
+          "startSec": 660.68,
+          "endSec": 662.77
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That deplatforming moves the till, not the audience. The policy debate for 5 years has been about which accounts to ban. This piece suggests the better lever is the money: gambling-advertising rules, sponsorship disclosure and the liability of platforms that host clipped content. A sponsored Kick stream clipped onto Instagram slips through most existing gambling-ad rules. Follow the money and the problem looks less like a culture war and more like an unregulated marketing channel for crypto gambling.",
+          "startSec": 662.77,
+          "endSec": 689.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "And it rhymes with the rest of the show: Hormuz, Slovakia's postal ballots, Kick. Push something out of one channel and it reroutes.",
+          "startSec": 689.89,
+          "endSec": 696.98
+        }
+      ],
+      "startSec": 432.6
+    },
+    {
+      "raw": "SEGMENT FOUR — ENERGY / DATA CENTERS / UTILITIES",
+      "label": "Energy / Data Centers / Utilities",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "The Tennessee Valley Authority has signed its first deal under the Capacity Commitment Charge. We covered the charge itself when it was proposed, so here's the new data point.",
+          "startSec": 696.98,
+          "endSec": 706.38
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The agreement was entered on November 10 and is worth about $1.7 billion. The customer isn't named. The structure is $31 million up front, then 59 instalments, so 60 payments in all. The charge runs about $1.5 million per megawatt of requested capacity for new or expanding loads above 5 megawatts, which implies roughly 1,100 megawatts. A TVA spokesperson confirmed the arithmetic, but not the megawatts, per the Chattanooga Times Free Press.",
+          "startSec": 706.38,
+          "endSec": 731.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "So a gigawatt-scale buyer has accepted a non-refundable headroom payment.",
+          "startSec": 731.87,
+          "endSec": 736.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "That's the significance. Until now the capacity charge was a theory about whether hyperscalers would pay to hold a place in line. $1.7 billion says at least one will, for about 1.1 gigawatts in the Valley. It also sets a reference price: $1.5 million per megawatt of commitment is now the number every developer in the Southeast will be quoted against. TVA's annual report still lists AI-load stranded cost as a risk, so this is TVA getting paid before taking it on.",
+          "startSec": 736.08,
+          "endSec": 762.89
+        },
+        {
+          "speaker": "SAM",
+          "text": "Next door in Alabama, the regulator has chosen a different route.",
+          "startSec": 762.89,
+          "endSec": 766.63
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Alabama Power's revised tariff is now in force. Hyperscale contracts of 150 megawatts or more are deemed approved if the Public Service Commission doesn't vote within 90 days, up from a 10-day window before. No public explanation is required when a contract is approved without a vote. Public petitions have to name the customer and its parent, the county and the maximum megawatts, but the full terms are filed confidentially with the commission and the Attorney General. The AG pushed for a public vote on every contract and lost. Energy Alabama and the Southern Environmental Law Center call it a rubber stamp.",
+          "startSec": 766.63,
+          "endSec": 801.91
+        },
+        {
+          "speaker": "SAM",
+          "text": "Set that beside Florida.",
+          "startSec": 801.91,
+          "endSec": 803.29
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Florida's commission rejected Duke's large-load tariff 5 to 0, and North Carolina carved out a separate class for stranded cost. Alabama has gone the other way: approval by silence. For a developer that's faster certainty. For a ratepayer advocate it's a contract they'll never see, approved without a vote.",
+          "startSec": 803.29,
+          "endSec": 820.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the hardware story is Tesla's.",
+          "startSec": 820.96,
+          "endSec": 822.92
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Tesla's Powercore, launched at RE+ on November 17 and written up in this week's CTVC newsletter, is a solid-state transformer: transformer, inverter and breaker in a single box. It's rated 7.4 megawatts continuous at 34.5 kilovolts, with a 10 MVA grid-forming peak, about 4.2 megawatts continuous for data-centre use, 98.86% peak efficiency, 800 to 2,000 volts DC out, and a solid-state breaker that clears faults in about 100 microseconds. The pitch is medium voltage straight to 800-volt DC, cutting out conversion stages, and it's being qualified with Nvidia for its DSX Ready programme.",
+          "startSec": 822.92,
+          "endSec": 856.87
+        },
+        {
+          "speaker": "SAM",
+          "text": "Which goes straight at the transformer shortage we've covered.",
+          "startSec": 856.87,
+          "endSec": 860.44
+        },
+        {
+          "speaker": "ALEX",
+          "text": "It does, and CTVC's read is that the field has changed in a year. Solid-state transformers looked like a risky startup bet; now Tesla, Enphase and Vertiv, with its 800-volt DC push, are all in, which suggests the technical risk can be overcome. But be precise about timing: Powercore enters service in 2027, with no price, customer or factory named, and no bankable track record. It doesn't help a project energising in 2026 or early 2027. It's an option on the next wave, not a fix for this one.",
+          "startSec": 860.44,
+          "endSec": 888.99
+        },
+        {
+          "speaker": "SAM",
+          "text": "And the demand side has a political asterisk.",
+          "startSec": 888.99,
+          "endSec": 891.58
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Orennia estimates about 191 gigawatts of planned data-centre capacity faces new risk after the midterms, concentrated in Texas, Ohio and Georgia, with Texas holding nearly half the US pre-construction pipeline. The number for storage people: Orennia models that pushing half of PJM's planned data-centre build back 2 years cuts 4-hour battery arbitrage spreads by about 16%. And Southern Company has 21 gigawatts signed, 7 in late-stage talks and a roughly 75-gigawatt speculative pipeline it says won't fully materialise.",
+          "startSec": 891.58,
+          "endSec": 921.62
+        },
+        {
+          "speaker": "SAM",
+          "text": "Put the 4 together.",
+          "startSec": 921.62,
+          "endSec": 922.71
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The burden is moving onto the large-load buyer, and it's moving early. TVA takes cash up front. Alabama approves by running out the clock. Tesla is trying to engineer around the transformer queue. And Orennia's 191 gigawatts is a reminder of how much of the demand behind those decisions is still political rather than contractual. The asymmetry: utilities get paid first, while merchant storage and local suppliers carry the delay risk.",
+          "startSec": 922.71,
+          "endSec": 947.86
+        }
+      ],
+      "startSec": 697.0
+    },
+    {
+      "raw": "SEGMENT FIVE — TAGALOG VOCAB",
+      "label": "Tagalog Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Tagalog naman tayo. Dalawang salita ngayong umaga, parehong galing sa balita sa Sandiganbayan na susunod nating pag-uusapan.",
+          "startSec": 947.86,
+          "endSec": 955.0
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang una ay nakapiit. Galing sa ugat na piit, ibig sabihin ay nakakulong o nasa piitan, hindi makalabas dahil sa utos ng korte o ng awtoridad. Pormal ito, salitang pambalita at pang-korte. Halimbawa: Nananatiling nakapiit ang senador sa kulungan ng Quezon City.",
+          "startSec": 955.0,
+          "endSec": 969.96
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ihambing natin sa nakakulong. Pareho ang ibig sabihin, pero mas pang-araw-araw ang nakakulong, at puwede rin sa hayop: nakakulong ang aso sa hawla. Ang nakapiit, halos laging tao at halos laging may kaso. Kaya sa ulo ng balita, mas mabigat ang dating ng nakapiit. Ang piitan naman ay ang lugar mismo, ang bilangguan.",
+          "startSec": 969.96,
+          "endSec": 988.15
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Ang ikalawa ay ipinagkait. Galing sa ugat na kait, ibig sabihin ay hindi ibinigay ang isang bagay na hinihingi o inaasahan ng tao. May kasamang damdamin ito: parang ipinagdamot, parang may karapatan ka sana pero tinanggihan. Halimbawa: Ipinagkait ng korte ang piyansa dahil malakas ang ebidensya.",
+          "startSec": 988.15,
+          "endSec": 1005.18
+        },
+        {
+          "speaker": "SAM",
+          "text": "Ihambing sa tinanggihan. Neutral ang tinanggihan: tinanggihan ang alok, tinanggihan ang imbitasyon. Ang ipinagkait, may bigat ng pagkakait, ng pagkawala. Madalas itong gamitin sa karapatan, katarungan, pagkakataon, o pagmamahal: ipinagkait sa kanya ang pagkakataong makapag-aral. Pansinin din ang anyong pandiwa: magkait, nagkait, ipagkakait. Pakinggan natin ang dalawang ito sa susunod na balita.",
+          "startSec": 1005.18,
+          "endSec": 1028.03
+        }
+      ],
+      "startSec": 947.9
+    },
+    {
+      "raw": "SEGMENT SIX — PHILIPPINES",
+      "label": "Philippines",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Ipinagkait ng Sandiganbayan ang piyansa kay Senador Rodante Marcoleta sa kasong plunder na nagkakahalaga ng 75 milyong piso, dahil malakas daw ang ebidensya ng pagkakasala. Kaya mananatili siyang nakapiit sa Quezon City Jail sa Payatas, kung saan siya nakakulong mula pa noong Hulyo 6. Ipinagkait din ang piyansa sa mga kapwa akusado niyang sina Michael Defensor, Joseph Espiritu at Aristotle Viray.",
+          "startSec": 1028.03,
+          "endSec": 1050.99
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The court's reasoning is the interesting bit. The 3rd Division was unanimous, and it treated the donations at the centre of the case as ill-gotten wealth under the plunder law, citing their timing, identical deeds of donation, delayed notarisation, and the fact that one of Marcoleta's own employees paid the donors' taxes. His 90-day preventive suspension as a senator took effect on Monday. Marcoleta calls it political retaliation; the Ombudsman's office says it's pleased. A sitting senator held without bail on evidence the court calls strong is a real marker for the accountability drive, whichever side of it you're on.",
+          "startSec": 1050.99,
+          "endSec": 1087.92
+        },
+        {
+          "speaker": "SAM",
+          "text": "The Supreme Court, meanwhile, closed a door on the Duterte family. It voted 9 to 4 on Monday to dismiss the habeas corpus petitions filed by Rodrigo Duterte's children, calling them moot: habeas corpus is a domestic remedy, and he's detained in The Hague. Justices Leonen and Hernando dissented, saying the constitutional questions about his surrender were left unresolved. His ICC trial opens on Monday, November 30, before Judge Joanna Korner, and the defence is fighting the prosecution's request to keep 55 of its 69 witnesses anonymous and to hear 22 behind closed doors. The judges haven't ruled.",
+          "startSec": 1087.92,
+          "endSec": 1123.43
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And the central bank governor used a very Tagalog word at the Senate. At Tuesday's 2027 budget hearing, Senator Imee Marcos asked Eli Remolona whether the fall in gross international reserves from $113 billion to $98 billion wasn't frightening. His answer: nakakatakot. Then: sa ngayon, okay pa, senator. For now, it's still okay. He said reserves still cover about 6 months of imports and 3 times short-term debt, and that the BSP intervenes only in extreme volatility, though Marcos reminded him he'd once called $104 billion the safer level.",
+          "startSec": 1123.43,
+          "endSec": 1155.52
+        },
+        {
+          "speaker": "SAM",
+          "text": "And he wants help from the fiscal side.",
+          "startSec": 1155.52,
+          "endSec": 1157.82
+        },
+        {
+          "speaker": "ALEX",
+          "text": "On Monday he told reporters, we need fiscal stimulus, blaming the fall in public construction. That's a central banker who has hiked 125 basis points since April, to 5.50%, with October inflation at 7.8% and core at 5.4%, saying November could get close to 8% and asking the government to spend. It's the slowflation bind we described yesterday: monetary policy is stuck fighting prices, so growth has to come from the budget. The Senate is due to finish its deliberations on Friday, with the bicameral conference around December 10 to 12. There's no active storm signal from PAGASA this morning.",
+          "startSec": 1157.82,
+          "endSec": 1192.98
+        }
+      ],
+      "startSec": 1028.0
+    },
+    {
+      "raw": "SEGMENT SEVEN — MANDARIN VOCAB",
+      "label": "Mandarin Vocab",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Now Mandarin, with 2 words for this morning's China story on local government finances.",
+          "startSec": 1192.98,
+          "endSec": 1198.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The first is 收窄, shōuzhǎi, to narrow. It's written register, the language of financial reporting, and it's used for gaps, spreads and rates of decline. Its opposite is 扩大, to widen. The key collocation is 降幅收窄, the decline narrowed, which is how Chinese statistics describe something getting less bad. Example: 土地出让收入的降幅继续收窄。(The decline in land-sale revenue continued to narrow.)",
+          "startSec": 1198.11,
+          "endSec": 1222.51
+        },
+        {
+          "speaker": "SAM",
+          "text": "The near-synonym is 缩小, which means to shrink or reduce in size in general: 缩小差距, to close a gap, 缩小范围, to narrow the scope. 缩小 can describe something you do on purpose. 收窄 is more like a market term: it describes a spread or decline that tightens on its own.",
+          "startSec": 1222.51,
+          "endSec": 1239.11
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The second is a connective: 相对而言, xiāngduì ér yán, relatively speaking. It's formal and written, and it hedges a judgement rather than naming two things side by side. Example: 相对而言，中央财政比地方财政更稳健。(Relatively speaking, central finances are sturdier than local finances.)",
+          "startSec": 1239.11,
+          "endSec": 1256.84
+        },
+        {
+          "speaker": "SAM",
+          "text": "Contrast it with 相比之下, by contrast, which explicitly sets one named thing against another. 相对而言 is softer: it says this is true in relative terms, without claiming it's true in absolute terms. Central revenue is growing 相对而言 fast, but that doesn't make it fast. Listen for both in the China story.",
+          "startSec": 1256.84,
+          "endSec": 1275.49
+        }
+      ],
+      "startSec": 1193.0
+    },
+    {
+      "raw": "SEGMENT EIGHT — CHINA",
+      "label": "China",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "尽管土地出让收入的降幅有所收窄，相对而言，地方财政还是比中央财政困难得多。(Although the decline in land-sale revenue has narrowed somewhat, relatively speaking, local finances are still in much worse shape than central finances.)",
+          "startSec": 1275.49,
+          "endSec": 1290.22
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The Finance Ministry's numbers for January through October: general budget revenue up 4.9% to 19.57 trillion yuan, with tax revenue up 6% and non-tax revenue down 0.2%, while spending rose just 1% to 22.8 trillion. The split is the story. Central government revenue grew 7.5%; local revenue grew 2.9%. And land-use rights sales fell 25.8% to 1.85 trillion yuan. That's narrower than the 27.9% drop through September and the 28.6% through August.",
+          "startSec": 1290.22,
+          "endSec": 1316.47
+        },
+        {
+          "speaker": "SAM",
+          "text": "So less bad, still shrinking.",
+          "startSec": 1316.47,
+          "endSec": 1318.18
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Exactly, and that's what 收窄 captures. A narrowing decline is still a decline: land sales are down by a quarter on a base that had already collapsed. Land's share of government-fund revenue fell to 64.3% in the first 9 months, from 72.6% a year earlier, and that's not because other revenue grew, it's because land shrank. Through the two-speed lens, Beijing's revenue is holding up on tax from the fast economy, the exporters and the AI supply chain, while localities that built their budgets on property are still contracting. And because spending grew only 1%, local governments are cutting at exactly the moment the economy needs them to spend. That's the debt-deflation loop in fiscal form, and part of why China's 10-year government bond yield sits around 1.6%, a record low, while every other major bond market is selling off. Friday brings October industrial profits, the next test of how lopsided the two speeds have become.",
+          "startSec": 1318.18,
+          "endSec": 1373.34
+        }
+      ],
+      "startSec": 1275.5
+    },
+    {
+      "raw": "SEGMENT NINE — ARTS & CULTURE",
+      "label": "Arts & Culture",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "In arts, a death that reopens an old argument. Friedrich Christian Flick, one of Europe's biggest collectors of contemporary art, died last weekend in Rosenheim, aged 82, after a fall, according to German reports and ARTnews.",
+          "startSec": 1373.34,
+          "endSec": 1386.62
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Flick's collection, thousands of works by Bruce Nauman, Paul McCarthy, Martin Kippenberger and others, went on long-term loan to Berlin's Hamburger Bahnhof in 2004, housed in the Rieckhallen, until the loan ended in September 2021. In 2015 he gave the Nationalgalerie 104 works outright. The opening in 2004 drew protests, because his grandfather, Friedrich Flick, was convicted at Nuremberg for using slave labour in the family's industrial empire, and critics said the show was laundering a tainted fortune through public culture.",
+          "startSec": 1386.62,
+          "endSec": 1418.0
+        },
+        {
+          "speaker": "SAM",
+          "text": "So what's the critic's question now?",
+          "startSec": 1418.0,
+          "endSec": 1420.12
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Where the rest of the collection goes, and whether a museum can accept the art while declining the history. Berlin's answer in 2004 was a long loan, which kept the ownership, and the argument, private. With Flick gone, any gift or sale forces the institutions to decide in public.",
+          "startSec": 1420.12,
+          "endSec": 1436.64
+        },
+        {
+          "speaker": "SAM",
+          "text": "In opera, Los Angeles Opera's Candide has opened at the Dorothy Chandler Pavilion, running to December 13. It's Francesca Zambello's staging, conducted by Lina González-Granados, with Duke Kim as Candide, Meghan Picerno making her company debut as Cunegonde, Patti LuPone as the Old Lady and Scott Bakula in 2 roles. The early review in Stage and Cinema calls the score radiant and says the company gives it the full treatment, with reservations about the second act and the title role. Candide is the problem piece neither Broadway nor the opera house fully owns, and casting LuPone and Bakula is LA Opera choosing Broadway's side.",
+          "startSec": 1436.64,
+          "endSec": 1471.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And in books, South Africa's Sunday Times Literary Awards went on Tuesday to Sven Axelrad's novel The Nicotine Gospel for fiction, and to Tanya Zack's The Chaos Precinct, a study of Johannesburg's inner city, for non-fiction. A gallery note from the listener's inbox: Anat Ebgi is at Art Basel Miami Beach next week, booth D25, with a Kabinett of Neil Raitt's landscape paintings and a new hand-embroidered Jordan Nassar.",
+          "startSec": 1471.81,
+          "endSec": 1495.24
+        }
+      ],
+      "startSec": 1373.3
+    },
+    {
+      "raw": "SEGMENT TEN — OP-EDS & COMMENTARY",
+      "label": "Op-Eds & Commentary",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "2 columns from Bloomberg Opinion on Tuesday. First, Allison Schrager, under the headline The MBA May Have Just Peaked.",
+          "startSec": 1495.24,
+          "endSec": 1501.81
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman: applications to full-time MBA programmes for the class of 2028 fell 27%, including at elite schools. MBA demand usually tracks the economy, but Schrager argues this drop is structural, for 3 reasons. The One Big Beautiful Bill lowered federal loan limits, so the degree now means expensive private loans or your savings. Job switching has slowed and graduate hiring is weak, so quitting to study carries a real re-entry risk. And AI is repricing the kind of general business knowledge the degree sells. Unlike law or medicine, the MBA isn't a licence, so nothing protects its value.",
+          "startSec": 1501.81,
+          "endSec": 1534.98
+        },
+        {
+          "speaker": "SAM",
+          "text": "The counter-take?",
+          "startSec": 1534.98,
+          "endSec": 1535.93
+        },
+        {
+          "speaker": "ALEX",
+          "text": "MBA applications are famously countercyclical. They rise when jobs are scarce, so a 27% drop in a weak job market is odd, and it points at the loan-limit shock rather than a verdict on the degree. One bad cycle on top of a policy change is thin evidence for peaked. Second, the MBA's real product was never the knowledge; it's the network and the career switch, and AI weakens those least. And if elite schools cut class sizes, the degree gets scarcer and maybe more valuable; it's the mid-tier programmes in trouble.",
+          "startSec": 1535.93,
+          "endSec": 1564.7
+        },
+        {
+          "speaker": "SAM",
+          "text": "Second, Marc Champion, under the headline The World Is Underpricing the Risk of More War in Iran.",
+          "startSec": 1564.7,
+          "endSec": 1570.1
+        },
+        {
+          "speaker": "ALEX",
+          "text": "The steelman: markets are complacent about renewed American and Israeli fighting with Iran. Champion argues the path back to war is mostly downhill and much harder to climb out of. Iran has attacked Hormuz shipping more often since October, insurance has climbed, and the number of empty tankers sailing into the Gulf is down about 40%. The likeliest American option is a short, intense air campaign on infrastructure and nuclear and missile sites, which would hurt Tehran without settling anything, and invite Iranian retaliation against Gulf energy assets that oil prices aren't pricing.",
+          "startSec": 1570.1,
+          "endSec": 1602.88
+        },
+        {
+          "speaker": "SAM",
+          "text": "And this morning's IRGC claims arguably make his case for him.",
+          "startSec": 1602.88,
+          "endSec": 1606.33
+        },
+        {
+          "speaker": "ALEX",
+          "text": "They make the risk vivid, but here's the counter. First, oil hasn't ignored the risk; WTI was near $80 on Monday precisely because traders read Trump's evident lack of urgency as a signal, and that may be correct rather than complacent. Second, a 40% fall in tanker traffic is already priced, just not in futures: it's in freight rates and war-risk premiums, which is where shipping risk actually shows up. And third, a midterm-year White House has a strong aversion to $4 petrol, which is itself a brake on escalation. The honest position is that the tail is fat, but underpriced overstates it.",
+          "startSec": 1606.33,
+          "endSec": 1639.45
+        }
+      ],
+      "startSec": 1495.2
+    },
+    {
+      "raw": "SEGMENT ELEVEN — ONE GOOD THING",
+      "label": "One Good Thing",
+      "turns": [
+        {
+          "speaker": "SAM",
+          "text": "Our One Good Thing comes from Eloy, Arizona. Just before 5 in the evening last week, 2-year-old Vella Campillo wandered out of her front yard, and as the desert dark came down, the temperature started falling toward 40 degrees.",
+          "startSec": 1639.45,
+          "endSec": 1652.08
+        },
+        {
+          "speaker": "ALEX",
+          "text": "A search went out, and one of the volunteers was a neighbour named Jay Stewart, who kept going long after it got cold. At about a quarter past midnight, some 7 hours after she disappeared and roughly 2 miles from home, he found Vella curled up in a bush, shivering but otherwise unharmed.",
+          "startSec": 1652.08,
+          "endSec": 1668.11
+        },
+        {
+          "speaker": "SAM",
+          "text": "Pinal County Sheriff Ross Teeple called him Vella's hero and honoured him as an outstanding citizen. In the body-camera footage, Stewart just sounds like a neighbour who wasn't ready to go home.",
+          "startSec": 1668.11,
+          "endSec": 1678.91
+        },
+        {
+          "speaker": "ALEX",
+          "text": "Which is the best kind of neighbour. That's the show for this Wednesday. Have a lovely Thanksgiving if you're celebrating, and we'll be back with you soon.",
+          "startSec": 1678.91,
+          "endSec": 1687.53
+        },
+        {
+          "speaker": "SAM",
+          "text": "I'm Sam.",
+          "startSec": 1687.53,
+          "endSec": 1687.98
+        },
+        {
+          "speaker": "ALEX",
+          "text": "And I'm Alex. This has been The Morning Commute.",
+          "startSec": 1687.98,
+          "endSec": 1690.65
+        }
+      ],
+      "startSec": 1639.5
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-26",
+ "cards": [
+  {
+   "id": "2026-11-26-tl-1",
+   "lang": "Tagalog",
+   "word": "nakalusot",
+   "pinyin": "",
+   "pronunciation": "na-ka-lu-SÓT",
+   "tones": "",
+   "meaning": "slipped through, got past unchecked — passed without scrutiny or without being stopped; root: lusot",
+   "example": "Nakalusot sa Senado ang badyet nang walang tanong.",
+   "examplePinyin": "",
+   "exampleMeaning": "The budget slipped through the Senate without a single question.",
+   "note": "May bahid ng biro o pang-uuyam: dapat may humarang pero wala. Iba sa 'pumasa' (dumaan sa pagsusuri at nagtagumpay). Kaugnay: 'lusot na' (nakaligtas sa parusa), 'palusot' (dahilang inimbento).",
+   "tiesTo": "Senate passes the OVP's ₱785.2M 2027 budget in about a minute, no questions"
+  },
+  {
+   "id": "2026-11-26-tl-2",
+   "lang": "Tagalog",
+   "word": "paglustay",
+   "pinyin": "",
+   "pronunciation": "pag-lus-TÁY",
+   "tones": "",
+   "meaning": "squandering or misappropriating money, especially funds that are not one's own (public funds); root: lustay",
+   "example": "Kinasuhan ang opisyal ng paglustay ng pondo para sa flood control.",
+   "examplePinyin": "",
+   "exampleMeaning": "The official was charged with misappropriating flood-control funds.",
+   "note": "Pormal, pambalita at pang-korte. Mas mabigat kaysa 'pag-aaksaya' (puwedeng kapabayaan lang): may bigat ng pagnanakaw o pagtataksil sa tiwala. Pandiwa: lumustay, nilustay, nilulustay.",
+   "tiesTo": "Romualdez seeks reversal of 90-day suspension in ₱7.44B flood-control plunder case"
+  },
+  {
+   "id": "2026-11-26-zh-1",
+   "lang": "Mandarin",
+   "word": "不至于",
+   "pinyin": "bú zhìyú",
+   "pronunciation": "boo jr-yoo",
+   "tones": "2 · 4 · 2",
+   "meaning": "won't go so far as; not as bad as — caps how far a situation goes",
+   "example": "公司的现金很紧张，但还不至于违约。",
+   "examplePinyin": "Gōngsī de xiànjīn hěn jǐnzhāng, dàn hái bú zhìyú wéiyuē.",
+   "exampleMeaning": "The company's cash is very tight, but it won't go so far as default.",
+   "note": "Abstract connective-adverb, neutral/slightly 口语 but common in market commentary. vs 未必 ('not necessarily' — probability); 不至于 judges degree. Collocations: 还不至于…, 不至于违约, 不至于崩盘.",
+   "tiesTo": "Vanke seeks 3-year delay on ¥1.2B note; Shenzhen Metro support keeps it short of default"
+  },
+  {
+   "id": "2026-11-26-zh-2",
+   "lang": "Mandarin",
+   "word": "拖延",
+   "pinyin": "tuōyán",
+   "pronunciation": "twaw-yen",
+   "tones": "1 · 2",
+   "meaning": "to drag out, stall, delay (often as a tactic)",
+   "example": "开发商一再拖延还款，债权人越来越不满。",
+   "examplePinyin": "Kāifāshāng yízài tuōyán huánkuǎn, zhàiquánrén yuèláiyuè bùmǎn.",
+   "exampleMeaning": "The developer keeps dragging out repayment, and creditors are increasingly unhappy.",
+   "note": "Neutral-to-negative. vs 推迟 (neutral 'postpone/reschedule'): 拖延 implies foot-dragging. Collocations: 拖延还款, 拖延时间 (play for time), 一再拖延.",
+   "tiesTo": "Vanke asks bondholders for 3 more years with under half the January upfront cash"
+  }
+ ]
+}

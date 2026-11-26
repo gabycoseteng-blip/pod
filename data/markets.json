@@ -1,28 +1,24 @@
-{ "date": "2026-11-25", "asOf": "Tuesday, November 24 close",
+{ "date": "2026-11-26", "asOf": "Wednesday, November 25 close (US closed Thursday for Thanksgiving)",
   "groups": [
     {"name": "US Indices", "rows": [
-      {"label": "S&P 500", "value": "7,201.09", "change": "-0.5%", "dir": "down"},
-      {"label": "Nasdaq Composite", "value": "23,733.54", "change": "-1.5%", "dir": "down"},
-      {"label": "Dow Jones", "value": "50,018.70", "change": "+0.9%", "dir": "up"},
-      {"label": "Russell 2000", "value": "2,684.94", "change": "+0.6%", "dir": "up"},
-      {"label": "PHLX Semiconductor", "value": "—", "change": "-7.9%", "dir": "down"} ]},
+      {"label": "S&P 500", "value": "7,182.78", "change": "-0.25%", "dir": "down"},
+      {"label": "Nasdaq Composite", "value": "23,585.80", "change": "-0.62%", "dir": "down"},
+      {"label": "Dow Jones", "value": "50,182.95", "change": "+0.33%", "dir": "up"},
+      {"label": "Russell 2000", "value": "2,704.06", "change": "+0.71%", "dir": "up"} ]},
     {"name": "Global Indices", "rows": [
-      {"label": "FTSE 100", "value": "10,467.07", "change": "-0.13%", "dir": "down"},
-      {"label": "DAX", "value": "~25,017.8", "change": "-1.26%", "dir": "down"},
-      {"label": "PSEi", "value": "5,456.14", "change": "+1.93%", "dir": "up"} ]},
-    {"name": "Asia — Wednesday", "rows": [
-      {"label": "Nikkei 225", "value": "56,502.97", "change": "-3.6%", "dir": "down"},
-      {"label": "Kospi", "value": "—", "change": "-6.2%", "dir": "down"},
-      {"label": "Taiex", "value": "—", "change": "~-5%", "dir": "down"},
-      {"label": "Shanghai Composite", "value": "3,515.05", "change": "-0.9%", "dir": "down"},
-      {"label": "Hang Seng", "value": "22,449.86", "change": "mixed reports", "dir": "flat"} ]},
+      {"label": "FTSE 100", "value": "10,426.94", "change": "-0.4%", "dir": "down"},
+      {"label": "DAX", "value": "24,702.13", "change": "-1.26%", "dir": "down"},
+      {"label": "Nikkei 225", "value": "57,011.62", "change": "-2.8%", "dir": "down"},
+      {"label": "Hang Seng", "value": "21,966.01", "change": "-1.1%", "dir": "down"},
+      {"label": "Shanghai Composite", "value": "3,476.47", "change": "-2.0%", "dir": "down"},
+      {"label": "PSEi", "value": "5,493.41", "change": "+0.68%", "dir": "up"} ]},
     {"name": "Rates", "rows": [
-      {"label": "UST 10Y", "value": "~4.90%", "change": "-1 to -2 bps", "dir": "down"} ]},
+      {"label": "UST 10Y", "value": "4.85%", "change": "-8 bps", "dir": "down"},
+      {"label": "UST 2Y", "value": "4.64%", "change": "-5 bps", "dir": "down"} ]},
     {"name": "Commodities", "rows": [
-      {"label": "WTI", "value": "82.05", "change": "+2.3%", "dir": "up"},
-      {"label": "Brent", "value": "91.40", "change": "+2.3%", "dir": "up"},
-      {"label": "Gold", "value": "3,550.79", "change": "-2.31%", "dir": "down"} ]},
+      {"label": "Brent", "value": "94.61", "change": "+3.5%", "dir": "up"},
+      {"label": "WTI", "value": "83.68", "change": "+2.0%", "dir": "up"},
+      {"label": "Gold (spot, late)", "value": "~3,598", "change": "reversed off 3,469 low", "dir": "flat"} ]},
     {"name": "FX", "rows": [
-      {"label": "USD/PHP", "value": "63.77", "change": "-0.07", "dir": "down"},
-      {"label": "EUR/USD", "value": "~1.0965", "change": "+0.57%", "dir": "up"} ]} ],
-  "note": "Prior-session close (FMP unavailable; levels from AP/exchange wraps; ~ marks single-source figures, — where only the % move was confirmed)." }
+      {"label": "USD/PHP", "value": "63.675", "change": "-0.10", "dir": "down"} ]} ],
+  "note": "Wednesday Nov 25 closes (Asia/Europe also Wed). FMP unavailable — levels from exchange/wire wraps; ~ marks a single late-session quote." }

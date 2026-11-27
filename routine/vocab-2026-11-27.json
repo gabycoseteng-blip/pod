@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-27",
+ "cards": [
+  {
+   "id": "2026-11-27-tl-1",
+   "lang": "Tagalog",
+   "word": "agwat",
+   "pinyin": "",
+   "pronunciation": "ag-WÁT",
+   "tones": "",
+   "meaning": "gap, distance, interval — the measurable space between two things in time, place or amount",
+   "example": "Lumobo sa pinakamalaking agwat sa kasaysayan ang kalakalan ng bansa noong Oktubre.",
+   "examplePinyin": "",
+   "exampleMeaning": "The country's trade gap swelled to the widest in history in October.",
+   "note": "Mas pormal kaysa 'layo' at mas tiyak kaysa 'pagitan' — may sukat na puwedeng bilangin. Gamit sa ekonomiya: agwat ng mayaman at mahirap, agwat ng presyo. Idyoma: 'walang agwat' = sunud-sunod, walang pahinga.",
+   "tiesTo": "Philippines posts record $6.95B October trade deficit"
+  },
+  {
+   "id": "2026-11-27-tl-2",
+   "lang": "Tagalog",
+   "word": "inilaan",
+   "pinyin": "",
+   "pronunciation": "i-ni-la-ÁN",
+   "tones": "",
+   "meaning": "allocated, set aside, earmarked for a specific purpose; root: laan",
+   "example": "Inilaan ng Senado ang halos 20 bilyong piso mula sa ayuda tungo sa PhilHealth.",
+   "examplePinyin": "",
+   "exampleMeaning": "The Senate set aside nearly ₱20 billion from cash aid for PhilHealth.",
+   "note": "Pormal; madalas sa badyet, batas at simbahan ('inilaan ang buhay sa paglilingkod'). Iba sa 'ibinigay': ang inilaan ay nakareserba pa lang, hindi pa naaabot ng tatanggap. Pandiwa: maglaan, naglaan, ilalaan.",
+   "tiesTo": "Senate shifts ₱19.8B from AICS/MAP aid to PhilHealth in 2027 budget"
+  },
+  {
+   "id": "2026-11-27-zh-1",
+   "lang": "Mandarin",
+   "word": "集中",
+   "pinyin": "jízhōng",
+   "pronunciation": "jee-jong",
+   "tones": "2 · 1",
+   "meaning": "to concentrate; concentrated — where gains, risks or resources pile up",
+   "example": "今年的利润主要集中在高科技行业。",
+   "examplePinyin": "Jīnnián de lìrùn zhǔyào jízhōng zài gāo kējì hángyè.",
+   "exampleMeaning": "This year's profits are mainly concentrated in high-tech industries.",
+   "note": "Neutral register. Collocations: 集中在 + sector/place, 集中精力 (focus energy), 集中资源 (pool resources), 风险集中 (concentration risk). Contrast 聚集: physical gathering of people/things (人群聚集); 集中 is the abstract, analytical word and can describe deliberate action.",
+   "tiesTo": "China October industrial profits +20.1%, gains concentrated in high-tech and mining"
+  },
+  {
+   "id": "2026-11-27-zh-2",
+   "lang": "Mandarin",
+   "word": "恰恰",
+   "pinyin": "qiàqià",
+   "pronunciation": "chyah-chyah",
+   "tones": "4 · 4",
+   "meaning": "precisely, exactly — emphatic, often marking a point contrary to expectation",
+   "example": "利润大涨恰恰说明消费还很弱。",
+   "examplePinyin": "Lìrùn dà zhǎng qiàqià shuōmíng xiāofèi hái hěn ruò.",
+   "exampleMeaning": "The profit surge shows precisely that consumption is still weak.",
+   "note": "Leans 书面语/argumentative. Collocations: 恰恰相反 (quite the contrary), 恰恰说明 (shows exactly that), 问题恰恰在这里. Contrast 正好: neutral coincidence ('happens to fit'); 恰恰 makes a pointed, often counter-intuitive claim.",
+   "tiesTo": "China profit surge vs CPI +0.7% and retail sales +0.4% — two-speed economy"
+  }
+ ]
+}

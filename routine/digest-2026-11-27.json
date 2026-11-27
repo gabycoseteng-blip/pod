@@ -1,0 +1,41 @@
+{
+  "throughline": "headline vs ledger: arrests, rallies, signed load and record exports that count less than they look",
+  "stories": [
+    "israel-haredi-draft-framework-airport-protest",
+    "hasan-firing-squad-stay-bid",
+    "black-friday-adobe-salesforce-forecasts",
+    "altria-weighs-imperial-brands-bid",
+    "tokyo-cpi-boj-december",
+    "india-q2-gdp-preview-rbi",
+    "markets-global-rebound-chip-relief",
+    "deepdive-economist-sinaloa-kingpin-arrest",
+    "mexico-dea-sinaloa-tiplines-sheinbaum",
+    "energy-latitude-cfe-gap-signed-load",
+    "energy-harvard-hyperscale-82twh-fossil",
+    "energy-btm-gas-250gw-vs-2gw-operating",
+    "energy-ferc-large-load-contract-terms",
+    "energy-michigan-benson-dc-pause-risk",
+    "ph-record-trade-deficit-oct",
+    "ph-senate-shifts-aics-map-to-philhealth",
+    "ph-senate-restores-oda-infra-130b",
+    "ph-sara-rules-out-resignation",
+    "china-oct-industrial-profits-20pct",
+    "china-state-council-national-team",
+    "arts-smithsonian-leaked-renewal-plan",
+    "arts-thelma-golden-leaves-studio-museum",
+    "arts-kunsthaus-zurich-seoul",
+    "oped-olsen-wapo-trump-voters-stayed-home",
+    "oped-prince-bloomberg-consent-gap",
+    "good-dench-hinton-wrong-number-thanksgiving"
+  ],
+  "explainers": [
+    "kingpin decapitation and cartel splintering",
+    "violence displacement vs aggregate decline",
+    "proposed vs approved carbon-free supply for signed load",
+    "announced vs operating behind-the-meter gas",
+    "large-load collateral ramp and exit fees",
+    "集中 vs 聚集",
+    "恰恰 vs 正好"
+  ],
+  "comment": "stories = every distinct item covered; explainers = concepts actually explained"
+}
